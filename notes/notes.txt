@@ -26,6 +26,9 @@ if (ENVIRONMENT != 'production')
 	$this->load->library('Firephp');
 }
 
+https://github.com/adriangonzales/codeigniter-kint
+https://github.com/lonnieezell/codeigniter-forensics
+
 
 X	dump()
 New	dump_data()
