@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
  *---------------------------------------------------------------
@@ -35,7 +35,7 @@ if (defined('ENVIRONMENT'))
 		case 'development':
 			error_reporting(E_ALL);
 		break;
-	
+
 		case 'testing':
 		case 'production':
 			error_reporting(0);
@@ -91,7 +91,7 @@ if (defined('ENVIRONMENT'))
  * specific controller.  Leave the function name blank if you need
  * to call functions dynamically via the URI.
  *
- * Un-comment the $routing array below to use this feature 
+ * Un-comment the $routing array below to use this feature
  *
  */
 	// The directory name, relative to the "controllers" folder.  Leave blank
