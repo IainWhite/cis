@@ -20,7 +20,7 @@
 	<hr>
 
 	<footer class="container">
-		<p>&copy; scotch.io 2013</p>
+		<p>&copy; me 2015</p>
 	</footer>
 
 </body>
