@@ -45,7 +45,18 @@ class Pages extends CI_Controller {
             $viewPath = $viewPath . $level2 . '/';
         }
         $viewPath = $viewPath . $view;
-        $this->stencil->paint($viewPath);
+        if (file_exists(APPPATH . 'views/pages/' . $viewPath . EXT)) {
+            $this->stencil->paint($viewPath);
+        } else {
+            $this->output->set_status_header('404');
+            $this->stencil->title('404 Page Not Found');
+            $data['subpage_text'] = '404 Page Does not Exist!';
+            if (ENVIRONMENT != 'production') {
+                $data['subpage_text'] = 'Could not find <strong>view</strong> "<em>' . $viewPath . '</em>".';
+            }
+            $this->stencil->data($data);
+            $this->stencil->paint('404_view');
+        }
 
         /*
 		switch ($this->uri->segment(1)) 
