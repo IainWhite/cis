@@ -1,0 +1,70 @@
+Multiple links pointing to a page
+In controllers/pages.php
+Check $view
+$view = checkAlias($view); // e.g. 'microsoft-windows', 'ms-windows' returns 'windows' 
+Database table wd_viewalias
+view varchar 100
+alias varchar 100
+
+Flags
+is_looking
+is_logged_in
+is_admin
+
+
+weekSwitch
+monthSwitch
+
+If config 'maintenance_mode' then display view maintenance.php
+
+if (isset($_GET['profiler'])) {
+	$this->output->enable_profiler(true);
+}
+
+if (ENVIRONMENT != 'production')
+{
+	$this->load->library('Firephp');
+}
+
+
+X	dump()
+New	dump_data()
+?	isSub()
+X	registerTemplate($template, $funcName, $cat = FALSE, $css = FALSE, $js = FALSE)
+?	useMore()
+?	setCurLeval($leval)
+X	setDescription($desc)
+?	doMore($template, $funcName, $type = NULL)
+X	addAsset($file, $funcName, $type = 'js', $cat = FALSE)
+	headline($title, $funcName, $pageTitle = NULL)
+	setBreadcrumb($crumb)
+	addBreadcrumb($cat = 'wd')
+	filename2Eng($filename, $fix = FALSE)
+	getHeadshot($name, $funcName, $imgSize = 's', $ext = 'jpg', $imgStyle = 'left')
+	getLogo($name, $funcName, $imgSize = 's', $ext = 'jpg', $imgStyle = 'left', $title=NULL)
+	getIcon($name, $funcName, $lib = NULL, $title = NULL, $imgStyle = 'none')
+	getImage($name, $funcName, $ext = 'jpg', $imgStyle = 'left', $title = NULL, $showTitle = FALSE)
+	addImage($name, $funcName, $ext = 'jpg', $imgStyle = 'left', $zoom = FALSE, $title = NULL, $showTitle = FALSE)   
+	getDefinitions($cat)
+	getTagCloud($cat, $funcName, $rand = FALSE, $limit = NULL)
+	getCode($file, $funcName, $type = '')
+	getCiVersion()
+	getPhpVersion()
+	getZendVersion()
+	getPostgreSQLVersion()
+	getMySQLVersion()
+	getMySQLVersionName()
+	getSoundBites($limit)
+	addPDFLink($filename, $funcName, $text = NULL, $class = NULL, $title = NULL, $sizeInLink = TRUE, $suppressSize = FALSE, $suppressIcon = FALSE)   
+	getWisdom()
+	getQualificationsCount($cat = 'ALL')
+	getAbout($cat = 'ALL', $funcName, $limit = 0, $wraper = 'li', $modify = FALSE)
+	getQualifications($cat = 'ALL', $funcName, $limit = 0)     
+	getPragmaticTips($limit)
+	addbookRating($score = 0) {
+	addBook($id=NULL, $funcName, $type = NULL, $use = 'type', $num = 1)
+	addBookCover($id)
+	addBuyBook($id)
+	adminValueSet($name, $var)
+	addAdminInfo($id) 
+	addRSS($feed, $num = 5, $cache = 30)

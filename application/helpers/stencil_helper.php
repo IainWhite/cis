@@ -1,5 +1,16 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
+if (!function_exists('add_link')) {
+    function add_link($css = NULL)
+    {
+        if (is_null($css)) {
+            return FALSE;
+        }
+        $out = '<a href="/wert">a link</a>';
+        return $out;
+    }
+}
+
 if (!function_exists('add_css'))
 {
 	function add_css($css = NULL)

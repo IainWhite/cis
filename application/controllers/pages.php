@@ -5,12 +5,49 @@ class Pages extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		$this->stencil->slice(array('head', 'header', 'sidebar'));
-		$this->stencil->layout('subpage_layout');
+		$this->stencil->slice(array('head', 'header'));
+		$this->stencil->layout('layout');
 	}
 
   	function index()
  	{
+        $section = NULL;
+        $level1 = NULL;
+        $level2 = NULL;
+        $view = NULL;
+        $segmentCount = count(($this->uri->segments));
+        if ($segmentCount > 3) {
+            $section = $this->uri->segment(1);
+            $level1 = $this->uri->segment(2);
+            $level2 = $this->uri->segment(3);
+            $view = $this->uri->segment(4);
+        }
+        if ($segmentCount == 3) {
+            $section = $this->uri->segment(1);
+            $level1 = $this->uri->segment(2);
+            $view = $this->uri->segment(3);
+        }
+        if ($segmentCount == 2) {
+            $section = $this->uri->segment(1);
+            $view = $this->uri->segment(2);
+        }
+        if ($segmentCount == 1) {
+            $view = $this->uri->segment(1);
+        }
+        $viewPath = '';
+        if ($section) {
+            $viewPath = $section . '/';
+        }
+        if ($level1) {
+            $viewPath = $viewPath . $level1 . '/';
+        }
+        if ($level2) {
+            $viewPath = $viewPath . $level2 . '/';
+        }
+        $viewPath = $viewPath . $view;
+        $this->stencil->paint($viewPath);
+
+        /*
 		switch ($this->uri->segment(1)) 
 		{
 			// This is used for quick static pages without having to deal with routing (see routes.php and the docs for more info)
@@ -31,6 +68,7 @@ class Pages extends CI_Controller {
 				$this->stencil->paint('404_view');
 				break;
 		}
+        */
 	}
 }
 

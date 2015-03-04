@@ -19,6 +19,8 @@ class Stencil {
 
 	public function paint($page, $data = NULL)
 	{
+        // Move here to set title etc
+        $this->data['content'] = $this->CI->load->view('pages/'.$page, $this->data, TRUE)."\n";
 		$this->data['css']   		= add_css($this->css);
 		$this->data['meta']  		= add_meta($this->meta);
 		$this->data['js']    		= add_js($this->js);
@@ -74,8 +76,9 @@ class Stencil {
 				$this->data[$value] = $this->CI->load->view('slices/'.$value, $this->data, TRUE)."\n";
 			}
 		}
-		$this->data['content'] = $this->CI->load->view('pages/'.$page, $this->data, TRUE)."\n";
-		$this->CI->load->view('layouts/'.$this->layout, $this->data);
+        // Move to top to get title etc
+		//$this->data['content'] = $this->CI->load->view('pages/'.$page, $this->data, TRUE)."\n";
+        $this->CI->load->view('layouts/'.$this->layout, $this->data);
 	}
 
 	public function layout($layout)
