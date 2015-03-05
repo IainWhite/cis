@@ -111,6 +111,8 @@ class Stencil {
             foreach ($this->data['sub-content'] as $content)
             $this->data['content'] .= $content;
         }
+        $footerComment = '<!-- ' . date('l dS \of F Y h:i:s A') . ' -->';
+        $this->data['content'] .= "\n" . $footerComment;
         $this->CI->load->view('layouts/' . $this->layout, $this->data);
 	}
 
