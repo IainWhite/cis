@@ -67,7 +67,7 @@ class Stencil {
         $this->data['meta'] = add_meta($this->meta);
         $this->data['js'] = add_js($this->js);
         $this->data['title'] = $this->title;
-        $this->data['body_class'] = $this->CI->router->fetch_class();
+        $this->data['body_class'] = 'controller-' . $this->controller . ' method-' . $this->method . ' page-' . $this->pageName;
 
         if (!is_null($data))
             foreach ($data as $key => $value)
