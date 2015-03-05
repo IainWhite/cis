@@ -17,14 +17,6 @@ monthSwitch
 
 If config 'maintenance_mode' then display view maintenance.php
 
-if (isset($_GET['profiler'])) {
-	$this->output->enable_profiler(true);
-}
-
-if (ENVIRONMENT != 'production')
-{
-	$this->load->library('Firephp');
-}
 
 https://github.com/adriangonzales/codeigniter-kint
 https://github.com/lonnieezell/codeigniter-forensics
@@ -71,3 +63,16 @@ X	addAsset($file, $funcName, $type = 'js', $cat = FALSE)
 	adminValueSet($name, $var)
 	addAdminInfo($id) 
 	addRSS($feed, $num = 5, $cache = 30)
+
+-------
+Page
+
+title
+description
+canonical
+SEO title
+SEO description
+SEO image
+SEO URL
+
+	

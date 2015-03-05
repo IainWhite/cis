@@ -127,8 +127,9 @@ if( ! ini_get('date.timezone') )
  *
  */
 	// $assign_to_config['name_of_config_item'] = 'value of config item';
-
-
+$assign_to_config['maintenance_mode'] = FALSE;
+$assign_to_config['maintenance_message'] = 'Please try again in a few minutes.';
+$assign_to_config['is_looking'] = TRUE;
 
 // --------------------------------------------------------------------
 // END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE

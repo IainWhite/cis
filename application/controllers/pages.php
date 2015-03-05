@@ -10,10 +10,22 @@ class Pages extends CI_Controller {
         if (isset($_GET['profiler'])) {
             $this->output->enable_profiler(true);
         }
+        if (ENVIRONMENT != 'production')
+        {
+            $this->load->library('Firephp');
+        }
+        $maintenance_mode = $this->config->item('maintenance_mode');
 	}
 
   	function index()
  	{
+        if ($this->config->item('maintenance_mode')) {
+            $this->stencil->layout('maintenance');
+            $data['subpage_text'] = $this->config->item('maintenance_message');
+            $this->stencil->data($data);
+            $this->stencil->paint('maintenance');
+            return;
+        }
         $section = NULL;
         $level1 = NULL;
         $level2 = NULL;
