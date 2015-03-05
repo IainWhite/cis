@@ -2,24 +2,29 @@
 
 class Stencil {
 
-    protected $version      = '2.1';
+    protected $version          = '2.1';
     protected $CI;
-	protected $title  		= '';
-	protected $layout  		= '';
-	protected $body_class 	= '';
-    protected $safeURL 	    = '';
-    protected $cat 	        = '';
-	protected $data			= array();
-	protected $meta 		= array();
-	protected $css    		= array();
-	protected $js     		= array();
-	protected $slice		= array();
-    protected $isLooking	= FALSE;
-    protected $controller   = '';
-    protected $method       = '';
-    protected $pageName     = '';
-    protected $views        = array();
-    protected $isSub        = FALSE;
+	protected $title  		    = '';
+	protected $layout  		    = '';
+	protected $body_class 	    = '';
+    protected $safeURL 	        = '';
+    protected $cat 	            = '';
+	protected $data			    = array();
+	protected $meta 		    = array();
+	protected $css    		    = array();
+	protected $js     		    = array();
+	protected $slice		    = array();
+    protected $isLooking	    = FALSE;
+    protected $controller       = '';
+    protected $method           = '';
+    protected $pageName         = '';
+    protected $views            = array();
+    protected $isSub            = FALSE;
+    protected $description      = '';
+    protected $canonical        = '';
+    protected $SEOTitle         = '';
+    protected $SEODescription   = '';
+    protected $SEOImage         = '';
 
 	public function __construct()
     {
@@ -50,11 +55,15 @@ class Stencil {
         $this->pageName = $this->CI->uri->segment($segmentCount);
 	}
 
-    public function sub($page, $data = NULL)
+    public function sub($page, $data = NULL, $useMore = FALSE)
     {
         $this->isSub = TRUE;
         $this->views = array_merge($this->views, (array)$page);
         $this->data['sub-content'][count($this->views)] = $this->CI->load->view('pages/' . $page, $this->data, TRUE) . "\n";
+        if ($useMore) {
+            $readMore = '<a href="/' . $page .'" class="readMoreLink">Read More</a>';
+            $this->data['sub-content'][count($this->views)] .= "\n" . $readMore;
+        }
     }
 
 	public function paint($page, $data = NULL)
