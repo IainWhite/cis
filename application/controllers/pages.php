@@ -14,7 +14,6 @@ class Pages extends CI_Controller {
         {
             $this->load->library('Firephp');
         }
-        $maintenance_mode = $this->config->item('maintenance_mode');
 	}
 
   	function index()
