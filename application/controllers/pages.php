@@ -7,6 +7,9 @@ class Pages extends CI_Controller {
 		parent::__construct();
 		$this->stencil->slice(array('head', 'header'));
 		$this->stencil->layout('layout');
+        if (isset($_GET['profiler'])) {
+            $this->output->enable_profiler(true);
+        }
 	}
 
   	function index()
