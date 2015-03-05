@@ -191,6 +191,11 @@ class Stencil {
         return $this->isLooking;
     }
 
+    public function getIsSub()
+    {
+        return $this->isSub;
+    }
+
     public function getCat()
     {
         return $this->cat;

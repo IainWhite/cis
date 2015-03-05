@@ -6,25 +6,12 @@ Database table wd_viewalias
 view varchar 100
 alias varchar 100
 
-Flags
-is_looking
-is_logged_in
-is_admin
-
-
-weekSwitch
-monthSwitch
-
-If config 'maintenance_mode' then display view maintenance.php
-
 
 https://github.com/adriangonzales/codeigniter-kint
 https://github.com/lonnieezell/codeigniter-forensics
 
 
-X	dump()
-New	dump_data()
-?	isSub()
+
 X	registerTemplate($template, $funcName, $cat = FALSE, $css = FALSE, $js = FALSE)
 ?	useMore()
 ?	setCurLeval($leval)
@@ -43,11 +30,7 @@ X	addAsset($file, $funcName, $type = 'js', $cat = FALSE)
 	getDefinitions($cat)
 	getTagCloud($cat, $funcName, $rand = FALSE, $limit = NULL)
 	getCode($file, $funcName, $type = '')
-	getCiVersion()
-	getPhpVersion()
-	getZendVersion()
-	getPostgreSQLVersion()
-	getMySQLVersion()
+
 	getMySQLVersionName()
 	getSoundBites($limit)
 	addPDFLink($filename, $funcName, $text = NULL, $class = NULL, $title = NULL, $sizeInLink = TRUE, $suppressSize = FALSE, $suppressIcon = FALSE)   
@@ -74,5 +57,46 @@ SEO title
 SEO description
 SEO image
 SEO URL
+
+-----
+
+Finish Stencil.php getVersion('MySQL')
+
+Add Properties
+title
+	displayHeadline($title, $pageTitle = NULL)
+	Return an H1 or another H tag based on headerLevel
+	Add fa icon
+	If headerLevel == 1
+		Set headerLevel = 2
+		if pageTitle use to set Page Title
+		Set $this->stencil->title() trim to 60 characters
+		Set SEO Title to urlencode($this->title . ' | ' . get_domain());
+description
+	setDescription($text)
+	If not set, in stencil->paint()
+	Get first P, strip HTML and trim to 150 characters.
+	Set SEO Description to urlencode($this->description));
+canonical
+	setCanonical($link)
+SEO title
+	Set by getHeadline()
+SEO description
+	Set by setDescription or in stencil->paint()
+SEO image
+	setSEOImage($image) or set by displayImage() if not set (first image)
+SEO URL
+	Set by stencil.__construct()
+
+setHeaderLevel($level)
+setUseMore($flag)
+
+
+
+
+
+
+
+
 
 	
