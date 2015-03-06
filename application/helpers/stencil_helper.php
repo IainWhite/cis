@@ -186,13 +186,13 @@ if (!function_exists('favicons'))
 		if ($icons == NULL)
 		{
 			
-			return '<link rel="icon" href="'.base_url('assets/img/icons/favicon-32.png').'" type="image/png"'.'><!-- default favicon -->'."\n\t".
+			return '<link rel="icon" href="'.base_url('assets/image/favicons/favicon-32.png').'" type="image/png"'.'><!-- default favicon -->'."\n\t".
 			'<link rel="shortcut icon" href="'.base_url('favicon.ico').'"><!-- legacy default favicon (in root, 32x32) -->'."\n\t".
-			'<link rel="apple-touch-icon" sizes="57x57" href="'.base_url('assets/img/icons/favicon-57.png').'"><!-- iPhone low-res and Android -->'."\n\t".
-			'<link rel="apple-touch-icon-precomposed" sizes="57x57" href="'.base_url('assets/img/icons/favicon-57.png').'"><!-- legacy Android -->'."\n\t".
-			'<link rel="apple-touch-icon" sizes="72x72" href="'.base_url('assets/img/icons/favicon-72.png').'"><!-- iPad -->'."\n\t".
-			'<link rel="apple-touch-icon" sizes="114x114" href="'.base_url('assets/img/icons/favicon-114.png').'"><!-- iPhone 4 -->'."\n\t".
-			'<link rel="apple-touch-icon" sizes="144x144" href="'.base_url('assets/img/icons/favicon-144.png').'"><!-- iPad hi-res -->'."\n";
+			'<link rel="apple-touch-icon" sizes="57x57" href="'.base_url('assets/image/favicons/favicon-57.png').'"><!-- iPhone low-res and Android -->'."\n\t".
+			'<link rel="apple-touch-icon-precomposed" sizes="57x57" href="'.base_url('assets/image/favicons/favicon-57.png').'"><!-- legacy Android -->'."\n\t".
+			'<link rel="apple-touch-icon" sizes="72x72" href="'.base_url('assets/image/favicons/favicon-72.png').'"><!-- iPad -->'."\n\t".
+			'<link rel="apple-touch-icon" sizes="114x114" href="'.base_url('assets/image/favicons/favicon-114.png').'"><!-- iPhone 4 -->'."\n\t".
+			'<link rel="apple-touch-icon" sizes="144x144" href="'.base_url('assets/image/favicons/favicon-144.png').'"><!-- iPad hi-res -->'."\n";
 		}
 		
 		if (!is_array($icons)) 
