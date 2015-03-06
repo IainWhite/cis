@@ -1,3 +1,33 @@
+Sections / Categories
+X external
+R RFC
+M project-management
+	project-management/agile
+	project-management/agile/scrum
+W web-development
+	web-development/browsers
+	web-development/browsers/ie
+I it
+	it/software
+	it/hardware
+	it/hardware/cpu
+	it/databases
+	it/operating-systems
+	it/operating-systems/windows
+Y iain-white
+L languages
+P people
+C companies
+D definitions
+B books
+M mobile-development
+
+Links
+https://github.com/adriangonzales/codeigniter-kint
+https://github.com/lonnieezell/codeigniter-forensics
+https://github.com/dhrrgn/codeigniter-uhoh					Error handler, good, but invasive
+https://github.com/chemicaloliver/codeigniter-sitemaps
+
 Multiple links pointing to a page
 In controllers/pages.php
 Check $view
@@ -6,12 +36,7 @@ Database table wd_viewalias
 view varchar 100
 alias varchar 100
 
-
-https://github.com/adriangonzales/codeigniter-kint
-https://github.com/lonnieezell/codeigniter-forensics
-
-
-
+Functions
 X	registerTemplate($template, $funcName, $cat = FALSE, $css = FALSE, $js = FALSE)
 ?	useMore()
 ?	setCurLeval($leval)
