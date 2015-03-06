@@ -75,7 +75,28 @@ class Stencil {
         $this->data['css'] = add_css($this->css);
         $this->data['meta'] = add_meta($this->meta);
         $this->data['js'] = add_js($this->js);
+        if (!$this->title) {
+            !$this->title = get_domain() . ' | ' . $this->config->item('default-title');
+        }
+        $this->SEOTitle = urlencode($this->title);
         $this->data['title'] = $this->title;
+        // Check we have a page description
+        if (!$this->description) {
+            preg_match("/<p>(.*)<\/p>/i", $this->data['content'], $matches);
+            if (count($matches) == 0) {
+                $this->description = $this->config->item('default-description');
+            } else {
+                $description = strip_tags($matches[1]);
+                if (strlen($description) > 155) {
+                    $description = substr($description, 0, strrpos(substr($description, 0, 200), ' '));
+                    $description = substr($description, 0, strrpos(substr($description, 0, 200), '. ')) . '.';
+                }
+                $description = str_replace('"', "'", $description);
+                $this->description = $description;
+            }
+        }
+        $this->SEODescription = urlencode($this->description);
+        $this->data['description'] = $this->description;
         $this->data['body_class'] = 'controller-' . $this->controller . ' method-' . $this->method . ' page-' . $this->pageName;
 
         if (!is_null($data))
@@ -181,6 +202,7 @@ class Stencil {
         $out = '<h4>Template Data</h4>';
         $out .= '<strong>Category: </strong>' . $this->cat . '<br>';
         $out .= '<strong>Page Title: </strong>' . $this->title . '<br>';
+        $out .= '<strong>Page Description: </strong>' . $this->description . '<br>';
         $out .= '<strong>Page Layout: </strong>' . $this->layout . '<br>';
         $out .= '<strong>Slices: </strong>' . print_r($this->slice, TRUE) . '<br>';
         $out .= '<strong>Meta Tags: </strong>' . print_r($this->meta, TRUE) . '<br>';
@@ -279,6 +301,19 @@ class Stencil {
                 break;
         }
     }
+
+    public function getDescription()
+    {
+        if (!$this->isSub) {
+            return $this->description;
+        }
+    }
+
+    public function setDescription($description)
+    {
+        $this->isdescription = $description;
+    }
+
 }
 
 /* End of file Stencil.php */ 

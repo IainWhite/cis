@@ -357,6 +357,17 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
+/*
+|--------------------------------------------------------------------------
+| Page
+|--------------------------------------------------------------------------
+|
+|
+*/
+$config['default-description'] = 'Information about Web Development, Scrum, Project Management, IT, PHP, JavaScript, Mobile Development.';
+$config['default-title'] = 'Web Development, Scrum, Project Management';
+$config['Looking-message'] = '';
+
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */

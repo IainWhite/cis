@@ -5,6 +5,7 @@
 <?php echo view_port(); ?>
 <?php echo apple_mobile('black-translucent'); ?>
 <?php echo $meta; ?>
+<meta name="description" content="<?php echo $description; ?>">
 
 <!-- icons and icons and icons and icons and icons and a tile -->
 <?php echo windows_tile(array('name' => 'Stencil', 'image' => base_url().'/assets/img/icons/tile.png', 'color' => '#4eb4e5')); ?>
