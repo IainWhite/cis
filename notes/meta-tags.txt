@@ -1,0 +1,58 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{DESCRIPTION}">
+<meta name="author" content="{COMPANY}">
+
+<link rel="author" href="https://plus.google.com/+IainWhite1/posts" />
+<link rel="publisher" href="https://plus.google.com/+IainWhite1" />
+<meta itemprop="name" content="{TITLE}" />
+<meta itemprop="description" content="{DESCRIPTION}" />
+<meta itemprop="image" content="{ENCODED IMAGE}" />  
+<meta property="og:title" content="{TITLE}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{ENCODED URL}" />
+<meta property="og:image" content="{ENCODED IMAGE}" />
+<meta property="og:description" content="{DESCRIPTION}" />
+<meta property="og:site_name" content="White Internet" />
+<meta property="og:locale" content="en_AU" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@whiteinternet" />
+<meta name="twitter:title" content="{TITLE}" />
+<meta name="twitter:description" content="{DESCRIPTION}" />
+<meta name="twitter:image" content="{ENCODED IMAGE}" />
+<meta name="twitter:url" content="{ENCODED URL}" />
+<meta name="twitter:creator" content="@IWWhite" />
+
+<meta name="application-name" content="{TITLE}">																	<!-- Windows 8 Tile Name -->
+<meta name="msapplication-TileImage" content="http://cis.local//assets/img/favicons/tile-8.png">					<!-- Windows 8 Tile Image 144x144 -->
+<meta name="msapplication-TileColor" content="#4eb4e5">																<!-- Windows 8 Tile Colour -->
+<link rel="icon" href="http://cis.local/assets/img/favicons/favicon-32.png" type="image/png">						<!-- Default favicon 32x32 -->
+<link rel="shortcut icon" href="http://cis.local/favicon.ico">														<!-- Legacy default favicon (in root, 32x32) -->
+
+<link rel="apple-touch-icon" href="http://cis.local/assets/img/favicons/favicon-57.png">							<!-- 57x57 -->
+<link rel="apple-touch-icon-precomposed" href="http://cis.local/assets/img/favicons/favicon-57.png">				<!-- 57x57 -->
+<link rel="apple-touch-icon" sizes="72x72" href="http://cis.local/assets/img/favicons/favicon-72.png">				<!-- 72x72 -->
+<link rel="apple-touch-icon" sizes="76x76" href="http://cis.local/assets/img/favicons/favicon-76.png">				<!-- 76x76 -->
+<link rel="apple-touch-icon" sizes="114x114" href="http://cis.local/assets/img/favicons/favicon-114.png">			<!-- 114x114-->
+<link rel="apple-touch-icon" sizes="120x120" href="http://cis.local/assets/img/favicons/favicon-120.png">			<!-- 120x120 retina -->
+<link rel="apple-touch-icon" sizes="152x152" href="http://cis.local/assets/img/favicons/favicon-152.png">			<!-- 152x152 retina -->
+<link rel="shortcut icon" sizes="196x196" href="http://cis.local/assets/img/favicons/favicon-196.png">				<!-- Android 196x196 -->
+<link rel="apple-touch-startup-image" href="http://cis.local/assets/img/startup.png">								<!-- iOS 3+: full-screen start-up splash screen image (must be 320x460) -->
+
+<meta name="apple-mobile-web-app-capable" content="yes">															<!-- Enable full-screen mode (only when launched from home screen) -->
+<meta name="apple-mobile-web-app-status-bar-style" content="translucent-black">										<!-- Controls the appearance of the status bar in full-screen mode -->
+<meta name="mobile-web-app-capable" content="yes">																	<!-- android -->
+<meta name="apple-mobile-web-app-title" content="{TITLE}">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+
+<meta name="geo.position" content="-27.68278;152.91278">
+<meta name="geo.placename" content="Springfield Lakes, Australia">
+<meta name="geo.region" content="AU">
+<meta name="ICBM" content="-27.68278, 152.91278">
+<meta name="DC.title" content="{TITLE}">
+
+<!--[if IE 8]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+
