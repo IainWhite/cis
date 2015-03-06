@@ -23,8 +23,8 @@ if (!function_exists('add_css'))
 		if (!is_array($css))
 		{
 			$file_type = (preg_match('/\.css$/i', $css) ? NULL : '.css');
-			$url = (!preg_match('#^www|^http|^//#', $css)) ? base_url('assets/css/'.$css.$file_type) : $css;
-			return '<link rel="stylesheet" href="'.$url.'">'."\n";
+			$url = (!preg_match('#^www|^http|^//#', $css)) ? base_url('assets/css/' . $css . $file_type) : $css;
+			return '<link rel="stylesheet" href="' . $url . '">' . "\n";
 		}
 		else
 		{
@@ -38,8 +38,8 @@ if (!function_exists('add_css'))
 					$tab = '';
 				}
 				$file_type = (preg_match('/\.css$/i', $item) ? NULL : '.css');
-				$url = (!preg_match('#^www|^http|^//#', $item)) ? base_url('assets/css/'.$item.$file_type) : $item;
-				$items[] = '<link rel="stylesheet" href="'.$url.'">'."\n".$tab;
+				$url = (!preg_match('#^www|^http|^//#', $item)) ? base_url('assets/css/' . $item . $file_type) : $item;
+				$items[] = '<link rel="stylesheet" href="' . $url . '">' . "\n" . $tab;
 				$i++;
 			}
 			return implode('', $items);
@@ -59,8 +59,8 @@ if (!function_exists('add_js'))
 		if (!is_array($js))
 		{
 			$file_type = (preg_match('/\.js$/i', $js) ? NULL : '.js');
-			$url = (!preg_match('#^www|^http|^//#', $js)) ? base_url('assets/js/'.$js.$file_type) : $js;
-			return '<script src="'.$url.'"></script>'."\n";
+			$url = (!preg_match('#^www|^http|^//#', $js)) ? base_url('assets/js/' . $js . $file_type) : $js;
+			return '<script src="' . $url . '"></script>' . "\n";
 		}
 		else
 		{
@@ -74,8 +74,8 @@ if (!function_exists('add_js'))
 					$tab = '';
 				}
 				$file_type = (preg_match('/\.js$/i', $item) ? NULL : '.js');
-				$url = (!preg_match('#^www|^http|^//#', $item)) ? base_url('assets/js/'.$item.$file_type) : $item;
-				$items[] = '<script src="'.$url.'"></script>'."\n".$tab;
+				$url = (!preg_match('#^www|^http|^//#', $item)) ? base_url('assets/js/' . $item . $file_type) : $item;
+				$items[] = '<script src="' . $url . '"></script>' . "\n" . $tab;
 				$i++;
 			}
 			return implode('', $items);
@@ -102,7 +102,7 @@ if (!function_exists('add_meta'))
 				$tab = '';
 			}
 
-			$items[] = '<meta name="'.$key.'" content="'.$value.'">'."\n".$tab;
+			$items[] = '<meta name="' . $key . '" content="' . $value.'">' . "\n" . $tab;
 			$i++;
 		}		
 		return implode('', $items);
@@ -142,7 +142,7 @@ if (!function_exists('apple_mobile'))
 			$style = 'default';
 		}
 
-		return '<meta name="apple-mobile-web-app-capable" content="yes">'."\n\t".'<meta name="apple-mobile-web-app-status-bar-style" content="'.$style.'">'."\n";
+		return '<meta name="apple-mobile-web-app-capable" content="yes">' . "\n\t" . '<meta name="apple-mobile-web-app-status-bar-style" content="' . $style.'">' . "\n";
 	}
 }
 
@@ -157,11 +157,11 @@ if (!function_exists('windows_tile'))
 
 		$tile = array();
 		if (array_key_exists('name', $meta))
-			$tile[] = '<meta name="application-name" content="'.$meta['name'].'"><!-- Windows 8 Tile Name -->';
+			$tile[] = '<meta name="application-name" content="' . $meta['name'] . '">';
 		if (array_key_exists('image', $meta))
-			$tile[] = '<meta name="msapplication-TileImage" content="'.$meta['image'].'"><!-- Windows 8 Tile Image -->';
+			$tile[] = '<meta name="msapplication-TileImage" content="' . $meta['image'] . '">';
 		if (array_key_exists('color', $meta))
-			$tile[] = '<meta name="msapplication-TileColor" content="'.$meta['color'].'"><!-- Windows 8 Tile Color -->';
+			$tile[] = '<meta name="msapplication-TileColor" content="' . $meta['color'] . '">';
 		
 		$i = 0;
 		$tab = "\t";
@@ -171,7 +171,7 @@ if (!function_exists('windows_tile'))
 			{
 				$tab = '';
 			}
-			$result[] = $item."\n".$tab;
+			$result[] = $item . "\n" . $tab;
 		$i++;
 		}
 		
@@ -186,13 +186,13 @@ if (!function_exists('favicons'))
 		if ($icons == NULL)
 		{
 			
-			return '<link rel="icon" href="'.base_url('assets/image/favicons/favicon-32.png').'" type="image/png"'.'><!-- default favicon -->'."\n\t".
-			'<link rel="shortcut icon" href="'.base_url('favicon.ico').'"><!-- legacy default favicon (in root, 32x32) -->'."\n\t".
-			'<link rel="apple-touch-icon" sizes="57x57" href="'.base_url('assets/image/favicons/favicon-57.png').'"><!-- iPhone low-res and Android -->'."\n\t".
-			'<link rel="apple-touch-icon-precomposed" sizes="57x57" href="'.base_url('assets/image/favicons/favicon-57.png').'"><!-- legacy Android -->'."\n\t".
-			'<link rel="apple-touch-icon" sizes="72x72" href="'.base_url('assets/image/favicons/favicon-72.png').'"><!-- iPad -->'."\n\t".
-			'<link rel="apple-touch-icon" sizes="114x114" href="'.base_url('assets/image/favicons/favicon-114.png').'"><!-- iPhone 4 -->'."\n\t".
-			'<link rel="apple-touch-icon" sizes="144x144" href="'.base_url('assets/image/favicons/favicon-144.png').'"><!-- iPad hi-res -->'."\n";
+			return '<link rel="icon" href="' . base_url('assets/image/favicons/favicon-32.png') . '" type="image/png"' . '>' . "\n\t".
+			'<link rel="shortcut icon" href="'.base_url('favicon.ico').'">'."\n\t".
+			'<link rel="apple-touch-icon" sizes="57x57" href="' . base_url('assets/image/favicons/favicon-57.png') . '">' . "\n\t".
+			'<link rel="apple-touch-icon-precomposed" sizes="57x57" href="' . base_url('assets/image/favicons/favicon-57.png') . '">' . "\n\t".
+			'<link rel="apple-touch-icon" sizes="72x72" href="' . base_url('assets/image/favicons/favicon-72.png') . '">' . "\n\t".
+			'<link rel="apple-touch-icon" sizes="114x114" href="' . base_url('assets/image/favicons/favicon-114.png') . '">' . "\n\t".
+			'<link rel="apple-touch-icon" sizes="144x144" href="' . base_url('assets/image/favicons/favicon-144.png') . '">' . "\n";
 		}
 		
 		if (!is_array($icons)) 
@@ -212,29 +212,29 @@ if (!function_exists('favicons'))
 			switch ($size)
 			{
 				case '16':
-					$items[] = '<link rel="shortcut icon" type="image/png" href="'.base_url($src).'"><!-- default favicon -->'."\n".$tab;
+					$items[] = '<link rel="shortcut icon" type="image/png" href="' . base_url($src) . '">'."\n" . $tab;
 					break;
 				case '32':
-					$items[] = '<link rel="shortcut icon" type="image/png" href="'.base_url($src).'"><!-- default favicon -->'."\n".$tab;
+					$items[] = '<link rel="shortcut icon" type="image/png" href="' . base_url($src) . '">'."\n" . $tab;
 					break;
 				case '57':
-					$items[] = '<link rel="apple-touch-icon" sizes="57x57" href="'.base_url($src).'"><!-- iPhone low-res and Android -->'."\n".$tab;
-					$items[] = '<link rel="apple-touch-icon-precomposed" sizes="57x57" href="'.base_url($src).'"><!-- Legacy Android -->'."\n".$tab;
+					$items[] = '<link rel="apple-touch-icon" sizes="57x57" href="' . base_url($src) . '">' . "\n" . $tab;
+					$items[] = '<link rel="apple-touch-icon-precomposed" sizes="57x57" href="' . base_url($src) . '">' . "\n" . $tab;
 					break;
 				case '64':
-					$items[] = '<link rel="shortcut icon" type="image/png" href="'.base_url($src).'"><!-- default favicon -->'."\n".$tab;
+					$items[] = '<link rel="shortcut icon" type="image/png" href="' . base_url($src) . '">' . "\n" . $tab;
 					break;
 				case '72':
-					$items[] = '<link rel="apple-touch-icon" sizes="72x72" href="'.base_url($src).'"><!-- iPad -->'."\n".$tab;
+					$items[] = '<link rel="apple-touch-icon" sizes="72x72" href="' . base_url($src) . '">' . "\n" . $tab;
 					break;
 				case '114':
-					$items[] = '<link rel="apple-touch-icon" sizes="114x114" href="'.base_url($src).'"><!-- iPhone 4 -->'."\n".$tab;
+					$items[] = '<link rel="apple-touch-icon" sizes="114x114" href="' . base_url($src) . '">' . "\n" . $tab;
 					break;
 				case '144':
-					$items[] = '<link rel="apple-touch-icon" sizes="144x144" href="'.base_url($src).'"><!-- iPad hi-res -->'."\n".$tab;
+					$items[] = '<link rel="apple-touch-icon" sizes="144x144" href="' . base_url($src) . '">' . "\n" . $tab;
 					break;
 				default:
-					$items[] = '<!-- Sorry! This helper does not support the size: '.$size.'. -->'."\n".$tab;
+					$items[] = '<!-- Sorry! This helper does not support the size: ' . $size.'. -->' . "\n" . $tab;
 					break;
 			}
 			$i++;
@@ -250,11 +250,11 @@ if (!function_exists('jquery'))
 
 		if (is_null($version))
 		{
-			return '<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>'."\n";
+			return '<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>' . "\n";
 		} 
 		else
 		{
-			return '<script src="//ajax.googleapis.com/ajax/libs/jquery/'.$version.'/jquery.min.js"></script>'."\n";
+			return '<script src="//ajax.googleapis.com/ajax/libs/jquery/' . $version . '/jquery.min.js"></script>' . "\n";
 		}
 	}
 }
@@ -265,10 +265,10 @@ if (!function_exists('asset_url'))
 	{
 		if (is_null($src)) 
 		{
-			return base_url().'assets/';
+			return base_url() . 'assets/';
 		}
 		
-		return base_url().'assets/'.$src;
+		return base_url() . 'assets/' . $src;
 	}
 }
 
