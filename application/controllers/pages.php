@@ -5,7 +5,7 @@ class Pages extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		$this->stencil->slice(array('head', 'header'));
+		$this->stencil->slice(array('head', 'header', 'footer'));
 		$this->stencil->layout('layout');
         if (isset($_GET['profiler'])) {
             $this->output->enable_profiler(true);
@@ -29,6 +29,9 @@ class Pages extends CI_Controller {
         $view = NULL;
         $segmentCount = count(($this->uri->segments));
         $view = $this->uri->segment($segmentCount);
+        if (!$view) {
+            $view = 'index';
+        }
         // Check if view has an alias e.g. 'microsoft-windows', 'ms-windows' returns 'windows'
         //$view = checkAlias($view);
         if ($segmentCount > 1) {

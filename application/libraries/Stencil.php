@@ -76,7 +76,7 @@ class Stencil {
         $this->data['meta'] = add_meta($this->meta);
         $this->data['js'] = add_js($this->js);
         if (!$this->title) {
-            !$this->title = get_domain() . ' | ' . $this->config->item('default-title');
+            !$this->title = get_domain() . ' | ' . $this->CI->config->item('default-title');
         }
         $this->SEOTitle = urlencode($this->title);
         $this->data['title'] = $this->title;
@@ -84,7 +84,7 @@ class Stencil {
         if (!$this->description) {
             preg_match("/<p>(.*)<\/p>/i", $this->data['content'], $matches);
             if (count($matches) == 0) {
-                $this->description = $this->config->item('default-description');
+                $this->description = $this->CI->config->item('default-description');
             } else {
                 $description = strip_tags($matches[1]);
                 if (strlen($description) > 155) {

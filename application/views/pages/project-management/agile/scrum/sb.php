@@ -19,4 +19,5 @@ echo 'MySQL v' .  $this->stencil->getVersion('MySQL') . '<br>';
 ?>
 
 <hr>
+{'10BASE5'|helper:'page':'headline'}
 [END PAGE]
