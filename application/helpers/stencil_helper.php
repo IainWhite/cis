@@ -131,7 +131,7 @@ if (!function_exists('apple_mobile'))
 			$style = 'default';
 		}
 
-		return '<meta name="apple-mobile-web-app-capable" content="yes">' . "\n\t" . '<meta name="apple-mobile-web-app-status-bar-style" content="' . $style.'">' . "\n";
+		return '<meta name="apple-mobile-web-app-capable" content="yes">' . "\n\t" . '<meta name="apple-mobile-web-app-status-bar-style" content="' . $style . '">' . "\n";
 	}
 }
 
