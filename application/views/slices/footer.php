@@ -80,12 +80,12 @@
     </div>
     <!--/End Wrapepr-->
     <!-- JavaScript-->
-    <?php echo '<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>'; ?>
-    <?php echo '<script src="' . base_url() . 'assets/plugins/jquery-migrate-1.2.1.min.js"></script>'; ?>
-    <?php echo '<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>'; ?>
+    <?php echo addjQuery('1.11.2', FALSE); ?>
+    <?php echo addjQueryMigrate(); ?>
+    <?php echo addBootstrapJS('3.3.2', FALSE); ?>
     <?php echo '<script src="' . base_url() . 'assets/plugins/back-to-top.js"></script>'; ?>
     <?php echo '<script src="' . base_url() . 'assets/js/app.js"></script>'; ?>
-    <?php //echo add_js(array('plugins/jquery-migrate-1.2.1.min', 'plugins/back-to-top.js', 'app')); ?>
+    <?php echo $js; ?>
     <script>
         jQuery(document).ready(function() {
             App.init();
@@ -118,7 +118,4 @@
         }
 
     </script>
-    <!--[if lt IE 9]>
-    <?php echo '<script src="' . base_url() . 'plugins/respond.js"></script>'; ?>
-    <?php echo '<script src="' . base_url() . 'plugins/html5shiv.js"></script>'; ?>
-    <![endif]-->
+    <?php echo addOldIEJS(); ?>

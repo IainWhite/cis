@@ -263,7 +263,7 @@ if (!function_exists('addjQueryMigrate'))
 
 if (!function_exists('addjQueryUI'))
 {
-    function addjQuery($version, $local = TRUE)
+    function addjQueryUI($version, $local = TRUE)
     {
         if ($local) {
             return '<script src="' . base_url() . 'plugins/jqueryui/' . $version . '/jquery-ui.min.js"></script>' . "\n";
