@@ -174,14 +174,17 @@ if (!function_exists('favicons'))
 	{
 		if ($icons == NULL)
 		{
-			
-			return '<link rel="icon" href="' . base_url('assets/image/favicons/favicon-32.png') . '" type="image/png"' . '>' . "\n\t".
-			'<link rel="shortcut icon" href="'.base_url('favicon.ico').'">'."\n\t".
-			'<link rel="apple-touch-icon" sizes="57x57" href="' . base_url('assets/image/favicons/favicon-57.png') . '">' . "\n\t".
-			'<link rel="apple-touch-icon-precomposed" sizes="57x57" href="' . base_url('assets/image/favicons/favicon-57.png') . '">' . "\n\t".
-			'<link rel="apple-touch-icon" sizes="72x72" href="' . base_url('assets/image/favicons/favicon-72.png') . '">' . "\n\t".
-			'<link rel="apple-touch-icon" sizes="114x114" href="' . base_url('assets/image/favicons/favicon-114.png') . '">' . "\n\t".
-			'<link rel="apple-touch-icon" sizes="144x144" href="' . base_url('assets/image/favicons/favicon-144.png') . '">' . "\n";
+			return '<link rel="icon" href="' . base_url('assets/image/favicons/favicon-32.png') . '" type="image/png"' . '>' . "\n\t" .
+			'<link rel="shortcut icon" href="' . base_url('favicon.ico') . '">' . "\n\t" .
+			'<link rel="apple-touch-icon" sizes="57x57" href="' . base_url('assets/image/favicons/favicon-57.png') . '">' . "\n\t" .
+			'<link rel="apple-touch-icon-precomposed" sizes="57x57" href="' . base_url('assets/image/favicons/favicon-57.png') . '">' . "\n\t" .
+			'<link rel="apple-touch-icon" sizes="72x72" href="' . base_url('assets/image/favicons/favicon-72.png') . '">' . "\n\t" .
+            '<link rel="apple-touch-icon" sizes="76x76" href="' . base_url('assets/image/favicons/favicon-76.png') . '">' . "\n\t" .
+            '<link rel="apple-touch-icon" sizes="114x114" href="' . base_url('assets/image/favicons/favicon-114.png') . '">' . "\n\t" .
+            '<link rel="apple-touch-icon" sizes="120x120" href="' . base_url('assets/image/favicons/favicon-120.png') . '">' . "\n\t" .
+            '<link rel="apple-touch-icon" sizes="144x144" href="' . base_url('assets/image/favicons/favicon-144.png') . '">' . "\n\t" .
+            '<link rel="apple-touch-icon" sizes="152x152" href="' . base_url('assets/image/favicons/favicon-152.png') . '">' . "\n\t" .
+			'<link rel="apple-touch-startup-image" href="' . base_url('/assets/img/startup.png') . '">' . "\n";
 		}
 		
 		if (!is_array($icons)) 
