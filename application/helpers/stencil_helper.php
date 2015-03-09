@@ -109,14 +109,6 @@ if (!function_exists('add_meta'))
 	}
 }
 
-if (!function_exists('shiv'))
-{
-	function shiv()
-	{
-		return '<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->'."\n";
-	}
-}
-
 if (!function_exists('chrome_frame'))
 {
 	function chrome_frame()
@@ -243,20 +235,90 @@ if (!function_exists('favicons'))
 	}
 }
 
-if (!function_exists('jquery'))
+if (!function_exists('addjQuery'))
 {
-	function jquery($version = NULL)
-	{
+    function addjQuery($version = NULL, $local = TRUE)
+    {
+        if (is_null($version))
+        {
+            return '<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>' . "\n";
+        }
+        else {
+            if ($local) {
+                return '<script src="' . base_url() . 'assets/js/jquery-' . $version . '.min.js"></script>' . "\n";
+            } else {
+                return '<script src="//ajax.googleapis.com/ajax/libs/jquery/' . $version . '/jquery.min.js"></script>' . "\n";
+            }
+        }
+    }
+}
 
-		if (is_null($version))
-		{
-			return '<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>' . "\n";
-		} 
-		else
-		{
-			return '<script src="//ajax.googleapis.com/ajax/libs/jquery/' . $version . '/jquery.min.js"></script>' . "\n";
-		}
-	}
+if (!function_exists('addjQueryMigrate'))
+{
+    function addjQueryMigrate()
+    {
+            return '<script src="' . base_url() . 'assets/plugins/jquery-migrate-1.2.1.min.js"></script>' . "\n";
+    }
+}
+
+if (!function_exists('addjQueryUI'))
+{
+    function addjQuery($version, $local = TRUE)
+    {
+        if ($local) {
+            return '<script src="' . base_url() . 'plugins/jqueryui/' . $version . '/jquery-ui.min.js"></script>' . "\n";
+        } else {
+            return '<script src="//ajax.googleapis.com/ajax/libs/jqueryui/' . $version . '/jquery-ui.min.js"></script>' . "\n";
+        }
+    }
+}
+
+if (!function_exists('addjQueryUICSS'))
+{
+    function addjQueryCSS($version, $local = TRUE)
+    {
+        if ($local) {
+            return '<link rel="stylesheet" href="' . base_url() . 'plugins/jqueryui/' . $version . '/jquery-ui.min.css">' . "\n";
+        } else {
+            return '<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/' . $version . '/themes/smoothness/jquery-ui.csss">' . "\n";
+        }
+    }
+}
+
+if (!function_exists('addFontAwesomeCSS'))
+{
+    function addFontAwesomeCSS($version, $local = TRUE)
+    {
+        if ($local) {
+            return '<link rel="stylesheet" href="' . base_url() . 'plugins/font-awesome/' . $version . '/css/font-awesome.min.css">' . "\n";
+        } else {
+            return '<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/' . $version . '/css/font-awesome.min.css">' . "\n";
+        }
+    }
+}
+
+if (!function_exists('addBootstrapCSS'))
+{
+    function addBootstrapCSS($version, $local = TRUE)
+    {
+        if ($local) {
+            return '<link rel="stylesheet" href="' . base_url() . 'plugins/bootstrap/' . $version . '/css/bootstrap.min.css">' . "\n";
+        } else {
+            return '<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/' . $version . '/css/bootstrap.min.css">' . "\n";
+        }
+    }
+}
+
+if (!function_exists('addBootstrapJS'))
+{
+    function addBootstrapJS($version, $local = TRUE)
+    {
+        if ($local) {
+            return '<script src="' . base_url() . 'plugins/bootstrap/' . $version . '/cjs/bootstrap.min.js"></script>' . "\n";
+        } else {
+            return '<script src="//maxcdn.bootstrapcdn.com/bootstrap/' . $version . '/js/bootstrap.min.js"></script>' . "\n";
+        }
+    }
 }
 
 if (!function_exists('asset_url'))
@@ -270,6 +332,18 @@ if (!function_exists('asset_url'))
 		
 		return base_url() . 'assets/' . $src;
 	}
+}
+
+if (!function_exists('addOldIEJS'))
+{
+    function addOldIEJS()
+    {
+        $out = '<!--[if lt IE 9]>' . "\n";
+        $out .= '<script src="' . base_url() . 'plugins/respond.js"></script>' . "\n";
+        $out .= '<script src="' . base_url() . 'plugins/html5shiv.js"></script>' . "\n";
+        $out .= '<![endif]-->' . "\n";
+        return $out;
+    }
 }
 
 /* End of file stencil_helper.php */

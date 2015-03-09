@@ -117,10 +117,14 @@ setHeaderLevel($level)
 setUseMore($flag)
 
 
+Modify add_css() to allow assets/plugins/.../*.css
+Modify add_js() to allow assets/plugins/.../*.js
 
-
-
-
+addjQuery('1.11.2', FALSE);
+addFontAwesomeCSS('4.3.0;, FASLE)
+addBootstrapCSS('3.3.2', FALSE)
+addBootstrapJS('3.3.2', FALSE)
+addOldIEJS();
 
 
 
