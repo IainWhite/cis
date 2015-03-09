@@ -124,14 +124,17 @@ if (!function_exists('addViewPort'))
 
 if (!function_exists('addAppleMobile'))
 {
-	function addAppleMobile($style = NULL)
+	function addAppleMobile($title, $style = NULL)
 	{
 		if (is_null($style))
 		{	
 			$style = 'default';
 		}
 
-		return '<meta name="apple-mobile-web-app-capable" content="yes">' . "\n\t" . '<meta name="apple-mobile-web-app-status-bar-style" content="' . $style . '">' . "\n";
+		return '<meta name="apple-mobile-web-app-capable" content="yes">' . "\n\t" .
+            '<meta name="apple-mobile-web-app-status-bar-style" content="' . $style . '">' . "\n\t" .
+            '<meta name="mobile-web-app-capable" content="yes">' . "\n\t" .
+            '<meta name="apple-mobile-web-app-title" content="' . $title . '">' . "\n";
 	}
 }
 
@@ -170,11 +173,9 @@ if (!function_exists('addWindowsTile'))
 
 if (!function_exists('addFavicons'))
 {
-	function addFavicons($icons = NULL)
+	function addFavicons()
 	{
-		if ($icons == NULL)
-		{
-			return '<link rel="icon" href="' . base_url('assets/image/favicons/favicon-32.png') . '" type="image/png"' . '>' . "\n\t" .
+        return '<link rel="icon" href="' . base_url('assets/image/favicons/favicon-32.png') . '" type="image/png"' . '>' . "\n\t" .
 			'<link rel="shortcut icon" href="' . base_url('favicon.ico') . '">' . "\n\t" .
 			'<link rel="apple-touch-icon" sizes="57x57" href="' . base_url('assets/image/favicons/favicon-57.png') . '">' . "\n\t" .
 			'<link rel="apple-touch-icon-precomposed" sizes="57x57" href="' . base_url('assets/image/favicons/favicon-57.png') . '">' . "\n\t" .
@@ -185,53 +186,6 @@ if (!function_exists('addFavicons'))
             '<link rel="apple-touch-icon" sizes="144x144" href="' . base_url('assets/image/favicons/favicon-144.png') . '">' . "\n\t" .
             '<link rel="apple-touch-icon" sizes="152x152" href="' . base_url('assets/image/favicons/favicon-152.png') . '">' . "\n\t" .
 			'<link rel="apple-touch-startup-image" href="' . base_url('/assets/img/startup.png') . '">' . "\n";
-		}
-		
-		if (!is_array($icons)) 
-		{
-			return FALSE;
-		}
-		
-		$items = array();
-		$tab = "\t";
-		$i = 0;
-		foreach ($icons as $size => $src)
-		{
-			if ($i == count($icons) - 1)
-			{
-				$tab = '';
-			}
-			switch ($size)
-			{
-				case '16':
-					$items[] = '<link rel="shortcut icon" type="image/png" href="' . base_url($src) . '">'."\n" . $tab;
-					break;
-				case '32':
-					$items[] = '<link rel="shortcut icon" type="image/png" href="' . base_url($src) . '">'."\n" . $tab;
-					break;
-				case '57':
-					$items[] = '<link rel="apple-touch-icon" sizes="57x57" href="' . base_url($src) . '">' . "\n" . $tab;
-					$items[] = '<link rel="apple-touch-icon-precomposed" sizes="57x57" href="' . base_url($src) . '">' . "\n" . $tab;
-					break;
-				case '64':
-					$items[] = '<link rel="shortcut icon" type="image/png" href="' . base_url($src) . '">' . "\n" . $tab;
-					break;
-				case '72':
-					$items[] = '<link rel="apple-touch-icon" sizes="72x72" href="' . base_url($src) . '">' . "\n" . $tab;
-					break;
-				case '114':
-					$items[] = '<link rel="apple-touch-icon" sizes="114x114" href="' . base_url($src) . '">' . "\n" . $tab;
-					break;
-				case '144':
-					$items[] = '<link rel="apple-touch-icon" sizes="144x144" href="' . base_url($src) . '">' . "\n" . $tab;
-					break;
-				default:
-					$items[] = '<!-- Sorry! This helper does not support the size: ' . $size.'. -->' . "\n" . $tab;
-					break;
-			}
-			$i++;
-		}
-		return implode('', $items);
 	}
 }
 
@@ -339,8 +293,8 @@ if (!function_exists('addOldIEJS'))
     function addOldIEJS()
     {
         $out = '<!--[if lt IE 9]>' . "\n";
-        $out .= '<script src="' . base_url() . 'plugins/respond.js"></script>' . "\n";
-        $out .= '<script src="' . base_url() . 'plugins/html5shiv.js"></script>' . "\n";
+        $out .= "\t" . '<script src="' . base_url() . 'plugins/respond.js"></script>' . "\n";
+        $out .= "\t" . '<script src="' . base_url() . 'plugins/html5shiv.js"></script>' . "\n";
         $out .= '<![endif]-->' . "\n";
         return $out;
     }
