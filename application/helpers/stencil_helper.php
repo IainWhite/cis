@@ -11,7 +11,7 @@ if (!function_exists('add_link')) {
     }
 }
 
-if (!function_exists('add_css'))
+if (!function_exists('addCss'))
 {
 	function addCss($css = NULL, $rootFolder = 'assets/css/')
 	{
@@ -83,28 +83,25 @@ if (!function_exists('addJs'))
 	}
 }
 
-if (!function_exists('add_meta'))
+if (!function_exists('addMeta'))
 {
-	function add_meta($meta = NULL)
+	function addMeta($meta = NULL)
 	{
 		if (is_null($meta))
 		{
 			return FALSE;
 		}
-		
 		$items = array();
-		$i = 0;
-		$tab = "\t";
+        $i = 0;
+        $tab = '';
 		foreach ($meta as $key => $value)
 		{
-			if ($i == count($meta) - 1)
-			{
-				$tab = '';
-			}
-
-			$items[] = '<meta name="' . $key . '" content="' . $value.'">' . "\n" . $tab;
-			$i++;
-		}		
+            if ($i > 0) {
+                $tab = "\t";
+            }
+			$items[] = $tab . '<meta name="' . $key . '" content="' . $value.'">' . "\n";
+            $i++;
+		}
 		return implode('', $items);
 	}
 }

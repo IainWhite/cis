@@ -73,7 +73,7 @@ class Stencil {
         // Move here to set title etc
         $this->data['content'] = $this->CI->load->view('pages/' . $page, $this->data, TRUE) . "\n";
         $this->data['css'] = addCss($this->css);
-        $this->data['meta'] = add_meta($this->meta);
+        $this->data['meta'] = addMeta($this->meta);
         $this->data['js'] = addJs($this->js);
         if (!$this->title) {
             !$this->title = get_domain() . ' | ' . $this->CI->config->item('default-title');
