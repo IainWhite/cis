@@ -138,6 +138,16 @@ if (!function_exists('addAppleMobile'))
 	}
 }
 
+if (!function_exists('addMobile'))
+{
+    function addMobile()
+    {
+        return '<meta http-equiv="cleartype" content="on">' . "\n\t" .
+            '<meta name="HandheldFriendly" content="True">' . "\n\t" .
+            '<meta name="MobileOptimized" content="320">' . "\n";
+    }
+}
+
 if (!function_exists('addWindowsTile'))
 {
 	function addWindowsTile($meta = array())

@@ -5,6 +5,7 @@
     <meta name="description" content="<?php echo $description; ?>">
     <?php echo $meta; ?>
     <?php echo addAppleMobile(get_domain(), 'black-translucent'); ?>
+    <?php echo addMobile(); ?>
     <?php echo addWindowsTile(array('name' => 'Stencil', 'image' => base_url() . '/assets/img/image/favicons/tile.png', 'color' => '#4eb4e5')); ?>
     <?php echo addFavicons(); ?>
 
