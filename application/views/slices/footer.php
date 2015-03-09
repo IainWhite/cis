@@ -9,14 +9,14 @@
                         <!-- Quick Links -->
                         <div class="headline"><h2>Quick Links</h2></div>
                         <ul class="list-unstyled">
-                            <li><a href="{$base_url}iain-white"><i class="fa fa-user"></i> Iain White's Portfolio</a></li>
-                            <li><a href="{$base_url}project-management"><i class="fa fa-puzzle-piece"></i> Project Management</a></li>
-                            <li><a href="{$base_url}web-development"><i class="fa fa-globe"></i> Web Development</a></li>
-                            <li><a href="{$base_url}it"><i class="fa fa-desktop"></i> Information Technology</a></li>
+                            <li><a href="/iain-white"><i class="fa fa-user"></i> Iain White's Portfolio</a></li>
+                            <li><a href="/project-management"><i class="fa fa-puzzle-piece"></i> Project Management</a></li>
+                            <li><a href="/web-development"><i class="fa fa-globe"></i> Web Development</a></li>
+                            <li><a href="/it"><i class="fa fa-desktop"></i> Information Technology</a></li>
                             <li><a href="http://blog.whiteinternet.com"><i class="fa fa-comments-o"></i> Web Development Blog</a></li>
-                            <li><a href="{$base_url}privacy-policy"><i class="fa fa-file-text-o"></i> Privacy Policy</a></li>
-                            <li><a href="{$base_url}terms-and-conditions"><i class="fa fa-file-o"></i> Terms &amp; Conditions</a></li>
-                            <li><a href="{$base_url}sitemap"><i class="fa fa-sitemap"></i> Site Map</a></li>
+                            <li><a href="/privacy-policy"><i class="fa fa-file-text-o"></i> Privacy Policy</a></li>
+                            <li><a href="/terms-and-conditions"><i class="fa fa-file-o"></i> Terms &amp; Conditions</a></li>
+                            <li><a href="/sitemap"><i class="fa fa-sitemap"></i> Site Map</a></li>
                         </ul>
                         <!-- End Quick Links -->
                     </div>
@@ -42,7 +42,6 @@
                     <div class="col-md-4">
                         <!-- Wisdom -->
                         <div class="headline"><h2>Wisdom</h2></div>
-                        {''|helper:'page':'getWisdom'}
                         <!-- End Wisdom -->
 
                         <!-- Social Links -->
@@ -66,7 +65,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; 2014 <a href="{$base_url}iain-white">Iain White</a>. All Rights Reserved.</p>
+                        <p>&copy; 2014 <a href="/iain-white">Iain White</a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-md-6">
                         <a href="index.html">

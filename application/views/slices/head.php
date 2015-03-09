@@ -1,5 +1,5 @@
   <meta charset="utf-8">
-  <title><?php  echo $title ?></title>
+  <title><?php echo $title ?></title>
   <?php echo chrome_frame(); ?>
   <?php echo view_port(); ?>
   <meta name="description" content="<?php echo $description; ?>">
@@ -9,8 +9,7 @@
   <?php echo favicons(); ?>
 
   <?php echo addBootstrapCSS('3.3.2', FALSE); ?>
-  <?php echo addCss(array('app', 'plugins', 'plugins/animate', 'plugins/box-shadows', 'style', 'themes/blue')); ?>
+  <?php echo addCss(array('modules/home/index.css', 'app', 'plugins', 'plugins/animate', 'plugins/box-shadows', 'style', 'themes/blue')); ?>
   <?php echo addCss('line-icons/line-icons.css', 'assets/plugins/'); ?>
-  <?php //echo '<link rel="stylesheet" href="' . base_url() . 'assets/plugins/line-icons/line-icons.css">'; ?>
   <?php echo addFontAwesomeCSS('4.3.0', FALSE); ?>
   <?php echo $css; ?>
