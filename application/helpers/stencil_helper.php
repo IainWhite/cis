@@ -110,7 +110,7 @@ if (!function_exists('addChromeFrame'))
 {
 	function addChromeFrame()
 	{
-		return '<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><![endif]--><!-- Force IE to use the latest rendering engine -->'."\n";
+		return '<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><![endif]-->'."\n";
 	}
 }
 
@@ -145,6 +145,18 @@ if (!function_exists('addMobile'))
         return '<meta http-equiv="cleartype" content="on">' . "\n\t" .
             '<meta name="HandheldFriendly" content="True">' . "\n\t" .
             '<meta name="MobileOptimized" content="320">' . "\n";
+    }
+}
+
+if (!function_exists('addGeo'))
+{
+    function addGeo()
+    {
+        return '<meta name="geo.position" content="-27.68278;152.91278">' . "\n\t" .
+        '<meta name="geo.placename" content="Springfield Lakes, Australia">' . "\n\t" .
+        '<meta name="geo.region" content="AU">' . "\n\t" .
+        '<meta name="ICBM" content="-27.68278, 152.91278">' . "\n\t" .
+        '<meta name="DC.title" content="{TITLE}">' . "\n";
     }
 }
 
@@ -303,9 +315,9 @@ if (!function_exists('addOldIEJS'))
     function addOldIEJS()
     {
         $out = '<!--[if lt IE 9]>' . "\n";
-        $out .= "\t" . '<script src="' . base_url() . 'plugins/respond.js"></script>' . "\n";
-        $out .= "\t" . '<script src="' . base_url() . 'plugins/html5shiv.js"></script>' . "\n";
-        $out .= '<![endif]-->' . "\n";
+        $out .= "\t\t" . '<script src="' . base_url() . 'plugins/respond.js"></script>' . "\n";
+        $out .= "\t\t" . '<script src="' . base_url() . 'plugins/html5shiv.js"></script>' . "\n";
+        $out .= "\t" . '<![endif]-->' . "\n";
         return $out;
     }
 }

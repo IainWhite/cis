@@ -4,10 +4,14 @@
     <?php echo addViewPort(); ?>
     <meta name="description" content="<?php echo $description; ?>">
     <?php echo $meta; ?>
+
     <?php echo addAppleMobile(get_domain(), 'black-translucent'); ?>
     <?php echo addMobile(); ?>
-    <?php echo addWindowsTile(array('name' => 'Stencil', 'image' => base_url() . '/assets/img/image/favicons/tile.png', 'color' => '#4eb4e5')); ?>
+
     <?php echo addFavicons(); ?>
+
+    <?php echo addWindowsTile(array('name' => get_domain(), 'image' => base_url() . '/assets/img/image/favicons/tile.png', 'color' => '#4eb4e5')); ?>
+    <?php echo addGeo(); ?>
 
     <?php echo addBootstrapCSS('3.3.2', FALSE); ?>
     <?php echo addCss(array('modules/home/index.css', 'app', 'plugins', 'plugins/animate', 'plugins/box-shadows', 'style', 'themes/blue')); ?>
