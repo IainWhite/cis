@@ -72,9 +72,9 @@ class Stencil {
         $this->views = array_merge($this->views, (array)$page);
         // Move here to set title etc
         $this->data['content'] = $this->CI->load->view('pages/' . $page, $this->data, TRUE) . "\n";
-        $this->data['css'] = add_css($this->css);
+        $this->data['css'] = addCss($this->css);
         $this->data['meta'] = add_meta($this->meta);
-        $this->data['js'] = add_js($this->js);
+        $this->data['js'] = addJs($this->js);
         if (!$this->title) {
             !$this->title = get_domain() . ' | ' . $this->CI->config->item('default-title');
         }

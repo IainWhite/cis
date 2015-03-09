@@ -83,8 +83,8 @@
     <?php echo addjQuery('1.11.2', FALSE); ?>
     <?php echo addjQueryMigrate(); ?>
     <?php echo addBootstrapJS('3.3.2', FALSE); ?>
-    <?php echo '<script src="' . base_url() . 'assets/plugins/back-to-top.js"></script>'; ?>
-    <?php echo '<script src="' . base_url() . 'assets/js/app.js"></script>'; ?>
+    <?php echo addJs('back-to-top.js', 'assets/plugins/'); ?>
+    <?php echo addJs('app.js'); ?>
     <?php echo $js; ?>
     <script>
         jQuery(document).ready(function() {

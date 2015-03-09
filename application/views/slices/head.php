@@ -9,7 +9,8 @@
   <?php echo favicons(); ?>
 
   <?php echo addBootstrapCSS('3.3.2', FALSE); ?>
-  <?php echo add_css(array('app', 'plugins', 'plugins/animate', 'plugins/box-shadows', 'style', 'themes/blue')); ?>
-  <?php echo '<link rel="stylesheet" href="' . base_url() . 'assets/plugins/line-icons/line-icons.css">'; ?>
+  <?php echo addCss(array('app', 'plugins', 'plugins/animate', 'plugins/box-shadows', 'style', 'themes/blue')); ?>
+  <?php echo addCss('line-icons/line-icons.css', 'assets/plugins/'); ?>
+  <?php //echo '<link rel="stylesheet" href="' . base_url() . 'assets/plugins/line-icons/line-icons.css">'; ?>
   <?php echo addFontAwesomeCSS('4.3.0', FALSE); ?>
   <?php echo $css; ?>
