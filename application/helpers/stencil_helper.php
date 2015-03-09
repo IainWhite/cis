@@ -99,7 +99,7 @@ if (!function_exists('addMeta'))
             if ($i > 0) {
                 $tab = "\t";
             }
-			$items[] = $tab . '<meta name="' . $key . '" content="' . $value.'">' . "\n";
+			$items[] = $tab . '<meta name="' . $key . '" content="' . $value . '">' . "\n";
             $i++;
 		}
 		return implode('', $items);
@@ -118,7 +118,7 @@ if (!function_exists('view_port'))
 {
 	function view_port()
 	{
-		return '<meta name="viewport" content="width=device-width, initial-scale=1.0">'."\n";
+		return '<meta name="viewport" content="width=device-width, initial-scale=1.0">' . "\n";
 	}
 }
 
