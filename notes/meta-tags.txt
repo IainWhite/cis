@@ -23,9 +23,9 @@ D <meta name="description" content="{DESCRIPTION}">
 <meta name="twitter:url" content="{ENCODED URL}" />
 <meta name="twitter:creator" content="@IWWhite" />
 
-S <meta name="application-name" content="{TITLE}">																	<!-- Windows 8 Tile Name -->
-S <meta name="msapplication-TileImage" content="http://cis.local//assets/img/favicons/tile-8.png">					<!-- Windows 8 Tile Image 144x144 -->
-S <meta name="msapplication-TileColor" content="#4eb4e5">																<!-- Windows 8 Tile Colour -->
+D <meta name="application-name" content="{TITLE}">																	<!-- Windows 8 Tile Name -->
+D <meta name="msapplication-TileImage" content="http://cis.local//assets/img/favicons/tile-8.png">					<!-- Windows 8 Tile Image 144x144 -->
+D <meta name="msapplication-TileColor" content="#4eb4e5">																<!-- Windows 8 Tile Colour -->
 
 D <link rel="icon" href="http://cis.local/assets/img/favicons/favicon-32.png" type="image/png">						<!-- Default favicon 32x32 -->
 D <link rel="shortcut icon" href="http://cis.local/favicon.ico">														<!-- Legacy default favicon (in root, 32x32) -->

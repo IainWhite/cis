@@ -10,7 +10,7 @@
 
     <?php echo addFavicons(); ?>
 
-    <?php echo addWindowsTile(array('name' => get_domain(), 'image' => base_url() . '/assets/img/image/favicons/tile.png', 'color' => '#4eb4e5')); ?>
+    <?php echo addWindowsTile(array('name' => get_domain(), 'image' => base_url() . '/assets/img/image/favicons/tile-8.png', 'color' => '#27d7e7')); ?>
     <?php echo addGeo(); ?>
 
     <?php echo addBootstrapCSS('3.3.2', FALSE); ?>
