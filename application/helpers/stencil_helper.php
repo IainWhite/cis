@@ -106,25 +106,25 @@ if (!function_exists('addMeta'))
 	}
 }
 
-if (!function_exists('chrome_frame'))
+if (!function_exists('addChromeFrame'))
 {
-	function chrome_frame()
+	function addChromeFrame()
 	{
 		return '<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><![endif]--><!-- Force IE to use the latest rendering engine -->'."\n";
 	}
 }
 
-if (!function_exists('view_port'))
+if (!function_exists('addViewPort'))
 {
-	function view_port()
+	function addViewPort()
 	{
 		return '<meta name="viewport" content="width=device-width, initial-scale=1.0">' . "\n";
 	}
 }
 
-if (!function_exists('apple_mobile'))
+if (!function_exists('addAppleMobile'))
 {
-	function apple_mobile($style = NULL)
+	function addAppleMobile($style = NULL)
 	{
 		if (is_null($style))
 		{	
@@ -135,9 +135,9 @@ if (!function_exists('apple_mobile'))
 	}
 }
 
-if (!function_exists('windows_tile'))
+if (!function_exists('addWindowsTile'))
 {
-	function windows_tile($meta = array())
+	function addWindowsTile($meta = array())
 	{
 		if (is_null($meta))
 		{	
@@ -168,9 +168,9 @@ if (!function_exists('windows_tile'))
 	}
 }
 
-if (!function_exists('favicons'))
+if (!function_exists('addFavicons'))
 {
-	function favicons($icons = NULL)
+	function addFavicons($icons = NULL)
 	{
 		if ($icons == NULL)
 		{
