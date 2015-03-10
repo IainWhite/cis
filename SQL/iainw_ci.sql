@@ -385,6 +385,31 @@ INSERT INTO `wd_file_eng` VALUES ('dotnet',' .NET'),('dot-net-framework',' .NET 
 UNLOCK TABLES;
 
 --
+-- Table structure for table `wd_headers`
+--
+
+DROP TABLE IF EXISTS `wd_headers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `wd_headers` (
+  `header` varchar(100) NOT NULL,
+  `class` varchar(100) NOT NULL,
+  PRIMARY KEY (`header`),
+  UNIQUE KEY `header_UNIQUE` (`header`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wd_headers`
+--
+
+LOCK TABLES `wd_headers` WRITE;
+/*!40000 ALTER TABLE `wd_headers` DISABLE KEYS */;
+INSERT INTO `wd_headers` VALUES ('About White Internet',' fa-info-circle'),('Admin',' fa-dashboard'),('Bash',' fa-terminal'),('books',' fa-book'),('Case Studies',' fa-lightbulb-o'),('companies',' fa-building'),('Computer Skills',' fa-laptop'),('Contact',' fa-envelope-o'),('CSS-3',' fa-css3'),('Documents',' fa-file-o'),('Drupal',' fa-drupal'),('Ecommerce',' fa-shopping-cart'),('Examples of Work',' fa-image'),('Git',' fa-code-fork'),('Google Maps',' fa-map-marker'),('home',' fa-paw'),('HTML 5',' fa-html5'),('HTML5',' fa-html5'),('Iain White',' fa-user'),('Iain White\\\'s CV / Resume',' fa-file-text-o'),('iain-white',' fa-user'),('Information Technology',' fa-desktop'),('it',' fa-desktop'),('languages',' fa-file-code-o'),('MariaDB',' fa-database'),('Microsoft SQL Server','fa-database '),('MongoDB',' fa-database'),('MySQL',' fa-database'),('Page Not Found',' fa-warning'),('Page Not Found (404)',' fa-warning'),('PDF',' fa-file-pdf-o'),('people',' fa-users'),('PHP',' fa-file-code-o'),('PostgreSQL',' fa-database'),('Pragmatic Programmer',' fa-star'),('Press and Reviews about Iain White\\\'s work',' fa-quote-right'),('Privacy Policy',' fa-file-text-o'),('Programming Languages',' fa-file-code-o'),('Project Management',' fa-puzzle-piece'),('project-management',' fa-puzzle-piece'),('Qualifications &amp; Training',' fa-graduation-cap'),('RDBMS',' fa-database'),('Recommendations for Iain White\\\'s work',' fa-comment-o'),('Search Results',' fa-search'),('Seeking Work',' fa-bolt'),('Skills Matrix for Iain White',' fa-list-ul'),('SQL',' fa-database'),('SQLite',' fa-database'),('T-SQL',' fa-database'),('Web Development',' fa-globe'),('Web Site Terms and Conditions of Use',' fa-file-o'),('web-development',' fa-globe'),('White Internet Site Map',' fa-sitemap'),('WiFi',' fa-wifi'),('Wordpress',' fa-wordpress'),('Work Information',' fa-info-circle');
+/*!40000 ALTER TABLE `wd_headers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `wd_pragmatic_tips`
 --
 
@@ -469,4 +494,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-03-11  9:07:12
+-- Dump completed on 2015-03-11  9:24:41
