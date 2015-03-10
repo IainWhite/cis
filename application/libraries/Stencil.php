@@ -305,7 +305,13 @@ class Stencil {
                 }
                 break;
             case 'MySQL' :
-                return 'N/A';
+                //$sql = 'SELECT VERSION() AS version;';
+                //$rs = $this->CI->db->query($sql);
+                //$rows = $rs->result();
+                //foreach($rows as $row) {
+                //    $v = $row['version'];
+                //}
+                //return $v;
                 break;
         }
     }
@@ -338,6 +344,11 @@ class Stencil {
     public function getSEOUrl()
     {
         return $this->safeURL;
+    }
+
+    public function setHeadline($title, $pageTitle = NULL)
+    {
+        $headline = '';
     }
 
 }
