@@ -33,7 +33,7 @@ class Pages extends CI_Controller {
             $view = 'index';
         }
         // Check if view has an alias e.g. 'microsoft-windows', 'ms-windows' returns 'windows'
-        //$view = checkAlias($view);
+        //@TODO $view = checkAlias($view);
         if ($segmentCount > 1) {
             $section = $this->uri->segment(1);
         }

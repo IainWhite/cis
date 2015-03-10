@@ -377,6 +377,7 @@ if (!function_exists('addBreadcrumb'))
         for ($x = 1; $x <= $segmentCount; $x++) {
             $path .= $CI->uri->segment($x) . '/';
             $label = $CI->uri->segment($x);
+            $label = filename2Eng($label);
             if ($x == $segmentCount) {
                 $out .= '<li class="active">' . $label . '</li>' . "\n";
             } else {
@@ -387,6 +388,18 @@ if (!function_exists('addBreadcrumb'))
         return $out . "\n";
     }
 }
+
+if (!function_exists('filename2Eng')) {
+    function filename2Eng($filename)
+    {
+        //@TODO check if in database
+        $out = str_replace('-', ' ', $filename);
+        $out = str_replace('_', ' ', $out);
+        $out = ucwords($out);
+        return $out;
+    }
+}
+
 
 /* End of file stencil_helper.php */
 /* Location: ./application/helpers/stencil_helper.php */ 
