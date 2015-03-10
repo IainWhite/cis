@@ -305,13 +305,13 @@ class Stencil {
                 }
                 break;
             case 'MySQL' :
-                //$sql = 'SELECT VERSION() AS version;';
-                //$rs = $this->CI->db->query($sql);
-                //$rows = $rs->result();
-                //foreach($rows as $row) {
-                //    $v = $row['version'];
-                //}
-                //return $v;
+                $sql = 'SELECT VERSION() AS version;';
+                $query = $this->CI->db->query($sql);
+                foreach ($query->result() as $row)
+                {
+                    $v = $row->version;
+                }
+                return $v;
                 break;
         }
     }
