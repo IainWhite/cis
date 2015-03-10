@@ -4,7 +4,7 @@
 
 <?php
 $this->stencil->title('SA Page');
-$this->stencil->meta(array('description' => 'Description2', 'keywords' => 'A, B, C'));
+$this->stencil->meta(array('keywords' => 'A, B, C'));
 echo $this->stencil->dumpStencil();
 
 if (!$this->stencil->getIsSub()) {

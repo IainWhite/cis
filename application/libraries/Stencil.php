@@ -312,9 +312,7 @@ class Stencil {
 
     public function getDescription()
     {
-        if (!$this->isSub) {
-            return $this->description;
-        }
+        return $this->description;
     }
 
     public function setDescription($description)

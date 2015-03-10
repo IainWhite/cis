@@ -4,7 +4,7 @@
 
 <?php
 $this->stencil->title('SB Page');
-$this->stencil->meta(array('description' => 'This is my description!', 'keywords' => 'cats, animals, dogs'));
+$this->stencil->meta(array('keywords' => 'cats, animals, dogs'));
 $this->stencil->slice('ss1');
 $this->stencil->sub('project-management/agile/scrum/sa', NULL, TRUE);
 echo add_link('Yummy');

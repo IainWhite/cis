@@ -2,7 +2,7 @@
     <title><?php echo $title ?></title>
     <?php echo addChromeFrame(); ?>
     <?php echo addViewPort(); ?>
-    <meta name="description" content="<?php echo $description; ?>">
+    <?php echo addDescription(); ?>
     <?php echo $meta; ?>
 
     <?php echo addAppleMobile(); ?>

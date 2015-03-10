@@ -134,6 +134,19 @@ if (!function_exists('addAppleMobile'))
 	}
 }
 
+if (!function_exists('addDescription'))
+{
+    function addDescription()
+    {
+        $CI =& get_instance();
+        $CI->load->library('stencil');
+        $description = $CI->stencil->getDescription();
+        $author = $CI->config->item('author-name');
+        return '<meta name="description" content="' . $description . '">' . "\n\t" .
+        '<meta name="author" content="' . $author . '">' . "\n";
+    }
+}
+
 if (!function_exists('addMobile'))
 {
     function addMobile()

@@ -1,26 +1,26 @@
 D <meta charset="utf-8">
 D <meta name="viewport" content="width=device-width, initial-scale=1.0">
 D <meta name="description" content="{DESCRIPTION}">
-<meta name="author" content="{COMPANY}">
+D <meta name="author" content="{COMPANY}">
 
 D <link rel="author" href="https://plus.google.com/+IainWhite1/posts" />
 D <link rel="publisher" href="https://plus.google.com/+IainWhite1" />
-S <meta itemprop="name" content="{TITLE}" />
-S <meta itemprop="description" content="{DESCRIPTION}" />
-S <meta itemprop="image" content="{ENCODED IMAGE}" />  
-S <meta property="og:title" content="{TITLE}" />
+D <meta itemprop="name" content="{TITLE}" />
+D <meta itemprop="description" content="{DESCRIPTION}" />
+D <meta itemprop="image" content="{ENCODED IMAGE}" />  
+D <meta property="og:title" content="{TITLE}" />
 D <meta property="og:type" content="website" />
-S <meta property="og:url" content="{ENCODED URL}" />
-S <meta property="og:image" content="{ENCODED IMAGE}" />
-S <meta property="og:description" content="{DESCRIPTION}" />
+D <meta property="og:url" content="{ENCODED URL}" />
+D <meta property="og:image" content="{ENCODED IMAGE}" />
+D <meta property="og:description" content="{DESCRIPTION}" />
 D <meta property="og:site_name" content="White Internet" />
 D <meta property="og:locale" content="en_AU" />
 D <meta name="twitter:card" content="summary" />
 D <meta name="twitter:site" content="@whiteinternet" />
-S <meta name="twitter:title" content="{TITLE}" />
-S <meta name="twitter:description" content="{DESCRIPTION}" />
-S <meta name="twitter:image" content="{ENCODED IMAGE}" />
-S <meta name="twitter:url" content="{ENCODED URL}" />
+D <meta name="twitter:title" content="{TITLE}" />
+D <meta name="twitter:description" content="{DESCRIPTION}" />
+D <meta name="twitter:image" content="{ENCODED IMAGE}" />
+D <meta name="twitter:url" content="{ENCODED URL}" />
 D <meta name="twitter:creator" content="@IWWhite" />
 
 D <meta name="application-name" content="{TITLE}">																	<!-- Windows 8 Tile Name -->
