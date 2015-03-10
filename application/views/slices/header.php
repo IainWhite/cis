@@ -184,5 +184,10 @@
     <!-- End Navbar -->
 </div>
 <!-- End Header -->
-<?php echo addH1(); ?>
-<?php echo addBreadcrumb(); ?>
+
+<div class="breadcrumbs">
+    <div class="container">
+    <?php echo addH1(); ?>
+    <?php echo addBreadcrumb(); ?>
+    </div>
+</div>

@@ -371,17 +371,14 @@ if (!function_exists('addBreadcrumb'))
     function addBreadcrumb()
     {
         $CI =& get_instance();
-        //$CI->load->library('stencil');
-        //$h1 = $CI->stencil->getH1();
-        //die(var_dump($CI->uri->segments));
         $segmentCount = count(($CI->uri->segments));
         $path = '/';
-        $out = '<ul>';
+        $out = '<ul class="pull-right breadcrumb">';
         for ($x = 1; $x <= $segmentCount; $x++) {
             $path .= $CI->uri->segment($x) . '/';
             $label = $CI->uri->segment($x);
             if ($x == $segmentCount) {
-                $out .= '<li>' . $label . '</li>' . "\n";
+                $out .= '<li class="active">' . $label . '</li>' . "\n";
             } else {
                 $out .= '<li><a href="' . $path . '">' . $label . '</a></li>' . "\n";
             }
