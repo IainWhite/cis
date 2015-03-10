@@ -149,12 +149,13 @@ if (!function_exists('addGeo'))
     function addGeo()
     {
         $CI =& get_instance();
-        $siteName = $CI->config->item('site-name');
+        $CI->load->library('stencil');
+        $title = $CI->stencil->getTitle();
         return '<meta name="geo.position" content="-27.68278;152.91278">' . "\n\t" .
         '<meta name="geo.placename" content="Springfield Lakes, Australia">' . "\n\t" .
         '<meta name="geo.region" content="AU">' . "\n\t" .
         '<meta name="ICBM" content="-27.68278, 152.91278">' . "\n\t" .
-        '<meta name="DC.title" content="' . $siteName . '">' . "\n";
+        '<meta name="DC.title" content="' . $title . '">' . "\n";
     }
 }
 
@@ -170,10 +171,11 @@ if (!function_exists('addSeo'))
         $siteTwitter = $CI->config->item('site-twitter');
         $creatorTwitter = $CI->config->item('creator-twitter');
 
-        $seoTitle = '{TITLE}';
-        $seoDescription = '{DESCRIPTION}';
-        $seoImage = '{ENCODED IMAGE}';
-        $seoURL = '{ENCODED URL}';
+        $CI->load->library('stencil');
+        $seoTitle = $CI->stencil->getSEOTitle();
+        $seoDescription = $CI->stencil->getSEODescription();
+        $seoImage = $CI->stencil->getSEOImage();
+        $seoURL = $CI->stencil->getSEOUrl();
 
         return '<link rel="author" href="' . $authorUrl . '" />' . "\n\t" .
             '<link rel="publisher" href="' . $publisherUrl . '" />' . "\n\t" .

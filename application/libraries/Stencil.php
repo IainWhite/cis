@@ -97,6 +97,9 @@ class Stencil {
         }
         $this->SEODescription = urlencode($this->description);
         $this->data['description'] = $this->description;
+        if (!$this->SEOImage) {
+            $this->SEOImage = urlencode(base_url() . $this->CI->config->item('default-image'));
+        }
         $this->data['body_class'] = 'controller-' . $this->controller . ' method-' . $this->method . ' page-' . $this->pageName;
 
         if (!is_null($data))
@@ -176,6 +179,11 @@ class Stencil {
             $this->title = $title;
         }
 	}
+
+    public function getTitle()
+    {
+        return $this->title;
+    }
 
 	public function slice($slice)
 	{
@@ -312,6 +320,26 @@ class Stencil {
     public function setDescription($description)
     {
         $this->isdescription = $description;
+    }
+
+    public function getSEOTitle()
+    {
+        return $this->SEOTitle;
+    }
+
+    public function getSEODescription()
+    {
+        return $this->SEODescription;
+    }
+
+    public function getSEOImage()
+    {
+        return $this->SEOImage;
+    }
+
+    public function getSEOUrl()
+    {
+        return $this->safeURL;
     }
 
 }
