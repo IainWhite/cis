@@ -3,7 +3,8 @@
 <p>Bla Bla Bla</p>
 
 <?php
-$this->stencil->title('SB Page');
+//$this->stencil->title('SB Page');
+echo $this->stencil->setHeadline('SB Page');
 $this->stencil->meta(array('keywords' => 'cats, animals, dogs'));
 $this->stencil->slice('ss1');
 $this->stencil->sub('project-management/agile/scrum/sa', NULL, TRUE);

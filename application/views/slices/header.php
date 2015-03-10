@@ -184,3 +184,4 @@
     <!-- End Navbar -->
 </div>
 <!-- End Header -->
+<?php echo addH1(); ?>

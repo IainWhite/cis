@@ -354,5 +354,18 @@ if (!function_exists('addOldIEJS'))
     }
 }
 
+if (!function_exists('addh1'))
+{
+    function addH1()
+    {
+        $CI =& get_instance();
+        $CI->load->library('stencil');
+        $h1 = $CI->stencil->getH1();
+        //@TODO Add class
+        return '<h1>' . $h1 . '</h1>' . "\n";
+    }
+}
+
+
 /* End of file stencil_helper.php */
 /* Location: ./application/helpers/stencil_helper.php */ 

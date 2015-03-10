@@ -25,6 +25,7 @@ class Stencil {
     protected $SEOTitle         = '';
     protected $SEODescription   = '';
     protected $SEOImage         = '';
+    protected $h1               = '';
 
 	public function __construct()
     {
@@ -348,7 +349,21 @@ class Stencil {
 
     public function setHeadline($title, $pageTitle = NULL)
     {
-        $headline = '';
+        if (!$pageTitle) {
+            $pageTitle = $title;
+        }
+        if (!$this->isSub) {
+            $this->title = $pageTitle;
+            $this->h1 = $title;
+            return NULL;
+        } else {
+            return '<h2>' . $title . '</h2>';
+        }
+    }
+
+    public function getH1()
+    {
+        return $this->h1;
     }
 
 }
