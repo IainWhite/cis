@@ -385,6 +385,31 @@ INSERT INTO `wd_file_eng` VALUES ('dotnet',' .NET'),('dot-net-framework',' .NET 
 UNLOCK TABLES;
 
 --
+-- Table structure for table `wd_sound_bites`
+--
+
+DROP TABLE IF EXISTS `wd_sound_bites`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `wd_sound_bites` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `words` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wd_sound_bites`
+--
+
+LOCK TABLES `wd_sound_bites` WRITE;
+/*!40000 ALTER TABLE `wd_sound_bites` DISABLE KEYS */;
+INSERT INTO `wd_sound_bites` VALUES (1,' I have been developing in {\"PHP\"|link_urls:\"w\"} for {\"01/01/1999\"|elapsed:TRUE}.'),(2,' I have excellent front-end developing skills including {\"HTML\"|link_urls:\"w\"}'),(3,' I have worked with relational databases for over {\"01/09/1987\"|elapsed:TRUE}'),(4,' I have a good understanding of application architecture.'),(5,' I have proven team leadership skills.'),(6,' I have some experience of developing with the {\"Drupal\"|link_urls:\"w\"}'),(7,' I have commercial experience of {\"Test Driven Development\"|link_urls:\"w\"} (TDD).'),(8,' I have worked with code repositories such as {\"SVN\"|link_urls:\"w\"}.'),(9,' I have developed complex {\"JSON\"|link_urls:\"w\"} {\"AJAX\"|link_urls:\"w\"} application'),(10,' I have worked with {\"PHP\"|link_urls:\"w\"} version 3 through to 5.'),(11,' I have had some experience of {\"FLASH Actionscript\"|link_urls:\"w\"}.'),(12,' I have had some experience of {\"JAVA\"|link_urls:\"w\"} and {\"JAVA Server Pages\"|link_urls:\"w\"} (JSP).'),(13,' I have worked on several {\"Search Engine Optimisation\"|link_urls:\"w\"} (SEO) projects.'),(14,' I have experience of developing with {\"Perl\"|link_urls:\"w\"} and {\"CGI\"|link_urls:\"w\"}.'),(15,' I have developed for both the Linux and Windows platforms.'),(16,' I have good Database Administrator (DBA) skills.'),(17,' I am familiar with the {\"Linux\"|link_urls:\"w\"} Command line.'),(18,' I have also been a professional {\"ASP\"|link_urls:\"w\"} Developer.'),(19,' I am well versed in the full {\"Software Development Life Cycle\"|link_urls:\"w\"} (SDLC)'),(20,' I have developed with several Google APIs including {\"Google Maps\"|link_urls:\"w\"} and {\"Google Visualization\"|link_urls:\"w\"}.'),(21,' I have developed in a non-English speaking environment.'),(22,' I came to Australia {\"14/02/2006\"|elapsed:TRUE} ago and took my Australia citizenship in 2009.'),(23,' I am originally from a small village South of Perth in Scotland. I moved to Australia in February 2006.'),(24,' I am an Australian citizen and therefore have the right to work in Australia.'),(25,' I am a seasoned and versatile {\"PHP Developer\"|link_urls:\"w\"} based in Brisbane'),(26,' I am a {\"Web Developer\"|link_urls:\"w\"} with over {\"e]01/01/1999\"|elapsed:TRUE} professional experience.'),(27,' In my career I have developed complex back-end {\"eCommerce\"|link_urls:\"w\"} systems'),(28,' I developed a website in conjunction with a leading London advertising agency to complement Kia UK\\\'s Walking Bus campaign.'),(29,' I have worked for big brand names including Honda'),(30,' My website for Proton cars in 2000 won the coveted What Car website of the year award. The site was also featured in the January 2010 Webspace magazine labelled as a \"... real man puller.\"'),(31,' I have been involved in pitching to large companies such as Lotus cars.'),(32,' I have worked with Windows 2'),(33,' I have worked with Red Hat'),(34,' While working at Reuters I worked with news feeds in multiple languages including Russian and Chinese.'),(35,' Back in the 1900s I was a user of BBS (Bulletin Board System).'),(36,' Back in the early 90s I worked with pioneering Remote Function Calling (RFC) and text mark-up.'),(37,' I remember the IE / Netscape browser wars.'),(38,' I have 5 modules in computer studies.'),(39,' I have a BSc and diploma in Computing from the Open University.'),(40,' I have competent design skills and have used Fireworks and Photoshop.'),(41,' I met {\"Rasmus Lerdorf\"|link_urls:\"/p\"} the creator of {\"PHP\"|link_urls:\"w\"} in 2007.'),(42,' I met {\"Larry Wall\"|link_urls:\"/p\"} the creator of {\"Perl\"|link_urls:\"w\"} in 2008.'),(43,' I hand code all my {\"HTML\"|link_urls:\"w\"} and {\"CSS\"|link_urls:\"w\"}.'),(44,' I have worked for an Internet Service Provider (ISP) back in the UK.'),(45,' I have worked with Apple Mac OS X Lion'),(46,' I have developed in 22 programming languages.'),(47,' I am passionate about all aspects of the web especially'),(48,' I have worked as a Manager'),(49,' I have lead a Distributed Web Development Team.');
+/*!40000 ALTER TABLE `wd_sound_bites` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `wd_wisdom`
 --
 
@@ -419,4 +444,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-03-11  8:31:25
+-- Dump completed on 2015-03-11  8:57:55
