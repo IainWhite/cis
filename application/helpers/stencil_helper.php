@@ -354,7 +354,7 @@ if (!function_exists('addOldIEJS'))
     }
 }
 
-if (!function_exists('addh1'))
+if (!function_exists('addH1'))
 {
     function addH1()
     {
@@ -366,6 +366,30 @@ if (!function_exists('addh1'))
     }
 }
 
+if (!function_exists('addBreadcrumb'))
+{
+    function addBreadcrumb()
+    {
+        $CI =& get_instance();
+        //$CI->load->library('stencil');
+        //$h1 = $CI->stencil->getH1();
+        //die(var_dump($CI->uri->segments));
+        $segmentCount = count(($CI->uri->segments));
+        $path = '/';
+        $out = '<ul>';
+        for ($x = 1; $x <= $segmentCount; $x++) {
+            $path .= $CI->uri->segment($x) . '/';
+            $label = $CI->uri->segment($x);
+            if ($x == $segmentCount) {
+                $out .= '<li>' . $label . '</li>' . "\n";
+            } else {
+                $out .= '<li><a href="' . $path . '">' . $label . '</a></li>' . "\n";
+            }
+        }
+        $out .= '<ul>';
+        return $out . "\n";
+    }
+}
 
 /* End of file stencil_helper.php */
 /* Location: ./application/helpers/stencil_helper.php */ 

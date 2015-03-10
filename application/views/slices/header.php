@@ -185,3 +185,4 @@
 </div>
 <!-- End Header -->
 <?php echo addH1(); ?>
+<?php echo addBreadcrumb(); ?>
