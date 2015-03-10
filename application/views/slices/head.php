@@ -5,13 +5,13 @@
     <meta name="description" content="<?php echo $description; ?>">
     <?php echo $meta; ?>
 
-    <?php echo addAppleMobile(get_domain(), 'black-translucent'); ?>
+    <?php echo addAppleMobile(); ?>
     <?php echo addMobile(); ?>
 
     <?php echo addFavicons(); ?>
 
     <?php echo addSeo(); ?>
-    <?php echo addWindowsTile(array('name' => get_domain(), 'image' => base_url() . '/assets/img/image/favicons/tile-8.png', 'color' => '#27d7e7')); ?>
+    <?php echo addWindowsTile(); ?>
     <?php echo addGeo(); ?>
 
     <?php echo addBootstrapCSS('3.3.2', FALSE); ?>

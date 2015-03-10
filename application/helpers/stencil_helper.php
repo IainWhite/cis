@@ -33,8 +33,7 @@ if (!function_exists('addCss'))
 			$tab = "\t";
 			foreach ($css as $item)
 			{
-				if ($i == count($css) - 1)
-				{
+				if ($i == count($css) - 1) {
 					$tab = '';
 				}
 				$file_type = (preg_match('/\.css$/i', $item) ? NULL : '.css');
@@ -51,8 +50,7 @@ if (!function_exists('addJs'))
 {
 	function addJs($js = NULL, $rootFolder = 'assets/js/')
 	{
-		if (is_null($js))
-		{
+		if (is_null($js)) {
 			return FALSE;
 		}
 
@@ -69,8 +67,7 @@ if (!function_exists('addJs'))
 			$tab = "\t";
 			foreach ($js as $item)
 			{
-				if ($i == count($js) - 1)
-				{
+				if ($i == count($js) - 1) {
 					$tab = '';
 				}
 				$file_type = (preg_match('/\.js$/i', $item) ? NULL : '.js');
@@ -124,17 +121,16 @@ if (!function_exists('addViewPort'))
 
 if (!function_exists('addAppleMobile'))
 {
-	function addAppleMobile($title, $style = NULL)
+	function addAppleMobile()
 	{
-		if (is_null($style))
-		{	
-			$style = 'default';
-		}
+        $CI =& get_instance();
+        $siteName = $CI->config->item('site-name');
+        $style = $CI->config->item('web-app-status-bar-style');
 
 		return '<meta name="apple-mobile-web-app-capable" content="yes">' . "\n\t" .
             '<meta name="apple-mobile-web-app-status-bar-style" content="' . $style . '">' . "\n\t" .
             '<meta name="mobile-web-app-capable" content="yes">' . "\n\t" .
-            '<meta name="apple-mobile-web-app-title" content="' . $title . '">' . "\n";
+            '<meta name="apple-mobile-web-app-title" content="' . $siteName . '">' . "\n";
 	}
 }
 
@@ -203,34 +199,16 @@ if (!function_exists('addSeo'))
 
 if (!function_exists('addWindowsTile'))
 {
-	function addWindowsTile($meta = array())
+	function addWindowsTile()
 	{
-		if (is_null($meta))
-		{	
-			return FALSE;
-		}
+        $CI =& get_instance();
+        $title = $CI->config->item('windows-title-name');
+        $image = base_url() . $CI->config->item('windows-title-image');
+        $colour = $CI->config->item('windows-title-colour');
 
-		$tile = array();
-		if (array_key_exists('name', $meta))
-			$tile[] = '<meta name="application-name" content="' . $meta['name'] . '">';
-		if (array_key_exists('image', $meta))
-			$tile[] = '<meta name="msapplication-TileImage" content="' . $meta['image'] . '">';
-		if (array_key_exists('color', $meta))
-			$tile[] = '<meta name="msapplication-TileColor" content="' . $meta['color'] . '">';
-		
-		$i = 0;
-		$tab = "\t";
-		$result = array();
-		foreach ($tile as $item) {
-			if ($i == count($tile) - 1)
-			{
-				$tab = '';
-			}
-			$result[] = $item . "\n" . $tab;
-		$i++;
-		}
-		
-		return implode('', $result);
+        return '<meta name="application-name" content="' . $title  . '">' . "\n\t" .
+            '<meta name="msapplication-TileImage" content="' .  $image . '">' . "\n\t" .
+            '<meta name="msapplication-TileColor" content="' . $colour . '">' . "\n";
 	}
 }
 
@@ -256,8 +234,7 @@ if (!function_exists('addjQuery'))
 {
     function addjQuery($version = NULL, $local = TRUE)
     {
-        if (is_null($version))
-        {
+        if (is_null($version)) {
             return '<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>' . "\n";
         }
         else {
@@ -342,8 +319,7 @@ if (!function_exists('asset_url'))
 {
 	function asset_url($src = NULL)
 	{
-		if (is_null($src)) 
-		{
+		if (is_null($src)) {
 			return base_url() . 'assets/';
 		}
 		
