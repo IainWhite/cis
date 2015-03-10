@@ -10,6 +10,7 @@
 
     <?php echo addFavicons(); ?>
 
+    <?php echo addSeo(); ?>
     <?php echo addWindowsTile(array('name' => get_domain(), 'image' => base_url() . '/assets/img/image/favicons/tile-8.png', 'color' => '#27d7e7')); ?>
     <?php echo addGeo(); ?>
 

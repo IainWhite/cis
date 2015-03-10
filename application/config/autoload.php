@@ -80,7 +80,7 @@ $autoload['helper'] = array('stencil', 'html', 'form', 'url');
 |
 */
 
-$autoload['config'] = array('stencil');
+$autoload['config'] = array('stencil', 'site');
 
 
 /*

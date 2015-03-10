@@ -152,11 +152,52 @@ if (!function_exists('addGeo'))
 {
     function addGeo()
     {
+        $CI =& get_instance();
+        $siteName = $CI->config->item('site-name');
         return '<meta name="geo.position" content="-27.68278;152.91278">' . "\n\t" .
         '<meta name="geo.placename" content="Springfield Lakes, Australia">' . "\n\t" .
         '<meta name="geo.region" content="AU">' . "\n\t" .
         '<meta name="ICBM" content="-27.68278, 152.91278">' . "\n\t" .
-        '<meta name="DC.title" content="{TITLE}">' . "\n";
+        '<meta name="DC.title" content="' . $siteName . '">' . "\n";
+    }
+}
+
+
+if (!function_exists('addSeo'))
+{
+    function addSeo()
+    {
+        $CI =& get_instance();
+        $siteName = $CI->config->item('site-name');
+        $authorUrl = $CI->config->item('author-url');
+        $publisherUrl = $CI->config->item('publisher-url');
+        $siteTwitter = $CI->config->item('site-twitter');
+        $creatorTwitter = $CI->config->item('creator-twitter');
+
+        $seoTitle = '{TITLE}';
+        $seoDescription = '{DESCRIPTION}';
+        $seoImage = '{ENCODED IMAGE}';
+        $seoURL = '{ENCODED URL}';
+
+        return '<link rel="author" href="' . $authorUrl . '" />' . "\n\t" .
+            '<link rel="publisher" href="' . $publisherUrl . '" />' . "\n\t" .
+            '<meta itemprop="name" content="' . $seoTitle . '" />' . "\n\t" .
+            '<meta itemprop="description" content="' . $seoDescription . '" />' . "\n\t" .
+            '<meta itemprop="image" content="' . $seoImage . '}" />' . "\n\t" .
+            '<meta property="og:title" content="' . $seoTitle . '" />' . "\n\t" .
+            '<meta property="og:type" content="website" />' . "\n\t" .
+            '<meta property="og:url" content="' . $seoURL . '" />' . "\n\t" .
+            '<meta property="og:image" content="' . $seoImage . '" />' . "\n\t" .
+            '<meta property="og:description" content="' . $seoDescription . '" />' . "\n\t" .
+            '<meta property="og:site_name" content="' .$siteName . '" />' . "\n\t" .
+            '<meta property="og:locale" content="en_AU" />' . "\n\t" .
+            '<meta name="twitter:card" content="summary" />' . "\n\t" .
+            '<meta name="twitter:site" content="' . $siteTwitter . '" />' . "\n\t" .
+            '<meta name="twitter:title" content="' . $seoTitle . '" />' . "\n\t" .
+            '<meta name="twitter:description" content="' . $seoDescription . '" />' . "\n\t" .
+            '<meta name="twitter:image" content="' . $seoImage . '" />' . "\n\t" .
+            '<meta name="twitter:url" content="' . $seoURL . '" />' . "\n\t" .
+            '<meta name="twitter:creator" content="' . $creatorTwitter . '" />' . "\n";
     }
 }
 

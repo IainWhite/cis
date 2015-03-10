@@ -357,20 +357,6 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-/*
-|--------------------------------------------------------------------------
-| Page
-|--------------------------------------------------------------------------
-|
-|
-*/
-$config['default-description'] = 'Information about Web Development, Scrum, Project Management, IT, PHP, JavaScript, Mobile Development.';
-$config['default-title'] = 'Web Development, Scrum, Project Management';
-$config['default-image'] = '/assets/images/logo.png';
-$config['Looking-message'] = '';
-$config['author-name'] = 'Iain White';
-$config['author-url'] = 'https://plus.google.com/+IainWhite1/posts';
-$config['publisher-url'] = 'https://plus.google.com/+IainWhite1';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
