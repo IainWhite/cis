@@ -1,5 +1,4 @@
 Page List
-Status: O = Old .tpl file, D = Done, R = Renamed for Old, M = Move 
 
 404
 Home
@@ -117,14 +116,11 @@ it
 it/acid
 it/activex
 it/air
-it/apache-ant														Was ant
 it/ascii
 it/ascii/ascii-table
 it/backus-naur-form
-it/behaviour-driven-development										Was bdd
 it/cad
 it/call-level-interface
-it/chef
 it/cli
 it/client-server
 it/colour/cmyk
@@ -135,23 +131,44 @@ it/computer-programming
 it/content-management-system 										Was cms
 it/coroutines
 it/crc-cards
-it/crud
 it/csv
 it/definitions
 it/design
+it/design/user-experience															Was ux
+it/design/user-interface															Was ui
 it/development
+it/development/ant
+it/development/behaviour-driven-development										Was bdd
+it/development/chef
 it/development/cocoa
+it/development/crud
+it/development/dll
+it/development/docker
+it/development/gdi
+it/development/jdbc
+it/development/maven
+it/development/mfc
+it/development/odbc
+it/development/ole
 it/development/oop
+it/development/puppet
+it/development/reactive-programming
+it/development/reactive-programming/reactive-manifesto
+it/development/relational-model
+it/development/sdk
+it/development/shell-scripts
+it/development/test-driven-development													Was tdd
+it/development/vagrant
+it/development/windows-api
+it/development/windows-template-library
+it/development/xunit
 it/directx
-it/dll
-it/docker
 it/dot-com-bubble
 it/electronic-data-interchange
 it/font
 it/fonts/computer-modern
 it/fonts/metafont
 it/foss
-it/gdi
 it/gui
 it/hardware
 it/hardware/acorn-archimedes
@@ -214,11 +231,7 @@ it/hardware/zuse-z3
 it/ims
 it/internet
 it/intranet
-it/jdbc
 it/latex
-it/make
-it/maven
-it/mfc
 it/network
 it/network/arpanet
 it/networks/10base5
@@ -229,11 +242,14 @@ it/networks/lan
 it/networks/netware
 it/networks/nsfnet
 it/networks/token-ring
+it/networks/vpn
 it/networks/wan
+it/networks/wi-fi
+it/networks/wi-fi/wep
+it/networks/wi-fi/wpa
+it/networks/wi-fi/wps
 it/object-windows-library
-it/odbc
 it/oem
-it/ole
 it/operating-system
 it/operating-systems/beos
 it/operating-systems/centos
@@ -280,35 +296,32 @@ it/operating-systems/windows/windows-me
 it/operating-systems/windows/windows-nt
 it/operating-systems/windows/windows-vista
 it/operating-systems/windows/windows-xp
-it/puppet
-it/reactive-programming
-it/reactive-programming/reactive-manifesto
-it/relational-model
 it/remote-desktop-protocol 											Was rdp
 it/revision-control/cvs
 it/revision-control/git
 it/revision-control/svn
 it/rfc
-it/sdk
-it/shell-scripts
 it/social-networking
 it/software
 it/software-engineering
-it/software/ami-pro
-it/software/autocad
-it/software/borland-sidekick
-it/software/coreldraw
-it/software/cygwin
-it/software/deluxe-paint
-it/software/dia
-it/software/excel
-it/software/fireworks
-it/software/freehand
-it/software/gimp
+it/software/database/microsoft-access
+it/software/drawing/autocad
+it/software/drawing/coreldraw
+it/software/drawing/deluxe-paint
+it/software/drawing/dia
+it/software/drawing/fireworks
+it/software/drawing/freehand
+it/software/drawing/gimp
+it/software/drawing/lotus-freelance
+it/software/drawing/paintshop-pro
+it/software/email/microsoft-outlook
+it/software/email/mozilla-thunderbird
 it/software/ide
 it/software/ide/dreamweaver
 it/software/ide/eclipse
 it/software/ide/homesite
+it/software/ide/microsoft-frontpage
+it/software/ide/microsoft-visual-studio
 it/software/ide/netbeans
 it/software/ide/notepad-plus-plus
 it/software/ide/vi
@@ -317,66 +330,52 @@ it/software/ide/visual-web-developer-express
 it/software/ide/xcode
 it/software/ide/zend-studio
 it/software/jira
-it/software/lotus-1-2-3
-it/software/lotus-agenda
-it/software/lotus-freelance
-it/software/lotus-magellan
-it/software/lotus-notes
-it/software/lotus-organizer
 it/software/lotus-smartsuite
 it/software/lotus-symphony
-it/software/microsoft-access
 it/software/microsoft-exchange
-it/software/microsoft-frontpage
 it/software/microsoft-office
-it/software/microsoft-outlook
 it/software/microsoft-powerpoint
 it/software/microsoft-project
 it/software/microsoft-script-editor
-it/software/microsoft-visual-studio
-it/software/microsoft-word												Was word
 it/software/microsoft-works
-it/software/microsoft-write
-it/software/midnight-commander
-it/software/mozilla-thunderbird
 it/software/multiplan
-it/software/norton-commander
-it/software/norton-utilities
-it/software/paintshop-pro
-it/software/pc-tools
-it/software/quattro-pro
-it/software/supercalc
-it/software/visicalc
+it/software/spreadsheet/quattro-pro
+it/software/spreadsheet/supercalc
+it/software/spreadsheet/visicalc
+it/software/spredsheet/excel
+it/software/spredsheet/lotus-1-2-3
+it/software/util/borland-sidekick
+it/software/util/cygwin
+it/software/util/lotus-agenda
+it/software/util/lotus-magellan
+it/software/util/lotus-notes
+it/software/util/lotus-organizer
+it/software/utils/midnight-commander
+it/software/utils/norton-commander
+it/software/utils/norton-utilities
+it/software/utils/pc-tools
 it/software/visio
-it/software/wordpad
-it/software/wordperfect
-it/software/wordstar
+it/software/word-processor/ami-pro
+it/software/word-processor/microsoft-word												Was word
+it/software/word-processor/microsoft-write
+it/software/word-processor/wordpad
+it/software/word-processor/wordperfect
+it/software/word-processor/wordstar
 it/tar-format
-it/test-driven-development													Was tdd
 it/tools/awk
 it/tools/grep
+it/tools/make
 it/tools/sed
 it/tools/tex
 it/turing-award
 it/typeface
 it/uncol
-it/user-experience															Was ux
-it/user-interface															Was ui
-it/vagrant
 it/vcl
 it/version-control
 it/virtualbox
 it/vmware
-it/vpn
-it/wi-fi
-it/wi-fi/wep
-it/wi-fi/wpa
-it/wi-fi/wps
 it/wimp
-it/windows-api
-it/windows-template-library
 it/wysiwyg
-it/xunit
 it/y2k
 languages
 languages/actionscript
@@ -644,7 +643,6 @@ web-development/accessibility
 web-development/active-desktop
 web-development/adwords
 web-development/ajax
-web-development/amazon-web-services 									Was aws
 web-development/aol-instant-messenge									Was aim
 web-development/asynchronous-html-over-http								Was ahah
 web-development/back-end
@@ -712,12 +710,9 @@ web-development/dynatrace
 web-development/e-commerce
 web-development/e-commerce/paypal
 web-development/e-commerce/worldpay
-web-development/ebay
 web-development/email
-web-development/facebook
 web-development/flash
 web-development/flash/flash-player
-web-development/flickr
 web-development/fouc
 web-development/front-end
 web-development/front-end/css
@@ -739,23 +734,14 @@ web-development/front-end/scripting
 web-development/front-end/styling
 web-development/ftp
 web-development/gerrit
-web-development/gmail
-web-development/google-drive
-web-development/google-maps
-web-development/google-plus
 web-development/google/pagerank
-web-development/instagram
 web-development/internet-service-provide					Was isp
 web-development/json
 web-development/lamp
-web-development/linkedin
 web-development/mhtml
-web-development/microsoft-azure									Was azure
 web-development/mime
 web-development/mustache
-web-development/myspace
 web-development/oauth
-web-development/pinterest
 web-development/protocols
 web-development/protocols/dhcp
 web-development/protocols/dns
@@ -777,19 +763,34 @@ web-development/protocols/telnet
 web-development/protocols/udp
 web-development/protocols/uucp
 web-development/protocols/xmpp
-web-development/rackspace
 web-development/rietveld
 web-development/rss
 web-development/same-origin-policy
 web-development/seo
-web-development/slashdot
+web-development/services/amazon-web-services 									Was aws
+web-development/services/ebay
+web-development/services/facebook
+web-development/services/flickr
+web-development/services/gmail
+web-development/services/google-drive
+web-development/services/google-maps
+web-development/services/google-plus
+web-development/services/instagram
+web-development/services/linkedin
+web-development/services/microsoft-azure									Was azure
+web-development/services/myspace
+web-development/services/pinterest
+web-development/services/rackspace
+web-development/services/slashdot
+web-development/services/stackdriver
+web-development/services/tumblr
+web-development/services/twitter
+web-development/services/wikipedia
+web-development/services/youtube
 web-development/slashdot-effect
 web-development/social-media
 web-development/ssi
-web-development/stackdriver
 web-development/tinymce
-web-development/tumblr
-web-development/twitter
 web-development/web-2-0
 web-development/web-browser
 web-development/web-design
@@ -806,8 +807,6 @@ web-development/web-servers/zend-server
 web-development/wiki
 web-development/wiki/mediawiki
 web-development/wiki/wikiwikiweb
-web-development/wikipedia
 web-development/world-wide-web
 web-development/xml
 web-development/xmlhttprequest
-web-development/youtube
