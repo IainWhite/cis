@@ -90,7 +90,6 @@ ms-azure, microsoft-azure
 blogs, blog
 bbs, bulletin-board-system
 cgi, common-gateway-interface
-chrome, google-chrome
 crm, customer-relationship-management
 cpan, comprehensive-perl-archive-network
 orm, object-relational-mapper
@@ -105,9 +104,7 @@ bisl, business-information-services-library
 cmm, capability-maturity-model
 rad, rapid-application-development 
 itil, information-technology-infrastructure-library
-aws, amazon-web-services 
 bbd, behaviour-driven-development
 os, operating-system
 operating systems, operating-system
 o-s, operating-system
-tdd, test-driven-development

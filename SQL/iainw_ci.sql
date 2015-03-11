@@ -298,6 +298,32 @@ INSERT INTO `wd_about` VALUES (1,'I am a Certified Professional {\'Scrum Master\
 UNLOCK TABLES;
 
 --
+-- Table structure for table `wd_alias`
+--
+
+DROP TABLE IF EXISTS `wd_alias`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `wd_alias` (
+  `alias` varchar(100) NOT NULL,
+  `filename` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`alias`),
+  UNIQUE KEY `alias_UNIQUE` (`alias`),
+  KEY `filename` (`filename`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wd_alias`
+--
+
+LOCK TABLES `wd_alias` WRITE;
+/*!40000 ALTER TABLE `wd_alias` DISABLE KEYS */;
+INSERT INTO `wd_alias` VALUES ('web-servers web-server',''),('archimedes',' acorn-archimedes'),('apc',' alternative-php-cache'),('aws',' amazon-web-services'),('amstrad-pc1640',' amstrad-pc1512'),('apple-mac',' apple-macintosh'),('mac',' apple-macintosh'),('macintosh',' apple-macintosh'),('asl',' application-services-library'),('assembler',' assembly-language'),('ahah',' asynchronous-html-over-http'),('bdd',' behavior-driven-development'),('bbd',' behaviour-driven-development'),('blogs',' blog'),('first-browser-war',' browser-wars'),('second-browser-war',' browser-wars'),('bbs',' bulletin-board-system'),('bisl',' business-information-services-library'),('cmm',' capability-maturity-model'),('cat-5',' category-5'),('cgi',' common-gateway-interface'),('cpan',' comprehensive-perl-archive-network'),('cms',' content-management-system'),('cookies',' cookie'),('csrf',' cross-site-request-forgery'),('xsrf',' cross-site-request-forgery'),('xss',' cross-site-scripting'),('crm',' customer-relationship-management'),('databases',' database'),('dbms',' database'),('dba',' database-administer'),('xbase',' dbase'),('e-mail',' email'),('fonts',' font'),('gof',' gang-of-four'),('chrome',' google-chrome'),('gtm',' google-tag-manager'),('ibm-compatible-pc',' ibm-pc-compatible'),('ibm-pc-compatibles',' ibm-pc-compatible'),('ibm-pc',' ibm-personal-computer'),('imap4',' imap'),('itil',' information-technology-infrastructure-library'),('ie',' internet-explorer'),('ie1',' internet-explorer-1'),('ie10',' internet-explorer-10'),('ie11',' internet-explorer-11'),('ie2',' internet-explorer-2'),('ie3',' internet-explorer-3'),('ie4',' internet-explorer-4'),('ie5',' internet-explorer-5'),('ie6',' internet-explorer-6'),('ie7',' internet-explorer-7'),('ie8',' internet-explorer-8'),('ie9',' internet-explorer-9'),('iis',' internet-information-services'),('iss',' internet-information-services'),('isp',' internet-service-provider'),('ip-addresses',' ip-address'),('java-applets',' java-applet'),('jsss',' javaScript-style-sheets'),('layout-engines',' layout-engine'),('ibm-notes',' lotus-notes'),('ms-acces',' microsoft-access'),('azure',' microsoft-azure'),('ms-azure',' microsoft-azure'),('ms-communicator',' microsoft-communicator'),('excel',' microsoft-excel'),('ms-excel',' microsoft-excel'),('ms-lync',' microsoft-lync'),('ms-office',' microsoft-office'),('ms-outlook',' microsoft-outlook'),('outlook',' microsoft-outlook'),('ms-powerpoint',' microsoft-powerpoint'),('powerpoint',' microsoft-powerpoint'),('ms-sqlserver',' microsoft-sqlserver'),('sqlserver',' microsoft-sqlserver'),('visual-studio',' microsoft-visual-studio'),('ms-windows',' microsoft-windows'),('windows',' microsoft-windows'),('ms-word',' microsoft-word'),('word',' microsoft-word'),('firefox',' mozilla-firefox'),('mozilla',' mozilla-foundation'),('thunderbird',' mozilla-thunderbird'),('navigator',' netscape'),('netscape-communicator',' netscape'),('netscape-navigator',' netscape'),('nntp',' network-news-transfer-protocol'),('orm',' object-relational-mapper'),('o-s',' operating-system'),('operating systems',' operating-system'),('os',' operating-system'),('pop',' pop3'),('rad',' rapid-application-development '),('rdp',' remote-desktop-protocol'),('svn',' subversion'),('internet-protocol-suite',' tcp-ip'),('tdd',' test-driven-development'),('typefaces',' typeface'),('ux',' user-experience'),('ui',' user-interface'),('revision-control',' version-control'),('source-control',' version-control'),('browser',' web-browser'),('browsers',' web-browser'),('web-browsers',' web-browser'),('web',' world-wide-web'),('www',' world-wide-web'),('w3c',' world-wide-web-consortium'),('xmlhttprequests',' xmlhttprequest');
+/*!40000 ALTER TABLE `wd_alias` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `wd_books`
 --
 
@@ -494,4 +520,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-03-11  9:24:41
+-- Dump completed on 2015-03-11 16:08:04
