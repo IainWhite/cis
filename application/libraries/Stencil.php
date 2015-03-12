@@ -453,6 +453,7 @@ class Stencil {
         $segmentCount = count(($this->CI->uri->segments));
         $path = '/';
         $out = '<ul class="pull-right breadcrumb">';
+        $out .= '<li><a href="/"><i class="fa fa-home"></i></a></li>' . "\n";
         for ($x = 1; $x <= $segmentCount; $x++) {
             $path .= $this->CI->uri->segment($x) . '/';
             $label = $this->CI->uri->segment($x);
@@ -469,11 +470,26 @@ class Stencil {
 
     public function filename2Eng($filename)
     {
-        //@TODO check if in database
+        $out = $this->checkFileNameDb($filename);
+        if ($out) {
+            return $out;
+        }
         $out = str_replace('-', ' ', $filename);
         $out = str_replace('_', ' ', $out);
         $out = ucwords($out);
         return $out;
+    }
+
+    public function checkFileNameDb($filename)
+    {
+        $eng = NULL;
+        $sql = "SELECT eng FROM wd_file_eng WHERE filename = '" . $filename . "';";
+        $query = $this->CI->db->query($sql);
+        foreach ($query->result() as $row)
+        {
+            $eng = $row->eng;
+        }
+        return $eng;
     }
 
 }
