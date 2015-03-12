@@ -187,7 +187,7 @@
 
 <div class="breadcrumbs">
     <div class="container">
-    <?php echo addH1(); ?>
-    <?php echo addBreadcrumb(); ?>
+    <?php echo $this->stencil->addH1(); ?>
+    <?php echo $this->stencil->addBreadcrumb(); ?>
     </div>
 </div>

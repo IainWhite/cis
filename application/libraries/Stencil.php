@@ -366,6 +366,116 @@ class Stencil {
         return $this->h1;
     }
 
+    public function addAppleMobile()
+    {
+        $siteName = $this->CI->config->item('site-name');
+        $style = $this->CI->config->item('web-app-status-bar-style');
+
+        return '<meta name="apple-mobile-web-app-capable" content="yes">' . "\n\t" .
+        '<meta name="apple-mobile-web-app-status-bar-style" content="' . $style . '">' . "\n\t" .
+        '<meta name="mobile-web-app-capable" content="yes">' . "\n\t" .
+        '<meta name="apple-mobile-web-app-title" content="' . $siteName . '">' . "\n";
+    }
+
+    public function addDescription()
+    {
+        $this->CI->load->library('stencil');
+        $description = $this->CI->stencil->getDescription();
+        $author = $this->CI->config->item('author-name');
+        return '<meta name="description" content="' . $description . '">' . "\n\t" .
+        '<meta name="author" content="' . $author . '">' . "\n";
+    }
+
+    public function addGeo()
+    {
+        $title = $this->getTitle();
+        return '<meta name="geo.position" content="-27.68278;152.91278">' . "\n\t" .
+        '<meta name="geo.placename" content="Springfield Lakes, Australia">' . "\n\t" .
+        '<meta name="geo.region" content="AU">' . "\n\t" .
+        '<meta name="ICBM" content="-27.68278, 152.91278">' . "\n\t" .
+        '<meta name="DC.title" content="' . $title . '">' . "\n";
+    }
+
+    public function addSeo()
+    {
+        $siteName = $this->CI->config->item('site-name');
+        $authorUrl = $this->CI->config->item('author-url');
+        $publisherUrl = $this->CI->config->item('publisher-url');
+        $siteTwitter = $this->CI->config->item('site-twitter');
+        $creatorTwitter = $this->CI->config->item('creator-twitter');
+
+        $seoTitle = $this->getSEOTitle();
+        $seoDescription = $this->getSEODescription();
+        $seoImage = $this->getSEOImage();
+        $seoURL = $this->getSEOUrl();
+
+        return '<link rel="author" href="' . $authorUrl . '" />' . "\n\t" .
+        '<link rel="publisher" href="' . $publisherUrl . '" />' . "\n\t" .
+        '<meta itemprop="name" content="' . $seoTitle . '" />' . "\n\t" .
+        '<meta itemprop="description" content="' . $seoDescription . '" />' . "\n\t" .
+        '<meta itemprop="image" content="' . $seoImage . '}" />' . "\n\t" .
+        '<meta property="og:title" content="' . $seoTitle . '" />' . "\n\t" .
+        '<meta property="og:type" content="website" />' . "\n\t" .
+        '<meta property="og:url" content="' . $seoURL . '" />' . "\n\t" .
+        '<meta property="og:image" content="' . $seoImage . '" />' . "\n\t" .
+        '<meta property="og:description" content="' . $seoDescription . '" />' . "\n\t" .
+        '<meta property="og:site_name" content="' .$siteName . '" />' . "\n\t" .
+        '<meta property="og:locale" content="en_AU" />' . "\n\t" .
+        '<meta name="twitter:card" content="summary" />' . "\n\t" .
+        '<meta name="twitter:site" content="' . $siteTwitter . '" />' . "\n\t" .
+        '<meta name="twitter:title" content="' . $seoTitle . '" />' . "\n\t" .
+        '<meta name="twitter:description" content="' . $seoDescription . '" />' . "\n\t" .
+        '<meta name="twitter:image" content="' . $seoImage . '" />' . "\n\t" .
+        '<meta name="twitter:url" content="' . $seoURL . '" />' . "\n\t" .
+        '<meta name="twitter:creator" content="' . $creatorTwitter . '" />' . "\n";
+    }
+
+    public function addWindowsTile()
+    {
+        $title = $this->CI->config->item('windows-title-name');
+        $image = base_url() . $this->CI->config->item('windows-title-image');
+        $colour = $this->CI->config->item('windows-title-colour');
+
+        return '<meta name="application-name" content="' . $title  . '">' . "\n\t" .
+        '<meta name="msapplication-TileImage" content="' .  $image . '">' . "\n\t" .
+        '<meta name="msapplication-TileColor" content="' . $colour . '">' . "\n";
+    }
+
+    public function addH1()
+    {
+        $h1 = $this->getH1();
+        //@TODO Add class
+        return '<h1>' . $h1 . '</h1>' . "\n";
+    }
+
+    public function addBreadcrumb()
+    {
+        $segmentCount = count(($this->CI->uri->segments));
+        $path = '/';
+        $out = '<ul class="pull-right breadcrumb">';
+        for ($x = 1; $x <= $segmentCount; $x++) {
+            $path .= $this->CI->uri->segment($x) . '/';
+            $label = $this->CI->uri->segment($x);
+            $label = $this->filename2Eng($label);
+            if ($x == $segmentCount) {
+                $out .= '<li class="active">' . $label . '</li>' . "\n";
+            } else {
+                $out .= '<li><a href="' . $path . '">' . $label . '</a></li>' . "\n";
+            }
+        }
+        $out .= '<ul>';
+        return $out . "\n";
+    }
+
+    public function filename2Eng($filename)
+    {
+        //@TODO check if in database
+        $out = str_replace('-', ' ', $filename);
+        $out = str_replace('_', ' ', $out);
+        $out = ucwords($out);
+        return $out;
+    }
+
 }
 
 /* End of file Stencil.php */ 

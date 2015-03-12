@@ -119,34 +119,6 @@ if (!function_exists('addViewPort'))
 	}
 }
 
-if (!function_exists('addAppleMobile'))
-{
-	function addAppleMobile()
-	{
-        $CI =& get_instance();
-        $siteName = $CI->config->item('site-name');
-        $style = $CI->config->item('web-app-status-bar-style');
-
-		return '<meta name="apple-mobile-web-app-capable" content="yes">' . "\n\t" .
-            '<meta name="apple-mobile-web-app-status-bar-style" content="' . $style . '">' . "\n\t" .
-            '<meta name="mobile-web-app-capable" content="yes">' . "\n\t" .
-            '<meta name="apple-mobile-web-app-title" content="' . $siteName . '">' . "\n";
-	}
-}
-
-if (!function_exists('addDescription'))
-{
-    function addDescription()
-    {
-        $CI =& get_instance();
-        $CI->load->library('stencil');
-        $description = $CI->stencil->getDescription();
-        $author = $CI->config->item('author-name');
-        return '<meta name="description" content="' . $description . '">' . "\n\t" .
-        '<meta name="author" content="' . $author . '">' . "\n";
-    }
-}
-
 if (!function_exists('addMobile'))
 {
     function addMobile()
@@ -155,76 +127,6 @@ if (!function_exists('addMobile'))
             '<meta name="HandheldFriendly" content="True">' . "\n\t" .
             '<meta name="MobileOptimized" content="320">' . "\n";
     }
-}
-
-if (!function_exists('addGeo'))
-{
-    function addGeo()
-    {
-        $CI =& get_instance();
-        $CI->load->library('stencil');
-        $title = $CI->stencil->getTitle();
-        return '<meta name="geo.position" content="-27.68278;152.91278">' . "\n\t" .
-        '<meta name="geo.placename" content="Springfield Lakes, Australia">' . "\n\t" .
-        '<meta name="geo.region" content="AU">' . "\n\t" .
-        '<meta name="ICBM" content="-27.68278, 152.91278">' . "\n\t" .
-        '<meta name="DC.title" content="' . $title . '">' . "\n";
-    }
-}
-
-
-if (!function_exists('addSeo'))
-{
-    function addSeo()
-    {
-        $CI =& get_instance();
-        $siteName = $CI->config->item('site-name');
-        $authorUrl = $CI->config->item('author-url');
-        $publisherUrl = $CI->config->item('publisher-url');
-        $siteTwitter = $CI->config->item('site-twitter');
-        $creatorTwitter = $CI->config->item('creator-twitter');
-
-        $CI->load->library('stencil');
-        $seoTitle = $CI->stencil->getSEOTitle();
-        $seoDescription = $CI->stencil->getSEODescription();
-        $seoImage = $CI->stencil->getSEOImage();
-        $seoURL = $CI->stencil->getSEOUrl();
-
-        return '<link rel="author" href="' . $authorUrl . '" />' . "\n\t" .
-            '<link rel="publisher" href="' . $publisherUrl . '" />' . "\n\t" .
-            '<meta itemprop="name" content="' . $seoTitle . '" />' . "\n\t" .
-            '<meta itemprop="description" content="' . $seoDescription . '" />' . "\n\t" .
-            '<meta itemprop="image" content="' . $seoImage . '}" />' . "\n\t" .
-            '<meta property="og:title" content="' . $seoTitle . '" />' . "\n\t" .
-            '<meta property="og:type" content="website" />' . "\n\t" .
-            '<meta property="og:url" content="' . $seoURL . '" />' . "\n\t" .
-            '<meta property="og:image" content="' . $seoImage . '" />' . "\n\t" .
-            '<meta property="og:description" content="' . $seoDescription . '" />' . "\n\t" .
-            '<meta property="og:site_name" content="' .$siteName . '" />' . "\n\t" .
-            '<meta property="og:locale" content="en_AU" />' . "\n\t" .
-            '<meta name="twitter:card" content="summary" />' . "\n\t" .
-            '<meta name="twitter:site" content="' . $siteTwitter . '" />' . "\n\t" .
-            '<meta name="twitter:title" content="' . $seoTitle . '" />' . "\n\t" .
-            '<meta name="twitter:description" content="' . $seoDescription . '" />' . "\n\t" .
-            '<meta name="twitter:image" content="' . $seoImage . '" />' . "\n\t" .
-            '<meta name="twitter:url" content="' . $seoURL . '" />' . "\n\t" .
-            '<meta name="twitter:creator" content="' . $creatorTwitter . '" />' . "\n";
-    }
-}
-
-if (!function_exists('addWindowsTile'))
-{
-	function addWindowsTile()
-	{
-        $CI =& get_instance();
-        $title = $CI->config->item('windows-title-name');
-        $image = base_url() . $CI->config->item('windows-title-image');
-        $colour = $CI->config->item('windows-title-colour');
-
-        return '<meta name="application-name" content="' . $title  . '">' . "\n\t" .
-            '<meta name="msapplication-TileImage" content="' .  $image . '">' . "\n\t" .
-            '<meta name="msapplication-TileColor" content="' . $colour . '">' . "\n";
-	}
 }
 
 if (!function_exists('addFavicons'))
@@ -350,52 +252,6 @@ if (!function_exists('addOldIEJS'))
         $out .= "\t\t" . '<script src="' . base_url() . 'plugins/respond.js"></script>' . "\n";
         $out .= "\t\t" . '<script src="' . base_url() . 'plugins/html5shiv.js"></script>' . "\n";
         $out .= "\t" . '<![endif]-->' . "\n";
-        return $out;
-    }
-}
-
-if (!function_exists('addH1'))
-{
-    function addH1()
-    {
-        $CI =& get_instance();
-        $CI->load->library('stencil');
-        $h1 = $CI->stencil->getH1();
-        //@TODO Add class
-        return '<h1>' . $h1 . '</h1>' . "\n";
-    }
-}
-
-if (!function_exists('addBreadcrumb'))
-{
-    function addBreadcrumb()
-    {
-        $CI =& get_instance();
-        $segmentCount = count(($CI->uri->segments));
-        $path = '/';
-        $out = '<ul class="pull-right breadcrumb">';
-        for ($x = 1; $x <= $segmentCount; $x++) {
-            $path .= $CI->uri->segment($x) . '/';
-            $label = $CI->uri->segment($x);
-            $label = filename2Eng($label);
-            if ($x == $segmentCount) {
-                $out .= '<li class="active">' . $label . '</li>' . "\n";
-            } else {
-                $out .= '<li><a href="' . $path . '">' . $label . '</a></li>' . "\n";
-            }
-        }
-        $out .= '<ul>';
-        return $out . "\n";
-    }
-}
-
-if (!function_exists('filename2Eng')) {
-    function filename2Eng($filename)
-    {
-        //@TODO check if in database
-        $out = str_replace('-', ' ', $filename);
-        $out = str_replace('_', ' ', $out);
-        $out = ucwords($out);
         return $out;
     }
 }
