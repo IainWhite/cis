@@ -29,10 +29,9 @@ echo 'MySQL v' .  $this->stencil->getVersion('MySQL') . '<br>';
 
 ?>
 
-<?php //echo addCss('prism/prism-coy.css', 'assets/plugins/'); ?>
-<?php //echo addCss('prism/prism-line-numbers.css', 'assets/plugins/'); ?>
-<?php echo addCss('prism/prism.css', 'assets/plugins/'); ?>
-<pre class="line-numbers" data-src="/assets/code/php.txt"></pre>
+<?php echo addCss('prism/prism-coy.css', 'assets/plugins/'); ?>
+<?php echo addCss('prism/prism-line-numbers.css', 'assets/plugins/'); ?>
+<pre class="line-numbers" data-src="/assets/code/php.php"></pre>
 <?php echo addJs('prism/prism.js', 'assets/plugins/'); ?>
 
 <hr>
