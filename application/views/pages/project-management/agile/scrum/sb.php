@@ -26,8 +26,14 @@ echo 'PHP v' .  $this->stencil->getVersion('PHP') . '<br>';
 echo 'Zend v' .  $this->stencil->getVersion('Zend') . '<br>';
 echo 'PostgreSQL v' .  $this->stencil->getVersion('PostgreSQL') . '<br>';
 echo 'MySQL v' .  $this->stencil->getVersion('MySQL') . '<br>';
+
 ?>
 
+<?php //echo addCss('prism/prism-coy.css', 'assets/plugins/'); ?>
+<?php //echo addCss('prism/prism-line-numbers.css', 'assets/plugins/'); ?>
+<?php echo addCss('prism/prism.css', 'assets/plugins/'); ?>
+<pre class="line-numbers" data-src="/assets/code/php.txt"></pre>
+<?php echo addJs('prism/prism.js', 'assets/plugins/'); ?>
+
 <hr>
-{'10BASE5'|helper:'page':'headline'}
 [END PAGE]

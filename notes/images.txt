@@ -24,3 +24,18 @@ M PC 992 x 559
 T Tablet portrait 768 x 443
 P Phone portrait 480 x 271
 
+Directory Structure
+assets/images
+	assets/images/bg						Backgrounds
+		assets/images/bg/blur				Blurred backgrounds
+		assets/images/bg/patterns			Background patterns
+	assets/images/icons						Icons
+	assets/images/page						Images for pages
+	assets/images/sites						Site screen shots
+	assets/images/h							Random Horizontal
+	assets/images/v							Random Vertical
+	assets/images/meta						Images for Meta data / SEO
+	assets/images/headshots					People
+	assets/images/iain-white				Me
+	assets/images/logos						Company / Software logos
+	
