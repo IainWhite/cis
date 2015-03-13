@@ -312,6 +312,7 @@ class Stencil {
                 {
                     $v = $row->version;
                 }
+                $query->free_result();
                 return $v;
                 break;
         }
@@ -488,7 +489,7 @@ class Stencil {
     foreach ($query->result() as $row)
     {
         $eng = $row->eng;
-    }
+    }$query->free_result();
     return $eng;
     }
 
@@ -501,6 +502,7 @@ class Stencil {
         {
             $class = $row->class;
         }
+        $query->free_result();
         if (!$class) {
             switch ($this->cat) {
                 case 'home' :
@@ -542,6 +544,91 @@ class Stencil {
         $out = ' class ="pull-left header-icon ' . $class . '"';
 
         return $out;
+    }
+
+    public function sanitizeFileName($text)
+    {
+        $fileName = NULL;
+        // Special case page name to fileName
+        $sql = "SELECT filename FROM wd_file_eng WHERE eng = '" . $text . "';";
+        $query = $this->CI->db->query($sql);
+        foreach ($query->result() as $row)
+        {
+            $fileName = $row->filename;
+        }
+        $query->free_result();
+        if (!$fileName) {
+            $fileName = strtolower($text);
+        }
+        $out = preg_replace("/[^a-z0-9]+/i", '-', $fileName);
+        return $out;
+    }
+
+    public function addLink($text, $path = '', $title = NULL, $full = FALSE)
+    {
+        if (!$title) {
+            $title = $text;
+        }
+        $fileName = $this->sanitizeFileName($text);
+
+        switch (strtoupper($path)) {
+            case 'WD':
+                $path = 'web-development';
+                break;
+            case 'IW':
+                $path = 'iain-white';
+                break;
+            case 'IT':
+                $path = 'it';
+                break;
+            case 'PM':
+                $path = 'project-management';
+                break;
+            case 'P':
+                $path = 'people';
+                break;
+            case 'C':
+                $path = 'companies';
+                break;
+            case 'B':
+                $path = 'books';
+                break;
+            case 'L':
+                $path = 'languages';
+                break;
+            case 'MD':
+                $path = 'mobile-development';
+                break;
+        }
+        if ($full) {
+            $path = base_url() . $path;
+        } else {
+            $path = '/' . $path;
+        }
+        $path = $path . '/' . $fileName;
+        return '<a href="' . $path . '" title="' . $title . '">' . $text . '</a>';
+    }
+
+    public function addExternalLink($text, $path, $title = NULL)
+    {
+        if (!$title) {
+            $title = $text;
+        }
+        return '<a href="' . $path . '" rel="external" title="' . $title . '">' . $text . '</a>';
+    }
+
+    public function addWikiLink($text, $page = NULL)
+    {
+        if (!$page) {
+            $page = $text;
+        }
+        return '<a href="http://en.wikipedia.org/wiki/' . $page . '" rel="external" title="Wikipedia ' . $text . '">Wikipedia entry for ' . $text . '</a>';
+    }
+
+    public function addRFCLink($rfcNum)
+    {
+
+        return '<a href="http://tools.ietf.org/html/rfc' . $rfcNum . '" rel="external" title="RFC ' . $rfcNum . '">RFC ' . $rfcNum . '</a>';
     }
 
 }

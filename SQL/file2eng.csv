@@ -1,395 +1,395 @@
-10base5, 10BASE5
-86-dos, 86-DOS
-acid, ACID
-actionscript, ActionScript
-activex, ActiveX
-adwords, AdWords
-ahah, AHAH
-aim, AIM
-air, AIR
-ajax, AJAX
-algol-60, ALGOL 60
-amd, AMD
-amstrad-pc1512, Amstrad PC1512
-amstrad-pcw, Amstrad PCW
-angular-js, Angular.js
-ansi, ANSI
-anti-pattern, Anti-pattern
-aol, AOL
-aol-browser, AOL Browser   
-apache-openoffice, Apache OpenOffice
-applescript, AppleScript
-archnet, ARCNET
-arcnet, ARCNET
-argouml, argoUML
-arm, ARM
-arm-architecture, ARM Architecture
-arpanet, ARPANET
-ascii, ASCII
-ascii-table, ASCII Table
-asl, ASL
-asp, ASP
-at, AT
-autocad, AutoCAD
-awk, AWK
-aws, AWS
-back-end, Back-End
-backbone-js, Backbone.js
-backus–naur-form, Backus–Naur Form
-basic, BASIC
-basica, BASICA
-bbc-basic, BBC BASIC
-bbc-domesday-project, BBC Domesday Project
-bbc-micro, BBC Micro
-bcfl, BCFL
-bcpl, BCPL
-bdd, BDD
-beos, BeOS
-bisl, BiSL
-bootstrap, BootStrap
-borland-c-plus-plus, Borland C++
-brooks-s-law, Brooks\'s Law
-c-plus-plus, C++
-c-plus-plus-builder, C++Builder
-c-sharp, C#
-cad, CAD
-cakephp, CakePHP
-cap-theorem, CAP Theorem
-centos, CentOS
-cern, CERN
-cfml, CFML
-cga, CGA
-cgi, CGI
-chili-soft, Chili!Soft
-chili-soft-asp, Chili!Soft ASP
-cli, CLI
-cmm, CMM
-cms, CMS
-cmyk, CMYK
-cobalt-raq, Cobalt RaQ
-cobol, COBOL
-coffeescript, CoffeeScript
-coldfusion, ColdFusion
-colorzilla, ColorZilla
-conway-s-law, Conway\'s Law
-coreldraw, CorelDraw
-cp-m, CP/M
-cp-m-86, CP/M-86
-cpl, CPL
-cpu, CPU
-crc-cards, CRC Cards
-crud, CRUD
-csnet, CSNET
-csrf, CSRF
-css, CSS
-css-3, CSS-3
-csv, CSV
-cunningham-s-law, Cunningham\'s Law
-curl, cURL
-cv, CV
-cvs, CVS
-dba, DBA
-dbase, dBase
-dbms, DBMS
-dcl, DCL
-dec, DEC
-dec-rdb, DEC RDB
-dhcp, DHCP
-dhtml, DHTML
-directx, DirectX
-dll, DLL
-dns, DNS
-dom, DOM
-dom-inspector, DOM Inspector
-dos, DOS
-dot-com-bubble, Dot-com Bubble
-dot-net-framework, .NET Framework
-dotnet, .NET
-dotnet-framework, .Net Framework
-dr-dos, DR-DOS
-dry, DRY
-dynatrace, dynaTrace
-e-commerce, E-commerce
-ebay, eBay
-ecmascript, ECMAScript
-edi, EDI
-eee-pc, Eee PC
-ega, EGA
-error, Page Not Found
-fileMaker-pro, FileMaker Pro
-foss, FOSS
-fouc, FOUC
-foxpro, FoxPro
-freebsd, FreeBSD
-freehand, FreeHand
-front-end, Front-End
-ftp, FTP
-gdi, GDI
-gem, GEM
-geos, GEOS
-gimp, GIMP
-gof, GoF
-google-plus, Google+
-gtm, GTM
-gui, GUI
-gw-basic, GW-BASIC
-gwt, GWT
-hewlett-packard, Hewlett-Packard
-hofstadter-s-law, Hofstadter\'s Law
-hsl, HSL
-hsv, HSV
-html, HTML
-html5, HTML5
-htmlunit, HTMLUnit
-http, HTTP
-iana, IANA
-ibm, IBM
-ibm-db2, IBM DB2
-ibm-notes, IBM Notes
-ibm-pc, IBM PC
-ibm-pc-compatible, IBM PC Compatible
-icann, ICANN
-ide, IDE
-ie-55, IE 5.5
-ie, IE
-ie1, IE1
-ie10, IE10
-ie11, IE11
-ie2, IE2
-ie3, IE3
-ie4, IE4
-ie5, IE5
-ie6, IE6
-ie7, IE7
-ie8, IE8
-ie9, IE9
-iec, IEC
-ieee, IEEE
-ietf, IETF
-iis, IIS
-imap, IMAP
-interbase, InterBase
-invest, INVEST
-ios, iOS
-ip, IP
-ip-address, IP Address
-ipad, iPad
-iphone, iPhone
-iso, ISO
-isp, ISP
-it, IT
-it-service-management, IT Service Management
-itil, ITIL
-java-me, Java ME
-javascript, JavaScript
-javascript-engine, JavaScript Engine
-javascriptcore, JavaScriptCore
-javascriptmvc, JavaScriptMVC
-jdbc, JDBC
-jmeter, jMeter
-jquery, jQuery
-jquery-ui, jQuery UI
-jscript, JScript
-jslint, JSLint
-json, JSON
-jsp, JSP
-jsss, JSSS
-junit, JUnit
-jvm, JVM
-kde, KDE
-khtml, KHTML
-kjs, KJS
-lamp, LAMP
-lan, LAN
-latex, LaTeX
-less, LESS
-linkedin, LinkedIn
-linus-s-law, Linus\'s Law
-lotus-1-2-3, Lotus 1-2-3
-lotus-smartsuite, Lotus SmartSuite
-mac-os, Mac OS
-macwww, MacWWW
-mariadb, MariaDB
-mark-up, Mark-Up
-mda, MDA
-mediawiki, MediaWiki
-mfc, MFC
-mhtml, MHTML
-microsoft-frontpage, Microsoft FrontPage
-microsoft-powerpoint, Microsoft PowerPoint
-mime, MIME
-mongodb, MongoDB
-moore-s-law, Moore\'s Law
-mos, MOS
-moscow-method, MoSCoW Method
-ms-access, MS Access
-ms-communicator, MS Communicator
-ms-dos, MS-DOS
-ms-lync, MS Lync
-ms-office, MS Office
-ms-sqlserver, MS SQLServer
-ms-works, MS Works
-mumps, MUMPS
-mysql, MySQL
-mysql-workbench, MySQL Workbench
-netware, NetWare
-newsql, NewSQL
-next, NeXT
-nextstep, NeXTSTEP
-nntp, NNTP
-node-js, Node.js
-nosql, NoSQL
-notepad-plus-plus, Notepad++
-nsfnet, NSFNET
-oauth, oAuth
-odbc, ODBC
-oem, OEM
-ole, OLE
-oop, OOP
-openoffice-dot-org, OpenOffice.org
-os, O/S
-os-2, OS/2
-os-x, OS X
-osi-model, OSI Model
-pagerank, PageRank
-paint-dot-net, Painr.Net
-paint-net, Paint.Net
-paintshop-pro, PaintShop Pro
-paypal, PayPal
-pc, PC
-pc-dos, PC-DOS
-pc-tools, PC Tools
-pdca, PDCA
-pei-yuan-wei, Pei-Yuan Wei
-perlscript, PerlScript
-pert, PERT
-pgc, PGC
-php, PHP
-phpdocumenter, PHPDocumenter
-phpunit, PHPUnit
-pop, POP
-pop3, POP3
-postgresql, PostgreSQL
-postscript, PostScript
-powerbasic, PowerBASIC
-powerpc, PowerPC
-privacypolicy, Privacy Policy
-ps-2, PS/2
-putty, PuTTY
-qbasic, QBasic
-quickbasic, QuickBASIC
-raci, RACI
-rad, RAD
-rdbm, RDBM
-rdbms, RDBMS
-rdp, RDP
-rest-api, REST API
-resume, R&eacute;sum&eacute;
-rfc, RFC
-rgb, RGB
-risc, RISC
-rss, RSS
-rxjava, RxJava
-rxscala, RxScala
-samba, SAMBA
-sdk, SDK
-sdlc, SDLC
-seo, SEO
-sftp, SFTP
-sgml, SGML
-slac, SLAC
-smart, SMART
-smil, SMIL
-smtp, SMTP
-solid, SOLID
-sparc, SPARC
-sparcstation, SPARCstation
-spidermonkey, SpiderMonkey
-sql, SQL
-sqlite, SQLite
-sqlserver, SQLServer
-ssh, SSH
-ssi, SSI
-staroffice, StarOffice
-sun-raq, Sun RaQ
-sunos, SunOS
-svg, SVG
-svga, SVGA
-svn, SVN
-swot, SWOT
-t-sql, T-SQL
-tcp, TCP
-tcp-ip, TCP/IP
-tdd, TDD
-testdox, TestDox
-tetf, IETF
-tex, TeX
-tim-berners-lee, Tim Berners-Lee
-tiny-mce, Tiny MCE
-tpc, TPC
-turbo-c-plus-plus, Turbo C++
-udp, UDP
-ui, UI
-uml, UML
-uncol, UNCOL
-uucp, UUCP
-ux, UX
-vax, VAX
-vax-basic, VAX BASIC
-vb-net, VB.NET
-vba, VBA
-vbscript, VBScript
-vcl, VCL
-vga, VGA
-violawww, ViolaWWW
-virtual-box, Virtual-box
-visicalc, VisiCalc
-visual-c-plus-plus, Visual C++
-visual-c-sharp, Visual C#
-visual-foxpro, Visual FoxPro
-vms, VMS
-vpn, VPN
-vrml, VRML
-w3c, W3C
-wai, WAI
-wamp, WAMP
-wan, WAN
-wap, WAP
-wbs, WBS
-web-2-0, Web 2.0
-webkit, WebKit
-wep, WEP
-wi-fi, Wi-Fi
-wikiwikiweb, WikiWikiWeb
-wimp, WIMP
-windows-api, Windows API
-windows-me, Windows ME
-windows-nt, Windows NT
-windows-virtual-pc, Windows Virtual-PC
-windows-xp, Windows XP
-wintel, WinTel
-wordpad, WordPad
-wordperfect, WordPerfect
-wordstar, WordStar
-worldpay, WorldPay
-wpa, WPA
-wps, WPS
-www, WWW
-wysiwyg, WYSIWYG
-x86, x86
-xhtml, XHTML
-xml, XML
-xmlhttprequest, XMLHttpRequest
-xmpp, XMPP
-xp, XP
-xsrf, XSRF
-xss, XSS
-xt, XT
-xul, XUL
-y2k, Y2K
-yahoo-, Yahoo!
-yaml, YAML
-youtube, YouTube
-yql, YQL
-yslow, ySlow
-yui, YUI
+10base5,10BASE5
+86-dos,86-DOS
+acid,ACID
+actionscript,ActionScript
+activex,ActiveX
+adwords,AdWords
+ahah,AHAH
+aim,AIM
+air,AIR
+ajax,AJAX
+algol-60,ALGOL 60
+amd,AMD
+amstrad-pc1512,Amstrad PC1512
+amstrad-pcw,Amstrad PCW
+angular-js,Angular.js
+ansi,ANSI
+anti-pattern,Anti-pattern
+aol,AOL
+aol-browser,AOL Browser   
+apache-openoffice,Apache OpenOffice
+applescript,AppleScript
+archnet,ARCNET
+arcnet,ARCNET
+argouml,argoUML
+arm,ARM
+arm-architecture,ARM Architecture
+arpanet,ARPANET
+ascii,ASCII
+ascii-table,ASCII Table
+asl,ASL
+asp,ASP
+at,AT
+autocad,AutoCAD
+awk,AWK
+aws,AWS
+back-end,Back-End
+backbone-js,Backbone.js
+backus–naur-form,Backus–Naur Form
+basic,BASIC
+basica,BASICA
+bbc-basic,BBC BASIC
+bbc-domesday-project,BBC Domesday Project
+bbc-micro,BBC Micro
+bcfl,BCFL
+bcpl,BCPL
+bdd,BDD
+beos,BeOS
+bisl,BiSL
+bootstrap,BootStrap
+borland-c-plus-plus,Borland C++
+brooks-s-law,Brooks\'s Law
+c-plus-plus,C++
+c-plus-plus-builder,C++Builder
+c-sharp,C#
+cad,CAD
+cakephp,CakePHP
+cap-theorem,CAP Theorem
+centos,CentOS
+cern,CERN
+cfml,CFML
+cga,CGA
+cgi,CGI
+chili-soft,Chili!Soft
+chili-soft-asp,Chili!Soft ASP
+cli,CLI
+cmm,CMM
+cms,CMS
+cmyk,CMYK
+cobalt-raq,Cobalt RaQ
+cobol,COBOL
+coffeescript,CoffeeScript
+coldfusion,ColdFusion
+colorzilla,ColorZilla
+conway-s-law,Conway\'s Law
+coreldraw,CorelDraw
+cp-m,CP/M
+cp-m-86,CP/M-86
+cpl,CPL
+cpu,CPU
+crc-cards,CRC Cards
+crud,CRUD
+csnet,CSNET
+csrf,CSRF
+css,CSS
+css-3,CSS-3
+csv,CSV
+cunningham-s-law,Cunningham\'s Law
+curl,cURL
+cv,CV
+cvs,CVS
+dba,DBA
+dbase,dBase
+dbms,DBMS
+dcl,DCL
+dec,DEC
+dec-rdb,DEC RDB
+dhcp,DHCP
+dhtml,DHTML
+directx,DirectX
+dll,DLL
+dns,DNS
+dom,DOM
+dom-inspector,DOM Inspector
+dos,DOS
+dot-com-bubble,Dot-com Bubble
+dot-net-framework,.NET Framework
+dotnet,.NET
+dotnet-framework,.Net Framework
+dr-dos,DR-DOS
+dry,DRY
+dynatrace,dynaTrace
+e-commerce,E-commerce
+ebay,eBay
+ecmascript,ECMAScript
+edi,EDI
+eee-pc,Eee PC
+ega,EGA
+error,Page Not Found
+fileMaker-pro,FileMaker Pro
+foss,FOSS
+fouc,FOUC
+foxpro,FoxPro
+freebsd,FreeBSD
+freehand,FreeHand
+front-end,Front-End
+ftp,FTP
+gdi,GDI
+gem,GEM
+geos,GEOS
+gimp,GIMP
+gof,GoF
+google-plus,Google+
+gtm,GTM
+gui,GUI
+gw-basic,GW-BASIC
+gwt,GWT
+hewlett-packard,Hewlett-Packard
+hofstadter-s-law,Hofstadter\'s Law
+hsl,HSL
+hsv,HSV
+html,HTML
+html5,HTML5
+htmlunit,HTMLUnit
+http,HTTP
+iana,IANA
+ibm,IBM
+ibm-db2,IBM DB2
+ibm-notes,IBM Notes
+ibm-pc,IBM PC
+ibm-pc-compatible,IBM PC Compatible
+icann,ICANN
+ide,IDE
+ie-55,IE 5.5
+ie,IE
+ie1,IE1
+ie10,IE10
+ie11,IE11
+ie2,IE2
+ie3,IE3
+ie4,IE4
+ie5,IE5
+ie6,IE6
+ie7,IE7
+ie8,IE8
+ie9,IE9
+iec,IEC
+ieee,IEEE
+ietf,IETF
+iis,IIS
+imap,IMAP
+interbase,InterBase
+invest,INVEST
+ios,iOS
+ip,IP
+ip-address,IP Address
+ipad,iPad
+iphone,iPhone
+iso,ISO
+isp,ISP
+it,IT
+it-service-management,IT Service Management
+itil,ITIL
+java-me,Java ME
+javascript,JavaScript
+javascript-engine,JavaScript Engine
+javascriptcore,JavaScriptCore
+javascriptmvc,JavaScriptMVC
+jdbc,JDBC
+jmeter,jMeter
+jquery,jQuery
+jquery-ui,jQuery UI
+jscript,JScript
+jslint,JSLint
+json,JSON
+jsp,JSP
+jsss,JSSS
+junit,JUnit
+jvm,JVM
+kde,KDE
+khtml,KHTML
+kjs,KJS
+lamp,LAMP
+lan,LAN
+latex,LaTeX
+less,LESS
+linkedin,LinkedIn
+linus-s-law,Linus\'s Law
+lotus-1-2-3,Lotus 1-2-3
+lotus-smartsuite,Lotus SmartSuite
+mac-os,Mac OS
+macwww,MacWWW
+mariadb,MariaDB
+mark-up,Mark-Up
+mda,MDA
+mediawiki,MediaWiki
+mfc,MFC
+mhtml,MHTML
+microsoft-frontpage,Microsoft FrontPage
+microsoft-powerpoint,Microsoft PowerPoint
+mime,MIME
+mongodb,MongoDB
+moore-s-law,Moore\'s Law
+mos,MOS
+moscow-method,MoSCoW Method
+ms-access,MS Access
+ms-communicator,MS Communicator
+ms-dos,MS-DOS
+ms-lync,MS Lync
+ms-office,MS Office
+ms-sqlserver,MS SQLServer
+ms-works,MS Works
+mumps,MUMPS
+mysql,MySQL
+mysql-workbench,MySQL Workbench
+netware,NetWare
+newsql,NewSQL
+next,NeXT
+nextstep,NeXTSTEP
+nntp,NNTP
+node-js,Node.js
+nosql,NoSQL
+notepad-plus-plus,Notepad++
+nsfnet,NSFNET
+oauth,oAuth
+odbc,ODBC
+oem,OEM
+ole,OLE
+oop,OOP
+openoffice-dot-org,OpenOffice.org
+os,O/S
+os-2,OS/2
+os-x,OS X
+osi-model,OSI Model
+pagerank,PageRank
+paint-dot-net,Painr.Net
+paint-net,Paint.Net
+paintshop-pro,PaintShop Pro
+paypal,PayPal
+pc,PC
+pc-dos,PC-DOS
+pc-tools,PC Tools
+pdca,PDCA
+pei-yuan-wei,Pei-Yuan Wei
+perlscript,PerlScript
+pert,PERT
+pgc,PGC
+php,PHP
+phpdocumenter,PHPDocumenter
+phpunit,PHPUnit
+pop,POP
+pop3,POP3
+postgresql,PostgreSQL
+postscript,PostScript
+powerbasic,PowerBASIC
+powerpc,PowerPC
+privacypolicy,Privacy Policy
+ps-2,PS/2
+putty,PuTTY
+qbasic,QBasic
+quickbasic,QuickBASIC
+raci,RACI
+rad,RAD
+rdbm,RDBM
+rdbms,RDBMS
+rdp,RDP
+rest-api,REST API
+resume,R&eacute;sum&eacute;
+rfc,RFC
+rgb,RGB
+risc,RISC
+rss,RSS
+rxjava,RxJava
+rxscala,RxScala
+samba,SAMBA
+sdk,SDK
+sdlc,SDLC
+seo,SEO
+sftp,SFTP
+sgml,SGML
+slac,SLAC
+smart,SMART
+smil,SMIL
+smtp,SMTP
+solid,SOLID
+sparc,SPARC
+sparcstation,SPARCstation
+spidermonkey,SpiderMonkey
+sql,SQL
+sqlite,SQLite
+sqlserver,SQLServer
+ssh,SSH
+ssi,SSI
+staroffice,StarOffice
+sun-raq,Sun RaQ
+sunos,SunOS
+svg,SVG
+svga,SVGA
+svn,SVN
+swot,SWOT
+t-sql,T-SQL
+tcp,TCP
+tcp-ip,TCP/IP
+tdd,TDD
+testdox,TestDox
+tetf,IETF
+tex,TeX
+tim-berners-lee,Tim Berners-Lee
+tiny-mce,Tiny MCE
+tpc,TPC
+turbo-c-plus-plus,Turbo C++
+udp,UDP
+ui,UI
+uml,UML
+uncol,UNCOL
+uucp,UUCP
+ux,UX
+vax,VAX
+vax-basic,VAX BASIC
+vb-net,VB.NET
+vba,VBA
+vbscript,VBScript
+vcl,VCL
+vga,VGA
+violawww,ViolaWWW
+virtual-box,Virtual-box
+visicalc,VisiCalc
+visual-c-plus-plus,Visual C++
+visual-c-sharp,Visual C#
+visual-foxpro,Visual FoxPro
+vms,VMS
+vpn,VPN
+vrml,VRML
+w3c,W3C
+wai,WAI
+wamp,WAMP
+wan,WAN
+wap,WAP
+wbs,WBS
+web-2-0,Web 2.0
+webkit,WebKit
+wep,WEP
+wi-fi,Wi-Fi
+wikiwikiweb,WikiWikiWeb
+wimp,WIMP
+windows-api,Windows API
+windows-me,Windows ME
+windows-nt,Windows NT
+windows-virtual-pc,Windows Virtual-PC
+windows-xp,Windows XP
+wintel,WinTel
+wordpad,WordPad
+wordperfect,WordPerfect
+wordstar,WordStar
+worldpay,WorldPay
+wpa,WPA
+wps,WPS
+www,WWW
+wysiwyg,WYSIWYG
+x86,x86
+xhtml,XHTML
+xml,XML
+xmlhttprequest,XMLHttpRequest
+xmpp,XMPP
+xp,XP
+xsrf,XSRF
+xss,XSS
+xt,XT
+xul,XUL
+y2k,Y2K
+yahoo-,Yahoo!
+yaml,YAML
+youtube,YouTube
+yql,YQL
+yslow,ySlow
+yui,YUI

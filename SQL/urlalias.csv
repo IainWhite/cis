@@ -1,110 +1,110 @@
-amstrad-pc1640, amstrad-pc1512
-apple-mac, apple-macintosh
-archimedes, acorn-archimedes
-assembler, assembly-language
-aws, amazon-web-services, aws
-bdd, behavior-driven-development
-browser, web-browser
-browsers, web-browser
-cat-5, category-5
-chrome, google-chrome
-cookies, cookie
-csrf, cross-site-request-forgery
-databases, database
-dba, database-administer
-dbms, database
-e-mail, email
-excel, microsoft-excel
-firefox, mozilla-firefox
-first-browser-war, browser-wars
-fonts, font
-gof, gang-of-four
-gtm, google-tag-manager
-ibm-compatible-pc, ibm-pc-compatible
-ibm-notes, lotus-notes
-ibm-pc, ibm-personal-computer
-ibm-pc-compatibles, ibm-pc-compatible
-ie, internet-explorer
-ie1, internet-explorer-1
-ie10, internet-explorer-10
-ie11, internet-explorer-11
-ie2, internet-explorer-2
-ie3, internet-explorer-3
-ie4, internet-explorer-4
-ie5, internet-explorer-5
-ie6, internet-explorer-6
-ie7, internet-explorer-7
-ie8, internet-explorer-8
-ie9, internet-explorer-9
-imap4, imap
-internet-protocol-suite, tcp-ip
-ip-addresses, ip-address
-iss, internet-information-services
-java-applets, java-applet
-mac, apple-macintosh
-macintosh, apple-macintosh
-mozilla, mozilla-foundation
-ms-acces, microsoft-access
-ms-communicator, microsoft-communicator
-ms-excel, microsoft-excel
-ms-lync, microsoft-lync
-ms-office, microsoft-office
-ms-outlook, microsoft-outlook
-ms-powerpoint, microsoft-powerpoint
-ms-sqlserver, microsoft-sqlserver
-ms-windows, microsoft-windows
-ms-word, microsoft-word
-navigator, netscape
-netscape-communicator, netscape
-netscape-navigator, netscape
-outlook, microsoft-outlook
-pop, pop3
-powerpoint, microsoft-powerpoint
-revision-control, version-control
-second-browser-war, browser-wars
-source-control, version-control
-sqlserver, microsoft-sqlserver
-svn, subversion
-tdd, test-driven-development
-thunderbird, mozilla-thunderbird
-typefaces, typeface
-ui, user-interface, ui
-ux, user-experience
-visual-studio, microsoft-visual-studio
-w3c, world-wide-web-consortium
-web, world-wide-web
-web-browsers, web-browser
-web-servers web-server
-windows, microsoft-windows
-word, microsoft-word
-www, world-wide-web
-xbase, dbase
-xmlhttprequests, xmlhttprequest
-xsrf, cross-site-request-forgery
-xss, cross-site-scripting
-cms, content-management-system
-apc, alternative-php-cache
-ahah, asynchronous-html-over-http
-azure, microsoft-azure
-ms-azure, microsoft-azure
-blogs, blog
-bbs, bulletin-board-system
-cgi, common-gateway-interface
-crm, customer-relationship-management
-cpan, comprehensive-perl-archive-network
-orm, object-relational-mapper
-iis, internet-information-services
-isp, internet-service-provider
-jsss, javaScript-style-sheets
-layout-engines, layout-engine
-nntp, network-news-transfer-protocol
-rdp, remote-desktop-protocol
-asl, application-services-library
-bisl, business-information-services-library
-cmm, capability-maturity-model
-rad, rapid-application-development 
-itil, information-technology-infrastructure-library
-bbd, behaviour-driven-development
-os, operating-system
-operating systems, operating-system
-o-s, operating-system
+amstrad-pc1640,amstrad-pc1512
+apple-mac,apple-macintosh
+archimedes,acorn-archimedes
+assembler,assembly-language
+aws,amazon-web-services,aws
+bdd,behavior-driven-development
+browser,web-browser
+browsers,web-browser
+cat-5,category-5
+chrome,google-chrome
+cookies,cookie
+csrf,cross-site-request-forgery
+databases,database
+dba,database-administer
+dbms,database
+e-mail,email
+excel,microsoft-excel
+firefox,mozilla-firefox
+first-browser-war,browser-wars
+fonts,font
+gof,gang-of-four
+gtm,google-tag-manager
+ibm-compatible-pc,ibm-pc-compatible
+ibm-notes,lotus-notes
+ibm-pc,ibm-personal-computer
+ibm-pc-compatibles,ibm-pc-compatible
+ie,internet-explorer
+ie1,internet-explorer-1
+ie10,internet-explorer-10
+ie11,internet-explorer-11
+ie2,internet-explorer-2
+ie3,internet-explorer-3
+ie4,internet-explorer-4
+ie5,internet-explorer-5
+ie6,internet-explorer-6
+ie7,internet-explorer-7
+ie8,internet-explorer-8
+ie9,internet-explorer-9
+imap4,imap
+internet-protocol-suite,tcp-ip
+ip-addresses,ip-address
+iss,internet-information-services
+java-applets,java-applet
+mac,apple-macintosh
+macintosh,apple-macintosh
+mozilla,mozilla-foundation
+ms-acces,microsoft-access
+ms-communicator,microsoft-communicator
+ms-excel,microsoft-excel
+ms-lync,microsoft-lync
+ms-office,microsoft-office
+ms-outlook,microsoft-outlook
+ms-powerpoint,microsoft-powerpoint
+ms-sqlserver,microsoft-sqlserver
+ms-windows,microsoft-windows
+ms-word,microsoft-word
+navigator,netscape
+netscape-communicator,netscape
+netscape-navigator,netscape
+outlook,microsoft-outlook
+pop,pop3
+powerpoint,microsoft-powerpoint
+revision-control,version-control
+second-browser-war,browser-wars
+source-control,version-control
+sqlserver,microsoft-sqlserver
+svn,subversion
+tdd,test-driven-development
+thunderbird,mozilla-thunderbird
+typefaces,typeface
+ui,user-interface,ui
+ux,user-experience
+visual-studio,microsoft-visual-studio
+w3c,world-wide-web-consortium
+web,world-wide-web
+web-browsers,web-browser
+web-servers,web-server
+windows,microsoft-windows
+word,microsoft-word
+www,world-wide-web
+xbase,dbase
+xmlhttprequests,xmlhttprequest
+xsrf,cross-site-request-forgery
+xss,cross-site-scripting
+cms,content-management-system
+apc,alternative-php-cache
+ahah,asynchronous-html-over-http
+azure,microsoft-azure
+ms-azure,microsoft-azure
+blogs,blog
+bbs,bulletin-board-system
+cgi,common-gateway-interface
+crm,customer-relationship-management
+cpan,comprehensive-perl-archive-network
+orm,object-relational-mapper
+iis,internet-information-services
+isp,internet-service-provider
+jsss,javaScript-style-sheets
+layout-engines,layout-engine
+nntp,network-news-transfer-protocol
+rdp,remote-desktop-protocol
+asl,application-services-library
+bisl,business-information-services-library
+cmm,capability-maturity-model
+rad,rapid-application-development 
+itil,information-technology-infrastructure-library
+bbd,behaviour-driven-development
+os,operating-system
+operating systems,operating-system
+o-s,operating-system
