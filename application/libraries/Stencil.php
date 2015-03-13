@@ -444,8 +444,8 @@ class Stencil {
     public function addH1()
     {
         $h1 = $this->getH1();
-        //@TODO Add class
-        return '<h1>' . $h1 . '</h1>' . "\n";
+        $class = $this->getH1Class($h1);
+        return '<h1' . $class . '>' . $h1 . '</h1>' . "\n";
     }
 
     public function addBreadcrumb()
@@ -482,14 +482,66 @@ class Stencil {
 
     public function checkFileNameDb($filename)
     {
-        $eng = NULL;
-        $sql = "SELECT eng FROM wd_file_eng WHERE filename = '" . $filename . "';";
+    $eng = NULL;
+    $sql = "SELECT eng FROM wd_file_eng WHERE filename = '" . $filename . "';";
+    $query = $this->CI->db->query($sql);
+    foreach ($query->result() as $row)
+    {
+        $eng = $row->eng;
+    }
+    return $eng;
+    }
+
+    public function getH1Class($heading)
+    {
+        $class = NULL;
+        $sql = "SELECT class FROM wd_headers WHERE header = '" . $heading . "';";
         $query = $this->CI->db->query($sql);
         foreach ($query->result() as $row)
         {
-            $eng = $row->eng;
+            $class = $row->class;
         }
-        return $eng;
+        if (!$class) {
+            switch ($this->cat) {
+                case 'home' :
+                    $class = 'fa-paw';
+                    break;
+                case 'it' :
+                    $class = 'fa-desktop';
+                    break;
+                case 'project-management' :
+                    $class = 'fa-puzzle-piece';
+                    break;
+                case 'web-development' :
+                    $class = 'fa-globe';
+                    break;
+                case 'iain-white' :
+                    $class = 'fa-user';
+                    break;
+                case 'mobile-development' :
+                    $class = 'fa-android';
+                    break;
+                case 'people' :
+                    $class = 'fa-users';
+                    break;
+                case 'companies' :
+                    $class = 'fa-building';
+                    break;
+                case 'books' :
+                    $class = 'fa-book';
+                    break;
+                case 'languages' :
+                    $class = 'fa-file-code-o';
+                    break;
+                default :
+                    $class = 'fa-paw';
+                    break;
+            }
+        }
+
+        $out = ' class ="pull-left header-icon ' . $class . '"';
+
+        return $out;
     }
 
 }
