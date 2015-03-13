@@ -27,6 +27,15 @@ https://github.com/adriangonzales/codeigniter-kint
 https://github.com/lonnieezell/codeigniter-forensics
 https://github.com/dhrrgn/codeigniter-uhoh					Error handler, good, but invasive
 https://github.com/chemicaloliver/codeigniter-sitemaps
+http://php.quicoto.com/how-to-speed-up-codeigniter/
+http://dwij.co.in/mobile-os-detection-in-php-codeigniter/
+http://dwij.co.in/creating-timeago-function-in-php/
+http://digitizor.com/2011/12/05/codeigniter-mobile-browser/
+http://www.codeigniter.com/user_guide/libraries/user_agent.html
+http://ianlunn.co.uk/articles/referrer-specific-jquery-greeting/
+
+Image Util: https://imageoptim.com/
+
 
 Multiple links pointing to a page
 In controllers/pages.php

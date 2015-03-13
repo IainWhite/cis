@@ -11,3 +11,16 @@ images/favicons/favicon-120.png 	120x120
 images/favicons/favicon-152.png 	152x152
 images/favicons/favicon-196.png 	196x196
 images/startup.png 					320x460
+
+// ===================================================== //
+
+/images/category/name.type
+@2x
+@3x
+
+Image Size
+L Large PC 1382 x 778
+M PC 992 x 559
+T Tablet portrait 768 x 443
+P Phone portrait 480 x 271
+
