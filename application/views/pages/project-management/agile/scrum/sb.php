@@ -16,6 +16,11 @@ echo $this->stencil->addExternalLink('CodeIgniter', 'https://ellislab.com/codeig
 echo $this->stencil->addWikiLink('CodeIgniter') . '<br />';
 echo $this->stencil->addRFCLink('2468') . '<br />';
 
+echo $this->stencil->elapsedYears('01/02/2000') . '<br />';
+echo $this->stencil->elapsedYears('01/02/2000', TRUE) . '<br />';
+echo $this->stencil->elapsedYears('01/02/2000', FALSE, TRUE) . '<br />';
+echo $this->stencil->elapsedYears('01/02/2000', TRUE, TRUE) . '<br />';
+
 $this->stencil->slice('ss1');
 $this->stencil->sub('project-management/agile/scrum/sa', NULL, TRUE);
 echo $this->stencil->dumpStencil();
