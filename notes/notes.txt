@@ -12,6 +12,7 @@ http://www.codeigniter.com/user_guide/libraries/user_agent.html
 http://ianlunn.co.uk/articles/referrer-specific-jquery-greeting/
 
 Image Util: https://imageoptim.com/
+http://scottjehl.github.io/picturefill/
 
 
 Multiple links pointing to a page
