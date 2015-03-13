@@ -631,6 +631,13 @@ class Stencil {
         return '<a href="http://tools.ietf.org/html/rfc' . $rfcNum . '" rel="external" title="RFC ' . $rfcNum . '">RFC ' . $rfcNum . '</a>';
     }
 
+    public function addCodeSnippet($fileName)
+    {
+        $this->css('assets/plugins/prism/prism-coy.css');
+        $this->css('assets/plugins/prism/prism-line-numbers.css');
+        $this->js('assets/plugins/prism/prism.js');
+        return '<pre class="line-numbers" data-src="/assets/code/' . $fileName . '">Code Example</pre>' . "\n";
+    }
 }
 
 /* End of file Stencil.php */ 

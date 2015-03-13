@@ -9,8 +9,15 @@ if (!function_exists('addCss'))
 			return FALSE;
 		}
 
+        $assetRoot = $rootFolder;
+
 		if (!is_array($css))
 		{
+            if (preg_match('/^assets\//', $css)) {
+                $rootFolder = '';
+            } else {
+                $rootFolder = $assetRoot;
+            }
 			$file_type = (preg_match('/\.css$/i', $css) ? NULL : '.css');
 			$url = (!preg_match('#^www|^http|^//#', $css)) ? base_url($rootFolder . $css . $file_type) : $css;
 			return '<link rel="stylesheet" href="' . $url . '">' . "\n";
@@ -22,6 +29,11 @@ if (!function_exists('addCss'))
 			$tab = "\t";
 			foreach ($css as $item)
 			{
+                if (preg_match('/^assets\//', $item)) {
+                    $rootFolder = '';
+                } else {
+                    $rootFolder = $assetRoot;
+                }
 				if ($i == count($css) - 1) {
 					$tab = '';
 				}
@@ -43,8 +55,16 @@ if (!function_exists('addJs'))
 			return FALSE;
 		}
 
+        $assetRoot = $rootFolder;
+
+
 		if (!is_array($js))
 		{
+            if (preg_match('/^assets\//', $js)) {
+                $rootFolder = '';
+            } else {
+                $rootFolder = $assetRoot;
+            }
 			$file_type = (preg_match('/\.js$/i', $js) ? NULL : '.js');
 			$url = (!preg_match('#^www|^http|^//#', $js)) ? base_url($rootFolder . $js . $file_type) : $js;
 			return '<script src="' . $url . '"></script>' . "\n";
@@ -56,6 +76,11 @@ if (!function_exists('addJs'))
 			$tab = "\t";
 			foreach ($js as $item)
 			{
+                if (preg_match('/^assets\//', $item)) {
+                    $rootFolder = '';
+                } else {
+                    $rootFolder = $assetRoot;
+                }
 				if ($i == count($js) - 1) {
 					$tab = '';
 				}

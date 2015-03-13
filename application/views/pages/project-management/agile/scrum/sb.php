@@ -27,12 +27,8 @@ echo 'Zend v' .  $this->stencil->getVersion('Zend') . '<br>';
 echo 'PostgreSQL v' .  $this->stencil->getVersion('PostgreSQL') . '<br>';
 echo 'MySQL v' .  $this->stencil->getVersion('MySQL') . '<br>';
 
+echo $this->stencil->addCodeSnippet('php.php');
 ?>
-
-<?php echo addCss('prism/prism-coy.css', 'assets/plugins/'); ?>
-<?php echo addCss('prism/prism-line-numbers.css', 'assets/plugins/'); ?>
-<pre class="line-numbers" data-src="/assets/code/php.php"></pre>
-<?php echo addJs('prism/prism.js', 'assets/plugins/'); ?>
 
 <hr>
 [END PAGE]
