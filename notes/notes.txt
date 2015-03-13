@@ -1,31 +1,8 @@
-Sections / Categories
-X external
-R RFC
-M project-management
-	project-management/agile
-	project-management/agile/scrum
-W web-development
-	web-development/browsers
-	web-development/browsers/ie
-I it
-	it/software
-	it/hardware
-	it/hardware/cpu
-	it/databases
-	it/operating-systems
-	it/operating-systems/windows
-Y iain-white
-L languages
-P people
-C companies
-D definitions
-B books
-M mobile-development
 
 Links
 https://github.com/adriangonzales/codeigniter-kint
 https://github.com/lonnieezell/codeigniter-forensics
-https://github.com/dhrrgn/codeigniter-uhoh					Error handler, good, but invasive
+https://github.com/dhrrgn/codeigniter-uhoh									Error handler, good, but invasive
 https://github.com/chemicaloliver/codeigniter-sitemaps
 http://php.quicoto.com/how-to-speed-up-codeigniter/
 http://dwij.co.in/mobile-os-detection-in-php-codeigniter/
@@ -49,13 +26,7 @@ Functions
 X	registerTemplate($template, $funcName, $cat = FALSE, $css = FALSE, $js = FALSE)
 ?	useMore()
 ?	setCurLeval($leval)
-X	setDescription($desc)
 ?	doMore($template, $funcName, $type = NULL)
-X	addAsset($file, $funcName, $type = 'js', $cat = FALSE)
-	headline($title, $funcName, $pageTitle = NULL)
-	setBreadcrumb($crumb)
-	addBreadcrumb($cat = 'wd')
-	filename2Eng($filename, $fix = FALSE)
 	getHeadshot($name, $funcName, $imgSize = 's', $ext = 'jpg', $imgStyle = 'left')
 	getLogo($name, $funcName, $imgSize = 's', $ext = 'jpg', $imgStyle = 'left', $title=NULL)
 	getIcon($name, $funcName, $lib = NULL, $title = NULL, $imgStyle = 'none')
@@ -63,7 +34,6 @@ X	addAsset($file, $funcName, $type = 'js', $cat = FALSE)
 	addImage($name, $funcName, $ext = 'jpg', $imgStyle = 'left', $zoom = FALSE, $title = NULL, $showTitle = FALSE)   
 	getDefinitions($cat)
 	getTagCloud($cat, $funcName, $rand = FALSE, $limit = NULL)
-	getCode($file, $funcName, $type = '')
 
 	getMySQLVersionName()
 	getSoundBites($limit)
@@ -77,8 +47,8 @@ X	addAsset($file, $funcName, $type = 'js', $cat = FALSE)
 	addBook($id=NULL, $funcName, $type = NULL, $use = 'type', $num = 1)
 	addBookCover($id)
 	addBuyBook($id)
-	adminValueSet($name, $var)
-	addAdminInfo($id) 
+?	adminValueSet($name, $var)
+?	addAdminInfo($id) 
 	addRSS($feed, $num = 5, $cache = 30)
 
 -------
