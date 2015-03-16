@@ -1,4 +1,4 @@
-<h1>Admin Area</h1>
+<h1>Member Profile</h1>
 
 <?php
 
@@ -10,9 +10,9 @@ echo '<p><strong>Company:</strong> ' . $this->userData->company . ' <strong>Phon
 
 ?>
 
+
 <h2>Menu</h2>
 <ul>
     <li><a href="/logout"><i class="fa fa-sign-out color-red"></i> Logout</a></li>
-    <li><a href="/members"><i class="fa fa-users"></i> Member Area</a></li>
-    <li><a href="/admin/users"><i class="fa fa-users"></i> Members</a></li>
+    <?php echo '<li><a href="/members/edit_user/' . $this->userData->id .'"><i class="fa fa-pencil-square-o"></i> Edit</a></li>'; ?>
 </ul>

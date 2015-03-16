@@ -40,7 +40,14 @@
 
 $route['default_controller'] = 'pages';
 $route['404_override'] = 'pages';
+$route['login'] = 'auth/login';
+$route['logout'] = 'auth/logout';
+$route['admin/(:any)/(:any)'] = 'auth/$1/$2';
+$route['admin/(:any)'] = 'auth/$1';
 $route['admin'] = 'auth';
+$route['members/(:any)/(:any)'] = 'auth/$1/$2';
+$route['members/(:any)'] = 'auth/$1';
+$route['members'] = 'auth/members';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
