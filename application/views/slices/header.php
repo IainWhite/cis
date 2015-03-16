@@ -158,6 +158,15 @@
                             <li><a href="/about"><i class="fa fa-info-circle"></i> About</a></li>
                             <li><a href="/contact"><i class="fa fa-envelope-o"></i> Contact</a></li>
                             <li><a href="/sitemap"><i class="fa fa-sitemap"></i> Site Map</a></li>
+                            <?php
+                            if ($this->isLoggedIn) {
+                                if ($this->isAdmin) {
+                                    echo '<li><a href="/admin"><i class="fa fa-cogs color-red"></i> Admin</a></li>';
+                                }
+                                echo '<li><a href="/members"><i class="fa fa-users"></i> Members</a></li>';
+                                echo '<li><a href="/auth/logout"><i class="fa fa-sign-out pull-right color-red"></i> Logout</a></li>';
+                            }
+                            ?>
                             <li><a href="/privacy-policy"><i class="fa fa-file-text-o"></i> Privacy Policy</a></li>
                             <li><a href="/terms-and-conditions"><i class="fa fa-file-o"></i> Terms &amp; Conditions</a></li>
                         </ul>

@@ -40,7 +40,7 @@
 
 $route['default_controller'] = 'pages';
 $route['404_override'] = 'pages';
-
+$route['admin'] = 'auth';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
