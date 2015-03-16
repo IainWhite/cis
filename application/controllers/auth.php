@@ -70,8 +70,11 @@ class Auth extends MY_Controller {
 			if ($this->ion_auth->login($this->input->post('identity'), $this->input->post('password'), $remember)) {
 				// If the login is successful
 				$this->session->set_flashdata('message', $this->ion_auth->messages());
-                //@TODO if admin then admin else members
-				redirect('/admin', 'refresh');
+                if (!$this->ion_auth->is_admin()) {
+                    redirect('/admin', 'refresh');
+                } else {
+                    redirect('/members', 'refresh');
+                }
 			} else {
 				// If the login was un-successful
 				// Redirect them back to the login page
