@@ -1,4 +1,4 @@
-<h1><?php echo lang('change_password_heading');?></h1>
+<?php echo $this->stencil->setHeadline(lang('change_password_heading')); ?>
 
 <div id="infoMessage"><?php echo $message;?></div>
 

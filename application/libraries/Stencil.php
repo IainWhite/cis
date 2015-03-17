@@ -72,6 +72,11 @@ class Stencil {
         $this->isSub = FALSE;
         $this->views = array_merge($this->views, (array)$page);
         // Move here to set title etc
+        if (!is_null($data)) {
+            foreach ($data as $key => $value) {
+                $this->data[$key] = $value;
+            }
+        }
         $this->data['content'] = $this->CI->load->view('pages/' . $page, $this->data, TRUE) . "\n";
         $this->data['css'] = addCss($this->css);
         $this->data['meta'] = addMeta($this->meta);
@@ -102,10 +107,6 @@ class Stencil {
             $this->SEOImage = urlencode(base_url() . $this->CI->config->item('default-image'));
         }
         $this->data['body_class'] = 'controller-' . $this->controller . ' method-' . $this->method . ' page-' . $this->pageName;
-
-        if (!is_null($data))
-            foreach ($data as $key => $value)
-                $this->data[$key] = $value;
 
         foreach ($this->slice as $key => $value) {
             if (is_array($value)) {

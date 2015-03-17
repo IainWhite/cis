@@ -1,4 +1,4 @@
-<h1><?php echo lang('edit_group_heading');?></h1>
+<?php echo $this->stencil->setHeadline(lang('edit_group_heading')); ?>
 <p><?php echo lang('edit_group_subheading');?></p>
 
 <div id="infoMessage"><?php echo $message;?></div>

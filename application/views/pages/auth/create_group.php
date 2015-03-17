@@ -1,9 +1,9 @@
-<h1><?php echo lang('create_group_heading');?></h1>
+<?php echo $this->stencil->setHeadline(lang('create_group_heading')); ?>
 <p><?php echo lang('create_group_subheading');?></p>
 
 <div id="infoMessage"><?php echo $message;?></div>
 
-<?php echo form_open("auth/create_group");?>
+<?php echo form_open("/auth/create_group");?>
 
       <p>
             <?php echo lang('create_group_name_label', 'group_name');?> <br />

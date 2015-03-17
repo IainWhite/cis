@@ -1,9 +1,9 @@
-<h1><?php echo lang('login_heading');?></h1>
+<?php echo $this->stencil->setHeadline(lang('login_heading')); ?>
 <p><?php echo lang('login_subheading');?></p>
 
 <div id="infoMessage"><?php echo $message;?></div>
 
-<?php echo form_open("auth/login");?>
+<?php echo form_open("/login");?>
 
   <p>
     <?php echo lang('login_identity_label', 'identity');?>
@@ -25,4 +25,4 @@
 
 <?php echo form_close();?>
 
-<p><a href="forgot_password"><?php echo lang('login_forgot_password');?></a></p>
+<p><a href="/auth/forgot_password"><?php echo lang('login_forgot_password');?></a></p>

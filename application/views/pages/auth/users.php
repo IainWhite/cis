@@ -1,4 +1,4 @@
-<h1><?php echo lang('index_heading');?></h1>
+<?php echo $this->stencil->setHeadline(lang('index_heading')); ?>
 <p><?php echo lang('index_subheading');?></p>
 
 <div id="infoMessage"><?php echo $message;?></div>

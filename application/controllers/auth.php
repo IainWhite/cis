@@ -5,6 +5,8 @@ class Auth extends MY_Controller {
 	function __construct()
 	{
 		parent::__construct();
+        $this->stencil->slice(array('head', 'header', 'footer'));
+        $this->stencil->layout('layout');
 		$this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
 	}
 
@@ -70,7 +72,7 @@ class Auth extends MY_Controller {
 			if ($this->ion_auth->login($this->input->post('identity'), $this->input->post('password'), $remember)) {
 				// If the login is successful
 				$this->session->set_flashdata('message', $this->ion_auth->messages());
-                if (!$this->ion_auth->is_admin()) {
+                if ($this->ion_auth->is_admin()) {
                     redirect('/admin', 'refresh');
                 } else {
                     redirect('/members', 'refresh');
@@ -707,14 +709,16 @@ class Auth extends MY_Controller {
 		}
 	}
 
-	function _render_page($view, $data=null, $render=false)
+	function _render_page($view, $data = null, $render = false)
 	{
 
-		$this->viewdata = (empty($data)) ? $this->data: $data;
+		$this->viewdata = (empty($data)) ? $this->data : $data;
 
-		$view_html = $this->load->view($view, $this->viewdata, $render);
+        $this->stencil->paint($view, $this->viewdata);
 
-		if (!$render) return $view_html;
+		//$view_html = $this->load->view($view, $this->viewdata, $render);
+
+		//if (!$render) return $view_html;
 	}
 
 }

@@ -1,4 +1,4 @@
-<h1>Member Profile</h1>
+<?php echo $this->stencil->setHeadline('Member Profile'); ?>
 
 <?php
 

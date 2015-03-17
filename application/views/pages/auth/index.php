@@ -1,4 +1,4 @@
-<h1>Admin Area</h1>
+<?php echo $this->stencil->setHeadline('Admin Area'); ?>
 
 <?php
 
