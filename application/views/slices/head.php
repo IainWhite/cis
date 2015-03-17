@@ -18,4 +18,5 @@
     <?php echo addCss(array('modules/home/index.css', 'app', 'plugins', 'plugins/animate', 'plugins/box-shadows', 'style', 'themes/blue')); ?>
     <?php echo addCss('line-icons/line-icons.css', 'assets/plugins/'); ?>
     <?php echo addFontAwesomeCSS('4.3.0', FALSE); ?>
+    <?php echo addCss('pictonic/css/pictonic-custom.css', 'assets/plugins/'); ?>
     <?php echo $css; ?>

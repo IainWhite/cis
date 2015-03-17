@@ -3067,6 +3067,16 @@ a[rel="external"]:after {
     color: #3498db;
 }
 
+.header-icon2:before {
+    font-family: pictonic;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 5px;
+    color: #3498db;
+}
+
 .iw-mobile:before {
     font-family: FontAwesome;
     font-style: normal;

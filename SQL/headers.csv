@@ -1,56 +1,189 @@
-home,fa-paw
-web-development,fa-globe
-iain-white,fa-user
-project-management,fa-puzzle-piece
-it,fa-desktop
-people,fa-users
-companies,fa-building
-books,fa-book
-languages,fa-file-code-o
+.Net,fp-prog-dotnet
+AIM,fp-aim
+ASP.Net,fp-prog-aspnet
 About White Internet,fa-info-circle
+Acrobat,fp-adb-speedgrade
+ActionScript,fp-prog-actionscript
+Admin,fa-dashboard
+After Effects,fp-adb-aftereffects
+Air,fp-prog-air02
+Amazon,fp-amazon
+Android,fp-android
+Angular.js,fp-angularjs
+Apple,fp-os-apple
+AutoCAD,fp-autocad
+BASIC,fp-prog-basic
+Backbone.js,fp-prog-backbonejs
+Bash,fp-prog-bash01
+Bazaar,fp-vc-bazaar
+Bitbucket,fp-vc-bitbucket-01
+Blogger,fp-blogger
+Bookmark,fp-bookmark
+C#,fp-prog-csharp
+C++,fp-prog-cplusplus
+C,fp-prog-c
+CSS-3,fa-css3
+CakePHP,fp-prog-cakephp
+Case Studies,fa-lightbulb-o
+Cassandra,fp-dbs-cassandra
+Centos,fp-lin-centos
+Chrome,fp-brw-chrome
+Chuch,DB fp-dbs-couchdb
+Cobol,fp-prog-bash02
+CodeIgniter,fp-prog-codeign
+Codepen,fp-codepen-02
+CoffeScript,fp-prog-coffeescr
+Computer Skills,fa-laptop
 Contact,fa-envelope-o
-Privacy Policy,fa-file-text-o
-Web Site Terms and Conditions of Use,fa-file-o
-Page Not Found,fa-warning
-Page Not Found (404),fa-warning
-Search Results,fa-search
-White Internet Site Map,fa-sitemap
+Coral Draw,fp-corel-draw
+Coral Painter,fp-corel-painter
+DSMax,fp-_x33_dsmax
+Debian,fp-lin-debian
+Delicious,fp-delicious
+Delphi,fp-prog-delphi02
+Digg,fp-digg
+Django,fp-prog-django
+Documents,fa-file-o
+Dreamweaver,fp-adb-dreamweaver
+Dribble,fp-dribbble
+Dropbox,fp-dropbox
+Drupal,fp-prog-drupal
+Ecommerce,fa-shopping-cart
+Erlang,fp-prog-erlang
+Evernote,fp-evernote
+Examples of Work,fa-image
+Facebook,fp-facebook
+Fedora,fp-lin-fedora
+Feedburner,fp-feedburner
+Firefox,fp-brw-firefox
+Fireworks,fp-adb-fireworks
+Flash,fp-adb-flash
+Flickr,fp-flickr
+Fortran,fp-prog-fortran
+Fossil,fp-vc-fossil
+Git,fp-vc-git
+GMail,fp-gmail
+Games,fp-news_for_gamers
+Github,fp-github-01
+Golang,fp-prog-golang01
+Google Maps,fa-map-marker
+Google+,fp-google__x2B_
+Google,Drive fp-googledrive-02
+Groovy,fp-pl-groovy-01
+HTML 5,fa-html5
+HTML5,fa-html5
+Hadoop,fp-dbs-hadoop
+Haskell,fp-prog-haskell
+Hbase,fp-dbs-hbase
+ICQ,fp-icq
 Iain White,fa-user
 Iain White\'s CV / Resume,fa-file-text-o
-Seeking Work,fa-bolt
-Work Information,fa-info-circle
-Skills Matrix for Iain White,fa-list-ul
-Programming Languages,fa-file-code-o
-Computer Skills,fa-laptop
-Examples of Work,fa-image
-Case Studies,fa-lightbulb-o
-Pragmatic Programmer,fa-star
-Qualifications &amp; Training,fa-graduation-cap
-Documents,fa-file-o
-Press and Reviews about Iain White\'s work,fa-quote-right
-Recommendations for Iain White\'s work,fa-comment-o
-Project Management,fa-puzzle-piece
-Web Development,fa-globe
+Illustrator,fp-adb-illustrator
+Indesign,fp-adb-indesign
 Information Technology,fa-desktop
-PHP,fa-file-code-o
-HTML5,fa-html5
-HTML 5,fa-html5
-CSS-3,fa-css3
-Wordpress,fa-wordpress
-Drupal,fa-drupal
-MySQL,fa-database
-MongoDB,fa-database
+Instagram,fp-instagram
+Internet Explorer,fp-brw-explorer
+Java,fp-prog-java
+JavaScript,fp-prog-js01
+Joomla,fp-prog-joomla
+Lightroom,fp-adb-lightroom
+Linkedin,fp-linkedin
+Linux,fp-os-linux_1_
+Lisp,fp-prog-lisp
+Mail,fp-mail
 MariaDB,fa-database
-PostgreSQL,fa-database
-SQLite,fa-database
-RDBMS,fa-database
-SQL,fa-database
+Matlab,fp-prog-matlab
+Megento,fp-prog-magento
+Mercurial,fp-vc-mercurial
 Microsoft SQL Server,fa-database 
-T-SQL,fa-database
-WiFi,fa-wifi
-Git,fa-code-fork
-Admin,fa-dashboard
-Google Maps,fa-map-marker
-Ecommerce,fa-shopping-cart
-Bash,fa-terminal
+Mongo DB,fp-dbs-mongodb
+MongoDB,fa-database
+MooTools,fp-prog-mootools
+MySQL,fp-dbs-mysql
+MySpace,fp-myspace
+Netlog,fp-netlog
+Newsvine,fp-newsvine
+Node.js,fp-prog-nodejs02
+OS X,fp-os-osx-dark
+Opera,fp-brw-opera
 PDF,fa-file-pdf-o
+PHP,fp-prog-php01
+Page Not Found (404),fa-warning
+Page Not Found,fa-warning
+PayPal,fp-paypal
+Perl,fp-prog-perl
+Photoshop,fp-adb-photoshop
+Picasa,fp-picasa
+Pictonic,fp-pictonic-02
+Pinterest,fp-pinterest
+PostreSQL,fp-dbs-postgresql
+Pragmatic Programmer,fa-star
+Premiere,fp-adb-premiere
+Press and Reviews about Iain White\'s work,fa-quote-right
+Privacy Policy,fa-file-text-o
+Programming Languages,fa-file-code-o
+Project Management,fa-puzzle-piece
+Python,fp-prog-python
+Qualifications &amp; Training,fa-graduation-cap
+RDBMS,fa-database
+RSS,fp-rss
+Rails,fp-prog-rails
+Recommendations for Iain White\'s work,fa-comment-o
+Reddit,fp-reddit
+Redhat,fp-lin-redhat
+Redis,fp-dbs-redis
+Riak,fp-dbs-riak
+Ruby,fp-prog-ruby
+SQL Server,fp-dbs-sqlserver
+SQL,fa-database
+SQLite,fp-dbs-sqlite
+SVN,fp-vc-svn
+Safari,fp-brw-safari-02
+Scala,fp-prog-scala
+Search Results,fa-search
+Seeking Work,fa-bolt
+Share,fp-share
+Shopify,fp-shopify
+Skills Matrix for Iain White,fa-list-ul
+Skydrive,fp-skydrive
+Skype,fp-skype
+Slashdot,fp-slash_dot
+Souncloud,fp-soundcloud
+Stumble Upon,fp-stumble_upon
+Symfony,fp-prog-symfony
+T-SQL,fa-database
+Technorati,fp-technorati
+Tumblr,fp-tumblr
+Twitter,fp-twitter-3
+Ubuntu,fp-lin-ubuntu
+VB.Net,fp-prog-vbnet
+Vimeo,fp-vimeo
+Visual Studio,fp-prog-visualstudio
+Web Development,fa-globe
+Web Site Terms and Conditions of Use,fa-file-o
+White Internet Site Map,fa-sitemap
+WiFi,fa-wifi
+Wikipedia,fp-wikipedia
+Windows 8,fp-os-win-04
+Windows 95,fp-os-win-02
+Windows Vista,fp-os-win-03
+Windows XP,fp-os-win-02
+Windows,fp-windows
+Wordpress,fa-wordpress
+Work Information,fa-info-circle
+Yahoo,fp-yahoo
+Yammer,fp-yammer
+Yii,fp-prog-yii
+YouTube,fp-youtube
+Zend Framework,fp-prog-zendfrm
+books,fa-book
+companies,fa-building
+home,fa-paw
+iOS,fp-os-ios-dark
+iain-white,fa-user
+it,fa-desktop
+jQuery,fp-prog-jquery
+languages,fa-file-code-o
+people,fa-users
+project-management,fa-puzzle-piece
+web-development,fa-globe

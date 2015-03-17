@@ -541,7 +541,12 @@ class Stencil {
             }
         }
 
-        $out = ' class ="pull-left header-icon ' . $class . '"';
+        $headerClass = 'header-icon';
+        $classArray = explode('-', $class);
+        if ($classArray[0] == 'fp') {
+            $headerClass = 'header-icon2';
+        }
+        $out = ' class ="pull-left ' . $headerClass . ' ' . $class . '"';
 
         return $out;
     }
