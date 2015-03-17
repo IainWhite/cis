@@ -3123,3 +3123,7 @@ a[rel="external"]:after {
         float: left !important;
     }
 }
+
+.fp {
+    font-size: 20px;
+}

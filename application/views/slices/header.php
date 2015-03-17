@@ -87,13 +87,13 @@
                             <li class="dropdown-submenu">
                                 <a href="javascript:void(0);"><i class="fa fa-file-code-o"></i> Languages</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/web-development/languages/javascript"><i class="fa fa-file-code-o"></i> JavaScript</a></li>
-                                    <li><a href="/web-development/languages/php"><i class="fa fa-file-code-o"></i> PHP</a></li>
-                                    <li><a href="/web-development/languages/java"><i class="fa fa-file-code-o"></i> Java</a></li>
-                                    <li><a href="/web-development/languages/asp"><i class="fa fa-file-code-o"></i> ASP</a></li>
-                                    <li><a href="/web-development/languages/perl"><i class="fa fa-file-code-o"></i> Perl</a></li>
-                                    <li><a href="/web-development/languages/python"><i class="fa fa-file-code-o"></i> Python</a></li>
-                                    <li><a href="/web-development/languages/bash"><i class="fa fa-file-code-o"></i> Bash</a></li>
+                                    <li><a href="/web-development/languages/javascript"><i class="fp fp-prog-js01"></i> JavaScript</a></li>
+                                    <li><a href="/web-development/languages/php"><i class="fp fp-prog-php01"></i> PHP</a></li>
+                                    <li><a href="/web-development/languages/java"><i class="fp fp-prog-java"></i> Java</a></li>
+                                    <li><a href="/web-development/languages/asp"><i class="fp fp-prog-aspnet"></i> ASP</a></li>
+                                    <li><a href="/web-development/languages/perl"><i class="fp fp-prog-perl"></i> Perl</a></li>
+                                    <li><a href="/web-development/languages/python"><i class="fp fp-prog-python"></i> Python</a></li>
+                                    <li><a href="/web-development/languages/bash"><i class="fp fp-prog-bash01"></i> Bash</a></li>
                                 </ul>
                             </li>
                             <!-- End Languages -->
@@ -102,9 +102,9 @@
                             <li class="dropdown-submenu">
                                 <a href="javascript:void(0);"><i class="fa fa-database"></i> Databases</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="/web-development/mysql"><i class="fa fa-database"></i> MySQL</a></li>
-                                    <li><a href="/web-development/postgresql"><i class="fa fa-database"></i> PostgreSQL</a></li>
-                                    <li><a href="/web-development/ms-sqlserver"><i class="fa fa-database"></i> MS SQLServer</a></li>
+                                    <li><a href="/web-development/mysql"><i class="fp fp-dbs-mysql"></i> MySQL</a></li>
+                                    <li><a href="/web-development/postgresql"><i class="fp fp-dbs-postgresql"></i> PostgreSQL</a></li>
+                                    <li><a href="/web-development/ms-sqlserver"><i class="fp fp-dbs-sqlserver"></i> MS SQLServer</a></li>
                                 </ul>
                             </li>
                             <!-- End Databases -->
@@ -115,7 +115,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="/web-development/html"><i class="fa fa-html5"></i> HTML</a></li>
                                     <li><a href="/web-development/css"><i class="fa fa-css3"></i> CSS</a></li>
-                                    <li><a href="/web-development/languages/javascript"><i class="fa fa-file-code-o"></i> JavaScript</a></li>
+                                    <li><a href="/web-development/languages/javascript"><i class="fp fp-prog-js01"></i> JavaScript</a></li>
                                     <li><a href="/web-development/accessibility"><i class="fa fa-eye"></i> Accessibility</a></li>
                                     <li><a href="/web-development/seo"><i class="fa fa-search"></i> SEO</a></li>
                                 </ul>
