@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Social Share</title>
+	<script src="http://cdn.jsdelivr.net/zepto/1.0rc1/zepto.min.js" type="text/javascript"></script>
+	<script src="share-buttons.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="share-buttons.css">
+</head>
+<body>
+    <div id="shareTarget" class="socialLinks"></div>
+<script>
+    $(document).ready(function() {
+	var shareParams = {
+	    url: 'http://me.com.au',
+	    img: 'image1.png',
+	    title: 'Look Mum',
+	    desc: 'A description',
+	    via: 'Me',
+	    hashtags: 'lots',
+	    company: '',
+	    is_video: ''
+	};
+	// $('img').first().attr('src');
+	links = SocialShare.generateSocialUrls(shareParams),
+	$target = $('#shareTarget');
+	$target.html('');			
+	for (var i = 0; i < links.length; i++) {
+	    var link = links[i];
+	    $target.append('<a class="soc ' + link.class + '" target="_blank" href="' + link.url + '" title="' + link.name + '"><i class="fa ' + link.fa + '"></i></a>');
+	}	
+	$target.find('a').on('click', SocialShare.doPopup);
+    });
+</script>
+</body>
+</html>
+
