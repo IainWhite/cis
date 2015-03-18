@@ -24,6 +24,16 @@ M PC 992 x 559
 T Tablet portrait 768 x 443
 P Phone portrait 480 x 271
 
+
+Headshots
+
+/assets/images/headshots/
+Base headshot is 200px wide. it will open the M version /assets/images/headshots/m/
+
+Images
+Base image is P version /assets/images/headshots/p/ 480px wide it will open the L version /assets/images/headshots/l/
+
+
 Directory Structure
 assets/images
 	assets/images/bg						Backgrounds
