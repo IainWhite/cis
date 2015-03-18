@@ -650,7 +650,7 @@ class Stencil {
         $filename = strtolower(preg_replace("/[\s_]/", '-', $name));
         $file = '/assets/images/' . $size . '/' . $filename . '.' . $ext;
         $imgClass = 'class="img-responsive rounded-2x center-block';
-        $containerClass = 'thumbnail box-shadow shadow-effect-1 rounded-2x col-xs-8 col-sm-2 col-md-2';
+        $containerClass = 'thumbnail box-shadow shadow-effect-1 rounded-2x col-xs-8 col-sm-8 col-md-6';
         switch ($imgStyle) {
             case 'left':
                 if (!$showTitle) {
@@ -669,7 +669,7 @@ class Stencil {
                 if (!$showTitle && !$zoom) {
                     $imgClass .= ' box-shadow shadow-effect-1 center-block img-thumbnail';
                 }
-                $containerClass .= ' col-xs-offset-2 col-sm-offset-5 col-md-offset-5';
+                $containerClass .= ' col-xs-offset-2 col-sm-offset-2 col-md-offset-3';
                 break;
             case 'none':
                 $imgClass .= '';
