@@ -1,0 +1,12 @@
+Admin
+
+Pages
+Total number of pages
+Page breakdown per section
+Last 10 pages added
+
+Check
+Pages without Title
+Pages without Images
+Spider view (Title Description)
+

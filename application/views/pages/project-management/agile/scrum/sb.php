@@ -33,6 +33,7 @@ echo 'PostgreSQL v' .  $this->stencil->getVersion('PostgreSQL') . '<br>';
 echo 'MySQL v' .  $this->stencil->getVersion('MySQL') . '<br>';
 
 echo $this->stencil->addCodeSnippet('php.php');
+
 ?>
 
 <hr>

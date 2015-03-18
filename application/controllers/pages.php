@@ -7,17 +7,11 @@ class Pages extends MY_Controller {
 		parent::__construct();
 		$this->stencil->slice(array('head', 'header', 'footer'));
 		$this->stencil->layout('layout');
-        if (isset($_GET['profiler'])) {
-            $this->output->enable_profiler(true);
-        }
-        if (ENVIRONMENT != 'production')
-        {
-            $this->load->library('Firephp');
-        }
 	}
 
   	function index()
  	{
+
         if ($this->config->item('maintenance_mode')) {
             $this->stencil->layout('maintenance');
             $data['subpage_text'] = $this->config->item('maintenance_message');
@@ -25,6 +19,7 @@ class Pages extends MY_Controller {
             $this->stencil->paint('maintenance');
             return;
         }
+
         $section = NULL;
         $view = NULL;
         $segmentCount = count(($this->uri->segments));

@@ -270,6 +270,97 @@ if (!function_exists('addOldIEJS'))
     }
 }
 
+if (!function_exists('getDocRoot')) {
+    function getDocRoot()
+    {
+        $localPath = getenv("SCRIPT_NAME");
+        $absolutePath = getenv("SCRIPT_FILENAME");
+        $documentRoot = substr($absolutePath, 0, strpos($absolutePath, $localPath));
+        return $documentRoot;
+    }
+}
+
+if (!function_exists('findFiles')) {
+    function findFiles($dir = NULL, &$dirArray, $incAdmin = FALSE, $incFiles = TRUE)
+    {
+        if (!$dir) {
+            //@TODO
+        }
+        $dirCount = 0;
+        $fileCount = 0;
+        // Create array of current directory
+        $files = scandir($dir);
+
+        if (is_array($files)) {
+            foreach ($files as $val) {
+                // Skip home and previous listings
+                if ($val == '.' || $val == '..') {
+                    continue;
+                }
+                // If directory then dive deeper, else add file to directory key
+                if (is_dir($dir . '/' . $val)) {
+                    if (!$incAdmin && $val == 'auth') {
+                        continue;
+                    }
+                    // Add value to current array, dir or file
+                    $dirCount++;
+                    $dirArray[$dir][] = $val;
+                    $dirArray[$dir]['DIRCOUNT'] = $dirCount;
+                    findFiles($dir . '/' . $val, $dirArray, $incAdmin, $incFiles);
+                } else {
+                    $fileCount++;
+                    if ($incFiles) {
+                        $dirArray[$dir][] = $val;
+                    }
+                    $dirArray[$dir]['FILECOUNT'] = $fileCount;
+                }
+            }
+        }
+        ksort($dirArray);
+    }
+}
+
+if (!function_exists('findPages')) {
+    function findPages($incAdmin = FALSE, $incFiles = FALSE) {
+        $folderList = array();
+        $documentRoot = getDocRoot();
+        findFiles($documentRoot . '/application/views/pages/', $folderList, $incAdmin, $incFiles);
+
+        Kint::dump($folderList);
+        return $folderList;
+    }
+}
+
+if (!function_exists('showPageListPages')) {
+    function showPageList($incAdmin = FALSE, $incFiles = FALSE)
+    {
+        $pageArray = findPages($incAdmin, $incFiles);
+        foreach($pageArray as $key => $value) {
+            $dir = removeprefix($key, getDocRoot() . '/application/views/pages/');
+            if (!$dir) {
+                $dir = '/';
+            }
+            $fileCount = 0;
+            $dirCount = 0;
+            if (array_key_exists('FILECOUNT', $value)) {
+                $fileCount = $value['FILECOUNT'];
+            }
+            if (array_key_exists('DIRCOUNT', $value)) {
+                $dirCount = $value['DIRCOUNT'];
+            }
+            echo $dir . ' Dirs: ' . $dirCount . ' Files: ' . $fileCount , "<br />\n";
+        }
+    }
+}
+
+if (!function_exists('removeprefix')) {
+    function removeprefix($text, $prefix)
+    {
+        if (0 === strpos($text, $prefix))
+            $text = substr($text, strlen($prefix)) . '';
+        return $text;
+    }
+}
 
 /* End of file stencil_helper.php */
 /* Location: ./application/helpers/stencil_helper.php */ 

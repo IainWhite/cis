@@ -29,9 +29,14 @@ class MY_Controller extends CI_Controller
             }
             $this->userData = $this->ion_auth->user()->row();
         }
-        // Maintenance page
-        // Profiler
-        // Firephp
+
+        if (isset($_GET['profiler'])) {
+            $this->output->enable_profiler(true);
+        }
+        if (ENVIRONMENT != 'production') {
+            $this->load->library('Firephp');
+            $this->load->library('kint');
+        }
     }
     
     /**
