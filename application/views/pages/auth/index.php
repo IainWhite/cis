@@ -8,6 +8,8 @@ echo '<p><strong>User:</strong> ' . $this->userData->first_name . ' ' .$this->us
 
 echo '<p><strong>Company:</strong> ' . $this->userData->company . ' <strong>Phone:</strong> ' . $this->userData->phone . ' <strong>IP:</strong> ' . $this->userData->ip_address  . "</p>\n";
 
+//echo getGeoIP();
+
 showPageList();
 ?>
 

@@ -362,5 +362,19 @@ if (!function_exists('removeprefix')) {
     }
 }
 
+
+function getGeoIP()
+{
+    $user_ip = getenv('REMOTE_ADDR');
+    $geo = unserialize(file_get_contents("http://www.geoplugin.net/php.gp?ip=$user_ip"));
+    $city = $geo["geoplugin_city"];
+    $region = $geo["geoplugin_regionName"];
+    $country = $geo["geoplugin_countryName"];
+    $out = '<p class="geoIP">City: ' . $city;
+    $out .= 'Region: ' . $region;
+    $out .= 'Country: ' . $country . "</p>\n";
+    return $out;
+}
+
 /* End of file stencil_helper.php */
 /* Location: ./application/helpers/stencil_helper.php */ 
