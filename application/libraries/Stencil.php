@@ -106,7 +106,7 @@ class Stencil {
         if (!$this->SEOImage) {
             $this->SEOImage = urlencode(base_url() . $this->CI->config->item('default-image'));
         }
-        $this->data['body_class'] = 'controller-' . $this->controller . ' method-' . $this->method . ' page-' . $this->pageName;
+        $this->data['body_class'] = 'controller-' . $this->controller . ' method-' . $this->method . ' page-' . $this->pageName . ' cat-' . $this->cat;
 
         foreach ($this->slice as $key => $value) {
             if (is_array($value)) {
@@ -147,7 +147,7 @@ class Stencil {
             $this->data['content'] .= $content;
         }
         $footerComment = '<!-- ' . date('l dS \of F Y h:i:s A') . ' -->';
-        $this->data['content'] .= "\n" . $footerComment;
+        $this->data['content'] .= "\n" . $footerComment . "\n";
         $this->CI->load->view('layouts/' . $this->layout, $this->data);
 	}
 
@@ -454,19 +454,19 @@ class Stencil {
     {
         $segmentCount = count(($this->CI->uri->segments));
         $path = '/';
-        $out = '<ul class="pull-right breadcrumb">';
-        $out .= '<li><a href="/"><i class="fa fa-home"></i></a></li>' . "\n";
+        $out = '<ul class="pull-right breadcrumb">' . "\n";
+        $out .= '        <li><a href="/"><i class="fa fa-home"></i></a></li>' . "\n";
         for ($x = 1; $x <= $segmentCount; $x++) {
             $path .= $this->CI->uri->segment($x) . '/';
             $label = $this->CI->uri->segment($x);
             $label = $this->filename2Eng($label);
             if ($x == $segmentCount) {
-                $out .= '<li class="active">' . $label . '</li>' . "\n";
+                $out .= '         <li class="active">' . $label . '</li>' . "\n";
             } else {
-                $out .= '<li><a href="' . $path . '">' . $label . '</a></li>' . "\n";
+                $out .= '        <li><a href="' . $path . '">' . $label . '</a></li>' . "\n";
             }
         }
-        $out .= '<ul>';
+        $out .= '        </ul>';
         return $out . "\n";
     }
 

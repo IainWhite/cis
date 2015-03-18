@@ -36,7 +36,7 @@
                                 </ul>
                             </li>
                             <!-- End Work Information -->
-                            <li><a href="/}iain-white/work-examples"><i class="fa fa-desktop"></i> Examples of Work</a></li>
+                            <li><a href="/iain-white/work-examples"><i class="fa fa-desktop"></i> Examples of Work</a></li>
                             <li><a href="/iain-white/case-studies"><i class="fa fa-lightbulb-o"></i> Case Studies</a></li>
                             <li><a href="/iain-white/pragmatic-programmer"><i class="fa fa-star"></i> Pragmatic Programmer</a></li>
                             <li><a href="/iain-white/qualifications"><i class="fa fa-graduation-cap"></i> Qualifications</a></li>
@@ -196,7 +196,7 @@
 
 <div class="breadcrumbs">
     <div class="container">
-    <?php echo $this->stencil->addH1(); ?>
-    <?php echo $this->stencil->addBreadcrumb(); ?>
+        <?php echo $this->stencil->addH1(); ?>
+        <?php echo $this->stencil->addBreadcrumb(); ?>
     </div>
 </div>

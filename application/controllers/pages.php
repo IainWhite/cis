@@ -20,7 +20,6 @@ class Pages extends MY_Controller {
             return;
         }
 
-        $section = NULL;
         $view = NULL;
         $segmentCount = count(($this->uri->segments));
         $view = $this->uri->segment($segmentCount);
