@@ -34,6 +34,11 @@ echo 'MySQL v' .  $this->stencil->getVersion('MySQL') . '<br>';
 
 echo $this->stencil->addCodeSnippet('php.php');
 
+echo $this->stencil->addImage('windows-vista-desktop', 'png', 'centre');
+
+echo '<hr>';
+echo $this->stencil->addImage('windows-vista-desktop', 'png', 'centre', 'p', TRUE, NULL, TRUE);
+
 ?>
 
 <hr>
