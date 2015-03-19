@@ -694,11 +694,12 @@ class Stencil {
 
             //$out .= '   </span>';
             $out .= '</a>';
-            $out .= '   </div>';
+            //$out .= '   </div>';
         }
         if ($showTitle) {
             //$out = '<div class="' . $containerClass . '">' . $out;
-            $out = '<div class="">' . $out;
+            //$out = '<div class="">' . $out;
+            $out .= '<div class="bg-color-grey text-center" style="width: 60%; margin:auto; position: relative; top: -50px; opacity:0.4;">Zoom</div>';
             $out .= '<div class="caption"><p class="text-center">' . $name . '</p></div></div>';
             //$out .= '</div><div class="caption"><p class="text-center">' . $name . '</p></div>';
             $out .= '</div>';
