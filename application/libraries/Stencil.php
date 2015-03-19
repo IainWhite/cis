@@ -649,27 +649,28 @@ class Stencil {
     {
         $filename = strtolower(preg_replace("/[\s_]/", '-', $name));
         $file = '/assets/images/' . $size . '/' . $filename . '.' . $ext;
-        $imgClass = 'class="img-responsive rounded-2x center-block';
-        $containerClass = 'thumbnail box-shadow shadow-effect-1 rounded-2x col-xs-8 col-sm-8 col-md-6';
+        $imgClass = 'class="img-responsive rounded-2x center-block zoomImage';
+        //$containerClass = 'thumbnail box-shadow shadow-effect-1 rounded-2x col-xs-8 col-sm-8 col-md-6';
+        $containerClass = 'col-xs-12 col-sm-10 col-md-6 col-lg-6';
         switch ($imgStyle) {
             case 'left':
-                if (!$showTitle) {
+                //if (!$showTitle) {
                     $imgClass .= ' pull-left margin-right-10 box-shadow shadow-effect-1 img-thumbnail';
-                }
+                //}
                 $containerClass .= ' pull-left margin-right-10';
                 break;
             case 'right':
-                if (!$showTitle) {
+                //if (!$showTitle) {
                     $imgClass .= ' pull-right margin-left-10 box-shadow shadow-effect-1 img-thumbnail';
-                }
+                //}
                 $containerClass .= ' pull-right margin-left-10';
                 break;
             case 'centre':
             case 'center':
-                if (!$showTitle && !$zoom) {
+                //if (!$showTitle && !$zoom) {
                     $imgClass .= ' box-shadow shadow-effect-1 center-block img-thumbnail';
-                }
-                $containerClass .= ' col-xs-offset-2 col-sm-offset-2 col-md-offset-3';
+                //}
+                $containerClass .= ' col-sm-offset-1 col-md-offset-3 col-lg-offset-3';
                 break;
             case 'none':
                 $imgClass .= '';
@@ -685,19 +686,26 @@ class Stencil {
         $out = '<img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>';
         if ($zoom) {
             $zoomFile = '/assets/images/l/' . $filename . '.' . $ext;
-            $out = '<a href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button zoomer">';
-            $out .= '   <span class="overlay-zoom">';
+            $out = '<div class="' . $containerClass . '">';
+            $out .= '<a style="display:inline-Xblock" href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button zoomer">';
+            //$out .= '   <span class="overlay-zoom">';
             $out .= '       <img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>';
-            $out .= '       <span class="zoom-icon rounded-2x"></span>';
-            $out .= '   </span>';
+            //$out .= '       <span class="zoom-icon rounded-2x"></span>';
+
+            //$out .= '   </span>';
             $out .= '</a>';
+            $out .= '   </div>';
         }
         if ($showTitle) {
-            $out = '<div class="' . $containerClass . '">' . $out;
+            //$out = '<div class="' . $containerClass . '">' . $out;
+            $out = '<div class="">' . $out;
             $out .= '<div class="caption"><p class="text-center">' . $name . '</p></div></div>';
+            //$out .= '</div><div class="caption"><p class="text-center">' . $name . '</p></div>';
+            $out .= '</div>';
         } else {
             if ($zoom) {
-                $out = '<div class="' . $containerClass . '">' . $out . '</div>';
+                //$out = '<div class="' . $containerClass . '">' . $out . '</div>';
+                //$out = '<div class="">' . $out . '</div>';
             }
         }
         return $out;
