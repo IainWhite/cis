@@ -31,4 +31,11 @@ var FancyBox = function () {
 
     };
 
-}();        
+}();
+
+
+// IW
+$(document).ready(function()
+{
+    FancyBox.initFancybox();
+});

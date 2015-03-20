@@ -35,21 +35,6 @@ echo 'MySQL v' .  $this->stencil->getVersion('MySQL') . '<br>';
 
 echo $this->stencil->addCodeSnippet('php.php');
 
-echo '<hr>';
-echo $this->stencil->addImage('Windows Vista Desktop', 'png', 'centre');
-echo '<p>Image 1</p>';
-
-echo '<hr>';
-echo $this->stencil->addImage('Windows Vista Desktop', 'png', 'centre', 'p', FALSE, NULL, TRUE);
-echo '<p>Image 2</p>';
-
-echo '<hr>';
-echo $this->stencil->addImage('Windows Vista Desktop', 'png', 'centre', 'p', TRUE, NULL, TRUE);
-echo '<p>Image 3</p>';
-
-echo '<hr>';
-echo $this->stencil->addImage('Windows Vista Desktop', 'png', 'centre', 'p', TRUE, NULL, FALSE);
-echo '<p>Image 4</p>';
 ?>
 
 <hr>

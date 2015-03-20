@@ -161,17 +161,20 @@ class Stencil {
 	public function css($css)
 	{
 		$this->css = array_merge($this->css, (array)$css);
+        $this->css = array_unique($this->css);
 	}
 
 	public function js($js)
 	{
 		$this->js = array_merge($this->js, (array)$js);
+        $this->js = array_unique($this->js);
 	}
 
 	public function meta($meta)
 	{
         if (!$this->isSub) {
             $this->meta = array_merge($this->meta, (array)$meta);
+            $this->meta = array_unique($this->meta);
         }
 	}
 
@@ -690,7 +693,7 @@ class Stencil {
         if ($zoom) {
             $zoomFile = '/assets/images/l/' . $filename . '.' . $ext;
             $out = '<div class="' . $containerClass . '">' . "\n";
-            $out .= '   <a href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button zoomer">' . "\n";
+            $out .= '   <a href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button">' . "\n";
             $out .= '        <span class="imgZoomIcon text-center"><i class="fa fa-search"></i></span>' . "\n";
             $out .= '       <img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>' . "\n";
             $out .= '    </a>' . "\n";
@@ -700,6 +703,9 @@ class Stencil {
         }
         if ($zoom) {
             $out .= '</div>' . "\n";
+            $this->css('assets/plugins/fancybox/source/jquery.fancybox.css');
+            $this->js('assets/plugins/fancybox/source/jquery.fancybox.pack.js');
+            $this->js('assets/js/plugins/fancy-box.js');
         }
         return $out;
     }
