@@ -20,9 +20,17 @@ images/startup.png 					320x460
 
 Image Size
 L Large PC 1382 x 778
-M PC 992 x 559
+M (D) PC 992 x 559
 T Tablet portrait 768 x 443
 P Phone portrait 480 x 271
+
+@TODO
+Chnage M directort to D
+Add wrapper for headshots
+Add wrapper for logos
+Add full size (L) override parameter
+
+
 
 
 Headshots
