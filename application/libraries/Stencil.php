@@ -649,9 +649,9 @@ class Stencil {
     {
         $filename = strtolower(preg_replace("/[\s_]/", '-', $name));
         $file = '/assets/images/' . $size . '/' . $filename . '.' . $ext;
-        $imgClass = 'class="img-responsive rounded-2x center-block zoomImage';
+        $imgClass = 'class="img-responsive rounded-2x';
         //$containerClass = 'thumbnail box-shadow shadow-effect-1 rounded-2x col-xs-8 col-sm-8 col-md-6';
-        $containerClass = 'col-xs-12 col-sm-10 col-md-6 col-lg-6';
+        $containerClass = 'imageContainer col-xs-12 col-sm-10 col-md-6 col-lg-6';
         switch ($imgStyle) {
             case 'left':
                 //if (!$showTitle) {
@@ -679,35 +679,27 @@ class Stencil {
                 $imgClass .= '';
                 break;
         }
+        if ($zoom) {
+            $imgClass .= ' zoomImage';
+        }
         $imgClass .= '"';
         if ($title) {
             $name = $title;
         }
-        $out = '<img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>';
+        $out = '<img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>' . "\n";
         if ($zoom) {
             $zoomFile = '/assets/images/l/' . $filename . '.' . $ext;
-            $out = '<div class="' . $containerClass . '">';
-            $out .= '<a style="display:inline-Xblock" href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button zoomer">';
-            //$out .= '   <span class="overlay-zoom">';
-            $out .= '       <img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>';
-            //$out .= '       <span class="zoom-icon rounded-2x"></span>';
-
-            //$out .= '   </span>';
-            $out .= '</a>';
-            //$out .= '   </div>';
+            $out = '<div class="' . $containerClass . '">' . "\n";
+            $out .= '   <a href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button zoomer">' . "\n";
+            $out .= '        <span class="imgZoomIcon text-center"><i class="fa fa-search"></i></span>' . "\n";
+            $out .= '       <img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>' . "\n";
+            $out .= '    </a>' . "\n";
         }
         if ($showTitle) {
-            //$out = '<div class="' . $containerClass . '">' . $out;
-            //$out = '<div class="">' . $out;
-            $out .= '<div class="bg-color-grey text-center" style="width: 60%; margin:auto; position: relative; top: -50px; opacity:0.4;">Zoom</div>';
-            $out .= '<div class="caption"><p class="text-center">' . $name . '</p></div></div>';
-            //$out .= '</div><div class="caption"><p class="text-center">' . $name . '</p></div>';
-            $out .= '</div>';
-        } else {
-            if ($zoom) {
-                //$out = '<div class="' . $containerClass . '">' . $out . '</div>';
-                //$out = '<div class="">' . $out . '</div>';
-            }
+            $out .= '    <div class="caption"><p class="text-center">' . $name . '</p></div>' . "\n";
+        }
+        if ($zoom) {
+            $out .= '</div>' . "\n";
         }
         return $out;
     }
