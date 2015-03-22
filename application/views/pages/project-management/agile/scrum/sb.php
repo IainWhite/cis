@@ -8,23 +8,8 @@
 echo $this->stencil->setHeadline('SB Page') . '<br />';
 echo $this->stencil->meta(array('keywords' => 'cats, animals, dogs')) . '<br />';
 
-echo $this->stencil->elapsedYears('01/02/2000') . '<br />';
-echo $this->stencil->elapsedYears('01/02/2000', TRUE) . '<br />';
-echo $this->stencil->elapsedYears('01/02/2000', FALSE, TRUE) . '<br />';
-echo $this->stencil->elapsedYears('01/02/2000', TRUE, TRUE) . '<br />';
-
 $this->stencil->slice('ss1');
 $this->stencil->sub('project-management/agile/scrum/sa', NULL, TRUE);
-echo $this->stencil->dumpStencil();
-
-echo 'Templates v' . $this->stencil->getVersion() . '<br>';
-echo 'CodeIgniter v' .  $this->stencil->getVersion('CI') . '<br>';
-echo 'PHP v' .  $this->stencil->getVersion('PHP') . '<br>';
-echo 'Zend v' .  $this->stencil->getVersion('Zend') . '<br>';
-echo 'PostgreSQL v' .  $this->stencil->getVersion('PostgreSQL') . '<br>';
-echo 'MySQL v' .  $this->stencil->getVersion('MySQL') . '<br>';
-
-echo $this->stencil->addCodeSnippet('php.php');
 
 ?>
 
