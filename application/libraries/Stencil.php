@@ -654,26 +654,29 @@ class Stencil {
         $file = '/assets/images/' . $size . '/' . $filename . '.' . $ext;
         $imgClass = 'class="img-responsive rounded-2x';
         //$containerClass = 'thumbnail box-shadow shadow-effect-1 rounded-2x col-xs-8 col-sm-8 col-md-6';
-        $containerClass = 'imageContainer col-xs-12 col-sm-10 col-md-6 col-lg-6';
+        //$containerClass = 'imageContainer col-xs-12 col-sm-10 col-md-6 col-lg-6';
+        $containerClass = 'imageContainer';
+        $zoomImage = 'imgZoomIcon';
         switch ($imgStyle) {
             case 'left':
                 //if (!$showTitle) {
                     $imgClass .= ' pull-left margin-right-10 box-shadow shadow-effect-1 img-thumbnail';
                 //}
-                $containerClass .= ' pull-left margin-right-10';
+                $containerClass .= ' pull-left';
+                $zoomImage = 'imgZoomIconLeft';
                 break;
             case 'right':
                 //if (!$showTitle) {
                     $imgClass .= ' pull-right margin-left-10 box-shadow shadow-effect-1 img-thumbnail';
                 //}
-                $containerClass .= ' pull-right margin-left-10';
+                $containerClass .= ' pull-right';
                 break;
             case 'centre':
             case 'center':
                 //if (!$showTitle && !$zoom) {
                     $imgClass .= ' box-shadow shadow-effect-1 center-block img-thumbnail';
                 //}
-                $containerClass .= ' col-sm-offset-1 col-md-offset-3 col-lg-offset-3';
+                $containerClass .= ' col-xs-12 col-sm-10 col-md-6 col-lg-6 col-sm-offset-1 col-md-offset-3 col-lg-offset-3';
                 break;
             case 'none':
                 $imgClass .= '';
@@ -694,7 +697,7 @@ class Stencil {
             $zoomFile = '/assets/images/l/' . $filename . '.' . $ext;
             $out = '<div class="' . $containerClass . '">' . "\n";
             $out .= '   <a href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button">' . "\n";
-            $out .= '        <span class="imgZoomIcon text-center"><i class="fa fa-search"></i></span>' . "\n";
+            $out .= '        <span class="' . $zoomImage . ' text-center"><i class="fa fa-search"></i></span>' . "\n";
             $out .= '       <img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>' . "\n";
             $out .= '    </a>' . "\n";
         }
