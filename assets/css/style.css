@@ -3816,30 +3816,19 @@ body.dark .tp-banner-container .btn-u.btn-brd.btn-u-light {
     filter: grayscale(100%);
 }
 
+.imageContainer {
+    position: relative;
+}
+
 .imgZoomIcon {
     font-size: 28px;
     color: #fff;
     text-shadow: 5px 2px 2px rgba(36, 36, 36, 1);
     font-weight: 800;
-    position: relative;
+    position: absolute;
     z-index: 999;
     top: 70px;
     left: 70px;
-}
-
-.imgZoomIconLeft {
-    font-size: 28px;
-    color: #fff;
-    text-shadow: 5px 2px 2px rgba(36, 36, 36, 1);
-    font-weight: 800;
-    position: relative;
-    z-index: 999;
-    top: 70px;
-    left: -70px;
-}
-
-.imageContainer {
-
 }
 
 
