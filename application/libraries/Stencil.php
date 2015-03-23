@@ -640,12 +640,17 @@ class Stencil {
         return '<a href="http://tools.ietf.org/html/rfc' . $rfcNum . '" rel="external" title="RFC ' . $rfcNum . '">RFC ' . $rfcNum . '</a>';
     }
 
-    public function addCodeSnippet($fileName)
+    public function addCodeSnippet($language = 'none', $fileName = NULL)
     {
+        if (!$fileName) {
+            $fileName = $language . $language;
+        }
         $this->css('assets/plugins/prism/prism-coy.css');
         $this->css('assets/plugins/prism/prism-line-numbers.css');
         $this->js('assets/plugins/prism/prism.js');
-        return '<pre class="line-numbers" data-src="/assets/code/' . $fileName . '">Code Example</pre>' . "\n";
+        $fileContent = file_get_contents('assets/code/' . $fileName);
+        return '<pre><code class="language-' . $language . ' line-numbers"">' . $fileContent . '</code></pre>' . "\n";
+        //return '<pre><code class="language-' . $language . ' line-numbers" data-src="/assets/code/' . $fileName . '">Code Example</code></pre>' . "\n";
     }
 
     public function addImage($name, $ext = 'jpg', $imgStyle = 'left', $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE)

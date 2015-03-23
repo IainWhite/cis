@@ -1,4 +1,3 @@
-{literal}
 &lt;widget&gt;
     &lt;debug&gt;on&lt;/debug&gt;
     &lt;window title="Sample Konfabulator Widget"&gt;
@@ -21,4 +20,3 @@
         &lt;/onMouseUp&gt;
     &lt;/text&gt;
 &lt;/widget&gt;
-{/literal}

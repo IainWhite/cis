@@ -1,4 +1,3 @@
-{literal}
 # Base Year:    {{base_year}}
 # Base Quarter: {{base_quarter}}
 # Num Rows:     {{rows}}
@@ -79,4 +78,3 @@ avg_sales[2:index_period] = 0;
 median_sales[2:index_period] = 0;
 result=list(index_per=index, upper_CI=upper_index_CI, lower_CI=lower_index_CI, monthly_change=change_per,avg_Sales1=avg_sales, median=median_sales, diagnotic=n_Sales_period, t_ratio=t_ratio, avg_n_Sales=avg_n_Sales);
 write.csv(result, file=\"repeat_index.csv\"
-{/literal}

@@ -1,0 +1,9 @@
+function gcd(x, y) {
+  var z
+  do {
+    z = x % y
+    x = y
+    y = z
+  } while (y != 0)
+  return x
+}

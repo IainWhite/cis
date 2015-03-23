@@ -1,0 +1,12 @@
+&lt;VirtualHost domainname1.dom:80&gt;
+    ServerAdmin webmaster@domainname1.com
+    DocumentRoot "/home/user/http/domainname1.com"
+    ServerName domainname1.com
+    ServerAlias domainname1.com
+    ErrorLog "/var/log/httpd/domainname1.com-error_log"
+    CustomLog "/var/log/httpd/domainname1.com-access_log" common
+
+    &lt;Directory "/home/user/http/domainname1.com"&gt;
+        Require all granted
+    &lt;/Directory&gt;
+&lt;/VirtualHost&gt;

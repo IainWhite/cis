@@ -1,0 +1,78 @@
+D language-actionscript
+D language-apacheconf
+D language-applescript
+D language-aspnet
+? language-autohotkey
+D language-bash
+D language-c
+D language-coffeescript
+D language-cpp
+D language-csharp
+D language-css
+D language-dart
+D language-eiffel
+language-erlang
+language-fortran
+language-fsharp
+? language-gherkin
+language-git
+language-go
+language-groovy
+language-haml
+language-handlebars
+language-haskell
+language-http
+language-ini
+? language-jade
+D language-java
+D language-javascript
+? language-jsx
+? language-julia
+language-latex
+D language-less
+? language-lolcode
+? language-markdown
+D language-markup
+language-matlab
+language-nasm
+language-nsis
+language-objectivec
+language-pascal
+D language-perl
+D language-php
+language-powershell
+language-python
+D language-r
+language-rest
+language-rip
+language-ruby
+language-rust
+language-sas
+D language-scala
+language-scheme
+language-scss
+language-smalltalk
+language-smarty
+language-sql
+language-stylus
+language-swift
+language-twig
+language-typescript
+language-wiki
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
