@@ -643,7 +643,7 @@ class Stencil {
     public function addCodeSnippet($language = 'none', $fileName = NULL)
     {
         if (!$fileName) {
-            $fileName = $language . $language;
+            $fileName = $language . '.txt';
         }
         $this->css('assets/plugins/prism/prism-coy.css');
         $this->css('assets/plugins/prism/prism-line-numbers.css');
