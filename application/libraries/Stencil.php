@@ -649,7 +649,7 @@ class Stencil {
         $this->css('assets/plugins/prism/prism-line-numbers.css');
         $this->js('assets/plugins/prism/prism.js');
         $fileContent = file_get_contents('assets/code/' . $fileName);
-        return '<pre><code class="language-' . $language . ' line-numbers"">' . $fileContent . '</code></pre>' . "\n";
+        return '<pre class="codeBlock"><code class="language-' . $language . ' line-numbers"">' . $fileContent . '</code></pre>' . "\n";
     }
 
     public function addImage($name, $ext = 'jpg', $imgStyle = 'left', $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE)

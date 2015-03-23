@@ -3157,3 +3157,8 @@ a[rel="external"]:after {
     left: 0;
     width: 100%;
 }
+
+pre.codeBlock {
+    padding: 0 !important;
+    border-radius: 8px !important;
+}
