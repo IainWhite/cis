@@ -690,15 +690,20 @@ class Stencil {
             $out .= '        <span class="imgZoomIcon text-center"><i class="fa fa-search"></i></span>' . "\n";
             $out .= '       <img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>' . "\n";
             $out .= '    </a>' . "\n";
-        }
-        if ($showTitle) {
-            $out .= '    <div class="caption"><p class="text-center">' . $name . '</p></div>' . "\n";
-        }
-        if ($zoom) {
+            if ($showTitle) {
+                $out .= '    <div class="caption"><p class="text-center">' . $name . '</p></div>' . "\n";
+            }
             $out .= '</div>' . "\n";
             $this->css('assets/plugins/fancybox/source/jquery.fancybox.css');
             $this->js('assets/plugins/fancybox/source/jquery.fancybox.pack.js');
             $this->js('assets/js/plugins/fancy-box.js');
+        } else {
+            if ($showTitle) {
+                $out = '<div class="' . $containerClass . '">' . "\n";
+                $out .= '   <img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>' . "\n";
+                $out .= '    <div class="caption"><p class="text-center">' . $name . '</p></div>' . "\n";
+                $out .= '</div>' . "\n";
+            }
         }
         return $out;
     }
