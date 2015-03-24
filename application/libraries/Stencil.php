@@ -862,15 +862,29 @@ class Stencil {
         return $out;
     }
 
-    public function addActive($test)
+    public function addActive($test, $check = NULL)
     {
-        if ($test == $this->cat) {
+        if (!$check) {
+            $check = $this->cat;
+        }
+        if ($test == $check) {
             return 'active';
         }  else {
             return '';
         }
     }
 
+    public function addIn($test, $check = NULL)
+    {
+        if (!$check) {
+            $check = $this->cat;
+        }
+        if ($test == $check) {
+            return 'in';
+        }  else {
+            return '';
+        }
+    }
 }
 
 /* End of file Stencil.php */ 

@@ -2,6 +2,9 @@
 
 <?php
 
+ $this->stencil->slice('sidemenu_admin');
+ $this->stencil->layout('admin_layout');
+
 echo '<p>Welcome ' . $this->userData->username . ' (id: ' . $this->userData->id . ')' . ' last login was ' . date('D, d F Y \a\t H:i:s', $this->userData->last_login) . "</p>\n";
 
 echo '<p><strong>User:</strong> ' . $this->userData->first_name . ' ' .$this->userData->last_name . ' (' . $this->userData->email . ') was created on ' . date('d F Y', $this->userData->created_on)  . "</p>\n";
