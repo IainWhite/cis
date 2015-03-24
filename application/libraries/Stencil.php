@@ -312,7 +312,7 @@ class Stencil {
             case 'MySQL' :
                 $sql = 'SELECT VERSION() AS version;';
                 $query = $this->CI->db->query($sql);
-                $row = $query->row()
+                $row = $query->row();
                 $v = $row->version;
                 $query->free_result();
                 return $v;
