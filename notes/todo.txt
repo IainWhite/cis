@@ -1,6 +1,5 @@
 ToDo
 
-Fix plugins.csv
 Colours of TABLE
 getPlugins($cat = 'ALL', $limit = NULL)
 getDefinitions($cat = 'ALL')
