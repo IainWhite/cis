@@ -40,7 +40,7 @@
                         <!-- Wisdom -->
                         <div class="headline"><h2>Wisdom</h2></div>
                         <!-- End Wisdom -->
-
+                            <?php echo $this->stencil->getWisdom(); ?>
                         <!-- Social Links -->
                         <div class="headline"><h2>Share This</h2></div>
                         <ul id="socialLinks" class="social-icons">

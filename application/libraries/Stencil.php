@@ -897,7 +897,14 @@ class Stencil {
             $additional = $row->additional;
         }
         $query->free_result();
-        $out = '';
+        $out = '<div class="speechbubble rounded-2x">' . "\n";
+        $out .= '   <p>' . $quote . '</p>' . "\n";
+        $out .= '</div>' . "\n";
+        $out .= '<p class="speechbubble-author">' . $author;
+        if ($additional) {
+            $out .= ', <span>' . $additional . '</span>';
+        }
+        $out .= '</p>' . "\n";
         return $out;
     }
 
