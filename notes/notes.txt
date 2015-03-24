@@ -28,15 +28,10 @@ X	registerTemplate($template, $funcName, $cat = FALSE, $css = FALSE, $js = FALSE
 ?	useMore()
 ?	setCurLeval($leval)
 ?	doMore($template, $funcName, $type = NULL)
-	getHeadshot($name, $funcName, $imgSize = 's', $ext = 'jpg', $imgStyle = 'left')
-	getLogo($name, $funcName, $imgSize = 's', $ext = 'jpg', $imgStyle = 'left', $title=NULL)
-	getIcon($name, $funcName, $lib = NULL, $title = NULL, $imgStyle = 'none')
-	getImage($name, $funcName, $ext = 'jpg', $imgStyle = 'left', $title = NULL, $showTitle = FALSE)
-	addImage($name, $funcName, $ext = 'jpg', $imgStyle = 'left', $zoom = FALSE, $title = NULL, $showTitle = FALSE)   
+
 	getDefinitions($cat)
 	getTagCloud($cat, $funcName, $rand = FALSE, $limit = NULL)
 
-	getMySQLVersionName()
 	getSoundBites($limit)
 	addPDFLink($filename, $funcName, $text = NULL, $class = NULL, $title = NULL, $sizeInLink = TRUE, $suppressSize = FALSE, $suppressIcon = FALSE)   
 	getWisdom()
