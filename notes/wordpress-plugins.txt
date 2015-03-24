@@ -1,0 +1,265 @@
+Wordpress
+Plugins
+Foxyshop
+Url: http://www.foxy-shop.com
+FoxyShop is an extremely flexible e-commerce application that lets you set up a fully-functional web store in minutes. WordPress developers can easily customize the way everything looks and feels. FoxyCart’s hosted solution takes care of the SSL as well as the shopping cart and checkout experience. Here’s the full run-down on all the features.
+Features
+<h3>Design Control</h3>
+<ul>
+  <li>Fully customizable theme files and CSS</li>
+  <li>Automatic product and category pages</li>
+  <li>Unlimited images per product with popup slideshow</li>
+  <li>Custom fields allowing for your own customization</li>
+  <li>WordPress hooks for even more customization</li>
+  <li>Widget support for featured categories</li>
+  <li>Shortcode support for “Add to Cart” links</li>
+  <li>Printable, customizable invoices/packing slips</li>
+  <li>Complete integration with Google Product Search API</li>
+  <li>Automated product sitemaps</li>
+</ul>
+
+<h3>Product Control</h3>
+<ul>
+  <li>Manage product inventory within the WordPress admin</li>
+  <li>Set up product categories and subcategories. Custom sorting available.</li>
+  <li>Product sorting by name, price, date, or use drag-and-drop customization</li>
+  <li>Complete flexibility for product variations and pricing</li>
+  <li>Chainable variations: some options aren’t available until others are selected</li>
+  <li>Price automatically updated when different selections are made</li>
+  <li>Specific images can be tied to specific variations</li>
+  <li>Dedicated image uploader, improves default WordPress process</li>
+  <li>Product importing and duplication available</li>
+</ul>
+
+<h3>Selling Control</h3>
+<ul>
+  <li>Discounts available in all FoxyCart flavors &#8211; lots of flexibility</li>
+  <li>Sale pricing with optional date controls</li>
+  <li>Sell downloadable products and subscriptions</li>
+  <li>Multiple shipping recipients</li>
+  <li>Custom file upload lets your customers send you a file when adding to the shopping cart</li>
+  <li>Assign related products for up-selling</li>
+  <li>Bundled products: add multiple products to the cart at once</li>
+  <li>Inventory management</li>
+  <li>UPS WorldShip integration</li>
+</ul>
+
+<h3>The Power of FoxyCart in WordPress</h3>
+<ul>
+  <li>Field validation to prevent form tampering</li>
+  <li>English or metric weights</li>
+  <li>Support for international currencies</li>
+  <li>View orders and customers in your WordPress admin</li>
+  <li>At a glance order info on the WordPress admin dashboard</li>
+  <li>Custom FoxyCart domain support</li>
+  <li>Manage your subscriptions list using FoxyCart’s API</li>
+  <li>Single Sign On (SSO) lets you sync your WordPress users and FoxyCart customer list</li>
+</ul>
+Foxycart
+http://www.foxycart.com
+FoxyCart is a hosted e-commerce solution that was built specifically with web developers in mind. It is easy to hook into any third-party database or CMS and with a little customization can do anything you want.
+Gravity Forms
+http://www.gravityforms.com
+Gravity Forms User Registration Add-On
+Need to quickly allow users to register on your WordPress site? The User Registration Add-On for Gravity Forms makes registering users a breeze. Are you looking for BuddyPress integration with custom profile fields? It does that too. Running a Multi-Site install and want instant site creation? We have you covered.
+Seamless Integration - Automatically register WordPress users when a form is submitted.
+Multi-Site Creation - Automatically create a new WordPress site in your Network associated with the user that is created.
+BuddyPress Integration - Populate BuddyPress custom profile fields with form data.
+User Meta - Populate user meta data and create custom user meta with form data.
+PayPal Integration - When used with the PayPal Add-On you can configure your form to only create the user when PayPal has confirmed their payment.
+BuddyPress
+BuddyPress lets users sign-up and start creating profiles, posting messages, making connections, creating and interacting in groups, and much more. A social network in a box, BuddyPress lets you easily build a community for your company, school, sports team, or other niche community.
+Gravity Forms PayPal Payments Standard Add-On
+Order forms are easy with the PayPal Payments Standard Add-On for Gravity Forms. Enable your users to pay you via PayPal Payments Standard as part of the Gravity Forms submission process.
+Seamless Integration - Automatically transfer the user to complete the PayPal transaction when a form is submitted.
+Product and Services - Set-up and sell simple products or services in just minutes with one time PayPal payments.
+Donations - Accept PayPal donations with the Gravity Forms donation field.
+Recurring Payments - Set-up and configure PayPal recurring payments and subscriptions.
+WordPress Posts - Configure your payment process so that posts are created by your forms only after a payment is received.
+User Registration - Configure your payment process so that users created with the User Registration Add-On are only created after a payment is received.
+IPN Integration - The PayPal Payments Standard Add-On integrates with PayPal's Instant Payment Notification services.
+Gravity Forms MailChimp Add-On
+The Gravity Forms MailChimp Add-On gives you an easy way to integrate all of your online forms with the MailChimp email marketing service. Collect and add subscribers to your email marketing lists automatically when a form is submitted.
+Seamless Integration - Automatically add subscribers to your email lists when a form is submitted.
+Custom Fields - Populate MailChimp custom fields from form field data.
+Opt-In - Control opt-in and only add subscribers when a certain condition is met.
+Double Opt-In - Automatically send a double opt in message to ensure only legitimate subscribers are added.
+Collapse-O-Matic
+Collapse-O-Matic adds an [expand title="trigger text"]hidden content[/expand]shortcode that will wrap any content, including other shortcodes, into a lovely jQuery expanding and collapsing div.
+Advanced Text Widget
+Advanced Text Widget is a text widget that allows you to execute raw PHP code and specify on which pages it should be displayed. It comes with 10 default visibility conditions. You can edit and/or add your own visibility conditions as well. Conditions support arguments which could be strings and/or arrays.
+Features:
+10 Default widget visibility conditions with over 20 application possibilities.
+Add unlimited custom conditions.
+"Advanced Text" widget with raw PHP support and shortcodes execution.
+PRO Version:
+Apply visibility conditions to ANY widget.
+Add custom CSS IDs/Classes to ANY widget.
+Import/Export your visibility conditions to re-use on other sites.
+All in One SEO Pack
+All in One SEO Pack Optimizes your WordPress blog for SEO (Search Engine Optimization).
+XML Sitemap support - submit your sitemap to Google and Bing and improve your SEO
+Google Analytics support
+Support for SEO on Custom Post Types
+Advanced Canonical URLs
+Fine tune Page Navigational Links
+Built-in API so other plugins / themes can access and extend functionality
+ONLY plugin to provide SEO Integration for WP e-Commerce sites
+Nonce Security built into All in One SEO Pack
+Support for CMS-style WordPress installations
+Automatically optimizes your titles for Google and other search engines
+Generates META tags automatically
+Avoids the typical duplicate content found on WordPress blogs
+For beginners, you don't even have to look at the options, it works out-of-the-box. Just install.
+For advanced users, you can fine-tune everything to optimize your SEO
+You can override any title and set any META description and any META keywords you want.
+Compatibility with many other plugins
+Auto Graphics Site Navigation with Gallery
+This plugin simplifies the creation of graphically navigable WordPress sites, creating a list or tables of pages, posts, taxonomies, and custom post types, selected in a variety of ways. Highly customizable output using a variety of optional user-defined filters.
+Sites with nested pages can show a table of clickable thumbnails of child pages, with size of the tables, and the number of rows, automatically computed to fit, based on the thumbnail sizes.
+A table of posts selected by tag, category, or author can be displayed in the same manner.
+Thumbnails of pictures, and the galleries of pictures added in each page, can be automatically resized either through a single default setting in the WordPress administration page, or by specifying a size in each page. Missing thumbnails will be automatically generated.
+A gallery of images can be created simply by placing them in a new directory under the wp-content/uploads directory. Standard command-line or FTP tools can then be used to move, rename, or delete images.
+Output and page/post selection is extensible through the use of filters.
+Works with WordPress's standard attachment mechanism, and with J. Christopher's "Attachments" plugin.
+BackUpWordPress
+BackUpWordPress will back up your entire site including your database and all your files on a schedule that suits you. Try it now to see how easy it is!
+Features
+Super simple to use, no setup required.
+Works in low memory, "shared host" environments.
+Manage multiple schedules.
+Option to have each backup file emailed to you.
+Uses zip and mysqldump for faster backups if they are available.
+Works on Linux & Windows Server.
+Exclude files and folders from your backups.
+Good support should you need help.
+Translations for Spanish, German, Chinese, Romanian, Russian, Serbian, Lithuanian, Italian, Czech, Dutch, French, Basque.
+Breadcrumb NavXT
+Breadcrumb NavXT, the successor to the popular WordPress plugin Breadcrumb Navigation XT, was written from the ground up to be better than its ancestor. This plugin generates locational breadcrumb trails for your WordPress powered blog or website. These breadcrumb trails are highly customizable to suit the needs of just about any website running WordPress. The Administrative interface makes setting options easy, while a direct class access is available for theme developers and more adventurous users.
+Convert Post Types
+This is a utility for converting lots of posts or pages to a custom post type (or vice versa). You can limit the conversion to posts in a single category or children of specific page. You can also assign new taxonomy terms, which will be added to the posts' existing terms.
+Cookies for Comments
+This plugin adds a stylesheet or image to your blog's html source code. When a browser loads that stylesheet or image a cookie is dropped. If that user then leaves a comment the cookie is checked. If it doesn't exist the comment is marked as spam. The plugin can also check how long it took a user to enter a comment. If it's too fast it's probably a spam bot. How fast can a legitimate user enter their name, email, web address and enter a well thought out comment?
+Events Manager
+Events Manager is a full-featured event registration plugin for WordPress based on the principles of flexibility, reliability and powerful features!
+Main Features
+Easy event registration (single day with start/end times)
+Recurring and long (multi-day) event registration
+Bookings Management (including approval/rejections, export CVS, and more!)
+Multiple Tickets
+MultiSite Support
+BuddyPress Support
+Guest/Member Event submissions
+Assign event locations and view events by location
+Event categories
+Easily create custom event attributes (e.g. dress code)
+Google Maps
+Advanced permissions - restrict user management of events and locations.
+Widgets for Events, Locations and Calendars
+Fine grained control of how every aspect of your events are shown on your site, easily modify templates from the settings pages and template files
+iCal Feed (single and all events)
+Add to Google Calendar buttons
+RSS Feeds
+Compatible with SEO plugins
+Plenty of template tags and shortcodes for use in your posts and pages
+Actively maintained and supported
+Lots of documentation and tutorials
+Force Strong Passwords
+The WordPress user profile includes a JavaScript-powered indicator as a guide to the strength of a password being entered. However, there is nothing to stop users entering weak passwords. Often, users changing their password to something very weak is the most vulnerable aspect of a WordPress installation.
+Strong passwords are enforced for all users who have any of a specified array of capabilities. The default list is: publish_posts, upload_files, edit_published_posts (see Roles and Capabilities). If the user whose password is being edited holds any of these capabilities, the strong password enforcement will be triggered.
+FV WordPress Flowplayer
+Custom HTML 5 video on your own site with Flash fallback for legacy browsers.
+FV WordPress Flowplayer WordPress plugin is a free, easy-to-use, and complete solution for embedding FLV or MP4 videos into your posts or pages. With MP4 videos, FV WordPress Flowplayer offers 98% coverage even on mobile devices.
+Automated checking of video mime type for logged in admins on MP4 videos
+FV Flowplayer 5 is the only completely responsive WordPress video player.
+Custom start and end screens are built right in. You can use your own custom design before and after the video.
+Enjoy unlimited instances in a single page.
+No expensive plugins: unlike other players who nickel and dime you for every feature, with FV Flowplayer all advanced features are available in the standard license (Google Analytics, Cuepoints, Native fullscreen, Keyboard shortcuts, Subtitles, Slow motion, Random seeking, Retina ready)
+Beautiful playlists which you can skin with CSS.
+Ultra-efficient player: just 62K of JavaScript and 8K of Flash code. You can extend Flowplayer using just HTML and CSS, leaving the JavaScript heavy lifting up to us.
+98% Browser coverage. Built-in Flash fall-back will get the job done on older browsers.
+Full support for Amazon S3 and other CDN's.
+Totally Brandable. Even design your own player.
+WP-Table Reloaded
+Attention: WP-Table Reloaded is outdated! Please install its successor TablePress only.
+WP-Table Reloaded enables you to create and manage tables in your WP's admin area. No HTML knowledge is needed. A comfortable backend allows to easily edit table data. Tables can contain any type of data and additional JavaScript libraries can be used to extend it with features like sorting, pagination, filtering, and more. You can include the tables into your posts, on your pages or in text widgets by using a shortcode or a template tag function. Tables can be imported and exported from/to CSV, XML and HTML.
+TablePress
+TablePress allows you to easily create and manage beautiful tables. You can embed the tables into posts, pages, or text widgets with a simple Shortcode. Table data can be edited in a speadsheet-like interface, so no coding is necessary. Tables can contain any type of data, even formulas that will be evaluated. An additional JavaScript library adds features like sorting, pagination, filtering, and more for site visitors. Tables can be imported and exported from/to Excel, CSV, HTML, and JSON files.
+Iframe Preserver
+The Iframe Preserver plugin allows you to easily embed an iframe in a page or post and preserves your embedded iframes by allowing use of WordPress' Custom Fields. This keeps the WordPress editor from stripping out the iframe in Visual editing mode. You do not need to do any editing or modification to the shortcode or iframe code. Works for all iframe embeds including YouTube, Vimeo, Scribd and even Real Estate IDXs. It is an efficent light weight plugin.
+Post Expirator
+The Post Expirator plugin allows the user to set expiration dates for both posts and pages. There is a configuration option page in the plugins area that will allow you to seperataly control whether or not posts/pages are either deleted or changed to draft status. Additionally you can also choose to have the post categories change at expiration time. If you choose to change the post category, the default action of changing the status will be ignored.
+The plugin hooks into the wp cron processes and runs every minute by default, but can be configured to use any cron schedule (hourly, twicedaily, daily, etc).
+Post Types Order
+A powerful plugin, Order Posts and Post Types Objects using a Drag and Drop Sortable JavaScript capability. It allow to reorder the posts for any custom post types you defined, including the default Posts. Also you can have the admin posts interface sorted per your new sort. Post Order has never been easier.
+
+Usage
+This was built considering for everyone to be able to use no matter the WordPress experience, so it's very easy:
+Install the plugin through the Install Plugins interface or by uploading the post-types-order folder to your /wp-content/plugins/ directory.
+Activate the Post Order plugin.
+A new setting page will be created within Settings > Post Types Order, you should check with that, and make a first options save.
+Using the AutoSort option as ON you don't need to worry about any code changes, the plugin will do the post order update on fly.
+Use the Re-Order interface which appear to every custom post type (non-hierarchical) to change the post order to a new one.
+Shortcode Exec
+Using this plugin you can execute arbitrary PHP code using shortcodes in your posts, pages, comments, widgets and RSS feeds, just like manually defined shortcodes. The shortcodes and associated PHP code are defined using the settings of this plugin. It is possible to parse and use shortcode parameters and to use shortcode content. Defined shortcodes can be deleted and disabled.
+Advantages over other solutions:
+Your texts do not have to contain PHP code
+PHP code can be reused (by reusing the shortcode)
+All PHP code is organized at one place
+Syntax highlighting
+You can test your PHP code before using it
+Import/export of shortcode definitions
+For those concerned about security (hopefully everybody): only administrators can define shortcodes and associated PHP code.
+Uploadify (not plug in)
+URL: http://www.uploadify.com/
+Uploadify is a jQuery plugin that allows you to easily add multiple file upload functionality to your website. Two distinct versions (HTML5 and Flash) allow you the flexiblity to choose the right implementation for your site and fallback methods make it degrade gracefully.
+Google Maps V3 Shortcode
+This plugin allows you to add a google map into your post/page using shortcodes.
+
+Features:
+Default world map
+Show / hide map controls
+Set map size
+Set zoom level
+Set map type
+Multiple maps on the same post
+Set location by latitude/longitude
+Set location by address
+Add marker
+Info windows
+Show / hide infowindow by default
+Add custom image as map icon
+Add KML via URL link
+Option to disable autozoom to KML bounds
+Add a Fusion Table Layer
+Show traffic
+Show bike lanes
+Disable scroll wheel zoom
+Add scale bar
+Robots Meta
+This plugin will give you full control of the meta robots tag for each post or page. meta robots have a direct influence to the indexing behaviour of search engines. After activation you will find it as a WordPress typical meta box on the edit page in admin area.
+From a dropdown menu you can choose the following options:
+index, follow
+index, nofollow
+noindex, follow
+noindex, nofollow
+By creating an new post/page the default value is automatically set to index, follow without any user input. Categories, tags, and archiv are set to noindex, follow. Search results, 404 and others to noindex, nofollow.
+NOINDEX - prevents the page from being included in the index
+NOFOLLOW - prevents Googlebot from following any links on the page
+Simple Google Sitemap
+Simple Google Sitemap is a plugin to create automatically an XML Sitemap for your blog and pings it to ASK.COM, Google and MSN, whenever an Article was published or deleted. You can edit various options for the created sitemap file.
+Simple Sitemap
+This is probably the easiest way to add a powerful HTML sitemap to your site!
+Unique and intuitive way to display your website content by simply adding a single shortcode [simple-sitemap] to a post, page, or sidebar (via a Text widget). See the Plugin screenshots for examples.
+You can now also add the [simple-sitemap] shortcode to a Text widget too! Rendering of the sitemap is now one column so it fits nicely on posts, pages, or your sidebar.
+The order and style in which your blog posts and pages are displayed on the screen depends on the dropdown option chosen in Plugin settings. Posts/pages are rendered as a single linked list of titles, or they can be grouped by date, author, category, and tag (each heading acts as a link the the relevant taxonomy type as well).
+This gives your visitors an efficient way to view ALL site content in ONE place. It is also great for SEO purposes and makes it easier for spiders to index your site.
+User Access Manager
+With the User Access Manager plugin you can manage the access to your posts, pages and files. You only create a user group, put registered users to this and set up the rights for this group. From now on the post/page is only accessible and writable for the specified group. This plugin is useful if you need a member area or a private section at your blog or you want that other people can write at your blog but not everywhere.
+SlideDeck
+URL: http://www.slidedeck.com/
+Build stunning WordPress sliders without writing a single line of code. SlideDeck 2 supports images, text, video, and custom HTML, as well as integration with content from your favorite platforms, including Facebook, Instagram, YouTube, NextGEN, RSS feeds, and more.
+TinyMCE (not plugin)
+URL: http://www.tinymce.com/
+TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under LGPL.
+TinyMCE has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances.

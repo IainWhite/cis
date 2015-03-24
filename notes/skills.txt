@@ -1,0 +1,51 @@
+Skills
+
+displaySkills($skill = 'ALL', proficiency = 'ALL', $englishDate = FALSE)
+
+if $englishDate then display 9999 as today, yesterday, a few days ago, last week
+
+Table Schema
+id,skill,proficiency,proficiencyNum,lastUsed,firstUsed
+
+Num	Proficiency
+1	Expert
+2	Advanced
+3	Competent
+4	Intermediate
+5	Novice
+
+ORDER BY proficiency ASC, lastUsed DESC, skill ASC
+
+"PHP","Expert",1,"9999"
+"MySQL","Advanced",2,"9999"
+"PostgreSQL","Advanced",2,"2014"
+"JavaScript","Expert",1,"9999"
+"HTML","Expert",1,"9999"
+"CSS","Expert",1,"9999"
+"jQuery","Advanced",2,"9999"
+"XML","Advanced",2,"2011"
+"XHTML","Expert",1,"2011"
+"HTML5","Advanced",2,"9999"
+"CSS-3","Advanced",2,"9999"
+"ASP","Advanced",2,"2011"
+"MS SQLServer","Competent",3,"9999"
+"Drupal","Competent",3,"9999"
+"Perl","Competent",3,"2007"
+"Wordpress","Competent",3,"9999"
+".Net","Novice",5,"2006"
+"JSP","Intermediate",4,"2006"
+"ColdFusion","Intermediate",4,"9999"
+"Python","Novice",5,"2008"
+"Java","Novice",5,"2003"
+"CodeIgniter","Advanced",2,"9999"
+"Bash Script","Competent",3,"2014"
+"Database / SQL","Advanced",2,"9999"
+"CoffeScript","Novice",5,"2014"
+"R","Novice",5,"2014"
+"Ruby","Novice",5,"2014"
+"Scala","Novice",5,"2014"
+"CakePHP","Novice",5,"2012"
+"Symfony2","Intermediate",4,"2014"
+"Yii","Intermediate",4,"2014"
+"Zend","Novice",5,"2013"
+"Laravel","Novice",5,"2014"

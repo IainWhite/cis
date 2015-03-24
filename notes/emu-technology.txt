@@ -1,0 +1,13 @@
+Notes
+CSS 					Foundation Framework 	http://foundation.zurb.com/
+JavaScript / jQuery		Skrollr					https://github.com/Prinzhorn/skrollr
+PHP / Drupal			UQ-Drupal				http://drupal.uq.edu.au/
+Software / Git			SourceTree				https://www.atlassian.com/software/sourcetree/overview
+Software / IDE			Dreamweaver
+Software / IDE			Intellij IDEA			https://www.jetbrains.com/idea/
+Software / IDE			Sublime Text			http://www.sublimetext.com/
+Software / Git			GitLab					https://about.gitlab.com/
+Software / Git			BitBucket
+Software / Git			MsysGit					https://msysgit.github.io/
+Software / SVN			Tortoise SVN			http://tortoisesvn.net/
+Software				Beyond Compare			http://www.scootersoftware.com/

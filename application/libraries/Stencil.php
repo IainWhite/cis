@@ -652,10 +652,30 @@ class Stencil {
         return '<pre class="codeBlock"><code class="language-' . $language . ' line-numbers"">' . $fileContent . '</code></pre>' . "\n";
     }
 
-    public function addImage($name, $ext = 'jpg', $imgStyle = 'left', $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE)
+    public function addHeadshot($name, $ext = 'jpg', $imgStyle = 'left', $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE, $fullSize = 'l')
     {
+        return $this->addImage($name, $ext, $imgStyle, 'headshot', $size, $zoom, $title, $showTitle, $fullSize);
+    }
+
+    public function addLogo($name, $ext = 'jpg', $imgStyle = 'left', $title = NULL, $showTitle = FALSE)
+    {
+        return $this->addImage($name, $ext, $imgStyle, 'logo', '', FALSE, $title, $showTitle, '');
+    }
+
+    public function addImage($name, $ext = 'jpg', $imgStyle = 'left', $cat = NULL, $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE, $fullSize = 'l')
+    {
+        $basePath = '/assets/images/';
+        if ($cat === 'headshot') {
+            $basePath = '/assets/images/headshots/';
+        }
+        if ($cat === 'logo') {
+            $basePath = '/assets/images/logos/';
+        }
         $filename = strtolower(preg_replace("/[\s_]/", '-', $name));
-        $file = '/assets/images/' . $size . '/' . $filename . '.' . $ext;
+        $file = $basePath . $size . '/' . $filename . '.' . $ext;
+        if ($cat === 'logo') {
+            $file = $basePath . $filename . '.' . $ext;
+        }
         $imgClass = 'class="img-responsive rounded-2x';
         $containerClass = 'imageContainer';
         switch ($imgStyle) {
@@ -688,7 +708,7 @@ class Stencil {
         }
         $out = '<img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>' . "\n";
         if ($zoom) {
-            $zoomFile = '/assets/images/l/' . $filename . '.' . $ext;
+            $zoomFile = '/assets/images/' . $fullSize . '/' . $filename . '.' . $ext;
             $out = '<div class="' . $containerClass . '">' . "\n";
             $out .= '   <a href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button">' . "\n";
             $out .= '        <span class="imgZoomIcon text-center"><i class="fa fa-search"></i></span>' . "\n";
