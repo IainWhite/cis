@@ -885,6 +885,22 @@ class Stencil {
             return '';
         }
     }
+
+    public function getWisdom()
+    {
+        $sql = 'SELECT * FROM wd_wisdom WHERE RAND() < (SELECT ((1 / COUNT(id)) * 10) FROM wd_wisdom) ORDER BY RAND() LIMIT 1;';
+        $query = $this->CI->db->query($sql);
+        foreach ($query->result() as $row)
+        {
+            $quote = $row->quote;
+            $author = $row->author;
+            $additional = $row->additional;
+        }
+        $query->free_result();
+        $out = '';
+        return $out;
+    }
+
 }
 
 /* End of file Stencil.php */ 
