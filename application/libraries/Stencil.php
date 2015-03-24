@@ -652,17 +652,22 @@ class Stencil {
         return '<pre class="codeBlock"><code class="language-' . $language . ' line-numbers"">' . $fileContent . '</code></pre>' . "\n";
     }
 
-    public function addHeadshot($name, $ext = 'jpg', $imgStyle = 'left', $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE, $fullSize = 'l')
+    public function addImage($name, $ext = 'jpg', $imgStyle = 'left', $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE, $fullSize = 'l')
     {
-        return $this->addImage($name, $ext, $imgStyle, 'headshot', $size, $zoom, $title, $showTitle, $fullSize);
+        return $this->_addImage($name, $ext, $imgStyle, NULL, $size, $zoom, $title, $showTitle, $fullSize);
+    }
+
+    public function addHeadshot($name, $ext = 'jpg', $imgStyle = 'left', $size = '', $zoom = FALSE, $title = NULL, $showTitle = FALSE, $fullSize = 'l')
+    {
+        return $this->_addImage($name, $ext, $imgStyle, 'headshot', $size, $zoom, $title, $showTitle, $fullSize);
     }
 
     public function addLogo($name, $ext = 'jpg', $imgStyle = 'left', $title = NULL, $showTitle = FALSE)
     {
-        return $this->addImage($name, $ext, $imgStyle, 'logo', '', FALSE, $title, $showTitle, '');
+        return $this->_addImage($name, $ext, $imgStyle, 'logo', '', FALSE, $title, $showTitle, '');
     }
 
-    public function addImage($name, $ext = 'jpg', $imgStyle = 'left', $cat = NULL, $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE, $fullSize = 'l')
+    public function _addImage($name, $ext = 'jpg', $imgStyle = 'left', $cat = NULL, $size = 'p', $zoom = FALSE, $title = NULL, $showTitle = FALSE, $fullSize = 'l')
     {
         $basePath = '/assets/images/';
         if ($cat === 'headshot') {
@@ -672,9 +677,10 @@ class Stencil {
             $basePath = '/assets/images/logos/';
         }
         $filename = strtolower(preg_replace("/[\s_]/", '-', $name));
-        $file = $basePath . $size . '/' . $filename . '.' . $ext;
-        if ($cat === 'logo') {
+        if ($size === '') {
             $file = $basePath . $filename . '.' . $ext;
+        } else {
+            $file = $basePath . $size . '/' . $filename . '.' . $ext;
         }
         $imgClass = 'class="img-responsive rounded-2x';
         $containerClass = 'imageContainer';
@@ -708,7 +714,7 @@ class Stencil {
         }
         $out = '<img src="' . $file . '" alt="' . $filename . '" title="' . $name . '" ' . $imgClass . '/>' . "\n";
         if ($zoom) {
-            $zoomFile = '/assets/images/' . $fullSize . '/' . $filename . '.' . $ext;
+            $zoomFile = $basePath . $fullSize . '/' . $filename . '.' . $ext;
             $out = '<div class="' . $containerClass . '">' . "\n";
             $out .= '   <a href="' . $zoomFile . '" title="' . $name . '" data-rel="fancybox-button" class="fancybox-button">' . "\n";
             $out .= '        <span class="imgZoomIcon text-center"><i class="fa fa-search"></i></span>' . "\n";
