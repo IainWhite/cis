@@ -888,17 +888,15 @@ class Stencil {
 
     public function getWisdom()
     {
-        $sql = 'SELECT * FROM wd_wisdom WHERE RAND() < (SELECT ((1 / COUNT(id)) * 10) FROM wd_wisdom) ORDER BY RAND() LIMIT 1;';
+        $sql = 'SELECT quote, author, additional FROM wd_wisdom WHERE RAND() < (SELECT ((1 / COUNT(id)) * 10) FROM wd_wisdom) ORDER BY RAND() LIMIT 1;';
         $query = $this->CI->db->query($sql);
-        foreach ($query->result() as $row)
-        {
-            $quote = $row->quote;
-            $author = $row->author;
-            $additional = $row->additional;
-        }
+        $row = $query->row();
+        $quote = $row->quote;
+        $author = $row->author;
+        $additional = $row->additional;
         $query->free_result();
         $out = '<div class="speechbubble rounded-2x">' . "\n";
-        $out .= '   <p>' . $quote . '</p>' . "\n";
+        $out .= '    <p>' . $quote . '</p>' . "\n";
         $out .= '</div>' . "\n";
         $out .= '<p class="speechbubble-author">' . $author;
         if ($additional) {
@@ -908,6 +906,28 @@ class Stencil {
         return $out;
     }
 
+    public function getPragmaticTips($limit = 'ALL', $random = FALSE)
+    {
+        if ($limit === 'ALL' || !$limit) {
+            $limtSQL = '';
+        } else {
+            $limtSQL = ' LIMIT ' . $limit;
+        }
+        if ($random) {
+            $sql = 'SELECT tip FROM wd_pragmatic_tips WHERE RAND() < (SELECT ((1 / COUNT(id)) * 10) FROM wd_pragmatic_tips) ORDER BY RAND()' . $limtSQL . ';';
+        } else {
+            $sql = 'SELECT tip FROM wd_pragmatic_tips ORDER BY id' . $limtSQL . ';';
+        }
+        $query = $this->CI->db->query($sql);
+        $out = '';
+        foreach ($query->result() as $row)
+        {
+            $tip = $row->tip;
+            $out .= '<p class="pragTip">' . $tip . '</p>' . "\n";
+        }
+        $query->free_result();
+        return $out;
+    }
 }
 
 /* End of file Stencil.php */ 
