@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Iain -->
-                    <li class="active dropdown">
+                    <li class="<?php echo $this->stencil->addActive('iain-white'); ?> dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="drop1" role="button">
                             Iain White
                         </a>
@@ -49,7 +49,7 @@
                     <!-- End Iain -->
 
                     <!-- Project Management -->
-                    <li class="dropdown">
+                    <li class="<?php echo $this->stencil->addActive('project-management'); ?> dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                             Project Management
                         </a>
@@ -78,7 +78,7 @@
                     <!-- End Project Management -->
 
                     <!-- Web Development -->
-                    <li class="dropdown">
+                    <li class="<?php echo $this->stencil->addActive('web-development'); ?> dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="drop2" role="button">
                             Web Development
                         </a>
@@ -129,7 +129,7 @@
                     <!-- End Web Development -->
 
                     <!-- IT -->
-                    <li class="dropdown">
+                    <li class="<?php echo $this->stencil->addActive('it'); ?> dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                             IT
                         </a>
@@ -150,7 +150,7 @@
                     <!-- End IT -->
 
                     <!-- White Internet -->
-                    <li class="dropdown">
+                    <li class="<?php echo $this->stencil->addActive('home'); ?> dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                             White Internet
                         </a>

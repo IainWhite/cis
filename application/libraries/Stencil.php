@@ -846,6 +846,31 @@ class Stencil {
         return array($years, $months, $days);
     }
 
+    public function listDir($path)
+    {
+        $files = scandir(getDocRoot() . '/application/views/pages' . $path);
+        $limit = count($files);
+        $out = '';
+        for ($i = 0; $i < $limit; $i++) {
+            $file = $files[$i];
+            if ($file !== '.' && $file !== '..') {
+                $file = str_replace('.php', '', $file);
+                $name = $this->filename2Eng($file);
+                $out .= '<a href="'. $path . '/' . $file . '">' . $name . '</a><br/>' . "\n";
+            }
+        }
+        return $out;
+    }
+
+    public function addActive($test)
+    {
+        if ($test == $this->cat) {
+            return 'active';
+        }  else {
+            return '';
+        }
+    }
+
 }
 
 /* End of file Stencil.php */ 
