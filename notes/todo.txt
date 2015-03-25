@@ -9,8 +9,4 @@ addPDFLink($filename, $funcName, $text = NULL, $class = NULL, $title = NULL, $si
 getQualificationsCount($cat = 'ALL')
 getAbout($cat = 'ALL', $funcName, $limit = 0, $wrapper = 'li', $modify = FALSE)
 getQualifications($cat = 'ALL', $funcName, $limit = 0)     
-addBookRating($score = 0)
-addBook($id=NULL, $funcName, $type = NULL, $use = 'type', $num = 1)
-addBookCover($id)
-addBuyBook($id)
 addRSS($feed, $num = 5, $cache = 30)

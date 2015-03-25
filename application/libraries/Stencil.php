@@ -926,6 +926,116 @@ class Stencil {
         $query->free_result();
         return $out;
     }
+
+    public function addBook($what = NULL, $how = 'type', $num = 1)
+    {
+        // $how = type, cat, author, title
+        $whereSQL = " WHERE " . $how . " = '" . $what . "'";
+        if ($num == 1) {
+            $sql = 'SELECT * FROM wd_books' . $whereSQL . ' LIMIT 1;';
+        } else {
+            $sql = 'SELECT * FROM wd_books' . $whereSQL . ' ORDER BY RAND() LIMIT ' . $num . ';';
+        }
+        $query = $this->CI->db->query($sql);
+        $out = '';
+        if ($query->num_rows() < 1) {
+            return $out;
+        }
+        foreach ($query->result() as $row)
+        {
+            $title = $row->title;
+            $author = $row->author;
+            $id = $row->id;
+            $banner = $row->banner;
+            $out .= '<div class="row well rounded-2x shadow-effect-1"><div class="col-lg-12 col-md-12">' . "\n";
+            $out .= '<div class="pull-left margin-right-5">' . "\n";
+            $out .= '<a href="http://www.fishpond.com.au/product_info.php?ref=2802&id=';
+            $out .= $id;
+            $out .= '&affiliate_banner_id=1" target="_blank"><img class="pull-left margin-right-5 box-shadow shadow-effect-1 img-thumbnail rounded-2x" src="http://www.fishpond.com.au/affiliate_show_banner.php?ref=2802&affiliate_pbanner_id=';
+            $out .= $banner;
+            $out .= '" alt="';
+            $out .= $title;
+            $out .= '" title="';
+            $out .= $title;
+            $out .= '" /></a>' . "\n";
+            $out .= '</div>' . "\n";
+            $out .= '<p><strong>';
+            $out .= $title;
+            $out .= '</strong></p>' . "\n";
+            $out .= '<p>by ' . $author . '</p>' . "\n";
+            $out .= '<p>Buy the book <a href="http://www.fishpond.com.au/product_info.php?ref=2802&id=';
+            $out .= $id;
+            $out .= '&affiliate_banner_id=1" target="_blank">';
+            $out .= $title;
+            $out .= '</a> on Fishpond.</p>' . "\n";
+            $out .= '</div>' . "\n</div>\n";
+        }
+        return $out;
+    }
+
+    public function addBookCover($what = NULL, $how = 'title')
+    {
+        // $how = title, id
+        $whereSQL = " WHERE " . $how . " = '" . $what . "'";
+        $sql = 'SELECT * FROM wd_books' . $whereSQL . ' LIMIT 1;';
+        $query = $this->CI->db->query($sql);
+        $out = '';
+        if ($query->num_rows() < 1) {
+            return $out;
+        }
+        $row = $query->row();
+        $title = $row->title;
+        $id = $row->id;
+        $banner = $row->banner;
+        $out = '<div class="pull-left margin-right-10">' . "\n";
+        $out .= '<a href="http://www.fishpond.com.au/product_info.php?ref=2802&id=';
+        $out .= $id;
+        $out .= '&affiliate_banner_id=1" target="_blank"><img class="pull-left margin-right-5 box-shadow shadow-effect-1 img-thumbnail rounded-2x" src="http://www.fishpond.com.au/affiliate_show_banner.php?ref=2802&affiliate_pbanner_id=';
+        $out .= $banner;
+        $out .= '" alt="';
+        $out .= $title;
+        $out .= '" title="';
+        $out .= $title;
+        $out .= '" /></a>' . "\n";
+        $out .= '</div>' . "\n";
+        return $out;
+    }
+
+    public function addBuyBook($what = NULL, $how = 'title')
+    {
+        // $how = title, id
+        $whereSQL = " WHERE " . $how . " = '" . $what . "'";
+        $sql = 'SELECT id FROM wd_books' . $whereSQL . ' LIMIT 1;';
+        $query = $this->CI->db->query($sql);
+        $out = '';
+        if ($query->num_rows() < 1) {
+            return $out;
+        }
+        $row = $query->row();
+        $id = $row->id;
+        $out = '<span class="label label-green rounded"><i class="fa fa-book"></i> ';
+        $out .= '<a href="http://www.fishpond.com.au/product_info.php?ref=2802&id=';
+        $out .= $id;
+        $out .= '&affiliate_banner_id=1" target="_blank">';
+        $out .= 'Buy this book';
+        $out .= '</a></span>' . "\n";
+        return $out;
+    }
+
+    public function addBookRating($score = 0) {
+        $out = '';
+        if ($score > 5) {
+            $score = 5;
+        }
+        for ($i = 0; $i < $score; $i++) {
+            $out .= ' <i class="fa fa-thumbs-o-up color-blue"></i>';
+        }
+        for ($i = $score + 1; $i < 6; $i++) {
+            $out .= ' <i class="fa fa-thumbs-o-up color-grey"></i>';
+        }
+        return $out;
+    }
+
 }
 
 /* End of file Stencil.php */ 
