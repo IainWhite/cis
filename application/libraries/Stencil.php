@@ -1051,6 +1051,22 @@ class Stencil {
         return $out;
     }
 
+    public function addRSS($feed, $num = 5, $cache = 30)
+    {
+        $out = '';
+        $this->CI->load->library('rssparser');
+        $rss = $this->CI->rssparser->set_feed_url($feed)->set_cache_life($cache)->getFeed($num);
+        foreach ($rss as $item)
+        {
+            $out .= '<div class="col-lg-12 col-md-12"><h3><a href="' . $item['link'] . '">' . $item['title'] . "</a></h3>";
+            $date = new DateTime($item['pubDate']);
+            $dateStr = $date->format('D d-m-Y \a\t H:i');
+            $out .= '<p>by <strong>' . $item['author'] . '</strong> on ' . $dateStr . '</p>';
+            $out .= $item['description'];
+            $out .= '</div>' . "\n";
+        }
+        return $out;
+    }
 }
 
 /* End of file Stencil.php */ 
