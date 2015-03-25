@@ -9,4 +9,9 @@ addPDFLink($filename, $funcName, $text = NULL, $class = NULL, $title = NULL, $si
 getQualificationsCount($cat = 'ALL')
 getAbout($cat = 'ALL', $funcName, $limit = 0, $wrapper = 'li', $modify = FALSE)
 getQualifications($cat = 'ALL', $funcName, $limit = 0)     
-addRSS($feed, $num = 5, $cache = 30)
+
+
+
+
+    
+	

@@ -1067,6 +1067,53 @@ class Stencil {
         }
         return $out;
     }
+
+    public function addPDFLink($filename, $text = NULL, $class = NULL, $title = NULL, $sizeInLink = TRUE, $suppressSize = FALSE, $suppressIcon = FALSE)
+    {
+        $url = asset_url() . 'pdf/' . $filename . '.pdf';
+        if (!$text) {
+            $text = $filename;
+        }
+        if (!$title) {
+            $title = $text;
+        }
+        if ($suppressSize) {
+            $sizeInLink = FALSE;
+        }
+        if (!$suppressIcon) {
+            $text .= ' <i class="fa fa-file-pdf-o"></i>';
+        }
+        $classStr = '';
+        if ($class) {
+            $classStr = ' class="' . $class . '"';
+        }
+        $out = '<a href="' . $url . '" title="' . $title . '"' . $classStr . '>';
+        $fileSizeStr = '';
+        if (!$suppressSize) {
+            $root = $_SERVER['DOCUMENT_ROOT'];
+            $bytes = filesize($root . '/assets/pdf/' . $filename . '.pdf');
+            if ($bytes) {
+                if ($bytes >= 1073741824) {
+                    $fileSize = number_format(round($bytes / 1024 / 1024 / 1024, 1)) . 'GB';
+                } elseif ($bytes >= 1048576) {
+                    $fileSize = number_format(round($bytes / 1024 / 1024, 1)) . 'MB';
+                } elseif ($bytes >= 1024) {
+                    $fileSize = number_format(round($bytes / 1024, 1)) . 'KB';
+                } else {
+                    $fileSize = number_format($bytes) . ' bytes';
+                }
+                $fileSizeStr = ' (' . $fileSize . ')';
+            }
+        }
+        if ($sizeInLink) {
+            $text .= $fileSizeStr;
+            $out .= $text . '</a>';
+        } else {
+            $out .= $text . '</a>' . $fileSizeStr;
+        }
+        return $out;
+    }
+
 }
 
 /* End of file Stencil.php */ 
