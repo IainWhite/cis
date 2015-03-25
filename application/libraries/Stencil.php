@@ -26,6 +26,7 @@ class Stencil {
     protected $SEODescription   = '';
     protected $SEOImage         = '';
     protected $h1               = '';
+    protected $flags		    = array();
 
 	public function __construct()
     {
@@ -188,6 +189,16 @@ class Stencil {
     public function getTitle()
     {
         return $this->title;
+    }
+
+    public function setFlag($flag, $value)
+    {
+        $this->flags[$flag] = $value;
+    }
+
+    public function getFlag($flag)
+    {
+        return $this->flags[$flag];
     }
 
 	public function slice($slice)
@@ -862,7 +873,9 @@ class Stencil {
 
     public function addActive($test, $check = NULL)
     {
-        if (!$check) {
+        if ($check) {
+            $check = $this->getFlag($check);
+        } else {
             $check = $this->cat;
         }
         if ($test == $check) {
@@ -874,7 +887,9 @@ class Stencil {
 
     public function addIn($test, $check = NULL)
     {
-        if (!$check) {
+        if ($check) {
+            $check = $this->getFlag($check);
+        } else {
             $check = $this->cat;
         }
         if ($test == $check) {

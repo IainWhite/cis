@@ -1,6 +1,8 @@
  <?php
  $this->stencil->slice('sidemenu_ip_layer');
  $this->stencil->layout('ip_layer_layout');
+ $this->stencil->setFlag('IPLayer','Application');
+ $this->stencil->setFlag('protical','FTP');
  ?>
 
 <?php echo $this->stencil->setHeadline('FTP'); ?>
