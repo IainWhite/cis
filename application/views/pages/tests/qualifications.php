@@ -1,12 +1,12 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('Elapsed Years'); ?>
+        <?php echo $this->stencil->setHeadline('Qualifications'); ?>
 
-        <p>All <?php echo $this->stencil->getQualificationsCount(); ?></p>
+        <p><strong>All</strong> <?php echo $this->stencil->getQualificationsCount(); ?></p>
 
-        <p>Pluralsight <?php echo $this->stencil->getQualificationsCount('Pluralsight'); ?></p>
+        <p><strong>Pluralsight</strong> <?php echo $this->stencil->getQualificationsCount('Pluralsight'); ?></p>
 
-        <p>Lynda <?php echo $this->stencil->getQualificationsCount('Lynda'); ?></p>
+        <p><strong>Lynda</strong> <?php echo $this->stencil->getQualificationsCount('Lynda'); ?></p>
 
         <?php echo $this->stencil->getQualifications('ALL', 3); ?>
 

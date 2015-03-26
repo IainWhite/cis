@@ -1164,7 +1164,8 @@ class Stencil {
             $out .= '   <tr>' .  "\n";
             $out .= '       <td class="clickable row-toggle collapsed" data-toggle="collapse" id="row' . $i . '" data-target=".row' . $i . '"><strong class="color-site-blue">' . $row->title . '</strong></td>' . "\n";
             $out .= '       <td>' . $row->lecturer . '</td>' . "\n";
-            $out .= '       <td>{"' . $row->institute . '"|link_urls:"/c"}</td>' . "\n";
+            //@TODO link must be lovercase and converted
+            $out .= '       <td><a href="/companies/' . $row->institute . '">' . $row->institute  . '</a></td>' . "\n";
             $out .= '       <td class="text-right">' . $row->when . '</td>' . "\n";
             $out .= '   </tr>' .  "\n";
             $out .= '   <tr class="collapse row' . $i . '">' .  "\n";
