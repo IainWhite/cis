@@ -5,8 +5,8 @@ getPlugins($cat = 'ALL', $limit = NULL)
 getDefinitions($cat = 'ALL')
 addTagCloud($cat = 'ALL', $limit = NULL, $rand = FALSE)
 getSoundBites($limit)
-getQualificationsCount($cat = 'ALL')
 getAbout($cat = 'ALL', $funcName, $limit = 0, $wrapper = 'li', $modify = FALSE)
+getQualificationsCount($cat = 'ALL')
 getQualifications($cat = 'ALL', $funcName, $limit = 0)     
 
 
