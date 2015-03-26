@@ -1114,6 +1114,76 @@ class Stencil {
         return $out;
     }
 
+    public function getQualificationsCount($cat = 'ALL')
+    {
+        if (!$cat) {
+            $cat = 'ALL';
+        }
+        $whereSQL = '';
+        if ($cat !== 'ALL') {
+            $whereSQL = " WHERE institute = '" . $cat . "'";
+        }
+        $sql = 'SELECT count(id) AS num FROM wd_course' . $whereSQL . ';';
+        $query = $this->CI->db->query($sql);
+        $out = 0;
+        if ($query->num_rows() < 1) {
+            return $out;
+        }
+        $row = $query->row();
+        $out = $row->num;
+        return $out;
+    }
+
+    public function getQualifications($cat = 'ALL', $limit = 0)
+    {
+        if (!$cat) {
+            $cat = 'ALL';
+        }
+        if (!$limit) {
+            $limit = 0;
+        }
+        $whereSQL = '';
+        if ($cat !== 'ALL') {
+            $whereSQL = " WHERE institute = '" . $cat . "'";
+        }
+        $limtSQL = '';
+        if ($limit !== 0) {
+            $limtSQL = ' LIMIT ' . $limit;
+        }
+        $sql = "SELECT * FROM wd_course" . $whereSQL . " ORDER BY 'when' DESC, id DESC" . $limtSQL . ";";
+        $query = $this->CI->db->query($sql);
+        $out = '';
+        if ($query->num_rows() < 1) {
+            return $out;
+        }
+        $out = '';
+        $i = 0;
+        foreach ($query->result() as $row)
+        {
+            $i++;
+            $out .= '   <tr>' .  "\n";
+            $out .= '       <td class="clickable row-toggle collapsed" data-toggle="collapse" id="row' . $i . '" data-target=".row' . $i . '"><strong class="color-site-blue">' . $row->title . '</strong></td>' . "\n";
+            $out .= '       <td>' . $row->lecturer . '</td>' . "\n";
+            $out .= '       <td>{"' . $row->institute . '"|link_urls:"/c"}</td>' . "\n";
+            $out .= '       <td class="text-right">' . $row->when . '</td>' . "\n";
+            $out .= '   </tr>' .  "\n";
+            $out .= '   <tr class="collapse row' . $i . '">' .  "\n";
+            $out .= '       <td colspan="4">' . $row->desc . '</td>' . "\n";
+            $out .= '   </tr>' .  "\n";
+        }
+        if ($out) {
+            $wrapper = '<table class="table table-hover table-striped table-curved shadow-effect-1">' . "\n";
+            $wrapper .= '    <tr>' . "\n";
+            $wrapper .= '        <th>Subject</th>' . "\n";
+            $wrapper .= '        <th>Lecture</th>' . "\n";
+            $wrapper .= '        <th>Institution</th>' . "\n";
+            $wrapper .= '        <th>Date</th>' . "\n";
+            $wrapper .= '    </tr>' . "\n";
+            $out = $wrapper . $out . "</table>\n";
+        }
+        return $out;
+    }
+
 }
 
 /* End of file Stencil.php */ 
