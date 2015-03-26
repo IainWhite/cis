@@ -1165,7 +1165,7 @@ class Stencil {
             $out .= '       <td class="clickable row-toggle collapsed" data-toggle="collapse" id="row' . $i . '" data-target=".row' . $i . '"><strong class="color-site-blue">' . $row->title . '</strong></td>' . "\n";
             $out .= '       <td>' . $row->lecturer . '</td>' . "\n";
             $out .= '       <td><a href="/companies/' . $this->sanitizeFileName($row->institute) . '">' . $row->institute  . '</a></td>' . "\n";
-            $out .= '       <td class="text-right">' . $row->when . '</td>' . "\n";
+            $out .= '       <td class="text-right">' . date('M-Y', strtotime($row->when)) . '</td>' . "\n";
             $out .= '   </tr>' .  "\n";
             $out .= '   <tr class="collapse row' . $i . '">' .  "\n";
             $out .= '       <td colspan="4">' . $row->desc . '</td>' . "\n";

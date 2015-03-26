@@ -1,7 +1,6 @@
 ToDo
 
 Colours of TABLE
-Reformat date to Month Year in getQualifications()
 getPlugins($cat = 'ALL', $limit = NULL)
 getDefinitions($cat = 'ALL')
 addTagCloud($cat = 'ALL', $limit = NULL, $rand = FALSE)
