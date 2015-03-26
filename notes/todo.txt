@@ -6,11 +6,4 @@ getDefinitions($cat = 'ALL')
 addTagCloud($cat = 'ALL', $limit = NULL, $rand = FALSE)
 getSoundBites($limit)
 getAbout($cat = 'ALL', $funcName, $limit = 0, $wrapper = 'li', $modify = FALSE)
-getQualificationsCount($cat = 'ALL')
-getQualifications($cat = 'ALL', $funcName, $limit = 0)     
-
-
-
-
-    
 	
