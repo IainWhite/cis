@@ -1,5 +1,7 @@
 ToDo
 
+Fix home page
+Rename 404_view to 404
 Colours of TABLE
 getPlugins($cat = 'ALL', $limit = NULL)
 getDefinitions($cat = 'ALL')

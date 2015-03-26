@@ -8,6 +8,8 @@
         <p>While working at Emu Design I worked on many projects from green field sites to maintenance and support.</p>
         <p>The majority of my work was using PHP (Drupal and Wordpress) and Cold Fusion, but I also used HTML5, CSS-3, JavaScript, jQuery, MySQL, MS SQLServer, Adobe Flex and ASP.Net.</p>
 
+
+
         <hr>
         <h2>Notes</h2>
         Emu Design is a leading full service multimedia and digital agency in Brisbane.
