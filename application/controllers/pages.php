@@ -41,12 +41,11 @@ class Pages extends MY_Controller {
         } else {
             $this->output->set_status_header('404');
             $this->stencil->title('404 Page Not Found');
-            $data['subpage_text'] = '404 Page Does not Exist!';
             if (ENVIRONMENT != 'production') {
                 $data['subpage_text'] = 'Could not find <strong>view</strong> "<em>' . $viewPath . '</em>".';
             }
             $this->stencil->data($data);
-            $this->stencil->paint('404_view');
+            $this->stencil->paint('404');
         }
 
 	}

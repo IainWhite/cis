@@ -1,11 +1,8 @@
 ToDo
 
-Fix home page
-Rename 404_view to 404
 Colours of TABLE
 getPlugins($cat = 'ALL', $limit = NULL)
 getDefinitions($cat = 'ALL')
 addTagCloud($cat = 'ALL', $limit = NULL, $rand = FALSE)
 getSoundBites($limit)
 getAbout($cat = 'ALL', $funcName, $limit = 0, $wrapper = 'li', $modify = FALSE)
-	
