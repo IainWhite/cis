@@ -8,7 +8,7 @@
 
         <p>I was fascinated by having to script cross-browser for Internet Explorer and Netscape Navigator.</p>
 
-        <p>This lead to me becoming a Web Developer and I have been crafting HTML, CSS and JavaScript solutions for the past <?php echo $this->stencil->elapsedYears('01/01/1998'); ?> years.</p>
+        <p>This lead to me becoming a Web Developer and I have been crafting HTML, CSS and JavaScript solutions for the past <?php echo $this->stencil->elapsedYears('01/01/1998'); ?>.</p>
 
         <p>I developed my own cross-browser JavaScript libraries and have worked with  <strong>Ext</strong>, <strong>MooTools</strong>, <strong>Prototype</strong> and <strong>script.aculo.us</strong> but now mostly use jQuery</strong>.</p>
 
