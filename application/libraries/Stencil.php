@@ -582,13 +582,15 @@ class Stencil {
         return $out;
     }
 
-    public function addLink($text, $path = '', $title = NULL, $full = FALSE)
+    public function addLink($text, $path = '', $title = NULL, $full = FALSE, $override = NULL)
     {
         if (!$title) {
             $title = $text;
         }
         $fileName = $this->sanitizeFileName($text);
-
+        if ($override) {
+            $fileName = $this->sanitizeFileName($override);
+        }
         switch (strtoupper($path)) {
             case 'WD':
                 $path = 'web-development';
