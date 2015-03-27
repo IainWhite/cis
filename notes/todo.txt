@@ -6,3 +6,17 @@ getDefinitions($cat = 'ALL')
 addTagCloud($cat = 'ALL', $limit = NULL, $rand = FALSE)
 getSoundBites($limit)
 getAbout($cat = 'ALL', $funcName, $limit = 0, $wrapper = 'li', $modify = FALSE)
+Add Currently looking
+I am currently looking for a position as a PHP / JavaScript Developer in or near the Brisbane CBA.
+
+
+I am a highly skilled and experienced Web Developer with Agile Team Leader experience.
+
+I have been working in IT for X years and developing for the Web for over X years.
+
+I am currently looking for a permanent or contract position as a PHP or JavaScript Developer, ideal based in Brisbane CBD, or on West side of the city.
+
+I am available to start at short notice, please contact me on [email] or [mobile] for more details.
+
+Download my CV in PDF format.
+
