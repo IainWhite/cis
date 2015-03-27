@@ -10,7 +10,7 @@
 
         <h2>Iain at Big Bridge</h2>
         <p><strong>Role:</strong> <strong>Senior Web Developer</strong></p>
-        <p><strong>Dates:</strong> 10/2011 - 12/2011 (<?php echo $this->stencil->elapsedYears('01/10/2011', True, TRUE, '30/12/2011'); ?>)</p>
+        <p><strong>Dates:</strong> 10/2011 - 12/2011 (<?php echo $this->stencil->elapsedYears('01/10/2011', TRUE, TRUE, '30/12/2011'); ?>)</p>
         <p><strong>Skills:</strong> Drupal PHP mySQL HTML5 CSS-3 JavaScript jQuery IIS</p>
 
         <p>During my short time at Big Bridge I developed one site from scratch in Drupal 7 as well as completing several partly completed Drupal 7 and HTML sites.</p>
