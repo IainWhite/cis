@@ -6,6 +6,12 @@ getDefinitions($cat = 'ALL')
 addTagCloud($cat = 'ALL', $limit = NULL, $rand = FALSE)
 getSoundBites($limit)
 getAbout($cat = 'ALL', $funcName, $limit = 0, $wrapper = 'li', $modify = FALSE)
+addGoogleAnalytics(id)
+addContactInfo($email = TRUE, $phone = TRUE)
+
+
+
+
 Add Currently looking
 I am currently looking for a position as a PHP / JavaScript Developer in or near the Brisbane CBA.
 
