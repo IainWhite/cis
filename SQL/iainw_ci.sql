@@ -458,6 +458,36 @@ INSERT INTO `products` VALUES ('S10_1678','1969 Harley Davidson Ultimate Chopper
 UNLOCK TABLES;
 
 --
+-- Table structure for table `site_images`
+--
+
+DROP TABLE IF EXISTS `site_images`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `site_images` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `company` varchar(200) NOT NULL,
+  `filename` varchar(100) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `weight` int(11) NOT NULL DEFAULT '10',
+  `description` text,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  KEY `company` (`company`)
+) ENGINE=InnoDB AUTO_INCREMENT=102 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `site_images`
+--
+
+LOCK TABLES `site_images` WRITE;
+/*!40000 ALTER TABLE `site_images` DISABLE KEYS */;
+INSERT INTO `site_images` VALUES (1,'Anglian Network Systems','bows.jpg','BOWS - Bristol Online Weddings Services',1,''),(2,'Anglian Network Systems','bows2.jpg','Bristol Online Weddings make-up page',2,''),(3,'Anglian Network Systems','future-brides-spe.gif','Future Brides Single page',3,''),(4,'Anglian Network Systems','bows-admin.gif','BOWS banner admin',4,''),(5,'Anglian Network Systems','modeca.jpg','Modeca bridal ware',5,''),(6,'Anglian Network Systems','houghton-group.jpg','Houghton Group',6,''),(7,'TigerRedi','proton-2000.jpg','Proton 2000',1,''),(8,'TigerRedi','proton-2001.jpg','Proton 2001',2,''),(9,'TigerRedi','kia.jpg','Kia',3,''),(10,'TigerRedi','iwall.jpg','iWall',4,''),(11,'TigerRedi','nike1.gif','Nike',5,''),(12,'TigerRedi','nike2.jpg','Nike',6,''),(13,'TigerRedi','teemo.jpg','Teemo',7,''),(14,'TigerRedi','teemo2.jpg','Teemo',8,''),(15,'TigerRedi','smart-repairs.jpg','Smart Repairs',9,''),(16,'TigerRedi','walkingbus.jpg','Walking Bus',10,''),(17,'TigerRedi','grayling.jpg','Grayling',11,''),(18,'TigerRedi','honda.gif','Honda',12,''),(19,'TigerRedi','stealthboat.jpg','Stealthbost',13,''),(20,'TigerRedi','elert.jpg','TenderElert',14,''),(21,'TigerRedi','gb-supplies.jpg','G and B Supplies',15,''),(22,'TigerRedi','bright-sparks.gif','Bright Sparks',16,''),(23,'TigerRedi','mead.jpg','Mead',17,''),(24,'Freelancing','bipurfect.jpg','Bipurfect',1,''),(25,'Freelancing','vision-matrix.jpg','Vision Matrix',2,''),(26,'Freelancing','brettons.jpg','Brettons menu',3,''),(27,'JPC Infonet','packing-supplier.jpg','The Packing Supplier',1,''),(28,'JPC Infonet','packing-supplier2.jpg','The Packing Supplier products page',2,''),(29,'JPC Infonet','packing-supplier4.jpg','The Packing Supplier shopping basket',3,''),(30,'JPC Infonet','ztc-controls.jpg','ZTC Controls',4,''),(31,'JPC Infonet','usp.jpg','UPS',5,''),(32,'JPC Infonet','usp2.gif','UPS products page',6,''),(33,'JPC Infonet','bath.jpg','Bath.co.uk Travel portal for the city of Bath, England',7,''),(34,'JPC Infonet','apostrophe-spe.jpg','Apostrophe Bath single page advert',8,''),(35,'JPC Infonet','walcot-woollies-spe.jpg','Walcot Woollies Bath single page advert',9,''),(36,'JPC Infonet','bath-shopping.jpg','Bath Shopping',10,''),(37,'JPC Infonet','tania-bailey.gif','Tania Bailey',11,''),(38,'JPC Infonet','wiltshire-web.jpg','Wiltshire Web Community/Travel portal',12,''),(39,'JPC Infonet','crimson-hotels.jpg','Crimson Hotels',13,''),(40,'JPC Infonet','crimson-hotels4.gif','Crimson Hotels UK gateway page',14,''),(41,'JPC Infonet','quality-hotel.jpg','Crimson Hotels Quality Hotel',15,''),(42,'JPC Infonet','comfort-hotel.gif','Crimson Hotels Confort Inn Hotel',16,''),(43,'JPC Infonet','carvoeiro-sol-hotel.gif','Crimson Hotels Carvoeiro Sol Hotel',17,''),(44,'JPC Infonet','sea-view-hotel.gif','Crimson Hotels Sea View Hotel',18,''),(45,'JPC Infonet','allesley-hotel.gif','Crimson Hotels Allesley Hotel',19,''),(46,'JPC Infonet','trowbridge.gif','Trowbridge Town Council',20,''),(47,'JPC Infonet','yate.jpg','Yate Town Council',21,''),(48,'JPC Infonet','chippenham.gif','Chippenham Town Council',22,''),(49,'JPC Infonet','capitalone-mortgage.gif','CapitaleOne Mortgage',23,''),(50,'JPC Infonet','safety-cameras.gif','Wiltshire &amp; Swindon Safety Camera Partnership',24,''),(51,'JPC Infonet','london-and-country.jpg','London and Country',25,''),(52,'JPC Infonet','l-c-whitelabel.gif','London and Country white label',26,''),(53,'JPC Infonet','file-it.jpg','File It',27,''),(54,'JPC Infonet','file-it2.jpg','File It office furniture',28,''),(55,'JPC Infonet','file-it3.gif','File It catalogue page',29,''),(56,'JPC Infonet','pioneer-friendly.jpg','Pioneer Friendly',30,''),(57,'JPC Infonet','rondstone-surgery.jpg','Roundstone Surgery',31,''),(58,'JPC Infonet','rondstone-surgery-intranet.gif','Roundstone Surgery Intranet',32,''),(59,'JPC Infonet','stone-king.jpg','Stone King',33,''),(60,'JPC Infonet','tillions.jpg','Tillions',34,''),(61,'JPC Infonet','map-group.jpg','Map Group (also known as pop-up maps)',35,''),(62,'JPC Infonet','bch-camping.jpg','BCH Camping',36,''),(63,'JPC Infonet','re-sale-spain.gif','Re-sale Spain',37,''),(64,'JPC Infonet','re-sale-spain2.gif','Re-sale Spain',38,''),(65,'JPC Infonet','re-sale-spain3.gif','Re-sale Spain',39,''),(66,'JPC Infonet','qhh.jpg','Quartley Hodges Hood',40,''),(67,'JPC Infonet','beechfield-house.jpg','Beechfield House',41,''),(68,'JPC Infonet','robin-lloyd.jpg','Robin Lloyd',42,''),(69,'JPC Infonet','wessex-acc.jpg','Wessex Association of Chambers of Commerce',43,''),(70,'JPC Infonet','western-event-hire.gif','Western Event Hire',44,''),(71,'JPC Infonet','western-event-hire2.gif','Western Event Hire',45,''),(72,'JPC Infonet','western-event-hire3.gif','Western Event Hire',46,''),(73,'JPC Infonet','western-event-hire4.gif','Western Event Hire',47,''),(74,'JPC Infonet','western-event-hire5.gif','Western Event Hire',48,''),(75,'JPC Infonet','wiltshire-csp.jpg','Wiltshire Community Safety Partnerships',49,''),(76,'JPC Infonet','wiltshire-csp2.gif','Wiltshire Community Safety Partnerships admin page',50,''),(77,'JPC Infonet','hardback2.gif','Hardback Books',51,''),(78,'JPC Infonet','contentworx.gif','ContentWorx, a CMS system',52,''),(79,'JPC Infonet','image-library.jpg','Image Library',53,''),(80,'The AOT Group','sunlover-holidays.gif','Sunlover Holidays',1,''),(81,'The AOT Group','nsw-holidays.gif','NSW Holidays',2,''),(82,'The AOT Group','needitnow.gif','Need It Now Last minute accommodation',3,''),(83,'The AOT Group','travelpoint.gif','Travelpoint',4,''),(84,'The AOT Group','great-aussie-holidays.gif','Great Aussie Hoildays',5,''),(85,'The AOT Group','travelmate.gif','Travelmate',6,''),(86,'The AOT Group','best-rates.gif','Best Rates',7,''),(87,'The AOT Group','pillowpoints.gif','pillowPOINTS',8,''),(88,'The AOT Group','need-to-escape.gif','Need To Escape',9,''),(89,'The AOT Group','go-stay.gif','Go Stay',10,''),(90,'Big Bridge','battery-world.jpg','Battery World',1,''),(91,'Big Bridge','poolwerx.jpg','Poolwerx',2,''),(92,'Big Bridge','veterans-rugby-qld.gif','Veterans Rugby QLD',3,'  '),(93,'Big Bridge','jktech.jpg','JKTech',4,''),(94,'Big Bridge','rps-group.jpg','The RPS Group',5,''),(95,'Big Bridge','iconcierge.gif','iConcierge',6,''),(96,'Big Bridge','keller.gif','Keller',7,''),(97,'Big Bridge','office-of-the-information-commissioner.gif','Office of the Information Commissioner',8,''),(98,'Big Bridge','panaust.jpg','PanAust',9,''),(99,'Big Bridge','devine-woodvale.gif','Devine Woodvale',10,''),(100,'Big Bridge','electrical-trades-union.gif','Electrical Trades Union',11,''),(101,'Big Bridge','recycling-battery-world.gif','Recycling Battery World',12,'');
+/*!40000 ALTER TABLE `site_images` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `users`
 --
 
@@ -492,7 +522,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'127.0.0.1','administrator','$2y$08$uV5Ix/vM/XvyE7Iojs7/I.IjexejD.DWkZIg0DjazSZcRuL2jmT/q','','admin@admin.com','',NULL,NULL,'MrW7lLy0aPOU8o7v6.SMse',1268889823,1427237870,1,'Admin','istrator','ADMIN','0'),(2,'127.0.0.1','iain white','$2y$08$r5NsfLU00mEjMQpFB90rgOZoPxXGn3.RyyioU2GzMPbMvbmpFSE/e',NULL,'iain@whiteinternet.com',NULL,NULL,NULL,'YFnPjrrXyFOYXMo/cLEAZO',1426476105,1426484194,1,'Iain','White','WhiteInternet','01234567'),(3,'127.0.0.1','mary white','$2y$08$rg4FAtHE3.22rncaGfHPoOuvwpbDBpBTwOM55H04BwItVdXiwIejS',NULL,'maz@whiteinternet.com',NULL,NULL,NULL,'9EStCfUaShLb/2fySVhyeO',1426476257,1426486208,1,'Mary','White','WhiteInternet','012345678');
+INSERT INTO `users` VALUES (1,'127.0.0.1','administrator','$2y$08$uV5Ix/vM/XvyE7Iojs7/I.IjexejD.DWkZIg0DjazSZcRuL2jmT/q','','admin@admin.com','',NULL,NULL,'MrW7lLy0aPOU8o7v6.SMse',1268889823,1427247650,1,'Admin','istrator','ADMIN','0'),(2,'127.0.0.1','iain white','$2y$08$r5NsfLU00mEjMQpFB90rgOZoPxXGn3.RyyioU2GzMPbMvbmpFSE/e',NULL,'iain@whiteinternet.com',NULL,NULL,NULL,'YFnPjrrXyFOYXMo/cLEAZO',1426476105,1426484194,1,'Iain','White','WhiteInternet','01234567'),(3,'127.0.0.1','mary white','$2y$08$rg4FAtHE3.22rncaGfHPoOuvwpbDBpBTwOM55H04BwItVdXiwIejS',NULL,'maz@whiteinternet.com',NULL,NULL,NULL,'9EStCfUaShLb/2fySVhyeO',1426476257,1426486208,1,'Mary','White','WhiteInternet','012345678');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -616,15 +646,15 @@ DROP TABLE IF EXISTS `wd_course`;
 CREATE TABLE `wd_course` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `institute` varchar(100) CHARACTER SET utf8 NOT NULL,
-  `when` date NOT NULL,
+  `when_date` date NOT NULL,
   `title` varchar(100) CHARACTER SET utf8 NOT NULL,
   `desc` text CHARACTER SET utf8,
   `lecturer` varchar(45) CHARACTER SET utf8 DEFAULT NULL,
   `award` varchar(100) CHARACTER SET utf8 DEFAULT NULL,
   `url` varchar(100) CHARACTER SET utf8 DEFAULT NULL,
   `award_url` varchar(100) CHARACTER SET utf8 DEFAULT NULL,
-  PRIMARY KEY (`id`,`institute`,`when`),
-  UNIQUE KEY `id_UNIQUE` (`id`,`when`,`institute`)
+  PRIMARY KEY (`id`,`institute`,`when_date`),
+  UNIQUE KEY `id_UNIQUE` (`id`,`when_date`,`institute`)
 ) ENGINE=InnoDB AUTO_INCREMENT=217 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -804,4 +834,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-03-25  9:45:34
+-- Dump completed on 2015-03-30 13:24:27
