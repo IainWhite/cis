@@ -27,7 +27,3 @@
 
 <h3>Client Sites</h3>
 <?php echo $this->stencil->addSiteImages(array(93, 96, 95, 98, 90, 100, 97, 91)); ?>
-
-<div class="contactIW rounded-2x box-shadow shadow-effect-1 col-xs-12 col-sm-12 col-md-12 margin-bottom-10">
-    <p class="text-center">I am currently seeking a position as a Web Developer in or near Brisbane CBD. <a href="/iain-white/seeking-work">More details</a>.</p>
-</div>

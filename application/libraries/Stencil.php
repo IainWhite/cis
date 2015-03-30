@@ -147,6 +147,9 @@ class Stencil {
             foreach ($this->data['sub-content'] as $content)
             $this->data['content'] .= $content;
         }
+        if ($this->isLooking && $this->cat == 'iain-white') {
+            $this->data['content'] .= "\n" . $this->addLooking() . "\n";
+        }
         $footerComment = '<!-- ' . date('l dS \of F Y h:i:s A') . ' -->';
         $this->data['content'] .= "\n" . $footerComment . "\n";
         $this->CI->load->view('layouts/' . $this->layout, $this->data);
@@ -1241,6 +1244,22 @@ class Stencil {
         $this->js('assets/js/plugins/fancy-box.js');
         return $out;
     }
+
+    public function addLooking()
+    {
+        $out = '';
+        $out .= '<div class="contactIW rounded-2x box-shadow shadow-effect-1 col-xs-12 col-sm-12 col-md-12 margin-bottom-10">' . "\n";
+        $out .= '    <p class="text-center">I am currently seeking a position as a Web Developer in or near Brisbane CBD. <a href="/iain-white/seeking-work">More details</a>.</p>' . "\n";
+        $out .= '</div>';
+        return $out;
+    }
+
+    public function addContactInfo()
+    {
+        $out = '';
+        return $out;
+    }
+
 }
 
 /* End of file Stencil.php */ 
