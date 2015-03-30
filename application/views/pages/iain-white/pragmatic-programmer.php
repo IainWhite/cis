@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Pragmatic Programmer'); ?>
+        <?php $this->stencil->setDescription('Iain White is a Pragmatic Programmer who has been developing software for over ' . $this->stencil->elapsedYears('01/09/1987') . '.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Pragmatic Programmer')); ?>
 
         <p>I am a big fan of the book The Pragmatic Programmer: From Journeyman to Master Paperback by Andrew Hunt and David Thomas.</p>
 

@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Companies'); ?>
+        <?php $this->stencil->setDescription('Iain White is a Web Developer who has worked for a number of prestigious companies in Europe and Australia.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master')); ?>
 
         <p>This page is a list of companies that Iain White has worked at.</p>
 

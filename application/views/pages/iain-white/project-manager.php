@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White Project Manager'); ?>
+        <?php $this->stencil->setDescription('Iain White is a dedicated and experienced Project Manager and Certified Scrum Master.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Management')); ?>
 
         <p>I have successfully managed the scoping, planning, deployment and delivery of projects in time and to budget.</p>
 

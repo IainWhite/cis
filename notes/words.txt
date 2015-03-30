@@ -6,73 +6,10 @@ Keywords
 Every personnel page has the following keywords.
 Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master
 
-Home Page
-White Internet, Agile, Scrum, Project Management, Web Development, Software Engineering, Information Technology, Programming, Software, Web Development 
-
-Seeking Work
-Looking for work, job hut, permanent, contract
-
-Companies
-????
-
-CV
-Bristol, UK, contract, skills, BSc
-
-References
-References, Recommendations
-
-Press???
-
 Descriptions
 
 Iain White is a Brisbane based Web Developer.
 
-Home Page
-WhiteInternet information and tips on Project Management, Web Development and on-line portfolio for Iain White.
-
-Seeking Work
-Iain White is a seasoned Web Developer / Scrum Master based in Brisbane who is currently seeking a new position.
-
-Companies
-Iain White is a Web Developer who has worked for a number of prestigious companies in Europe and Australia.
-
-CV
-On-line resume (curriculum vitae) for Iain White a Brisbane based Web Developer / Scrum master.
-
-References
-Recommendations for Iain White a Web Developer / Scrum Master based in Brisbane, Australia.
-
-Press
-Websites developed by Iain White have been featured in the national press.
-
-Web Development
-Iain White seasoned Web Developer who has been developing websites for over X years.
-
-PHP Development
-Iain White is a talented PHP Developer with over X years of experience.
-
-Pragmatic Programmer
-Iain White is a Pragmatic Programmer who has been developing software for over x years.
-
-Project Management
-Iain White is a dedicated and experienced Project Manager and Certified Scrum Master.
-
-Scrum Master
-Iain White is a Certified Scrum Master with a passion for Agile software development.
-
-About
-Iain White is a highly skilled Web Developer / Scrum Master a passion for Agile software development.
-
-Qualifications
-Iain White has a BSc in Computing and is a Certified Scrum Master with a passion for learning new skills.
-
-
 ----
 
-Read my recommendations and see what other people say about my work.
-
-Websites that I have developed have been featured in national publications.  Read my press reviews.
-
-View my LinkedIn page.
-
-
+Text For About

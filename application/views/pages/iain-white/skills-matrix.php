@@ -1,1 +1,7 @@
-<h3>Skills Matrix</h3>
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Skills Matrix'); ?>
+        <?php $this->stencil->setDescription(''); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master')); ?>
+    </div>
+</div>

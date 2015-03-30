@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White Scrum Master'); ?>
+        <?php $this->stencil->setDescription('Iain White is a Certified Scrum Master with a passion for Agile software development.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Management')); ?>
 
         <p>I have been a <strong>Certified Scrum Master</strong> since November 2013.</p>
 

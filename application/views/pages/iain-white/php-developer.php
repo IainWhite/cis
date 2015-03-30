@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White PHP Developer'); ?>
+        <?php $this->stencil->setDescription('Iain White is a talented PHP Developer with over ' . $this->stencil->elapsedYears('01/01/1998') . ' of experience.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, PHP, Drupal, WordPress, MVC')); ?>
 
         <p>I am a talented and experienced full stack Web Developer with Agile Team Leader experience.</p>
 
@@ -20,7 +22,7 @@
 
         <p>I have had commercial experience working with <strong>CodeIgniter</strong>, <strong>CakePHP</strong>, <strong>Zend</strong>, <strong>Yii</strong>, <strong>Symfony2</strong> and <strong>Laravel</strong>.</p>
 
-        <p>I have worked with several PHP based CMS including <strong>WordPress</strong>, <strong>Drupal</strong>.</p>
+        <p>I have worked with several PHP based CMS including <strong>WordPress</strong> and <strong>Drupal</strong>.</p>
 
     </div>
 </div>

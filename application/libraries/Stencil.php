@@ -338,7 +338,9 @@ class Stencil {
 
     public function setDescription($description)
     {
-        $this->isdescription = $description;
+        if (!$this->isSub) {
+            $this->description = $description;
+        }
     }
 
     public function getSEOTitle()

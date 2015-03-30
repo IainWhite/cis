@@ -1,3 +1,5 @@
+<?php $this->stencil->setDescription('WhiteInternet information and tips on Project Management, Web Development and on-line portfolio for Iain White.'); ?>
+<?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, WhiteInternet')); ?>
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Home'); ?>

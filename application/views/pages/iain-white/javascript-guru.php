@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White JavaScript Guru'); ?>
+        <?php $this->stencil->setDescription('Iain White is a expert in developing using JavaScript.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, JavaScript, jQuery, AJAX')); ?>
 
         <p>I am a experienced and talented front-end developer.</p>
 
