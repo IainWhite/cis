@@ -8,9 +8,9 @@
         <h2>Skills</h2>
         <p>I have worked as a Software Developer for {"01/09/1987"|elapsed:TRUE:FALSE}, with {"01/09/1999"|elapsed:TRUE:FALSE} of developing Websites, leading Web Development Teams for the last {"01/01/2007"|elapsed:TRUE:FALSE}.</p>
         <p>I have experience across the entire project life cycle. I have worked as a Manager, Team Leader, Lead Developer and Software Engineer as well as a Programmer.</p>
-        <p>I have excellent development skills, including {'HTML'|link_urls:'w'}, {'JavaScript'|link_urls:'/l'}, {'CSS'|link_urls:'w'}, {'PHP'|link_urls:'/l'}, {'ASP'|link_urls:'/l'}, {'XML'|link_urls:'w'}, {'AJAX'|link_urls:'w'}, {'jQuery'|link_urls:'w'}, {'mySQL'|link_urls:'w'}, {'PostgreSQL'|link_urls:'w'} and {'MS SQLServer'|link_urls:'w'}.</p>
-        <p>I have had experience of {'Drupal'|link_urls:'w'}, {'WordPress'|link_urls:'w'}, {'Java'|link_urls:'/l'}, {'Scala'|link_urls:'/l'}, {'JSP'|link_urls:'/l'}, {'Perl'|link_urls:'/l'}, {'ColdFusion'|link_urls:'/l'}, {'TDD'|link_urls:'i'} (Test Driven Development), code repositories, Object Oriented Programming, Technical design and documentation and {'SEO'|link_urls:'w'} (Search Engine Optimisation).</p>
-        <p>I have worked in {'Agile'|link_urls:'m'} teams, {'Lean'|link_urls:'m'} development and I am experiance in building {'Scrum'|link_urls:'m'} Teams.</p>
+        <p>I have excellent development skills, including HTML, JavaScript, CSS, PHP, ASP, XML, AJAX, jQuery, MySQL, PostgreSQL and MS SQLServer.</p>
+        <p>I have had experience of Drupal, WordPress, Java, Scala, JSP, Perl, ColdFusion, TDD (Test Driven Development), code repositories, Object Oriented Programming, Technical design and documentation and SEO (Search Engine Optimisation).</p>
+        <p>I have worked in Agile teams, Lean development and I am experianced in building Scrum Teams.</p>
         <P>I am a certified Professional Scrum Master and have worked in the role for over a year.</p>
         <p>I have good communication and interpersonal skills. I can work independently and / or in a team. I have proven leadership skills and have the ability to prioritise and schedule my own and others work. I am self motivated and reliable with a drive to deliver the best quality solution within allocated timelines.</p>
     </div>
@@ -30,7 +30,7 @@
             <div class="tab-content">
                 <div class="tab-pane fade in active" id="work-history">
                     <h2>Work History</h2>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>OnTheHouse</strong> 01/2013 - 07/2014 <small>({"07/01/2013"|elapsed:TRUE:TRUE:"30/07/2014"})</small></p>
@@ -42,24 +42,24 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'Agile'|link_urls:'m'}</span>
-                                    <span class="label label-info rounded-2x">{'Scrum'|link_urls:'m'}</span>
-                                    <span class="label label-info rounded-2x">{'Scrum Master'|link_urls:'m'}</span>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'mySQL'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'HTML5'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CSS-3'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'jQuery'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'BootStrap'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'Bash'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'R'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">Agile</span>
+                                    <span class="label label-info rounded-2x">Scrum</span>
+                                    <span class="label label-info rounded-2x">Scrum Master</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">MySQL</span>
+                                    <span class="label label-info rounded-2x">HTML5</span>
+                                    <span class="label label-info rounded-2x">CSS-3</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">jQuery</span>
+                                    <span class="label label-info rounded-2x">BootStrap</span>
+                                    <span class="label label-info rounded-2x">Bash</span>
+                                    <span class="label label-info rounded-2x">R</span>
                                 </p>
                             </div>
                         </div>
                         <img src="/assets/images/companies/onthehouse.gif" alt="OnTheHouse Logo" title="OnTheHouse" class="pull-right img-bordered" />
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>Freenet</strong> 01/2012 - 08/2012 <small>({"01/01/2012"|elapsed:TRUE:TRUE:"30/08/2012"})</small></p>
@@ -71,14 +71,14 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'Agile'|link_urls:'m'}</span>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'mySQL'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'HTML5'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CSS-3'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'jQuery'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CodeIgniter'|link_urls:'w'}</span>
+                                    <span class="label label-info rounded-2x">Agile</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">MySQL</span>
+                                    <span class="label label-info rounded-2x">HTML5</span>
+                                    <span class="label label-info rounded-2x">CSS-3</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">jQuery</span>
+                                    <span class="label label-info rounded-2x">CodeIgniter</span>
                                 </p>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                         <p>Developing advert injection, customer portal and back-end administration in PHP.</p>
                         <p>Part of an Agile Software Development team of 6.</p>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>Big Bridge</strong> 10/2011 - 12/2011 <small>({"01/10/2011"|elapsed:TRUE:TRUE:"30/12/2011"})</small></p>
@@ -99,13 +99,13 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'Drupal'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'mySQL'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'HTML5'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CSS-3'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'jQuery'|link_urls:'w'}</span>
+                                    <span class="label label-info rounded-2x">Drupal</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">MySQL</span>
+                                    <span class="label label-info rounded-2x">HTML5</span>
+                                    <span class="label label-info rounded-2x">CSS-3</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">jQuery</span>
                                 </p>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                         <p>During my short time at Big Bridge I developed one site from scratch in Drupal 7 as well as completing several partly completed Drupal 7 and HTML sites.</p>
                         <p>I was also involved in providing support and enhancements to sites developed in Drupal 5, 6 and 7.</p>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>The AOT Group</strong> 06/2006 - 07/2011 <small>({"01/06/2006"|elapsed:TRUE:TRUE:"30/07/2011"})</small></p>
@@ -126,17 +126,17 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'PostgreSQL'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'XHTML'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CSS'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'jQuery'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'XML'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'ASP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'API'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'MS SQLServer'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'Agile'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">PostgreSQL</span>
+                                    <span class="label label-info rounded-2x">XHTML</span>
+                                    <span class="label label-info rounded-2x">CSS</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">jQuery</span>
+                                    <span class="label label-info rounded-2x">XML</span>
+                                    <span class="label label-info rounded-2x">ASP</span>
+                                    <span class="label label-info rounded-2x">API</span>
+                                    <span class="label label-info rounded-2x">MS SQLServer</span>
+                                    <span class="label label-info rounded-2x">Agile</span>
                                 </p>
                             </div>
                         </div>
@@ -173,7 +173,7 @@
                             <li>I gave technical advice to Business Analysis, Web Designers and other departments.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>JPC Infonet</strong> 10/2002 - 02/2006 <small>({"01/10/2002"|elapsed:TRUE:TRUE:"30/02/2006"})</small></p>
@@ -185,17 +185,17 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'ASP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'MS SQLServer'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'HTML'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CSS'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'.Net'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'ColdFusion'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'Perl'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'ActionScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'MS Access'|link_urls:'w'}</span>
+                                    <span class="label label-info rounded-2x">ASP</span>
+                                    <span class="label label-info rounded-2x">MS SQLServer</span>
+                                    <span class="label label-info rounded-2x">HTML</span>
+                                    <span class="label label-info rounded-2x">CSS</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">.Net</span>
+                                    <span class="label label-info rounded-2x">ColdFusion</span>
+                                    <span class="label label-info rounded-2x">Perl</span>
+                                    <span class="label label-info rounded-2x">ActionScript</span>
+                                    <span class="label label-info rounded-2x">MS Access</span>
                                 </p>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                             <li>In early 2005 I was responsible for running a marketing campaign for the city of Bath tourist portal.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>Freelancing</strong> 02/2002 - 09/2002 <small>({"01/02/2002"|elapsed:TRUE:TRUE:"30/09/2002"})</small></p>
@@ -227,11 +227,11 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'mySQL'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'HTML'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CSS'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">MySQL</span>
+                                    <span class="label label-info rounded-2x">HTML</span>
+                                    <span class="label label-info rounded-2x">CSS</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
                                 </p>
                             </div>
                         </div>
@@ -240,7 +240,7 @@
                             <li>Design and creation of web sites for local businesses.</li>
                             <li>1 month working for <strong>WebEurope</strong>.
                                 <ul>
-                                    <li>Created databases using InterBase and mySQL and developed in PHP.</li>
+                                    <li>Created databases using InterBase and MySQL and developed in PHP.</li>
                                     <li>Produced sites using Dreamweaver MX, HomeSite+ and Fireworks MX.</li>
                                     <li>Configured and administered a new Sun RaQ550 web server.</li>
                                 </ul>
@@ -252,7 +252,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>TigerRedi</strong> 06/2000 - 11/2001 <small>({"01/06/2000"|elapsed:TRUE:TRUE:"30/11/2001"})</small></p>
@@ -264,15 +264,15 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'mySQL'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'HTML'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CSS'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'JSP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'Java'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'Perl'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'Visual BASIC'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">MySQL</span>
+                                    <span class="label label-info rounded-2x">HTML</span>
+                                    <span class="label label-info rounded-2x">CSS</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">JSP</span>
+                                    <span class="label label-info rounded-2x">Java</span>
+                                    <span class="label label-info rounded-2x">Perl</span>
+                                    <span class="label label-info rounded-2x">Visual BASIC</span>
                                 </p>
                             </div>
                         </div>
@@ -291,7 +291,7 @@
                             <li>Co-ordinated the IT requirements for the entire TigerRed Partnership.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>Anglian Network Systems</strong> 09/1999 - 05/2000 <small>({"01/09/1999"|elapsed:TRUE:TRUE:"30/05/2000"})</small></p>
@@ -303,12 +303,12 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'mySQL'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'HTML'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'CSS'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'Perl'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">MySQL</span>
+                                    <span class="label label-info rounded-2x">HTML</span>
+                                    <span class="label label-info rounded-2x">CSS</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">Perl</span>
                                 </p>
                             </div>
                         </div>
@@ -325,7 +325,7 @@
                             <li>Developed, maintained and promoted a local wedding portal.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>Reuters</strong> 11/1997 - 07/1999 <small>({"01/11/1997"|elapsed:TRUE:TRUE:"30/07/1999"})</small></p>
@@ -337,12 +337,12 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'VAX Pascal'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'DEC RDB'|link_urls:'i'}</span>
-                                    <span class="label label-info rounded-2x">{'PHP'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'Oricle'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'JavaScript'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'HTML'|link_urls:'w'}</span>
+                                    <span class="label label-info rounded-2x">VAX Pascal</span>
+                                    <span class="label label-info rounded-2x">DEC RDB</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">Oricle</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">HTML</span>
                                 </p>
                             </div>
                         </div>
@@ -357,7 +357,7 @@
                             <li>Assisted in the migration of Reuters Business Briefing to an Internet product using a custom version of Internet Explorer 4.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>SMS Nederland</strong> 04/1996 - 20/1997 <small>({"01/04/1996"|elapsed:TRUE:TRUE:"30/10/1997"})</small></p>
@@ -369,9 +369,9 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'VAX BASIC'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'DEC RDB'|link_urls:'i'}</span>
-                                    <span class="label label-info  rounded-2x">{'Visual BASIC'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">VAX BASIC</span>
+                                    <span class="label label-info rounded-2x">DEC RDB</span>
+                                    <span class="label label-info  rounded-2x">Visual BASIC</span>
                                 </p>
                             </div>
                         </div>
@@ -386,7 +386,7 @@
                             <li>Developed new General Ledger reporting routines.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>EDS Healthcare</strong> 05/1995 - 11/1995 <small>({"05/05/1995"|elapsed:TRUE:TRUE:"05/11/1995"})</small></p>
@@ -398,7 +398,7 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'MUMPS'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">MUMPS</span>
                                 </p>
                             </div>
                         </div>
@@ -409,7 +409,7 @@
                             <li>Configured and administered MUMPS databases across VAX, UNIX and PC systems.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>Radford Group</strong> 01/1995 - 04/1995 <small>({"01/01/1995"|elapsed:TRUE:TRUE:"30/04/1995"})</small></p>
@@ -421,9 +421,9 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'BASIC'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'DEC RDB'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'SQL'|link_urls:'w'}</span>
+                                    <span class="label label-info rounded-2x">BASIC</span>
+                                    <span class="label label-info rounded-2x">DEC RDB</span>
+                                    <span class="label label-info rounded-2x">SQL</span>
                                 </p>
                             </div>
                         </div>
@@ -433,7 +433,7 @@
                             <li>Developed MS VBA to generate reports using SQL.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>Mail Marketing</strong> 12/1994 - 01/1995 <small>({"01/12/1994"|elapsed:TRUE:TRUE:"30/01/1995"})</small></p>
@@ -445,8 +445,8 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'C'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'C++'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">C</span>
+                                    <span class="label label-info rounded-2x">C++</span>
                                 </p>
                             </div>
                         </div>
@@ -457,7 +457,7 @@
                             <li>Extended network into a new building, including the running of cables and wiring up Ethernet and serial connections.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>Clares Retail Equipment</strong> 09/1993 - 11/1994 <small>({"01/09/1993"|elapsed:TRUE:TRUE:"30/11/1994"})</small></p>
@@ -469,11 +469,11 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'VAX BASIC'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'DEC RDB'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'VAX COBOL'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'Visual BASIC'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'C++'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">VAX BASIC</span>
+                                    <span class="label label-info rounded-2x">DEC RDB</span>
+                                    <span class="label label-info rounded-2x">VAX COBOL</span>
+                                    <span class="label label-info rounded-2x">Visual BASIC</span>
+                                    <span class="label label-info rounded-2x">C++</span>
                                 </p>
                             </div>
                         </div>
@@ -485,7 +485,7 @@
                             <li>Developed software in Visual BASIC and Borland C++.</li>
                         </ul>
                     </div>
-                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1">
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
                                 <p class="text-left"><strong>British Aerospace (Airbus)</strong> 09/1987 - 02/1993 <small>({"01/09/1987"|elapsed:TRUE:TRUE:"30/02/1993"})</small></p>
@@ -497,11 +497,11 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <p class="align-vmiddle"><strong>Skills:</strong>
-                                    <span class="label label-info rounded-2x">{'VAX FORTRAN'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'VAX COBOL'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'DEC RDB'|link_urls:'w'}</span>
-                                    <span class="label label-info rounded-2x">{'C'|link_urls:'/l'}</span>
-                                    <span class="label label-info rounded-2x">{'Pascal'|link_urls:'/l'}</span>
+                                    <span class="label label-info rounded-2x">VAX FORTRAN</span>
+                                    <span class="label label-info rounded-2x">VAX COBOL</span>
+                                    <span class="label label-info rounded-2x">DEC RDB</span>
+                                    <span class="label label-info rounded-2x">C</span>
+                                    <span class="label label-info rounded-2x">Pascal</span>
                                 </p>
                             </div>
                         </div>
@@ -602,7 +602,8 @@
                 </div>
                 <div class="tab-pane fade in" id="contact-details">
                     <h2>Contact Details</h2>
-                    <p><strong>Telephone Number:</strong> <strong>E-mail:</strong></p>
+                    <p class="iw-email"><a href="mailto:donotsendtome.com">dumy@donotsendtome.com</a></p>
+                    <p class="iw-mobile"><a href="tel:0412345678">04 12 345 678</a></p>
                 </div>
             </div>
         </div>
