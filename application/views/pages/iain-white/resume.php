@@ -6,11 +6,11 @@
         <p>R&eacute;sum&eacute; / Curriculum Vitae (CV) for Iain White, Web Development Team Lead and Certified Professional Scrum Master</p>
 
         <h2>Skills</h2>
-        <p>I have worked as a Software Developer for {"01/09/1987"|elapsed:TRUE:FALSE}, with {"01/09/1999"|elapsed:TRUE:FALSE} of developing Websites, leading Web Development Teams for the last {"01/01/2007"|elapsed:TRUE:FALSE}.</p>
+        <p>I have worked as a Software Developer for <?php echo $this->stencil->elapsedYears('01/09/1987', TRUE, TRUE); ?>, with <?php echo $this->stencil->elapsedYears('01/09/1999', TRUE, TRUE); ?> of developing Websites.</p>
         <p>I have experience across the entire project life cycle. I have worked as a Manager, Team Leader, Lead Developer and Software Engineer as well as a Programmer.</p>
         <p>I have excellent development skills, including HTML, JavaScript, CSS, PHP, ASP, XML, AJAX, jQuery, MySQL, PostgreSQL and MS SQLServer.</p>
         <p>I have had experience of Drupal, WordPress, Java, Scala, JSP, Perl, ColdFusion, TDD (Test Driven Development), code repositories, Object Oriented Programming, Technical design and documentation and SEO (Search Engine Optimisation).</p>
-        <p>I have worked in Agile teams, Lean development and I am experianced in building Scrum Teams.</p>
+        <p>I have worked in Agile teams, Lean development and I am experienced in building Scrum Teams.</p>
         <P>I am a certified Professional Scrum Master and have worked in the role for over a year.</p>
         <p>I have good communication and interpersonal skills. I can work independently and / or in a team. I have proven leadership skills and have the ability to prioritise and schedule my own and others work. I am self motivated and reliable with a drive to deliver the best quality solution within allocated timelines.</p>
     </div>
@@ -33,7 +33,36 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>OnTheHouse</strong> 01/2013 - 07/2014 <small>({"07/01/2013"|elapsed:TRUE:TRUE:"30/07/2014"})</small></p>
+                                <p class="text-left"><strong>Emu Design</strong> 12/2014 - 04/2015 <small>(<?php echo $this->stencil->elapsedYears('08/12/2014', FALSE, TRUE, '01/04/2015'); ?>)</small></p>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <h4 class="text-right color-aqua">Web Developer</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <p class="align-vmiddle"><strong>Skills:</strong>
+                                    <span class="label label-info rounded-2x">Agile</span>
+                                    <span class="label label-info rounded-2x">Scrum</span>
+                                    <span class="label label-info rounded-2x">PHP</span>
+                                    <span class="label label-info rounded-2x">MySQL</span>
+                                    <span class="label label-info rounded-2x">HTML5</span>
+                                    <span class="label label-info rounded-2x">CSS-3</span>
+                                    <span class="label label-info rounded-2x">JavaScript</span>
+                                    <span class="label label-info rounded-2x">jQuery</span>
+                                    <span class="label label-info rounded-2x">BootStrap</span>
+                                    <span class="label label-info rounded-2x">WordPress</span>
+                                    <span class="label label-info rounded-2x">ColdFusion</span>
+                                    <span class="label label-info rounded-2x">Drupal</span>
+                                </p>
+                            </div>
+                        </div>
+                        <img src="/assets/images/companies/emu-design.gif" alt="Emu Design Logo" title="OnTheHouse" class="pull-right img-bordered" />
+                    </div>
+                    <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x rounded-2x">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 align-vmiddle">
+                                <p class="text-left"><strong>OnTheHouse</strong> 01/2013 - 07/2014 <small>(<?php echo $this->stencil->elapsedYears('07/01/2013', TRUE, TRUE, '30/07/2014'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Development Team Leader</h4>
@@ -62,7 +91,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>Freenet</strong> 01/2012 - 08/2012 <small>({"01/01/2012"|elapsed:TRUE:TRUE:"30/08/2012"})</small></p>
+                                <p class="text-left"><strong>Freenet</strong> 01/2012 - 08/2012 <small>(<?php echo $this->stencil->elapsedYears('01/01/2012', TRUE, TRUE, '30/08/2012'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Senior PHP Developer</h4>
@@ -90,7 +119,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>Big Bridge</strong> 10/2011 - 12/2011 <small>({"01/10/2011"|elapsed:TRUE:TRUE:"30/12/2011"})</small></p>
+                                <p class="text-left"><strong>Big Bridge</strong> 10/2011 - 12/2011 <small>(<?php echo $this->stencil->elapsedYears('01/10/2011', TRUE, TRUE, '30/12/2011'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Senior Web Developer</h4>
@@ -117,7 +146,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>The AOT Group</strong> 06/2006 - 07/2011 <small>({"01/06/2006"|elapsed:TRUE:TRUE:"30/07/2011"})</small></p>
+                                <p class="text-left"><strong>The AOT Group</strong> 06/2006 - 07/2011 <small>(<?php echo $this->stencil->elapsedYears('01/06/2006', TRUE, TRUE, '30/07/2011'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Development Team Leader eCommerce</h4>
@@ -176,7 +205,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>JPC Infonet</strong> 10/2002 - 02/2006 <small>({"01/10/2002"|elapsed:TRUE:TRUE:"30/02/2006"})</small></p>
+                                <p class="text-left"><strong>JPC Infonet</strong> 10/2002 - 02/2006 <small>(<?php echo $this->stencil->elapsedYears('01/10/2002', TRUE, TRUE, '30/02/2006'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Senior Web Consultant</h4>
@@ -218,7 +247,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>Freelancing</strong> 02/2002 - 09/2002 <small>({"01/02/2002"|elapsed:TRUE:TRUE:"30/09/2002"})</small></p>
+                                <p class="text-left"><strong>Freelancing</strong> 02/2002 - 09/2002 <small>(<?php echo $this->stencil->elapsedYears('01/02/2002', TRUE, TRUE, '30/09/2002'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Freelance Web Developer</h4>
@@ -255,7 +284,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>TigerRedi</strong> 06/2000 - 11/2001 <small>({"01/06/2000"|elapsed:TRUE:TRUE:"30/11/2001"})</small></p>
+                                <p class="text-left"><strong>TigerRedi</strong> 06/2000 - 11/2001 <small>(<?php echo $this->stencil->elapsedYears('01/06/2000', TRUE, TRUE, '30/11/2001'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Internet Development Manager</h4>
@@ -294,7 +323,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>Anglian Network Systems</strong> 09/1999 - 05/2000 <small>({"01/09/1999"|elapsed:TRUE:TRUE:"30/05/2000"})</small></p>
+                                <p class="text-left"><strong>Anglian Network Systems</strong> 09/1999 - 05/2000 <small>(<?php echo $this->stencil->elapsedYears('01/09/1999', TRUE, TRUE, '30/05/2000'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Founder / CEO</h4>
@@ -328,7 +357,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>Reuters</strong> 11/1997 - 07/1999 <small>({"01/11/1997"|elapsed:TRUE:TRUE:"30/07/1999"})</small></p>
+                                <p class="text-left"><strong>Reuters</strong> 11/1997 - 07/1999 <small>(<?php echo $this->stencil->elapsedYears('01/11/1997', TRUE, TRUE, '30/07/1999'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Senior Analyst / Programmer</h4>
@@ -360,7 +389,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>SMS Nederland</strong> 04/1996 - 20/1997 <small>({"01/04/1996"|elapsed:TRUE:TRUE:"30/10/1997"})</small></p>
+                                <p class="text-left"><strong>SMS Nederland</strong> 04/1996 - 20/1997 <small>(<?php echo $this->stencil->elapsedYears('01/04/1996', TRUE, TRUE, '30/10/1997'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Analyst / Programmer</h4>
@@ -389,7 +418,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>EDS Healthcare</strong> 05/1995 - 11/1995 <small>({"05/05/1995"|elapsed:TRUE:TRUE:"05/11/1995"})</small></p>
+                                <p class="text-left"><strong>EDS Healthcare</strong> 05/1995 - 11/1995 <small>(<?php echo $this->stencil->elapsedYears('01/05/1995', TRUE, TRUE, '05/11/1995'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">System / Database Administrator</h4>
@@ -412,7 +441,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>Radford Group</strong> 01/1995 - 04/1995 <small>({"01/01/1995"|elapsed:TRUE:TRUE:"30/04/1995"})</small></p>
+                                <p class="text-left"><strong>Radford Group</strong> 01/1995 - 04/1995 <small>(<?php echo $this->stencil->elapsedYears('01/01/1995', TRUE, TRUE, '30/04/1995'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">System Administrator</h4>
@@ -436,7 +465,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>Mail Marketing</strong> 12/1994 - 01/1995 <small>({"01/12/1994"|elapsed:TRUE:TRUE:"30/01/1995"})</small></p>
+                                <p class="text-left"><strong>Mail Marketing</strong> 12/1994 - 01/1995 <small>(<?php echo $this->stencil->elapsedYears('01/12/1994', TRUE, TRUE, '30/01/1995'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">System Administrator</h4>
@@ -460,7 +489,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>Clares Retail Equipment</strong> 09/1993 - 11/1994 <small>({"01/09/1993"|elapsed:TRUE:TRUE:"30/11/1994"})</small></p>
+                                <p class="text-left"><strong>Clares Retail Equipment</strong> 09/1993 - 11/1994 <small>(<?php echo $this->stencil->elapsedYears('01/09/1993', TRUE, TRUE, '30/11/1994'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">VAX Programmer</h4>
@@ -488,7 +517,7 @@
                     <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 align-vmiddle">
-                                <p class="text-left"><strong>British Aerospace (Airbus)</strong> 09/1987 - 02/1993 <small>({"01/09/1987"|elapsed:TRUE:TRUE:"30/02/1993"})</small></p>
+                                <p class="text-left"><strong>British Aerospace (Airbus)</strong> 09/1987 - 02/1993 <small>(<?php echo $this->stencil->elapsedYears('01/09/1987', TRUE, TRUE, '30/02/1993'); ?>)</small></p>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <h4 class="text-right color-aqua">Senior Software Engineer</h4>
