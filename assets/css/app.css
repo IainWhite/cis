@@ -3117,7 +3117,7 @@ a[rel="external"]:after {
     text-decoration: none;
     padding-right: 5px;
     color: #3498db;
-    content: "\f003";
+    content: "\f0e0";
 }
 
 .iw-cv:before {
@@ -3129,6 +3129,16 @@ a[rel="external"]:after {
     padding-right: 5px;
     color: #3498db;
     content: "\f1c1";
+}
+
+.contactIW {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.contactIW p {
+    margin-bottom: 2px;
+    font-weight: 700;
 }
 
 .margin-right-10 {
