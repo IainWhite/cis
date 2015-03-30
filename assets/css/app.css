@@ -3187,3 +3187,7 @@ pre.codeBlock {
     padding: 0 !important;
     border-radius: 8px !important;
 }
+
+.siteGallery {
+    max-height: 300px;
+}

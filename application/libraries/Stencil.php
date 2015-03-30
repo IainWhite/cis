@@ -1188,6 +1188,59 @@ class Stencil {
         return $out;
     }
 
+    public function addSiteImages($company = 'ALL', $limit = 0)
+    {
+        $whereSQL = '';
+        if (is_array($company)) {
+            $whereSQL = " WHERE id IN (" . implode(', ', $company) . ")";
+            $limit = 0;
+        } else {
+            if ($company !== 'ALL') {
+                $whereSQL = " WHERE company = '" . $company . "'";
+            }
+        }
+        $limtSQL = '';
+        if ($limit !== 0) {
+            $limtSQL = ' LIMIT ' . $limit;
+        }
+        $sql = "SELECT * FROM site_images" . $whereSQL . " ORDER BY company ASC, weight ASC" . $limtSQL . ";";
+        //die($sql);
+        $query = $this->CI->db->query($sql);
+        $out = '';
+        if ($query->num_rows() < 1) {
+            return $out;
+        }
+        $out = '';
+        $i = 0;
+        foreach ($query->result() as $row) {
+            if ($i == 0) {
+                $out .= '<div class="row margin-bottom-30">' . "\n";
+            }
+            $out .= '    <div class="col-sm-3 sm-margin-bottom-30 align-vmiddle">' . "\n";
+            $out .= '        <a href="/assets/images/sites/' . $row->filename . '" rel="' . $row->company . '" data-rel="fancybox-button" class="fancybox-button" title="' . $row->title . '">' . "\n";
+            $out .= '            <span><img class="img-responsive rounded-2x box-shadow shadow-effect-1 img-thumbnail center-block siteGallery" src="/assets/images/sites/' . $row->filename . '" alt="' . $row->title . '" title="' . $row->title . '" rel="id-' . $row->id . '"></span>' . "\n";
+            $out .= '        </a>' . "\n";
+            $out .= '    </div>' . "\n";
+            if ($i == 3) {
+                $out .= '</div>' . "\n";
+            }
+            $i++;
+            if ($i > 3) {
+                $i = 0;
+            }
+        }
+        if ($query->num_rows() <= 3) {
+            $out .= '</div>' . "\n";
+        } else {
+            if ($i != 3 && $i != 0) {
+                $out .= '</div>' . "\n";
+            }
+        }
+        $this->css('assets/plugins/fancybox/source/jquery.fancybox.css');
+        $this->js('assets/plugins/fancybox/source/jquery.fancybox.pack.js');
+        $this->js('assets/js/plugins/fancy-box.js');
+        return $out;
+    }
 }
 
 /* End of file Stencil.php */ 

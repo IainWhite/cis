@@ -26,6 +26,7 @@
         While working at Emu Design I worked on many projects from green field sites to maintenance and support.
         The majority of my work was using PHP (Drupal and Wordpress) and Cold Fusion, but I also used HTML5, CSS-3, JavaScript, jQuery, MySQL, MS SQLServer, Adobe Flex and ASP.Net.
 
-
     </div>
 </div>
+
+<?php echo $this->stencil->addSiteImages('Emu Design'); ?>

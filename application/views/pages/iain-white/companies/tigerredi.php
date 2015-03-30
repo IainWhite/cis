@@ -4,3 +4,5 @@
 
     </div>
 </div>
+
+<?php echo $this->stencil->addSiteImages(array(7, 9, 14, 12, 22, 15, 10, 17)); ?>

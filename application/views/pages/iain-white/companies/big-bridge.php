@@ -17,19 +17,8 @@
 
         <p>I was also involved in providing support and enhancements to sites developed in Drupal 5, 6 and 7.</p>
 
-        <h3>Clients</h3>
-        <ul>
-            <li>Battery World</li>
-            <li>Poolwerx</li>
-            <li>JKTech</li>
-            <li>PanAust</li>
-            <li>Keller</li>
-            <li>Office of the Information Commissioner</li>
-            <li>Veterans Rugby QLD</li>
-            <li>Electrical Trades Union</li>
-            <li>The RPS Group</li>
-            <li>Devine Woodvale</li>
-            <li>iConcierge</li>
-        </ul>
     </div>
 </div>
+
+<h3>Client Sites</h3>
+<?php echo $this->stencil->addSiteImages(array(93, 96, 95, 98, 90, 100, 97, 91)); ?>

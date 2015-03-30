@@ -4,3 +4,5 @@
 
     </div>
 </div>
+
+<?php echo $this->stencil->addSiteImages('Anglian Network Systems'); ?>
