@@ -3209,3 +3209,10 @@ pre.codeBlock {
 .margin-top-20 {
     margin-top: 20px;
 }
+
+.press {
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #3498db;
+    font-size: 24px !important;
+}
