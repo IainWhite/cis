@@ -4,6 +4,8 @@
         <?php $this->stencil->setDescription('Iain White is a expert in developing using JavaScript.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, JavaScript, jQuery, AJAX')); ?>
 
+        <?php echo $this->stencil->addLogo('JavaScript', 'png', 'left'); ?>
+
         <p>I am a experienced and talented front-end developer.</p>
 
         <p>I first started developing in JavaScript in 1998 while working at Reuters.</p>

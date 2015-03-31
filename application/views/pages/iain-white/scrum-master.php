@@ -4,6 +4,8 @@
         <?php $this->stencil->setDescription('Iain White is a Certified Scrum Master with a passion for Agile software development.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Management')); ?>
 
+        <?php echo $this->stencil->addLogo('Agile Scrum', 'png', 'left'); ?>
+
         <p>I have been a <strong>Certified Scrum Master</strong> since November 2013.</p>
 
         <p>I am an experienced full stack Web Developer with Agile Team Leader experience with a deep understanding of the Software Development process.</p>
@@ -17,6 +19,8 @@
         <p>I have worked in both small and large companies and a variety of industries including manufacture, ISP, health, travel, news and marketing.</p>
 
         <h4>I was Scrum Master for <?php echo $this->stencil->elapsedYears('01/01/2013', TRUE, TRUE, '31/07/2014'); ?> at OnTheHouse.</h4>
+
+        <?php echo $this->stencil->addLogo('OnTheHouse', 'gif', 'right'); ?>
 
         <p>In this role I remove impedances that would block the team’s productivity. I worked closely with Product Owners, Stakeholders, and Infrastructure. I facilitated the Scrum meetings including Sprint Planning, Sprint Review, Sprint Retrospective and Daily Stand-up.</p>
 

@@ -3,11 +3,11 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('WhiteInternet Home','WhiteInternet by Iain White Web Developer / Scrum Master'); ?>
-        <div class="center-block">
-            <img src="/assets/images/white-internet-logo.gif" alt="WhiteInternet" title="WhiteInternet">
+        <div class="margin-top-10 margin-bottom-20">
+            <img src="/assets/images/white-internet-logo.gif" alt="WhiteInternet" title="WhiteInternet" class="img-responsive center-block">
         </div>
         <p class="text-center"><em>Not everything is black and white</em></p>
-        <p>WhiteInternet, on-line portfolio for Iain White a Web Developer / Scrum Master based in Brisbane Australia with over <?php echo $this->stencil->elapsedYears('01/09/1987', FALSE, FALSE); ?> experience.</p>
+        <p class="text-center">WhiteInternet, on-line portfolio for Iain White a Web Developer / Scrum Master based in Brisbane Australia with over <?php echo $this->stencil->elapsedYears('01/09/1987', FALSE, FALSE); ?> experience.</p>
     </div>
 </div>
 

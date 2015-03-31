@@ -4,6 +4,8 @@
         <?php $this->stencil->setDescription('Iain White is a talented PHP Developer with over ' . $this->stencil->elapsedYears('01/01/1998') . ' of experience.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, PHP, Drupal, WordPress, MVC')); ?>
 
+        <?php echo $this->stencil->addLogo('PHP', 'png', 'left'); ?>
+
         <p>I am a talented and experienced full stack Web Developer with Agile Team Leader experience.</p>
 
         <p>I have been developing websites for over <?php echo $this->stencil->elapsedYears('01/01/1998'); ?> mostly in <strong>PHP</strong>, but I have commercial experience of a verity of programming languages and technologies, including <strong>ASP</strong> (classic and .Net), <strong>ColdFusion</strong>, <strong>JSP</strong>, <strong>Python</strong> and <strong>Perl</strong>.</p>

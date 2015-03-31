@@ -27,5 +27,7 @@
 
         <p>In software development, broken windows are bad designs, wrong decisions or even poor code. If you don’t fix them as you find them, you’ll end up quickly with software rot.</p>
 
+        <?php echo $this->stencil->addBook('The Pragmatic Programmer: From Journeyman to Master', $how = 'title'); ?>
+
     </div>
 </div>

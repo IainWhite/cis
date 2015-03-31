@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:2.1
+N:White;Iain;;Mr.
+FN:Iain White
+TITLE:PHP Developer
+TEL;CELL;VOICE:(04) 0667-8337
+ADR;HOME:;;;Springfield;QLD;4300;Australia
+LABEL;HOME;ENCODING=QUOTED-PRINTABLE:Springfield, QLD 4300=0D=0AAustralia
+URL;WORK:http://www.whiteinternet.com
+BDAY:19630620
+EMAIL;PREF;INTERNET:iain@whiteinternet.com
+REV:20121017T132458Z
+END:VCARD

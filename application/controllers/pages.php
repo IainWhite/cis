@@ -26,6 +26,10 @@ class Pages extends MY_Controller {
         if (!$view) {
             $view = 'index';
         }
+        if ($view == 'iain') {
+            $this->output->set_status_header('301');
+            $view = 'iain-white';
+        }
         // Check if view has an alias e.g. 'microsoft-windows', 'ms-windows' returns 'windows'
         //@TODO $view = checkAlias($view);
         if ($segmentCount > 1) {
