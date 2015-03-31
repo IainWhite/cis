@@ -29,6 +29,11 @@
                             <li><a href="/iain-white/scrum-master"><i class="fa fa-puzzle-piece"></i> Scrum Master</a></li>
                             <li><a href="/iain-white/project-manager"><i class="fa fa-area-chart"></i> Project Manager</a></li>
                             <li><a href="/iain-white/pragmatic-programmer"><i class="fa fa-star"></i> Pragmatic Programmer</a></li>
+                            <?php
+                            if ($this->stencil->getIsLooking()) {
+                                echo '<li><a href = "/iain-white/seeking-work"><i class="fa fa-bolt" ></i> Seeking Work </a ></li>';
+                            }
+                            ?>
                         </ul>
                     </li>
                     <li><a href="/iain-white/project-manager">Project Management</a></li>
