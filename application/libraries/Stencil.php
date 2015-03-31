@@ -380,6 +380,9 @@ class Stencil {
         if (!$this->isSub) {
             $this->title = $pageTitle;
             $this->h1 = $title;
+            if ($this->isLooking && $this->cat == 'iain-white') {
+                return $this->addContactInfo();
+            }
             return NULL;
         } else {
             return '<h2>' . $title . '</h2>';
@@ -1224,26 +1227,24 @@ class Stencil {
         foreach ($query->result() as $row) {
             if ($i == 0) {
                 $out .= '<div class="row margin-bottom-30">' . "\n";
+                $closed = FALSE;
             }
             $out .= '    <div class="col-sm-3 sm-margin-bottom-30 align-vmiddle">' . "\n";
             $out .= '        <a href="/assets/images/sites/' . $row->filename . '" rel="' . $row->company . '" data-rel="fancybox-button" class="fancybox-button" title="' . $row->title . '">' . "\n";
             $out .= '            <span><img class="img-responsive rounded-2x box-shadow shadow-effect-1 img-thumbnail center-block siteGallery" src="/assets/images/sites/' . $row->filename . '" alt="' . $row->title . '" title="' . $row->title . '" rel="id-' . $row->id . '"></span>' . "\n";
-            $out .= '        </a>' . "\n";
+            $out .= '        </a>' . $i . "\n";
             $out .= '    </div>' . "\n";
             if ($i == 3) {
                 $out .= '</div>' . "\n";
+                $closed = TRUE;
             }
             $i++;
             if ($i > 3) {
                 $i = 0;
             }
         }
-        if ($query->num_rows() <= 3) {
+        if (!$closed) {
             $out .= '</div>' . "\n";
-        } else {
-            if ($i != 3 && $i != 0) {
-                $out .= '</div>' . "\n";
-            }
         }
         $this->css('assets/plugins/fancybox/source/jquery.fancybox.css');
         $this->js('assets/plugins/fancybox/source/jquery.fancybox.pack.js');
@@ -1263,7 +1264,10 @@ class Stencil {
 
     public function addContactInfo()
     {
-        $out = '';
+        $out = '<div class="contactIW rounded-2x box-shadow shadow-effect-1 pull-right col-xs-12 col-sm-6 col-md-3 margin-bottom-10">' . "\n";
+        $out .= '    <p>Contact Iain White</p>' . "\n";
+        $out .= '    <span class="iw-email"><a href="mailto:donotsendtome.com">dumy@donotsendtome.com</a></span> <span class="iw-mobile"><a href="tel:0412345678">04 12 345 678</a></span>' . "\n";
+        $out .= '</div>' . "\n";
         return $out;
     }
 

@@ -20,6 +20,10 @@
 <?php echo $this->stencil->addSiteImages('OnTheHouse'); ?>
 <hr>
 
+<h2>Freenet</h2>
+<?php echo $this->stencil->addSiteImages('Freenet'); ?>
+<hr>
+
 <h2>Big Bridge</h2>
 <?php echo $this->stencil->addSiteImages('Big Bridge'); ?>
 <hr>

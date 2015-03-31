@@ -2,11 +2,6 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Big Bridge'); ?>
 
-        <div class="contactIW rounded-2x box-shadow shadow-effect-1 pull-right col-xs-12 col-sm-6 col-md-3 margin-bottom-10">
-            <p>Contact Iain White</p>
-            <span class="iw-email"><a href="mailto:donotsendtome.com">dumy@donotsendtome.com</a></span> <span class="iw-mobile"><a href="tel:0412345678">04 12 345 678</a></span>
-        </div>
-
         <p><strong>Address:</strong> 83 Main Street, Kangaroo Point, Queensland 4169 Australia</p>
         <p><strong>Big Bridge</strong> was a leading full service production agency. That specialised in Online Video, Website Development, Digital Marketing and SEO.</p>
         <p>Founded in 1992, Big Bridge worked with Governments at all levels, leading private sector companies, tertiary institutions and museums. The company’s experience extended from health, education and training through to major infrastructure construction.</p>
