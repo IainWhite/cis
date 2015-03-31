@@ -18,9 +18,6 @@ Web <?php echo $this->stencil->elapsedYears('01/09/1999', TRUE, TRUE); ?>
 Tidy up sub()
 
 Content Needed
-About Iain White
-Resume
-	Add vcard and Q code to Contact Details tab
 Companies
 ANS
 AOT
