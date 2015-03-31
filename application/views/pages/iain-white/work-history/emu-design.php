@@ -23,6 +23,12 @@
                 <span class="label label-info rounded-2x">ColdFusion</span>
                 <span class="label label-info rounded-2x">Drupal</span>
             </p>
+            <p>Emu Design is a leading full service multimedia and digital agency in Brisbane.</p>
+
+            <p>Emu Design provides services to well know clients including Amart Sports, EB Games, SuperCheap Auto, BCF, Signet, Smart Send, Rebel, The University of Queensland and Angel Flight.</p>
+
+            <p>While working at Emu Design I worked on many projects from green field sites to maintenance and support.</p>
+
         </div>
     </div>
     <img src="/assets/images/companies/emu-design.gif" alt="Emu Design Logo" title="Emu Design" class="pull-right img-bordered" />

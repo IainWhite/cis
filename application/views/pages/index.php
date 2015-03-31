@@ -3,13 +3,13 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('WhiteInternet Home','WhiteInternet by Iain White Web Developer / Scrum Master'); ?>
-        <p>Home Page</p>
+        <p>WhiteInternet, on-line portfolio for Iain White a Web Developer / Scrum Master based in Brisbane Australia with over <?php echo $this->stencil->elapsedYears('01/09/1987', FALSE, FALSE); ?> experience.</p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <div class="thumbnails thumbnail-style">
+        <div class="thumbnails thumbnail-style thumbnail-kenburn">
             <div class="thumbnail-img">
                 <div class="overflow-hidden">
                     <a href="/iain-white/php-developer">

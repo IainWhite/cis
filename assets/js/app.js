@@ -271,10 +271,16 @@ function isRetina(){
     return ((window.matchMedia && (window.matchMedia('only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-resolution: 75.6dpcm)').matches || window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)').matches)) || (window.devicePixelRatio && window.devicePixelRatio > 2)) && /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
 }
 
-
-// Zoom image hover
 $(document).ready(function()
 {
+    App.init();
+
+    // iPhone dropdown fix
+    $('.row-toggle').each(function() {
+        this.addEventListener('click', function() {}, false);
+    });
+
+    // Zoom image hover
     $('.imageContainer a').hover(
         function(){ $('img', this).addClass('zoomImageHover'); $('.imgZoomIcon', this).css("fontSize", 40); },
         function(){ $('img', this).removeClass('zoomImageHover'); $('.imgZoomIcon', this).css("fontSize", 28);  }
@@ -282,4 +288,38 @@ $(document).ready(function()
 
     $('.iw-mobile').html('<a href="tel:0406678337">04 06 678 337</a>');
     $('.iw-email').html('<a href="mailto:iain@whiteinternet.com">iain@whiteinternet.com</a>');
+
+    $('#socialLinks a').click(function(e) {
+        e = (e ? e : window.event);
+        var t = (e.target ? e.target : e.srcElement),
+            width = t.data-width || 800,
+            height = t.data-height || 500;
+        // Popup position
+        var	px = Math.floor(((screen.availWidth || 1024) - width) / 2),
+            py = Math.floor(((screen.availHeight || 700) - height) / 2);
+        // Open popup
+        var popup = window.open(t.href, "social",
+            "width=" + width + ",height=" + height +
+            ",left=" + px + ",top=" + py +
+            ",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
+        if (popup) {
+            popup.focus();
+            if (e.preventDefault) e.preventDefault();
+            e.returnValue = false;
+        }
+        return !!popup;
+    });
+});
+
+$(document).ready(function() {
+    if(location.hash) {
+        $('a[href=' + location.hash + ']').tab('show');
+    }
+    $(document.body).on("click", "a[data-toggle]", function(event) {
+        location.hash = this.getAttribute("href");
+    });
+});
+$(window).on('popstate', function() {
+    var anchor = location.hash || $("a[data-toggle=tab]").first().attr("href");
+    $('a[href=' + anchor + ']').tab('show');
 });

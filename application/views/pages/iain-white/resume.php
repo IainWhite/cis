@@ -61,6 +61,7 @@
                     <p>Open Queensland class C licence driving licence</p>
                     <p>Native English speaker with some spoken and written Dutch</p>
                     <p>Non-smoker</p>
+                    <p><a href="http://au.linkedin.com/in/iwhite"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" alt="LinkedIn button" title="View Iain White's profile on LinkedIn" /></a></p>
                 </div>
                 <div class="tab-pane fade in" id="interests-activities">
                     <h2>Interests &amp; Activities</h2>

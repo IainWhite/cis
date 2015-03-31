@@ -1265,7 +1265,7 @@ class Stencil {
 
     public function addContactInfo()
     {
-        $out = '<div class="contactIW rounded-2x box-shadow shadow-effect-1 pull-right col-xs-12 col-sm-6 col-md-3 margin-bottom-10">' . "\n";
+        $out = '<div class="contactIW rounded-2x box-shadow shadow-effect-1 pull-right col-xs-12 col-sm-6 col-md-3 margin-bottom-10 margin-left-5">' . "\n";
         $out .= '    <p>Contact Iain White</p>' . "\n";
         $out .= '    <span class="iw-email"><a href="mailto:donotsendtome.com">dumy@donotsendtome.com</a></span> <span class="iw-mobile"><a href="tel:0412345678">04 12 345 678</a></span>' . "\n";
         $out .= '</div>' . "\n";

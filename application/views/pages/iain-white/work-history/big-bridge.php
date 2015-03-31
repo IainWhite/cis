@@ -21,7 +21,6 @@
         </div>
     </div>
     <img src="/assets/images/companies/big-bridge.gif" alt="Big Bridge Logo" title="Big Bridge" class="pull-right img-bordered"/>
-    <p><strong>Corporate site:</strong> <a href="http://www.bigbridge.com.au/" class="external" rel="external">www.bigbridge.com.au</a></p>
     <p>During my short time at Big Bridge I developed one site from scratch in Drupal 7 as well as completing several partly completed Drupal 7 and HTML sites.</p>
     <p>I was also involved in providing support and enhancements to sites developed in Drupal 5, 6 and 7.</p>
 </div>

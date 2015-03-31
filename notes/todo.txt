@@ -20,8 +20,6 @@ Tidy up sub()
 Content Needed
 About Iain White
 Resume
-	Emu Design
-	OnTheHouse
 	Add vcard and Q code to Contact Details tab
 Companies
 ANS
@@ -31,3 +29,4 @@ JPC
 OnTheHouse
 TigerRedi
 Reuters
+

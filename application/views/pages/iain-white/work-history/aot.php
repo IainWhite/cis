@@ -25,7 +25,6 @@
         </div>
     </div>
     <img src="/assets/images/companies/aot-group-logo.gif" alt="AOT Group Logo" title="AOT Group" class="pull-right img-bordered"/>
-    <p><strong>Corporate site:</strong> <a href="http://www.aot.com.au/" class="external" rel="external">www.aot.com.au</a></p>
     <p>As Team Leader I was responsible for a team of 5 Developers located in Brisbane and Melbourne.</p>
     <p>My primary role was to enhance and support the company's web sites and back-end hotel reservation system.</p>
     <p>The AOT Group sells accommodation, car hire, transfers and trips, both direct to the public and via high street Travel Agents such as Harvey World Travel, both here in Australia and world wide through a XML based API.  The application handled location / amenity searching, property allotment / availability, booking, messaging, inventory, online credit card processing and pay later billing.</p>
