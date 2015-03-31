@@ -50,54 +50,9 @@
                     ?>
                 </div>
                 <div class="tab-pane fade in" id="qualifications-training">
-                    <h2>Qualifications &amp; Training</h2>
-                    <table class="table table-bordered table-hover table-striped">
-                        <tr>
-                            <th>Professional Scrum Master I</th>
-                            <td>Scrum.org</td>
-                            <td class="text-right">2013</td>
-                        </tr>
-                        <tr>
-                            <th>BSc (Computing)</th>
-                            <td>Open University</td>
-                            <td class="text-right">1994 - 96</td>
-                        </tr>
-                        <tr>
-                            <th>Diploma in Computing</th>
-                            <td>Open University</td>
-                            <td class="text-right">1996</td>
-                        </tr>
-                        <tr>
-                            <th>Programming in C</th>
-                            <td>Brunel Technical College</td>
-                            <td class="text-right">1988</td>
-                        </tr>
-                        <tr>
-                            <th>5 SCOTVEC Modules in Computing</th>
-                            <td>Perth College of Further Education</td>
-                            <td class="text-right">1986 - 87</td>
-                        </tr>
-                        <tr>
-                            <th>HND in Mechanical / Production Engineering</th>
-                            <td>Napier University</td>
-                            <td class="text-right">1983 - 86</td>
-                        </tr>
-                        <tr>
-                            <th>OND in Engineering</th>
-                            <td>Perth College of Further Education</td>
-                            <td class="text-right">1981 - 83</td>
-                        </tr>
-                        <tr>
-                            <th>3 SCE Higher and 2 SCE 'O' Grade passes</th>
-                            <td>Perth High School</td>
-                            <td class="text-right">1979 - 81</td>
-                        </tr>
-                        <tr>
-                            <th>3 SCE 'O' Grade passes</th>
-                            <td>Kinross Secondary School</td>
-                            <td class="text-right">1977 - 79</td>
-                        </tr>
-                    </table>
+                    <?php $this->stencil->sub('/iain-white/qualifications-summary'); ?>
+                    <p>I have completed <strong><?php echo $this->stencil->getQualificationscount();?></strong> training courses in management and software development skills. See <a href="/iain-white/qualifications">training courses</a> details.</p>
+
                 </div>
                 <div class="tab-pane fade in" id="personal-details">
                     <h2>Personal Details</h2>
@@ -119,6 +74,10 @@
                         I completed the Communication and Leadership Program and earned my CTM (Competent Toastmaster).
                         I also participated in many competitions and received several speaking certificates.
                     </p>
+                    <h3>Volunteer Experience</h3>
+                    <p>I volunteer my time to help youths and young adults in my local community.</p>
+                    <p>I serve as a youth Chaplin associated with <?php echo $this->stencil->addExternalLink('Red Frogs', 'http://au.redfrogs.com/'); ?> Australia.</p>
+                    <p>I am also a Young Adults Small Group Leader.</p>
                 </div>
                 <div class="tab-pane fade in" id="contact-details">
                     <h2>Contact Details</h2>

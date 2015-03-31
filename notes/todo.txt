@@ -10,11 +10,24 @@ addGoogleAnalytics(id)
 addContactInfo($email = TRUE, $phone = TRUE)
 
 
-Add vcard and Q code to Contact Details tab
+
 Check dates are consistent
 Software <?php echo $this->stencil->elapsedYears('01/09/1987', TRUE, TRUE); ?>
 Web <?php echo $this->stencil->elapsedYears('01/09/1999', TRUE, TRUE); ?>
 
 Tidy up sub()
 
-
+Content Needed
+About Iain White
+Resume
+	Emu Design
+	OnTheHouse
+	Add vcard and Q code to Contact Details tab
+Companies
+ANS
+AOT
+Freenet
+JPC
+OnTheHouse
+TigerRedi
+Reuters
