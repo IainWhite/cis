@@ -4,6 +4,7 @@
         <?php $this->stencil->setDescription('Iain White is a highly skilled Web Developer / Scrum Master with a passion for Agile software development.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master')); ?>
 
+        <?php echo $this->stencil->addHeadshot('Iain White 2012 Nov', 'jpg', 'left'); ?>
         <p>I am an experienced full stack web developer with Agile Team Leader experience. I have a deep understanding of the Software Development process.</p>
 
         <p>My specialty is developing innovative cross technology solutions while staying focused on the needs of the end customer and the business. I have also had success with growing the capabilities of multi skilled teams to deliver complex web based applications that perform as required in a timely manner with happy and informed Product Owners and Stakeholders.</p>

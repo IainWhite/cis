@@ -4,6 +4,8 @@
         <?php $this->stencil->setDescription('Iain White is a dedicated and experienced Project Manager and Certified Scrum Master.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Management')); ?>
 
+        <?php echo $this->stencil->addImage('Project Management Triangle', 'png', 'left'); ?>
+
         <p>I have successfully managed the scoping, planning, deployment and delivery of projects in time and to budget.</p>
 
         <p>While my background and first love was in Software Engineering, I have found my niche managing projects and people in an Agile environment.</p>
