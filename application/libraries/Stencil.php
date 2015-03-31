@@ -60,12 +60,18 @@ class Stencil {
     public function sub($page, $data = NULL, $useMore = FALSE)
     {
         $this->isSub = TRUE;
-        $this->views = array_merge($this->views, (array)$page);
-        $this->data['sub-content'][count($this->views)] = $this->CI->load->view('pages/' . $page, $this->data, TRUE) . "\n";
+        $out = $this->CI->load->view('pages/' . $page, $this->data, TRUE) . "\n";
         if ($useMore) {
             $readMore = '<a href="/' . $page .'" class="readMoreLink">Read More</a>';
-            $this->data['sub-content'][count($this->views)] .= "\n" . $readMore;
+            $out .= "\n" . $readMore;
         }
+        echo $out;
+        //$this->views = array_merge($this->views, (array)$page);
+        //$this->data['sub-content'][count($this->views)] = $this->CI->load->view('pages/' . $page, $this->data, TRUE) . "\n";
+        //if ($useMore) {
+        //    $readMore = '<a href="/' . $page .'" class="readMoreLink">Read More</a>';
+        //    $this->data['sub-content'][count($this->views)] .= "\n" . $readMore;
+        //}
     }
 
 	public function paint($page, $data = NULL)
@@ -1247,10 +1253,11 @@ class Stencil {
 
     public function addLooking()
     {
-        $out = '';
-        $out .= '<div class="contactIW rounded-2x box-shadow shadow-effect-1 col-xs-12 col-sm-12 col-md-12 margin-bottom-10">' . "\n";
-        $out .= '    <p class="text-center">I am currently seeking a position as a Web Developer in or near Brisbane CBD. <a href="/iain-white/seeking-work">More details</a>.</p>' . "\n";
-        $out .= '</div>';
+        $out = '<div class="row margin-top-20">' . "\n";
+        $out .= '    <div class="contactIW rounded-2x box-shadow shadow-effect-1 col-xs-12 col-sm-12 col-md-12 margin-bottom-10">' . "\n";
+        $out .= '        <p class="text-center">I am currently seeking a position as a Web Developer in or near Brisbane CBD. <a href="/iain-white/seeking-work">More details</a>.</p>' . "\n";
+        $out .= '    </div>';
+        $out .= '</div>' . "\n";
         return $out;
     }
 

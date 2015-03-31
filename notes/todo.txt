@@ -20,4 +20,6 @@ Check dates are consistent
 Software <?php echo $this->stencil->elapsedYears('01/09/1987', TRUE, TRUE); ?>
 Web <?php echo $this->stencil->elapsedYears('01/09/1999', TRUE, TRUE); ?>
 
+Tidy up sub()
+
 
