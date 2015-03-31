@@ -4,6 +4,8 @@
         <?php $this->stencil->setDescription('Iain White is a seasoned Web Developer / Scrum Master based in Brisbane who is currently seeking a new position.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master')); ?>
 
+        <?php echo $this->stencil->addImage('Find Job Key', 'jpg', 'left'); ?>
+
         <p>I am currently seeking a new permanent position or contract in or near to the Brisbane CBD.<p>
 
         <p>I am a highly skilled <a href="/iain-white/web-developer">Web Developer</a> and <a href="/iain-white/scrum-master">Certified Scrum Master</a>.</p>
