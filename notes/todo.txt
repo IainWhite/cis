@@ -51,8 +51,6 @@ hCard
  Fix mobile menu CSS colour
  Fix table colour CSS
  Check on mobile
- Add new Iain photo to iain-white/iain-white
- Add title to photo on iain-white
  Move company logos back
  Fix site images
  Add HCard

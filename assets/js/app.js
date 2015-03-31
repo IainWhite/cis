@@ -286,8 +286,8 @@ $(document).ready(function()
         function(){ $('img', this).removeClass('zoomImageHover'); $('.imgZoomIcon', this).css("fontSize", 28);  }
     )
 
-    $('.iw-mobile').html('<a href="tel:0406678337">04 06 678 337</a>');
-    $('.iw-email').html('<a href="mailto:iain@whiteinternet.com">iain@whiteinternet.com</a>');
+    $('.iw-mobile').html('<a class="tel" href="tel:0406678337">04 06 678 337</a>');
+    $('.iw-email').html('<a class="email" href="mailto:iain@whiteinternet.com">iain@whiteinternet.com</a>');
 
     $('#socialLinks a').click(function(e) {
         e = (e ? e : window.event);

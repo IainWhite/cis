@@ -81,9 +81,22 @@
                     <p>I am also a Young Adults Small Group Leader.</p>
                 </div>
                 <div class="tab-pane fade in" id="contact-details">
-                    <h2>Contact Details</h2>
-                    <p class="iw-email"><a href="mailto:donotsendtome.com">dumy@donotsendtome.com</a></p>
-                    <p class="iw-mobile"><a href="tel:0412345678">04 12 345 678</a></p>
+                    <div class="row">
+                        <h2>Contact Details</h2>
+                        <?php echo $this->stencil->addImage('QR Code', 'png', 'left'); ?>
+                        <div id="hcard-Iain-White" class="vcard">
+                            <span class="fn">Iain White</span><br>
+                            <span class="iw-email"><a class="email" href="mailto:donotsendtome.com">dumy@donotsendtome.com</a></span>
+                            <div class="adr">
+                                <span class="locality">Springfield</span>,
+                                <span class="region">QLD</span>,
+                                <span class="postal-code">4300</span>
+                                <span class="country-name">Australia</span>
+                            </div>
+                            <div class="tel iw-mobile"><a href="tel:0412345678">04 12 345 678</a></div>
+                        </div>
+                        <a href="/assets/images/iain-white.vcf" title="Iain White vCard"><img src="/assets/images/vcard.png" alt ="vCard" title="Iain White vCard"></a>
+                    </div>
                 </div>
             </div>
         </div>
