@@ -30,3 +30,34 @@ Reuters
 Google Analytics
 UA-12597187-2
 
+hCard
+<div id="hcard-Iain-White" class="vcard">
+ <span class="fn">Iain White</span>
+ <div class="org">WhiteInternet</div>
+ <a class="email" href="mailto:iain@whiteinternet.com">iain@whiteinternet.com</a>
+ <div class="adr">
+  <span class="locality">Springfield</span>
+,
+  <span class="region">QLD</span>
+,
+  <span class="postal-code">4300</span>
+
+  <span class="country-name">Australia</span>
+
+ </div>
+ <div class="tel">0406678337</div>
+
+ Simplify qualifications table
+ Fix mobile menu CSS colour
+ Fix table colour CSS
+ Check on mobile
+ Add new Iain photo to iain-white/iain-white
+ Add title to photo on iain-white
+ Move company logos back
+ Fix site images
+ Add HCard
+ Add vCard and QR code to CV
+
+ XML Sitemap
+ Copy special file from WI
+ 
