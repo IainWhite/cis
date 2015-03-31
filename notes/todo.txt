@@ -27,3 +27,6 @@ OnTheHouse
 TigerRedi
 Reuters
 
+Google Analytics
+UA-12597187-2
+
