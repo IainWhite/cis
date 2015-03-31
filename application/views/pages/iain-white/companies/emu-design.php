@@ -29,4 +29,5 @@
     </div>
 </div>
 
-<?php echo $this->stencil->addSiteImages('Emu Design'); ?>
+<h3>Client Sites</h3>
+<?php echo $this->stencil->addSiteImages(array(117, 121, 122, 120, 123, 125, 127, 126)); ?>

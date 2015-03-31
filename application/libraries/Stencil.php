@@ -101,8 +101,8 @@ class Stencil {
             } else {
                 $description = strip_tags($matches[1]);
                 if (strlen($description) > 155) {
-                    $description = substr($description, 0, strrpos(substr($description, 0, 200), ' '));
-                    $description = substr($description, 0, strrpos(substr($description, 0, 200), '. ')) . '.';
+                    $description = substr($description, 0, strrpos(substr($description, 0, 115), ' '));
+                    $description = substr($description, 0, strrpos(substr($description, 0, 115), '. ')) . '.';
                 }
                 $description = str_replace('"', "'", $description);
                 $this->description = $description;
@@ -1229,9 +1229,9 @@ class Stencil {
                 $out .= '<div class="row margin-bottom-30">' . "\n";
                 $closed = FALSE;
             }
-            $out .= '    <div class="col-sm-3 sm-margin-bottom-30 align-vmiddle">' . "\n";
+            $out .= '    <div class="col-sm-3 sm-margin-bottom-30 imageContainer">' . "\n";
             $out .= '        <a href="/assets/images/sites/' . $row->filename . '" rel="' . $row->company . '" data-rel="fancybox-button" class="fancybox-button" title="' . $row->title . '">' . "\n";
-            $out .= '            <span><img class="img-responsive rounded-2x box-shadow shadow-effect-1 img-thumbnail center-block siteGallery" src="/assets/images/sites/' . $row->filename . '" alt="' . $row->title . '" title="' . $row->title . '" rel="id-' . $row->id . '"></span>' . "\n";
+            $out .= '            <img class="img-responsive rounded-2x box-shadow shadow-effect-1 img-thumbnail center-block siteGallery zoomImage" src="/assets/images/sites/' . $row->filename . '" alt="' . $row->title . '" title="' . $row->title . '" rel="id-' . $row->id . '">' . "\n";
             $out .= '        </a>' . "\n";
             $out .= '    </div>' . "\n";
             if ($i == 3) {
@@ -1243,6 +1243,7 @@ class Stencil {
                 $i = 0;
             }
         }
+
         if (!$closed) {
             $out .= '</div>' . "\n";
         }

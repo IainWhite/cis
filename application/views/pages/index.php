@@ -2,7 +2,7 @@
 <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, WhiteInternet')); ?>
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('Home'); ?>
+        <?php echo $this->stencil->setHeadline('WhiteInternet Home','WhiteInternet by Iain White Web Developer / Scrum Master'); ?>
         <p>Home Page</p>
     </div>
 </div>

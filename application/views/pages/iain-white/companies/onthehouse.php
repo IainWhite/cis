@@ -5,4 +5,5 @@
     </div>
 </div>
 
-<?php echo $this->stencil->addSiteImages('OnTheHouse'); ?>
+<h3>OnTheHouse</h3>
+<?php echo $this->stencil->addSiteImages(array(103, 104, 105, 106, 109, 110, 108, 113)); ?>

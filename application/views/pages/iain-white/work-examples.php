@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('Examples of Work'); ?>
-        <?php $this->stencil->setDescription(''); ?>
+        <?php echo $this->stencil->setHeadline('Examples of Work By Iain White'); ?>
+        <?php $this->stencil->setDescription('Examples of some of the many websites, web applications developed by Iain White.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master')); ?>
 
         <p>In my time as a Web Developer, I have built many web sites including eCommerce and sites for leading brands.</p>
@@ -10,7 +10,6 @@
 
     </div>
 </div>
-
 
 <h2>Emu Design</h2>
 <?php echo $this->stencil->addSiteImages('Emu Design'); ?>

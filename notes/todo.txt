@@ -10,11 +10,6 @@ addGoogleAnalytics(id)
 addContactInfo($email = TRUE, $phone = TRUE)
 
 
-Remove duplicates from OnTheHouse Site images
-Pick 8 images for Emu Design and OnTheHouse
-Fix dates on Resume
-Finish Contact widget
-Dump database
 Add vcard and Q code to Contact Details tab
 Check dates are consistent
 Software <?php echo $this->stencil->elapsedYears('01/09/1987', TRUE, TRUE); ?>
