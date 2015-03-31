@@ -15,7 +15,7 @@
 <?php $this->stencil->sub('/iain-white/qualifications-summary'); ?>
 
 <div class="row">
-    <div class="col-sm-12 col-lg-12 col-md-12 table-responsive">
+    <div class="col-sm-12 col-lg-12 col-md-12">
         <h2>Training Courses</h2>
         <?php echo $this->stencil->getQualifications(); ?>
     </div>
