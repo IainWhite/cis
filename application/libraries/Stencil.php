@@ -1232,7 +1232,7 @@ class Stencil {
             $out .= '    <div class="col-sm-3 sm-margin-bottom-30 align-vmiddle">' . "\n";
             $out .= '        <a href="/assets/images/sites/' . $row->filename . '" rel="' . $row->company . '" data-rel="fancybox-button" class="fancybox-button" title="' . $row->title . '">' . "\n";
             $out .= '            <span><img class="img-responsive rounded-2x box-shadow shadow-effect-1 img-thumbnail center-block siteGallery" src="/assets/images/sites/' . $row->filename . '" alt="' . $row->title . '" title="' . $row->title . '" rel="id-' . $row->id . '"></span>' . "\n";
-            $out .= '        </a>' . $i . "\n";
+            $out .= '        </a>' . "\n";
             $out .= '    </div>' . "\n";
             if ($i == 3) {
                 $out .= '</div>' . "\n";
