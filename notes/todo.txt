@@ -31,12 +31,11 @@ Google Analytics
 UA-12597187-2
 
 
-1 Fix mobile menu CSS colour
-2 Fix table colour CSS
-3 Check on mobile
-4 Move company logos back
-5 Fix site images
-6 Check dates
+1 Fix table colour CSS
+2 Check on mobile
+3 Move company logos back
+4 Fix site images
+5 Check dates
 
 After on Live
 1 XML Sitemap
