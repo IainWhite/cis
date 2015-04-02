@@ -12,7 +12,7 @@
 
         <p>He has experience developing with <strong>HTML5</strong>, <strong>CSS-3</strong>, <strong>Foundation Framework</strong> and <strong>Bootstrap</strong>.</p>
 
-        <p>He has been developing websites for over <?php echo $this->stencil->elapsedYears('01/01/1998'); ?> mostly in <strong>PHP</strong>, but has commercial experience of a verity of programming languages and technologies, including <strong>ASP</strong> (classic and .Net), <strong>ColdFusion</strong>, <strong>JSP</strong>, <strong>Python</strong> and <strong>Perl</strong>.</p>
+        <p>He has been developing websites for over <?php echo $this->stencil->elapsedYears('01/01/1999'); ?> mostly in <strong>PHP</strong>, but has commercial experience of a verity of programming languages and technologies, including <strong>ASP</strong> (classic and .Net), <strong>ColdFusion</strong>, <strong>JSP</strong>, <strong>Python</strong> and <strong>Perl</strong>.</p>
 
         <p>He has worked with a variety of databases including <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Microsoft SQLServer</strong> and <strong>NoSQL</strong> solutions including <strong>Redis</strong> and <strong>Sphinx</strong>.</p>
 

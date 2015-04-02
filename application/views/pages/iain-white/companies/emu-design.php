@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Emu Design'); ?>
 
-        <?php echo $this->stencil->addLogo('Emu Design', 'gif', 'left' , NULL, TRUE); ?>
+        <?php echo $this->stencil->addImage('Emu Design', 'gif', 'left', 'companies'); ?>
 
         <p>Emu Design (<?php echo $this->stencil->addExternalLink('www.emu.com.au', 'http://www.emu.com.au/'); ?>) is a leading full service multimedia and digital agency in Brisbane.</p>
 

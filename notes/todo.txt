@@ -12,8 +12,8 @@ addContactInfo($email = TRUE, $phone = TRUE)
 
 
 Check dates are consistent
-Software <?php echo $this->stencil->elapsedYears('01/09/1987', TRUE, TRUE); ?>
-Web <?php echo $this->stencil->elapsedYears('01/09/1999', TRUE, TRUE); ?>
+Software <?php echo $this->stencil->elapsedYears('01/09/1987'); ?>
+Web <?php echo $this->stencil->elapsedYears('01/01/1999'); ?>
 
 Tidy up sub()
 
@@ -35,7 +35,11 @@ UA-12597187-2
 2 Check on mobile
 3 Move company logos back
 4 Fix site images
-5 Check dates
+5 Check agenst CV
+6 Add new cources.
+7 Put admin on tests
+8 Download CV in PDF
+
 
 After on Live
 1 XML Sitemap

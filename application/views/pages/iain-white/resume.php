@@ -6,7 +6,7 @@
         <p class="text-center"><strong>R&eacute;sum&eacute; / Curriculum Vitae (CV) for Iain White, Web Development Team Lead and Certified Professional Scrum Master</strong></p>
 
         <h2>Skills</h2>
-        <p>I have worked as a Software Developer for <?php echo $this->stencil->elapsedYears('01/09/1987', TRUE, TRUE); ?>, with <?php echo $this->stencil->elapsedYears('01/09/1999', TRUE, TRUE); ?> of developing Websites.</p>
+        <p>I have worked as a Software Developer for <?php echo $this->stencil->elapsedYears('01/09/1987'); ?>, with <?php echo $this->stencil->elapsedYears('01/01/1999'); ?> of developing Websites.</p>
         <p>I have experience across the entire project life cycle. I have worked as a Manager, Team Leader, Lead Developer and Software Engineer as well as a Programmer.</p>
         <p>I have excellent development skills, including HTML, JavaScript, CSS, PHP, ASP, XML, AJAX, jQuery, MySQL, PostgreSQL and MS SQLServer.</p>
         <p>I have had experience of Drupal, WordPress, Java, Scala, JSP, Perl, ColdFusion, TDD (Test Driven Development), code repositories, Object Oriented Programming, Technical design and documentation and SEO (Search Engine Optimisation).</p>

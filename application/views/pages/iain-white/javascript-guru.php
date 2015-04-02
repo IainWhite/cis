@@ -8,11 +8,11 @@
 
         <p>I am a experienced and talented front-end developer.</p>
 
-        <p>I first started developing in JavaScript in 1998 while working at Reuters.</p>
+        <p>I first started developing in JavaScript in 1999 while working at Reuters.</p>
 
         <p>I was fascinated by having to script cross-browser for Internet Explorer and Netscape Navigator.</p>
 
-        <p>This lead to me becoming a Web Developer and I have been crafting HTML, CSS and JavaScript solutions for the past <?php echo $this->stencil->elapsedYears('01/01/1998'); ?>.</p>
+        <p>This lead to me becoming a Web Developer and I have been crafting HTML, CSS and JavaScript solutions for the past <?php echo $this->stencil->elapsedYears('01/01/1999'); ?>.</p>
 
         <p>I developed my own cross-browser JavaScript libraries and have worked with  <strong>Ext</strong>, <strong>MooTools</strong>, <strong>Prototype</strong> and <strong>script.aculo.us</strong> but now mostly use jQuery</strong>.</p>
 

@@ -10,7 +10,7 @@
 
         <p>I am a highly skilled <a href="/iain-white/web-developer">Web Developer</a> and <a href="/iain-white/scrum-master">Certified Scrum Master</a>.</p>
 
-        <p>I have been developing software for over <?php echo $this->stencil->elapsedYears('01/09/1987'); ?> and have been a PHP Developer for over <?php echo $this->stencil->elapsedYears('01/01/1998'); ?>.</p>
+        <p>I have been developing software for over <?php echo $this->stencil->elapsedYears('01/09/1987'); ?> and have been a PHP Developer for over <?php echo $this->stencil->elapsedYears('01/01/1999'); ?>.</p>
 
         <p>See my on-line <a href="/iain-white/resume">r&eacute;sum&eacute;</a> for more details.</p>
 

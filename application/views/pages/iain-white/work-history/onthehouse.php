@@ -22,14 +22,47 @@
                 <span class="label label-info rounded-2x">BootStrap</span>
                 <span class="label label-info rounded-2x">Bash</span>
                 <span class="label label-info rounded-2x">R</span>
+                <span class="label label-info rounded-2x">XML</span>
+                <span class="label label-info rounded-2x">NoSQL</span>
+                <span class="label label-info rounded-2x">Redis</span>
+                <span class="label label-info rounded-2x">Sphinx</span>
+                <span class="label label-info rounded-2x">Git</span>
             </p>
         </div>
     </div>
     <img src="/assets/images/companies/onthehouse.gif" alt="OnTheHouse Logo" title="OnTheHouse" class="pull-right img-bordered" />
     <p>OnTheHouse.com.au is a popular real estate industry portal, primarily providing free property pricing to the public.</p>
+
+    <p>As Lead Web Developer I very hands on in designing and developing solutions in PHP and JavaScript as well as maintain the architecture of the web site and its mobile APIs.</p>
+
     <p>As Team Lead it was my responsibility to recruit, mentor and direct the development and testing team.</p>
-    <p>In my role as Scrum Master I remove impediments that would block the team’s productivity.  I interfaced with Product Owners, Stockholders, Infrastructure and other development departments keeping the team focused on development. I facilitated the Scrum meetings including Sprint Planning, Sprint Review, Sprint Retrospective and Daily Stand-up. I monitored and reported on Sprint process and assisted Product and stakeholders estimate and schedule work.</p>
-    <p>I was responsible for the release process, validating that the deliverable product matched expectations and quality levels.</p>
+
+    <p>In my role as Scrum Master I remove impedances that would block the team’s productivity.  I worked closely with Product Owners, Stakeholders, and Infrastructure. I facilitated the Scrum meetings including Sprint Planning, Sprint Review, Sprint Retrospective and Daily Stand-up.</p>
+
+    <p>I was a key player in introducing Scrum to the company, simplifying the team’s workflow and using Jira Greenhopper as a Scrum board and taking on the role of Scrum Master.</p>
+
+    <p>I streamlined and formalised the release process and established a monthly release schedule.</p>
+
+    <p>I established a dedicated fortnightly estimates meeting based on Story Points and using Estimate Planning Poker techniques.</p>
+
+    <p>I introduced a separate Product Backlog and metric to track Support and maintenance.</p>
+
+    <p>Under my leadership we increased code quality and provided a stable, usable application by:</p>
+    <ul>
+        <li>Hiring the first dedicated Quality Tester at OnTheHouse</li>
+        <li>Using Test Driven Development</li>
+        <li>Conducting Peer Reviews</li>
+        <li>Improving Story quality and task acceptance criteria from the Product team</li>
+        <li>Proactively removing technical debt from the code base.</li>
+        <li>Introducing Automatic Testing</li>
+        <li>Using Jenkins CI</li>
+    </ul>
+
+    <p>I was responsible for adding sponsorship branding for major banks including Suncorp, Westpac, NAB and CBA.</p>
+
+    <p>The company called on my experience on several occasions to perform Technical Due Diligence and to validate the performance of 3<sup>rd</sup> party solutions.</p>
+
+    <p>I also provided training and a site boilerplate based on CodeIgniter for a new Research project developed by another team.</p>
 
     <p><strong>Key Responsibilities:</strong></p>
     <ul>

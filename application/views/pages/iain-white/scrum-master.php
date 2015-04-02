@@ -20,7 +20,7 @@
 
         <h4>I was Scrum Master for <?php echo $this->stencil->elapsedYears('01/01/2013', TRUE, TRUE, '31/07/2014'); ?> at OnTheHouse.</h4>
 
-        <?php echo $this->stencil->addLogo('OnTheHouse', 'gif', 'right'); ?>
+        <?php echo $this->stencil->addImage('OnTheHouse', 'gif', 'right', 'companies'); ?>
 
         <p>In this role I remove impedances that would block the team’s productivity. I worked closely with Product Owners, Stakeholders, and Infrastructure. I facilitated the Scrum meetings including Sprint Planning, Sprint Review, Sprint Retrospective and Daily Stand-up.</p>
 
