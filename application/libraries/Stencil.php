@@ -27,6 +27,7 @@ class Stencil {
     protected $SEOImage         = '';
     protected $h1               = '';
     protected $flags		    = array();
+    protected $breadcrumbOverride = NULL;
 
 	public function __construct()
     {
@@ -476,20 +477,29 @@ class Stencil {
         return '<h1' . $class . '>' . $h1 . '</h1>' . "\n";
     }
 
+    public function overrideBreadcrumb($page)
+    {
+        $this->breadcrumbOverride = $page;
+    }
+
     public function addBreadcrumb()
     {
         $segmentCount = count(($this->CI->uri->segments));
         $path = '/';
         $out = '<ul class="pull-right breadcrumb">' . "\n";
         $out .= '        <li><a href="/"><i class="fa fa-home"></i></a></li>' . "\n";
-        for ($x = 1; $x <= $segmentCount; $x++) {
-            $path .= $this->CI->uri->segment($x) . '/';
-            $label = $this->CI->uri->segment($x);
-            $label = $this->filename2Eng($label);
-            if ($x == $segmentCount) {
-                $out .= '         <li class="active">' . $label . '</li>' . "\n";
-            } else {
-                $out .= '        <li><a href="' . $path . '">' . $label . '</a></li>' . "\n";
+        if ($this->breadcrumbOverride) {
+            $out .= '         <li class="active">' . $this->breadcrumbOverride . '</li>' . "\n";
+        } else {
+            for ($x = 1; $x <= $segmentCount; $x++) {
+                $path .= $this->CI->uri->segment($x) . '/';
+                $label = $this->CI->uri->segment($x);
+                $label = $this->filename2Eng($label);
+                if ($x == $segmentCount) {
+                    $out .= '         <li class="active">' . $label . '</li>' . "\n";
+                } else {
+                    $out .= '        <li><a href="' . $path . '">' . $label . '</a></li>' . "\n";
+                }
             }
         }
         $out .= '        </ul>';

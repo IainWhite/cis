@@ -16,7 +16,7 @@
         <div class="thumbnails thumbnail-style thumbnail-kenburn">
             <div class="thumbnail-img">
                 <div class="overflow-hidden">
-                    <a href="/iain-white/php-developer">
+                    <a href="/iain-white/php-developer" title="Iain White PHP Developer">
                         <img class="img-responsive" src="/assets/images/php-logos.gif" alt="Back-end" title="PHP Developer">
                     </a>
             </div>
@@ -28,7 +28,7 @@
         <div class="thumbnails thumbnail-style thumbnail-kenburn">
             <div class="thumbnail-img">
                 <div class="overflow-hidden">
-                    <a href="/iain-white/javascript-guru">
+                    <a href="/iain-white/javascript-guru" title="Iain White JavaScript Guru">
                         <img class="img-responsive" src="/assets/images/web-logos.gif" alt="Front-end" title="JavaScript Guru">
                     </a>
                 </div>
@@ -40,7 +40,7 @@
         <div class="thumbnails thumbnail-style thumbnail-kenburn">
             <div class="thumbnail-img">
                 <div class="overflow-hidden">
-                    <a href="/iain-white/scrum-master">
+                    <a href="/iain-white/scrum-master" title="Iain White Scrum Master">
                         <img  class="img-responsive" src="/assets/images/scrum-circle.jpg" alt="Scrum" title="Scrum Master">
                     </a>
                 </div>

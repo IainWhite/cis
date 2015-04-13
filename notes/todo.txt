@@ -33,14 +33,17 @@ UA-12597187-2
 
 1 Fix table colour CSS
 2 Check on mobile
-3 Move company logos back
-4 Fix site images
-5 Check agenst CV
-6 Add new cources.
-7 Put admin on tests
-8 Download CV in PDF
+3 Fix site images
+4 Check agenst CV
+5 Add new cources.
+6 Put admin on tests
+7 Download CV in PDF
+8 404 page
+
 
 
 After on Live
 1 XML Sitemap
- 
+
+
+ http://www.spidersoft.com.au/projects/codeigniter-minify/
