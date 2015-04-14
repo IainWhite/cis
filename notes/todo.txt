@@ -37,8 +37,7 @@ UA-12597187-2
 4 Check agenst CV
 5 Add new cources.
 6 Put admin on tests
-7 Download CV in PDF
-8 404 page
+7
 
 
 

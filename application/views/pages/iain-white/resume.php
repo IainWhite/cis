@@ -5,6 +5,8 @@
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Resume, CV, Skills')); ?>
         <p class="text-center"><strong>R&eacute;sum&eacute; / Curriculum Vitae (CV) for Iain White, Web Development Team Lead and Certified Professional Scrum Master</strong></p>
 
+        <p class="text-center"><?php echo $this->stencil->addPDFLink('iain-white-CV', 'Download Iain White\'s CV in PDF.', 'btn btn-info btn-large rounded-2x'); ?></p>
+
         <h2>Skills</h2>
         <p>I have worked as a Software Developer for <?php echo $this->stencil->elapsedYears('01/09/1987'); ?>, with <?php echo $this->stencil->elapsedYears('01/01/1999'); ?> of developing Websites.</p>
         <p>I have experience across the entire project life cycle. I have worked as a Manager, Team Leader, Lead Developer and Software Engineer as well as a Programmer.</p>
