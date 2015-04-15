@@ -4,7 +4,7 @@
             <p class="text-left"><strong>OnTheHouse</strong> 01/2013 - 07/2014 <small>(<?php echo $this->stencil->elapsedYears('07/01/2013', TRUE, TRUE, '30/07/2014'); ?>)</small></p>
         </div>
         <div class="col-lg-6 col-md-6">
-            <h4 class="text-right color-aqua">Development Team Leader</h4>
+            <h4 class="text-right color-aqua">Development Team Leader / Scrum Master</h4>
         </div>
     </div>
     <div class="row">
@@ -27,6 +27,7 @@
                 <span class="label label-info rounded-2x">Redis</span>
                 <span class="label label-info rounded-2x">Sphinx</span>
                 <span class="label label-info rounded-2x">Git</span>
+                <span class="label label-info rounded-2x">SEO</span>
             </p>
         </div>
     </div>

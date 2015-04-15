@@ -13,7 +13,7 @@
                 <span class="label label-info rounded-2x">VAX Pascal</span>
                 <span class="label label-info rounded-2x">DEC RDB</span>
                 <span class="label label-info rounded-2x">PHP</span>
-                <span class="label label-info rounded-2x">Oricle</span>
+                <span class="label label-info rounded-2x">Oracle DB</span>
                 <span class="label label-info rounded-2x">JavaScript</span>
                 <span class="label label-info rounded-2x">HTML</span>
             </p>

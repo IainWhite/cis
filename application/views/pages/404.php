@@ -9,7 +9,7 @@
         </div>
         <h2 class="text-center">Sorry! We couldn't find that page for you.</h2>
         <p class="text-center">You have requested a page or file that is outdated, renamed, moved, or does not exist.</p>
-        <p class="text-center"><?php echo $subpage_text; ?></p>
+        <p class="text-center alert alert-danger fade in rounded-2x shadow-effect-1"><?php echo $subpage_text; ?></p>
     </div>
 </div>
 

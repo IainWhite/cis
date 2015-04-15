@@ -22,6 +22,7 @@
                 <span class="label label-info rounded-2x">WordPress</span>
                 <span class="label label-info rounded-2x">ColdFusion</span>
                 <span class="label label-info rounded-2x">Drupal</span>
+                <span class="label label-info rounded-2x">ASP.Net</span>
             </p>
             <img src="/assets/images/companies/emu-design.gif" alt="Emu Design Logo" title="Emu Design" class="pull-right img-bordered" />
             <p>Emu Design is a leading full service multimedia and digital agency in Brisbane.</p>

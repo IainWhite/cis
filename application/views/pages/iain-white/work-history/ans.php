@@ -1,7 +1,7 @@
 <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
     <div class="row">
         <div class="col-lg-6 col-md-6 align-vmiddle">
-            <p class="text-left"><strong>Anglian Network Systems</strong> 09/1999 - 05/2000 <small>(<?php echo $this->stencil->elapsedYears('01/09/1999', TRUE, TRUE, '30/05/2000'); ?>)</small></p>
+            <p class="text-left"><strong>Anglian Network Systems</strong> 07/1999 - 05/2000 <small>(<?php echo $this->stencil->elapsedYears('01/07/1999', TRUE, TRUE, '30/05/2000'); ?>)</small></p>
         </div>
         <div class="col-lg-6 col-md-6">
             <h4 class="text-right color-aqua">Founder / CEO</h4>
@@ -16,6 +16,9 @@
                 <span class="label label-info rounded-2x">CSS</span>
                 <span class="label label-info rounded-2x">JavaScript</span>
                 <span class="label label-info rounded-2x">Perl</span>
+                <span class="label label-info rounded-2x">Java</span>
+                <span class="label label-info rounded-2x">Flash</span>
+                <span class="label label-info rounded-2x">SEO</span>
             </p>
         </div>
     </div>

@@ -20,6 +20,7 @@
                 <span class="label label-info rounded-2x">ASP</span>
                 <span class="label label-info rounded-2x">API</span>
                 <span class="label label-info rounded-2x">MS SQLServer</span>
+                <span class="label label-info rounded-2x">SEO</span>
                 <span class="label label-info rounded-2x">Agile</span>
             </p>
         </div>

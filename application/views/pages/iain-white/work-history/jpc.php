@@ -15,12 +15,14 @@
                 <span class="label label-info rounded-2x">HTML</span>
                 <span class="label label-info rounded-2x">CSS</span>
                 <span class="label label-info rounded-2x">JavaScript</span>
+                <span class="label label-info rounded-2x">SEO</span>
                 <span class="label label-info rounded-2x">PHP</span>
-                <span class="label label-info rounded-2x">.Net</span>
+                <span class="label label-info rounded-2x">ASP.Net</span>
                 <span class="label label-info rounded-2x">ColdFusion</span>
                 <span class="label label-info rounded-2x">Perl</span>
                 <span class="label label-info rounded-2x">ActionScript</span>
                 <span class="label label-info rounded-2x">MS Access</span>
+                <span class="label label-info rounded-2x">Flash</span>
             </p>
         </div>
     </div>

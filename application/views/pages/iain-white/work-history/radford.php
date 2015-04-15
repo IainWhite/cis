@@ -13,6 +13,7 @@
                 <span class="label label-info rounded-2x">BASIC</span>
                 <span class="label label-info rounded-2x">DEC RDB</span>
                 <span class="label label-info rounded-2x">SQL</span>
+                <span class="label label-info rounded-2x">VBA</span>
             </p>
         </div>
     </div>

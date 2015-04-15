@@ -4,7 +4,7 @@
             <p class="text-left"><strong>Clares Retail Equipment</strong> 09/1993 - 11/1994 <small>(<?php echo $this->stencil->elapsedYears('01/09/1993', TRUE, TRUE, '30/11/1994'); ?>)</small></p>
         </div>
         <div class="col-lg-6 col-md-6">
-            <h4 class="text-right color-aqua">VAX Programmer</h4>
+            <h4 class="text-right color-aqua">DEC VAX Programmer</h4>
         </div>
     </div>
     <div class="row">

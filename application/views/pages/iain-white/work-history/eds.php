@@ -11,6 +11,8 @@
         <div class="col-lg-12 col-md-12">
             <p class="align-vmiddle"><strong>Skills:</strong>
                 <span class="label label-info rounded-2x">MUMPS</span>
+                <span class="label label-info rounded-2x">DEC RDB</span>
+                <span class="label label-info rounded-2x">SQL</span>
             </p>
         </div>
     </div>

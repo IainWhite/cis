@@ -1,7 +1,7 @@
 <div class="funny-boxes funny-boxes-left-green shadow-effect-1 rounded-2x">
     <div class="row">
         <div class="col-lg-6 col-md-6 align-vmiddle">
-            <p class="text-left"><strong>SMS Nederland</strong> 04/1996 - 20/1997 <small>(<?php echo $this->stencil->elapsedYears('01/04/1996', TRUE, TRUE, '30/10/1997'); ?>)</small></p>
+            <p class="text-left"><strong>SMS Nederland</strong> 04/1996 - 10/1997 <small>(<?php echo $this->stencil->elapsedYears('01/04/1996', TRUE, TRUE, '30/10/1997'); ?>)</small></p>
         </div>
         <div class="col-lg-6 col-md-6">
             <h4 class="text-right color-aqua">Analyst / Programmer</h4>
