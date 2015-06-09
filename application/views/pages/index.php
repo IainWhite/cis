@@ -51,6 +51,11 @@
     <div class="col-md-12">
         <?php if ($this->Stencil->getWeekSwitch() = 1 || $this->Stencil->getWeekSwitch() = 3): ?>
         <h3>Project Management</h3>
+            <p>Project Management is a methodical approach to planning and guiding project processes from start to finish. According to the [Project Management Institute] (PMI), the processes are guided through five stages: initiation, planning, executing, controlling, and closing. Project Management can be applied to almost any type of project and is widely used to control the complex processes of software development projects.</p>
+            <p>The [Systems Development Life Cycle] (SDLC) is one example of a methodology for guiding the project management process from an initial feasibility study through maintenance of the completed application. Various SDLC approaches include the [waterfall model], which was the original SDLC method, [Rapid Application Development] (RAD), [Joint Application Development] (JAD), the [Fountain Model], the [Spiral model], build and fix; and synchronize-and-stabilize. A number of charting methods, such as the [Gantt chart] and [PERT chart] have been developed as tools to create a graphic representation of a [project plan] and its current status.</p>
+            <?php if ($this->Stencil->getIsLooking(): ?>
+            <p>[Iain White] is a certified [Scrum Master] with practical experience in Project Management.</p>
+            <?php endif; ?>
         <?php else ?>
         <h3>Web Development</h3>
         <?php endif; ?>
