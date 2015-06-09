@@ -48,4 +48,11 @@
             </div>
         </div>
     </div>
+    <div class="col-md-12">
+        <?php if ($this->Stencil->getWeekSwitch() = 1 || $this->Stencil->getWeekSwitch() = 3): ?>
+        <h3>Project Management</h3>
+        <?php else ?>
+        <h3>Web Development</h3>
+        <?php endif; ?>
+    </div>
 </div>
