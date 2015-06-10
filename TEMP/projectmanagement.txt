@@ -29,19 +29,19 @@ application-lifecycle-managment
 application-lifecycle-managment/application-services-library
 application-lifecycle-managment/business-information-services-library
 application-lifecycle-managment/capability-maturity-model (cmm)
+application-lifecycle-managment/systems-development-life-cycle (sdlc)
 cap-theorem
 code-kata
-death-march
+death-march																			X
 development-methodologies
 development-methodologies/rapid-application-development
 development-methodologies/waterfall-method
 dry
 invest
-it-service-managment (itsm)
-it-service-managment/information-technology-infrastructure-library (map to itil)
-kaizen
-moscow-method
+it-service-managment (itsm)															X
+it-service-managment/information-technology-infrastructure-library (map to itil) 	X
+kaizen																				X
+moscow-method																		X
 no-silver-bullet
-pplication-lifecycle-managment/systems-development-life-cycle (sdlc)
 prince2
 release-early-release-often
