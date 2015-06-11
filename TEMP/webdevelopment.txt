@@ -157,8 +157,8 @@ networks/ip-suite/application/http
 networks/ip-suite/application/imap
 networks/ip-suite/application/pop3
 networks/ip-suite/application/smtp
-networks/ip-suite/application/ssh
-networks/ip-suite/application/telnet
+networks/ip-suite/application/ssh				X
+networks/ip-suite/application/telnet			X
 networks/ip-suite/application/xmpp				X
 networks/ip-suite/internet-layer
 networks/ip-suite/internet/ip					X

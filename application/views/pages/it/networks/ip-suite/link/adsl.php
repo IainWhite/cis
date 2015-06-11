@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Asymmetric Digital Subscriber Line (ADSL)'); ?>
+        <p><strong>Asymmetric Digital Subscriber Line (ADSL)</strong> is a type of digital subscriber line (<?php echo $this->stencil->addLink('DSL', '/it/networks/internet-protocol-suite/link/'); ?>) technology, a data communications technology that enables faster data transmission over copper telephone lines than a conventional voiceband modem can provide. It does this by utilizing frequencies that are not used by a voice telephone call.[1] A splitter, or DSL filter, allows a single telephone connection to be used for both ADSL service and voice calls at the same time. ADSL can generally only be distributed over short distances from the telephone exchange (the last mile), typically less than 4 kilometres (2 mi),[2] but has been known to exceed 8 kilometres (5 mi) if the originally laid wire gauge allows for further distribution.</p>
+        <p>At the telephone exchange the line generally terminates at a digital subscriber line access multiplexer (DSLAM) where another frequency splitter separates the voice band signal for the conventional phone network. Data carried by the ADSL are typically routed over the telephone company's data network and eventually reach a conventional Internet Protocol network.</p>
+     </div>
+</div>

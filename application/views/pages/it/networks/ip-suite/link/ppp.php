@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Point-to-Point Protocol (PPP)'); ?>
+        <p><strong>Point-to-Point Protocol (PPP)</strong> is a data link protocol used to establish a direct connection between two nodes. It can provide connection authentication, transmission encryption and compression.</p>
+        <p>PPP is used over many types of physical networks including serial cable, phone line, trunk line, cellular telephone, specialized radio links, and fiber optic links. PPP is also used over Internet access connections. Internet service providers (ISPs) have used PPP for customer dial-up access to the Internet, since IP packets cannot be transmitted over a modem line on their own, without some data link protocol. Two derivatives of PPP, Point-to-Point Protocol over Ethernet (<?php echo $this->stencil->addLink('PPPoE', '/it/networks/internet-protocol-suite/link/ppp'); ?>) and Point-to-Point Protocol over ATM (<?php echo $this->stencil->addLink('PPPoA', '/it/networks/internet-protocol-suite/link/ppp'); ?>), are used most commonly by Internet Service Providers (ISPs) to establish a Digital Subscriber Line (<?php echo $this->stencil->addLink('DSL', '/it/networks/internet-protocol-suite/link'); ?>) Internet service connection with customers.</p>
+    </div>
+</div>
