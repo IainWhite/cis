@@ -161,10 +161,10 @@ networks/ip-suite/application/ssh
 networks/ip-suite/application/telnet
 networks/ip-suite/application/xmpp
 networks/ip-suite/internet-layer
-networks/ip-suite/internet/ip
+networks/ip-suite/internet/ip					X
 networks/ip-suite/link-layer
 networks/ip-suite/transport-layer
-networks/ip-suite/transport/tcp
+networks/ip-suite/transport/tcp					
 nntp
 oauth
 opera-dragonfly
