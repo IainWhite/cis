@@ -153,10 +153,10 @@ networks/ip-suite/application-layer
 networks/ip-suite/application/dhcp				X
 networks/ip-suite/application/dns				X
 networks/ip-suite/application/ftp				X
-networks/ip-suite/application/http				
-networks/ip-suite/application/imap
-networks/ip-suite/application/pop3
-networks/ip-suite/application/smtp
+networks/ip-suite/application/http				X
+networks/ip-suite/application/imap				X
+networks/ip-suite/application/pop3				X
+networks/ip-suite/application/smtp				X
 networks/ip-suite/application/ssh				X
 networks/ip-suite/application/telnet			X
 networks/ip-suite/application/xmpp				X
