@@ -6,7 +6,6 @@ aim
 ajax
 ant
 apc
-application-layer
 azure
 back-end
 blink
@@ -76,8 +75,6 @@ databases/sqlite
 databases/sqlserver
 databases/t-sql
 databases/visual-foxpro
-dhcp
-dns
 docker
 dom
 dom-inspector
@@ -100,7 +97,6 @@ front-end/mark-up/html
 front-end/mark-up/html/html5
 front-end/mark-up/html/xhtml
 front-end/styling
-ftp
 galera
 gecko
 gerrit
@@ -111,10 +107,6 @@ google-plus
 google-web-toolkit
 gopher
 hiawatha
-http
-imap
-internet-layer
-ip
 ip-address
 isp
 java-applet
@@ -143,7 +135,6 @@ languages/php/zend-opcache
 languages/php/zend-server
 languages/php/zend-studio
 layout-engine
-link-layer
 make
 mambo
 mariadb
@@ -158,6 +149,22 @@ mongodb
 mozilla-web-developer
 mustache
 myspace
+networks/ip-suite/application-layer
+networks/ip-suite/application/dhcp				X
+networks/ip-suite/application/dns				X
+networks/ip-suite/application/ftp				X
+networks/ip-suite/application/http				
+networks/ip-suite/application/imap
+networks/ip-suite/application/pop3
+networks/ip-suite/application/smtp
+networks/ip-suite/application/ssh
+networks/ip-suite/application/telnet
+networks/ip-suite/application/xmpp
+networks/ip-suite/internet-layer
+networks/ip-suite/internet/ip
+networks/ip-suite/link-layer
+networks/ip-suite/transport-layer
+networks/ip-suite/transport/tcp
 nntp
 oauth
 opera-dragonfly
@@ -166,7 +173,6 @@ paypal
 pear
 pecl
 phing
-pop3
 presto
 protocols
 puppet
@@ -186,18 +192,13 @@ slash
 slashdot
 slashdot-effect
 smil
-smtp
 social-media
 spidermonkey
-ssh
 ssi
 sunit
 svg
 tasman
-tcp
 tcp-ip
-telnet
-transport-layer
 trident
 tumblr
 twitter
@@ -226,6 +227,5 @@ world-wide-web
 worldpay
 xml
 xmlhttprequest
-xmpp
 xul
 xunit
