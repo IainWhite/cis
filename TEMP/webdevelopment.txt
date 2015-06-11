@@ -159,12 +159,12 @@ networks/ip-suite/application/pop3
 networks/ip-suite/application/smtp
 networks/ip-suite/application/ssh
 networks/ip-suite/application/telnet
-networks/ip-suite/application/xmpp
+networks/ip-suite/application/xmpp				X
 networks/ip-suite/internet-layer
 networks/ip-suite/internet/ip					X
 networks/ip-suite/link-layer
 networks/ip-suite/transport-layer
-networks/ip-suite/transport/tcp					
+networks/ip-suite/transport/tcp					X
 nntp
 oauth
 opera-dragonfly
