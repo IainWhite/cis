@@ -42,6 +42,7 @@ dcl
 delphi
 dot-net
 dot-net-framework
+dotNet/cms/DotNetNuke
 ecmascript
 eiffel
 elixir
@@ -53,11 +54,14 @@ groovy
 haskell
 java
 java/duke
+java/Google Web Toolkit (GWT)
+java/grals
+java/play
 java/rxjava
+java/spring
 javascript
 javascript/jscript
 jsp
-korn-shell
 lisp
 logo
 machine-code
@@ -70,16 +74,38 @@ pascal/turbo-pascal
 perl
 perl/perlscript
 php
+php/cms/Drupal
+php/cms/ExpressionEngine
+php/cms/Joonla!
+php/cms/Mambo
+php/cms/Wordpress
+php/frameworks/CakePHP
+php/frameworks/CodeIgniter
+php/frameworks/Fat-Free
+php/frameworks/FuelPHP
+php/frameworks/Laraval
+php/frameworks/Lithium
+php/frameworks/Phalcon
+php/frameworks/PHPixie
+php/frameworks/Symfony2
+php/frameworks/TYPO3
+php/frameworks/Yii
+php/frameworks/Zend Framework
+php/elePHPant
 postscript
 prolog
 python
+python/Django
 r
 reactive-extensions
 ruby
+ruby/Ruby on Rails
 s
 scala
 scala/rxscala
 shell/bash
 shell/bourne-shell
 shell/c-shell
+shell/korn-shell
 smalltalk
+
