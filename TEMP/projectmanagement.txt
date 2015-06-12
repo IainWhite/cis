@@ -31,7 +31,6 @@ project-management/Critical Chain Project Management (CCPM)
 project-management/Critical Path Method (CPM)
 project-management/Delphi Method
 project-management/development-methodologies								C
-project-management/dry														C
 project-management/Dynamic Systems Development Method (DSDM)
 project-management/Earned Value Management (EVM)
 project-management/Estimation Theory
@@ -42,7 +41,6 @@ project-management/Gantt Chart
 project-management/Graphical Evaluation and Review Technique (GERT)
 project-management/Hammock Activity
 project-management/HERMES Method
-project-management/invest													C
 project-management/ISO 10006
 project-management/ISO 9000
 project-management/Joint Application Development

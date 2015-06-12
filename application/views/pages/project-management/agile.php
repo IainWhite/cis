@@ -7,3 +7,13 @@
         <p>The <?php echo $this->stencil->addLink('Agile Manifesto', 'PMA'); ?> introduced the term <em>Agile</em> in 2001.</p>
     </div>
 </div>
+
+<?php if (!$this->stencil->getIsSub()): ?>
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <?php $this->stencil->sub('project-management/agile/scrum', NULL, TRUE); ?>
+            <?php $this->stencil->sub('project-management/agile/kanban', NULL, TRUE); ?>
+            <?php $this->stencil->sub('project-management/agile/extreme-programming', NULL, TRUE); ?>
+        </div>
+    </div>
+<?php endif; ?>
