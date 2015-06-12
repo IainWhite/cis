@@ -643,6 +643,138 @@ class Stencil {
             case 'MD':
                 $path = 'mobile-development';
                 break;
+            case 'IWC':
+                $path = 'iain-white/companies';
+                break;
+            case 'IWH':
+                $path = 'iain-white/work-history';
+                break;
+            case 'ITD':
+                $path = 'it/development';
+                break;
+            case 'ITH':
+                $path = 'it/hardware';
+                break;
+            case 'ITN':
+                $path = 'it/networks';
+                break;
+            case 'IPS':
+                $path = 'it/networks/ip-suite';
+                break;
+            case 'IPA':
+                $path = 'it/networks/ip-suite/application';
+                break;
+            case 'IPI':
+                $path = 'it/networks/ip-suite/internet';
+                break;
+            case 'IPL':
+                $path = 'it/networks/ip-suite/link';
+                break;
+            case 'IPT':
+                $path = 'it/networks/ip-suite/transport';
+                break;
+            case 'OS':
+                $path = 'it/operating-systems';
+                break;
+            case 'OSD':
+                $path = 'it/operating-systems/dos';
+                break;
+            case 'OSL':
+                $path = 'it/operating-systems/linux';
+                break;
+            case 'OSW':
+                $path = 'it/operating-systems/windows';
+                break;
+            case 'SW':
+                $path = 'it/software';
+                break;
+            case 'DB':
+                $path = 'it/software/databases';
+                break;
+            case 'SWD':
+                $path = 'it/software/drawing';
+                break;
+            case 'SWE':
+                $path = 'it/software/ide';
+                break;
+            case 'SWS':
+                $path = 'it/software/spreadsheets';
+                break;
+            case 'SWW':
+                $path = 'it/software/word-processors';
+                break;
+            case 'LB':
+                $path = 'languages/basic';
+                break;
+            case 'LC':
+                $path = 'languages/c';
+                break;
+            case 'LCP':
+                $path = 'languages/c/c-plus-plus';
+                break;
+            case 'LCS':
+                $path = 'languages/c/c-sharp';
+                break;
+            case 'LJ':
+                $path = 'languages/java';
+                break;
+            case 'JS':
+                $path = 'languages/javascript';
+                break;
+            case 'LP':
+                $path = 'languages/php';
+                break;
+            case 'PCMS':
+                $path = 'languages/php/cms';
+                break;
+            case 'PFR':
+                $path = 'languages/php/frameworks';
+                break;
+            case 'LS':
+                $path = 'languages/scala';
+                break;
+            case 'MDA':
+                $path = 'mobile-development/android';
+                break;
+            case 'PMA':
+                $path = 'project-management/agile';
+                break;
+            case 'PMS':
+                $path = 'project-management/agile/scrum';
+                break;
+            case 'PMK':
+                $path = 'project-management/kanban';
+                break;
+            case 'PML':
+                $path = 'project-management/lean';
+                break;
+            case 'WB':
+                $path = 'web-development/browsers';
+                break;
+            case 'WDD':
+                $path = 'web-development/design';
+                break;
+            case 'JE':
+                $path = 'web-development/javascript-engine';
+                break;
+            case 'LE':
+                $path = 'web-development/layout-engine';
+                break;
+            case 'MU':
+                $path = 'web-development/mark-up';
+                break;
+            case 'WBS':
+                $path = 'web-development/seo';
+                break;
+            case 'WBC':
+                $path = 'web-development/styling';
+                break;
+            case 'WS':
+                $path = 'web-development/web-servers';
+                break;
+            case 'URL':
+                $path = 'web-development/websites';
+                break;
         }
         if ($full) {
             $path = base_url() . $path;

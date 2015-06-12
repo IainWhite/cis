@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline("Brooks's Law"); ?>
         <p><strong>Brooks's Law</strong> is a principle in software development which says that <em>"adding manpower to a late software project makes it later."</em></p>
-        <p>It was coined by <?php echo $this->stencil->addLink('Fred Brooks', '/people'); ?> in his 1975 book <?php echo $this->stencil->addLink('The Mythical Man-Month', '/books'); ?>. The corollary of Brooks's Law is that there is an incremental person who, when added to a project, makes it take more, not less time.</p>
+        <p>It was coined by <?php echo $this->stencil->addLink('Fred Brooks', 'P'); ?> in his 1975 book <?php echo $this->stencil->addLink('The Mythical Man-Month', 'B'); ?>. The corollary of Brooks's Law is that there is an incremental person who, when added to a project, makes it take more, not less time.</p>
         <p>Brooks adds that <em><strong>"Nine women can't make a baby in one month."</strong></em></p>
      </div>
 </div>

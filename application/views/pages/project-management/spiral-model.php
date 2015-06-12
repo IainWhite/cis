@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Spiral Model'); ?>
-        <p>The <strong>Spiral model</strong>, also known as the <strong>Spiral Lifecycle Model</strong>, is a <?php echo $this->stencil->addLink('Systems Development Lifecycle', '/project-management'); ?> (SDLC) model used in Information Technology. This model of development combines the features of the <?php echo $this->stencil->addLink('Prototyping Model', '/project-management'); ?> and the <?php echo $this->stencil->addLink('Waterfall model', '/project-management'); ?>. The Spiral Model is favored for large, expensive, and complicated projects.</p>
+        <p>The <strong>Spiral model</strong>, also known as the <strong>Spiral Lifecycle Model</strong>, is a <?php echo $this->stencil->addLink('Systems Development Lifecycle', 'PM'); ?> (SDLC) model used in Information Technology. This model of development combines the features of the <?php echo $this->stencil->addLink('Prototyping Model', 'PM'); ?> and the <?php echo $this->stencil->addLink('Waterfall model', 'PM'); ?>. The Spiral Model is favored for large, expensive, and complicated projects.</p>
         <p>The steps in the spiral model can be generalised as follows:</p>
         <ol>
             <li>The new system requirements are defined in as much detail as possible. This usually involves interviewing a number of users representing all the external or internal users and other aspects of the existing system.</li>

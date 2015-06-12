@@ -10,6 +10,6 @@
         </ul>
         <p>Supporting plans may include those related to: human resources, communication methods, and risk management.</p>
         <p>Computer hardware and software project planning within an enterprise is often done using a project planning guide that describes the process that the enterprise feels has been successful in the past.</p>
-        <p>Tools popularly used for the scheduling part of a plan include the <?php echo $this->stencil->addLink('Gantt chart', '/project-management'); ?> and the <?php echo $this->stencil->addLink('PERT chart', '/project-management'); ?>.</p>
+        <p>Tools popularly used for the scheduling part of a plan include the <?php echo $this->stencil->addLink('Gantt chart', 'PM'); ?> and the <?php echo $this->stencil->addLink('PERT chart', 'PM'); ?>.</p>
     </div>
 </div>
