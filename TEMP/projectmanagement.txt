@@ -1,47 +1,90 @@
-agile-software-development (agile)
-agile\adaptive-software-development
-agile\agile-manifesto
-agile\agile-modeling
-agile\agile-unified-process
-agile\crystal-clear-methods
-agile\disciplined-agile-delivery
-agile\dynamic-systems-development-method
-agile\extreme-programming
-agile\feature-driven-development
-agile\kanban
-agile\lean-software-development
-agile\scrum
-agile\scrum\burn-down
-agile\scrum\chickens-and-pigs
-agile\scrum\daily-scrum
-agile\scrum\development-team
-agile\scrum\product-backlog
-agile\scrum\product-owner
-agile\scrum\scrum-master
-agile\scrum\scrum-team
-agile\scrum\sprint
-agile\scrum\sprint-backlog
-agile\scrum\sprint-planning
-agile\scrum\sprint-restorspactive
-agile\scrum\sprint-review
-agile\scrumban
-application-lifecycle-managment
-application-lifecycle-managment/application-services-library
-application-lifecycle-managment/business-information-services-library
-application-lifecycle-managment/capability-maturity-model (cmm)
-application-lifecycle-managment/systems-development-life-cycle (sdlc)
-cap-theorem
-code-kata
-death-march																			X
-development-methodologies
-development-methodologies/rapid-application-development
-development-methodologies/waterfall-method
-dry
-invest
-it-service-managment (itsm)															X
-it-service-managment/information-technology-infrastructure-library (map to itil) 	X
-kaizen																				X
-moscow-method																		X
-no-silver-bullet
-prince2
-release-early-release-often
+companies/Australian Institute of Project Management (AIPM) 
+companies/British Standards Institution (or BSI) 
+companies/International Project Management Association (IPMA)
+companies/Project Management Institute (PMI)
+project-management/agile-software-development (agile)						C
+project-management/agile/Acceptance Test-Driven Development (ATDD)
+project-management/agile/adaptive-software-development
+project-management/agile/Agile modeling (AM)
+project-management/agile/Agile Unified Process (AUP)
+project-management/agile/Agile Versus Lean
+project-management/agile/Behavior-Driven Development (BDD)
+project-management/agile/Continuous Integration (CI)
+project-management/agile/Cross-Functional Teams
+project-management/agile/Crystal Clear Method
+project-management/agile/Disciplined Agile Delivery (DAD)
+project-management/agile/Domain-Driven Design (DDD)
+project-management/agile/Dynamic Systems Development Method (DSDM)
+project-management/agile/Feature-Driven Development (FDD)
+project-management/agile/pair-programming
+project-management/agile/Test-Driven Development (TDD)						C
+project-management/alm/application-services-library (ASL)					C
+project-management/alm/business-information-services-library (BiSL)			C
+project-management/alm/capability-maturity-model (CMM)						C
+project-management/alm/systems-development-life-cycle (SDLC)				C
+project-management/application-lifecycle-management (ALM)					C
+project-management/cap-theorem												C
+project-management/Change Control
+project-management/code-kata												C
+project-management/Cost Overrun
+project-management/Critical Chain Project Management (CCPM)
+project-management/Critical Path Method (CPM)
+project-management/Delphi Method
+project-management/development-methodologies								C
+project-management/dry														C
+project-management/Dynamic Systems Development Method (DSDM)
+project-management/Earned Value Management (EVM)
+project-management/Estimation Theory
+project-management/Event Chain Methodology
+project-management/Extreme Project Management (XPM)
+project-management/Feature creep
+project-management/Gantt Chart 
+project-management/Graphical Evaluation and Review Technique (GERT)
+project-management/Hammock Activity
+project-management/HERMES Method
+project-management/invest													C
+project-management/ISO 10006
+project-management/ISO 9000
+project-management/Joint Application Development
+project-management/lean	
+project-management/Lean Project Management
+project-management/lean/Lean Manufacturing
+project-management/lean/Lean Software Development
+project-management/lean/Quality Cost Delivery (QCD)
+project-management/lean/Toyota Production System (TPS) 
+project-management/Level of Effort (LOE)
+project-management/methodologies/Capability Maturity Model Integration
+project-management/methodologies/Dual Vee Model
+project-management/methodologies/Fountain Model
+project-management/methodologies/Incremental Build Model
+project-management/methodologies/Iterative Development
+project-management/methodologies/iterative-development/Unified Software Development Process
+project-management/methodologies/Prototype Model
+project-management/methodologies/Spiral Model
+project-management/methodologies/V-Model
+project-management/methodologies/waterfall-model							C
+project-management/methodologies/waterfall/Structured Systems Analysis and Design Method (SSADM)
+project-management/Model-Driven Engineering (MDE)
+project-management/Monte Carlo Method
+project-management/no-silver-bullet											C
+project-management/Object-Modeling Technique (OMT)
+project-management/Organisational Project Management Maturity Model (OPM3)
+project-management/prince2													C
+project-management/Product Breakdown Structure
+project-management/Project Evaluation and Review Technique (PERT)
+project-management/Project Management Body of Knowledge (PMBOK)
+project-management/Quality Management System (QMS)
+project-management/rad/Adaptive software development (ASD)
+project-management/rapid-application-development (RAD)						C
+project-management/Rational Unified Process (RUP)
+project-management/release-early-release-often								C
+project-management/risk/Risk Management
+project-management/risk/Risk Register
+project-management/Scope Creep 
+project-management/six-sigma
+project-management/Test Management Approach (TMap)
+project-management/Theory Of Constraints (TOC)
+project-management/Value Breakdown Structure (VBS)
+project-management/Wideband Delphi
+project-management/Work Breakdown Structure (WBS)
+
