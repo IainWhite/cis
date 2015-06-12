@@ -1,4 +1,3 @@
-<!-- START ROW -->
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Agile'); ?>
@@ -8,4 +7,3 @@
         <p>The <?php echo $this->stencil->addLink('Agile Manifesto', 'PMA'); ?> introduced the term <em>Agile</em> in 2001.</p>
     </div>
 </div>
-<!-- END ROW -->
