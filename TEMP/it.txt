@@ -1,21 +1,19 @@
-amazon-web-services (aws)
+amazon-web-services (AWS)
 arcnet
 arpanet
 ascii
 ascii-table
 backus-naur-form
-behavior-driven-development (bdd)
-cli
 client-server
 cmyk
+Comma-Separated Values (CSV)
+Command-Line Interface (CLI)
 component-object-model
 computer-modern
 computer-programming
 coroutines
 crc-cards
-crud
 csnet
-csv
 cvs
 cygwin
 databases/acid
@@ -26,15 +24,14 @@ databases/microsoft-access
 design
 development
 django-framework
-dll
 dot-com-bubble
+Dynamic-Link Library (DLL)
 electronic-data-interchange
-flickr
 font
 foss
 gdi
 git
-gui
+Graphical User Interface (GUI)
 hardware
 hardware/acorn-archimedes
 hardware/acorn-electron
@@ -101,7 +98,6 @@ jdbc
 junit
 jvm
 latex
-linkedin
 mda
 metafont
 mfc
@@ -112,16 +108,15 @@ networking/category-5
 networking/token-ring
 networks/lan
 networks/netware
-networks/wan
-networks/wep
 networks/wi-fi
+networks/wi-fi/wan
+networks/wi-fi/wep
 nsfnet
+Object Linking and Embedding (OLE)
+Object-Oriented Programming  (OOP)
 object-windows-library
-odbc
-oem
-ole
-oop
-operating-systems (os)
+Open Database Connectivity (ODBC)
+operating-systems (OS)
 operating-systems//cp-m-86
 operating-systems//mobile/cocoa
 operating-systems/beos
@@ -170,19 +165,35 @@ operating-systems/windows/windows-nt
 operating-systems/windows/windows-template-library
 operating-systems/windows/windows-vista
 operating-systems/windows/windows-xp
+Original Equipment Manufacturer (OEM)
 pgc
-pinterest
 reactive-programming
 reactive-programming/reactive-manifesto
 relational-model
-rfc
+Request for Comments (RFC)
 rgb
-sdk
 shell-scripts
 slackware
 social-networking
 software
+Software Development Kit (SDK)
 software-engineering
+software-licenses
+software-licenses/Apache License
+software-licenses/Apple Public Source License
+software-licenses/BSD License
+software-licenses/Common Public License
+software-licenses/Copyleft
+software-licenses/Copyright
+software-licenses/End-User License Agreement (EULA)
+software-licenses/Free and Open-Source Software (FOSS)
+software-licenses/Free Software Definition
+software-licenses/Free Software Foundation (FSF)
+software-licenses/GNU General Public License (GNU GPL or GPL)
+software-licenses/IBM Public License
+software-licenses/MIT License
+software-licenses/Public Domain
+software-licenses/Public Domain Software
 software/activex
 software/adobe-air (was air)
 software/awk
@@ -250,23 +261,19 @@ software/word-processors/wordstar
 software/xcode
 ssem
 stackdriver
-svn
+Subversion (SVN)
 tar-format
-tdd
 testdox
 tex
 turing-award
 typeface
-ui
 uncol
-ux
+User Experience (UX)
+User Interface (UI)
 vcl
 version-control
 wikipedia
 wimp
-wpa
-wps
 wysiwyg
 y2k
-youtube
 yslow
