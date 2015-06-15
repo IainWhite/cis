@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Level Of Effort (LOE)'); ?>
+        <p><strong>Level Of Effort (LOE)</strong> is a support-type project activity that must be done to support other work activities or the entire project effort. It usually consists of short amounts of work that must be repeated periodically. Examples of such an activity may be project budget accounting, customer liaison, or oiling machinery during manufacturing.</p>
+        <p>Since an LOE activity is not itself a work item directly associated with accomplishing the final project product, service or result, but rather one that supports such work, its duration is based on the duration of the discrete work activity it is supporting - oiling machinery will start when manufacturing starts and finish when it finishes. As a result, an LOE activity should never be on the critical path of the project schedule, as it never of itself adds time to the project. Rather, manufacturing would be on the critical path, and the oiling activity would become shorter or longer only if manufacturing does. LOE activities should not have variances either, because they cannot be ahead of or behind schedule based on their meaning.</p>
+        <p>In inserting LOE activities to a <?php echo $this->stencil->addLink('critical path method', 'PM'); ?> schedule, the LOE is usually scheduled as both a Start-to-Start (SS) and Finish-to-Finish successor of the driving activity. In a network logic diagram, these two relationships make it look as though the LOE is hanging from the start and finish of the discrete activity. As a result, an LOE thus diagrammed is sometimes referred to as a "[hammock]" activity or relationship.</p>
+        <p>LOE is used to define the amount of work performance within a time and is measured in staff days or staff hours per day / week / month.</p>
+    </div>
+</div>

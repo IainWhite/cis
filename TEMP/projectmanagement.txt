@@ -4,19 +4,15 @@ companies/International Project Management Association (IPMA)
 companies/Project Management Institute (PMI)
 project-management/agile/Acceptance Test-Driven Development (ATDD)
 project-management/agile/adaptive-software-development
-project-management/agile/Agile modeling (AM)
 project-management/agile/Agile Unified Process (AUP)
 project-management/agile/Behavior-Driven Development (BDD)
 project-management/agile/Continuous Integration (CI)
 project-management/agile/Cross-Functional Teams
 project-management/agile/Crystal Clear Method
-project-management/agile/Disciplined Agile Delivery (DAD)
 project-management/agile/Domain-Driven Design (DDD)
 project-management/agile/Dynamic Systems Development Method (DSDM)
 project-management/agile/Feature-Driven Development (FDD)
-project-management/agile/pair-programming
 project-management/Change Control
-project-management/Cost Overrun
 project-management/Critical Chain Project Management (CCPM)
 project-management/Critical Path Method (CPM)
 project-management/Delphi Method
@@ -25,20 +21,11 @@ project-management/Earned Value Management (EVM)
 project-management/Estimation Theory
 project-management/Event Chain Methodology
 project-management/Extreme Project Management (XPM)
-project-management/Feature creep
 project-management/Gantt Chart 
 project-management/Graphical Evaluation and Review Technique (GERT)
 project-management/Hammock Activity
-project-management/HERMES Method
-project-management/ISO 10006
-project-management/ISO 9000
 project-management/Joint Application Development
-project-management/lean	
 project-management/Lean Project Management
-project-management/lean/Lean Manufacturing
-project-management/lean/Quality Cost Delivery (QCD)
-project-management/lean/Toyota Production System (TPS) 
-project-management/Level of Effort (LOE)
 project-management/methodologies/Capability Maturity Model Integration
 project-management/methodologies/Dual Vee Model
 project-management/methodologies/Fountain Model
@@ -61,7 +48,6 @@ project-management/rad/Adaptive software development (ASD)
 project-management/Rational Unified Process (RUP)
 project-management/risk/Risk Management
 project-management/risk/Risk Register
-project-management/Scope Creep 
 project-management/six-sigma
 project-management/Test Management Approach (TMap)
 project-management/Theory Of Constraints (TOC)
