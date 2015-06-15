@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Creative Intersection'); ?>
-
+        <p>App Development and general Design company based in Brisbane providing mobile apps (iPhone, iPad, Android handsets and tablets), web based application,  design, online data application, and business systems.</p>
     </div>
 </div>
 
