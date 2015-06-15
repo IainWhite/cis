@@ -6,7 +6,6 @@ project-management/agile/Acceptance Test-Driven Development (ATDD)
 project-management/agile/adaptive-software-development
 project-management/agile/Agile modeling (AM)
 project-management/agile/Agile Unified Process (AUP)
-project-management/agile/Agile Versus Lean
 project-management/agile/Behavior-Driven Development (BDD)
 project-management/agile/Continuous Integration (CI)
 project-management/agile/Cross-Functional Teams

@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Mura'); ?>
+        <p><strong>Mura</strong> is a Japanese word meaning "unevenness; irregularity; lack of uniformity; nonuniformity; inequality", and is a key concept in the <?php echo $this->stencil->addLink('Toyota Production System', 'PML'); ?> (TPS) as one of the three types of waste (<?php echo $this->stencil->addLink('muda', 'PML'); ?>, <?php echo $this->stencil->addLink('mura', 'PML'); ?>, <?php echo $this->stencil->addLink('muri', 'PML'); ?>). Waste reduction is an effective way to increase profitability. Toyota merely picked up these three words with prefix mu-, which every Japanese know, as product improvement program or campaign.</p>
+        <p>Mura, in terms of business / process improvement, is avoided through Just In Time systems which are based on keeping little or no inventory, rather supplying the production process with the right part, at the right time, in the right amount, and first-in, first out component flow. Just in Time systems create a “pull system” in which each sub-process withdraws its needs from the preceding sub-processes, and ultimately from an outside supplier. When a preceding process does not receive a request or withdrawal it does not make more parts. This type of system is designed to maximize productivity by minimising storage overhead.</p>
+    </div>
+</div>
