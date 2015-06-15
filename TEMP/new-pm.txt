@@ -1,0 +1,81 @@
+Specification By Example (SBE)
+<p><strong>Specification By Example (SBE)</strong> is a collaborative approach to defining requirements and business-oriented functional tests for software products based on capturing and illustrating requirements using realistic examples instead of abstract statements. It is applied in the context of [Agile software development] methods, in particular [behavior-driven development] (BDD). This approach is particularly successful for managing requirements and functional tests on large-scale projects of significant domain and organisational complexity.</p>
+<p>Specification by example is also known as example-driven development, executable requirements, acceptance test-driven development, Agile Acceptance Testing.</p>
+===
+
+Object-Oriented Analysis and Design (OOAD)
+<p><strong>Object-Oriented Analysis and Design (OOAD)</strong> is a popular technical approach to analyzing, designing an application, system, or business by applying the object-oriented paradigm and visual modeling throughout the development life cycles to foster better stakeholder communication and product quality.</p>
+===
+
+Acceptance Test-Driven Development (ATDD)
+<p><strong>Acceptance Test-Driven Development (ATDD)</strong> is a development methodology based on communication between the business customers, the developers, and the testers. ATDD encompasses many of the same practices as [Specification by Example], [Behavior Driven Development] (BDD), [Example-Driven Development] (EDD), and [Story Test-Driven Development] (SDD). All these processes aid developers and testers in understanding the customer’s needs prior to implementation and allow customers to be able to converse in their own domain language.
+<p>ATDD is closely related to [Test-Driven Development] (TDD). It differs by the emphasis on developer-tester-business customer collaboration. ATDD encompasses acceptance testing, but highlights writing acceptance tests before developers begin coding.</p>
+===
+
+Adaptive Software Development (ASD)
+<p><strong>Adaptive software development (ASD)</strong> is a software development process that grew out of [Rapid Application Development] work by Jim Highsmith and Sam Bayer. It embodies the principle that continuous adaptation of the process to the work at hand is the normal state of affairs.</p>
+<p>Adaptive Software Development replaces the traditional [waterfall] cycle with a repeating series of speculate, collaborate, and learn cycles. This dynamic cycle provides for continuous learning and adaptation to the emergent state of the project. The characteristics of an ASD life cycle are that it is mission focused, feature based, iterative, timeboxed, risk driven, and change tolerant.</p>
+<p>The word speculate refers to the paradox of planning - it is more likely to assume that all stakeholders are comparably wrong for certain aspects of the project’s mission, while trying to define it. Collaboration refers to the efforts for balancing the work based on predictable parts of the environment (planning and guiding them) and adapting to the uncertain surrounding mix of changes caused by various factors, such as technology, requirements, stakeholders, software vendors. The learning cycles, challenging all stakeholders, are based on the short iterations with design, build and testing. During these iterations the knowledge is gathered by making small mistakes based on false assumptions and correcting those mistakes, thus leading to greater experience and eventually mastery in the problem domain.</p>
+====
+
+Agile Unified Process (AUP)
+<p><strong>Agile Unified Process (AUP)</strong> is a simplified version of the [Rational Unified Process] (RUP) developed by Scott Ambler. It describes a simple, easy to understand approach to developing business application software using agile techniques and concepts yet still remaining true to the RUP. The AUP applies agile techniques including [Test-Driven Development] (TDD), [Agile Modeling] (AM), agile change management, and database refactoring to improve productivity.</p>
+===
+
+The Rational Unified Process (RUP) 
+<p>The <strong>Rational Unified Process (RUP)</strong> is an iterative software development process framework created by the <strong>Rational Software Corporation</strong>, a division of [IBM] since 2003. RUP is not a single concrete prescriptive process, but rather an adaptable process framework, intended to be tailored by the development organisations and software project teams that will select the elements of the process that are appropriate for their needs. RUP is a specific implementation of the [Unified Process].</p>
+===
+
+Unified Process 
+<p>The <strong>Unified Software Development Process</strong> or <strong>Unified Process</strong> is a popular iterative and incremental software development process framework. The best-known and extensively documented refinement of the Unified Process is the [Rational Unified Process] (RUP). Other examples are OpenUP and [Agile Unified Process].</p>
+===
+
+Continuous Integration (CI)
+<p><strong>Continuous Integration (CI)</strong> is the practice, in software engineering, of merging all developer working copies with a shared mainline several times a day. It was first named and proposed by <strong>Grady Booch</strong> in his method, but he did not advocate integrating several times per day. It was adopted as part of [Extreme Programming] (XP), which did advocate integrating more than once per day, perhaps as many as tens of times per day. The main aim of CI is to prevent integration problems, referred to as "integration hell" in early descriptions of XP. CI isn't universally accepted as an improvement over frequent integration, so it is important to distinguish between the two as there is disagreement about the virtues of each.</p>
+<p>CI was originally intended to be used in combination with automated unit tests written through the practices of [Test-Driven Development]. Initially this was conceived of as running all unit tests in the developer's local environment and verifying they all passed before committing to the mainline. This helps avoid one developer's work-in-progress breaking another developer's copy. If necessary, partially complete features can be disabled before committing using feature toggles.</p>
+<p>Later elaborations of the concept introduced build servers, which automatically ran the unit tests periodically or even after every commit and report the results to the developers. The use of build servers (not necessarily running unit tests) had already been practised by some teams outside the XP community. Nowadays, many organisations have adopted CI without adopting all of XP.</p>
+<p>In addition to automated unit tests, organisations using CI typically use a build server to implement continuous processes of applying quality control in general - small pieces of effort, applied frequently. In addition to running the unit and integration tests, such processes run additional static and dynamic tests, measure and profile performance, extract and format documentation from the source code and facilitate manual QA processes. This continuous application of quality control aims to improve the quality of software, and to reduce the time taken to deliver it, by replacing the traditional practice of applying quality control after completing all development. This is very similar to the original idea of integrating more frequently to make integration easier, only applied to QA processes.</p>
+<p>In the same vein, the practice of continuous delivery further extends CI by making sure the software checked in on the mainline is always in a state that can be deployed to users and makes the actual deployment process very rapid.</p>
+===
+
+Continuous Delivery (CD)
+<p><strong>Continuous Delivery (CD)</strong> is a software engineering approach in which teams keep producing valuable software in short cycles and ensure that the software can be reliably released at any time. It is used in software development to automate and improve the process of software delivery. Techniques such as automated testing and [Continuous Integration] (CI) allow software to be developed to a high standard and easily packaged and deployed to test environments, resulting in the ability to rapidly, reliably and repeatedly push out enhancements and bug fixes to customers at low risk and with minimal manual overhead. CD builds on CI by adding the regular deployments to production as part of the process, however CD is not a requirement of CI. The technique (CD) was one of the assumptions of extreme programming but at an enterprise level has developed into a discipline of its own, with job descriptions for roles such as "buildmaster" calling for CD skills as mandatory.</p>
+===
+
+Critical Chain Project Management (CCPM)
+<p><strong>Critical Chain Project Management (CCPM)</strong> is a method of planning and managing projects that emphasises the resources required to execute project tasks. It was developed by <strong>Eliyahu M. Goldratt</strong>. It differs from more traditional methods that derive from [critical path] and [PERT] algorithms, which emphasise task order and rigid scheduling. A critical chain project network strives to keep resources levelly loaded, but requires that they be flexible in start times, and quickly switch between tasks and task chains to keep the project on schedule.</p>
+===
+
+Extreme Project Management (XPM)
+<p><strong>Extreme Project Management (XPM)</strong> refers to a method of managing very complex and very uncertain projects.</p>
+<p>Extreme project management differs from traditional project management mainly in its open, elastic and undeterministic approach. The main focus of XPM is on the human side of project management (e.g. managing project stakeholders), rather than on intricate scheduling techniques and heavy formalism.</p>
+<p>Advanced approaches to extreme project management utilize the principles of human interaction management to deal with the complexities of human collaboration.</p>
+===
+
+Model-Driven Engineering (MDE)
+<p><strong>Model-Driven Engineering (MDE)</strong> is a software development methodology which focuses on creating and exploiting domain models, which are conceptual models of all the topics related to a specific problem. Hence it highlights and aims at abstract representations of the knowledge and activities that govern a particular application domain, rather than the computing concepts.</p>
+===
+
+Theory Of Constraints (TOC) 
+<p>The <strong>Theory Of Constraints (TOC)</strong> is a management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints. There is always at least one constraint, and TOC uses a focusing process to identify the constraint and restructure the rest of the organisation around it.</p>
+<p>TOC adopts the common idiom "<em>a chain is no stronger than its weakest link</em>". This means that processes, organisations, etc., are vulnerable because the weakest person or part can always damage or break them or at least adversely affect the outcome.</p>
+===
+
+PMBOK - Project Management Body of Knowledge
+<p>A <strong>Guide to the Project Management Body of Knowledge (PMBOK Guide)</strong> is a book which presents a set of standard terminology and guidelines (a body of knowledge) for project management. The Fifth Edition (2013) is the document resulting from work overseen by the [Project Management Institute] (PMI). Earlier versions were recognized as standards by the [American National Standards Institute] (ANSI) which assigns standards in the United States (ANSI/PMI 99-001-2008) and the [Institute of Electrical and Electronics Engineers] (IEEE 1490-2011).</p>
+===
+
+Risk Register 
+<p>A <strong>risk register</strong> is a [risk management] tool commonly used in risk management and compliance . It acts as a central repository for all risks identified by the organisation and, for each risk, includes information such as source, nature, treatment option, existing counter-measures, recommended counter-measures and so on. It can sometimes be referred to as a <strong>risk log</strong> (for example in [PRINCE2]).</p>
+<p>A wide range of suggested contents for a risk register exist and recommendations are made by the <strong>Project Management Institute Body of Knowledge</strong> ([PMBOK]) and [PRINCE2] among others. In addition many companies provide software tools that act as risk registers. Typically a risk register contains:</p>
+<ul>
+	<li>A description of the risk</li>
+	<li>The impact should this event actually occur</li>
+	<li>The probability of its occurrence</li>
+	<li>Risk Score (the multiplication of Probability and Impact)</li>
+	<li>A summary of the planned response should the event occur</li>
+	<li>A summary of the mitigation (the actions taken in advance to reduce the probability and / or impact of the event)</li>
+</ul>
+<p>The risks are often ranked by Risk Score so as to highlight the highest priority risks to all involved.</p>
+===
+

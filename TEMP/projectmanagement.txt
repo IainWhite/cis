@@ -5,13 +5,7 @@ companies/Project Management Institute (PMI)
 project-management/agile/Acceptance Test-Driven Development (ATDD)
 project-management/agile/adaptive-software-development
 project-management/agile/Agile Unified Process (AUP)
-project-management/agile/Behavior-Driven Development (BDD)
 project-management/agile/Continuous Integration (CI)
-project-management/agile/Cross-Functional Teams
-project-management/agile/Crystal Clear Method
-project-management/agile/Domain-Driven Design (DDD)
-project-management/agile/Dynamic Systems Development Method (DSDM)
-project-management/agile/Feature-Driven Development (FDD)
 project-management/Change Control
 project-management/Critical Chain Project Management (CCPM)
 project-management/Critical Path Method (CPM)
@@ -39,7 +33,6 @@ project-management/methodologies/waterfall/Structured Systems Analysis and Desig
 project-management/Model-Driven Engineering (MDE)
 project-management/Monte Carlo Method
 project-management/Object-Modeling Technique (OMT)
-project-management/Organisational Project Management Maturity Model (OPM3)
 project-management/Product Breakdown Structure
 project-management/Project Evaluation and Review Technique (PERT)
 project-management/Project Management Body of Knowledge (PMBOK)
@@ -48,7 +41,6 @@ project-management/rad/Adaptive software development (ASD)
 project-management/Rational Unified Process (RUP)
 project-management/risk/Risk Management
 project-management/risk/Risk Register
-project-management/six-sigma
 project-management/Test Management Approach (TMap)
 project-management/Theory Of Constraints (TOC)
 project-management/Value Breakdown Structure (VBS)
