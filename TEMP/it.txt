@@ -3,6 +3,7 @@ arcnet
 arpanet
 ascii
 ascii-table
+awards/turing-award
 backus-naur-form
 client-server
 cmyk
@@ -22,7 +23,12 @@ databases/dba
 databases/jet-database-engine
 databases/microsoft-access
 design
+design/font/typeface
+design/User Experience (UX)
+design/User Interface (UI)
 development
+development/uncol (Universal Computer Oriented Language)
+development/Visual Component Library (VCL)
 django-framework
 dot-com-bubble
 Dynamic-Link Library (DLL)
@@ -30,7 +36,6 @@ electronic-data-interchange
 font
 foss
 gdi
-git
 Graphical User Interface (GUI)
 hardware
 hardware/acorn-archimedes
@@ -65,6 +70,7 @@ hardware/difference-engine
 hardware/eee-pc
 hardware/ferranti-mark-1
 hardware/mac
+hardware/Manchester Small-Scale Experimental Machine (SSEM)
 hardware/next
 hardware/pc
 hardware/pc/at
@@ -97,6 +103,7 @@ java-me
 jdbc
 junit
 jvm
+languages/java/testdox
 latex
 mda
 metafont
@@ -179,21 +186,6 @@ software
 Software Development Kit (SDK)
 software-engineering
 software-licenses
-software-licenses/Apache License
-software-licenses/Apple Public Source License
-software-licenses/BSD License
-software-licenses/Common Public License
-software-licenses/Copyleft
-software-licenses/Copyright
-software-licenses/End-User License Agreement (EULA)
-software-licenses/Free and Open-Source Software (FOSS)
-software-licenses/Free Software Definition
-software-licenses/Free Software Foundation (FSF)
-software-licenses/GNU General Public License (GNU GPL or GPL)
-software-licenses/IBM Public License
-software-licenses/MIT License
-software-licenses/Public Domain
-software-licenses/Public Domain Software
 software/activex
 software/adobe-air (was air)
 software/awk
@@ -222,6 +214,21 @@ software/ide/netbeans
 software/ide/vi
 software/ide/vim
 software/jira
+software/licenses/Apache License
+software/licenses/Apple Public Source License
+software/licenses/BSD License
+software/licenses/Common Public License
+software/licenses/Copyleft
+software/licenses/Copyright
+software/licenses/End-User License Agreement (EULA)
+software/licenses/Free and Open-Source Software (FOSS)
+software/licenses/Free Software Definition
+software/licenses/Free Software Foundation (FSF)
+software/licenses/GNU General Public License (GNU GPL or GPL)
+software/licenses/IBM Public License
+software/licenses/MIT License
+software/licenses/Public Domain
+software/licenses/Public Domain Software
 software/lotus-agenda
 software/lotus-freelance
 software/lotus-magellan
@@ -259,20 +266,12 @@ software/word-processors/wordpad
 software/word-processors/wordperfect
 software/word-processors/wordstar
 software/xcode
-ssem
 stackdriver
-Subversion (SVN)
 tar-format
-testdox
 tex
-turing-award
-typeface
-uncol
-User Experience (UX)
-User Interface (UI)
-vcl
 version-control
-wikipedia
+version-control/git
+version-control/Subversion (SVN)
 wimp
 wysiwyg
 y2k

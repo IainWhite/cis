@@ -2,7 +2,6 @@ companies/Australian Institute of Project Management (AIPM)
 companies/British Standards Institution (or BSI) 
 companies/International Project Management Association (IPMA)
 companies/Project Management Institute (PMI)
-project-management/agile-software-development (agile)						C
 project-management/agile/Acceptance Test-Driven Development (ATDD)
 project-management/agile/adaptive-software-development
 project-management/agile/Agile modeling (AM)
@@ -17,20 +16,11 @@ project-management/agile/Domain-Driven Design (DDD)
 project-management/agile/Dynamic Systems Development Method (DSDM)
 project-management/agile/Feature-Driven Development (FDD)
 project-management/agile/pair-programming
-project-management/agile/Test-Driven Development (TDD)						C
-project-management/alm/application-services-library (ASL)					C
-project-management/alm/business-information-services-library (BiSL)			C
-project-management/alm/capability-maturity-model (CMM)						C
-project-management/alm/systems-development-life-cycle (SDLC)				C
-project-management/application-lifecycle-management (ALM)					C
-project-management/cap-theorem												C
 project-management/Change Control
-project-management/code-kata												C
 project-management/Cost Overrun
 project-management/Critical Chain Project Management (CCPM)
 project-management/Critical Path Method (CPM)
 project-management/Delphi Method
-project-management/development-methodologies								C
 project-management/Dynamic Systems Development Method (DSDM)
 project-management/Earned Value Management (EVM)
 project-management/Estimation Theory
@@ -47,7 +37,6 @@ project-management/Joint Application Development
 project-management/lean	
 project-management/Lean Project Management
 project-management/lean/Lean Manufacturing
-project-management/lean/Lean Software Development
 project-management/lean/Quality Cost Delivery (QCD)
 project-management/lean/Toyota Production System (TPS) 
 project-management/Level of Effort (LOE)
@@ -60,22 +49,17 @@ project-management/methodologies/iterative-development/Unified Software Developm
 project-management/methodologies/Prototype Model
 project-management/methodologies/Spiral Model
 project-management/methodologies/V-Model
-project-management/methodologies/waterfall-model							C
 project-management/methodologies/waterfall/Structured Systems Analysis and Design Method (SSADM)
 project-management/Model-Driven Engineering (MDE)
 project-management/Monte Carlo Method
-project-management/no-silver-bullet											C
 project-management/Object-Modeling Technique (OMT)
 project-management/Organisational Project Management Maturity Model (OPM3)
-project-management/prince2													C
 project-management/Product Breakdown Structure
 project-management/Project Evaluation and Review Technique (PERT)
 project-management/Project Management Body of Knowledge (PMBOK)
 project-management/Quality Management System (QMS)
 project-management/rad/Adaptive software development (ASD)
-project-management/rapid-application-development (RAD)						C
 project-management/Rational Unified Process (RUP)
-project-management/release-early-release-often								C
 project-management/risk/Risk Management
 project-management/risk/Risk Register
 project-management/Scope Creep 

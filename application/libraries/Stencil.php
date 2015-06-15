@@ -748,6 +748,9 @@ class Stencil {
             case 'PML':
                 $path = 'project-management/lean';
                 break;
+            case 'PMM':
+                $path = 'project-management/methodologies';
+                break;
             case 'WB':
                 $path = 'web-development/browsers';
                 break;

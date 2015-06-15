@@ -42,6 +42,7 @@ project-management/agile					PMA
 project-management/agile/scrum				PMS
 project-management/kanban					PMK
 project-management/lean						PML
+project-management/methodologies			PMM
 web-development								WD
 web-development/browsers					WB
 web-development/design						WDD
