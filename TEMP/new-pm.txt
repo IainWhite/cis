@@ -18,18 +18,6 @@ Adaptive Software Development (ASD)
 <p>The word speculate refers to the paradox of planning - it is more likely to assume that all stakeholders are comparably wrong for certain aspects of the project’s mission, while trying to define it. Collaboration refers to the efforts for balancing the work based on predictable parts of the environment (planning and guiding them) and adapting to the uncertain surrounding mix of changes caused by various factors, such as technology, requirements, stakeholders, software vendors. The learning cycles, challenging all stakeholders, are based on the short iterations with design, build and testing. During these iterations the knowledge is gathered by making small mistakes based on false assumptions and correcting those mistakes, thus leading to greater experience and eventually mastery in the problem domain.</p>
 ====
 
-Agile Unified Process (AUP)
-<p><strong>Agile Unified Process (AUP)</strong> is a simplified version of the [Rational Unified Process] (RUP) developed by Scott Ambler. It describes a simple, easy to understand approach to developing business application software using agile techniques and concepts yet still remaining true to the RUP. The AUP applies agile techniques including [Test-Driven Development] (TDD), [Agile Modeling] (AM), agile change management, and database refactoring to improve productivity.</p>
-===
-
-The Rational Unified Process (RUP) 
-<p>The <strong>Rational Unified Process (RUP)</strong> is an iterative software development process framework created by the <strong>Rational Software Corporation</strong>, a division of [IBM] since 2003. RUP is not a single concrete prescriptive process, but rather an adaptable process framework, intended to be tailored by the development organisations and software project teams that will select the elements of the process that are appropriate for their needs. RUP is a specific implementation of the [Unified Process].</p>
-===
-
-Unified Process 
-<p>The <strong>Unified Software Development Process</strong> or <strong>Unified Process</strong> is a popular iterative and incremental software development process framework. The best-known and extensively documented refinement of the Unified Process is the [Rational Unified Process] (RUP). Other examples are OpenUP and [Agile Unified Process].</p>
-===
-
 Continuous Integration (CI)
 <p><strong>Continuous Integration (CI)</strong> is the practice, in software engineering, of merging all developer working copies with a shared mainline several times a day. It was first named and proposed by <strong>Grady Booch</strong> in his method, but he did not advocate integrating several times per day. It was adopted as part of [Extreme Programming] (XP), which did advocate integrating more than once per day, perhaps as many as tens of times per day. The main aim of CI is to prevent integration problems, referred to as "integration hell" in early descriptions of XP. CI isn't universally accepted as an improvement over frequent integration, so it is important to distinguish between the two as there is disagreement about the virtues of each.</p>
 <p>CI was originally intended to be used in combination with automated unit tests written through the practices of [Test-Driven Development]. Initially this was conceived of as running all unit tests in the developer's local environment and verifying they all passed before committing to the mainline. This helps avoid one developer's work-in-progress breaking another developer's copy. If necessary, partially complete features can be disabled before committing using feature toggles.</p>

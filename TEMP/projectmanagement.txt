@@ -4,7 +4,6 @@ companies/International Project Management Association (IPMA)
 companies/Project Management Institute (PMI)
 project-management/agile/Acceptance Test-Driven Development (ATDD)
 project-management/agile/adaptive-software-development
-project-management/agile/Agile Unified Process (AUP)
 project-management/agile/Continuous Integration (CI)
 project-management/Change Control
 project-management/Critical Chain Project Management (CCPM)
@@ -38,7 +37,6 @@ project-management/Project Evaluation and Review Technique (PERT)
 project-management/Project Management Body of Knowledge (PMBOK)
 project-management/Quality Management System (QMS)
 project-management/rad/Adaptive software development (ASD)
-project-management/Rational Unified Process (RUP)
 project-management/risk/Risk Management
 project-management/risk/Risk Register
 project-management/Test Management Approach (TMap)
