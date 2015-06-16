@@ -1,54 +1,49 @@
-pluralsight
-acorn
-acornsoft
-adobe
-aim
-allaire
-amd
-amstrad
-ansi
-aol
-apache-software-foundation
-apple
-bell-labs
-bletchley-park
-borland
-cern
-compaq
-corel
-coursera
-dec
-dell
-google
-hewlett-packard
-iana
-ibm
-icann
-iec
-ieee
-ietf
-intel
-iso
-kde
-lotus
-lynda
-macromedia
-microsoft
-mos
-motorola
-mozilla-foundation
-ncsa
-netscape
-next
-novell
-oracle
-slac
-spyglass
-sun
-w3c
-wai
-wi-fi-alliance
-wintel
-xerox-parc
-yahoo-
-zend-technologies
+companies/acorn
+companies/acornsoft
+companies/adobe
+companies/aim
+companies/allaire
+companies/amd
+companies/amstrad
+companies/aol
+companies/apache-software-foundation
+companies/apple
+companies/Australian Institute of Project Management (AIPM) 
+companies/bell-labs
+companies/borland
+companies/British Standards Institution (or BSI) 
+companies/cern
+companies/compaq
+companies/corel
+companies/dell
+companies/google
+companies/hewlett-packard
+companies/intel
+companies/International Electrotechnical Commission (IEC)
+companies/International Project Management Association (IPMA)
+companies/Internet Assigned Numbers Authority (IANA)
+companies/Internet Corporation for Assigned Names and Numbers (ICANN)
+companies/Internet Engineering Task Force (IETF)
+companies/kde
+companies/lotus
+companies/macromedia
+companies/microsoft
+companies/mos
+companies/motorola
+companies/mozilla-foundation
+companies/National Center for Supercomputing Applications (NCSA)
+companies/netscape
+companies/next
+companies/novell
+companies/oracle
+companies/Project Management Institute (PMI)
+companies/spyglass
+companies/Stanford Linear Accelerator Center (SLAC)
+companies/sun
+companies/w3c
+companies/Web Accessibility Initiative (WAI)
+companies/wi-fi-alliance
+companies/wintel
+companies/xerox-parc
+companies/yahoo
+companies/zend-technologies

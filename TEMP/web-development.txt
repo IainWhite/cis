@@ -150,21 +150,9 @@ mozilla-web-developer
 mustache
 myspace
 networks/ip-suite/application-layer
-networks/ip-suite/application/dhcp				X
-networks/ip-suite/application/dns				X
-networks/ip-suite/application/ftp				X
-networks/ip-suite/application/http				X
-networks/ip-suite/application/imap				X
-networks/ip-suite/application/pop3				X
-networks/ip-suite/application/smtp				X
-networks/ip-suite/application/ssh				X
-networks/ip-suite/application/telnet			X
-networks/ip-suite/application/xmpp				X
 networks/ip-suite/internet-layer
-networks/ip-suite/internet/ip					X
 networks/ip-suite/link-layer
 networks/ip-suite/transport-layer
-networks/ip-suite/transport/tcp					X
 nntp
 oauth
 opera-dragonfly
