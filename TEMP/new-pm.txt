@@ -18,20 +18,6 @@ The concept of work breakdown structure developed with the Program Evaluation an
 By June 1962, DoD, NASA and the aerospace industry published a document for the PERT/COST system which described the WBS approach. This guide was endorsed by the Secretary of Defense for adoption by all services. In 1968, the DoD issued "Work Breakdown Structures for Defense Materiel Items" (MIL-STD-881), a military standard requiring the use of work breakdown structures across the DoD.
 ===
 
-US Department of Defense (DoD)
-The Department of Defense (DoD, USDOD or DOD) is an executive branch department of the federal government of the United States charged with coordinating and supervising all agencies and functions of the government concerned directly with national security and the United States Armed Forces. The Department is also the largest employer in the world, with more than 2.13 million active duty servicemen and women as well as their support staff of civilian workers.
-===
-
-NASA - National Aeronautics and Space Administration
-The National Aeronautics and Space Administration (NASA) is the United States government agency responsible for the civilian space program as well as aeronautics and aerospace research.
-
-President Dwight D. Eisenhower established the National Aeronautics and Space Administration (NASA) in 1958 with a distinctly civilian (rather than military) orientation encouraging peaceful applications in space science. The National Aeronautics and Space Act was passed on 29 July 1958, disestablishing NASA's predecessor, the National Advisory Committee for Aeronautics (NACA). The new agency became operational on 1 October 1958.
-
-Since that time, most U.S. space exploration efforts have been led by NASA, including the Apollo moon-landing missions, the Skylab space station, and later the Space Shuttle. Currently, NASA is supporting the International Space Station and is overseeing the development of the Orion Multi-Purpose Crew Vehicle, the Space Launch System and Commercial Crew vehicles. The agency is also responsible for the Launch Services Program (LSP) which provides oversight of launch operations and countdown management for unmanned NASA launches.
-
-NASA science is focused on better understanding Earth through the Earth Observing System, advancing heliophysics through the efforts of the Science Mission Directorate's Heliophysics Research Program, exploring bodies throughout the Solar System with advanced robotic spacecraft missions such as New Horizons, and researching astrophysics topics, such as the Big Bang, through the Great Observatories and associated programs. NASA shares data with various national and international organisations such as from the Greenhouse Gases Observing Satellite.
-===
-
 PERT - Project Evaluation and Review Technique
 The Program (or Project) Evaluation and Review Technique, commonly abbreviated PERT, is a statistical tool, used in project management, which was designed to analyse and represent the tasks involved in completing a given project. First developed by the United States Navy in the 1950s, it is commonly used in conjunction with the [critical path method] (CPM).
 
@@ -248,5 +234,4 @@ Essential features of any EVM implementation include
 
 EVM implementations for large or complex projects include many more features, such as indicators and forecasts of cost performance (over budget or under budget) and schedule performance (behind schedule or ahead of schedule). However, the most basic requirement of an EVM system is that it quantifies progress using PV and EV.
 ===
-
 
