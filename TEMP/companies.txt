@@ -1,9 +1,7 @@
 companies/acornsoft
 companies/aim
 companies/allaire
-companies/amd
 companies/amstrad
-companies/aol
 companies/apache-software-foundation
 companies/apple
 companies/Australian Institute of Project Management (AIPM) 
@@ -22,18 +20,14 @@ companies/kde
 companies/lotus
 companies/macromedia
 companies/microsoft
-companies/mos
 companies/motorola
 companies/mozilla-foundation
 companies/netscape
-companies/next
-companies/oracle
 companies/Project Management Institute (PMI)
 companies/spyglass
 companies/sun
 companies/w3c
 companies/wi-fi-alliance
 companies/wintel
-companies/xerox-parc
 companies/yahoo
 companies/zend-technologies
