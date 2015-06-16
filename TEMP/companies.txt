@@ -1,33 +1,4 @@
-companies/acornsoft
-companies/aim
-companies/allaire
-companies/amstrad
-companies/apache-software-foundation
-companies/apple
 companies/Australian Institute of Project Management (AIPM) 
-companies/bell-labs
-companies/borland
 companies/British Standards Institution (or BSI) 
-companies/cern
-companies/compaq
-companies/corel
-companies/dell
-companies/google
-companies/hewlett-packard
-companies/intel
 companies/International Project Management Association (IPMA)
-companies/kde
-companies/lotus
-companies/macromedia
-companies/microsoft
-companies/motorola
-companies/mozilla-foundation
-companies/netscape
 companies/Project Management Institute (PMI)
-companies/spyglass
-companies/sun
-companies/w3c
-companies/wi-fi-alliance
-companies/wintel
-companies/yahoo
-companies/zend-technologies
