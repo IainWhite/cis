@@ -19,11 +19,7 @@ companies/dell
 companies/google
 companies/hewlett-packard
 companies/intel
-companies/International Electrotechnical Commission (IEC)
 companies/International Project Management Association (IPMA)
-companies/Internet Assigned Numbers Authority (IANA)
-companies/Internet Corporation for Assigned Names and Numbers (ICANN)
-companies/Internet Engineering Task Force (IETF)
 companies/kde
 companies/lotus
 companies/macromedia
@@ -38,10 +34,8 @@ companies/novell
 companies/oracle
 companies/Project Management Institute (PMI)
 companies/spyglass
-companies/Stanford Linear Accelerator Center (SLAC)
 companies/sun
 companies/w3c
-companies/Web Accessibility Initiative (WAI)
 companies/wi-fi-alliance
 companies/wintel
 companies/xerox-parc
