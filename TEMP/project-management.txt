@@ -1,18 +1,12 @@
-companies/Australian Institute of Project Management (AIPM) 
-companies/British Standards Institution (or BSI) 
-companies/International Project Management Association (IPMA)
-companies/Project Management Institute (PMI)
 project-management/Change Control
 project-management/Critical Path Method (CPM)
 project-management/Delphi Method
-project-management/Dynamic Systems Development Method (DSDM)
 project-management/Earned Value Management (EVM)
 project-management/Estimation Theory
 project-management/Event Chain Methodology
 project-management/Gantt Chart 
 project-management/Graphical Evaluation and Review Technique (GERT)
 project-management/Hammock Activity
-project-management/Joint Application Development
 project-management/Lean Project Management
 project-management/methodologies/Capability Maturity Model Integration
 project-management/methodologies/Dual Vee Model
@@ -23,13 +17,12 @@ project-management/methodologies/iterative-development/Unified Software Developm
 project-management/methodologies/Prototype Model
 project-management/methodologies/Spiral Model
 project-management/methodologies/V-Model
-project-management/methodologies/waterfall/Structured Systems Analysis and Design Method (SSADM)
+project-management/methodologies/Structured Systems Analysis and Design Method (SSADM)
 project-management/Monte Carlo Method
 project-management/Object-Modeling Technique (OMT)
 project-management/Product Breakdown Structure
 project-management/Project Evaluation and Review Technique (PERT)
 project-management/Quality Management System (QMS)
-project-management/rad/Adaptive software development (ASD)
 project-management/risk/Risk Management
 project-management/Test Management Approach (TMap)
 project-management/Value Breakdown Structure (VBS)
