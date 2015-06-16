@@ -1,6 +1,4 @@
-companies/acorn
 companies/acornsoft
-companies/adobe
 companies/aim
 companies/allaire
 companies/amd
@@ -27,10 +25,8 @@ companies/microsoft
 companies/mos
 companies/motorola
 companies/mozilla-foundation
-companies/National Center for Supercomputing Applications (NCSA)
 companies/netscape
 companies/next
-companies/novell
 companies/oracle
 companies/Project Management Institute (PMI)
 companies/spyglass
