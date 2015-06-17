@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Quality Management System (QMS)'); ?>
+        <p>A <strong>Quality Management System (QMS)</strong> is a collection of business processes focused on achieving quality policy and quality objectives to meet customer requirements. It is expressed as the organisational structure, policies, procedures, processes and resources needed to implement quality management. Early systems emphasised predictable outcomes of an industrial product production line, using simple statistics and random sampling. By the 20th century, labour inputs were typically the most costly inputs in most industrialized societies, so focus shifted to team cooperation and dynamics, especially the early signalling of problems via a continuous improvement cycle. In the 21st century, QMS has tended to converge with sustainability and transparency initiatives, as both investor and customer satisfaction and perceived quality is increasingly tied to these factors. Of all QMS regimes, the ISO 9000 family of standards is probably the most widely implemented worldwide - the ISO 19011 audit regime applies to both, and deals with quality and sustainability and their integration.</p>
+    </div>
+</div>
