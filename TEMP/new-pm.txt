@@ -18,24 +18,6 @@ The concept of work breakdown structure developed with the Program Evaluation an
 By June 1962, DoD, NASA and the aerospace industry published a document for the PERT/COST system which described the WBS approach. This guide was endorsed by the Secretary of Defense for adoption by all services. In 1968, the DoD issued "Work Breakdown Structures for Defense Materiel Items" (MIL-STD-881), a military standard requiring the use of work breakdown structures across the DoD.
 ===
 
-PERT - Project Evaluation and Review Technique
-The Program (or Project) Evaluation and Review Technique, commonly abbreviated PERT, is a statistical tool, used in project management, which was designed to analyse and represent the tasks involved in completing a given project. First developed by the United States Navy in the 1950s, it is commonly used in conjunction with the [critical path method] (CPM).
-
-PERT is a method to analyze the involved tasks in completing a given project, especially the time needed to complete each task, and to identify the minimum time needed to complete the total project.
-
-PERT was developed primarily to simplify the planning and scheduling of large and complex projects. It was developed for the U.S. Navy Special Projects Office in 1957 to support the U.S. Navy's Polaris nuclear submarine project. It was able to incorporate uncertainty by making it possible to schedule a project while not knowing precisely the details and durations of all the activities. It is more of an event-oriented technique rather than start and completion oriented, and is used more in projects where time is the major factor rather than cost. It is applied to very large-scale, one-time, complex, non-routine infrastructure and Research and Development projects. An example of this was for the 1968 Winter Olympics in Grenoble which applied PERT from 1965 until the opening of the 1968 Games.
-
-This project model was the first of its kind, a revival for scientific management, founded by Frederick Taylor (Taylorism) and later refined by Henry Ford (Fordism). DuPont's critical path method was invented at roughly the same time as PERT.
-
-Program evaluation and review technique
-     
-The Navy's Special Projects Office, charged with developing the Polaris-Submarine weapon system and the Fleet Ballistic Missile capability, has developed a statistical technique for measuring and forecasting progress in research and development programs. This program evaluation and review technique (code-named PERT) is applied as a decision-making tool designed to save time in achieving end-objectives, and is of particular interest to those engaged in research and development programs for which time is a critical factor.
-     The new technique takes recognition of three factors that influence successful achievement of research and development program objectives: time, resources, and technical performance specifications. PERT employs time as the variable that reflects planned resource-applications and performance specifications. With units of time as a common denominator, PERT quantifies knowledge about the uncertainties involved in developmental programs requiring effort at the edge of, or beyond, current knowledge of the subject – effort for which little or no previous experience exists.
-     Through an electronic computer, the PERT technique processes data representing the major, finite accomplishments (events) essential to achieve end-objectives; the inter-dependence of those events; and estimates of time and range of time necessary to complete each activity between two successive events. Such time expectations include estimates of "most likely time", "optimistic time", and "pessimistic time" for each activity. The technique is a management control tool that sizes up the outlook for meeting objectives on time; highlights danger signals requiring management decisions; reveals and defines both methodicalness and slack in the flow plan or the network of sequential activities that must be performed to meet objectives; compares current expectations with scheduled completion dates and computes the probability for meeting scheduled dates; and simulates the effects of options for decision – before decision.
-     The concept of PERT was developed by an operations research team staffed with representatives from the Operations Research Department of Booz, Allen and Hamilton; the Evaluation Office of the Lockheed Missile Systems Division; and the Program Evaluation Branch, Special Projects Office, of the Department of the Navy.
-— Willard Fazar (Head, Program Evaluation Branch, Special Projects Office, U. S. Navy), The American Statistician, April 1959.
-===
-
 Critical Path Method (CPM)
 The Critical Path Method (CPM) is an algorithm for scheduling a set of project activities.
 
