@@ -18,27 +18,6 @@ The concept of work breakdown structure developed with the Program Evaluation an
 By June 1962, DoD, NASA and the aerospace industry published a document for the PERT/COST system which described the WBS approach. This guide was endorsed by the Secretary of Defense for adoption by all services. In 1968, the DoD issued "Work Breakdown Structures for Defense Materiel Items" (MIL-STD-881), a military standard requiring the use of work breakdown structures across the DoD.
 ===
 
-Critical Path Method (CPM)
-The Critical Path Method (CPM) is an algorithm for scheduling a set of project activities.
-
-CPM is a project modeling technique developed in the late 1950s by Morgan R. Walker of DuPont and James E. Kelley, Jr. of Remington Rand. Kelley and Walker related their memories of the development of CPM in 1989. Kelley attributed the term "critical path" to the developers of the Program Evaluation and Review Technique which was developed at about the same time by Booz Allen Hamilton and the U.S. Navy. The precursors of what came to be known as Critical Path were developed and put into practice by DuPont between 1940 and 1943 and contributed to the success of the Manhattan Project.
-
-CPM is commonly used with all forms of projects, including construction, aerospace and defense, software development, research projects, product development, engineering, and plant maintenance, among others. Any project with interdependent activities can apply this method of mathematical analysis. Although the original CPM program and approach is no longer used, the term is generally applied to any approach used to analyse a project network logic diagram.
-
-Basic technique
-The essential technique for using CPM is to construct a model of the project that includes the following:
-
-- A list of all activities required to complete the project (typically categorized within a work breakdown structure),
-- The time (duration) that each activity will take to complete,
-- The dependencies between the activities and,
-- Logical end points such as milestones or deliverable items.
-Using these values, CPM calculates the longest path of planned activities to logical end points or to the end of the project, and the earliest and latest that each activity can start and finish without making the project longer. This process determines which activities are "critical" (i.e., on the longest path) and which have "total float" (i.e., can be delayed without making the project longer). In project management, a critical path is the sequence of project network activities which add up to the longest overall duration, regardless if that longest duration has float or not. This determines the shortest time possible to complete the project. There can be 'total float' (unused time) within the critical path. For example, if a project is testing a solar panel and task 'B' requires 'sunrise', there could be a scheduling constraint on the testing activity so that it would not start until the scheduled time for sunrise. This might insert dead time (total float) into the schedule on the activities on that path prior to the sunrise due to needing to wait for this event. This path, with the constraint-generated total float would actually make the path longer, with total float being part of the shortest possible duration for the overall project. In other words, individual tasks on the critical path prior to the constraint might be able to be delayed without elongating the critical path; this is the 'total float' of that task. However, the time added to the project duration by the constraint is actually critical path drag, the amount by which the project's duration is extended by each critical path activity and constraint.
-
-A project can have several, parallel, near critical paths; and some or all of the tasks could have 'free float' and/or 'total float'. An additional parallel path through the network with the total durations shorter than the critical path is called a sub-critical or non-critical path. Activities on sub-critical paths have no drag, as they are not extending the project's duration.
-
-CPM analysis tools allow a user to select a logical end point in a project and quickly identify its longest series of dependent activities (its longest path). These tools can display the critical path (and near critical path activities if desired) as a cascading waterfall that flows from the project's start (or current status date) to the selected logical end point.
-===
-
 Value Breakdown Structure (VBS)
 A Value Breakdown Structure (VBS) is a project management technique introduced by Stephen Devaux as part of the [Total Project Control] (TPC) approach to project and program value analysis.
 
@@ -141,48 +120,6 @@ SSADM is one particular implementation and builds on the work of different schoo
 
 The names "Structured Systems Analysis and Design Method" and "SSADM" are registered trademarks of the Office of Government Commerce (OGC), which is an office of the United Kingdom's Treasury.
 
-===
-
-Lean Project Management
-Lean Project Management is the comprehensive adoption of other lean concepts like lean construction, [lean manufacturing] and lean thinking into a project management context. Lean project management has many ideas in common with other lean concepts; however, the main principle of lean project management is delivering more value with less waste in a project context. Lean project management has many techniques that can be applied to projects and one of main methods is standardisation. Key techniques are those "inherited" from [Agile software development] like: blame-free employee involvement, the need for a strong facilitator, pipelining, etc.
-
-Lean project management is the method used to plan and execute a lean (improvement) project. The are many ways to do this, but the two most prevalent are to use [6 Sigma] DMAIC method or use the Deming Cycle (Called the "A3" since the steps are recorded on an A3 size paper). Some companies are 6 Sigma Companies and used 6 Sigma Black Belts to take an improvement project through the steps of Define, Measure, Analyse, Improve, and Control. Other companies use the A3 Problem solving Process which includes the statement of the problem, the current situation, the root cause of the problem, suggest alternative solutions, suggest a recommended solution and have a cost-benefit analysis. This information would fit all on one A3 size sheet of paper.
-
-Generally, these methods allow the project team to follow a disciplined method to measure the current state, define the future state, and put into place countermeasures to improve the process. Associated with the project are metrics that are measured, as well as foundational lean elements that are implemented to improve those metrics. Either method is helpful in achieving better results for the project outcome.
-
-One of the main goals of lean project management is creation and removal of bottlenecks in the production process in order to push process along and accelerate growth. In this way, company teams become more productive. A type of lean project management is called Kanban. Kanban, like other facets of lean project management, makes you more productive by limiting multitasking, keeping your work uninterrupted, urging you to plan ahead, encouraging you to tackle larger tasks first, and to stop just starting and actually finish the projects you've begun.
-===
-
-Hammock Activity
-A hammock activity (also hammock task) is a schedule or project planning term for a grouping of tasks that "hang" between two end dates it is tied to.
-
-A hammock activity can group tasks which are not related in the hierarchical sense of a [Work Breakdown Structure], or are not related in a logical sense of a task dependency where one task must wait for another.
-
-Usages include:
-
-- Group dissimilar activities that lead to an overall capability, such as preparations under a summary label, e.g. "vacation preparation";
-- Group unrelated items for the purpose of a summary such as a calendar-based reporting period, e.g. "First quarter plans";
-- Group ongoing or overhead activities that run the length of an effort, e.g. "project management"
-
-The duration of the hammock activity (the size of the hammock) may also be set by the subtasks within it, so that the abstract grouping has a start date of the earliest of any of the subtasks and the finish date is the latest of any of the contents.
-
-A hammock activity is regarded as a form of Summary activity that is similar to but different from a [Level of Effort] (LOE) activity. Use of hammock activities is also a way to simplify the difficulties of performing Work Breakdown Structure decomposition to low levels.
-===
-
-Graphical Evaluation and Review Technique - GERT
-Graphical Evaluation and Review Technique, commonly known as GERT, is a network analysis technique used in project management that allows probabilistic treatment of both network logic and estimation of activity duration. The technique was first described in 1966 by Dr. Alan B. Pritsker of Purdue University and WW Happ.
-
-Compared to other techniques, GERT is only rarely used in complex systems. Nevertheless, the GERT approach addresses the majority of the limitations associated with [PERT] / [CPM] technique. GERT allows loops between tasks. The fundamental drawback associated with the GERT technique is the complex programme (Monte Carlo simulation) required to model the GERT system. Development in GERT includes Q-GERTS - allowing the user to consider queuing within the system.
-===
-
-Gantt Chart
-A Gantt chart is a type of bar chart, adapted by Karol Adamiecki in 1896, and independently by Henry Gantt in the 1910s, that illustrates a project schedule. Gantt charts illustrate the start and finish dates of the terminal elements and summary elements of a project. Terminal elements and summary elements comprise the work breakdown structure of the project. Modern Gantt charts also show the dependency (i.e., precedence network) relationships between activities.
-
-The first known tool of this type was developed in 1896 by Karol Adamiecki, who called it a harmonogram. Adamiecki did not publish his chart until 1931, however, and only in Polish, which limited both its adoption and recognition of his authorship. The chart is named after Henry Gantt (1861–1919), who designed his chart around the years 1910–1915.
-
-One of the first major applications of Gantt charts was by the United States during World War I, at the instigation of General William Crozier.
-
-In the 1980s, personal computers allowed for widespread creation of complex and elaborate Gantt charts. The first desktop applications were intended mainly for project managers and project schedulers. With the advent of the internet and increased collaboration over networks at the end of the 1990s, Gantt charts became a common feature of web-based applications, including collaborative groupware.
 ===
 
 Event Chain Methodology

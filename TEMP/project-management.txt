@@ -4,10 +4,6 @@ project-management/Delphi Method
 project-management/Earned Value Management (EVM)
 project-management/Estimation Theory
 project-management/Event Chain Methodology
-project-management/Gantt Chart 
-project-management/Graphical Evaluation and Review Technique (GERT)
-project-management/Hammock Activity
-project-management/Lean Project Management
 project-management/methodologies/Capability Maturity Model Integration
 project-management/methodologies/Dual Vee Model
 project-management/methodologies/Fountain Model
@@ -21,11 +17,9 @@ project-management/methodologies/Structured Systems Analysis and Design Method (
 project-management/Monte Carlo Method
 project-management/Object-Modeling Technique (OMT)
 project-management/Product Breakdown Structure
-project-management/Project Evaluation and Review Technique (PERT)
 project-management/Quality Management System (QMS)
 project-management/risk/Risk Management
 project-management/Test Management Approach (TMap)
 project-management/Value Breakdown Structure (VBS)
 project-management/Wideband Delphi
 project-management/Work Breakdown Structure (WBS)
-
