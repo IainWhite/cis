@@ -13,7 +13,7 @@ project-management/methodologies/Dual Vee Model
 project-management/methodologies/Fountain Model
 project-management/methodologies/Incremental Build Model
 project-management/methodologies/Iterative Development
-project-management/methodologies/iterative-development/Unified Software Development Process
+project-management/methodologies/Unified Software Development Process
 project-management/methodologies/Prototype Model
 project-management/methodologies/Spiral Model
 project-management/methodologies/V-Model
