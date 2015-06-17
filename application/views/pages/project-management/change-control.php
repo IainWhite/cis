@@ -1,13 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('Dry'); ?>
-        <p><strong>Don't Repeat Yourself</strong> (<strong>DRY</strong>) is a principle of software development, a principle aimed at reducing repetition of information of all kinds, especially useful in multi-tier architectures.</p>
-        <p>The DRY principle is stated as "<em>Every piece of knowledge must have a single, unambiguous, authoritative representation within a system</em>".</p>
-        <p>The principle has been formulated by <?php echo $this->stencil->addLink('Andy Hunt', 'P'); ?> and <?php echo $this->stencil->addLink('Dave Thomas', 'P'); ?> in their book <?php echo $this->stencil->addLink('The Pragmatic Programmer', 'B'); ?>.</p>
-        <p>They apply it quite broadly to include "database schemas, test plans, the build system, even documentation".</p>
-        <p>When the DRY principle is applied successfully, a modification of any single element of a system does not require a change in other logically unrelated elements.</p>
-        <p>Additionally, elements that are logically related all change predictably and uniformly, and are thus kept in sync.</p>
-        <p>Besides using methods and subroutines in their code, Thomas and Hunt rely on code generators, automatic build systems, and scripting languages to observe the DRY principle across layers.</p>
-        <p>Violations of DRY are typically referred to as <strong>WET</strong> solutions, which is commonly taken to stand for either "<em>write everything twice</em>" or "<em>we enjoy typing</em>".</p>
+        <?php echo $this->stencil->setHeadline('Change Control'); ?>
+        <p><strong>Change control</strong> within <?php echo $this->stencil->addLink('Quality Management Systems', 'PM'); ?> (QMS) and <?php echo $this->stencil->addLink('Information Technology', 'P'); ?> (IT) systems is a formal process used to ensure that changes to a product or system are introduced in a controlled and coordinated manner. It reduces the possibility that unnecessary changes will be introduced to a system without forethought, introducing faults into the system or undoing changes made by other users of software. The goals of a change control procedure usually include minimal disruption to services, reduction in back-out activities, and cost-effective utilisation of resources involved in implementing change.</p>
+        <p>Change control is currently used in a wide variety of products and systems. For IT systems it is a major aspect of the broader discipline of change management. Typical examples from the computer and network environments are patches to software products, installation of new operating systems, upgrades to network routing tables, or changes to the electrical power systems supporting such infrastructure.</p>
     </div>
 </div>

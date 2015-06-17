@@ -1,4 +1,3 @@
-project-management/Change Control
 project-management/methodologies/Capability Maturity Model Integration
 project-management/methodologies/Dual Vee Model
 project-management/methodologies/Fountain Model
