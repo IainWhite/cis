@@ -1,1 +1,5 @@
-<h3>Books</h3>
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Books'); ?>
+    </div>
+</div>
