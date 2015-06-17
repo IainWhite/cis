@@ -1,62 +1,3 @@
-Work Breakdown Structure (WBS)
-A Work Breakdown Structure (WBS), in project management and systems engineering, is a deliverable-oriented decomposition of a project into smaller components.
-
-A Work Breakdown Structure element may be a product, data, service, or any combination thereof. A WBS also provides the necessary framework for detailed cost estimating and control along with providing guidance for schedule development and control.
-
-WBS is a hierarchical and incremental decomposition of the project into phases, deliverables and work packages. It is a tree structure, which shows a subdivision of effort required to achieve an objective; for example a program, project, and contract. In a project or contract, the WBS is developed by starting with the end objective and successively subdividing it into manageable components in terms of size, duration, and responsibility (e.g., systems, subsystems, components, tasks, subtasks, and work packages) which include all steps necessary to achieve the objective.
-
-The work breakdown structure provides a common framework for the natural development of the overall planning and control of a contract and is the basis for dividing work into definable increments from which the statement of work can be developed and technical, schedule, cost, and labor hour reporting can be established.
-
-A work breakdown structure permits summing of subordinate costs for tasks, materials, etc., into their successively higher level “parent” tasks, materials, etc. For each element of the work breakdown structure, a description of the task to be performed is generated. This technique (sometimes called a system breakdown structure) is used to define and organize the total scope of a project.
-
-The WBS is organised around the primary products of the project (or planned outcomes) instead of the work needed to produce the products (planned actions). Since the planned outcomes are the desired ends of the project, they form a relatively stable set of categories in which the costs of the planned actions needed to achieve them can be collected. A well-designed WBS makes it easy to assign each project activity to one and only one terminal element of the WBS. In addition to its function in cost accounting, the WBS also helps map requirements from one level of system specification to another, for example a requirements cross reference matrix mapping functional requirements to high level or low level design documents.
-
-The development of the WBS normally occurs at the start of a project and precedes detailed project and task planning.
-
-The concept of work breakdown structure developed with the Program Evaluation and Review Technique ([PERT]) by the [United States Department of Defense] (DoD). PERT was introduced by the U.S. Navy in 1957 to support the development of its Polaris missile program. While the term "work breakdown structure" was not used, this first implementation of PERT did organize the tasks into product-oriented categories.
-
-By June 1962, DoD, NASA and the aerospace industry published a document for the PERT/COST system which described the WBS approach. This guide was endorsed by the Secretary of Defense for adoption by all services. In 1968, the DoD issued "Work Breakdown Structures for Defense Materiel Items" (MIL-STD-881), a military standard requiring the use of work breakdown structures across the DoD.
-===
-
-Value Breakdown Structure (VBS)
-A Value Breakdown Structure (VBS) is a project management technique introduced by Stephen Devaux as part of the [Total Project Control] (TPC) approach to project and program value analysis.
-
-A Work Breakdown Structure (WBS) in project management and systems engineering is a deliverable oriented decomposition of a project into smaller components into a tree structure that represents how the work of the project will create the components of the final product. Resources and cost are typically inserted into the activities in a WBS, and summed to create a budget both for summary levels (often called “work packages”) and for the whole project or program. Similarly, the expected value-added of each activity and/or component of the project (or projects within a program) are inserted into the VBS.
-
-In most projects (and programs), there are some components and activities (and projects) that are mandatory and others that are optional. Mandatory activities are required, and have the full value of the project investment, as the project cannot be completed without them. In contrast, optional activities have only the value that they are adding to the project, i.e., their value is equal to the delta between the project / program value if they are included and the value if they are omitted.
-
-===
-
-Total Project Control (TPC)
-Total Project Control (TPC) is a project management method that emphasises continuous tracking and optimization of [ROI]. It was developed by Stephen Devaux. It builds upon earlier techniques such as earned value management, [critical path method], and [program evaluation and review technique], but uses these to track and index projected project profitability as well as the more traditional cost and schedule. In this way it aims to manage projects as profit and investment centers, rather than cost centers.
-
-Introduced with TPC are a variety of project management metrics and techniques, among them critical path drag, the [Value Breakdown Structure] (VBS), Devaux's Index of Project Performance (DIPP), Doubled Resource Estimated Duration (DRED), and Cost of Leveling with Unresolved Bottlenecks (CLUB).
-===
-
-Return On Investment (ROI)
-Return on investment (ROI) is the benefit to the investor resulting from an investment of some resource. A high ROI means the investment gains compare favourably to investment cost. As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiency of a number of different investments. In purely economic terms, it is one way of considering profits in relation to capital invested.
-===
-Wideband Delphi
-The Wideband Delphi estimation method is a consensus-based technique for estimating effort. It derives from the [Delphi method] which was developed in the 1950-1960s at the RAND Corporation as a forecasting tool. It has since been adapted across many industries to estimate many kinds of tasks, ranging from statistical data collection results to sales and marketing forecasts.
-
-Barry Boehm and John A. Farquhar originated the Wideband variant of the Delphi method in the 1970s. They called it "wideband" because, compared to the existing delphi method, the new method involved greater interaction and more communication between those participating. The method was popularised by Boehm's book Software Engineering Economics (1981). Boehm's original steps from this book were:
-
-1 Coordinator presents each expert with a specification and an estimation form.
-2 Coordinator calls a group meeting in which the experts discuss estimation issues with the coordinator and each other.
-3 Experts fill out forms anonymously.
-4 Coordinator prepares and distributes a summary of the estimates
-5 Coordinator calls a group meeting, specifically focusing on having the experts discuss points where their estimates vary widely
-6 Experts fill out forms, again anonymously, and steps 4 to 6 are iterated for as many rounds as appropriate.
-===
-
-Delphi Method
-The Delphi method is a structured communication technique, originally developed as a systematic, interactive forecasting method which relies on a panel of experts. The experts answer questionnaires in two or more rounds. After each round, a facilitator or change agent provides an anonymous summary of the experts’ forecasts from the previous round as well as the reasons they provided for their judgments. Thus, experts are encouraged to revise their earlier answers in light of the replies of other members of their panel. It is believed that during this process the range of the answers will decrease and the group will converge towards the "correct" answer. Finally, the process is stopped after a pre-defined stop criterion (e.g. number of rounds, achievement of consensus, stability of results) and the mean or median scores of the final rounds determine the results.
-
-The Delphi Method is not to be confused with a related technique for manufacturing consent in which an organising party combines the input in a non-transparent way, giving the organising party complete but non-obvious control over the outcome. A name often used for this deceptive use of the Delphi Method is the "Delphi Technique".
-
-Delphi is based on the principle that forecasts (or decisions) from a structured group of individuals are more accurate than those from unstructured groups. The technique can also be adapted for use in face-to-face meetings, and is then called mini-Delphi or Estimate-Talk-Estimate (ETE). Delphi has been widely used for business forecasting and has certain advantages over another structured forecasting approach, prediction markets.
-===
-
 Test Management Approach (TMap)
 Test management approach (TMap) is a software testing approach. TMap is an approach that combines insights on how to test and what to manage, as well as techniques for the individual test consultant.
 
@@ -64,17 +5,6 @@ The first method was created in 1995 and written by Martin Pol, Ruud Teunissen e
 
 TMap was created by the Dutch division of Sogeti which is part of Capgemini.
 ==
-
-Risk Management
-Risk management is the identification, assessment, and prioritisation of risks (defined in ISO 31000 as the effect of uncertainty on objectives) followed by coordinated and economical application of resources to minimize, monitor, and control the probability and/or impact of unfortunate events or to maximize the realization of opportunities. Risk management’s objective is to assure uncertainty does not deviate the endeavor from the business goals.
-
-Risks can come from different ways e.g. uncertainty in financial markets, threats from project failures (at any phase in design, development, production, or sustainment life-cycles), legal liabilities, credit risk, accidents, natural causes and disasters as well as deliberate attack from an adversary, or events of uncertain or unpredictable root-cause. There are two types of events i.e. negative events can be classified as risks while positive events are classified as opportunities. Several risk management standards have been developed including the Project Management Institute, the National Institute of Standards and Technology, actuarial societies, and ISO standards. Methods, definitions and goals vary widely according to whether the risk management method is in the context of project management, security, engineering, industrial processes, financial portfolios, actuarial assessments, or public health and safety.
-
-Risk sources are more often identified and located not only in infrastructural or technological assets and tangible variables, but in Human Factor variables, Mental States and Decision Making. The interaction between Human Factors and tangible aspects of risk, highlights the need to focus closely into Human Factor as one of the main drivers for Risk Management, a "Change Driver" that comes first of all from the need to know how humans perform in challenging environments and in face of risks (Trevisani, 2007). As the author describes, «it is an extremely hard task to be able to apply an objective and systematic self-observation, and to make a clear and decisive step from the level of the mere "sensation" that something is going wrong, to the clear understanding of how, when and where to act. The truth of a problem or risk is often obfuscated by wrong or incomplete analyses, fake targets, perceptual illusions, unclear focusing, altered mental states, and lack of good communication and confrontation of risk management solutions with reliable partners. This makes the Human Factor aspect of Risk Management sometimes heavier than its tangible and technological counterpart.
-
-The strategies to manage threats (uncertainties with negative consequences) typically include transferring the threat to another party, avoiding the threat, reducing the negative effect or probability of the threat, or even accepting some or all of the potential or actual consequences of a particular threat, and the opposites for opportunities (uncertain future states with benefits).
-
-===
 
 Quality Management System (QMS)
 A Quality Management System (QMS) is a collection of business processes focused on achieving quality policy and quality objectives to meet customer requirements. It is expressed as the organisational structure, policies, procedures, processes and resources needed to implement quality management. Early systems emphasised predictable outcomes of an industrial product production line, using simple statistics and random sampling. By the 20th century, labour inputs were typically the most costly inputs in most industrialized societies, so focus shifted to team cooperation and dynamics, especially the early signalling of problems via a continuous improvement cycle. In the 21st century, QMS has tended to converge with sustainability and transparency initiatives, as both investor and customer satisfaction and perceived quality is increasingly tied to these factors. Of all QMS regimes, the ISO 9000 family of standards is probably the most widely implemented worldwide - the ISO 19011 audit regime applies to both, and deals with quality and sustainability and their integration.
@@ -111,25 +41,10 @@ Functional model: The functional model handles the process perspective of the mo
 OMT is a predecessor of the [Unified Modeling Language] (UML). Many OMT modeling elements are common to UML.
 ===
 
-Structured Systems Analysis and Design Method (SSADM)
-Structured Systems Analysis and Design Method (SSADM), originally released as methodology, is a systems approach to the analysis and design of information systems. SSADM was produced for the Central Computer and Telecommunications Agency (now Office of Government Commerce), a UK government office concerned with the use of technology in government, from 1980 onwards.
-
-SSADM is a waterfall method for the analysis and design of information systems. SSADM can be thought to represent a pinnacle of the rigorous document-led approach to system design, and contrasts with more contemporary agile methods such as DSDM or Scrum.
-
-SSADM is one particular implementation and builds on the work of different schools of structured analysis and development methods, such as Peter Checkland's soft systems methodology, Larry Constantine's structured design, Edward Yourdon's Yourdon Structured Method, Michael A. Jackson's Jackson Structured Programming, and Tom DeMarco's structured analysis.
-
-The names "Structured Systems Analysis and Design Method" and "SSADM" are registered trademarks of the Office of Government Commerce (OGC), which is an office of the United Kingdom's Treasury.
-
-===
-
 Event Chain Methodology
 Event Chain Methodology is an uncertainty modeling and schedule network analysis technique that is focused on identifying and managing events and event chains that affect project schedules. Event chain methodology is the next advance beyond [critical path method] and critical chain project management.
 
 Event chain methodology helps to mitigate the effect of motivational and cognitive biases in estimating and scheduling.
-===
-
-Estimation Theory
-Estimation theory is a branch of statistics that deals with estimating the values of parameters based on measured / empirical data that has a random component. The parameters describe an underlying physical setting in such a way that their value affects the distribution of the measured data. An estimator attempts to approximate the unknown parameters using the measurements.
 ===
 
 Earned Value Management (EVM)
@@ -153,5 +68,4 @@ Essential features of any EVM implementation include
 
 EVM implementations for large or complex projects include many more features, such as indicators and forecasts of cost performance (over budget or under budget) and schedule performance (behind schedule or ahead of schedule). However, the most basic requirement of an EVM system is that it quantifies progress using PV and EV.
 ===
-
 

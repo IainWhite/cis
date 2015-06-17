@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Value Breakdown Structure (VBS)'); ?>
+        <p>A <strong>Value Breakdown Structure (VBS)</strong> is a project management technique introduced by Stephen Devaux as part of the <?php echo $this->stencil->addLink('Total Project Control', 'PM'); ?> (TPC) approach to project and program value analysis.</p>
+        <p>A <?php echo $this->stencil->addLink('Work Breakdown Structure', 'PM'); ?> (WBS) in project management and systems engineering is a deliverable oriented decomposition of a project into smaller components into a tree structure that represents how the work of the project will create the components of the final product. Resources and cost are typically inserted into the activities in a WBS, and summed to create a budget both for summary levels (often called “work packages”) and for the whole project or program. Similarly, the expected value-added of each activity and/or component of the project (or projects within a program) are inserted into the VBS.</p>
+        <p>In most projects (and programs), there are some components and activities (and projects) that are mandatory and others that are optional. Mandatory activities are required, and have the full value of the project investment, as the project cannot be completed without them. In contrast, optional activities have only the value that they are adding to the project, i.e., their value is equal to the delta between the project / program value if they are included and the value if they are omitted.</p>
+    </div>
+</div>

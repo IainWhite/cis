@@ -1,8 +1,6 @@
 project-management/Change Control
 project-management/Critical Path Method (CPM)
-project-management/Delphi Method
 project-management/Earned Value Management (EVM)
-project-management/Estimation Theory
 project-management/Event Chain Methodology
 project-management/methodologies/Capability Maturity Model Integration
 project-management/methodologies/Dual Vee Model
@@ -13,13 +11,8 @@ project-management/methodologies/Unified Software Development Process
 project-management/methodologies/Prototype Model
 project-management/methodologies/Spiral Model
 project-management/methodologies/V-Model
-project-management/methodologies/Structured Systems Analysis and Design Method (SSADM)
 project-management/Monte Carlo Method
 project-management/Object-Modeling Technique (OMT)
 project-management/Product Breakdown Structure
 project-management/Quality Management System (QMS)
-project-management/risk/Risk Management
 project-management/Test Management Approach (TMap)
-project-management/Value Breakdown Structure (VBS)
-project-management/Wideband Delphi
-project-management/Work Breakdown Structure (WBS)
