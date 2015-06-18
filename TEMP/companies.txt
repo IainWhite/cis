@@ -1,4 +1,1 @@
-companies/Australian Institute of Project Management (AIPM) 
-companies/British Standards Institution (or BSI) 
-companies/International Project Management Association (IPMA)
-companies/Project Management Institute (PMI)
+
