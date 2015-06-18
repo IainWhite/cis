@@ -1,5 +1,38 @@
 ToDo
 
+Canonical Pages
+
+$this->stencil->sub('project-management/agile/scrum/sa', NULL, TRUE, TRUE);
+
+sub($page, $data = NULL, $useMore = FALSE, $canonical = FALSE)
+Convert 'pages/' . $page to URL add link
+<link rel="canonical" href="https://" />
+
+Change End Point
+
+Pages Controller
+
+$viewPath = $viewPath . $view;
+if (file_exists(APPPATH . 'views/pages/' . $viewPath . EXT)) {
+	$this->stencil->paint($viewPath);
+} else {
+	// Retry with $viewpath . '/' . $view . '/' . $view
+}
+
+
+Library Wrapper
+
+Copy file into /applications/libraries/<app>
+Create <app_lib.php in Libraries root
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+require_once 'facebook/facebook.php';
+class Facebook_lib extends Facebook{}
+In controller
+$this->load->library('facebook_lib',$config);
+$this->facebook_lib->clearAllPersistentData();
+
+
+
 Colours of TABLE
 getPlugins($cat = 'ALL', $limit = NULL)
 getDefinitions($cat = 'ALL')
