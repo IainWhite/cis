@@ -1,7 +1,4 @@
-languages/actionscript
 languages/ada
-languages/algol
-languages/applescript
 languages/asp
 languages/asp/chili-soft-asp
 languages/assembly-language
@@ -29,18 +26,15 @@ languages/c/c-sharp/visual-c-sharp
 languages/c/lattice-c
 languages/c/objective-c
 languages/c/turbo-c
-languages/clojure
 languages/cobol
 languages/coffeescript
 languages/coldfusion
 languages/coldfusion/cfml
 languages/dcl
-languages/delphi
 languages/dot-net
 languages/dot-net-framework
 languages/ecmascript
 languages/groovy
-languages/java
 languages/java/duke
 languages/java/Google Web Toolkit (GWT)
 languages/java/grals
@@ -76,8 +70,6 @@ languages/php/frameworks/Symfony2
 languages/php/frameworks/TYPO3
 languages/php/frameworks/Yii
 languages/php/frameworks/Zend Framework
-languages/postscript
-languages/prolog
 languages/reactive-extensions
 languages/ruby/Ruby on Rails
 languages/scala

@@ -1,0 +1,81 @@
+CodeIgniter PHP Framework
+CodeIgniter is an open source rapid development web application framework, for use in building dynamic web sites with [PHP].
+
+CodeIgniter is loosely based on the popular [Model-View-Controller] [development pattern]. While controller classes are a necessary part of development under CodeIgniter, models and views are optional.
+
+CodeIgniter is most often noted for its speed when compared to other [PHP frameworks]. In a critical take on PHP frameworks in general, PHP creator [Rasmus Lerdorf] spoke at frOSCon in August 2008, noting that he liked CodeIgniter "<em>because it is faster, lighter and the least like a framework</em>"
+
+The first public version of CodeIgniter was released by EllisLab on 28 February 2006, and the latest stable version 3.0.0 was released 30 March 30, 2015. On 9 July 2013, EllisLab announced that it was seeking a new owner for CodeIgniter, citing a lack of resources to give the framework the attention they felt it deserved. On 6 October 2014, EllisLab announced that CodeIgniter would continue development under the stewardship of the British Columbia Institute of Technology.
+===
+
+Laravel PHP Framework
+Laravel is a free, open-source [PHP] web application framework, created by Taylor Otwell and intended for the development of web applications following the [model–view–controller] (MVC) architectural pattern. Prominent Laravel features include its expressive syntax, a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, and various utilities that aid in application deployment and maintenance.
+
+According to a March 2015 developers survey on PHP frameworks popularity, Laravel was listed as the most popular PHP framework of 2015, followed by [Symfony2], Nette, [CodeIgniter], [Yii] and others.
+
+Laravel was created by Taylor Otwell as a more feature-rich alternative to the CodeIgniter framework, which did not provide various advanced features such as support for user authentication and authorization. Laravel's first beta release was made available on 9 June 2011, followed by the Laravel 1 release later in the same month. Laravel 1 includes built-in support for authentication, localisation, models, views, sessions, routing and other mechanisms, but lacks support for controllers that prevents it from being a true MVC framework.
+
+Laravel 2 was released in September 2011, bringing various improvements from the author and community. Major new features include the support for controllers, which made Laravel 2 a fully MVC-compliant framework, built-in support for the [inversion of control] (IoC) principle, and the so-called "Blade" templating system. As a downside, support for third-party packages was removed in Laravel 2.
+
+Laravel 3 was released in February 2012 with a set of new features including the [command-line interface] (CLI) named "Artisan", built-in support for more database management systems, database migrations as a form of version control for database layouts, support for handling events, and a packaging system called "Bundles". A significant increase of the Laravel's userbase and popularity lined up with the release of Laravel 3.
+
+Laravel 4, codenamed "Illuminate", was released in May 2013. It was made as a complete rewrite of the Laravel framework, migrating its layout into a set of separate packages distributed through [Composer], which serves as an application-level package manager. Such a layout allowed much better extendibility of Laravel 4, paired with its official regular release schedule spanning six months between minor point releases. Other new features in the Laravel 4 release include database seeding for the initial population of databases, support for message queues, built-in support for sending different types of email, and support for delayed deletion of database records called "soft deletion".
+
+Laravel 5 was released in February 2015 as a result of significant changes that ended up in renumbering the then future Laravel 4.3 release. Beside bringing various new features and improvements to already existing ones, Laravel 5 also introduced a new internal directory tree structure for developed applications. New features in the Laravel 5 release include support for scheduling periodically executed tasks through a package called "Scheduler", an abstraction layer called "Flysystem" that allows remote storage to be used in the same way as local file systems, improved handling of package assets through "Elixir", and simplified externally handled authentication through the optional "Socialite" package.
+
+Laravel 5.1, released in June 2015, is the first release of Laravel to receive long-term support (LTS), with planned availability of bug fixes for two years and security patches for three years. LTS releases of Laravel are planned to be released every two years.
+===
+
+Peer Reviews
+In Software Development, a peer review is a type of software review in which a work product (document, code, or other) is examined by its author and one or more colleagues, in order to evaluate its technical content and quality.
+
+The purpose of a peer review is to provide "a disciplined engineering practice for detecting and correcting defects in software artifacts, and preventing their leakage into field operations" according to the [Capability Maturity Model].
+
+When performed as part of each Software development process activity, peer reviews identify problems that can be fixed early in the lifecycle. That is to say, a peer review that identifies a requirements problem during the Requirements analysis activity is cheaper and easier to fix than during the Software architecture or Software testing activities.
+
+The National Software Quality Experiment, evaluating the effectiveness of peer reviews, finds, "a favorable return on investment for software inspections; savings exceeds costs by 4 to 1". To state it another way, it is four times more costly, on average, to identify and fix a software problem later.
+===
+
+Technical Due Diligence
+
+Due Diligence
+Due diligence is an investigation of a business or person prior to signing a contract, or an act with a certain standard of care.
+
+It can be a legal obligation, but the term will more commonly apply to voluntary investigations. A common example of due diligence in various industries is the process through which a potential acquirer evaluates a target company or its assets for an acquisition. The theory behind due diligence holds that performing this type of investigation contributes significantly to informed decision making by enhancing the amount and quality of information available to decision makers and by ensuring that this information is systematically used to deliberate in a reflexive manner on the decision at hand and all its costs, benefits, and risks.
+
+Technical Due Diligence
+Technical due diligence gives an independent, third-party assessment and evaluation of the technical aspects of an investment project. Analysts identify potential risks and costs as well as opportunities from a technical point of view. This helps the investor to make an informed decision on whether to invest in the project or not.
+
+===
+
+Business Analysis
+Business Analysis is a research discipline of identifying business needs and determining solutions to business problems. Solutions often include a software-systems development component, but may also consist of process improvement, organisational change or strategic planning and policy development. The person who carries out this task is called a Business Analyst (BA).
+
+===
+
+SWOT Analysis
+A SWOT analysis (alternatively SWOT matrix) is a structured planning method used to evaluate the strengths, weaknesses, opportunities and threats involved in a project or in a business venture. A SWOT analysis can be carried out for a product, place, industry or person. It involves specifying the objective of the business venture or project and identifying the internal and external factors that are favorable and unfavourable to achieve that objective. Some authors credit SWOT to Albert Humphrey, who led a convention at the Stanford Research Institute (now SRI International) in the 1960s and 1970s using data from Fortune 500 companies. However, Humphrey himself does not claim the creation of SWOT, and the origins remain obscure. The degree to which the internal environment of the firm matches with the external environment is expressed by the concept of strategic fit.
+
+Strengths: characteristics of the business or project that give it an advantage over others.
+Weaknesses: characteristics that place the business or project at a disadvantage relative to others.
+Opportunities: elements that the project could exploit to its advantage.
+Threats: elements in the environment that could cause trouble for the business or project.
+
+Identification of SWOTs is important because they can inform later steps in planning to achieve the objective.
+
+First, the decision makers should consider whether the objective is attainable, given the SWOTs. If the objective is not attainable a different objective must be selected and the process repeated.
+
+Users of SWOT analysis need to ask and answer questions that generate meaningful information for each category (strengths, weaknesses, opportunities, and threats) to make the analysis useful and find their competitive advantage.
+===
+
+5 Whys
+
+5 Whys is an iterative question-asking technique used to explore the cause-and-effect relationships underlying a particular problem. The primary goal of the technique is to determine the root cause of a defect or problem by repeating the question "Why?" Each question forms the basis of the next question. The "5" in the name derives from an empirical observation on the number of iterations typically required to resolve the problem.
+
+The technique was originally developed by Sakichi Toyoda and was used within the Toyota Motor Corporation during the evolution of its manufacturing methodologies. In other companies, it appears in other forms. Under Ricardo Semler, Semco practices "three whys" and broadens the practice to cover goal setting and decision making.
+
+Not all problems have a single root cause. If one wishes to uncover multiple root causes, the method must be repeated asking a different sequence of questions each time.
+
+The method provides no hard and fast rules about what lines of questions to explore, or how long to continue the search for additional root causes. Thus, even when the method is closely followed, the outcome still depends upon the knowledge and persistence of the people involved.
+===
+

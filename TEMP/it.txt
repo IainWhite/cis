@@ -24,7 +24,6 @@ it/design/font/typeface
 it/design/User Experience (UX)
 it/design/User Interface (UI)
 it/development
-it/django-framework
 it/dot-com-bubble
 it/font
 it/foss
