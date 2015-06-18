@@ -50,8 +50,6 @@ nicola-pellow
 niklaus-wirth
 paul-allen
 pei-yuan-wei
-people
-people.txt
 peter-norton
 ralph-johnson
 rasmus-lerdorf

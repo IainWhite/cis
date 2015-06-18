@@ -53,3 +53,5 @@ web-development/seo							WDS
 web-development/styling						WDC
 web-development/web-servers					WS
 web-development/websites					URL
+software-development/version-control		SDV
+software-development						SD

@@ -778,6 +778,12 @@ class Stencil {
             case 'URL':
                 $path = 'web-development/websites';
                 break;
+            case 'SD':
+                $path = 'software-development';
+                break;
+            case 'SDV':
+                $path = 'software-development/version-control';
+                break;
         }
         if ($full) {
             $path = base_url() . $path;

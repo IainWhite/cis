@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Scrumban'); ?>
+        <?php $this->stencil->setDescription('Scrumban is a Agile software production model based on Scrum and Kanban.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Scrumban, Scrum, Kanban')); ?>
         <p><strong>Scrumban</strong> is a software production model based on <?php echo $this->stencil->addLink('Scrum', 'PMA'); ?> and <?php echo $this->stencil->addLink('Kanban', 'PMA'); ?>.</p>
         <p>Scrumban is especially suited for maintenance projects or (system) projects with frequent and unexpected work items or programming errors.</p>
         <p>In such cases the time-limited sprints of the Scrum model are of no appreciable use, but Scrum's daily meetings and other practices can be applied, depending on the team and the situation at hand.</p>

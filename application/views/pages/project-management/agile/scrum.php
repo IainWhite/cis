@@ -1,6 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Scrum'); ?>
+        <?php $this->stencil->setDescription('Scrum is an iterative and incremental Agile Software Development framework for managing software projects and product or application development.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Scrum, Agile, Sprint, Scrum Master, Daily Scrum')); ?>
         <p><strong>Scrum</strong> is an iterative and incremental agile software development framework for managing software projects and product or application development.</p>
         <p>Its focus is on "a flexible, holistic product development strategy where a development team works as a unit to reach a common goal" as opposed to a "traditional, sequential approach".</p>
         <p>Scrum enables the creation of self-organizing teams by encouraging co-location of all team members, and verbal communication between all team members and disciplines in the project.</p>

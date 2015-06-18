@@ -1,0 +1,28 @@
+software-development/backus-naur-form
+software-development/CMS
+software-development/Code Refactoring
+software-development/Command-Line Interface (CLI)
+software-development/Computer-Aided Software Engineering (CASE)
+software-development/computer-programming
+software-development/Design Patterns
+software-development/Dynamic-Link Library (DLL)
+software-development/electronic-data-interchange
+software-development/Flow Chart
+software-development/Hello World
+software-development/Object Linking and Embedding (OLE)
+software-development/Object-Oriented Programming (OOP)
+software-development/object-windows-library
+software-development/Open Database Connectivity (ODBC)
+software-development/reactive-programming
+software-development/reactive-programming/reactive-manifesto
+software-development/Software Engineering
+software-development/Software Metric
+software-development/Source Lines Of Code (SLOC)
+software-development/uncol (Universal Computer Oriented Language)
+software-development/Unified Modeling Language (UML)
+software-development/Version Control
+software-development/version-control/Code Repository
+software-development/version-control/Concurrent Versions System (CVS)
+software-development/version-control/Git
+software-development/version-control/Subversion (SVN)
+software-development/Visual Component Library (VCL)
