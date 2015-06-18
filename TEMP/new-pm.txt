@@ -25,3 +25,4 @@ Laravel 5 was released in February 2015 as a result of significant changes that 
 
 Laravel 5.1, released in June 2015, is the first release of Laravel to receive long-term support (LTS), with planned availability of bug fixes for two years and security patches for three years. LTS releases of Laravel are planned to be released every two years.
 ===
+
