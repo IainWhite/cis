@@ -5,12 +5,12 @@ software-development/Flow Chart
 software-development/Hello World
 software-development/object-windows-library
 software-development/Open Database Connectivity (ODBC)
-software-development/reactive-programming
-software-development/reactive-programming/reactive-manifesto
 software-development/Software Metric
 software-development/Source Lines Of Code (SLOC)
 software-development/uncol (Universal Computer Oriented Language)
 software-development/Unified Modeling Language (UML)
-software-development/Version Control
 software-development/version-control/Code Repository
 software-development/Visual Component Library (VCL)
+software-development/Microsoft Foundation Class Library (MFC)
+software-development/object-windows-library
+software-development/Software Development Kit (SDK)

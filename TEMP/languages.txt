@@ -62,18 +62,15 @@ java/spring
 javascript
 javascript/jscript
 jsp
-lisp
 logo
 machine-code
 mumps
-occam
 organiser-programming-language
 pascal
 pascal/object-pascal
 pascal/turbo-pascal
 perl
 perl/perlscript
-php
 php/cms/Drupal
 php/cms/ExpressionEngine
 php/cms/Joonla!
@@ -94,18 +91,12 @@ php/frameworks/Zend Framework
 php/elePHPant
 postscript
 prolog
-python
-python/Django
-r
 reactive-extensions
-ruby
 ruby/Ruby on Rails
-s
 scala
 scala/rxscala
 shell/bash
 shell/bourne-shell
 shell/c-shell
 shell/korn-shell
-smalltalk
 

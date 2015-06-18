@@ -1,279 +1,257 @@
-amazon-web-services (AWS)
-arcnet
-arpanet
-ascii
-ascii-table
-awards/turing-award
-backus-naur-form
-client-server
-cmyk
-Comma-Separated Values (CSV)
-Command-Line Interface (CLI)
-component-object-model
-computer-modern
-computer-programming
-coroutines
-crc-cards
-csnet
-cvs
-cygwin
-databases/acid
-databases/call-level-interface
-databases/dba
-databases/jet-database-engine
-databases/microsoft-access
-design
-design/font/typeface
-design/User Experience (UX)
-design/User Interface (UI)
-development
-development/uncol (Universal Computer Oriented Language)
-development/Visual Component Library (VCL)
-django-framework
-dot-com-bubble
-Dynamic-Link Library (DLL)
-electronic-data-interchange
-font
-foss
-gdi
-Graphical User Interface (GUI)
-hardware
-hardware/acorn-archimedes
-hardware/acorn-electron
-hardware/alto
-hardware/amstrad-pc1512
-hardware/amstrad-pcw
-hardware/analytical-engine
-hardware/antikythera-mechanism
-hardware/arm
-hardware/arm-architecture
-hardware/atom
-hardware/bbc-domesday-project
-hardware/bbc-micro
-hardware/bombe
-hardware/cobalt-raq
-hardware/colossus
-hardware/commodore-pet
-hardware/cpu
-hardware/cpu/6502
-hardware/cpu/6502/6522
-hardware/cpu/68000
-hardware/cpu/8088
-hardware/cpu/pentium
-hardware/cpu/x86
-hardware/cpu/x86/80286
-hardware/cpu/x86/80386
-hardware/cpu/x86/80486
-hardware/cpu/x86/8086
-hardware/cpu/z80
-hardware/difference-engine
-hardware/eee-pc
-hardware/ferranti-mark-1
-hardware/mac
-hardware/Manchester Small-Scale Experimental Machine (SSEM)
-hardware/next
-hardware/pc
-hardware/pc/at
-hardware/pc/ibm-pc
-hardware/pc/ibm-pc-compatible
-hardware/pc/ps-2
-hardware/pc/xt
-hardware/phones/nokia-communicator
-hardware/powerpc
-hardware/psion
-hardware/risc
-hardware/smartphone
-hardware/sparc
-hardware/sparcstation
-hardware/vax
-hardware/video/cga
-hardware/video/ega
-hardware/video/svga
-hardware/video/vga
-hardware/xerox-alto
-hardware/zuse-z3
-hsl
-ims
-instagram
-internet
-intranet
-ios
-java-bytecode
-java-me
-jdbc
-junit
-jvm
+it/amazon-web-services (AWS)
+it/arcnet
+it/arpanet
+it/ascii
+it/ascii-table
+it/awards/turing-award
+it/client-server
+it/cmyk
+it/Comma-Separated Values (CSV)
+it/Command-Line Interface (CLI)
+it/component-object-model
+it/computer-modern
+it/coroutines
+it/crc-cards
+it/csnet
+it/cygwin
+it/databases/acid
+it/databases/call-level-interface
+it/databases/dba
+it/databases/jet-database-engine
+it/databases/microsoft-access
+it/design
+it/design/font/typeface
+it/design/User Experience (UX)
+it/design/User Interface (UI)
+it/development
+it/django-framework
+it/dot-com-bubble
+it/font
+it/foss
+it/gdi
+it/Graphical User Interface (GUI)
+it/hardware
+it/hardware/acorn-archimedes
+it/hardware/acorn-electron
+it/hardware/alto
+it/hardware/amstrad-pc1512
+it/hardware/amstrad-pcw
+it/hardware/analytical-engine
+it/hardware/antikythera-mechanism
+it/hardware/arm
+it/hardware/arm-architecture
+it/hardware/atom
+it/hardware/bbc-domesday-project
+it/hardware/bbc-micro
+it/hardware/bombe
+it/hardware/cobalt-raq
+it/hardware/colossus
+it/hardware/commodore-pet
+it/hardware/cpu
+it/hardware/cpu/6502
+it/hardware/cpu/6502/6522
+it/hardware/cpu/68000
+it/hardware/cpu/8088
+it/hardware/cpu/pentium
+it/hardware/cpu/x86
+it/hardware/cpu/x86/80286
+it/hardware/cpu/x86/80386
+it/hardware/cpu/x86/80486
+it/hardware/cpu/x86/8086
+it/hardware/cpu/z80
+it/hardware/difference-engine
+it/hardware/eee-pc
+it/hardware/ferranti-mark-1
+it/hardware/mac
+it/hardware/Manchester Small-Scale Experimental Machine (SSEM)
+it/hardware/next
+it/hardware/pc
+it/hardware/pc/at
+it/hardware/pc/ibm-pc
+it/hardware/pc/ibm-pc-compatible
+it/hardware/pc/ps-2
+it/hardware/pc/xt
+it/hardware/phones/nokia-communicator
+it/hardware/powerpc
+it/hardware/psion
+it/hardware/risc
+it/hardware/smartphone
+it/hardware/sparc
+it/hardware/sparcstation
+it/hardware/vax
+it/hardware/video/cga
+it/hardware/video/ega
+it/hardware/video/svga
+it/hardware/video/vga
+it/hardware/xerox-alto
+it/hardware/zuse-z3
+it/hsl
+it/ims
+it/internet
+it/intranet
+it/ios
+it/java-bytecode
+it/java-me
+it/jdbc
+it/junit
+it/jvm
 languages/java/testdox
-latex
-mda
-metafont
-mfc
-network
-network/ethernet
-networking/10base5
-networking/category-5
-networking/token-ring
-networks/lan
-networks/netware
-networks/wi-fi
-networks/wi-fi/wan
-networks/wi-fi/wep
-nsfnet
-Object Linking and Embedding (OLE)
-Object-Oriented Programming  (OOP)
-object-windows-library
-Open Database Connectivity (ODBC)
-operating-systems (OS)
-operating-systems//cp-m-86
-operating-systems//mobile/cocoa
-operating-systems/beos
-operating-systems/centos
-operating-systems/cp-m
-operating-systems/debian
-operating-systems/dos
-operating-systems/dos/86-dos
-operating-systems/dos/dr-dos
-operating-systems/dos/ms-dos
-operating-systems/dos/pc-dos
-operating-systems/fedora
-operating-systems/freebsd
-operating-systems/gem
-operating-systems/geos
-operating-systems/linux
-operating-systems/linux/tux
-operating-systems/mac-os
-operating-systems/mobile/android
-operating-systems/mobile/cocoa-touch
-operating-systems/nextstep
-operating-systems/os-2
-operating-systems/os-x
-operating-systems/plan-9
-operating-systems/red-hat
-operating-systems/red-hat/red-hat-enterprise-linux
-operating-systems/solaris
-operating-systems/sunos
-operating-systems/suse
-operating-systems/ubuntu
-operating-systems/ultrix
-operating-systems/unix
-operating-systems/vms
-operating-systems/windows
-operating-systems/windows/windows-1
-operating-systems/windows/windows-2
-operating-systems/windows/windows-2000
-operating-systems/windows/windows-3
-operating-systems/windows/windows-7
-operating-systems/windows/windows-8
-operating-systems/windows/windows-95
-operating-systems/windows/windows-98
-operating-systems/windows/windows-api
-operating-systems/windows/windows-me
-operating-systems/windows/windows-nt
-operating-systems/windows/windows-template-library
-operating-systems/windows/windows-vista
-operating-systems/windows/windows-xp
-Original Equipment Manufacturer (OEM)
-pgc
-reactive-programming
-reactive-programming/reactive-manifesto
-relational-model
-Request for Comments (RFC)
-rgb
-shell-scripts
-slackware
-social-networking
-software
-Software Development Kit (SDK)
-software-engineering
-software-licenses
-software/activex
-software/adobe-air (was air)
-software/awk
-software/borland-sidekick
-software/cacti
-software/cad
-software/cad/autocad
-software/coreldraw
-software/deluxe-paint
-software/dia
-software/directx
-software/dynatrace
-software/fireworks
-software/flash
-software/flash-player
-software/freehand
-software/gimp
-software/grep
-software/ide
-software/ide/dreamweaver
-software/ide/eclipse
-software/ide/homesite
-software/ide/microsoft-frontpage
-software/ide/microsoft-visual-studio
-software/ide/netbeans
-software/ide/vi
-software/ide/vim
-software/jira
-software/licenses/Apache License
-software/licenses/Apple Public Source License
-software/licenses/BSD License
-software/licenses/Common Public License
-software/licenses/Copyleft
-software/licenses/Copyright
-software/licenses/End-User License Agreement (EULA)
-software/licenses/Free and Open-Source Software (FOSS)
-software/licenses/Free Software Definition
-software/licenses/Free Software Foundation (FSF)
-software/licenses/GNU General Public License (GNU GPL or GPL)
-software/licenses/IBM Public License
-software/licenses/MIT License
-software/licenses/Public Domain
-software/licenses/Public Domain Software
-software/lotus-agenda
-software/lotus-freelance
-software/lotus-magellan
-software/lotus-notes
-software/lotus-organizer
-software/lotus-smartsuite
-software/lotus-symphony
-software/microsoft-exchange
-software/microsoft-office
-software/microsoft-outlook
-software/microsoft-powerpoint
-software/microsoft-project
-software/microsoft-script-editor
-software/microsoft-works
-software/midnight-commander
-software/mozilla-thunderbird
-software/norton-commander
-software/norton-utilities
-software/notepad-plus-plus
-software/paintshop-pro
-software/pc-tools
-software/sed
-software/spreadsheets/excel
-software/spreadsheets/lotus-1-2-3
-software/spreadsheets/multiplan
-software/spreadsheets/visicalc
-software/spreedsheets/quattro-pro
-software/spreedsheets/supercalc
-software/visio
-software/visual-web-developer-express
-software/word-processors/ami-pro
-software/word-processors/microsoft-write
-software/word-processors/word
-software/word-processors/wordpad
-software/word-processors/wordperfect
-software/word-processors/wordstar
-software/xcode
-stackdriver
-tar-format
-tex
-version-control
-version-control/git
-version-control/Subversion (SVN)
-wimp
-wysiwyg
-y2k
-yslow
-
+it/latex
+it/mda
+it/metafont
+it/network
+it/network/ethernet
+it/networking/10base5
+it/networking/category-5
+it/networking/token-ring
+it/networks/lan
+it/networks/netware
+it/networks/wi-fi
+it/networks/wi-fi/wan
+it/networks/wi-fi/wep
+it/nsfnet
+it/Open Database Connectivity (ODBC)
+it/operating-systems (OS)
+it/operating-systems//cp-m-86
+it/operating-systems//mobile/cocoa
+it/operating-systems/beos
+it/operating-systems/centos
+it/operating-systems/cp-m
+it/operating-systems/debian
+it/operating-systems/dos
+it/operating-systems/dos/86-dos
+it/operating-systems/dos/dr-dos
+it/operating-systems/dos/ms-dos
+it/operating-systems/dos/pc-dos
+it/operating-systems/fedora
+it/operating-systems/freebsd
+it/operating-systems/gem
+it/operating-systems/geos
+it/operating-systems/linux
+it/operating-systems/linux/tux
+it/operating-systems/mac-os
+it/operating-systems/mobile/android
+it/operating-systems/mobile/cocoa-touch
+it/operating-systems/nextstep
+it/operating-systems/os-2
+it/operating-systems/os-x
+it/operating-systems/plan-9
+it/operating-systems/red-hat
+it/operating-systems/red-hat/red-hat-enterprise-linux
+it/operating-systems/solaris
+it/operating-systems/sunos
+it/operating-systems/suse
+it/operating-systems/ubuntu
+it/operating-systems/ultrix
+it/operating-systems/unix
+it/operating-systems/vms
+it/operating-systems/windows
+it/operating-systems/windows/windows-1
+it/operating-systems/windows/windows-2
+it/operating-systems/windows/windows-2000
+it/operating-systems/windows/windows-3
+it/operating-systems/windows/windows-7
+it/operating-systems/windows/windows-8
+it/operating-systems/windows/windows-95
+it/operating-systems/windows/windows-98
+it/operating-systems/windows/windows-api
+it/operating-systems/windows/windows-me
+it/operating-systems/windows/windows-nt
+it/operating-systems/windows/windows-template-library
+it/operating-systems/windows/windows-vista
+it/operating-systems/windows/windows-xp
+it/Original Equipment Manufacturer (OEM)
+it/pgc
+it/relational-model
+it/Request for Comments (RFC)
+it/rgb
+it/shell-scripts
+it/slackware
+it/social-networking
+it/software
+it/software-licenses
+it/software/activex
+it/software/adobe-air (was air)
+it/software/awk
+it/software/borland-sidekick
+it/software/cacti
+it/software/cad
+it/software/cad/autocad
+it/software/coreldraw
+it/software/deluxe-paint
+it/software/dia
+it/software/directx
+it/software/dynatrace
+it/software/fireworks
+it/software/flash
+it/software/flash-player
+it/software/freehand
+it/software/gimp
+it/software/grep
+it/software/ide
+it/software/ide/dreamweaver
+it/software/ide/eclipse
+it/software/ide/homesite
+it/software/ide/microsoft-frontpage
+it/software/ide/microsoft-visual-studio
+it/software/ide/netbeans
+it/software/ide/vi
+it/software/ide/vim
+it/software/jira
+it/software/licenses/Apache License
+it/software/licenses/Apple Public Source License
+it/software/licenses/BSD License
+it/software/licenses/Common Public License
+it/software/licenses/Copyleft
+it/software/licenses/Copyright
+it/software/licenses/End-User License Agreement (EULA)
+it/software/licenses/Free and Open-Source Software (FOSS)
+it/software/licenses/Free Software Definition
+it/software/licenses/Free Software Foundation (FSF)
+it/software/licenses/GNU General Public License (GNU GPL or GPL)
+it/software/licenses/IBM Public License
+it/software/licenses/MIT License
+it/software/licenses/Public Domain
+it/software/licenses/Public Domain Software
+it/software/lotus-agenda
+it/software/lotus-freelance
+it/software/lotus-magellan
+it/software/lotus-notes
+it/software/lotus-organizer
+it/software/lotus-smartsuite
+it/software/lotus-symphony
+it/software/microsoft-exchange
+it/software/microsoft-office
+it/software/microsoft-outlook
+it/software/microsoft-powerpoint
+it/software/microsoft-project
+it/software/microsoft-script-editor
+it/software/microsoft-works
+it/software/midnight-commander
+it/software/mozilla-thunderbird
+it/software/norton-commander
+it/software/norton-utilities
+it/software/notepad-plus-plus
+it/software/paintshop-pro
+it/software/pc-tools
+it/software/sed
+it/software/spreadsheets/excel
+it/software/spreadsheets/lotus-1-2-3
+it/software/spreadsheets/multiplan
+it/software/spreadsheets/visicalc
+it/software/spreedsheets/quattro-pro
+it/software/spreedsheets/supercalc
+it/software/visio
+it/software/visual-web-developer-express
+it/software/word-processors/ami-pro
+it/software/word-processors/microsoft-write
+it/software/word-processors/word
+it/software/word-processors/wordpad
+it/software/word-processors/wordperfect
+it/software/word-processors/wordstar
+it/software/xcode
+it/stackdriver
+it/tar-format
+it/tex
+it/y2k
+it/yslow
