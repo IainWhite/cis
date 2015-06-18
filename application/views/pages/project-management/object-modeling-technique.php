@@ -16,6 +16,6 @@
         <p><strong>Functional model:</strong> The functional model handles the process perspective of the model, corresponding roughly to data flow diagrams. Main concepts are process, data store, data flow, and actors.</p>
 
         <br />
-        <p>OMT is a predecessor of the <?php echo $this->stencil->addLink('Unified Modeling Language', 'IT'); ?> (UML). Many OMT modeling elements are common to UML.</p>
+        <p>OMT is a predecessor of the <?php echo $this->stencil->addLink('Unified Modeling Language', 'SD'); ?> (UML). Many OMT modeling elements are common to UML.</p>
     </div>
 </div>

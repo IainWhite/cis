@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Business Process Improvement (BPI)'); ?>
+        <p><strong>Business Process Improvement (BPI)</strong> is a systematic approach to help an organisation optimize its underlying processes to achieve more efficient results. The methodology was first documented in H. James Harrington’s 1991 book Business Process Improvement. It is the methodology that both Process Redesign and Business Process Reengineering are based upon. BPI has allegedly been responsible for reducing cost and cycle time by as much as 90% while improving quality by over 60%.</p>
+        <p>Process improvement is an aspect of organisational development (OD) in which a series of actions are taken by a process owner to identify, analyse and improve existing business processes within an organisation to meet new goals and objectives, such as increasing profits and performance, reducing costs and accelerating schedules. These actions often follow a specific methodology or strategy to increase the likelihood of successful results. Process improvement may include the restructuring of company training programs to increase their effectiveness.</p>
+        <p>Process improvement is also a method to introduce process changes to improve the quality of a product or service, to better match customer and consumer needs.</p>
+    </div>
+</div>
