@@ -22,7 +22,6 @@ languages/c/lattice-c
 languages/c/objective-c
 languages/c/turbo-c
 languages/coldfusion
-languages/groovy
 languages/java/duke
 languages/java/Google Web Toolkit (GWT)
 languages/java/grals
