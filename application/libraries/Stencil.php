@@ -784,6 +784,27 @@ class Stencil {
             case 'SDV':
                 $path = 'software-development/version-control';
                 break;
+            case 'SDD':
+                $path = 'software-development/design-patterns';
+                break;
+            case 'DPB':
+                $path = 'software-development/design-patterns/behavioural';
+                break;
+            case 'DPO':
+                $path = 'software-development/design-patterns/concurrency';
+                break;
+            case 'DPC':
+                $path = 'software-development/design-patterns/creational';
+                break;
+            case 'DPS':
+                $path = 'software-development/design-patterns/structural';
+                break;
+            case 'SDA':
+                $path = 'software-development/architectural-patterns';
+                break;
+            case 'MVC':
+                $path = 'software-development/architectural-patterns/mvc';
+                break;
         }
         if ($full) {
             $path = base_url() . $path;
