@@ -13,7 +13,6 @@ languages/basic/turbo-basic
 languages/basic/vax-basic
 languages/basic/vb-dot-net
 languages/basic/vba
-languages/basic/vbscript
 languages/basic/visual-basic
 languages/c
 languages/c/c-plus-plus
@@ -30,7 +29,6 @@ languages/coldfusion
 languages/dcl
 languages/dot-net
 languages/dot-net-framework
-languages/ecmascript
 languages/groovy
 languages/java/duke
 languages/java/Google Web Toolkit (GWT)
@@ -39,7 +37,6 @@ languages/java/play
 languages/java/rxjava
 languages/java/spring
 languages/javascript
-languages/javascript/jscript
 languages/jsp
 languages/machine-code
 languages/mumps
@@ -48,7 +45,6 @@ languages/pascal
 languages/pascal/object-pascal
 languages/pascal/turbo-pascal
 languages/perl
-languages/perl/perlscript
 languages/php/cms/Drupal
 languages/php/cms/ExpressionEngine
 languages/php/cms/Joonla!
