@@ -1,6 +1,6 @@
 languages/ada
 languages/asp
-languages/asp/chili-soft-asp
+languages/asp/ActiveX Data Objects (ADO)
 languages/assembly-language
 languages/basic
 languages/basic/bbc-basic
@@ -26,10 +26,7 @@ languages/c/c-sharp/visual-c-sharp
 languages/c/lattice-c
 languages/c/objective-c
 languages/c/turbo-c
-languages/cobol
-languages/coffeescript
 languages/coldfusion
-languages/coldfusion/cfml
 languages/dcl
 languages/dot-net
 languages/dot-net-framework

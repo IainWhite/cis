@@ -28,75 +28,78 @@ Laravel 5.1, released in June 2015, is the first release of Laravel to receive l
 
 Design Patterns
 
-A design pattern is a general reusable solution to a commonly occurring problem within a given context in software design.
+<p>A <strong>design pattern</strong> is a general reusable solution to a commonly occurring problem within a given context in software design.</p>
+<p>A design pattern is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Patterns are formalised best practices that the programmer can use to solve common problems when designing an application or system. Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved. Patterns that imply object-orientation or, more generally, mutable state, are not as applicable in functional programming languages.</p>
+<p>Patterns originated as an architectural concept by <strong>Christopher Alexander</strong> (1977 / 79). In 1987, <strong>Kent Beck</strong> and <strong>Ward Cunningham</strong> began experimenting with the idea of applying patterns to programming - specifically pattern languages - and presented their results at the OOPSLA conference that year. In the following years, Beck, Cunningham and others followed up on this work.</p>
+<p>Design patterns gained popularity in computer science after the book [Design Patterns: Elements of Reusable Object-Oriented Software] was published in 1994 by the so-called "[Gang of Four]", which is frequently abbreviated as "GoF". That same year, the first Pattern Languages of Programming Conference was held and the following year, the <strong>Portland Pattern Repository</strong> was set up for documentation of design patterns.</p>
 
-A design pattern is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Patterns are formalised best practices that the programmer can use to solve common problems when designing an application or system. Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved. Patterns that imply object-orientation or, more generally, mutable state, are not as applicable in functional programming languages.
+<h2>Patterns By Type</h2>
 
-Patterns originated as an architectural concept by Christopher Alexander (1977 / 79). In 1987, Kent Beck and Ward Cunningham began experimenting with the idea of applying patterns to programming - specifically pattern languages - and presented their results at the OOPSLA conference that year. In the following years, Beck, Cunningham and others followed up on this work.
+<h3>[Creational patterens]<h3>
+<p>Creational patterns are ones that create objects for you, rather than having you instantiate objects directly. This gives your program more flexibility in deciding which objects need to be created for a given case.</p>
 
-Design patterns gained popularity in computer science after the book [Design Patterns: Elements of Reusable Object-Oriented Software] was published in 1994 by the so-called "[Gang of Four]", which is frequently abbreviated as "GoF". That same year, the first Pattern Languages of Programming Conference was held and the following year, the Portland Pattern Repository was set up for documentation of design patterns.
+<ul>
+	<li>[Abstract factory] pattern groups object factories that have a common theme.</li>
+	<li>[Builder] pattern constructs complex objects by separating construction and representation.</li>
+	<li>[Factory method] pattern creates objects without specifying the exact class to create.</li>
+	<li>[Prototype] pattern creates objects by cloning an existing object.</li>
+	<li>[Singleton] pattern restricts object creation for a class to only one instance.</li>
+	<li>[Lazy initialisation] tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the Proxy pattern.</li>
+	<li>[Multiton] ensure a class has only named instances, and provide a global point of access to them.</li>
+	<li>[Object pool] avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns.</li>
+	<li>[Resource acquisition is initialisation] ensure that resources are properly released by tying them to the lifespan of suitable objects.</li>
+</ul>
 
-Patterns By Type
+<h3>[Structural patterens]</h3>
+<p>These concern class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.</p>
 
-[Creational patterens]
-Creational patterns are ones that create objects for you, rather than having you instantiate objects directly. This gives your program more flexibility in deciding which objects need to be created for a given case.
+<ul>
+	<li>[Adapter] allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.</li>
+	<li>[Bridge] decouples an abstraction from its implementation so that the two can vary independently.</li>
+	<li>[Composite] composes zero-or-more similar objects so that they can be manipulated as one object.</li>
+	<li>[Decorator] dynamically adds / overrides behaviour in an existing method of an object.</li>
+	<li>[Facade] provides a simplified interface to a large body of code.</li>
+	<li>[Flyweight] reduces the cost of creating and manipulating a large number of similar objects.</li>
+	<li>[Proxy] provides a placeholder for another object to control access, reduce cost, and reduce complexity.</li>
+	<li>[Front Controller] pattern relates to the design of Web applications. It provides a centralised entry point for handling requests.</li>
+	<li>[Module] group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.</li>
+</ul>
 
-[Abstract factory] pattern groups object factories that have a common theme.
-[Builder] pattern constructs complex objects by separating construction and representation.
-[Factory method] pattern creates objects without specifying the exact class to create.
-[Prototype] pattern creates objects by cloning an existing object.
-[Singleton] pattern restricts object creation for a class to only one instance.
-[Lazy initialisation] tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as "virtual proxy", an implementation strategy for the Proxy pattern.
-[Multiton] ensure a class has only named instances, and provide a global point of access to them.
-[Object pool] avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns.
-[Resource acquisition is initialisation] ensure that resources are properly released by tying them to the lifespan of suitable objects.
+<h3>[Behavioural patterens]</h3>
+<p>Most of these design patterns are specifically concerned with communication between objects.</p>
 
-[Structural patterens]
-These concern class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.
+<ul>
+	<li>[Chain of responsibility] delegates commands to a chain of processing objects.</li>
+	<li>[Command] creates objects which encapsulate actions and parameters.</li>
+	<li>[Interpreter] implements a specialised language.</li>
+	<li>[Iterator] accesses the elements of an object sequentially without exposing its underlying representation.</li>
+	<li>[Mediator] allows loose coupling between classes by being the only class that has detailed knowledge of their methods.</li>
+	<li>[Memento] provides the ability to restore an object to its previous state (undo).</li>
+	<li>[Observer] is a publish/subscribe pattern which allows a number of observer objects to see an event.</li>
+	<li>[State] allows an object to alter its behavior when its internal state changes.</li>
+	<li>[Strategy] allows one of a family of algorithms to be selected on-the-fly at runtime.</li>
+	<li>[Template] method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.</li>
+	<li>[Visitor] separates an algorithm from an object structure by moving the hierarchy of methods into one object.</li>
+	<li>[Null object] avoid null references by providing a default object.</li>
+	<li>[Servant] define common functionality for a group of classes.</li>
+	<li>[Specification] recombinable business logic in a Boolean fashion.</li>
+</ul>
 
-[Adapter] allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.
-[Bridge] decouples an abstraction from its implementation so that the two can vary independently.
-[Composite] composes zero-or-more similar objects so that they can be manipulated as one object.
-[Decorator] dynamically adds / overrides behaviour in an existing method of an object.
-[Facade] provides a simplified interface to a large body of code.
-[Flyweight] reduces the cost of creating and manipulating a large number of similar objects.
-[Proxy] provides a placeholder for another object to control access, reduce cost, and reduce complexity.
-[Front Controller] pattern relates to the design of Web applications. It provides a centralised entry point for handling requests.
-[Module] group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.
-
-[Behavioural patterens]
-Most of these design patterns are specifically concerned with communication between objects.
-
-[Chain of responsibility] delegates commands to a chain of processing objects.
-[Command] creates objects which encapsulate actions and parameters.
-[Interpreter] implements a specialised language.
-[Iterator] accesses the elements of an object sequentially without exposing its underlying representation.
-[Mediator] allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
-[Memento] provides the ability to restore an object to its previous state (undo).
-[Observer] is a publish/subscribe pattern which allows a number of observer objects to see an event.
-[State] allows an object to alter its behavior when its internal state changes.
-[Strategy] allows one of a family of algorithms to be selected on-the-fly at runtime.
-[Template] method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
-[Visitor] separates an algorithm from an object structure by moving the hierarchy of methods into one object.
-[Null object] avoid null references by providing a default object.
-[Servant] define common functionality for a group of classes.
-[Specification] recombinable business logic in a Boolean fashion.
-
-[Concurrency patterens]
-[Active Object] decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.
-[Balking] only execute an action on an object when the object is in a particular state.
-[Double-checked locking] reduce the overhead of acquiring a lock by first testing the locking criterion (the 'lock hint') in an unsafe manner; only if that succeeds does the actual locking logic proceed.
-[Event-based asynchronous] addresses problems with the asynchronous pattern that occur in multithreaded programs.
-[Guarded suspension] manages operations that require both a lock to be acquired and a precondition to be satisfied before the operation can be executed.
-[Join] provides a way to write concurrent, parallel and distributed programs by message passing. Compared to the use of threads and locks, this is a high level programming model.
-[Lock] one thread puts a "lock" on a resource, preventing other threads from accessing or modifying it.
-[Messaging design pattern (MDP)] allows the interchange of information (i.e. messages) between components and applications.
-[Monitor object] an object whose methods are subject to mutual exclusion, thus preventing multiple objects from erroneously trying to use it at the same time.
-[Reactor] provides an asynchronous interface to resources that must be handled synchronously.
-[Read-write lock] allows concurrent read access to an object, but requires exclusive access for write operations.
-[Scheduler] explicitly control when threads may execute single-threaded code.
-[Thread pool] a number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads.
-[Thread-specific storage] static or "global" memory local to a thread.
+<h3>[Concurrency patterens]</h3>
+<ul>
+	<li>[Active Object] decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.</li>
+	<li>[Balking] only execute an action on an object when the object is in a particular state.</li>
+	<li>[Double-checked locking] reduce the overhead of acquiring a lock by first testing the locking criterion (the 'lock hint') in an unsafe manner; only if that succeeds does the actual locking logic proceed.</li>
+	<li>[Event-based asynchronous] addresses problems with the asynchronous pattern that occur in multithreaded programs.</li>
+	<li>[Guarded suspension] manages operations that require both a lock to be acquired and a precondition to be satisfied before the operation can be executed.</li>
+	<li>[Join] provides a way to write concurrent, parallel and distributed programs by message passing. Compared to the use of threads and locks, this is a high level programming model.</li>
+	<li>[Lock] one thread puts a "lock" on a resource, preventing other threads from accessing or modifying it.</li>
+	<li>[Messaging design pattern (MDP)] allows the interchange of information (i.e. messages) between components and applications.</li>
+	<li>[Monitor object] an object whose methods are subject to mutual exclusion, thus preventing multiple objects from erroneously trying to use it at the same time.</li>
+	<li>[Reactor] provides an asynchronous interface to resources that must be handled synchronously.</li>
+	<li>[Read-write lock] allows concurrent read access to an object, but requires exclusive access for write operations.</li>
+	<li>[Scheduler] explicitly control when threads may execute single-threaded code.</li>
+	<li>[Thread pool] a number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads.
+	<li>[Thread-specific storage] static or "global" memory local to a thread.
+<ul>
 ===
-
-
