@@ -1,7 +1,5 @@
 languages/asp
 languages/asp/ActiveX Data Objects (ADO)
-languages/basic/bbc-basic
-languages/basic/gw-basic
 languages/basic/mallard-basic
 languages/basic/powerbasic
 languages/basic/qbasic
@@ -28,8 +26,6 @@ languages/java/rxjava
 languages/java/spring
 languages/javascript
 languages/mumps
-languages/organiser-programming-language
-languages/pascal
 languages/pascal/object-pascal
 languages/pascal/turbo-pascal
 languages/php/cms/Drupal
