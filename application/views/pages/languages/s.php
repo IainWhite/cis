@@ -10,7 +10,7 @@
 <?php if (!$this->stencil->getIsSub()): ?>
     <div class="row">
         <div class="col-lg-12 col-md-12">
-            <h3>Example of S Code</h3>
+            <h2>Example of S Code</h2>
             <?php echo $this->stencil->addCodeSnippet('s', 's.txt'); ?>
         </div>
     </div>

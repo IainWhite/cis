@@ -10,7 +10,6 @@ languages/basic/turbo-basic
 languages/basic/vax-basic
 languages/basic/vba
 languages/basic/visual-basic
-languages/c
 languages/c/c-plus-plus
 languages/c/c-plus-plus/borland-c-plus-plus
 languages/c/c-plus-plus/c-plus-plus-builder
@@ -21,7 +20,6 @@ languages/c/c-sharp/visual-c-sharp
 languages/c/lattice-c
 languages/c/objective-c
 languages/c/turbo-c
-languages/coldfusion
 languages/java/duke
 languages/java/Google Web Toolkit (GWT)
 languages/java/grals
@@ -29,7 +27,6 @@ languages/java/play
 languages/java/rxjava
 languages/java/spring
 languages/javascript
-languages/jsp
 languages/mumps
 languages/organiser-programming-language
 languages/pascal

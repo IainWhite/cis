@@ -12,7 +12,7 @@
 <?php if (!$this->stencil->getIsSub()): ?>
     <div class="row">
         <div class="col-lg-12 col-md-12">
-            <h3>Example of Python Code</h3>
+            <h2>Example of Python Code</h2>
             <?php echo $this->stencil->addCodeSnippet('python', 'python.txt'); ?>
         </div>
     </div>

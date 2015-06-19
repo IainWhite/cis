@@ -13,7 +13,7 @@
 <?php if (!$this->stencil->getIsSub()): ?>
     <div class="row">
         <div class="col-lg-12 col-md-12">
-            <h3>Example of Perl Code</h3>
+            <h2>Example of Perl Code</h2>
             <?php echo $this->stencil->addCodeSnippet('perl', 'perl.txt'); ?>
         </div>
     </div>

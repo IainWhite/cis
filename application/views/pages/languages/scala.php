@@ -11,7 +11,7 @@
 <?php if (!$this->stencil->getIsSub()): ?>
     <div class="row">
         <div class="col-lg-12 col-md-12">
-            <h3>Example of Scala Code</h3>
+            <h2>Example of Scala Code</h2>
             <?php echo $this->stencil->addCodeSnippet('scala', 'scala.txt'); ?>
         </div>
     </div>

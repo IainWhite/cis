@@ -28,7 +28,7 @@
 
     <div class="row">
         <div class="col-lg-12 col-md-12">
-            <h3>Example of Fortran Code</h3>
+            <h2>Example of Fortran Code</h2>
             <?php echo $this->stencil->addCodeSnippet('fortran', 'fortran.txt'); ?>
         </div>
     </div>
