@@ -1,8 +1,5 @@
-languages/ada
 languages/asp
 languages/asp/ActiveX Data Objects (ADO)
-languages/assembly-language
-languages/basic
 languages/basic/bbc-basic
 languages/basic/gw-basic
 languages/basic/mallard-basic
@@ -11,7 +8,6 @@ languages/basic/qbasic
 languages/basic/quickbasic
 languages/basic/turbo-basic
 languages/basic/vax-basic
-languages/basic/vb-dot-net
 languages/basic/vba
 languages/basic/visual-basic
 languages/c
@@ -26,9 +22,6 @@ languages/c/lattice-c
 languages/c/objective-c
 languages/c/turbo-c
 languages/coldfusion
-languages/dcl
-languages/dot-net
-languages/dot-net-framework
 languages/groovy
 languages/java/duke
 languages/java/Google Web Toolkit (GWT)
@@ -38,13 +31,11 @@ languages/java/rxjava
 languages/java/spring
 languages/javascript
 languages/jsp
-languages/machine-code
 languages/mumps
 languages/organiser-programming-language
 languages/pascal
 languages/pascal/object-pascal
 languages/pascal/turbo-pascal
-languages/perl
 languages/php/cms/Drupal
 languages/php/cms/ExpressionEngine
 languages/php/cms/Joonla!
@@ -65,7 +56,6 @@ languages/php/frameworks/Yii
 languages/php/frameworks/Zend Framework
 languages/reactive-extensions
 languages/ruby/Ruby on Rails
-languages/scala
 languages/scala/akka
 languages/scala/rxscala
 languages/shell/bash
