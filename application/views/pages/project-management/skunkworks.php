@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Skunkworks Project'); ?>
+        <p>A <strong>skunkworks project</strong> is a project developed by a small and loosely structured group of people who research and develop a project primarily for the sake of radical innovation. The terms originated with <strong>Lockheed's World War II Skunk Works</strong> project.
+        <p>Everett Rogers defines skunkworks as follows: "<em>It is an especially enriched environment that is intended to help a small group of individuals design a new idea by escaping routine organisational procedures. The research and development (R &amp; D) workers in a skunkworks are usually specially selected, given special resources, and work on a crash basis to create an innovation</em>".</p>
+        <p>The term originated during World War II when the P-80 Shooting Star was designed by Lockheed’s Advanced Development Projects Division in Burbank, California, under similar circumstances. A closely guarded incubator was set up in a circus tent next to a plastics factory in Burbank. The strong smells that wafted into the tent made the Lockheed R&amp;D workers think of the foul-smelling “Skonk Works” factory in Al Capp’s Li'l Abner comic strip.</p>
+        <p>Since its origination with Skunk Works, the term was generalised to apply to similar high-priority R &amp; D projects at other large organisations which feature a "small team taken out of their normal working environment and given exceptional freedom from their organisation's standard management constraints."</p>
+        <p>The term typically refers to technology projects developed in semi-secrecy, such as the lab of about 50 people established by <?php echo $this->stencil->addLink('Steve Jobs', 'P'); ?> to develop the Macintosh computer, located behind the Good Earth Restaurant in Cupertino.
+    </div>
+</div>

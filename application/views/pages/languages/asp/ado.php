@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('ASP.NET'); ?>
-        <p><strong>ASP.NET</strong> is an open source server-side Web application framework designed for Web development to produce dynamic Web pages. It was developed by <?php echo $this->stencil->addLink('Microsoft', 'C'); ?> to allow programmers to build dynamic web sites, web applications and web services.</p>
-        <p>It was first released in January 2002 with version 1.0 of the <?php echo $this->stencil->addLink('.NET Framework', 'L'); ?>, and is the successor to Microsoft's Active Server Pages (<?php echo $this->stencil->addLink('ASP', 'L'); ?>) technology. ASP.NET is built on the <?php echo $this->stencil->addLink('Common Language Runtime', 'L'); ?> (CLR), allowing programmers to write ASP.NET code using any supported .NET language. The ASP.NET <?php echo $this->stencil->addLink('SOAP', 'WD'); ?> extension framework allows ASP.NET components to process SOAP messages.</p>
+        <?php echo $this->stencil->setHeadline('ADO - ActiveX Data Objects'); ?>
+        <p></p>Microsoft's <strong>ActiveX Data Objects (ADO)</strong> comprises a set of <?php echo $this->stencil->addLink('Component Object Model', 'IT'); ?> (COM) objects for accessing data sources. A part of <strong>MDAC (Microsoft Data Access Components)</strong>, it provides a middleware layer between programming languages and <strong>OLE DB</strong> (a means of accessing data stores, whether databases or not, in a uniform manner). ADO allows a developer to write programs that access data without knowing how the database is implemented; developers must be aware of the database for connection only. No knowledge of [SQL] is required to access a database when using ADO, although one can use ADO to execute SQL commands directly (with the disadvantage of introducing a dependency upon the type of database used).</p>
+        <p><?php echo $this->stencil->addLink('Microsoft', 'C'); ?> introduced ADO in October 1996, positioning the software as a successor to Microsoft's earlier object layers for accessing data sources, including <strong>RDO (Remote Data Objects)</strong> and <strong>DAO (Data Access Objects)</strong>.</p>
     </div>
 </div>
 
@@ -64,3 +64,4 @@
         </div>
     </div>
 <?php endif; ?>
+
