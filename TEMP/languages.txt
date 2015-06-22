@@ -1,6 +1,4 @@
 languages/asp
-languages/basic/vax-basic
-languages/basic/visual-basic
 languages/c/c-plus-plus
 languages/c/c-plus-plus/borland-c-plus-plus
 languages/c/c-plus-plus/c-plus-plus-builder
@@ -19,8 +17,6 @@ languages/java/rxjava
 languages/java/spring
 languages/javascript
 languages/mumps
-languages/pascal/object-pascal
-languages/pascal/turbo-pascal
 languages/php/cms/Drupal
 languages/php/cms/ExpressionEngine
 languages/php/cms/Joonla!
