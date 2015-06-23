@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('WebKit Layout Engine'); ?>
+        <p><strong>WebKit</strong> is a <?php echo $this->stencil->addLink('layout engine', 'WD'); ?> software component for rendering web pages in <?php echo $this->stencil->addLink('Web browsers', 'WD'); ?>.</p>
+        <p>It powers <?php echo $this->stencil->addLink('Apple Safari', 'WB'); ?> web browser and was previously used in <?php echo $this->stencil->addLink('Google Chrome', 'WB'); ?> web browser.</p>
+        <p>WebKit is also used as the basis for the experimental browser included with the <strong>Amazon Kindle</strong> e-book reader, as well as the default browser in the <?php echo $this->stencil->addLink('Apple iOS', 'OS'); ?>, <?php echo $this->stencil->addLink('Android', 'OS'); ?>, BlackBerry 10, and Tizen mobile operating systems.</p>
+        <p>WebKit's <?php echo $this->stencil->addLink('C++', 'languages/c'); ?> application programming interface provides a set of classes to display web content in windows, and implements browser features such as following links when clicked by the user, managing a back-forward list, and managing a history of pages recently visited.</p>
+        <p>WebKit's <?php echo $this->stencil->addLink('HTML', 'WD'); ?> and <?php echo $this->stencil->addLink('JavaScript', 'L'); ?> code originally began as a fork of the <?php echo $this->stencil->addLink('KHTML', 'web-development/layout-engines'); ?> and <?php echo $this->stencil->addLink('KJS', 'web-development/javascript-engines'); ?> libraries from <?php echo $this->stencil->addLink('KDE', 'C'); ?>, and has now been further developed by individuals from KDE, Apple, Google, Nokia, Bitstream, BlackBerry, Igalia, and others.</p>
+        <p><?php echo $this->stencil->addLink('OS X', 'OS'); ?>, <?php echo $this->stencil->addLink('Windows', 'OS'); ?>, <?php echo $this->stencil->addLink('Linux', 'OS'); ?>, and some other <?php echo $this->stencil->addLink('Unix', 'OS'); ?> like operating systems are supported by the project.</p>
+        <p>On 3 April 2013 Google announced that it had forked <strong>WebCore</strong>, a component of WebKit to be used in future versions of Google Chrome and Opera under the name <?php echo $this->stencil->addLink('Blink', 'WD'); ?>.</p>
+        <p>WebKit is available under a BSD-form license with the exception of the <strong>WebCore</strong> and <strong>JavaScriptCore</strong> components, which are available under the GNU Lesser General Public License.</p>
+        <p>As of 7 March 2013, WebKit is a trademark of Apple, registered with the U.S. Patent and Trademark Office.</p>
+        <p>The WebKit project was started within Apple by <strong>Don Melton</strong> on 25 June 2001 as a fork of <?php echo $this->stencil->addLink('KHTML', 'web-development/layout-engines'); ?> and <?php echo $this->stencil->addLink('KJS', 'web-development/javascript-engines'); ?>.</p>
+        <p>KHTML and KJS were ported to OS X with the help of an adapter library and renamed WebCore and <?php echo $this->stencil->addLink('JavaScriptCore', 'WD'); ?>.</p>
+    </div>
+</div>

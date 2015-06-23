@@ -1,4 +1,3 @@
-languages/java/Google Web Toolkit (GWT)
 languages/java/grals
 languages/java/play
 languages/java/spring
