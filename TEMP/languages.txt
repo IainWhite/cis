@@ -1,4 +1,3 @@
-languages/asp
 languages/c/c-plus-plus
 languages/c/c-plus-plus/borland-c-plus-plus
 languages/c/c-plus-plus/c-plus-plus-builder
@@ -15,8 +14,6 @@ languages/java/grals
 languages/java/play
 languages/java/rxjava
 languages/java/spring
-languages/javascript
-languages/mumps
 languages/php/cms/Drupal
 languages/php/cms/ExpressionEngine
 languages/php/cms/Joonla!

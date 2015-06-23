@@ -1,0 +1,129 @@
+Node.js is an open source, cross-platform runtime environment for server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, Linux, FreeBSD, NonStop, IBM AIX, IBM System z and IBM i. Its work is hosted and supported by the Node.js Foundation,[4] a Collaborative Project at Linux Foundation.[5]
+
+Node.js provides an event-driven architecture and a non-blocking I/O API that optimizes an application's throughput and scalability. These technologies are commonly used for real-time web applications.
+
+Node.js uses the Google V8 JavaScript engine to execute code, and a large percentage of the basic modules are written in JavaScript. Node.js contains a built-in library to allow applications to act as a Web server without software such as Apache HTTP Server or IIS.
+
+===
+Dojo Toolkit (stylized as dōjō toolkit) is an open source modular JavaScript library (or more specifically JavaScript toolkit) designed to ease the rapid development of cross-platform, JavaScript/Ajax-based applications and web sites. It was started by Alex Russell, Dylan Schiemann, David Schontzler, and others in 2004[1] and is dual-licensed under the modified BSD license or the Academic Free License (≥ 2.1).[2] The Dojo Foundation is a non-profit organization[3] created with the goal to promote the adoption of the toolkit.
+===
+MooTools (My Object-Oriented Tools)[2] is a lightweight, object-oriented, JavaScript framework. It is released under the free, open-source MIT License.[3] It is used on more than 4% of all websites, and is one of the most popular JavaScript libraries.[4]
+
+Valerio Proietti first authored the framework and released it in September 2006[5] taking as his inspiration Prototype and Dean Edward's base2. MooTools originated from Moo.fx, a popular plug-in Proietti produced for Prototype in October 2005,[6] which is still maintained and used.
+
+Whereas Prototype extended—prototyped—many of JavaScript's native String, Array, and Function objects with additional methods, Proietti desired a framework that (at the time)[7] further extended the native Element object as well[5] to offer greater control of the Document Object Model (DOM).[8]
+
+Components[edit]
+MooTools includes a number of components, but not all need to be loaded for each application. Some of the component categories are:
+
+Core: A collection of utility functions that all the other components require.[9]
+More: An official collection of add-ons that extend the Core and provide enhanced functionality.[10]
+Class: The base library for Class object instantiation.[11]
+Natives: A collection of JavaScript Native Object enhancements. The Natives add functionality, compatibility, and new methods that simplify coding.
+Element: Contains a large number of enhancements and compatibility standardization to the HTML Element object.[12]
+Fx: An advanced effects-API to animate page elements.[13]
+Request: Includes XHR interface, Cookie, JSON, and HTML retrieval-specific tools for developers to exploit.[14]
+Window: Provides a cross-browser interface to client-specific information, such as the dimensions of the window.[15]
+
+===
+The Prototype JavaScript Framework is a JavaScript framework created by Sam Stephenson in February 2005 as part of the foundation for Ajax support in Ruby on Rails.[1] It is implemented as a single file of JavaScript code, usually named prototype.js. Prototype is distributed standalone, but also as part of larger projects, such as Ruby on Rails, script.aculo.us and Rico. As of 2015, Prototype is used by 2.3% of all websites.[2]
+
+===
+script.aculo.us is a JavaScript library built on the Prototype JavaScript Framework, providing dynamic visual effects and user interface elements via the Document Object Model (DOM).
+
+It is most notably included with Ruby on Rails and Seaside, but also provided separately to work with other web application frameworks and scripting languages.
+
+script.aculo.us was extracted by Thomas Fuchs from his work on fluxiom, a web based digital asset management tool by the design company wollzelle.[1] It was first released to the public in June 2005.
+===
+The Yahoo! User Interface Library (YUI) is a discontinued open-source JavaScript library for building richly interactive web applications using techniques such as Ajax, DHTML, and DOM scripting. YUI includes several core CSS resources. It is available under a BSD License.[2] Development on YUI began in 2005 and Yahoo! properties such as My Yahoo! and the Yahoo! front page began using YUI in the summer of that year. YUI was released for public use in February 2006.[3] It was actively developed by a core team of Yahoo! engineers.
+
+In September 2009, Yahoo! released YUI 3, a new version of YUI rebuilt from the ground up to modernize the library and incorporate lessons learned from YUI 2. Among the enhancements are a CSS selector driven engine, like jQuery, for retrieving DOM elements, a greater emphasis on granularity of modules, a smaller seed file that loads other modules when necessary, and a variety of syntactic changes intended to make writing code faster and easier.[4]
+
+The YUI Library project at Yahoo! was founded by Thomas Sha and sponsored internally by Yahoo! co-founder Jerry Yang; its principal architects have been Sha, Adam Moore, and Matt Sweeney. The library's developers maintain the YUIBlog; the YUI community discusses the library and implementations in its community forum.
+
+On August 29, 2014, it was announced that active development of YUI by Yahoo! would end, citing the evolution of the JavaScript standards, steadily decreasing interest in large JavaScript libraries by developers, and the proliferation of server-side solutions. Future development will be limited to maintenance releases addressing issues which are "absolutely critical to Yahoo properties."[5]
+===
+D3.js (or just D3 for Data-Driven Documents) is a JavaScript library for producing dynamic, interactive data visualizations in web browsers. It makes use of the widely implemented SVG, HTML5, and CSS standards. It is the successor to the earlier Protovis framework.[2] In contrast to many other libraries, D3.js allows great control over the final visual result.[3] Its development was noted in 2011,[4] as version 2.0.0 was released in August 2011.[5]
+===
+SWFObject (originally FlashObject) is an open-source JavaScript library used to embed Adobe Flash content onto Web pages,[1] which is supplied as one small JavaScript file.[2][3] The library can also detect the installed Adobe Flash Player plug-in in all major web browsers, on all major operating systems (OS), and can redirect the visitor to another webpage or show alternate HTML content if the installed plug-in is not suitable.[4]
+===
+AngularJS (commonly referred to as "Angular") is an open-source web application framework maintained by Google and by a community of individual developers and corporations to address many of the challenges encountered in developing single-page applications. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model-view-viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications.
+
+The AngularJS library works by first reading the HTML page, which has embedded into it additional custom tag attributes. Angular interprets those attributes as directives to bind input or output parts of the page to a model that is represented by standard JavaScript variables. The values of those JavaScript variables can be manually set within the code, or retrieved from static or dynamic JSON resources.
+===
+Ext JS is a pure JavaScript application framework for building interactive web applications[1] using techniques such as Ajax, DHTML and DOM scripting.
+
+Originally built as an add-on library extension of YUI by Jack Slocum, Ext JS includes interoperability with jQuery and Prototype. Beginning with version 1.1, Ext JS retains no dependencies on external libraries, instead making their use optional.[2
+===
+qooxdoo /ˈkuːksduː/ is an open source Ajax web application framework. It is an LGPL- and/or EPL-licensed client-side and server-agnostic solution, and includes support for professional JavaScript development, a graphical user interface (GUI) toolkit and high-level client-server communication.
+
+qooxdoo is entirely class-based, tries to leverage the features of object-oriented JavaScript and is based on namespaces. Most modern browsers are supported, including Gecko (Firefox, Mozilla, SeaMonkey), Presto (Opera), Trident (Internet Explorer, RealPlayer, Winamp), WebKit (Chrome, Safari).[1] It includes an API reference that is auto-generated from Javadoc-like comments. Among the accompanying tool set is a comprehensive JavaScript parser that is an integral part of the automatic build process and is used to optimize, compress, link and deploy custom applications, and generate documentation. Internationalization and localization of applications are supported. qooxdoo can be downloaded[2] as a comprehensive SDK.
+===
+Glow is an open-source JavaScript library created by the BBC. Development on Glow began in 2007,[1] and it was publicly released under an Apache License in July 2009.[2]
+
+The rationale for the development of the library, as opposed to using other libraries such as jQuery or YUI, was to meet the BBC's stated targets for cross-browser compatibility (particularly Safari 1.3)[3] that are of particular use in creating a website that uses data that corresponds to times, for example broadcast metadata.
+===
+MochiKit is a light-weight JavaScript library written and maintained by Bob Ippolito.
+
+Inspired by the Python networking framework, Twisted, it uses the concept of deferred execution to allow asynchronous behaviour. This has made it useful in the development of interactive web pages which maintain a dialog with the web server, sometimes called Ajax applications.
+
+Of particular note is its ability to load and manipulate JSON-encoded data sets, and MochiKit.DOM, a set of functions to easily create dynamic page components.
+
+MochiKit forms the foundation of the client-side functionality of the TurboGears Python web-application stack. Perhaps as a result of the author's involvement in the Python community, MochiKit exhibits many idioms familiar to Python programmers, and is commonly used in Python-based web applications.
+===
+Underscore.js is a JavaScript library which provides utility functions for common programming tasks. It is comparable to features provided by Prototype.js and the Ruby language, but opts for a functional programming design instead of extending object prototypes. For example, Underscore.js's _.each function delegates to the host environment's native forEach implementation when present, or a compatible version when absent. The documentation refers to Underscore.js as "the tie to go along with jQuery's tux, and Backbone.js's suspenders." Underscore.js was created by Jeremy Ashkenas, who is also known for Backbone.js and CoffeeScript.[1]
+===
+Backbone.js is a JavaScript library with a RESTful JSON interface and is based on the model–view–presenter (MVP) application design paradigm. Backbone is known for being lightweight, as its only dependency is on one JavaScript library,[2] Underscore.js. It is designed for developing single-page web applications,[3] and for keeping various parts of web applications (e.g. multiple clients and the server) synchronized.[4] Backbone was created by Jeremy Ashkenas, who is also known for CoffeeScript.[5]
+===
+Ember.js is an open-source JavaScript web application framework. It is based on the model-view-controller (MVC) software architectural pattern. It allows developers to create scalable single-page applications[1] by incorporating common idioms and best practices into the framework. It provides a rich object model, declarative two-way data binding, computed properties, automatically-updating templates powered by HTMLBars, and a router for managing application state.[2
+===
+JavaScriptMVC is an open-source rich Internet application framework based on jQuery and OpenAjax. It extends those libraries with a model–view–controller architecture and tools for testing and deployment. As it does not depend on server components, it can be combined with any web service interface and server-side language like ASP.NET, Java, Perl, PHP, Python, or Ruby.
+===
+Knockout is a standalone JavaScript implementation of the Model-View-ViewModel pattern with templates. The underlying principles are therefore:
+
+- a clear separation between domain data, view components and data to be displayed
+- the presence of a clearly defined layer of specialized code to manage the relationships between the view components
+
+The latter leverages the native event management features of the JavaScript language.
+
+These features streamline and simplify the specification of complex relationships between view components, which in turn make the display more responsive and the user experience richer.
+===
+Modernizr is a JavaScript library which is designed to detect HTML5 and CSS3 features in various browsers. Since the specifications for both HTML5 and CSS3 are only partially implemented or nonexistent in many browsers, it can be difficult to determine which techniques are available for use in rendering a page, and when it is necessary to avoid using a feature or to load a workaround such as a shim to emulate the feature. Modernizr aims to provide this feature detection in a complete and standardized manner.[3]
+
+===
+
+In computer programming, a shim is a small library that transparently intercepts API calls and changes the arguments passed, handles the operation itself, or redirects the operation elsewhere.[1][2] Shims typically come about when the behavior of an API changes, thereby causing compatibility issues for older applications which still rely on the older functionality. In such cases, the older API can still be supported by a thin compatibility layer on top of the newer code. Web polyfills are a related concept. Shims can also be used for running programs on different software platforms than they were developed for.
+===
+HTML5Shiv is a JavaScript workaround, created by Sjoerd Visscher, to enable styling of HTML5 elements in versions of Internet Explorer prior to version 9, which do not allow unknown elements to be styled without JavaScript.
+
+Prior to version 9 of Internet Explorer there was little to no support for HTML5 elements and other HTML5 features.[1]
+
+Internet Explorer commands a large percentage of the usage share of web browsers. Within the Internet Explorer percentage, most of its current usage as of February 2013 comes from version 9, with version 8 holding the second-highest and version 7 the third-highest value.[2] With its high usage percentage, it is important to ensure that web pages function correctly in Internet Explorer. HTML5Shiv allows versions of Internet Explorer prior to version 9 to recognize the HTML5 tags and allows them to be styled using CSS.
+===
+In web development, a polyfill (or polyfiller) is downloadable code which provides facilities that are not built into a web browser. It implements technology that a developer expects the browser to provide natively, providing a more uniform API landscape. For example, many features of HTML5 are not supported by versions of Internet Explorer older than version 8 or 9, but can be used by web pages if those pages install a polyfill.[1] Web shims[2] and HTML5 Shivs are related concepts.
+
+The term originated with Remy Sharp who required a word that meant “replicate an API using JavaScript (or Flash or whatever) if the browser doesn’t have it natively” while co-writing the book 'Introducing HTML5' in 2009. Shim, to him, meant a piece of code that you could add that would fix some functionality, but it would most often have its own API, thus did not fulfill Sharp's terminology requirements. The terms progressive enhancement and graceful degradation similarly did not meet his needs since they didn't specifically require, nor were they specific to, JavaScript.
+
+Sharp decided upon the term polyfill that can imply filling in missing browser functionality and using any number of techniques (poly can mean “many” in Greek). Polyfilla, a paste used to cover up cracks and holes in walls, was also a visualization that Sharp found fitting for the term. He has received feedback stating that the “word should be changed”, but the term has now grown more popular amongst web developers. Sharp intentionally did not promote the term widely, only using it in specific cases and believes that it received a large amount of exposure after Paul Irish directly referenced the term in a presentation months after its inception and was helped become popular due to Modernizr's “HTML5 shims & polyfill” page.
+
+Examples[edit]
+html5shiv
+In IE versions prior to 9, unknown HTML elements like <section> and <nav> would be parsed as empty elements, breaking the page's nesting structure and making those elements impossible to style using CSS. One of the most widely used polyfills, html5shiv exploits another quirk of IE to work around this bug: calling document.createElement("tagname") for each of the new HTML5 elements, which causes IE to parse them correctly. It also includes basic default styling for those HTML5 elements.
+-prefix-free
+Though most polyfills target out-of-date browsers, some exist to simply push modern browsers forward a little bit more. Lea Verou's -prefix-free polyfill is such a polyfill, allowing current browsers to recognise the unprefixed versions of several CSS3 properties instead of requiring the developer to write out all the vendor prefixes. It reads the page's stylesheets and replaces any unprefixed properties with their prefixed counterparts recognised by the current browser.
+Selectivizr
+Keith Clark's Selectivizr is a popular polyfill that makes many CSS3 selectors work in IE 8 and below. It reads the page's stylesheets looking for a number of known CSS3 selectors, then uses a JavaScript selector library to query the document for elements matching those selectors, applying the styles directly to those elements. It supports several JavaScript selector libraries such as jQuery.
+Flexie
+Possibly one of the most anticipated features of CSS3, Flexible Box Layout (a.k.a. Flexbox) promises to be an extremely powerful tool for laying out interface elements. WebKit and Mozilla engines have supported a preliminary draft syntax for years. Flexie implements support for that same syntax in IE and Opera. However, the draft spec has undergone a drastic revision to a new (and much more powerful) syntax, which is not yet supported by Flexie. Flexie can still be used along with the old syntax, but the developer must make sure they include the new syntax for future browsers as well.
+CSS3 PIE
+PIE ("Progressive Internet Explorer") implements some of the most popular missing CSS3 box decoration properties in IE, including border-radius and box-shadow for IE 8 and below, and linear-gradient backgrounds for IE 9 and below. Invoked as a HTC behavior (a proprietary IE feature), it looks for the unsupported CSS3 properties on specific elements and renders those properties using VML for IE 6-8 and SVG for IE 9. Its rendering is mostly indistinguishable from native browser implementations and it handles dynamic DOM modification well.
+JSON 2
+Douglas Crockford originally wrote json2.js as an API for reading and writing his (then up-and-coming) JSON data format. It became so widely used that browser vendors decided to implement its API natively and turn it into a de facto standard; json2.js was transformed from a library to a polyfill after the fact.[clarification needed]
+es5-shim
+ECMAScript 5th Edition ("ES5") brings some useful new scripting features, and since they're syntactically compatible with older JavaScript engines they can mostly be polyfilled by patching methods onto built-in JS objects. This es5-shim polyfill does it in two parts: es5-shim.js contains those methods that can be fully polyfilled, and es5-sham.js contains partial implementations of the other methods which rely too much on the underlying engine to work accurately.
+FlashCanvas
+FlashCanvas is an implementation of the HTML5 Canvas API using a Flash plug-in. A rare commercial polyfill, it comes in a paid version, as well as a free version, which lacks a few advanced features like shadows.
+MediaElement.js
+John Dyer's MediaElement.js polyfills support for <video> and <audio> elements, including the HTML5 MediaElement API, in older browsers using Flash or Silverlight plug-ins. It also provides an optional media player UI for those elements, which is consistent across all browsers.
+Webshims Lib
+Alexander Farkas's Webshims Lib aggregates many other polyfills together into a single package and conditionally loads only those needed by the visiting browser.
