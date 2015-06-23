@@ -21,10 +21,8 @@ languages/php/cms/Mambo
 languages/php/cms/Wordpress
 languages/php/elePHPant
 languages/php/frameworks/CakePHP
-languages/php/frameworks/CodeIgniter
 languages/php/frameworks/Fat-Free
 languages/php/frameworks/FuelPHP
-languages/php/frameworks/Laraval
 languages/php/frameworks/Lithium
 languages/php/frameworks/Phalcon
 languages/php/frameworks/PHPixie
@@ -34,9 +32,3 @@ languages/php/frameworks/Yii
 languages/php/frameworks/Zend Framework
 languages/reactive-extensions
 languages/ruby/Ruby on Rails
-languages/scala/akka
-languages/scala/rxscala
-languages/shell/bash
-languages/shell/bourne-shell
-languages/shell/c-shell
-languages/shell/korn-shell
