@@ -1,7 +1,3 @@
-languages/c/c-plus-plus/borland-c-plus-plus
-languages/c/c-plus-plus/c-plus-plus-builder
-languages/c/c-plus-plus/turbo-c-plus-plus
-languages/c/c-plus-plus/visual-c-plus-plus
 languages/java/Google Web Toolkit (GWT)
 languages/java/grals
 languages/java/play
