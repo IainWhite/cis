@@ -1,18 +1,10 @@
-languages/c/c-plus-plus
 languages/c/c-plus-plus/borland-c-plus-plus
 languages/c/c-plus-plus/c-plus-plus-builder
 languages/c/c-plus-plus/turbo-c-plus-plus
 languages/c/c-plus-plus/visual-c-plus-plus
-languages/c/c-sharp
-languages/c/c-sharp/visual-c-sharp
-languages/c/lattice-c
-languages/c/objective-c
-languages/c/turbo-c
-languages/java/duke
 languages/java/Google Web Toolkit (GWT)
 languages/java/grals
 languages/java/play
-languages/java/rxjava
 languages/java/spring
 languages/php/cms/Drupal
 languages/php/cms/ExpressionEngine
