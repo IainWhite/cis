@@ -91,7 +91,6 @@ web-development/front-end/mark-up/html
 web-development/front-end/mark-up/html/html5
 web-development/front-end/mark-up/html/xhtml
 web-development/front-end/styling
-web-development/gecko
 web-development/gerrit
 web-development/gopher
 web-development/hiawatha
@@ -99,11 +98,8 @@ web-development/ip-address
 web-development/isp
 web-development/java-applet
 web-development/javascript-engine
-web-development/javascriptcore
 web-development/json
 web-development/jsss
-web-development/khtml
-web-development/kjs
 web-development/lamp
 web-development/layout-engine
 web-development/mambo
@@ -125,12 +121,10 @@ web-development/paypal
 web-development/protocols
 web-development/rackspace
 web-development/rdp
-web-development/rhino
 web-development/rietveld
 web-development/rss
 web-development/same-origin-policy
 web-development/scripting
-web-development/seamonkey
 web-development/seo
 web-development/sgml
 web-development/simpletest
@@ -138,12 +132,9 @@ web-development/slash
 web-development/slashdot-effect
 web-development/smil
 web-development/social-media
-web-development/spidermonkey
 web-development/ssi
 web-development/svg
-web-development/tasman
 web-development/tcp-ip
-web-development/trident
 web-development/udp
 web-development/uucp
 web-development/vagrant
