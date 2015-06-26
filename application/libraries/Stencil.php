@@ -805,6 +805,12 @@ class Stencil {
             case 'MVC':
                 $path = 'software-development/architectural-patterns/mvc';
                 break;
+            case 'IE':
+                $path = 'web-development/browsers/ie';
+            case 'WIN':
+                $path = 'it/os/windows';
+            case 'WIS':
+                $path = 'it/os/windows-server';
         }
         if ($full) {
             $path = base_url() . $path;
