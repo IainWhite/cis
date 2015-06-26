@@ -811,6 +811,12 @@ class Stencil {
                 $path = 'it/os/windows';
             case 'WIS':
                 $path = 'it/os/windows-server';
+            case 'OSX':
+                $path = 'it/os/os-x';
+            case 'MOS':
+                $path = 'it/os/mac-os';
+            case 'MSS':
+                $path = 'it/os/os-x-server';
         }
         if ($full) {
             $path = base_url() . $path;
