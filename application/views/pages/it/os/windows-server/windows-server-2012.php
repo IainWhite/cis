@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Windows Server 2012'); ?>
+        <p><strong>Windows Server 2012</strong>, codenamed "<em>Windows Server 8</em>", is the sixth release of <?php echo $this->stencil->addLink('Windows Server', 'OS'); ?>. It is the server version of <?php echo $this->stencil->addLink('Windows 8', 'WIN'); ?> and succeeds <?php echo $this->stencil->addLink('Windows Server 2008 R2', 'WIS'); ?>. Two pre-release versions, a developer preview and a beta version, were released during development. The software was generally available to customers starting on 4 September 2012.</p>
+        <p>Unlike its predecessor, Windows Server 2012 has no support for Itanium-based computers, and has four editions. Various features were added or improved over Windows Server 2008 R2 (with many placing an emphasis on cloud computing), such as an updated version of <?php echo $this->stencil->addLink('Hyper-V', 'IT'); ?>, an IP address management role, a new version of Windows Task Manager, and ReFS, a new file system. Windows Server 2012 received generally good reviews in spite of having included the same controversial Metro-based user interface seen in <?php echo $this->stencil->addLink('Windows 8', 'WIN'); ?>.</p>
+        <p>The successor to Windows Server 2012, called <?php echo $this->stencil->addLink('Windows Server 2012 R2', 'WIS'); ?>, was released along with <?php echo $this->stencil->addLink('Windows 8.1', 'WIN'); ?> in October 2013. A service pack, formally designated Windows Server 2012 R2 Update, was released in April 2014.</p>
+    </div>
+</div>

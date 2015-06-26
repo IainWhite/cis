@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Windows NT 3.51'); ?>
+        <p><strong>Windows NT 3.51</strong> is the third release of <?php echo $this->stencil->addLink('Microsoft', 'C'); ?>'s <?php echo $this->stencil->addLink('Windows NT', 'WIS'); ?> line of <?php echo $this->stencil->addLink('Operating System', 'IT'); ?>. It was released on 30 May 1995, nine months after <?php echo $this->stencil->addLink('Windows NT 3.5', 'WIS'); ?>, and three months before the release of <?php echo $this->stencil->addLink('Windows 95', 'WIN'); ?>. The release provided two notable feature improvements; firstly NT 3.51 was the first of a short-lived outing of <?php echo $this->stencil->addLink('Microsoft Windows', 'OS'); ?> on the <?php echo $this->stencil->addLink('PowerPC', 'ITH'); ?> architecture. The second most significant enhancement offered through the release was that it provides client/server support for interoperating with Windows 95, which was released three months after NT 3.51. <?php echo $this->stencil->addLink('Windows NT 4.0', 'WIS'); ?> became its successor a year later; Microsoft continued to support Windows NT 3.51 until 31 December 2001.</p>
+    </div>
+</div>

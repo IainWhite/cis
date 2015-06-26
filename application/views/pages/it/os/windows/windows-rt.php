@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Windows RT'); ?>
+        <p><strong>Windows RT</strong> is an edition of <?php echo $this->stencil->addLink('Windows 8', 'WIN'); ?> and <?php echo $this->stencil->addLink('Windows 8.1', 'WIN'); ?> designed for mobile devices (primarily tablet computers) that use 32-bit ARM architecture (ARMv7).</p>
+        <p><?php echo $this->stencil->addLink('Microsoft', 'C'); ?> intended for devices with Windows RT to take advantage of the architecture's power efficiency to allow for longer battery life, to use system-on-chip (SoC) designs to allow for thinner devices, and to provide a "reliable" experience over time. In comparison to other mobile operating systems, Windows RT also supports a relatively large number of existing USB peripherals and accessories, and includes a version of [Microsoft Office] 2013 optimised for ARM devices as pre-loaded software. However, while Windows RT inherits the appearance and functionality of Windows 8, it contains a number of limitations, which includes only being capable of executing software that is digitally signed by Microsoft (which includes pre-loaded software and software obtained from Windows Store), and lacking certain enterprise-oriented features.</p>
+    </div>
+</div>
