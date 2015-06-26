@@ -11,8 +11,8 @@
         <p>Microsoft also produces an integrated development environment largely for .NET software called <?php echo $this->stencil->addLink('Visual Studio', 'SWI'); ?>.</p>
         <p>Microsoft started development of .NET Framework in the late 1990s, originally under the name of <strong>Next Generation Windows Services (NGWS)</strong>.</p>
         <p>By late 2000, the first beta versions of .NET 1.0 were released.</p>
-        <p>Version 3.0 of .NET Framework is included with Windows Server 2008 and <?php echo $this->stencil->addLink('Windows Vista', 'OS'); ?>.</p>
-        <p>Version 3.5 is included with <?php echo $this->stencil->addLink('Windows 7', 'OS'); ?> and Windows Server 2008 R2, and can also be installed on <?php echo $this->stencil->addLink('Windows XP', 'OS'); ?> and Windows Server 2003.</p>
+        <p>Version 3.0 of .NET Framework is included with <?php echo $this->stencil->addLink('Windows Server 2008', 'WIS'); ?> and <?php echo $this->stencil->addLink('Windows Vista', 'OS'); ?>.</p>
+        <p>Version 3.5 is included with <?php echo $this->stencil->addLink('Windows 7', 'OS'); ?> and <?php echo $this->stencil->addLink('Windows Server 2008 R2', 'WIS'); ?>, and can also be installed on <?php echo $this->stencil->addLink('Windows XP', 'OS'); ?> and <?php echo $this->stencil->addLink('Windows Server 2003', 'WIS'); ?>.</p>
         <p>On 12 April 2010, .NET Framework 4 was released alongside Visual Studio 2010.</p>
     </div>
 </div>
