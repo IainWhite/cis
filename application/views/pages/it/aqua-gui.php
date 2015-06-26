@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Aqua GUI'); ?>
+        <p><strong>Aqua</strong> is the GUI and primary visual theme of <?php echo $this->stencil->addLink('Apple', 'c'); ?>'s <?php echo $this->stencil->addLink('OS X', 'OS'); ?> operating system. It is based around the theme of water, as its name suggests, with droplet-like elements and liberal use of translucency and reflection effects. <?php echo $this->stencil->addLink('Steve Jobs', 'P'); ?> noted Aqua's glossy aesthetic: "<em>One of the design goals was when you saw it you wanted to lick it</em>".</p>
+        <p>The Aqua theme and user interface was first introduced at the January 2000 Macworld Conference &amp; Expo in San Francisco. Aqua's first appearance in a commercial product was in the July 2000 release of iMovie 2.</p>
+        <p>Aqua design elements make up the appearance of most OS X applications. Its goal is to "incorporate color, depth, translucence, and complex textures into a visually appealing interface" in OS X applications. Although Aqua is the entire user interface, two notable features of Aqua are gel-like buttons (such as the ones coloured red, yellow, and green that control the windows), and a Dock, which facilitates the launching of and navigation between applications.</p>
+        <p>Aqua is the successor to <?php echo $this->stencil->addLink('Platinum', 'IT'); ?>, which was used in <?php echo $this->stencil->addLink('Mac OS 8', 'MOS'); ?>, <?php echo $this->stencil->addLink('Mac OS 9', 'MOS'); ?> and <?php echo $this->stencil->addLink('Mac OS X Server 1.2', 'MXS'); ?>.</p>
+        <p>Starting with <?php echo $this->stencil->addLink('Mac OS X Lion', 'OSX'); ?>, Apple introduced design elements to OS X borrowed from <?php echo $this->stencil->addLink('iOS', 'OS'); ?>. By <?php echo $this->stencil->addLink('OS X Yosemite', 'OSX'); ?>, Aqua had been completely updated to match the CSS-inspired flat design found in iOS 7 and 8.</p>
+    </div>
+</div>
