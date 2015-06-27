@@ -1,0 +1,47 @@
+project-management/methodologies
+project-management/methodologies/agile/scrum
+project-management/methodologies/agile
+
+
+web-development/browsers/ie/ie1							web-development/browses/ie/internet-explorer-1
+web-development/browsers/ie/internet-explorer-1-0		web-development/browses/ie/internet-explorer-1
+web-development/browsers/ie								web-development/browses/internet-explorer
+web-development/browsers								web-development/web-browser
+web-development/browser									web-development/web-browser
+web-development/web-browsers							web-development/web-browser
+web-development											web-development/web-development
+it/o-s/os-x/os-x-10-10									it/o-s/os-x/os-x-yosemite
+it/o-s/mac-os-x/										it/o-s/os-x
+it/o-s													it/operating-systems
+it/operating-system										it/operating-systems
+it														it/information-technology
+information-technology									it/it/information-technology
+project-management										project-management/project-management
+software-development									software-development/software-development
+mobile-development										mobile-development/mobile-development
+people													people/people
+books													books/books
+companies												companies/companies
+wisdom													wisdom/wisdom
+languages												languages/programming-languages
+programming-languages									languages/programming-languages
+programming-language									languages/programming-languages
+tests													tests/tests
+it/hardware												it/hardware/hardware
+it/hardware/cpus										it/hardware/cpu
+it/network												it/networks/networks
+it/networks/ip-suite									it/networks/ip-suite/internet-protocol-suite
+it/networks/internet-protocol-suite						it/networks/ip-suite/internet-protocol-suite
+it/networks/ip-suite/application						it/networks/ip-suite/application-layer
+it/networks/ip-suite/internet							it/networks/ip-suite/internet-layer
+it/networks/ip-suite/link								it/networks/ip-suite/link-layer
+it/networks/ip-suite/transport							it/networks/ip-suite/transport-layer
+it/software/databased									it/software/databases
+it/software/db											it/software/databases
+languages/c++											languages/c/c-plus-plus/c-plus-plus
+languages/c#											languages/c/c-sharp/c-sharp
+project-management/methodologies/agile					project-management/agile
+project-management/agile/scrum							project-management/agile/scrum/scrum
+software-development/version/control/vpn				software-development/version/control/subversion
+
+
