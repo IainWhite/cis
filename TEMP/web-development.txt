@@ -52,17 +52,7 @@ web-development/blink
 web-development/blog
 web-development/browser-wars
 web-development/browsers/firefox
-web-development/browsers/ie
-web-development/browsers/ie/ie10
-web-development/browsers/ie/ie11
-web-development/browsers/ie/ie4
-web-development/browsers/ie/ie5
-web-development/browsers/ie/ie6
-web-development/browsers/ie/ie7
-web-development/browsers/ie/ie8
-web-development/browsers/ie/ie9
 web-development/browsers/ie/internet-explorer-developer-toolbar
-web-development/browsers/opera
 web-development/browsers/safari
 web-development/bulletin-board-system
 web-development/cgi
