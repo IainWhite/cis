@@ -1,54 +1,3 @@
-Node.js
-Node.js is an open source, cross-platform runtime environment for server-side and networking applications. Node.js applications are written in [JavaScript], and can be run within the Node.js runtime on [OS X], [Microsoft Windows], [Linux], [FreeBSD], NonStop, IBM AIX, IBM System z and IBM i. Its work is hosted and supported by the Node.js Foundation, a Collaborative Project at Linux Foundation.
-
-Node.js provides an event-driven architecture and a non-blocking I/O API that optimizes an application's throughput and scalability. These technologies are commonly used for real-time web applications.
-
-Node.js uses the [Google V8] [JavaScript engine] to execute code, and a large percentage of the basic modules are written in JavaScript. Node.js contains a built-in library to allow applications to act as a [Web server] without software such as [Apache HTTP Server] or [IIS].
-===
-
-MooTools JavaScript Framework
-MooTools (My Object-Oriented Tools) is a lightweight, object-oriented, [JavaScript] framework. It is released under the free, open-source MIT License.
-
-Valerio Proietti first authored the framework and released it in September 2006 taking as his inspiration [Prototype] and Dean Edward's [base2]. MooTools originated from Moo.fx, a popular plug-in Proietti produced for Prototype in October 2005, which is still maintained and used.
-
-Whereas Prototype extended—prototyped—many of JavaScript's native String, Array, and Function objects with additional methods, Proietti desired a framework that (at the time) further extended the native Element object as well to offer greater control of the Document Object Model (DOM).
-
-Components
-MooTools includes a number of components, but not all need to be loaded for each application. Some of the component categories are:
-
-- Core: A collection of utility functions that all the other components require.
-- More: An official collection of add-ons that extend the Core and provide enhanced functionality.
-- Class: The base library for Class object instantiation.
-- Natives: A collection of JavaScript Native Object enhancements. The Natives add functionality, compatibility, and new methods that simplify coding.
-- Element: Contains a large number of enhancements and compatibility standardization to the HTML Element object.
-- Fx: An advanced effects-API to animate page elements.
-- Request: Includes XHR interface, Cookie, JSON, and HTML retrieval-specific tools for developers to exploit.
-- Window: Provides a cross-browser interface to client-specific information, such as the dimensions of the window.
-===
-
-D3.js
-D3.js (or just D3 for Data-Driven Documents) is a [JavaScript] library for producing dynamic, interactive data visualisations in [web browsers]. It makes use of the widely implemented [SVG], [HTML5], and [CSS] standards. It is the successor to the earlier Protovis framework. In contrast to many other libraries, D3.js allows great control over the final visual result. Its development was noted in 2011, as version 2.0.0 was released in August 2011.
-===
-
-SWFObject
-SWFObject (originally FlashObject) is an open-source [JavaScript] library used to embed [Adobe Flash] content onto Web pages, which is supplied as one small JavaScript file. The library can also detect the installed [Adobe Flash Player] plug-in in all major web browsers, on all major operating systems (OS), and can redirect the visitor to another webpage or show alternate HTML content if the installed plug-in is not suitable.
-===
-
-AngularJS
-AngularJS (commonly referred to as "Angular") is an open-source web application framework maintained by [Google] and by a community of individual developers and corporations to address many of the challenges encountered in developing [single-page applications]. It aims to simplify both the development and the testing of such applications by providing a framework for client-side [model–view–controller] (MVC) and [model-view-viewmodel] (MVVM) architectures, along with components commonly used in rich Internet applications.
-
-The AngularJS library works by first reading the [HTML] page, which has embedded into it additional custom tag attributes. Angular interprets those attributes as directives to bind input or output parts of the page to a model that is represented by standard [JavaScript] variables. The values of those JavaScript variables can be manually set within the code, or retrieved from static or dynamic [JSON] resources.
-===
-
-Ext JS
-Ext JS is a pure [JavaScript] application framework for building interactive web applications using techniques such as [Ajax], [DHTML] and DOM scripting.
-
-Originally built as an add-on library extension of [YUI] by Jack Slocum, Ext JS includes interoperability with [jQuery] and [Prototype]. Beginning with version 1.1, Ext JS retains no dependencies on external libraries, instead making their use optional.
-===
-
-Underscore.js
-Underscore.js is a [JavaScript] library which provides utility functions for common programming tasks. It is comparable to features provided by [Prototype.js] and the [Ruby] language, but opts for a functional programming design instead of extending object prototypes. For example, Underscore.js's _.each function delegates to the host environment's native forEach implementation when present, or a compatible version when absent. The documentation refers to Underscore.js as "the tie to go along with [jQuery]'s tux, and [Backbone.js]'s suspenders." Underscore.js was created by Jeremy Ashkenas, who is also known for Backbone.js and [CoffeeScript].
-===
 
 Backbone.js 
 Backbone.js is a [JavaScript] library with a [RESTful] [JSON] interface and is based on the [model–view–presenter] (MVP) application design paradigm. Backbone is known for being lightweight, as its only dependency is on one JavaScript library, [Underscore.js]. It is designed for developing [single-page web applications], and for keeping various parts of web applications (e.g. multiple clients and the server) synchronised. Backbone was created by Jeremy Ashkenas, who is also known for [CoffeeScript].
@@ -56,10 +5,6 @@ Backbone.js is a [JavaScript] library with a [RESTful] [JSON] interface and is b
 
 Ember.js
 Ember.js is an open-source [JavaScript] web application framework. It is based on the [model-view-controller] (MVC) software architectural pattern. It allows developers to create scalable [single-page applications] by incorporating common idioms and best practices into the framework. It provides a rich object model, declarative two-way data binding, computed properties, automatically-updating templates powered by HTMLBars, and a router for managing application state.
-===
-
-JavaScriptMVC
-JavaScriptMVC is an open-source rich Internet application framework based on [jQuery] and [OpenAjax]. It extends those libraries with a [model–view–controller] architecture and tools for testing and deployment. As it does not depend on server components, it can be combined with any web service interface and server-side language like [ASP.NET], [Java], [Perl], [PHP], [Python], or [Ruby].
 ===
 
 Knockout
