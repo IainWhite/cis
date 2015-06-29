@@ -194,7 +194,6 @@ it/software/ide/homesite
 it/software/ide/microsoft-frontpage
 it/software/ide/microsoft-visual-studio
 it/software/ide/netbeans
-it/software/ide/vi
 it/software/ide/vim
 it/software/jira
 it/software/licenses/Apache License

@@ -4,7 +4,6 @@ databases/filemaker-pro
 databases/foxpro
 databases/galera
 databases/ibm-db2
-databases/interbase
 databases/jetty
 databases/mongodb
 databases/mysql
