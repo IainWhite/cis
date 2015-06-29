@@ -1,36 +1,7 @@
+AngularJS
 
-Backbone.js 
-Backbone.js is a [JavaScript] library with a [RESTful] [JSON] interface and is based on the [model–view–presenter] (MVP) application design paradigm. Backbone is known for being lightweight, as its only dependency is on one JavaScript library, [Underscore.js]. It is designed for developing [single-page web applications], and for keeping various parts of web applications (e.g. multiple clients and the server) synchronised. Backbone was created by Jeremy Ashkenas, who is also known for [CoffeeScript].
 ===
+X11
 
-Ember.js
-Ember.js is an open-source [JavaScript] web application framework. It is based on the [model-view-controller] (MVC) software architectural pattern. It allows developers to create scalable [single-page applications] by incorporating common idioms and best practices into the framework. It provides a rich object model, declarative two-way data binding, computed properties, automatically-updating templates powered by HTMLBars, and a router for managing application state.
-===
-
-Knockout
-Knockout is a standalone [JavaScript] implementation of the [Model-View-ViewModel] pattern with templates. The underlying principles are therefore:
-
-- a clear separation between domain data, view components and data to be displayed
-- the presence of a clearly defined layer of specialized code to manage the relationships between the view components
-
-The latter leverages the native event management features of the JavaScript language.
-
-These features streamline and simplify the specification of complex relationships between view components, which in turn make the display more responsive and the user experience richer.
-===
-
-Object Relational Mapping (ORM)
-Object Relational Mapping (ORM, O/RM, and O/R Mapping) in computer science is a programming technique for converting data between incompatible type systems in object-oriented programming languages. This creates, in effect, a "virtual object database" that can be used from within the programming language. There are both free and commercial packages available that perform object-relational mapping, although some programmers opt to create their own ORM tools.
-
-In object-oriented programming, data management tasks act on object-oriented (OO) objects that are almost always non-scalar values. For example, consider an address book entry that represents a single person along with zero or more phone numbers and zero or more addresses. This could be modeled in an object-oriented implementation by a "Person object" with attributes/fields to hold each data item that the entry comprises: the person's name, a list of phone numbers, and a list of addresses. The list of phone numbers would itself contain "PhoneNumber objects" and so on. The address book entry is treated as a single object by the programming language (it can be referenced by a single variable containing a pointer to the object, for instance). Various methods can be associated with the object, such as a method to return the preferred phone number, the home address, and so on.
-
-However, many popular database products such as structured query language database management systems (SQL DBMS) can only store and manipulate scalar values such as integers and strings organized within tables. The programmer must either convert the object values into groups of simpler values for storage in the database (and convert them back upon retrieval), or only use simple scalar values within the program. Object-relational mapping is used to implement the first approach.[1]
-
-The heart of the problem is translating the logical representation of the objects into an atomised form that is capable of being stored in the database, while preserving the properties of the objects and their relationships so that they can be reloaded as objects when needed. If this storage and retrieval functionality is implemented, the objects are said to be persistent.
-===
-
-CSS Flex Box Layout
-CSS Flex Box Layout is the latest layout model coming to [CSS-3]. It is in the [W3C]'s Candidate Recommendation (CR) stage. The new flex layout allows elements within a container to be arranged in a way fitting to the screen or device that it is being viewed on. Unlike the block layout mode, the flex layout lacks the functionality of columns and floats. It does, however, allow more flexibility in the layout of the content within the container.
-
-One of the most defining features of the flex layout is its ability to form-fit, based on its viewing environment. Flex boxes can adjust in size—either decreasing, to avoid unnecessarily monopolising space, or increasing to make room for contents to be constrained within its boundaries. Moreover, the flex layout is less restrictive in terms of content flow than those, for example, of the block and inline display types, which are generally uni-directional. Indeed, not only can flex directional flow be specified, at the style level, as rightwards, leftwards, upwards, or downwards; individual items within a flex container may also be automatically reordered and rearranged to suit the available layout space.
 ===
 
