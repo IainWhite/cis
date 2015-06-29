@@ -34,9 +34,6 @@ networks/ip-suite/application-layer
 networks/ip-suite/internet-layer
 networks/ip-suite/link-layer
 networks/ip-suite/transport-layer
-software-development/ant
-software-development/make
-software-development/puppet
 web-development//websites/facebook
 web-development//websites/twitter
 web-development/accessibility
@@ -57,7 +54,6 @@ web-development/browsers/safari
 web-development/bulletin-board-system
 web-development/cgi
 web-development/chakra
-web-development/chef
 web-development/cherokee
 web-development/civicrm
 web-development/cookie
@@ -67,7 +63,6 @@ web-development/cross-site-scripting
 web-development/docker
 web-development/dom
 web-development/dom-inspector
-web-development/drush
 web-development/e-commerce
 web-development/email
 web-development/fouc
@@ -79,7 +74,6 @@ web-development/front-end/css/sass
 web-development/front-end/mark-up/dhtml
 web-development/front-end/mark-up/html
 web-development/front-end/mark-up/html/html5
-web-development/front-end/mark-up/html/xhtml
 web-development/front-end/styling
 web-development/gerrit
 web-development/gopher
@@ -123,7 +117,6 @@ web-development/slashdot-effect
 web-development/smil
 web-development/social-media
 web-development/ssi
-web-development/svg
 web-development/tcp-ip
 web-development/udp
 web-development/uucp
@@ -154,6 +147,4 @@ web-development/wiki
 web-development/wikiwikiweb
 web-development/world-wide-web
 web-development/worldpay
-web-development/xml
 web-development/xmlhttprequest
-web-development/xul
