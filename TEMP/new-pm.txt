@@ -6,10 +6,6 @@ Node.js provides an event-driven architecture and a non-blocking I/O API that op
 Node.js uses the [Google V8] [JavaScript engine] to execute code, and a large percentage of the basic modules are written in JavaScript. Node.js contains a built-in library to allow applications to act as a [Web server] without software such as [Apache HTTP Server] or [IIS].
 ===
 
-Dojo JavaScript Toolkit
-Dojo Toolkit is an open source modular [JavaScript] library (or more specifically JavaScript toolkit) designed to ease the rapid development of cross-platform, JavaScript / Ajax-based applications and web sites. It was started by Alex Russell, Dylan Schiemann, David Schontzler, and others in 2004 and is dual-licensed under the modified BSD license or the Academic Free License (≥ 2.1). The Dojo Foundation is a non-profit organisation created with the goal to promote the adoption of the toolkit.
-===
-
 MooTools JavaScript Framework
 MooTools (My Object-Oriented Tools) is a lightweight, object-oriented, [JavaScript] framework. It is released under the free, open-source MIT License.
 
