@@ -395,3 +395,4 @@ Released: 16 October 2014.
 There is no separate server edition of Yosemite, just as there was no separate server edition of Mavericks. There is a package, available from the Mac App Store for $19.99, that includes a server management app called Server, as well as other additional administrative tools to manage client profiles and Xsan, and once purchased can be run on an unlimited number of machines. Those enrolled in the Mac or iOS developer programs are given a code to download OS X Server for free.
 ===
 
+
