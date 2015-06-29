@@ -30,28 +30,6 @@ MooTools includes a number of components, but not all need to be loaded for each
 - Window: Provides a cross-browser interface to client-specific information, such as the dimensions of the window.
 ===
 
-Prototype JavaScript Framework 
-The Prototype JavaScript Framework is a [JavaScript] framework created by Sam Stephenson in February 2005 as part of the foundation for [Ajax] support in [Ruby on Rails]. It is implemented as a single file of JavaScript code, usually named prototype.js. Prototype is distributed standalone, but also as part of larger projects, such as Ruby on Rails, [script.aculo.us] and Rico.
-===
-
-script.aculo.us
-script.aculo.us is a [JavaScript] library built on the [Prototype] JavaScript Framework, providing dynamic visual effects and user interface elements via the Document Object Model (DOM).
-
-It is most notably included with [Ruby on Rails] and Seaside, but also provided separately to work with other web application frameworks and scripting languages.
-
-script.aculo.us was extracted by Thomas Fuchs from his work on fluxiom, a web based digital asset management tool by the design company wollzelle. It was first released to the public in June 2005.
-===
-
-YUI - Yahoo! User Interface Library
-The Yahoo! User Interface Library (YUI) is a discontinued open-source [JavaScript] library for building richly interactive web applications using techniques such as [Ajax], [DHTML], and DOM scripting. YUI includes several core [CSS] resources. It is available under a BSD License. Development on YUI began in 2005 and [Yahoo!] properties such as My Yahoo! and the Yahoo! front page began using YUI in the summer of that year. YUI was released for public use in February 2006. It was actively developed by a core team of Yahoo! engineers.
-
-In September 2009, Yahoo! released YUI 3, a new version of YUI rebuilt from the ground up to modernize the library and incorporate lessons learned from YUI 2. Among the enhancements are a CSS selector driven engine, like [jQuery], for retrieving DOM elements, a greater emphasis on granularity of modules, a smaller seed file that loads other modules when necessary, and a variety of syntactic changes intended to make writing code faster and easier.
-
-The YUI Library project at Yahoo! was founded by Thomas Sha and sponsored internally by Yahoo! co-founder Jerry Yang; its principal architects have been Sha, Adam Moore, and Matt Sweeney. The library's developers maintain the YUIBlog; the YUI community discusses the library and implementations in its community forum.
-
-On 29 August 2014, it was announced that active development of YUI by Yahoo! would end, citing the evolution of the JavaScript standards, steadily decreasing interest in large JavaScript libraries by developers, and the proliferation of server-side solutions. Future development will be limited to maintenance releases addressing issues which are "absolutely critical to Yahoo properties."
-===
-
 D3.js
 D3.js (or just D3 for Data-Driven Documents) is a [JavaScript] library for producing dynamic, interactive data visualisations in [web browsers]. It makes use of the widely implemented [SVG], [HTML5], and [CSS] standards. It is the successor to the earlier Protovis framework. In contrast to many other libraries, D3.js allows great control over the final visual result. Its development was noted in 2011, as version 2.0.0 was released in August 2011.
 ===
@@ -70,28 +48,6 @@ Ext JS
 Ext JS is a pure [JavaScript] application framework for building interactive web applications using techniques such as [Ajax], [DHTML] and DOM scripting.
 
 Originally built as an add-on library extension of [YUI] by Jack Slocum, Ext JS includes interoperability with [jQuery] and [Prototype]. Beginning with version 1.1, Ext JS retains no dependencies on external libraries, instead making their use optional.
-===
-
-qooxdoo
-qooxdoo is an open source [Ajax] web application framework. It is an LGPL and / or EPL licensed client-side and server-agnostic solution, and includes support for professional [JavaScript] development, a graphical user interface ([GUI]) toolkit and high-level client-server communication.
-
-qooxdoo is entirely class-based, tries to leverage the features of object-oriented JavaScript and is based on namespaces. Most modern browsers are supported, including [Gecko] ([Firefox], Mozilla, SeaMonkey), [Presto] ([Opera]), [Trident] ([Internet Explorer], RealPlayer, Winamp), [WebKit] ([Chrome], [Safari]). It includes an API reference that is auto-generated from Javadoc-like comments. Among the accompanying tool set is a comprehensive JavaScript parser that is an integral part of the automatic build process and is used to optimize, compress, link and deploy custom applications, and generate documentation. Internationalisation and localisation of applications are supported.
-===
-
-Glow
-Glow is an open-source [JavaScript] library created by the [BBC]. Development on Glow began in 2007, and it was publicly released under an Apache License in July 2009.
-
-The rationale for the development of the library, as opposed to using other libraries such as [jQuery] or [YUI], was to meet the BBC's stated targets for cross-browser compatibility (particularly [Safari] 1.3) that are of particular use in creating a website that uses data that corresponds to times, for example broadcast metadata.
-===
-
-MochiKit
-MochiKit is a light-weight [JavaScript] library written and maintained by Bob Ippolito.
-
-Inspired by the [Python] networking framework, Twisted, it uses the concept of deferred execution to allow asynchronous behaviour. This has made it useful in the development of interactive web pages which maintain a dialog with the web server, sometimes called [Ajax] applications.
-
-Of particular note is its ability to load and manipulate [JSON] encoded data sets, and MochiKit.DOM, a set of functions to easily create dynamic page components.
-
-MochiKit forms the foundation of the client-side functionality of the TurboGears Python web-application stack. Perhaps as a result of the author's involvement in the Python community, MochiKit exhibits many idioms familiar to Python programmers, and is commonly used in Python-based web applications.
 ===
 
 Underscore.js
