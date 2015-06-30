@@ -44,14 +44,9 @@ web-development/browsers/firefox
 web-development/browsers/ie/internet-explorer-developer-toolbar
 web-development/browsers/safari
 web-development/bulletin-board-system
-web-development/cgi
 web-development/civicrm
-web-development/cookie
 web-development/cpan
-web-development/cross-site-request-forgery
-web-development/cross-site-scripting
 web-development/docker
-web-development/dom
 web-development/dom-inspector
 web-development/email
 web-development/front-end
@@ -94,11 +89,9 @@ web-development/rackspace
 web-development/rdp
 web-development/rietveld
 web-development/rss
-web-development/same-origin-policy
 web-development/scripting
 web-development/seo
 web-development/sgml
-web-development/simpletest
 web-development/slash
 web-development/slashdot-effect
 web-development/smil
@@ -118,7 +111,6 @@ web-development/web-development-books
 web-development/web-servers/apache
 web-development/web-servers/apache-tomcat
 web-development/web-servers/iis
-web-development/web-servers/lighttpd
 web-development/web-servers/nginx
 web-development/website/slashdot
 web-development/websites/ebay
