@@ -3,7 +3,6 @@ databases/dec-rdb
 databases/filemaker-pro
 databases/foxpro
 databases/galera
-databases/ibm-db2
 databases/jetty
 databases/mongodb
 databases/mysql

@@ -7,7 +7,6 @@ it/awards/turing-award
 it/client-server
 it/cmyk
 it/Comma-Separated Values (CSV)
-it/Command-Line Interface (CLI)
 it/component-object-model
 it/computer-modern
 it/coroutines
@@ -28,7 +27,6 @@ it/dot-com-bubble
 it/font
 it/foss
 it/gdi
-it/Graphical User Interface (GUI)
 it/hardware
 it/hardware/acorn-archimedes
 it/hardware/acorn-electron
@@ -111,17 +109,11 @@ it/networks/wi-fi/wep
 it/nsfnet
 it/Open Database Connectivity (ODBC)
 it/operating-systems (OS)
-it/operating-systems//cp-m-86
-it/operating-systems//mobile/cocoa
-it/operating-systems/beos
+it/operating-systems/cp-m-86
+it/operating-systems/mobile/cocoa
 it/operating-systems/centos
 it/operating-systems/cp-m
 it/operating-systems/debian
-it/operating-systems/dos
-it/operating-systems/dos/86-dos
-it/operating-systems/dos/dr-dos
-it/operating-systems/dos/ms-dos
-it/operating-systems/dos/pc-dos
 it/operating-systems/fedora
 it/operating-systems/freebsd
 it/operating-systems/gem
@@ -132,7 +124,6 @@ it/operating-systems/mac-os
 it/operating-systems/mobile/android
 it/operating-systems/mobile/cocoa-touch
 it/operating-systems/nextstep
-it/operating-systems/os-2
 it/operating-systems/os-x
 it/operating-systems/plan-9
 it/operating-systems/red-hat
@@ -141,12 +132,7 @@ it/operating-systems/solaris
 it/operating-systems/sunos
 it/operating-systems/suse
 it/operating-systems/ubuntu
-it/operating-systems/ultrix
-it/operating-systems/unix
 it/operating-systems/vms
-it/operating-systems/windows
-it/operating-systems/windows/windows-1
-it/operating-systems/windows/windows-2
 it/operating-systems/windows/windows-2000
 it/operating-systems/windows/windows-3
 it/operating-systems/windows/windows-7
