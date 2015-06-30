@@ -1,1 +1,8 @@
-<h3>DOS</h3>
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('DOS'); ?>
+        <p><strong>DOS</strong> short for <strong>Disk Operating System</strong>, is an acronym for several closely related operating systems that dominated the <?php echo $this->stencil->addLink('IBM PC compatible', 'ITH'); ?> market between 1981 and 1995, or until about 2000 including the partially DOS based <?php echo $this->stencil->addLink('Microsoft Windows', 'OS'); ?> versions 95, 98, and Millennium Edition.</p>
+        <p>Related systems include <?php echo $this->stencil->addLink('MS-DOS', 'DOS'); ?>, <?php echo $this->stencil->addLink('PC DOS', 'DOS'); ?> and its ancestor <?php echo $this->stencil->addLink('86-DOS', 'DOS'); ?>, <?php echo $this->stencil->addLink('DR-DOS', 'DOS'); ?> (including PalmDOS, Novell DOS and OpenDOS), FreeDOS and RxDOS as well as PTS-DOS, ROM-DOS, Embedded DOS, NXDOS and ZDOS.</p>
+        <p>In spite of the common usage, none of these systems were simply named "DOS" (a name given only to an unrelated <?php echo $this->stencil->addLink('IBM', 'C'); ?> mainframe operating system in the 1960s). A number of unrelated, non-x86 microcomputer disk operating systems had "DOS" in their name, and are often referred to simply as "DOS" when discussing machines that use them (e.g. AmigaDOS, AMSDOS, ANDOS, Apple DOS, Atari DOS, Commodore DOS, CSI-DOS, ProDOS, and TRS-DOS). While providing many of the same operating system functions for their respective computer systems, programs running under any one of these operating systems would not run under others.</p>
+    </div>
+</div>
