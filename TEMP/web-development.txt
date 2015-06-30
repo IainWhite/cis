@@ -1,6 +1,5 @@
 databases/dbase
 databases/dec-rdb
-databases/filemaker-pro
 databases/foxpro
 databases/galera
 databases/jetty
@@ -39,7 +38,6 @@ web-development/ajax
 web-development/apc
 web-development/azure
 web-development/back-end
-web-development/blink
 web-development/blog
 web-development/browser-wars
 web-development/browsers/firefox
@@ -47,8 +45,6 @@ web-development/browsers/ie/internet-explorer-developer-toolbar
 web-development/browsers/safari
 web-development/bulletin-board-system
 web-development/cgi
-web-development/chakra
-web-development/cherokee
 web-development/civicrm
 web-development/cookie
 web-development/cpan
@@ -57,9 +53,7 @@ web-development/cross-site-scripting
 web-development/docker
 web-development/dom
 web-development/dom-inspector
-web-development/e-commerce
 web-development/email
-web-development/fouc
 web-development/front-end
 web-development/front-end/css
 web-development/front-end/css/css-3
@@ -71,7 +65,6 @@ web-development/front-end/mark-up/html/html5
 web-development/front-end/styling
 web-development/gerrit
 web-development/gopher
-web-development/hiawatha
 web-development/ip-address
 web-development/isp
 web-development/java-applet
@@ -119,9 +112,7 @@ web-development/venkman
 web-development/virtualbox
 web-development/vmware
 web-development/vpn
-web-development/vrml
 web-development/web-2-0
-web-development/web-browser
 web-development/web-design
 web-development/web-development-books
 web-development/web-servers/apache
