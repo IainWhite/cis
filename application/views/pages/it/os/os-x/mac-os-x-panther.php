@@ -14,7 +14,7 @@
             <li>Font Book: Font Book, Apple's font manager, simplifies viewing character maps and installing fonts. It also allows the user to sort fonts into categories.</li>
             <li>FileVault: On the fly encryption and decryption of a user’s home folder</li>
             <li>iChat AV: The new version of iChat. Now with built-in Audio- and video-conferencing.</li>
-            <li>X11: X11 is built into Panther</li>
+            <li>X11: <?php echo $this->stencil->addLink('X11', 'it/windowing-systems'); ?> is built into Panther</li>
             <li><?php echo $this->stencil->addLink('Safari', 'WB'); ?>: New browser made to replace <?php echo $this->stencil->addLink('Internet Explorer for Mac', 'IE'); ?>, developed when the contract between Apple and Microsoft ended. Internet Explorer for Mac was still available. Safari 1.0 was included in an update in Jaguar but was used as the default browser in Panther.</li>
             <li>Microsoft Windows interoperability improvements, including out-of-the-box support for Active Directory and SecurID-based VPNs.</li>
             <li>Built-in fax support.</li>

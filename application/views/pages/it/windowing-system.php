@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Windowing System'); ?>
+        <p>In computing, a <strong>windowing system</strong> (or <strong>window system</strong>) is a type of <?php echo $this->stencil->addLink('Graphical User Interface', 'IT'); ?> (GUI) which implements the <?php echo $this->stencil->addLink('WIMP', 'IT'); ?> (windows, icons, menus, pointer) paradigm for a user interface. Each currently running application is assigned a usually resizable and usually rectangular shaped surface of the display to present its graphical user interface to the user; these windows may overlap each other, as opposed to a tiling interface where they are not allowed to overlap. Usually a window decoration is drawn around each window. The programming of both the window decoration and of available widgets inside of the window, which are graphical elements for direct user interaction, such as sliders, buttons, etc., is eased and simplified through the use of widget toolkits.</p>
+    </div>
+</div>

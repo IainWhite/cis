@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Xfce'); ?>
+        <p><strong>Xfce</strong> (pronounced as four individual letters) is a free software desktop environment for <?php echo $this->stencil->addLink('Unix', 'OS'); ?> and <?php echo $this->stencil->addLink('Unix-like', 'OS'); ?> platforms, such as <?php echo $this->stencil->addLink('Linux', 'OS'); ?>, <?php echo $this->stencil->addLink('Solaris', 'OS'); ?>, and <?php echo $this->stencil->addLink('BSD', 'OS'); ?>. It aims to be fast and lightweight, while still being visually appealing and easy to use. It consists of separately packaged parts that together provide the full functionality of the desktop environment, but can be selected in subsets to suit user needs and preference.</p>
+        <p><strong>Olivier Fourdan</strong> started the project in 1996. The name "Xfce" originally stood for "XForms Common Environment", but since that time Xfce has been rewritten twice and no longer uses the XForms toolkit. The name survived, but it is no longer capitalised as "XFCE", but rather as "Xfce". The developers' current stance is that the initialism no longer stands for anything specific. It has been nicknamed "Cholesterol Free Desktop Environment", even in some of its man pages.</p>
+    </div>
+</div>

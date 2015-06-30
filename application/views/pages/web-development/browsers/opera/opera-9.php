@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Opera 9 Web Browser'); ?>
-        <p>Version 9.0 was the first <?php echo $this->stencil->addLink('Microsoft Windows', 'OS'); ?>, <?php echo $this->stencil->addLink('Linux', 'OS'); ?>, and BSD browser to pass the <strong>Acid2</strong> test.</p>
+        <p>Version 9.0 was the first <?php echo $this->stencil->addLink('Microsoft Windows', 'OS'); ?>, <?php echo $this->stencil->addLink('Linux', 'OS'); ?>, and <?php echo $this->stencil->addLink('BSD', 'OS'); ?> browser to pass the <strong>Acid2</strong> test.</p>
         <p>This version, released on 20 June 2006, added <?php echo $this->stencil->addLink('XSLT', 'WD'); ?> and improved SVG to 1.1 Basic level.</p>
         <p>Beta versions of Opera 9 included an Easter egg that, when triggered, affects the Acid2 test.</p>
         <p>After the page has been open for a while, the eyes of the smiley will follow the cursor around and when the user clicks on the eyes, a <?php echo $this->stencil->addLink('JavaScript', 'L'); ?> alert will read "<em>Because just passing is not enough ;)</em>".</p>
@@ -22,7 +22,7 @@
         <p>Screen reader support has been added back in. Opera's mail client, Opera Mail, has been updated, with an improved indexing feature and many bugfixes.</p>
         <p>Opera 9.5 also lets users save bookmarks, notes, the Personal Bar and Speed Dial settings to the Opera Link service.</p>
         <p>These preferences can then be synchronized with another Opera browser, such as a copy of Opera Mini running on a mobile phone.</p>
-        <p>Alongside the new features, Opera 9.5 had new performance improvements. For example, x64-bit editions of Opera for compatible Linux and BSD operating systems. On the other hand, SPARC Linux support has been dropped.</p>
+        <p>Alongside the new features, Opera 9.5 had new performance improvements. For example, x64-bit editions of Opera for compatible Linux and <?php echo $this->stencil->addLink('BSD', 'OS'); ?> operating systems. On the other hand, SPARC Linux support has been dropped.</p>
         <p>Version 9.6 improved Opera Link with the new opportunity to sync custom search engines and typed history. Feed preview and an updated Opera Mail client were additional changes.</p>
     </div>
 </div>
