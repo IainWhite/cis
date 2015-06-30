@@ -36,28 +36,6 @@ Window System
 In computing, a windowing system (or window system) is a type of [graphical user interface] (GUI) which implements the [WIMP] (windows, icons, menus, pointer) paradigm for a user interface. Each currently running application is assigned a usually resizable and usually rectangular shaped surface of the display to present its graphical user interface to the user; these windows may overlap each other, as opposed to a tiling interface where they are not allowed to overlap. Usually a window decoration is drawn around each window. The programming of both the window decoration and of available widgets inside of the window, which are graphical elements for direct user interaction, such as sliders, buttons, etc., is eased and simplified through the use of widget toolkits.
 ===
 
-Unix-like
-A Unix-like (sometimes referred to as UN*X or *nix) [operating system] is one that behaves in a manner similar to a [Unix] system, while not necessarily conforming to or being certified to any version of the Single UNIX Specification.
-
-There is no standard for defining the term, and some difference of opinion is possible as to the degree to which a given operating system is "Unix-like".
-
-The term can include free and open-source operating systems inspired by [Bell Labs]' Unix or designed to emulate its features, commercial and proprietary work-alikes, and even versions based on the licensed UNIX source code (which may be sufficiently "Unix-like" to pass certification and bear the "UNIX" trademark).
-
-The Open Group owns the UNIX trademark and administers the Single UNIX Specification, with the "UNIX" name being used as a certification mark. They do not approve of the construction "Unix-like", and consider it a misuse of their trademark. Their guidelines require "UNIX" to be presented in uppercase or otherwise distinguished from the surrounding text, strongly encourage using it as a branding adjective for a generic word such as "system", and discourage its use in hyphenated phrases.
-
-Other parties frequently treat "Unix" as a generalised trademark. Some add a wildcard character to the name to make an abbreviation like "Un*x" or "*nix", since Unix-like systems often have Unix-like names such as AIX, A/UX, HP-UX, IRIX, Linux, Minix, Ultrix, and Xenix. These patterns do not literally match many system names, but are still generally recognised to refer to any UNIX descendant or work-alike system, even those with completely dissimilar names such as [Solaris] or [FreeBSD].
-
-In 2007, Wayne R. Gray sued to dispute the status of UNIX as a trademark, but lost his case, and lost again on appeal, with the court upholding the trademark and its ownership.
-
-"Unix-like" systems started to appear in the late 1970s and early 1980s. Many proprietary versions, such as Idris (1978), UNOS (1982), Coherent (1983), and UniFlex (1985), aimed to provide businesses with the functionality available to academic users of UNIX.
-
-When AT&amp;T allowed relatively inexpensive commercial binary sub-licensing of UNIX in 1979, a variety of proprietary systems were developed based on it, including AIX, HP-UX, IRIX, SunOS, Tru64, Ultrix, and Xenix. These largely displaced the proprietary clones. Growing incompatibility among these systems led to the creation of interoperability standards, including POSIX and the Single UNIX Specification.
-
-Meanwhile, the GNU Project was launched in 1983 with the goal of making GNU, an operating system which all computer users could freely use, study, modify, and redistribute. Various "Unix-like" operating systems developed alongside GNU, frequently sharing substantial components with it (leading to some disagreement about whether they should be called "GNU" or not). These primarily served as low-cost and unrestricted substitutes for UNIX, and include 4.4BSD, [Linux], and Minix. Some of these have in turn been the basis for commercial "Unix-like" systems, such as BSD/OS and [OS X]. Notably, [Mac OS X Leopard] (10.5), [Mac OS X Snow Leopard] (10.6), [OS X Mountain Lion] (10.8), [OS X Mavericks] (10.9),[8] and [OS X Yosemite] (10.10), running on Intel Macs are certified under the Single UNIX Specification.
-
-The various [BSD] variants are notable in that they are in fact descendants of UNIX, developed by the University of California at Berkeley with UNIX source code from Bell Labs. However, the BSD code base has evolved since then, replacing all of the AT&amp;T code. Since the BSD variants are not certified as compliant with the Single UNIX Specification (except for Mac OS X 10.5 Leopard and later), they are referred to as "UNIX-like".
-===
-
 BSD - Berkeley Software Distribution
 Berkeley Software Distribution (BSD) was a [Unix] [operating system] derivative developed and distributed by the Computer Systems Research Group (CSRG) of the University of California, Berkeley, from 1977 to 1995. Today the term "BSD" is often used non-specifically to refer to any of the BSD descendants which together form a branch of the family of [Unix-like] operating systems. Operating systems derived from the original BSD code remain actively developed and widely used.
 
