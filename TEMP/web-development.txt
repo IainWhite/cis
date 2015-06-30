@@ -24,10 +24,6 @@ languages/javascript/jquery
 languages/javascript/jquery-ui
 languages/php/frameworks/joomla
 languages/php/phpbb
-languages/php/zend-engine
-languages/php/zend-opcache
-languages/php/zend-server
-languages/php/zend-studio
 networks/ip-suite/application-layer
 networks/ip-suite/internet-layer
 networks/ip-suite/link-layer
