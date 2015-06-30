@@ -1,0 +1,59 @@
+
+Vector Graphics
+Vector graphics is the use of geometrical primitives such as points, lines, curves, and shapes or polygons all of which are based on mathematical expressions to represent images in computer graphics. Vector graphics are based on vectors (also called paths), which lead through locations called control points or nodes. Each of these points has a definite position on the x and y axes of the work plane and determines the direction of the path; further, each path may be assigned a stroke color, shape, thickness, and fill. These properties don't increase the size of vector graphics files in a substantial manner, as all information resides in the document's structure, which describes solely how the vector should be drawn. Vector graphics can be magnified infinitely without loss of quality, while pixel-based graphics cannot.
+
+The term vector graphics is typically used only for 2D (planar) graphics objects, in order to distinguish them from 2D raster graphics, which are also very common. 3D graphics as commonly implemented today (e.g., in OpenGL) are typically described using primitives like 3D points and polygons connecting these (which in turn describe surfaces); these 3D primitives are much more similar to vector graphics than to raster graphics, but aren't explicitly called vector graphics. The equivalent of raster graphics in the 3D world are voxel-based graphics.
+===
+
+RTF - Rich Text Format
+The Rich Text Format (often abbreviated RTF) is a proprietary document file format with published specification developed by [Microsoft Corporation] from 1987 until 2008 for cross-platform document interchange with Microsoft products.
+
+Most word processors are able to read and write some versions of RTF. There are several different revisions of RTF specification and portability of files will depend on what version of RTF is being used. RTF specifications were changed and published with major [Microsoft Word] and [Office] versions.
+
+It should not be confused with [enriched text] (mimetype "text/enriched" of [RFC 1896]) or its predecessor Rich Text (mimetype "text/richtext" of [RFC 1341] and [1521]); nor with [IBM]'s [RFT-DCA] (Revisable Format Text-Document Content Architecture) which are completely different specifications.
+===
+
+Raster Graphics
+In computer graphics, a raster graphics image is a dot matrix data structure representing a generally rectangular grid of pixels, or points of color, viewable via a monitor, paper, or other display medium. Raster images are stored in image files with varying format.
+
+A bitmap, a single-bit raster, corresponds bit-for-bit with an image displayed on a screen, generally in the same format used for storage in the display's video memory, or maybe as a device-independent bitmap. A raster is technically characterised by the width and height of the image in pixels and by the number of bits per pixel (a colour depth, which determines the number of colours it can represent).
+
+The printing and prepress industries know raster graphics as contones (from "continuous tones"). The opposite to contones is "line work", usually implemented as vector graphics in digital systems.
+
+===
+
+PNG - Portable Network Graphics
+Portable Network Graphics (PNG) is a [raster graphics] file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format ([GIF]), and is the most used lossless image compression format on the [Internet].
+
+PNG supports palette-based images (with palettes of 24-bit [RGB] or 32-bit [RGBA] colors), grayscale images (with or without alpha channel), and full-color non-palette-based RGB(A) images (with or without alpha channel). PNG was designed for transferring images on the Internet, not for professional-quality print graphics, and therefore does not support non-RGB color spaces such as [CMYK].
+
+PNG files nearly always use file extension PNG or png and are assigned [MIME media type] image/png. PNG was approved for this use by the Internet Engineering Steering Group on 14 October 1996,[5] and was published as an ISO/IEC standard in 2004.
+===
+
+GIF - Graphics Interchange Format
+The Graphics Interchange Format (better known by its acronym GIF) is a [bitmap image format] that was introduced by [CompuServe] in 1987 and has since come into widespread usage on the [World Wide Web] due to its wide support and portability.
+
+The format supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colours chosen from the 24-bit [RGB] color space. It also supports animations and allows a separate palette of up to 256 colours for each frame. These palette limitations make the GIF format less suitable for reproducing color photographs and other images with continuous colour, but it is well-suited for simpler images such as graphics or logos with solid areas of colour.
+
+GIF images are compressed using the Lempel-Ziv-Welch (LZW) lossless data compression technique to reduce the file size without degrading the visual quality. This compression technique was patented in 1985. Controversy over the licensing agreement between the software patent holder, Unisys, and CompuServe in 1994 spurred the development of the Portable Network Graphics ([PNG]) standard. By 2004 all the relevant patents had expired.
+===
+
+JPEG
+In computing, JPEG (seen most often with the .jpg or .jpeg filename extension) is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality.
+
+JPEG compression is used in a number of image file formats. JPEG/[Exif] is the most common image format used by digital cameras and other photographic image capture devices; along with JPEG/[JFIF], it is the most common format for storing and transmitting photographic images on the [World Wide Web]. These format variations are often not distinguished, and are simply called JPEG.
+
+The term "JPEG" is an acronym for the Joint Photographic Experts Group, which created the standard. The MIME media type for JPEG is image/jpeg (defined in [RFC 1341]), except in older [Internet Explorer] versions, which provides a MIME type of image/pjpeg when uploading JPEG images.
+
+JPEG/JFIF supports a maximum image size of 65535×65535 pixels, hence up to 4 gigapixels (for an aspect ratio of 1:1).
+===
+
+Exif - Exchangeable Image File Format
+Exchangeable image file format (officially Exif, according to JEIDA/JEITA/CIPA specifications) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras. The specification uses the following existing file formats with the addition of specific metadata tags: [JPEG] discrete cosine transform (DCT) for compressed image files, TIFF Rev. 6.0 (RGB or YCbCr) for uncompressed image files, and RIFF WAV for audio files (Linear PCM or ITU-T G.711 μ-Law PCM for uncompressed audio data, and IMA-ADPCM for compressed audio data).
+
+This standard consists of the Exif image file specification and the Exif audio file specification.
+===
+
+JPEG File Interchange Format (JFIF)
+The JPEG File Interchange Format (JFIF) is an image file format standard. It is a format for exchanging [JPEG] encoded files compliant with the JPEG Interchange Format (JIF) standard. It solves some of JIF's limitations in regard to simple JPEG encoded file interchange. As with all JIF compliant files, image data in JFIF files is compressed using the techniques in the JPEG standard, hence JFIF is sometimes referred to as "JPEG/JFIF".
+===
