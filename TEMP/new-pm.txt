@@ -117,7 +117,7 @@ Bugzilla is a web based general purpose bug tracker and testing tool originally 
 
 Bugzilla was originally written by Terry Weissman in 1998 for the nascent Mozilla.org project, as an open source application to replace the in-house system then in use at [Netscape Communications] for tracking defects in the [Netscape Communicator] suite. Originally written in [Tcl], Terry decided to port Bugzilla to [Perl] before its release as part of Netscape's early open source code drops, with the hopes that more people would be able to contribute to it as Perl seemed to be a more popular language at the time.
 
-Bugzilla 2.0 was the result of that port to Perl, and the first version released to the public via anonymous CVS. In April 2000, Weissman handed off control of the Bugzilla project to Tara Hernandez. Under Tara's leadership, some of the regular contributors were coerced into taking more responsibility, and Bugzilla development became more community driven. In July 2001, facing distraction from her other responsibilities in Netscape, Tara handed off control to Dave Miller, who was still in charge as of 2013.
+Bugzilla 2.0 was the result of that port to [Perl], and the first version released to the public via anonymous CVS. In April 2000, Weissman handed off control of the Bugzilla project to Tara Hernandez. Under Tara's leadership, some of the regular contributors were coerced into taking more responsibility, and Bugzilla development became more community driven. In July 2001, facing distraction from her other responsibilities in Netscape, Tara handed off control to Dave Miller, who was still in charge as of 2013.
 
 Bugzilla 3.0 was released on May 10, 2007 and brought refreshed UI, XML-RPC interface, custom fields and resolutions, mod_perl support, shared saved searches, improved UTF-8 support and others.
 
@@ -128,10 +128,25 @@ Bugzilla 4.0 was released on 15 February 2011.
 Mercurial
 Mercurial is a cross-platform, distributed revision control tool for software developers. It is mainly implemented using the [Python] programming language, but includes a binary diff implementation written in [C]. It is supported on [MS Windows] and [Unix-like] systems, such as [FreeBSD], [Mac OS X] and [Linux]. Mercurial is primarily a command line program but graphical user interface extensions are available. All of Mercurial's operations are invoked as arguments to its driver program hg, a reference to the chemical symbol of the element mercury.
 
-Mercurial's major design goals include high performance and scalability, decentralized, fully distributed collaborative development, robust handling of both plain text and binary files, and advanced branching and merging capabilities, while remaining conceptually simple. It includes an integrated web interface. Mercurial has also taken steps to ease the transition for [SVN] users.
+Mercurial's major design goals include high performance and scalability, decentralised, fully distributed collaborative development, robust handling of both plain text and binary files, and advanced branching and merging capabilities, while remaining conceptually simple. It includes an integrated web interface. Mercurial has also taken steps to ease the transition for [SVN] users.
 
 The creator and lead developer of Mercurial is Matt Mackall. Mercurial is released as free software under the terms of the [GNU GPL v2] (or any later version).
+===
 
+SHA-0
+At CRYPTO 98, two French researchers, Florent Chabaud and Antoine Joux, presented an attack on SHA-0 (Chabaud and Joux, 1998): collisions can be found with complexity 261, fewer than the 280 for an ideal hash function of the same size.
+
+In 2004, Biham and Chen found near-collisions for SHA-0—two messages that hash to nearly the same value; in this case, 142 out of the 160 bits are equal. They also found full collisions of SHA-0 reduced to 62 out of its 80 rounds.
+
+Subsequently, on 12 August 2004, a collision for the full SHA-0 algorithm was announced by Joux, Carribault, Lemuet, and Jalby. This was done by using a generalisation of the Chabaud and Joux attack. Finding the collision had complexity 251 and took about 80,000 CPU hours on a supercomputer with 256 Itanium 2 processors. (Equivalent to 13 days of full-time use of the computer.)
+
+On 17 August 2004, at the Rump Session of CRYPTO 2004, preliminary results were announced by Wang, Feng, Lai, and Yu, about an attack on [MD5], SHA-0 and other hash functions. The complexity of their attack on SHA-0 is 240, significantly better than the attack by Joux et al.
+
+In February 2005, an attack by Xiaoyun Wang, Yiqun Lisa Yin, and Hongbo Yu was announced which could find collisions in SHA-0 in 239 operations.
+
+Another attack in 2008 applying the boomerang attack brought the complexity of finding collisions down to 233.6, which is estimated to take 1 hour on an average PC.
+
+In light of the results for SHA-0, some experts suggested that plans for the use of [SHA-1] in new cryptosystems should be reconsidered. After the CRYPTO 2004 results were published, NIST announced that they planned to phase out the use of SHA-1 by 2010 in favor of the [SHA-2] variants.
 ===
 
 SHA-1
@@ -171,16 +186,10 @@ A user of RSA creates and then publishes a public key based on the two large pri
 
 ===
 
-cryptosystem
+Cryptosystem
 In cryptography cryptosystem refers to a suite of cryptographic algorithms needed to implement a particular security service, most commonly for achieving confidentiality (encryption).
 
 Typically, a cryptosystem consists of three algorithms: one for key generation, one for encryption, and one for decryption. The term cipher (sometimes cypher) is often used to refer to a pair of algorithms, one for encryption and one for decryption. Therefore, the term "cryptosystem" is most often used when the key generation algorithm is important. For this reason, the term "cryptosystem" is commonly used to refer to public key techniques; however both "cipher" and "cryptosystem" are used for symmetric key techniques.
-===
-
-Caesar cipher
-In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
-
-The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the [ROT13] system. As with all single alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communication security.
 ===
 
 ROT13
@@ -195,12 +204,6 @@ ROT13 is used in online forums as a means of hiding spoilers, punchlines, puzzle
 S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME is on an IETF standards track and defined in a number of documents, most importantly [RFCs 3369], [3370], [3850] and [3851]. S/MIME was originally developed by RSA Data Security Inc. The original specification used the IETF MIME specification with the de facto industry standard PKCS#7 secure message format. Change control to S/MIME has since been vested in the IETF and the specification is now layered on Cryptographic Message Syntax, an IETF specification that is identical in most respects with PKCS #7. S/MIME functionality is built into the majority of modern email software and interoperates between them.
 ===
 
-Pretty Good Privacy (PGP)
-Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. It was created by Phil Zimmermann in 1991.
-
-PGP and similar software follow the OpenPGP standard ([RFC 4880]) for encrypting and decrypting data.
-===
-
 MD5
 The MD5 message-digest algorithm is a widely used cryptographic hash function producing a 128-bit (16-byte) hash value, typically expressed in text format as a 32 digit hexadecimal number. MD5 has been utilised in a wide variety of cryptographic applications, and is also commonly used to verify data integrity.
 
@@ -211,38 +214,30 @@ In 1996 a flaw was found in the design of MD5. While it was not deemed a fatal w
 
 MD4
 The MD4 Message-Digest Algorithm is a cryptographic hash function developed by Ronald Rivest in 1990. The digest length is 128 bits. The algorithm has influenced later designs, such as the [MD5], [SHA-1] and [RIPEMD] algorithms.
+
+The security of MD4 has been severely compromised. The first full collision attack against MD4 was published in 1995 and several newer attacks have been published since then. As of 2007, an attack can generate collisions in less than 2 MD4 hash operations.
+
+MD4 is used to compute NTLM password-derived key digests on [Microsoft Windows NT], [XP], [Vista] and [7].
 ===
 
+Unity
+Unity is a graphical shell for the [GNOME desktop environment] developed by Canonical Ltd. for its [Ubuntu] operating system. Unity debuted in the netbook edition of Ubuntu 10.10. It was initially designed to make more efficient use of space given the limited screen size of netbooks, including, for example, a vertical application switcher called the launcher, and a space saving horizontal multipurpose top menu bar.
 
-One MD4 operation : MD4 consists of 48 of these operations, grouped in three rounds of 16 operations. F is a nonlinear function; one function is used in each round. Mi denotes a 32-bit block of the message input, and Ki denotes a 32-bit constant, different for each operation.
-The security of MD4 has been severely compromised. The first full collision attack against MD4 was published in 1995 and several newer attacks have been published since then. As of 2007, an attack can generate collisions in less than 2 MD4 hash operations.[2] A theoretical preimage attack also exists.
-
-A variant of MD4 is used in the ed2k URI scheme to provide a unique identifier for a file in the popular eDonkey2000 / eMule P2P networks. MD4 was also used by the rsync protocol (prior to version 3.0.0.)
-
-MD4 is used to compute NTLM password-derived key digests on Microsoft Windows NT, XP, Vista and 7.[4
+Unlike [GNOME], [KDE Software Compilation], [Xfce], or [LXDE], Unity is not a collection of applications but is designed to use existing programs.
 ===
-Unity is a graphical shell for the GNOME desktop environment developed by Canonical Ltd. for its Ubuntu operating system. Unity debuted in the netbook edition of Ubuntu 10.10. It was initially designed to make more efficient use of space given the limited screen size of netbooks, including, for example, a vertical application switcher called the launcher, and a space-saving horizontal multipurpose top menu bar.[6][7]
 
-Unlike GNOME, KDE Software Compilation, Xfce, or LXDE, Unity is not a collection of applications but is designed to use existing programs.[8]
+Cinnamon
+Cinnamon is a desktop environment that is based on the [GTK+] 3 toolkit. It was released in 2011. The project was originally started as a fork of the [GNOME Shell], i.e. a mere graphical shell, but became its own desktop environment in Cinnamon 2.0. Cinnamon was initially developed by (and for) the Linux distribution [Linux Mint].
 
-Unity is part of the Ayatana project, an initiative to improve the user experience within Ubuntu.[9] In addition to Unity, there are Application Indicators and other projects such as MeMenu, the notification system and the application NotifyOSD gathered.
+Because the Cinnamon desktop environment intends to implement a different graphical user interface ([GUI]) than the GNOME desktop environment, many of the GNOME Core Applications were forked, so that their GUIs can be rewritten appropriately.
 ===
-Cinnamon is a desktop environment that is based on the GTK+ 3 toolkit. It was released in 2011. The project was originally started as a fork of the GNOME Shell, i.e. a mere graphical shell, but became its own desktop environment in Cinnamon 2.0. Cinnamon was initially developed by (and for) the Linux distribution Linux Mint.
 
-Because the Cinnamon desktop environment intends to implement a different graphical user interface (GUI) than the GNOME desktop environment, many of the GNOME Core Applications were forked, so that their GUIs can be rewritten appropriately.
-===
-MATE (/mɑːteɪ/; Spanish pronunciation: [ˈmate]) is a desktop environment forked from the now-unmaintained code base of GNOME 2. It is named after the South American plant Yerba mate and tea made from the herb, mate.[3] The use of a new name, instead of GNOME, avoids conflicts with GNOME 3 components.
+Suger
+Sugar is a free and open source desktop environment designed with the goal of being used by children for interactive learning. Developed as part of the [One Laptop per Child] (OLPC) project, Sugar was the default interface on OLPC XO-1 laptop computers. The OLPC XO-1.5 and later provided the option of either the Gnome or Sugar interfaces.
 
-GNOME 3 (released in April 2011) replaced the classic desktop metaphor, substituting its native user interface: GNOME Shell. This action led to some criticism from the Linux community. Some users refused to accept the new interface design of GNOME and called for continued development of GNOME 2.[4] An Argentinian user of Arch Linux started the MATE project[5] in order to meet this demand[6] and announced the availability of Mate on 18 June 2011.[7]
-===
-Sugar is a free and open source desktop environment designed with the goal of being used by children for interactive learning.[1][3] Developed as part of the One Laptop per Child (OLPC) project, Sugar was the default interface on OLPC XO-1 laptop computers. The OLPC XO-1.5 and later provided the option of either the Gnome or Sugar interfaces.[4]
+Sugar is available as a Live CD, as Live USB, a package installable through several [Linux] distributions, or on [Windows] and [Mac OS] through virtualisation.
 
-Sugar is available as a Live CD, as Live USB, a package installable through several Linux distributions,[1] or on Windows and Mac OS through virtualization.[5]
-
-Since May 2008, Sugar has been developed under the umbrella of Sugar Labs, a member project of the Software Freedom Conservancy.[3] Sugar is open-source software under the GNU GPL license,;[1] many of Sugar Labs' contributors are volunteers.[6]
+Since May 2008, Sugar has been developed under the umbrella of Sugar Labs, a member project of the Software Freedom Conservancy. Sugar is open-source software under the [GNU GPL license],;[1] many of Sugar Labs' contributors are volunteers.
 
 Unlike most other desktop environments, Sugar does not use the "desktop", "folder" and "window" metaphors. Instead, Sugar's default full-screen activities require users to focus on only one program at a time. Sugar implements a journal which automatically saves the user's running program session and allows him or her to later use an interface to pull up their past works by date, activity used or file type.
 ===
-
-
-
