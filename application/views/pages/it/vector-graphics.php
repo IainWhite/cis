@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Vector Graphics'); ?>
+        <p><strong>Vector graphics</strong> is the use of geometrical primitives such as points, lines, curves, and shapes or polygons all of which are based on mathematical expressions to represent images in computer graphics. Vector graphics are based on vectors (also called paths), which lead through locations called control points or nodes. Each of these points has a definite position on the x and y axes of the work plane and determines the direction of the path; further, each path may be assigned a stroke colour, shape, thickness, and fill. These properties don't increase the size of vector graphics files in a substantial manner, as all information resides in the document's structure, which describes solely how the vector should be drawn. Vector graphics can be magnified infinitely without loss of quality, while pixel-based graphics cannot.</p>
+        <p>The term vector graphics is typically used only for 2D (planar) graphics objects, in order to distinguish them from 2D raster graphics, which are also very common. 3D graphics as commonly implemented today (e.g., in OpenGL) are typically described using primitives like 3D points and polygons connecting these (which in turn describe surfaces); these 3D primitives are much more similar to vector graphics than to raster graphics, but aren't explicitly called vector graphics. The equivalent of raster graphics in the 3D world are voxel-based graphics.</p>
+    </div>
+</div>

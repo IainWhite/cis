@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('RTF - Rich Text Format'); ?>
+        <p>The <strong>Rich Text Format</strong> (often abbreviated <strong>RTF</strong>) is a proprietary document file format with published specification developed by <?php echo $this->stencil->addLink('Microsoft Corporation', 'C'); ?> from 1987 until 2008 for cross-platform document interchange with Microsoft products.</p>
+        <p>Most word processors are able to read and write some versions of RTF. There are several different revisions of RTF specification and portability of files will depend on what version of RTF is being used. RTF specifications were changed and published with major <?php echo $this->stencil->addLink('Microsoft Word', 'SW'); ?> and <?php echo $this->stencil->addLink('Office', 'SW'); ?> versions.</p>
+        <p>It should not be confused with <?php echo $this->stencil->addLink('enriched text', 'IT'); ?> (mimetype "<code>text/enriched</code>" of <?php echo $this->stencil->addRFCLink('1896'); ?>) or its predecessor <?php echo $this->stencil->addLink('Rich Text', 'IT'); ?> (mimetype "<code>text/richtext</code>" of <?php echo $this->stencil->addRFCLink('1341'); ?> and <?php echo $this->stencil->addRFCLink('1521'); ?>); nor with <?php echo $this->stencil->addLink('IBM', 'C'); ?>'s <?php echo $this->stencil->addLink('RFT-DCA', 'IT'); ?> (Revisable Format Text-Document Content Architecture) which are completely different specifications.</p>
+    </div>
+</div>
