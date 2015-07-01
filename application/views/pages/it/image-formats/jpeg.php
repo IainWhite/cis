@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('JPEG'); ?>
+        <p>In computing, <strong>JPEG</strong> (seen most often with the <code>.jpg</code> or <code>.jpeg</code> filename extension) is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality.</p>
+        <p>JPEG compression is used in a number of image file formats. JPEG/<?php echo $this->stencil->addLink('Exif', 'IT'); ?> is the most common image format used by digital cameras and other photographic image capture devices; along with JPEG/<?php echo $this->stencil->addLink('JFIF', 'IT'); ?>, it is the most common format for storing and transmitting photographic images on the <?php echo $this->stencil->addLink('World Wide Web', 'WD'); ?>. These format variations are often not distinguished, and are simply called JPEG.</p>
+        <p>The term "JPEG" is an acronym for the <strong>Joint Photographic Experts Group</strong>, which created the standard. The <?php echo $this->stencil->addLink('MIME media type', 'WD'); ?> for JPEG is <code>image/jpeg</code> (defined in <?php echo $this->stencil->addRFCLink('1341'); ?>), except in older <?php echo $this->stencil->addLink('Internet Explorer', 'WD'); ?> versions, which provides a MIME type of <code>image/pjpeg</code> when uploading JPEG images.</p>
+        <p></p>JPEG/JFIF supports a maximum image size of 65535x65535 pixels, hence up to 4 gigapixels (for an aspect ratio of 1:1).</p>
+    </div>
+</div>

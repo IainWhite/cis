@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('GIF - Graphics Interchange Format'); ?>
+        <p>The <strong>Graphics Interchange Format</strong> (better known by its acronym <strong>GIF</strong>) is a <?php echo $this->stencil->addLink('bitmap image format', 'IT'); ?> that was introduced by <?php echo $this->stencil->addLink('CompuServe', 'C'); ?> in 1987 and has since come into widespread usage on the <?php echo $this->stencil->addLink('World Wide Web', 'WD'); ?> due to its wide support and portability.</p>
+        <p>The format supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colours chosen from the 24-bit <?php echo $this->stencil->addLink('RGB', 'IT'); ?> colour space. It also supports animations and allows a separate palette of up to 256 colours for each frame. These palette limitations make the GIF format less suitable for reproducing color photographs and other images with continuous colour, but it is well-suited for simpler images such as graphics or logos with solid areas of colour.</p>
+        <p>GIF images are compressed using the <strong>Lempel-Ziv-Welch (LZW)</strong> lossless data compression technique to reduce the file size without degrading the visual quality. This compression technique was patented in 1985. Controversy over the licensing agreement between the software patent holder, Unisys, and CompuServe in 1994 spurred the development of the Portable Network Graphics (<?php echo $this->stencil->addLink('PNG', 'IT'); ?>) standard. By 2004 all the relevant patents had expired.</p>
+    </div>
+</div>

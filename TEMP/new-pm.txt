@@ -19,41 +19,8 @@ In computer graphics, a raster graphics image is a dot matrix data structure rep
 A bitmap, a single-bit raster, corresponds bit-for-bit with an image displayed on a screen, generally in the same format used for storage in the display's video memory, or maybe as a device-independent bitmap. A raster is technically characterised by the width and height of the image in pixels and by the number of bits per pixel (a colour depth, which determines the number of colours it can represent).
 
 The printing and prepress industries know raster graphics as contones (from "continuous tones"). The opposite to contones is "line work", usually implemented as vector graphics in digital systems.
-
 ===
 
-PNG - Portable Network Graphics
-Portable Network Graphics (PNG) is a [raster graphics] file format that supports lossless data compression. PNG was created as an improved, non-patented replacement for Graphics Interchange Format ([GIF]), and is the most used lossless image compression format on the [Internet].
-
-PNG supports palette-based images (with palettes of 24-bit [RGB] or 32-bit [RGBA] colors), grayscale images (with or without alpha channel), and full-color non-palette-based RGB(A) images (with or without alpha channel). PNG was designed for transferring images on the Internet, not for professional-quality print graphics, and therefore does not support non-RGB color spaces such as [CMYK].
-
-PNG files nearly always use file extension PNG or png and are assigned [MIME media type] image/png. PNG was approved for this use by the Internet Engineering Steering Group on 14 October 1996,[5] and was published as an ISO/IEC standard in 2004.
-===
-
-GIF - Graphics Interchange Format
-The Graphics Interchange Format (better known by its acronym GIF) is a [bitmap image format] that was introduced by [CompuServe] in 1987 and has since come into widespread usage on the [World Wide Web] due to its wide support and portability.
-
-The format supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colours chosen from the 24-bit [RGB] color space. It also supports animations and allows a separate palette of up to 256 colours for each frame. These palette limitations make the GIF format less suitable for reproducing color photographs and other images with continuous colour, but it is well-suited for simpler images such as graphics or logos with solid areas of colour.
-
-GIF images are compressed using the Lempel-Ziv-Welch (LZW) lossless data compression technique to reduce the file size without degrading the visual quality. This compression technique was patented in 1985. Controversy over the licensing agreement between the software patent holder, Unisys, and CompuServe in 1994 spurred the development of the Portable Network Graphics ([PNG]) standard. By 2004 all the relevant patents had expired.
-===
-
-JPEG
-In computing, JPEG (seen most often with the .jpg or .jpeg filename extension) is a commonly used method of lossy compression for digital images, particularly for those images produced by digital photography. The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality.
-
-JPEG compression is used in a number of image file formats. JPEG/[Exif] is the most common image format used by digital cameras and other photographic image capture devices; along with JPEG/[JFIF], it is the most common format for storing and transmitting photographic images on the [World Wide Web]. These format variations are often not distinguished, and are simply called JPEG.
-
-The term "JPEG" is an acronym for the Joint Photographic Experts Group, which created the standard. The MIME media type for JPEG is image/jpeg (defined in [RFC 1341]), except in older [Internet Explorer] versions, which provides a MIME type of image/pjpeg when uploading JPEG images.
-
-JPEG/JFIF supports a maximum image size of 65535×65535 pixels, hence up to 4 gigapixels (for an aspect ratio of 1:1).
-===
-
-Exif - Exchangeable Image File Format
-Exchangeable image file format (officially Exif, according to JEIDA/JEITA/CIPA specifications) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras. The specification uses the following existing file formats with the addition of specific metadata tags: [JPEG] discrete cosine transform (DCT) for compressed image files, TIFF Rev. 6.0 (RGB or YCbCr) for uncompressed image files, and RIFF WAV for audio files (Linear PCM or ITU-T G.711 μ-Law PCM for uncompressed audio data, and IMA-ADPCM for compressed audio data).
-
-This standard consists of the Exif image file specification and the Exif audio file specification.
-
-===
 Bitmap
 In computing, a bitmap is a mapping from some domain (for example, a range of integers) to bits, that is, values which are zero or one. It is also called a bit array or bitmap index.
 
@@ -65,29 +32,252 @@ A bitmap is a type of memory organisation or image file format used to store dig
 
 Many graphical user interfaces use bitmaps in their built-in graphics subsystems; for example, the [Microsoft Windows] and [OS/2] platforms' [GDI] subsystem, where the specific format used is the Windows and OS/2 bitmap file format, usually named with the file extension of .BMP (or .DIB for device-independent bitmap). Besides BMP, other file formats that store literal bitmaps include InterLeaved Bitmap (ILBM), Portable Bitmap (PBM), X Bitmap (XBM), and Wireless Application Protocol Bitmap (WBMP). Similarly, most other image file formats, such as [JPEG], [TIFF], [PNG], and [GIF], also store bitmap images (as opposed to [vector graphics]), but they are not usually referred to as bitmaps, since they use compressed formats internally.
 ===
+================================
 
-SpamAssassin
-SpamAssassin is a computer program released under the Apache License 2.0 used for e-mail spam filtering based on content-matching rules. It is now part of the [Apache Foundation].
+The GNU Project
+The GNU Project is a free software, mass collaboration project, announced on 27 September 1983, by Richard Stallman at MIT. Its aim is to give computer users freedom and control in their use of their computers and computing devices, by collaboratively developing and providing software that is based on the following freedom rights: users are free to run the software, share it (copy, distribute), study it and modify it. GNU software guarantees these freedom-rights legally (via its license), and is therefore free software; the use of the word "free" always being taken to refer to freedom.
 
-SpamAssassin uses a variety of spam detection techniques, that includes DNS based and fuzzy checksum based spam detection, Bayesian filtering, external programs, blacklists and online databases.
+In order to ensure that the entire software of a computer grants its users all freedom rights (use, share, study, modify), even the most fundamental and important part, the operating system (including all its numerous utility programs), needed to be written. The founding goal of the project was, in the words of its initial announcement, to develop "a sufficient body of free software [...] to get along without any software that is not free." Stallman decided to call this operating system GNU (a recursive acronym meaning "GNU's not Unix"), basing its design on that of Unix; however, in contrast to Unix which was proprietary software, GNU was to be freedom respecting software (free software) that users can use, share, study and modify. Development was initiated in January 1984. The goal of making a completely free software operating system was achieved in 1992 when the third-party Linux kernel was released as free software, under version 2 of the [GNU General Public License], to be used with the GNU software stack.
 
-The program can be integrated with the mail server to automatically filter all mail for a site. It can also be run by individual users on their own mailbox and integrates with several mail programs. SpamAssassin is highly configurable; if used as a system wide filter it can still be configured to support per-user preferences.
+GNU Manifesto
+The [GNU Manifesto] was written by Richard Stallman to gain support and participation in the GNU Project. In the GNU Manifesto, Stallman listed four freedoms essential to software development: freedom to run a program for any purpose, freedom to study the mechanics of the program and modify it, freedom to redistribute copies, and freedom to improve and change modified versions for public use. To implement these freedoms, users needed full access to code. To ensure code remained free and provide it to the public, Stallman created the GNU General Public License ([GPL]), which allowed software and the future generations of code derived from it to remain free for public use. Some complications arose, however, when certain software was grandfathered in the law of GPL because of code from which it derived.
 
-SpamAssassin was awarded the Linux New Media Award 2006 as the "Best Linux-based Anti-spam Solution".
+Copyleft
+[Copyleft] is what helps maintain free use of this software among other programmers. Copyleft gives the legal right to everyone to use, edit, and redistribute programs or program's code as long as the distribution terms do not change. As a result, any user who obtains the software legally has the same freedoms as the rest of its users do.
+
+The GNU Project and the FSF sometimes differentiate between "strong" and "weak" copyleft. "Weak" copyleft programs typically allow distributors to link them together with non-free programs, while "strong" copyleft strictly forbids this practice. Most of the GNU Project's output is released under a strong copyleft, although some is released under a weak copyleft or a permissive free software license.
+
 ===
 
-Microsoft Agent
-Microsoft Agent is a technology developed by [Microsoft] which employs animated characters, text-to-speech engines, and speech recognition software to enhance interaction with computer users. Thus it is an example of an embodied agent. It comes preinstalled as part of [Microsoft Windows 2000] through [Windows Vista]. Microsoft Agent functionality is exposed as an [ActiveX] control that can be used by web pages.
+The GNU Manifesto 
+The GNU Manifesto was written by Richard Stallman and published in March 1985 in Dr. Dobb's Journal of Software Tools as an explanation and definition of the goals of the [GNU Project], and to call for participation and support developing GNU, a free software computer operating system. It is held in high regard within the free software movement as a fundamental philosophical source. The full text is included with GNU software such as Emacs, and is publicly available.
 
-The theory behind this software came from work on social interfaces by Clifford Nass and Byron Reeves at Stanford's Center for the Study of Language and Information.
-
-Interactive character technology was first introduced in Microsoft Bob, which used an early version of Agent technology internally referred to as "Microsoft Actor." It was the code used in initial version of the Office Assistant in [Office 97]. Microsoft Agent was subsequently created by Tandy Trower in an attempt to offer technology that was more flexible and available to third-party developers to include in their applications and web pages. The software release also included four interactive characters as well as a utility that enables developers to assemble their own characters and interactions.
-
-Microsoft Agent replaced the original Microsoft Bob code in [Office 2000], although this use did not include Agent's much-touted speech synthesis or recognition capabilities or any of the four Microsoft Agent characters. Instead the Office team created their own characters including one dubbed "Clippit" or "Clippy". However, Bob Actors or Office 97 assistants are incompatible with Office 2000 and later versions, and vice versa. The current version of Microsoft Agent was quietly released on [MSDN] in 1998. Microsoft recently announced that "Microsoft has decided to discontinue development of Microsoft Agent technologies. Beginning with [Windows 7], Microsoft Agent will not be included or supported in future versions of the Microsoft Windows operating system. We encourage Microsoft Agent application developers and redistributes to evaluate their activities in light of this decision". Microsoft is no longer offering licenses and no longer distributes the SDK. (Due to customer feedback, Microsoft has decided to provide an installation package of the Microsoft Agent core components for use on Windows 7).
-
-Microsoft Agent characters are stored in files of the .ACS extension, and can be stored in a number of compressed .ACF files for better [World Wide Web] distribution. Microsoft Office 97 and Microsoft Bob Actor characters are stored in files of the .ACT extension.
-
-The speech engine itself is driven by the Microsoft Speech API (SAPI), version 4 and above. Microsoft SAPI provides a control panel for easily installing and switching between various available Text to Speech and Speech to Text engines, as well as voice training and scoring systems to improve the quality and accuracy of both engines.
-
-Microsoft provides four agent characters for free, which can be downloaded from the Microsoft Agent website. These are called Peedy, Merlin, Genie, and Robby. Some characters also shipped with Microsoft Office up to version 2003 as the Office Assistants and with [Windows XP] as search assistants. New Agent characters can also be created using Microsoft's development tools, including the Agent Character Editor. Agents can be embedded in software with [Visual Basic for Applications] and in web pages with [VBScript], and automated tools for the purpose of simplifying this exist. However, web page agents are only compatible with [Internet Explorer], since alternative browsers like [Opera] or [Mozilla Firefox] do not support [ActiveX]. Additionally, users of [Windows Me], [Windows 2000], [Windows XP], and above or owners of [Microsoft Office 2000] and up are the only ones who have Agent software pre-loaded on their computers; others have to download the software and install it manually.
+The GNU Manifesto begins by outlining the goal of the project GNU, which stands for GNU's Not Unix. The contents of GNU, current at the time of writing, are then described and detailed. Richard Stallman gives a fairly elaborate rationalisation of the importance and benefits of seeing the project to fruition. One of the major driving points behind the GNU project, according to Stallman, is the (at the time) rapid trend toward Unix and its various components becoming proprietary (e.g. closed-source) software. Later on, the GNU Manifesto details how nearly everyone benefits from the project. In essence, this is broken into two parts - the benefits to contributors and the benefits to consumers/community as a whole. In other words, software developers (contributors) may modify, enhance, correct, etc. the source code under these terms; thereby contributing to the overall stability and feature-set of the software. Additionally, developers may even use the GNU Licensed code in their own applications (provided an exact copy of the received GNU license is included with all distributions). The second part of this section explains how it's not just the developers who will benefit, but also the end-users. The general trend throughout is that, in the opinion of the authors, everyone benefits from the project's stated goals. A fairly large part of the GNU Manifesto is focused on rebutting possible objections to GNU Project's goals. Objections described here include the programmer's need to make a living, the issue of advertising/distributing free software, and the perceived need of a profit incentive. Most of this text explains how the free software philosophy works, and why it would be a good choice for the technology industry to follow.
 ===
+
+Copyleft
+Copyleft (a play of the word [copyright]) is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in derivative works down the line.
+
+Copyleft is a form of licensing and copyright law, and can be used to maintain copyright conditions for works ranging from computer software, to documents, to art. In general, copyright law is used by an author to prohibit recipients from reproducing, adapting, or distributing copies of their work. In contrast, under copyleft, an author may give every person who receives a copy of the work permission to reproduce, adapt, or distribute it, with the accompanying requirement that any resulting copies or adaptations are also bound by the same licensing agreement.
+
+Copyleft licenses (for software) require that information necessary for reproducing and modifying the work must be made available to recipients of the binaries. The source code files will usually contain a copy of the license terms and acknowledge the author(s).
+
+Copyleft type licenses are a novel use of existing copyright law to ensure a work remains freely available. The [GNU General Public License], originally written by Richard Stallman, was the first software copyleft license to see extensive use, and continues to dominate in that area. [Creative Commons], a non-profit organisation founded by Lawrence Lessig, provides a similar license provision condition called [ShareAlike].
+===
+
+Copyright
+Copyright is a legal right created by the law of a country that grants the creator of an original work exclusive rights to its use and distribution, usually for a limited time. The exclusive rights are not absolute; they are limited by limitations and exceptions to copyright law, including fair use.
+
+Copyright is a form of intellectual property, applicable to any expressed representation of a creative work. Under US copyright law, however, legal protection attaches only to fixed representations in a tangible medium. It is often shared among multiple authors, each of whom holds a set of rights to use or license the work, and who are commonly referred to as rightsholders. These rights frequently include reproduction, control over derivative works, distribution, public performance, and "moral rights" such as attribution.
+
+Copyrights are territorial, which means that they do not extend beyond the territory of a specific state unless that state is a party to an international agreement. While many aspects of national copyright laws have been standardised through international copyright agreements, copyright laws of most countries have some unique features.
+
+Typically, the duration of copyright is the author's life plus 50 to 100 years (that is, copyright typically expires 50 to 100 years after the author dies, depending on the country). Some countries require certain copyright formalities to establishing copyright, but most recognise copyright in any completed work, without formal registration. Generally, copyright is enforced as a civil matter, though some jurisdictions do apply criminal sanctions.
+
+Most jurisdictions recognise copyright limitations, allowing "fair" exceptions to the creator's exclusivity of copyright and giving users certain rights. The development of digital media and computer network technologies have prompted reinterpretation of these exceptions, introduced new difficulties in enforcing copyright, and inspired additional challenges to copyright law's philosophic basis. Simultaneously, businesses with great economic dependence upon copyright, such as those in the music business, have advocated the extension and expansion of their intellectual property rights and sought additional legal and technological enforcement.
+===
+
+Share-alike
+Share-alike is a copyright licensing term, originally used by the [Creative Commons] project, to describe works or licences that require copies or adaptations of the work to be released under the same or similar licence as the original. [Copyleft] licences are free content or free software licences with a share-alike condition.
+
+Two currently-supported Creative Commons licences have the ShareAlike condition: Creative Commons Attribution-ShareAlike (a copyleft, free content licence) and Creative Commons Attribution-NonCommercial-ShareAlike (a proprietary licence).
+
+The term has also been used outside of copyright law to refer to a similar plan for patent licensing.
+===
+
+Free content
+Free content, libre content, or free information, is any kind of functional work, artwork, or other creative content that meets the definition of a free cultural work. A free cultural work is one which has no significant legal restriction on people's freedom:
+
+- to use the content and benefit from using it,
+- to study the content and apply what is learned,
+- to make and distribute copies of the content,
+- to change and improve the content and distribute these derivative works.
+
+Although there are a great many different definitions in regular everyday use, free content is legally very similar if not like an identical twin to open content. An analogy is the use of the rival terms free software and open source which describe ideological differences rather than legal ones.
+
+Free content encompasses all works in the public domain and also those copyrighted works whose licenses honor and uphold the freedoms mentioned above. Because copyright law in most countries by default grants copyright holders monopolistic control over their creations, copyright content must be explicitly declared free, usually by the referencing or inclusion of licensing statements from within the work.
+==
+
+Creative Commons
+Creative Commons is a non-profit organisation devoted to expanding the range of creative works available for others to build upon legally and to share. The organisation has released several copyright-licenses known as Creative Commons licenses free of charge to the public. These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators. An easy to understand one page explanation of rights, with associated visual symbols, explains the specifics of each Creative Commons license. Creative Commons licenses do not replace copyright, but are based upon it. They replace individual negotiations for specific rights between copyright owner (licensor) and licensee, which are necessary under an "all rights reserved" copyright management, with a "some rights reserved" management employing standardised licenses for re-use cases where no commercial compensation is sought by the copyright owner. The result is an agile, low-overhead and low-cost copyright-management regime, profiting both copyright owners and licensees. [Wikipedia] uses one of these licenses.
+
+The organisation was founded in 2001 by Lawrence Lessig, Hal Abelson, and Eric Eldred with the support of Center for the Public Domain. The first article in a general interest publication about Creative Commons, written by Hal Plotkin, was published in February 2002. The first set of copyright licenses was released in December 2002. The founding management team that developed the licenses and built the Creative Commons infrastructure as we know it today included Molly Shaffer Van Houweling, Glenn Otis Brown, Neeru Paharia, and Ben Adida. Matthew Haughey and Aaron Swartz also played a significant role in the early stages of the project. As of November 2014 there were an estimated 880 million works licensed under the various Creative Commons licenses. As of March 2015, [Flickr] alone hosts over 306 million Creative Commons licensed photos. Creative Commons is governed by a board of directors. Their licenses have been embraced by many as a way for creators to take control of how they choose to share their copyrighted works.
+===
+
+GNU General Public License (GPL)
+The GNU General Public License (GNU GPL or GPL) is the most widely used free software license, which guarantees end users (individuals, organisations, companies) the freedoms to run, study, share (copy), and modify the software. Software that allows these rights is called free software and, if the software is copylefted, requires those rights to be retained. The GPL demands both. The license was originally written by Richard Stallman of the Free Software Foundation ([FSF]) for the [GNU project].
+
+In other words, the GPL grants the recipients of a computer program the rights of the Free Software Definition and uses [copyleft] to ensure the freedoms are preserved whenever the work is distributed, even when the work is changed or added to. The GPL is a copyleft license, which means that derived works can only be distributed under the same license terms. This is in distinction to permissive free software licenses, of which the [BSD licenses] and the [MIT License] are the standard examples. GPL was the first copyleft license for general use.
+
+As of August 2007, the GPL accounted for nearly 65% of the 43,442 free software projects listed on Freecode, and as of January 2006, about 68% of the projects listed on [SourceForge.net]. Similarly, a 2001 survey of [Red Hat Linux] 7.1 found that 50% of the source code was licensed under the GPL and a 1997 survey of MetaLab, then the largest free software archive, showed that the GPL accounted for about half of the software licensed therein. Prominent free software programs licensed under the GPL include the [Linux] kernel and the GNU Compiler Collection (GCC). Some other free software programs ([MySQL] is a prominent example) are dual-licensed under multiple licenses, often with one of the licenses being the GPL.
+
+David A. Wheeler argues that the copyleft provided by the GPL was crucial to the success of Linux-based systems, giving the programmers who contributed to the kernel the assurance that their work would benefit the whole world and remain free, rather than being exploited by software companies that would not have to give anything back to the community.
+
+On 29 June 2007, the third version of the license (GNU GPLv3) was released to address some perceived problems with the second version (GNU GPLv2) that were discovered during its long-time usage. To keep the license up-to-date, the GPL license includes an optional "any later version" clause, allowing users to choose between the original terms or the terms in new versions as updated by the FSF. Developers can omit it when licensing their software; for instance the Linux kernel is licensed under GPLv2 without the "any later version" clause.
+===
+
+BSD licenses
+BSD licenses are a family of permissive free software licenses, imposing minimal restrictions on the redistribution of covered software. This is in contrast to [copyleft] licenses, which have reciprocity [share-alike] requirements. The original BSD license was used for its namesake, the Berkeley Software Distribution ([BSD]), a [Unix-like] operating system. The original version has since been revised and its descendants are more properly termed modified BSD licenses.
+
+Two variants of the license, the New BSD License/Modified BSD License (3-clause), and the Simplified BSD License/FreeBSD License (2-clause) have been verified as GPL-compatible free software licenses by the Free Software Foundation, and have been vetted as open source licenses by the Open Source Initiative, while the original, 4-clause license has not been accepted as an open source license and, although the original is considered to be a free software license by the FSF, the FSF does not consider it to be compatible with the GPL due to the advertising clause.
+===
+
+MIT License 
+The MIT License is a free software license originating at the Massachusetts Institute of Technology (MIT). It is a permissive free software license, meaning that it permits reuse within proprietary software provided all copies of the licensed software include a copy of the MIT License terms and the copyright notice. Such proprietary software retains its proprietary nature even though it incorporates software under the MIT License. The license is also GPL-compatible, meaning that the GPL permits combination and redistribution with software that uses the MIT License.
+
+Notable software packages that use one of the versions of the MIT License include Expat, the Mono development platform class libraries, [Ruby on Rails], [Node.js], Lua (from version 5.0 onwards), [jQuery] and the [X Window System], for which the license was written.
+===
+
+Apache License
+The Apache License is a free software license written by the [Apache Software Foundation] (ASF). The Apache License requires preservation of the copyright notice and disclaimer. Like other free software licenses, the license allows the user of the software the freedom to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software, under the terms of the license, without concern for royalties.
+
+The ASF and its projects release the software they produce under the Apache License. Some non-ASF software is also licensed using the license. In October 2012, 8708 projects located at [SourceForge.net] were available under the terms of the Apache License. In a blog post from May 2008, Google mentioned that over 25% of the nearly 100,000 projects then hosted on [Google Code] were using the Apache License, including the [Android] operating system.
+===
+
+AWStats
+AWStats is an open source Web analytics reporting tool, suitable for analysing data from Internet services such as web, streaming media, mail, and FTP servers. AWStats parses and analyses server log files, producing [HTML] reports. Data is visually presented within reports by tables and bar graphs. Static reports can be created through a command line interface, and on-demand reporting is supported through a Web browser [CGI] program.
+
+AWStats supports most major web server log file formats including [Apache] (NCSA combined/XLF/ELF log format or Common Log Format (CLF)), WebStar, [IIS] (W3C log format), and many other common web server log formats. Developers can contribute to the AWStats project through [SourceForge.net].
+===
+
+Moodle
+Moodle is a free and open-source software learning management system written in [PHP] and distributed under the [GNU General Public License]. Developed on pedagogical principles, Moodle is used for blended learning, distance education, flipped classroom and other e-learning projects in schools, universities, workplaces and other sectors.
+
+With customisable management features, it is used to create private websites with online courses for educators and trainers to achieve learning goals. Moodle (acronym for modular object-oriented dynamic learning environment) allows for extending and tailoring learning environments using community sourced plugins.
+
+===
+
+Bugzilla
+Bugzilla is a web based general purpose bug tracker and testing tool originally developed and used by the [Mozilla] project, and licensed under the [Mozilla Public License].
+
+Bugzilla was originally written by Terry Weissman in 1998 for the nascent Mozilla.org project, as an open source application to replace the in-house system then in use at [Netscape Communications] for tracking defects in the [Netscape Communicator] suite. Originally written in [Tcl], Terry decided to port Bugzilla to [Perl] before its release as part of Netscape's early open source code drops, with the hopes that more people would be able to contribute to it as Perl seemed to be a more popular language at the time.
+
+Bugzilla 2.0 was the result of that port to Perl, and the first version released to the public via anonymous CVS. In April 2000, Weissman handed off control of the Bugzilla project to Tara Hernandez. Under Tara's leadership, some of the regular contributors were coerced into taking more responsibility, and Bugzilla development became more community driven. In July 2001, facing distraction from her other responsibilities in Netscape, Tara handed off control to Dave Miller, who was still in charge as of 2013.
+
+Bugzilla 3.0 was released on May 10, 2007 and brought refreshed UI, XML-RPC interface, custom fields and resolutions, mod_perl support, shared saved searches, improved UTF-8 support and others.
+
+Bugzilla 4.0 was released on 15 February 2011.
+
+===
+
+Mercurial
+Mercurial is a cross-platform, distributed revision control tool for software developers. It is mainly implemented using the [Python] programming language, but includes a binary diff implementation written in [C]. It is supported on [MS Windows] and [Unix-like] systems, such as [FreeBSD], [Mac OS X] and [Linux]. Mercurial is primarily a command line program but graphical user interface extensions are available. All of Mercurial's operations are invoked as arguments to its driver program hg, a reference to the chemical symbol of the element mercury.
+
+Mercurial's major design goals include high performance and scalability, decentralized, fully distributed collaborative development, robust handling of both plain text and binary files, and advanced branching and merging capabilities, while remaining conceptually simple. It includes an integrated web interface. Mercurial has also taken steps to ease the transition for [SVN] users.
+
+The creator and lead developer of Mercurial is Matt Mackall. Mercurial is released as free software under the terms of the [GNU GPL v2] (or any later version).
+
+===
+
+SHA-1
+In cryptography, SHA-1 is a cryptographic hash function designed by the United States National Security Agency and is a U.S. Federal Information Processing Standard published by the United States NIST.
+
+SHA-1 produces a 160-bit (20-byte) hash value known as a message digest. A SHA-1 hash value is typically rendered as a hexadecimal number, 40 digits long.
+
+SHA stands for "secure hash algorithm". The four SHA algorithms are structured differently and are named SHA-0, SHA-1, [SHA-2], and [SHA-3]. SHA-0 is the original version of the 160-bit hash function published in 1993 under the name "SHA": it was not adopted by many applications. Published in 1995, SHA-1 is very similar to SHA-0, but alters the original SHA hash specification to correct alleged weaknesses. SHA-2, published in 2001, is significantly different from the SHA-1 hash function.
+
+SHA-1 is the most widely used of the existing SHA hash functions, and is employed in several widely used applications and protocols.
+
+In 2005, cryptanalysts found attacks on SHA-1 suggesting that the algorithm might not be secure enough for ongoing use. NIST required many applications in federal agencies to move to SHA-2 after 2010 because of the weakness. Although no successful attacks have yet been reported on SHA-2, it is algorithmically similar to SHA-1. In 2012, following a long-running competition, NIST selected an additional algorithm, Keccak, for standardisation under SHA-3. In November 2013 Microsoft announced their deprecation policy on SHA-1 according to which [Windows] will stop accepting SHA-1 certificates in SSL by 2017. In September 2014 [Google] announced their deprecation policy on SHA-1 according to which [Chrome] will stop accepting SHA-1 certificates in SSL in a phased way by 2017. [Mozilla] is also planning to stop accepting SHA-1-based SSL certificates by 2017.
+===
+
+SHA-2
+SHA-2 is a set of cryptographic hash functions designed by the NSA (U.S. National Security Agency). SHA stands for Secure Hash Algorithm. Cryptographic hash functions are mathematical operations run on digital data; by comparing the computed "hash" (the output from execution of the algorithm) to a known and expected hash value, a person can determine the data's integrity. For example, computing the hash of a downloaded file and comparing the result to a previously published hash result can show whether the download has been modified or tampered with. A key aspect of cryptographic hash functions is their collision resistance: nobody should be able to find two different input values that result in the same hash output.
+
+SHA-2 includes significant changes from its predecessor, [SHA-1]. The SHA-2 family consists of six hash functions with digests (hash values) that are 224, 256, 384 or 512 bits: SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256.
+
+SHA-256 and SHA-512 are novel hash functions computed with 32-bit and 64-bit words, respectively. They use different shift amounts and additive constants, but their structures are otherwise virtually identical, differing only in the number of rounds. SHA-224 and SHA-384 are simply truncated versions of the first two, computed with different initial values. SHA-512/224 and SHA-512/256 are also truncated versions of SHA-512, but the initial values are generated using the method described in FIPS PUB 180-4. SHA-2 was published in 2001 by the NIST as a U.S. federal standard (FIPS). The SHA-2 family of algorithms are patented in US 6829355. The United States has released the patent under a royalty-free license.
+
+In 2005, an algorithm emerged for finding SHA-1 collisions in about 2000 times fewer steps than was previously thought possible. Although (as of 2015) no example of a SHA-1 collision has been published yet, the security margin left by SHA-1 is weaker than intended, and its use is therefore no longer recommended for applications that depend on collision resistance, such as digital signatures. Although SHA-2 bears some similarity to the SHA-1 algorithm, these attacks have not been successfully extended to SHA-2.
+===
+
+SHA-3
+SHA-3, a subset of the cryptographic primitive family Keccak  is a cryptographic hash function designed by Guido Bertoni, Joan Daemen, Michaël Peeters, and Gilles Van Assche, building upon RadioGatún.
+
+On 2 October 2012, Keccak was selected as the winner of the NIST hash function competition. SHA-3 is not meant to replace [SHA-2], as no significant attack on SHA-2 has been demonstrated. Because of the successful attacks on [MD5] and SHA-0 and theoretical attacks on SHA-1,  NIST perceived a need for an alternative, dissimilar cryptographic hash, which became SHA-3.
+
+In 2014, the NIST has published a draft FIPS 202 "SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions". The standardisation process is in progress as of April 2015.
+===
+
+RSA
+RSA is one of the first practical public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and differs from the decryption key which is kept secret. In RSA, this asymmetry is based on the practical difficulty of factoring the product of two large prime numbers, the factoring problem. RSA is made of the initial letters of the surnames of Ron Rivest, Adi Shamir and Leonard Adleman, who first publicly described the algorithm in 1977. Clifford Cocks, an English mathematician, had developed an equivalent system in 1973, but it was not declassified until 1997.
+
+A user of RSA creates and then publishes a public key based on the two large prime numbers, along with an auxiliary value. The prime numbers must be kept secret. Anyone can use the public key to encrypt a message, but with currently published methods, if the public key is large enough, only someone with knowledge of the prime numbers can feasibly decode the message. Breaking RSA encryption is known as the RSA problem; whether it is as hard as the factoring problem remains an open question.
+
+===
+
+cryptosystem
+In cryptography cryptosystem refers to a suite of cryptographic algorithms needed to implement a particular security service, most commonly for achieving confidentiality (encryption).
+
+Typically, a cryptosystem consists of three algorithms: one for key generation, one for encryption, and one for decryption. The term cipher (sometimes cypher) is often used to refer to a pair of algorithms, one for encryption and one for decryption. Therefore, the term "cryptosystem" is most often used when the key generation algorithm is important. For this reason, the term "cryptosystem" is commonly used to refer to public key techniques; however both "cipher" and "cryptosystem" are used for symmetric key techniques.
+===
+
+Caesar cipher
+In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+
+The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the [ROT13] system. As with all single alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communication security.
+===
+
+ROT13
+ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet. ROT13 is a special case of the [Caesar cipher], developed in ancient Rome.
+
+In the basic Latin alphabet, ROT13 is its own inverse; that is, to undo ROT13, the same algorithm is applied, so the same action can be used for encoding and decoding. The algorithm provides virtually no cryptographic security, and is often cited as a canonical example of weak encryption.
+
+ROT13 is used in online forums as a means of hiding spoilers, punchlines, puzzle solutions, and offensive materials from the casual glance. ROT13 has been described as the "Usenet equivalent of a magazine printing the answer to a quiz upside down". ROT13 has inspired a variety of letter and word games on-line, and is frequently mentioned in newsgroup conversations.
+===
+
+/MIME
+S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME is on an IETF standards track and defined in a number of documents, most importantly [RFCs 3369], [3370], [3850] and [3851]. S/MIME was originally developed by RSA Data Security Inc. The original specification used the IETF MIME specification with the de facto industry standard PKCS#7 secure message format. Change control to S/MIME has since been vested in the IETF and the specification is now layered on Cryptographic Message Syntax, an IETF specification that is identical in most respects with PKCS #7. S/MIME functionality is built into the majority of modern email software and interoperates between them.
+===
+
+Pretty Good Privacy (PGP)
+Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. It was created by Phil Zimmermann in 1991.
+
+PGP and similar software follow the OpenPGP standard ([RFC 4880]) for encrypting and decrypting data.
+===
+
+MD5
+The MD5 message-digest algorithm is a widely used cryptographic hash function producing a 128-bit (16-byte) hash value, typically expressed in text format as a 32 digit hexadecimal number. MD5 has been utilised in a wide variety of cryptographic applications, and is also commonly used to verify data integrity.
+
+MD5 was designed by Ronald Rivest in 1991 to replace an earlier hash function, [MD4]. The source code in [RFC 1321] contains a "by attribution" RSA license.
+
+In 1996 a flaw was found in the design of MD5. While it was not deemed a fatal weakness at the time, cryptographers began recommending the use of other algorithms, such as [SHA-1] which has since been found to be vulnerable as well. In 2004 it was shown that MD5 is not collision resistant. As such, MD5 is not suitable for applications like [SSL] certificates or digital signatures that rely on this property for digital security. Also in 2004 more serious flaws were discovered in MD5, making further use of the algorithm for security purposes questionable; specifically, a group of researchers described how to create a pair of files that share the same MD5 checksum. Further advances were made in breaking MD5 in 2005, 2006, and 2007. In December 2008, a group of researchers used this technique to fake SSL certificate validity. As of 2010, the CMU Software Engineering Institute considers MD5 "cryptographically broken and unsuitable for further use", and most U.S. government applications now require the [SHA-2] family of hash functions. In 2012, the Flame malware exploited the weaknesses in MD5 to fake a [Microsoft] digital signature.
+===
+
+MD4
+The MD4 Message-Digest Algorithm is a cryptographic hash function developed by Ronald Rivest in 1990. The digest length is 128 bits. The algorithm has influenced later designs, such as the [MD5], [SHA-1] and [RIPEMD] algorithms.
+===
+
+
+One MD4 operation : MD4 consists of 48 of these operations, grouped in three rounds of 16 operations. F is a nonlinear function; one function is used in each round. Mi denotes a 32-bit block of the message input, and Ki denotes a 32-bit constant, different for each operation.
+The security of MD4 has been severely compromised. The first full collision attack against MD4 was published in 1995 and several newer attacks have been published since then. As of 2007, an attack can generate collisions in less than 2 MD4 hash operations.[2] A theoretical preimage attack also exists.
+
+A variant of MD4 is used in the ed2k URI scheme to provide a unique identifier for a file in the popular eDonkey2000 / eMule P2P networks. MD4 was also used by the rsync protocol (prior to version 3.0.0.)
+
+MD4 is used to compute NTLM password-derived key digests on Microsoft Windows NT, XP, Vista and 7.[4
+===
+Unity is a graphical shell for the GNOME desktop environment developed by Canonical Ltd. for its Ubuntu operating system. Unity debuted in the netbook edition of Ubuntu 10.10. It was initially designed to make more efficient use of space given the limited screen size of netbooks, including, for example, a vertical application switcher called the launcher, and a space-saving horizontal multipurpose top menu bar.[6][7]
+
+Unlike GNOME, KDE Software Compilation, Xfce, or LXDE, Unity is not a collection of applications but is designed to use existing programs.[8]
+
+Unity is part of the Ayatana project, an initiative to improve the user experience within Ubuntu.[9] In addition to Unity, there are Application Indicators and other projects such as MeMenu, the notification system and the application NotifyOSD gathered.
+===
+Cinnamon is a desktop environment that is based on the GTK+ 3 toolkit. It was released in 2011. The project was originally started as a fork of the GNOME Shell, i.e. a mere graphical shell, but became its own desktop environment in Cinnamon 2.0. Cinnamon was initially developed by (and for) the Linux distribution Linux Mint.
+
+Because the Cinnamon desktop environment intends to implement a different graphical user interface (GUI) than the GNOME desktop environment, many of the GNOME Core Applications were forked, so that their GUIs can be rewritten appropriately.
+===
+MATE (/mɑːteɪ/; Spanish pronunciation: [ˈmate]) is a desktop environment forked from the now-unmaintained code base of GNOME 2. It is named after the South American plant Yerba mate and tea made from the herb, mate.[3] The use of a new name, instead of GNOME, avoids conflicts with GNOME 3 components.
+
+GNOME 3 (released in April 2011) replaced the classic desktop metaphor, substituting its native user interface: GNOME Shell. This action led to some criticism from the Linux community. Some users refused to accept the new interface design of GNOME and called for continued development of GNOME 2.[4] An Argentinian user of Arch Linux started the MATE project[5] in order to meet this demand[6] and announced the availability of Mate on 18 June 2011.[7]
+===
+Sugar is a free and open source desktop environment designed with the goal of being used by children for interactive learning.[1][3] Developed as part of the One Laptop per Child (OLPC) project, Sugar was the default interface on OLPC XO-1 laptop computers. The OLPC XO-1.5 and later provided the option of either the Gnome or Sugar interfaces.[4]
+
+Sugar is available as a Live CD, as Live USB, a package installable through several Linux distributions,[1] or on Windows and Mac OS through virtualization.[5]
+
+Since May 2008, Sugar has been developed under the umbrella of Sugar Labs, a member project of the Software Freedom Conservancy.[3] Sugar is open-source software under the GNU GPL license,;[1] many of Sugar Labs' contributors are volunteers.[6]
+
+Unlike most other desktop environments, Sugar does not use the "desktop", "folder" and "window" metaphors. Instead, Sugar's default full-screen activities require users to focus on only one program at a time. Sugar implements a journal which automatically saves the user's running program session and allows him or her to later use an interface to pull up their past works by date, activity used or file type.
+===
+
+
+
