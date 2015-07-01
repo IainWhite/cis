@@ -52,8 +52,42 @@ Exif - Exchangeable Image File Format
 Exchangeable image file format (officially Exif, according to JEIDA/JEITA/CIPA specifications) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras. The specification uses the following existing file formats with the addition of specific metadata tags: [JPEG] discrete cosine transform (DCT) for compressed image files, TIFF Rev. 6.0 (RGB or YCbCr) for uncompressed image files, and RIFF WAV for audio files (Linear PCM or ITU-T G.711 μ-Law PCM for uncompressed audio data, and IMA-ADPCM for compressed audio data).
 
 This standard consists of the Exif image file specification and the Exif audio file specification.
+
+===
+Bitmap
+In computing, a bitmap is a mapping from some domain (for example, a range of integers) to bits, that is, values which are zero or one. It is also called a bit array or bitmap index.
+
+In computer graphics, when the domain is a rectangle (indexed by two coordinates) a bitmap gives a way to store a binary image, that is, an image in which each pixel is either black or white (or any two colours).
+
+The more general term pixmap refers to a map of pixels, where each one may store more than two colors, thus using more than one bit per pixel. Often bitmap is used for this as well. In some contexts, the term bitmap implies one bit per pixel, while pixmap is used for images with multiple bits per pixel.
+
+A bitmap is a type of memory organisation or image file format used to store digital images. The term bitmap comes from the computer programming terminology, meaning just a map of bits, a spatially mapped array of bits. Now, along with pixmap, it commonly refers to the similar concept of a spatially mapped array of pixels. Raster images in general may be referred to as bitmaps or pixmaps, whether synthetic or photographic, in files or memory.
+
+Many graphical user interfaces use bitmaps in their built-in graphics subsystems; for example, the [Microsoft Windows] and [OS/2] platforms' [GDI] subsystem, where the specific format used is the Windows and OS/2 bitmap file format, usually named with the file extension of .BMP (or .DIB for device-independent bitmap). Besides BMP, other file formats that store literal bitmaps include InterLeaved Bitmap (ILBM), Portable Bitmap (PBM), X Bitmap (XBM), and Wireless Application Protocol Bitmap (WBMP). Similarly, most other image file formats, such as [JPEG], [TIFF], [PNG], and [GIF], also store bitmap images (as opposed to [vector graphics]), but they are not usually referred to as bitmaps, since they use compressed formats internally.
 ===
 
-JPEG File Interchange Format (JFIF)
-The JPEG File Interchange Format (JFIF) is an image file format standard. It is a format for exchanging [JPEG] encoded files compliant with the JPEG Interchange Format (JIF) standard. It solves some of JIF's limitations in regard to simple JPEG encoded file interchange. As with all JIF compliant files, image data in JFIF files is compressed using the techniques in the JPEG standard, hence JFIF is sometimes referred to as "JPEG/JFIF".
+SpamAssassin
+SpamAssassin is a computer program released under the Apache License 2.0 used for e-mail spam filtering based on content-matching rules. It is now part of the [Apache Foundation].
+
+SpamAssassin uses a variety of spam detection techniques, that includes DNS based and fuzzy checksum based spam detection, Bayesian filtering, external programs, blacklists and online databases.
+
+The program can be integrated with the mail server to automatically filter all mail for a site. It can also be run by individual users on their own mailbox and integrates with several mail programs. SpamAssassin is highly configurable; if used as a system wide filter it can still be configured to support per-user preferences.
+
+SpamAssassin was awarded the Linux New Media Award 2006 as the "Best Linux-based Anti-spam Solution".
+===
+
+Microsoft Agent
+Microsoft Agent is a technology developed by [Microsoft] which employs animated characters, text-to-speech engines, and speech recognition software to enhance interaction with computer users. Thus it is an example of an embodied agent. It comes preinstalled as part of [Microsoft Windows 2000] through [Windows Vista]. Microsoft Agent functionality is exposed as an [ActiveX] control that can be used by web pages.
+
+The theory behind this software came from work on social interfaces by Clifford Nass and Byron Reeves at Stanford's Center for the Study of Language and Information.
+
+Interactive character technology was first introduced in Microsoft Bob, which used an early version of Agent technology internally referred to as "Microsoft Actor." It was the code used in initial version of the Office Assistant in [Office 97]. Microsoft Agent was subsequently created by Tandy Trower in an attempt to offer technology that was more flexible and available to third-party developers to include in their applications and web pages. The software release also included four interactive characters as well as a utility that enables developers to assemble their own characters and interactions.
+
+Microsoft Agent replaced the original Microsoft Bob code in [Office 2000], although this use did not include Agent's much-touted speech synthesis or recognition capabilities or any of the four Microsoft Agent characters. Instead the Office team created their own characters including one dubbed "Clippit" or "Clippy". However, Bob Actors or Office 97 assistants are incompatible with Office 2000 and later versions, and vice versa. The current version of Microsoft Agent was quietly released on [MSDN] in 1998. Microsoft recently announced that "Microsoft has decided to discontinue development of Microsoft Agent technologies. Beginning with [Windows 7], Microsoft Agent will not be included or supported in future versions of the Microsoft Windows operating system. We encourage Microsoft Agent application developers and redistributes to evaluate their activities in light of this decision". Microsoft is no longer offering licenses and no longer distributes the SDK. (Due to customer feedback, Microsoft has decided to provide an installation package of the Microsoft Agent core components for use on Windows 7).
+
+Microsoft Agent characters are stored in files of the .ACS extension, and can be stored in a number of compressed .ACF files for better [World Wide Web] distribution. Microsoft Office 97 and Microsoft Bob Actor characters are stored in files of the .ACT extension.
+
+The speech engine itself is driven by the Microsoft Speech API (SAPI), version 4 and above. Microsoft SAPI provides a control panel for easily installing and switching between various available Text to Speech and Speech to Text engines, as well as voice training and scoring systems to improve the quality and accuracy of both engines.
+
+Microsoft provides four agent characters for free, which can be downloaded from the Microsoft Agent website. These are called Peedy, Merlin, Genie, and Robby. Some characters also shipped with Microsoft Office up to version 2003 as the Office Assistants and with [Windows XP] as search assistants. New Agent characters can also be created using Microsoft's development tools, including the Agent Character Editor. Agents can be embedded in software with [Visual Basic for Applications] and in web pages with [VBScript], and automated tools for the purpose of simplifying this exist. However, web page agents are only compatible with [Internet Explorer], since alternative browsers like [Opera] or [Mozilla Firefox] do not support [ActiveX]. Additionally, users of [Windows Me], [Windows 2000], [Windows XP], and above or owners of [Microsoft Office 2000] and up are the only ones who have Agent software pre-loaded on their computers; others have to download the software and install it manually.
 ===
