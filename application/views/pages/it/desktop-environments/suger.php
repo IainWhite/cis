@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Suger'); ?>
+        <p><strong>Sugar</strong> is a free and open source desktop environment designed with the goal of being used by children for interactive learning. Developed as part of the <?php echo $this->stencil->addLink('One Laptop per Child', 'IT'); ?> (OLPC) project, Sugar was the default interface on OLPC XO-1 laptop computers. The OLPC XO-1.5 and later provided the option of either the Gnome or Sugar interfaces.</p>
+        <p>Sugar is available as a Live CD, as Live USB, a package installable through several <?php echo $this->stencil->addLink('Linux', 'OS'); ?> distributions, or on <?php echo $this->stencil->addLink('Windows', 'OS'); ?> and <?php echo $this->stencil->addLink('Mac OS', 'OS'); ?> through virtualisation.</p>
+        <p>Since May 2008, Sugar has been developed under the umbrella of <strong>Sugar Labs</strong>, a member project of the <strong>Software Freedom Conservancy</strong>. Sugar is open-source software under the <?php echo $this->stencil->addLink('GNU GPL license', 'LIC'); ?>, many of Sugar Labs' contributors are volunteers.</p>
+        <p>Unlike most other desktop environments, Sugar does not use the "desktop", "folder" and "window" metaphors. Instead, Sugar's default full-screen activities require users to focus on only one program at a time. Sugar implements a journal which automatically saves the user's running program session and allows him or her to later use an interface to pull up their past works by date, activity used or file type.</p>
+    </div>
+</div>

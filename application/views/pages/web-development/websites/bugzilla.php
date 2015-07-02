@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Bugzilla'); ?>
+        <p><strong>Bugzilla</strong> is a web based general purpose bug tracker and testing tool originally developed and used by the <?php echo $this->stencil->addLink('Mozilla', 'C'); ?> project, and licensed under the <?php echo $this->stencil->addLink('Mozilla Public License', 'LIC'); ?>.</p>
+        <p>Bugzilla was originally written by <strong>Terry Weissman</strong> in 1998 for the nascent Mozilla.org project, as an open source application to replace the in-house system then in use at <?php echo $this->stencil->addLink('Netscape Communications', 'C'); ?> for tracking defects in the <?php echo $this->stencil->addLink('Netscape Communicator', 'WB'); ?> suite. Originally written in <?php echo $this->stencil->addLink('Tcl', 'L'); ?>, Terry decided to port Bugzilla to <?php echo $this->stencil->addLink('Perl', 'L'); ?> before its release as part of Netscape's early open source code drops, with the hopes that more people would be able to contribute to it as Perl seemed to be a more popular language at the time.</p>
+        <p>Bugzilla 2.0 was the result of that port to <?php echo $this->stencil->addLink('Perl', 'L'); ?>, and the first version released to the public via anonymous CVS. In April 2000, Weissman handed off control of the Bugzilla project to Tara Hernandez. Under Tara's leadership, some of the regular contributors were coerced into taking more responsibility, and Bugzilla development became more community driven. In July 2001, facing distraction from her other responsibilities in Netscape, Tara handed off control to Dave Miller, who was still in charge as of 2013.</p>
+        <p>Bugzilla 3.0 was released on May 10, 2007 and brought refreshed UI, XML-RPC interface, custom fields and resolutions, mod_perl support, shared saved searches, improved UTF-8 support and others.</p>
+        <p>Bugzilla 4.0 was released on 15 February 2011.</p>
+    </div>
+</div>

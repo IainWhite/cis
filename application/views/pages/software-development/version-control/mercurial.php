@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Mercurial'); ?>
+        <p><strong>Mercurial</strong> is a cross-platform, distributed revision control tool for software developers. It is mainly implemented using the <?php echo $this->stencil->addLink('Python', 'L'); ?> programming language, but includes a binary diff implementation written in <?php echo $this->stencil->addLink('C', 'L'); ?>. It is supported on <?php echo $this->stencil->addLink('MS Windows', 'OS'); ?> and <?php echo $this->stencil->addLink('Unix-like', 'OS'); ?> systems, such as <?php echo $this->stencil->addLink('FreeBSD', 'OS'); ?>, <?php echo $this->stencil->addLink('Mac OS X', 'OS'); ?> and <?php echo $this->stencil->addLink('Linux', 'OS'); ?>. Mercurial is primarily a command line program but graphical user interface extensions are available. All of Mercurial's operations are invoked as arguments to its driver program hg, a reference to the chemical symbol of the element mercury.</p>
+        <p>Mercurial's major design goals include high performance and scalability, decentralised, fully distributed collaborative development, robust handling of both plain text and binary files, and advanced branching and merging capabilities, while remaining conceptually simple. It includes an integrated web interface. Mercurial has also taken steps to ease the transition for <?php echo $this->stencil->addLink('SVN', 'software-development/version-control'); ?> users.</p>
+        <p>The creator and lead developer of Mercurial is <strong>Matt Mackall</strong>. Mercurial is released as free software under the terms of the <?php echo $this->stencil->addLink('GNU GPL v2', 'LIC'); ?> (or any later version).</p>
+    </div>
+</div>
