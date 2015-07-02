@@ -161,9 +161,7 @@ it/software/awk
 it/software/borland-sidekick
 it/software/cacti
 it/software/cad
-it/software/cad/autocad
 it/software/coreldraw
-it/software/deluxe-paint
 it/software/dia
 it/software/directx
 it/software/dynatrace
@@ -216,7 +214,6 @@ it/software/spreadsheets/excel
 it/software/spreadsheets/lotus-1-2-3
 it/software/spreadsheets/multiplan
 it/software/spreadsheets/visicalc
-it/software/spreedsheets/quattro-pro
 it/software/spreedsheets/supercalc
 it/software/visio
 it/software/visual-web-developer-express
@@ -225,7 +222,6 @@ it/software/word-processors/microsoft-write
 it/software/word-processors/word
 it/software/word-processors/wordpad
 it/software/word-processors/wordperfect
-it/software/word-processors/wordstar
 it/software/xcode
 it/stackdriver
 it/tar-format
