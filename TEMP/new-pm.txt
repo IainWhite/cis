@@ -1,28 +1,3 @@
-Tcl
-Tcl (originally from Tool Command Language, but conventionally spelled "Tcl" rather than "TCL"; pronounced as "tickle") is a scripting language created by John Ousterhout. Originally "born out of frustration", according to the author, with programmers devising their own languages intended to be embedded into applications, Tcl gained acceptance on its own. It is commonly used for rapid prototyping, scripted applications, GUIs and testing. Tcl is used on embedded systems platforms, both in its full form and in several other small-footprint versions.
-===
-
-One Laptop per Child (OLPC) 
-One Laptop per Child (OLPC) was setup to oversee the creation of affordable educational devices for use in the developing world.
-
-Its primary goal is the production and distribution of the [OLPC XO], a low-cost and low-power laptop computer. The project was originally funded by member organisations such as AMD, Chi Mei, eBay, Google, Marvell Technology Group, News Corporation, Nortel, Red Hat, and Quanta.
-
-The OLPC project has received criticism both specific to its mission and criticism that is typical of many such systems, such as support, ease-of-use, security, content-filtering and privacy issues. Officials in some countries have criticised the project for its appropriateness in terms of price, cultural emphasis and priority as compared to other basic needs of people in third-world settings.
-===
-
-OLPC XO
-The OLPC XO, previously known as the $100 Laptop, Children's Machine, and 2B1, is an inexpensive laptop computer intended to be distributed to children in developing countries around the world, to provide them with access to knowledge, and opportunities to "explore, experiment and express themselves" (constructionist learning). The laptop is manufactured by Quanta Computer and developed by [One Laptop per Child] (OLPC), a non-profit organisation.
-
-The subnotebooks are designed for sale to government education systems which then give each primary school child their own laptop. Pricing was set to start at $188 in 2006, with a stated goal to reach the $100 mark in 2008 and the 50-dollar mark by 2010. When offered for sale in the Give One Get One campaigns of Q4 2006 and Q4 2007, the laptop was sold at $199.
-
-These rugged, low-power computers use flash memory instead of a hard drive, and come with an operating system derived from [Fedora Linux] as their pre-installed operating system with the [Sugar] GUI. Mobile ad hoc networking via 802.11s WiFi mesh networking is used to allow many machines to share Internet access as long as at least one of them can see and connect to a router or other access point.
-===
-
-Linux Mint
-Linux Mint is a [Linux distribution] based on [Ubuntu] and [Debian], with an alternative Linux Mint Debian Edition (LMDE) based purely on Debian. Mint provides full out-of-the-box multimedia support by including some proprietary software such as [Adobe Flash].
-
-New versions of the Ubuntu based Linux Mint have been released approximately every six months. The first release, named "Ada", was released in 2006. The 17th release, "Qiana", was released on 31 May 2014. Support for older releases usually ends shortly after the next version is released, but there have been releases with long-term support, including the current release, v17.x, which will be supported for five years, until April 2019.
-===
 
 LXDE
 LXDE (Lightweight X11 Desktop Environment) is a free desktop environment with comparatively low resource requirements. This makes it especially suitable for resource constrained personal computers such as netbooks or System on a chip computers.
@@ -33,12 +8,6 @@ In 2010, tests suggested that LXDE 0.5 had the lowest memory usage of the four m
 
 LXDE is the default desktop environment of Knoppix, Lubuntu, LXLE Linux, Peppermint Linux OS and Raspbian, among other distributions.
 
-===
-
-Public Domain
-Works in the public domain are those whose intellectual property rights have expired, have been forfeited, or are inapplicable. Examples include the works of Shakespeare and Beethoven, most of the early silent films, the formulae of Newtonian physics, Serpent encryption algorithm and powered flight. The term is not normally applied to situations where the creator of a work retains residual rights, in which case use of the work is referred to as "under license" or "with permission".
-
-As rights are country based and vary, a work may be subject to rights in one country and not in another. Some rights depend on registrations with a country by country basis, and the absence of registration in a particular country, if required, implies public domain status in that country.
 ===
 
 POSIX
@@ -53,12 +22,6 @@ A typical Linux distribution comprises a Linux kernel, GNU tools and libraries, 
 A Linux distribution may also be described as a particular assortment of application and utility software (various GNU tools and libraries, for example), packaged together with the Linux kernel in such a way that its capabilities meet the needs of many users. The software is usually adapted to the distribution and then packaged into software packages by the distribution's maintainers. The software packages are available online in so-called repositories, which are storage locations usually distributed around the world. Beside glue components, such as the distribution installers (for example, Debian-Installer and Anaconda) or the package management systems, there are only very few packages that are originally written from the ground up by the maintainers of a Linux distribution.
 
 More than six hundred Linux distributions exist; over three hundred of those are in active development, constantly being revised and improved. Because of the huge availability of software, distributions have taken a wide variety of forms, including those suitable for use on desktops, servers, laptops, netbooks, mobile phones and tablets, as well as minimal environments typically for use in embedded systems. There are commercially backed distributions, such as [Fedora] (Red Hat), [openSUSE] (SUSE) and [Ubuntu] (Canonical Ltd.), and entirely community driven distributions, such as [Debian], [Slackware], [Gentoo] and [Arch Linux]. Most distributions come ready to use and pre-compiled for a specific instruction set, while some distributions (such as Gentoo) are distributed mostly in source code form and compiled locally during installation.
-===
-
-Arch Linux
-Arch Linux is a [Linux distribution] for i686 and x86-64 computers. It is composed predominantly of free and open-source software, and supports community involvement.
-
-The design approach of the development team focuses on elegance, code correctness, minimalism, and simplicity, and expects the user to be willing to make some effort to understand the system's operation. The general guideline is always the [KISS principle] ("Keep it simple, stupid"). A package manager written specifically for Arch Linux, pacman, is used to install, remove and update software packages.
 ===
 
 Yum - Yellowdog Updater, Modified

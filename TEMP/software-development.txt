@@ -65,7 +65,6 @@ software-development/Flow Chart
 software-development/Hello World
 software-development/Microsoft Foundation Class Library (MFC)
 software-development/object-windows-library
-software-development/object-windows-library
 software-development/Open Database Connectivity (ODBC)
 software-development/Software Development Kit (SDK)
 software-development/Software Metric

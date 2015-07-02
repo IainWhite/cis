@@ -118,4 +118,3 @@ web-development/wiki
 web-development/wikiwikiweb
 web-development/world-wide-web
 web-development/worldpay
-web-development/xmlhttprequest

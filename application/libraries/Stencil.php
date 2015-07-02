@@ -819,6 +819,8 @@ class Stencil {
                 $path = 'it/os/os-x-server';
             case 'LIC':
                 $path = 'it/licenses';
+            case 'LIN':
+                $path = 'it/os/linux';
         }
         if ($full) {
             $path = base_url() . $path;

@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('OLPC XO'); ?>
+        <p>The <strong>OLPC XO</strong>, previously known as the $100 Laptop, Children's Machine, and 2B1, is an inexpensive laptop computer intended to be distributed to children in developing countries around the world, to provide them with access to knowledge, and opportunities to "explore, experiment and express themselves" (constructionist learning). The laptop is manufactured by <strong>Quanta Computer</strong> and developed by <?php echo $this->stencil->addLink('One Laptop per Child', 'C'); ?> (OLPC), a non-profit organisation.</p>
+        <p>The subnotebooks are designed for sale to government education systems which then give each primary school child their own laptop. Pricing was set to start at $188 in 2006, with a stated goal to reach the $100 mark in 2008 and the 50-dollar mark by 2010. When offered for sale in the Give One Get One campaigns of Q4 2006 and Q4 2007, the laptop was sold at $199.</p>
+        <p>These rugged, low-power computers use flash memory instead of a hard drive, and come with an operating system derived from <?php echo $this->stencil->addLink('Fedora Linux', 'LIN'); ?> as their pre-installed operating system with the <?php echo $this->stencil->addLink('Sugar', 'IT'); ?> GUI. Mobile ad hoc networking via 802.11s WiFi mesh networking is used to allow many machines to share Internet access as long as at least one of them can see and connect to a router or other access point.</p>
+    </div>
+</div>
