@@ -182,19 +182,12 @@ it/software/ide/microsoft-visual-studio
 it/software/ide/netbeans
 it/software/ide/vim
 it/software/jira
-it/software/licenses/Apache License
 it/software/licenses/Apple Public Source License
-it/software/licenses/BSD License
 it/software/licenses/Common Public License
-it/software/licenses/Copyleft
-it/software/licenses/Copyright
 it/software/licenses/End-User License Agreement (EULA)
 it/software/licenses/Free and Open-Source Software (FOSS)
 it/software/licenses/Free Software Definition
-it/software/licenses/Free Software Foundation (FSF)
-it/software/licenses/GNU General Public License (GNU GPL or GPL)
 it/software/licenses/IBM Public License
-it/software/licenses/MIT License
 it/software/licenses/Public Domain
 it/software/licenses/Public Domain Software
 it/software/lotus-agenda

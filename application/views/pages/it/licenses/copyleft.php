@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Copyleft'); ?>
+        <p><strong>Copyleft</strong> (a play of the word <?php echo $this->stencil->addLink('copyright', 'LIC'); ?>) is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in derivative works down the line.</p>
+        <p>Copyleft is a form of licensing and copyright law, and can be used to maintain copyright conditions for works ranging from computer software, to documents, to art. In general, copyright law is used by an author to prohibit recipients from reproducing, adapting, or distributing copies of their work. In contrast, under copyleft, an author may give every person who receives a copy of the work permission to reproduce, adapt, or distribute it, with the accompanying requirement that any resulting copies or adaptations are also bound by the same licensing agreement.</p>
+        <p>Copyleft licenses (for software) require that information necessary for reproducing and modifying the work must be made available to recipients of the binaries. The source code files will usually contain a copy of the license terms and acknowledge the author(s).</p>
+        <p>Copyleft type licenses are a novel use of existing copyright law to ensure a work remains freely available. The <?php echo $this->stencil->addLink('GMU General Public License', 'LIC'); ?>, originally written by <strong>Richard Stallman</strong>, was the first software copyleft license to see extensive use, and continues to dominate in that area. <?php echo $this->stencil->addLink('Creative Commons', 'C'); ?>, a non-profit organisation founded by <strong>Lawrence Lessig</strong>, provides a similar license provision condition called <?php echo $this->stencil->addLink('ShareAlike', 'LIC'); ?>.</p>
+    </div>
+</div>

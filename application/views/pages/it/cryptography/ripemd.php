@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('RIPEMD'); ?>
+        <p><strong>RIPEMD (RACE Integrity Primitives Evaluation Message Digest)</strong> is a family of cryptographic hash functions developed in Leuven, Belgium, by Hans Dobbertin, Antoon Bosselaers and Bart Preneel at the COSIC research group at the Katholieke Universiteit Leuven, and first published in 1996. RIPEMD was based upon the design principles used in <?php echo $this->stencil->addLink('MD5', 'IT'); ?>, and is similar in performance to the more popular <?php echo $this->stencil->addLink('SHA-1', 'IT'); ?>.</p>
+        <p><strong>RIPEMD-160</strong> is an improved, 160-bit version of the original RIPEMD, and the most common version in the family. RIPEMD-160 was designed in the open academic community, in contrast to the NSA designed SHA-1 and SHA-2 algorithms. On the other hand, RIPEMD-160 appears to be used somewhat less frequently than SHA-1, which may have caused it to be less scrutinised than SHA. RIPEMD-160 is not known to be constrained by any patents.</p>
+        <p>As well as 160-bit, there also exist 128, 256 and 320-bit versions of this algorithm, called RIPEMD-128, RIPEMD-256, and RIPEMD-320, respectively. The 128-bit version was intended only as a drop-in replacement for the original RIPEMD, which was also 128-bit, and which had been found to have questionable security. The 256 and 320-bit versions diminish only the chance of accidental collision, and don't have higher levels of security (against preimage attacks) as compared to, respectively, RIPEMD-128 and RIPEMD-160.</p>
+        <p>In August 2004, a collision was reported for the original RIPEMD. This does not apply to RIPEMD-160.</p>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Apache License'); ?>
+        <p>The <strong>Apache License</strong> is a free software license written by the <?php echo $this->stencil->addLink('Apache Software Foundation', 'C'); ?> (ASF). The Apache License requires preservation of the copyright notice and disclaimer. Like other free software licenses, the license allows the user of the software the freedom to use the software for any purpose, to distribute it, to modify it, and to distribute modified versions of the software, under the terms of the license, without concern for royalties.</p>
+        <p>The ASF and its projects release the software they produce under the Apache License. Some non-ASF software is also licensed using the license. In October 2012, 8708 projects located at SourceForge.net were available under the terms of the Apache License. In a blog post from May 2008, <?php echo $this->stencil->addLink('Google', 'C'); ?> mentioned that over 25% of the nearly 100,000 projects then hosted on <?php echo $this->stencil->addLink('Google Code', 'WEB'); ?> were using the Apache License, including the <?php echo $this->stencil->addLink('Andriod', 'OS'); ?> operating system.</p>
+    </div>
+</div>
