@@ -36,7 +36,6 @@ web-development/ahah
 web-development/aim
 web-development/ajax
 web-development/apc
-web-development/azure
 web-development/back-end
 web-development/blog
 web-development/browser-wars
@@ -58,7 +57,6 @@ web-development/front-end/mark-up/dhtml
 web-development/front-end/mark-up/html
 web-development/front-end/mark-up/html/html5
 web-development/front-end/styling
-web-development/gerrit
 web-development/gopher
 web-development/ip-address
 web-development/isp
@@ -87,14 +85,12 @@ web-development/paypal
 web-development/protocols
 web-development/rackspace
 web-development/rdp
-web-development/rietveld
 web-development/rss
 web-development/scripting
 web-development/seo
 web-development/sgml
 web-development/slash
 web-development/slashdot-effect
-web-development/smil
 web-development/social-media
 web-development/ssi
 web-development/tcp-ip
