@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('S/MIME - Secure/Multipurpose Internet Mail Extensions'); ?>
+        <p><strong>S/MIME (Secure/Multipurpose Internet Mail Extensions)</strong> is a standard for public key encryption and signing of MIME data. S/MIME is on an IETF standards track and defined in a number of documents, most importantly <?php echo $this->stencil->addRFCLink('3369'); ?>, <?php echo $this->stencil->addRFCLink('3370'); ?>, <?php echo $this->stencil->addRFCLink('3850'); ?> and <?php echo $this->stencil->addRFCLink('3851'); ?>. S/MIME was originally developed by <strong>RSA Data Security Inc</strong> The original specification used the IETF MIME specification with the de facto industry standard PKCS#7 secure message format. Change control to S/MIME has since been vested in the IETF and the specification is now layered on Cryptographic Message Syntax, an IETF specification that is identical in most respects with PKCS #7. S/MIME functionality is built into the majority of modern email software and interoperates between them.</p>
+    </div>
+</div>

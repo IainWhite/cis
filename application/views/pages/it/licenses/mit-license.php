@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('MIT License'); ?>
+        <p>The <strong>MIT License</strong> is a free software license originating at the <strong>Massachusetts Institute of Technology (<?php echo $this->stencil->addLink('MIT', 'C'); ?>)</strong>. It is a permissive free software license, meaning that it permits reuse within proprietary software provided all copies of the licensed software include a copy of the MIT License terms and the copyright notice. Such proprietary software retains its proprietary nature even though it incorporates software under the MIT License. The license is also <?php echo $this->stencil->addLink('GPL-compatible', 'LIC'); ?>, meaning that the <?php echo $this->stencil->addLink('GPL', 'OS'); ?> permits combination and redistribution with software that uses the MIT License.</p>
+        <p>Notable software packages that use one of the versions of the MIT License include Expat, the Mono development platform class libraries, <?php echo $this->stencil->addLink('Ruby on Rails', 'L'); ?>, <?php echo $this->stencil->addLink('Node.js', 'JS'); ?>, Lua (from version 5.0 onwards), <?php echo $this->stencil->addLink('jQuery', 'JS'); ?> and the <?php echo $this->stencil->addLink('X Window System', 'it/windowing-systems'); ?>, for which the license was written.</p>
+    </div>
+</div>

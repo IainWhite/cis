@@ -69,28 +69,34 @@ Creative Commons is a non-profit organisation devoted to expanding the range of 
 The organisation was founded in 2001 by Lawrence Lessig, Hal Abelson, and Eric Eldred with the support of Center for the Public Domain. The first article in a general interest publication about Creative Commons, written by Hal Plotkin, was published in February 2002. The first set of copyright licenses was released in December 2002. The founding management team that developed the licenses and built the Creative Commons infrastructure as we know it today included Molly Shaffer Van Houweling, Glenn Otis Brown, Neeru Paharia, and Ben Adida. Matthew Haughey and Aaron Swartz also played a significant role in the early stages of the project. As of November 2014 there were an estimated 880 million works licensed under the various Creative Commons licenses. As of March 2015, [Flickr] alone hosts over 306 million Creative Commons licensed photos. Creative Commons is governed by a board of directors. Their licenses have been embraced by many as a way for creators to take control of how they choose to share their copyrighted works.
 ===
 
-GNU General Public License (GPL)
-The GNU General Public License (GNU GPL or GPL) is the most widely used free software license, which guarantees end users (individuals, organisations, companies) the freedoms to run, study, share (copy), and modify the software. Software that allows these rights is called free software and, if the software is copylefted, requires those rights to be retained. The GPL demands both. The license was originally written by Richard Stallman of the Free Software Foundation ([FSF]) for the [GNU project].
-
-In other words, the GPL grants the recipients of a computer program the rights of the Free Software Definition and uses [copyleft] to ensure the freedoms are preserved whenever the work is distributed, even when the work is changed or added to. The GPL is a copyleft license, which means that derived works can only be distributed under the same license terms. This is in distinction to permissive free software licenses, of which the [BSD licenses] and the [MIT License] are the standard examples. GPL was the first copyleft license for general use.
-
-As of August 2007, the GPL accounted for nearly 65% of the 43,442 free software projects listed on Freecode, and as of January 2006, about 68% of the projects listed on [SourceForge.net]. Similarly, a 2001 survey of [Red Hat Linux] 7.1 found that 50% of the source code was licensed under the GPL and a 1997 survey of MetaLab, then the largest free software archive, showed that the GPL accounted for about half of the software licensed therein. Prominent free software programs licensed under the GPL include the [Linux] kernel and the GNU Compiler Collection (GCC). Some other free software programs ([MySQL] is a prominent example) are dual-licensed under multiple licenses, often with one of the licenses being the GPL.
-
-David A. Wheeler argues that the copyleft provided by the GPL was crucial to the success of Linux-based systems, giving the programmers who contributed to the kernel the assurance that their work would benefit the whole world and remain free, rather than being exploited by software companies that would not have to give anything back to the community.
-
-On 29 June 2007, the third version of the license (GNU GPLv3) was released to address some perceived problems with the second version (GNU GPLv2) that were discovered during its long-time usage. To keep the license up-to-date, the GPL license includes an optional "any later version" clause, allowing users to choose between the original terms or the terms in new versions as updated by the FSF. Developers can omit it when licensing their software; for instance the Linux kernel is licensed under GPLv2 without the "any later version" clause.
-===
-
 BSD licenses
 BSD licenses are a family of permissive free software licenses, imposing minimal restrictions on the redistribution of covered software. This is in contrast to [copyleft] licenses, which have reciprocity [share-alike] requirements. The original BSD license was used for its namesake, the Berkeley Software Distribution ([BSD]), a [Unix-like] operating system. The original version has since been revised and its descendants are more properly termed modified BSD licenses.
 
 Two variants of the license, the New BSD License/Modified BSD License (3-clause), and the Simplified BSD License/FreeBSD License (2-clause) have been verified as GPL-compatible free software licenses by the Free Software Foundation, and have been vetted as open source licenses by the Open Source Initiative, while the original, 4-clause license has not been accepted as an open source license and, although the original is considered to be a free software license by the FSF, the FSF does not consider it to be compatible with the GPL due to the advertising clause.
 ===
 
-MIT License 
-The MIT License is a free software license originating at the Massachusetts Institute of Technology (MIT). It is a permissive free software license, meaning that it permits reuse within proprietary software provided all copies of the licensed software include a copy of the MIT License terms and the copyright notice. Such proprietary software retains its proprietary nature even though it incorporates software under the MIT License. The license is also GPL-compatible, meaning that the GPL permits combination and redistribution with software that uses the MIT License.
+GPL Compatibility
+Code licensed under several other licenses can be combined with a program under the [GPL] without conflict, as long as the combination of restrictions on the work as a whole does not put any additional restrictions beyond what GPL allows. In addition to the regular terms of the GPL, there are additional restrictions and permissions one can apply:
 
-Notable software packages that use one of the versions of the MIT License include Expat, the Mono development platform class libraries, [Ruby on Rails], [Node.js], Lua (from version 5.0 onwards), [jQuery] and the [X Window System], for which the license was written.
+- If a user wants to combine code licensed under different versions of GPL, then this is only allowed if the code with the older GPL version includes an "any later version" statement. For instance, the GPLv3 licensed GNU LibreDWG library can't be used anymore by LibreCAD and FreeCAD who have GPLv2 only dependencies.
+- Code licensed under LGPL is permitted to be linked with any other code no matter what license that code has, though the LGPL does add additional requirements for the combined work. LGPLv3 and GPLv2-only can thus commonly not be linked, as the combined Code work would add additional LGPLv3 requirements on top of the GPLv2-only licensed software. Code licensed under LGPLv2.x without the "any later version" statement can be relicensed if the whole combined work is licensed to GPLv2 or GPLv3.
+
+[FSF] maintains a list of GPL-compatible free software licenses with many of the most common free software licenses, such as the original MIT/X license, the [BSD license] (in its current 3-clause form) and the Artistic License 2.0.
+
+===
+
+Massachusetts Institute of Technology (MIT)
+The Massachusetts Institute of Technology (MIT) is a private research university in Cambridge, Massachusetts. Founded in 1861 in response to the increasing industrialisation of the United States, MIT adopted a European polytechnic university model and stressed laboratory instruction in applied science and engineering. Researchers worked on computers, radar, and inertial guidance during World War II and the Cold War. Post-war defence research contributed to the rapid expansion of the faculty and campus under James Killian. The current 168-acre campus opened in 1916 and extends over 1 mile (1.6 km) along the northern bank of the Charles River basin.
+
+MIT, with five schools and one college which contain a total of 32 departments, is traditionally known for its research and education in the physical sciences and engineering, and more recently in biology, economics, linguistics, and management as well. The "Engineers" sponsor 31 sports, most teams of which compete in the NCAA Division III's New England Women's and Men's Athletic Conference; the Division I rowing programs compete as part of the EARC and EAWRC.
+
+MIT is often cited as among the world's top universities. As of 2014, 81 Nobel laureates, 52 National Medal of Science recipients, 45 Rhodes Scholars, 38 MacArthur Fellows, 34 astronauts, and 2 Fields Medalists have been affiliated with MIT. The school has a strong entrepreneurial culture, and the aggregated revenues of companies founded by MIT alumni would rank as the eleventh largest economy in the world.
+===
+
+Free Software Foundation (FSF)
+The Free Software Foundation (FSF) is a non-profit organisation founded by Richard Stallman on 4 October 1985 to support the free software movement, which promotes the universal freedom to study, distribute, create, and modify computer software, with the organisation's preference for software being distributed under [copyleft] ("share alike") terms, such as with its own [GNU General Public License]. The FSF was incorporated in Massachusetts, USA, where it is also based.
+
+From its founding until the mid-1990s, FSF's funds were mostly used to employ software developers to write free software for the [GNU Project]. Since the mid-1990s, the FSF's employees and volunteers have mostly worked on legal and structural issues for the free software movement and the free software community.
 ===
 
 Apache License
@@ -131,77 +137,6 @@ Mercurial is a cross-platform, distributed revision control tool for software de
 Mercurial's major design goals include high performance and scalability, decentralised, fully distributed collaborative development, robust handling of both plain text and binary files, and advanced branching and merging capabilities, while remaining conceptually simple. It includes an integrated web interface. Mercurial has also taken steps to ease the transition for [SVN] users.
 
 The creator and lead developer of Mercurial is Matt Mackall. Mercurial is released as free software under the terms of the [GNU GPL v2] (or any later version).
-===
-
-SHA-0
-At CRYPTO 98, two French researchers, Florent Chabaud and Antoine Joux, presented an attack on SHA-0 (Chabaud and Joux, 1998): collisions can be found with complexity 261, fewer than the 280 for an ideal hash function of the same size.
-
-In 2004, Biham and Chen found near-collisions for SHA-0—two messages that hash to nearly the same value; in this case, 142 out of the 160 bits are equal. They also found full collisions of SHA-0 reduced to 62 out of its 80 rounds.
-
-Subsequently, on 12 August 2004, a collision for the full SHA-0 algorithm was announced by Joux, Carribault, Lemuet, and Jalby. This was done by using a generalisation of the Chabaud and Joux attack. Finding the collision had complexity 251 and took about 80,000 CPU hours on a supercomputer with 256 Itanium 2 processors. (Equivalent to 13 days of full-time use of the computer.)
-
-On 17 August 2004, at the Rump Session of CRYPTO 2004, preliminary results were announced by Wang, Feng, Lai, and Yu, about an attack on [MD5], SHA-0 and other hash functions. The complexity of their attack on SHA-0 is 240, significantly better than the attack by Joux et al.
-
-In February 2005, an attack by Xiaoyun Wang, Yiqun Lisa Yin, and Hongbo Yu was announced which could find collisions in SHA-0 in 239 operations.
-
-Another attack in 2008 applying the boomerang attack brought the complexity of finding collisions down to 233.6, which is estimated to take 1 hour on an average PC.
-
-In light of the results for SHA-0, some experts suggested that plans for the use of [SHA-1] in new cryptosystems should be reconsidered. After the CRYPTO 2004 results were published, NIST announced that they planned to phase out the use of SHA-1 by 2010 in favor of the [SHA-2] variants.
-===
-
-SHA-1
-In cryptography, SHA-1 is a cryptographic hash function designed by the United States National Security Agency and is a U.S. Federal Information Processing Standard published by the United States NIST.
-
-SHA-1 produces a 160-bit (20-byte) hash value known as a message digest. A SHA-1 hash value is typically rendered as a hexadecimal number, 40 digits long.
-
-SHA stands for "secure hash algorithm". The four SHA algorithms are structured differently and are named SHA-0, SHA-1, [SHA-2], and [SHA-3]. SHA-0 is the original version of the 160-bit hash function published in 1993 under the name "SHA": it was not adopted by many applications. Published in 1995, SHA-1 is very similar to SHA-0, but alters the original SHA hash specification to correct alleged weaknesses. SHA-2, published in 2001, is significantly different from the SHA-1 hash function.
-
-SHA-1 is the most widely used of the existing SHA hash functions, and is employed in several widely used applications and protocols.
-
-In 2005, cryptanalysts found attacks on SHA-1 suggesting that the algorithm might not be secure enough for ongoing use. NIST required many applications in federal agencies to move to SHA-2 after 2010 because of the weakness. Although no successful attacks have yet been reported on SHA-2, it is algorithmically similar to SHA-1. In 2012, following a long-running competition, NIST selected an additional algorithm, Keccak, for standardisation under SHA-3. In November 2013 Microsoft announced their deprecation policy on SHA-1 according to which [Windows] will stop accepting SHA-1 certificates in SSL by 2017. In September 2014 [Google] announced their deprecation policy on SHA-1 according to which [Chrome] will stop accepting SHA-1 certificates in SSL in a phased way by 2017. [Mozilla] is also planning to stop accepting SHA-1-based SSL certificates by 2017.
-===
-
-SHA-2
-SHA-2 is a set of cryptographic hash functions designed by the NSA (U.S. National Security Agency). SHA stands for Secure Hash Algorithm. Cryptographic hash functions are mathematical operations run on digital data; by comparing the computed "hash" (the output from execution of the algorithm) to a known and expected hash value, a person can determine the data's integrity. For example, computing the hash of a downloaded file and comparing the result to a previously published hash result can show whether the download has been modified or tampered with. A key aspect of cryptographic hash functions is their collision resistance: nobody should be able to find two different input values that result in the same hash output.
-
-SHA-2 includes significant changes from its predecessor, [SHA-1]. The SHA-2 family consists of six hash functions with digests (hash values) that are 224, 256, 384 or 512 bits: SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256.
-
-SHA-256 and SHA-512 are novel hash functions computed with 32-bit and 64-bit words, respectively. They use different shift amounts and additive constants, but their structures are otherwise virtually identical, differing only in the number of rounds. SHA-224 and SHA-384 are simply truncated versions of the first two, computed with different initial values. SHA-512/224 and SHA-512/256 are also truncated versions of SHA-512, but the initial values are generated using the method described in FIPS PUB 180-4. SHA-2 was published in 2001 by the NIST as a U.S. federal standard (FIPS). The SHA-2 family of algorithms are patented in US 6829355. The United States has released the patent under a royalty-free license.
-
-In 2005, an algorithm emerged for finding SHA-1 collisions in about 2000 times fewer steps than was previously thought possible. Although (as of 2015) no example of a SHA-1 collision has been published yet, the security margin left by SHA-1 is weaker than intended, and its use is therefore no longer recommended for applications that depend on collision resistance, such as digital signatures. Although SHA-2 bears some similarity to the SHA-1 algorithm, these attacks have not been successfully extended to SHA-2.
-===
-
-SHA-3
-SHA-3, a subset of the cryptographic primitive family Keccak  is a cryptographic hash function designed by Guido Bertoni, Joan Daemen, Michaël Peeters, and Gilles Van Assche, building upon RadioGatún.
-
-On 2 October 2012, Keccak was selected as the winner of the NIST hash function competition. SHA-3 is not meant to replace [SHA-2], as no significant attack on SHA-2 has been demonstrated. Because of the successful attacks on [MD5] and SHA-0 and theoretical attacks on SHA-1,  NIST perceived a need for an alternative, dissimilar cryptographic hash, which became SHA-3.
-
-In 2014, the NIST has published a draft FIPS 202 "SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions". The standardisation process is in progress as of April 2015.
-===
-
-RSA
-RSA is one of the first practical public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and differs from the decryption key which is kept secret. In RSA, this asymmetry is based on the practical difficulty of factoring the product of two large prime numbers, the factoring problem. RSA is made of the initial letters of the surnames of Ron Rivest, Adi Shamir and Leonard Adleman, who first publicly described the algorithm in 1977. Clifford Cocks, an English mathematician, had developed an equivalent system in 1973, but it was not declassified until 1997.
-
-A user of RSA creates and then publishes a public key based on the two large prime numbers, along with an auxiliary value. The prime numbers must be kept secret. Anyone can use the public key to encrypt a message, but with currently published methods, if the public key is large enough, only someone with knowledge of the prime numbers can feasibly decode the message. Breaking RSA encryption is known as the RSA problem; whether it is as hard as the factoring problem remains an open question.
-
-===
-
-Cryptosystem
-In cryptography cryptosystem refers to a suite of cryptographic algorithms needed to implement a particular security service, most commonly for achieving confidentiality (encryption).
-
-Typically, a cryptosystem consists of three algorithms: one for key generation, one for encryption, and one for decryption. The term cipher (sometimes cypher) is often used to refer to a pair of algorithms, one for encryption and one for decryption. Therefore, the term "cryptosystem" is most often used when the key generation algorithm is important. For this reason, the term "cryptosystem" is commonly used to refer to public key techniques; however both "cipher" and "cryptosystem" are used for symmetric key techniques.
-===
-
-ROT13
-ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet. ROT13 is a special case of the [Caesar cipher], developed in ancient Rome.
-
-In the basic Latin alphabet, ROT13 is its own inverse; that is, to undo ROT13, the same algorithm is applied, so the same action can be used for encoding and decoding. The algorithm provides virtually no cryptographic security, and is often cited as a canonical example of weak encryption.
-
-ROT13 is used in online forums as a means of hiding spoilers, punchlines, puzzle solutions, and offensive materials from the casual glance. ROT13 has been described as the "Usenet equivalent of a magazine printing the answer to a quiz upside down". ROT13 has inspired a variety of letter and word games on-line, and is frequently mentioned in newsgroup conversations.
-===
-
-/MIME
-S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME is on an IETF standards track and defined in a number of documents, most importantly [RFCs 3369], [3370], [3850] and [3851]. S/MIME was originally developed by RSA Data Security Inc. The original specification used the IETF MIME specification with the de facto industry standard PKCS#7 secure message format. Change control to S/MIME has since been vested in the IETF and the specification is now layered on Cryptographic Message Syntax, an IETF specification that is identical in most respects with PKCS #7. S/MIME functionality is built into the majority of modern email software and interoperates between them.
 ===
 
 MD5
