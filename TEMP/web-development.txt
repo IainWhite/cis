@@ -17,7 +17,6 @@ databases/sql
 databases/sqlite
 databases/sqlserver
 databases/t-sql
-databases/visual-foxpro
 languages
 languages/javascript/jquery
 languages/javascript/jquery-ui
@@ -75,7 +74,6 @@ web-development/mhtml
 web-development/microblogging
 web-development/microsoft-script-debugger
 web-development/mime
-web-development/mozilla-web-developer
 web-development/mustache
 web-development/nntp
 web-development/oauth
