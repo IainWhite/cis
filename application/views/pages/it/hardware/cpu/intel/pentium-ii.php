@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Intel Pentium II'); ?>
+        <p>The <strong>Pentium II</strong> brand refers to <?php echo $this->stencil->addLink('Intel', 'C'); ?>'s sixth-generation microarchitecture ("<?php echo $this->stencil->addLink('P6', 'CPU'); ?>") and <?php echo $this->stencil->addLink('x86-compatible', 'CPU'); ?> microprocessors introduced on 7 May 1997. Containing 7.5 million transistors (27.4 million in the case of the mobile Dixon with 256 KB L2 cache), the Pentium II featured an improved version of the first P6 generation core of the Pentium Pro, which contained 5.5 million transistors. However, its L2 cache subsystem was a downgrade when compared to [Pentium Pros]. In early 1999, the Pentium II was superseded by the almost identical [Pentium III], which basically only added SSE instructions to the CPU.</p>
+        <p>In 1998, Intel stratified the Pentium II family by releasing the Pentium II based <?php echo $this->stencil->addLink('Celeron', 'CPU'); ?> line of processors for low-end workstations and the Pentium II <?php echo $this->stencil->addLink('Xeon', 'CPU'); ?> line for servers and high-end workstations. The Celeron was characterized by a reduced or omitted (in some cases present but disabled) on-die full-speed L2 cache and a 66 MT/s FSB. The Xeon was characterized by a range of full-speed L2 cache (from 512 KB to 2048 KB), a 100 MT/s FSB, a different physical interface (Slot 2), and support for symmetric multiprocessing.</p>
+    </div>
+</div>

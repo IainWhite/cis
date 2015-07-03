@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Intel Pentium M'); ?>
+        <p>The <strong>Pentium M</strong> is a family of mobile 32-bit single-core <?php echo $this->stencil->addLink('x86 microprocessors', 'CPU'); ?> (with the modified <?php echo $this->stencil->addLink('Intel P6', 'CPU'); ?> microarchitecture) introduced in March 2003 and forming a part of the <strong>Intel Carmel</strong> notebook platform under the then new <em>Centrino</em> brand. The Pentium M processors had a maximum thermal design power (TDP) of 5–27 W depending on the model, and were intended for use in laptops (thus the "M" suffix standing for mobile). They evolved from the core of the last <?php echo $this->stencil->addLink('Pentium III', 'CPU'); ?> branded CPU by adding the front-side bus (FSB) interface of <?php echo $this->stencil->addLink('Pentium 4', 'CPU'); ?>, an improved instruction decoding and issuing front end, improved branch prediction, SSE2 support, and a much larger cache. The first Pentium M–branded CPU, code-named <em>Banias</em>, was followed by <em>Dothan</em>. The Pentium M branded processors were succeeded by the <?php echo $this->stencil->addLink('Core', 'CPU'); ?> branded dual-core mobile <strong>Yonah</strong> CPU with a modified microarchitecture.</p>
+    </div>
+</div>

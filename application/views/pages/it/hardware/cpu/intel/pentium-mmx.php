@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Intel Pentium MMX (P55C 80503)'); ?>
+        <p>The <strong>P55C</strong> (or <strong>80503</strong>) was developed by <?php echo $this->stencil->addLink('Intel', 'C'); ?>'s Research &amp; Development Center in Haifa, Israel. It was sold as <strong>Pentium with MMX Technology</strong> (usually just called <strong>Pentium MMX</strong>); although it was based on the <?php echo $this->stencil->addLink('P5', 'CPU'); ?> core, it featured a new set of 57 "MMX" instructions intended to improve performance on multimedia tasks, such as encoding and decoding digital media data. The Pentium MMX line was introduced on 22 October 1996.</p>
+        <p>The new instructions worked on new data types: 64-bit packed vectors of either eight 8-bit integers, four 16-bit integers, two 32-bit integers, or one 64-bit integer. So, for example, the PADDUSB (Packed ADD Unsigned Saturated Byte) instruction adds two vectors, each containing eight 8-bit unsigned integers together, pairwise; each addition that would overflow saturates, yielding 255, the maximum unsigned value that can be represented in a byte. These rather specialised instructions generally require special coding by the programmer for them to be used. The performance of the P55C was improved over previous versions by a doubling of the Level 1 CPU cache from 16 KB to 32 KB.</p>
+    </div>
+</div>
