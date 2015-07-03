@@ -27,54 +27,71 @@ RPM Package Manager (RPM) (originally Red Hat Package Manager; now a recursive i
 Even though it was created for use in Red Hat Linux, RPM is now used in many GNU/Linux distributions. It has also been ported to some other operating systems, such as Novell NetWare (as of version 6.5 SP3) and IBM's AIX (as of version 4).
 ===
 
-Intel NetBurst (P8)
-The NetBurst microarchitecture, called P68 inside [Intel], was the successor to the [P6] microarchitecture in the [x86] family of CPUs made by Intel. The first CPU to use this architecture was the Willamette-core [Pentium 4], released on 20 November 2000 and the first of the Pentium 4 CPUs; all subsequent [Pentium 4] and [Pentium D] variants have also been based on NetBurst. In mid-2001, Intel released the Foster core, which was also based on NetBurst, thus switching the Xeon CPUs to the new architecture as well. Pentium 4 based [Celeron] CPUs also use the NetBurst architecture.
-
-NetBurst was replaced with the [Core] microarchitecture, released in July 2006.
-===
-
-Intel Core
-The Intel Core microarchitecture (previously known as the Next-Generation Micro-Architecture) is a multi-core processor microarchitecture unveiled by [Intel] in Q1 2006. It is based on the Yonah processor design and can be considered an iteration of the [P6] microarchitecture, introduced in 1995 with [Pentium Pro]. The high power consumption and heat intensity, the resulting inability to effectively increase clock speed, and other shortcomings such as the inefficient pipeline were the primary reasons for which Intel abandoned the [NetBurst] microarchitecture and switched to completely different architectural design, delivering high efficiency through a small pipeline rather than high clock speeds. The Core microarchitecture never reached the clock speeds of the Netburst microarchitecture, even after moving to the 45 nm lithography.
-
-The first processors that used this architecture were code-named 'Merom', 'Conroe', and 'Woodcrest'; Merom is for mobile computing, Conroe is for desktop systems, and Woodcrest is for servers and workstations. While architecturally identical, the three processor lines differ in the socket used, bus speed, and power consumption. Mainstream Core based processors are branded Pentium Dual-Core or Pentium and low end branded Celeron; server and workstation Core based processors are branded [Xeon], while desktop and mobile Core based processors are branded as Core 2. Despite their names, processors sold as Core Solo/Core Duo and Core i3/i5/i7 do not actually use the Core microarchitecture and are based on the Enhanced [Pentium M] and newer Nehalem/Sandy Bridge/Haswell microarchitectures, respectively.
-===
-
-Intel Itanium
-Itanium is a family of 64-bit [Intel] microprocessors that implement the Intel Itanium architecture (formerly called IA-64). Intel markets the processors for enterprise servers and high-performance computing systems. The Itanium architecture originated at Hewlett-Packard ([HP]), and was later jointly developed by HP and Intel.
-
-Itanium-based systems have been produced by HP (the HP Integrity Servers line) and several other manufacturers. As of 2008, Itanium was the fourth-most deployed microprocessor architecture for enterprise-class systems, behind [x86-64], Power Architecture, and SPARC.
-===
-
-VIA Technologies 
-VIA Technologies Inc is a Taiwanese manufacturer of integrated circuits, mainly motherboard chipsets, CPUs, and memory, and is part of the Formosa Plastics Group. It is the world's largest independent manufacturer of motherboard chipsets. As a fabless semiconductor company, VIA conducts research and development of its chipsets in-house, then subcontracts the actual (silicon) manufacturing to third-party merchant foundries, such as TSMC.
-===
-
+16-bit
 In computer architecture, 16-bit integers, memory addresses, or other data units are those that are at most 16 bits (2 octets) wide. Also, 16-bit CPU and ALU architectures are those that are based on registers, address buses, or data buses of that size. 16-bit is also a term given to a generation of microcomputers in which 16-bit microprocessors were the norm.
 
-A 16-bit register can store 216 different values. The signed range of integer values that can be stored in 16 bits is -32,768 through 32,767 (unsigned: 0 through 65,535). Hence, a processor with 16-bit memory addresses can directly access 64 KiB of byte-addressable memory.
+A 16-bit register can store 216 different values. The signed range of integer values that can be stored in 16 bits is -32,768 through 32,767 (unsigned: 0 through 65,535). Hence, a processor with 16-bit memory addresses can directly access 64KB of byte addressable memory.
 ===
+
+32-bit
 In computer architecture, 32-bit integers, memory addresses, or other data units are those that are at most 32 bits (4 octets) wide. Also, 32-bit CPU and ALU architectures are those that are based on registers, address buses, or data buses of that size. 32-bit is also a term given to a generation of microcomputers in which 32-bit microprocessors are the norm.
 
-A 32-bit register can store 232 different values. The signed range of integer values that can be stored in 32 bits is -2,147,483,648 through 2,147,483,647 (unsigned: 0 through 4,294,967,295). Hence, a processor with 32-bit memory addresses can directly access 4 GiB of byte-addressable memory.
+A 32-bit register can store 232 different values. The signed range of integer values that can be stored in 32 bits is -2,147,483,648 through 2,147,483,647 (unsigned: 0 through 4,294,967,295). Hence, a processor with 32-bit memory addresses can directly access 4GB of byte addressable memory.
 ===
-Computer architecture is a set of disciplines that describe the functionality, organization and implementation of computer systems. Some definitions of architecture define it as describing the capabilities and programming model of a computer but not a particular implementation.[2] In other descriptions computer architecture involves instruction set architecture design, microarchitecture design, logic design, and implementation.[3]
-===
-The K5 was AMD's first x86 processor to be developed entirely in-house. Introduced in March 1996, its primary competition was Intel's Pentium microprocessor. The K5 was an ambitious design, closer to a Pentium Pro than a Pentium regarding technical solutions and internal architecture. However, the final product was closer to the Pentium regarding performance, although faster clock for clock compared to the Pentium.
-===
-The K6 microprocessor was launched by AMD in 1997. The main advantage of this particular microprocessor is that it was designed to fit into existing desktop designs for Pentium branded CPUs. It was marketed as a product which could perform as well as its Intel Pentium II equivalent but at a significantly lower price. The K6 had a considerable impact on the PC market and presented Intel with serious competition.
-===
-Athlon is the brand name applied to a series of x86-compatible microprocessors designed and manufactured by Advanced Micro Devices (AMD). The original Athlon (now called Athlon Classic) was the first seventh-generation x86 processor. The original Athlon was the first desktop processor to reach speeds of one gigahertz (GHz). AMD has continued using the Athlon name with the Athlon 64, an eighth-generation processor featuring x86-64 (later renamed AMD64) architecture, and the Athlon II.
 
-The Athlon made its debut on June 23, 1999. Athlon comes from the Greek άθλος (athlos) meaning ″contest″.
+8-bit
+In computer architecture, 8-bit integers, memory addresses, or other data units are those that are at most 8 bits (1 octet) wide. Also, 8-bit CPU and ALU architectures are those that are based on registers, address buses, or data buses of that size. 8-bit is also a term given to a generation of microcomputers in which 8-bit microprocessors were the norm.
+
+The [IBM System/360] introduced byte addressable memory with 8-bit bytes, as opposed to bit addressable or decimal digit addressable or word addressable memory, although its general purpose registers were 32 bits wide, and addresses were contained in the lower 24 bits of those addresses. Different models of System/360 had different internal data path widths; the IBM System/360 Model 30 (1965) implemented the 32-bit System/360 architecture, but had an 8 bit native path width, and performed 32-bit arithmetic 8 bits at a time.
+
+The first widely adopted 8-bit microprocessor was the [Intel 8080], being used in many hobbyist computers of the late 1970s and early 1980s, often running the [CP/M] operating system; it had 8-bit data words and 16-bit addresses. The [Zilog Z80] (compatible with the 8080) and the [Motorola 6800] were also used in similar computers. The Z80 and the [MOS Technology 6502] 8-bit CPUs were widely used in home computers and second and third generation game consoles of the '70s and '80s. Many 8-bit CPUs or microcontrollers are the basis of today's ubiquitous embedded systems.
 ===
-The AMD Duron is a x86-compatible microprocessor that was manufactured by AMD. It was released on June 19, 2000 as a low-cost alternative to AMD's own Athlon processor and the Pentium III and Celeron processor lines from rival Intel. The Duron was discontinued in 2004 and succeeded by the Sempron.
+
+64-bit
+In computer architecture, 64-bit computing is the use of processors that have datapath widths, integer size, and memory address widths of 64 bits (eight octets). Also, 64-bit CPU and ALU architectures are those that are based on registers, address buses, or data buses of that size. From the software perspective, 64-bit computing means the use of code with 64-bit virtual memory addresses.
+
+The term 64-bit describes a generation of computers in which 64-bit processors are the norm. 64 bits is a word size that defines certain classes of computer architecture, buses, memory and CPUs, and by extension the software that runs on them. 64-bit CPUs have been used in supercomputers since the 1970s (Cray-1, 1975) and in RISC-based workstations and servers since the early 1990s, notably the MIPS R4000, R8000, and R10000, the [DEC Alpha], the Sun UltraSPARC, and the IBM RS64 and POWER3 and later POWER microprocessors. In 2001 NEC released a 64 bit RISC CPU for mobile devices, notably the low cost Casio BE-300. In 2003 64-bit CPUs were introduced to the (previously 32-bit) mainstream personal computer arena in the form of the [x86-64] and 64-bit [PowerPC] processor architectures and in 2012 even into the ARM architecture targeting smartphones and tablet computers, first sold on 20 September 2013 in the [iPhone] 5S powered by the ARMv8-A Apple A7 SoC.
+
+A 64-bit register can store 264 (over 18 quintillion or 1.8×1019) different values. Hence, a processor with 64-bit memory addresses can directly access 264 bytes (=16 exbibytes) of byte-addressable memory.
+
+Without further qualification, a 64-bit computer architecture generally has integer and addressing registers that are 64 bits wide, allowing direct support for 64-bit data types and addresses. However, a CPU might have external data buses or address buses with different sizes from the registers, even larger (the 32-bit Pentium had a 64-bit data bus, for instance). The term may also refer to the size of low-level data types, such as 64-bit floating-point numbers.
 ===
-Sempron has been the marketing name used by AMD for several different budget desktop CPUs, using several different technologies and CPU socket formats. The Sempron replaced the AMD Duron processor and competes against Intel's Celeron series of processors. AMD coined the name from the Latin semper, which means "always", to suggest the Sempron is suitable for "daily use, practical, and part of everyday life".[2]
+
+Computer Architecture
+Computer architecture is a set of disciplines that describe the functionality, organisation and implementation of computer systems. Some definitions of architecture define it as describing the capabilities and programming model of a computer but not a particular implementation. In other descriptions computer architecture involves instruction set architecture design, microarchitecture design, logic design, and implementation.
 ===
-The Athlon 64 is an eighth-generation, AMD64-architecture microprocessor produced by AMD, released on September 23, 2003.[1] It is the third processor to bear the name Athlon, and the immediate successor to the Athlon XP.[2] The second processor (after the Opteron) to implement AMD64 architecture and the first 64-bit processor targeted at the average consumer,[3] it was AMD's primary consumer microprocessor, and competes primarily with Intel's Pentium 4, especially the "Prescott" and "Cedar Mill" core revisions. It is AMD's first K8, eighth-generation processor core for desktop and mobile computers.[4] Despite being natively 64-bit, the AMD64 architecture is backward-compatible with 32-bit x86 instructions.[5] Athlon 64s have been produced for Socket 754, Socket 939, Socket 940 and Socket AM2. The line was succeeded by the dual-core Athlon 64 X2 and Athlon X2 lines.
+
+AMD K5
+The K5 was [AMD]'s first [x86] processor to be developed entirely in-house. Introduced in March 1996, its primary competition was [Intel]'s [Pentium] microprocessor. The K5 was an ambitious design, closer to a [Pentium Pro] than a Pentium regarding technical solutions and internal architecture. However, the final product was closer to the Pentium regarding performance, although faster clock for clock compared to the Pentium.
 ===
-Opteron is AMD's x86 server and workstation processor line, and was the first processor which supported the AMD64 instruction set architecture (known generically as x86-64). It was released on April 22, 2003 with the SledgeHammer core (K8) and was intended to compete in the server and workstation markets, particularly in the same segment as the Intel Xeon processor. Processors based on the AMD K10 microarchitecture (codenamed Barcelona) were announced on September 10, 2007 featuring a new quad-core configuration. The most-recently released Opteron CPUs are the Piledriver-based Opteron 4300 and 6300 series processors, codenamed "Seoul" and "Abu Dhabi" respectively.
+
+AMD K6
+The K6 microprocessor was launched by [AMD] in 1997. The main advantage of this particular microprocessor is that it was designed to fit into existing desktop designs for [Pentium] branded CPUs. It was marketed as a product which could perform as well as its [Intel Pentium II] equivalent but at a significantly lower price. The K6 had a considerable impact on the [PC] market and presented [Intel] with serious competition.
 ===
-Phenom /fɨˈnɒm/ is the 64-bit AMD desktop processor line based on the K10 microarchitecture,[1] in what AMD calls family 10h (10 hex, i.e. 16 in normal decimal numbers) processors, sometimes incorrectly called "K10h". Triple-core versions (codenamed Toliman) belong to the Phenom 8000 series and quad cores (codenamed Agena) to the AMD Phenom X4 9000 series. The first processor in the family was released in 2007.
+
+AMD Athlon
+Athlon is the brand name applied to a series of [x86-compatible] microprocessors designed and manufactured by Advanced Micro Devices ([AMD]). The original Athlon (now called Athlon Classic) was the first seventh generation x86 processor. The original Athlon was the first desktop processor to reach speeds of one gigahertz (GHz). AMD has continued using the Athlon name with the Athlon 64, an eighth generation processor featuring [x86-64] (later renamed AMD64) architecture, and the Athlon II.
+
+The Athlon made its debut on 23 June 1999. Athlon comes from the Greek athlos meaning "contest".
+===
+
+AMD Duron
+The AMD Duron is a [x86-compatible] microprocessor that was manufactured by [AMD]. It was released on 19 June 2000 as a low-cost alternative to AMD's own [Athlon] processor and the [Pentium III] and [Celeron] processor lines from rival [Intel]. The Duron was discontinued in 2004 and succeeded by the [Sempron].
+===
+
+AMD Sempron
+Sempron has been the marketing name used by [AMD] for several different budget desktop CPUs, using several different technologies and CPU socket formats. The Sempron replaced the [AMD Duron] processor and competes against [Intel]'s [Celeron] series of processors. AMD coined the name from the Latin semper, which means "always", to suggest the Sempron is suitable for "daily use, practical, and part of everyday life".
+===
+
+AMD Athlon 64
+The Athlon 64 is an eighth generation, [AMD64] architecture microprocessor produced by [AMD], released on 23 September 2003. It is the third processor to bear the name Athlon, and the immediate successor to the Athlon XP. The second processor (after the [Opteron]) to implement AMD64 architecture and the first 64-bit processor targeted at the average consumer, it was AMD's primary consumer microprocessor, and competes primarily with [Intel]'s [Pentium 4], especially the "Prescott" and "Cedar Mill" core revisions. It is AMD's first K8, eighth generation processor core for desktop and mobile computers. Despite being natively 64-bit, the AMD64 architecture is backward-compatible with 32-bit x86 instructions. Athlon 64s have been produced for Socket 754, Socket 939, Socket 940 and Socket AM2. The line was succeeded by the dual-core Athlon 64 X2 and Athlon X2 lines.
+===
+
+AMD Opteron
+Opteron is [AMD]'s [x86] server and workstation processor line, and was the first processor which supported the [AMD64] instruction set architecture (known generically as [x86-64]). It was released on 22 April 2003 with the SledgeHammer core (K8) and was intended to compete in the server and workstation markets, particularly in the same segment as the [Intel Xeon] processor. Processors based on the AMD K10 microarchitecture (codenamed Barcelona) were announced on 10 September 2007 featuring a new quad-core configuration. The most recently released Opteron CPUs are the Piledriver based Opteron 4300 and 6300 series processors, codenamed "Seoul" and "Abu Dhabi" respectively.
+===
+
+AMD Phenom
+Phenom is the 64-bit [AMD] desktop processor line based on the K10 microarchitecture, in what AMD calls family 10h (10 hex, i.e. 16 in normal decimal numbers) processors, sometimes incorrectly called "K10h". Triple-core versions (codenamed Toliman) belong to the Phenom 8000 series and quad cores (codenamed Agena) to the AMD Phenom X4 9000 series. The first processor in the family was released in 2007.
 ===
 
