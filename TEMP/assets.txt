@@ -1,0 +1,52 @@
+//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+															> /includes/js/local/jquery-1.10.2.min.js
+//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
+															> /includes/js/local/jquery-1.11.1.min.js
+//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js
+																> /includes/js/local/jquery-1.4.2.min.js
+//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js
+																> /includes/js/local/jquery-1.6.1.min.js
+//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
+																> /includes/js/local/jquery-1.6.2.min.js
+//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+																> /includes/js/local/jquery-1.8.3.min.js
+//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js
+														> /includes/js/local/jquery-ui-1.10.1.min.js
+//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css											> /includes/js/local/css/jquery-ui-1.10.3.css
+//ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js
+														> /includes/js/local/jquery-ui-1.8.15.min.js
+//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js
+																> /includes/js/local/swfobject-2.2.js
+//fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic
+							> /includes/js/local/css/lato.css
+//fonts.googleapis.com/css?family=Noticia+Text:400,400italic															> /includes/js/local/css/noticia.css
+//fonts.googleapis.com/css?family=Noticia+Text:400,400italic|Roboto+Condensed:400,700,300
+								> /includes/js/local/css/noticia2.css
+//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300													> /includes/js/local/css/open-sans.css
+//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700%7CRoboto+Condensed	> /includes/js/local/css/open-sans2.css
+//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,400,300											> /includes/js/local/css/roboto.css
+//fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300
+															> /includes/js/local/css/roboto2.css
+
+
+function checkCDN(jQueryVer, jQueryUIVer, swFVer)
+{
+	// Failed to load jQuery from CDN?
+	if (typeof jQuery == 'undefined') {
+  		var script = document.createElement('script');
+  		script.type = 'text/javascript';
+  		script.src = '/includes/js/local/jquery-jQueryVer.min.js';
+  		var scriptHook = document.getElementsByTagName('script')[0];
+  		scriptHook.parentNode.insertBefore(script, scriptHook);
+  		if (jQueryUIVer > 0) {
+  	  		script.src = '/includes/js/local/jquery-ui-jQueryUIVer.min.js';
+  			var scriptHook = document.getElementsByTagName('script')[0];
+  			scriptHook.parentNode.insertBefore(script, scriptHook);
+		}
+		if (swFVer > 0) {
+  	  		script.src = '/includes/js/local/swfobject-swFVer.js';
+  			var scriptHook = document.getElementsByTagName('script')[0];
+  			scriptHook.parentNode.insertBefore(script, scriptHook);
+		}
+	}
+}

@@ -58,7 +58,7 @@ Without further qualification, a 64-bit computer architecture generally has inte
 ===
 
 Computer Architecture
-Computer architecture is a set of disciplines that describe the functionality, organisation and implementation of computer systems. Some definitions of architecture define it as describing the capabilities and programming model of a computer but not a particular implementation. In other descriptions computer architecture involves instruction set architecture design, microarchitecture design, logic design, and implementation.
+Computer architecture is a set of disciplines that describe the functionality, organisation and implementation of computer systems. Some definitions of architecture define it as describing the capabilities and programming model of a computer but not a particular implementation. In other descriptions computer architecture involves instruction set architecture design, [microarchitecture] design, logic design, and implementation.
 ===
 
 AMD K5
@@ -95,3 +95,194 @@ AMD Phenom
 Phenom is the 64-bit [AMD] desktop processor line based on the K10 microarchitecture, in what AMD calls family 10h (10 hex, i.e. 16 in normal decimal numbers) processors, sometimes incorrectly called "K10h". Triple-core versions (codenamed Toliman) belong to the Phenom 8000 series and quad cores (codenamed Agena) to the AMD Phenom X4 9000 series. The first processor in the family was released in 2007.
 ===
 
+Microarchitecture
+In computer engineering and computer science, microarchitecture, also called computer organisation, is the way a given Instruction Set Architecture ([ISA]) is implemented on a processor A given ISA may be implemented with different microarchitectures; implementations may vary due to different goals of a given design or due to shifts in technology.
+
+[Computer architecture] is the combination of microarchitecture and instruction set designs.
+===
+
+Instruction Set Architecture (ISA)
+An instruction set, or Instruction Set Architecture (ISA), is the part of the computer architecture related to programming, including the native data types, instructions, registers, addressing modes, memory architecture, interrupt and exception handling, and external I/O. An ISA includes a specification of the set of opcodes (machine language), and the native commands implemented by a particular processor.
+===
+
+Intel x86 Microarchitecture
+[8086]: first x86 processor; initially a temporary substitute for the iAPX 432 to compete with [Motorola], [Zilog], and National Semiconductor and to top the successful [Z80].
+[186]: included a DMA controller, interrupt controller, timers, and chip select logic.
+[286]: first x86 processor with protected mode
+[i386]: first 32-bit x86 processor
+[i486]: Intel's second generation of 32-bit x86 processors, introduced built-in floating point unit (FPU), 8KB on-chip L1 cache, and pipelining.
+[P5]: original [Pentium] microprocessors
+[P6]: used in [Pentium Pro], [Pentium II], [Pentium II Xeon], [Pentium III], and [Pentium III Xeon] microprocessors.
+    - [Pentium M]: updated version of Pentium III's P6 microarchitecture designed from the ground up for mobile computing.
+    - [Enhanced Pentium M]: updated, dual core version of the Pentium M microarchitecture used in [Core] microprocessors.
+[NetBurst]: used in [Pentium 4], [Pentium D], and some [Xeon] microprocessors. Commonly referred to as P7 although its internal name was P68 (P7 was used for [Itanium]). Later revisions were the first to feature Intel's x86-64 architecture.
+[Core]: reengineered P6-based microarchitecture used in [Core 2] and [Xeon] microprocessors, built on a 65 nm process.
+    - Penryn: 45 nm shrink of the Core microarchitecture with larger cache, higher FSB and clock speeds, and SSE4.1 instructions.
+[Nehalem]: released 17 November 2008, built on a 45 nm process and used in the [Core i7], [Core i5], [Core i3] microprocessors. Incorporates the memory controller into the CPU die.
+    - Westmere: 32 nm shrink of the Nehalem microarchitecture with several new features.
+[Sandy Bridge]: released 9 January 2011, built on a 32 nm process and used in the [Core i7], [Core i5], [Core i3] second generation microprocessors, and in Pentium B9XX and [Celeron] B8XX series. Formerly called Gesher but renamed in 2007.
+    - Ivy Bridge: 22 nm shrink of the Sandy Bridge microarchitecture released 28 April 2012.
+[Haswell]: new 22 nm microarchitecture, released 3 June 2013.
+    - Broadwell: 14 nm shrink of the Haswell microarchitecture, released in September 2014. Formerly called Rockwell.
+[Skylake]: future Intel microarchitecture, based on a 14 nm process.
+    - Cannonlake: 10 nm shrink of the Skylake microarchitecture. Formerly called Skymont.
+[Bonnell]: 45 nm, low-power, in-order microarchitecture for use in [Atom] processors.
+    - Saltwell: 32 nm shrink of the Bonnell microarchitecture.
+[Silvermont]: 22 nm, out-of-order microarchitecture for use in [Atom] processors.
+    - Airmont: 14 nm shrink of the Silvermont microarchitecture.
+Goldmont: 14 nm Atom microarchitecture.
+===
+
+Intel Enhanced Pentium M
+The Yonah CPU was launched in January 2006 under the [Core] brand. Single and dual-core mobile version were sold under the Core Solo, Core Duo, and Pentium Dual-Core brands, and a server version was released as Xeon LV. These processors provided partial solutions to some of the foregoing [Pentium M]'s shortcomings, by adding to its [P6] microarchitecture:
+
+    - SSE3 Support
+    - Single- and dual-core technology with 2MB of shared L2 cache (restructuring processor organization)
+    - Increased FSB speed, with the FSB running at 533 MT/s or 667 MT/s.
+    - A 12-stage instruction pipeline.
+
+This resulted in the interim microarchitecture for low-voltage only CPUs, part way between P6 and the following Core microarchitecture.
+===
+
+Intel Core 2
+Core 2 is a brand encompassing a range of [Intel]'s consumer 64-bit [x86-64] single, dual, and quad-core microprocessors based on the [Core] microarchitecture. The single and dual-core models are single-die, whereas the quad-core models comprise two dies, each containing two cores, packaged in a multi-chip module. The introduction of Core 2 relegated the [Pentium] brand to the mid-range market, and reunified laptop and desktop CPU lines, which previously had been divided into the [Pentium 4], [Pentium D], and [Pentium M] brands.
+
+The Core 2 brand was introduced on 27 July 2006, comprising the Solo (single-core), Duo (dual-core), Quad (quad-core), and in 2007, the Extreme (dual- or quad-core CPUs for enthusiasts) sub-brands. Intel Core 2 processors with vPro technology (designed for businesses) include the dual-core and quad-core branches.
+===
+
+Intel Core i7
+Intel Core i7 as an [Intel] brand name applies to several families of desktop and laptop 64-bit [x86-64] processors using the [Nehalem], [Westmere], [Sandy Bridge], Ivy Bridge, [Haswell], [Broadwell] and [Skylake] microarchitectures. The Core i7 brand targets the business and high-end consumer markets for both desktop and laptop computers, and is distinguished from the [Core i3] (entry-level consumer), [Core i5] (mainstream consumer), and [Xeon] (server and workstation) brands.
+
+Intel introduced the Core i7 name with the Nehalem-based Bloomfield Quad-core processor in late 2008. In 2009 new Core i7 models based on the Lynnfield (Nehalem-based) desktop quad-core processor and the Clarksfield (Nehalem-based) quad-core mobile were added, and models based on the Arrandale dual-core mobile processor (also Nehalem-based) were added in January 2010. The first six-core processor in the Core lineup is the Nehalem-based Gulftown, which was launched on March 16, 2010. Both the regular Core i7 and the Extreme Edition are advertised as five stars in the Intel Processor Rating.
+
+In each of the first three microarchitecture generations of the brand, Core i7 has family members using two distinct system-level architectures, and therefore two distinct sockets (for example, LGA 1156 and LGA 1366 with Nehalem). In each generation, the highest-performing Core i7 processors use the same socket and QPI-based architecture as the medium-end Xeon processors of that generation, while lower-performing Core i7 processors use the same socket and PCIe/DMI/FDI architecture as the Core i5.
+
+Core i7 is a successor to the [Intel Core 2] brand. Intel representatives stated that they intend the moniker Core i7 to help consumers decide which processor to purchase as Intel releases newer Nehalem-based products in the future.
+===
+
+Intel Core i5
+The first Core i5 using the Nehalem microarchitecture was introduced on 8 September 2009, as a mainstream variant of the earlier [Core i7], the Lynnfield core. Lynnfield Core i5 processors have an 8MB L3 cache, a DMI bus running at 2.5 GT/s and support for dual-channel DDR3-800/1066/1333 memory and have Hyper-threading disabled. The same processors with different sets of features (Hyper-Threading and other clock frequencies) enabled are sold as Core i7-8xx and Xeon 3400-series processors, which should not be confused with high-end Core i7-9xx and Xeon 3500-series processors based on Bloomfield. A new feature called Turbo Boost Technology was introduced which maximizes speed for demanding applications, dynamically accelerating performance to match the workload.
+
+The Core i5-5xx mobile processors are named Arrandale and based on the 32 nm Westmere shrink of the Nehalem microarchitecture. Arrandale processors have integrated graphics capability but only two processor cores. They were released in January 2010, together with Core i7-6xx and Core i3-3xx processors based on the same chip. The L3 cache in Core i5-5xx processors is reduced to 3 MB, while the Core i5-6xx uses the full cache and the Core i3-3xx does not support for Turbo Boost. Clarkdale, the desktop version of Arrandale, is sold as Core i5-6xx, along with related Core i3 and Pentium brands. It has Hyper-Threading enabled and the full 4MB L3 cache.
+
+According to Intel "Core i5 desktop processors and desktop boards typically do not support ECC memory", but information on limited ECC support in the Core i3 section also applies to Core i5 and i7.
+===
+
+Intel Core i3
+[Intel] intended the Core i3 as the new low end of the performance processor line from Intel, following the retirement of the [Core 2] brand.
+
+The first Core i3 processors were launched on 7 January 2010.
+
+The first Nehalem based Core i3 was Clarkdale-based, with an integrated GPU and two cores. The same processor is also available as [Core i5] and [Pentium], with slightly different configurations.
+
+The Core i3-3xxM processors are based on Arrandale, the mobile version of the Clarkdale desktop processor. They are similar to the Core i5-4xx series but running at lower clock speeds and without Turbo Boost. According to an Intel FAQ they do not support Error Correction Code (ECC) memory. According to motherboard manufacturer Supermicro, if a Core i3 processor is used with a server chipset platform such as Intel 3400/3420/3450, the CPU supports ECC with UDIMM. When asked, Intel confirmed that, although the Intel 5 series chipset supports non-ECC memory only with the Core i5 or i3 processors, using those processors on a motherboard with 3400 series chipsets it supports the ECC function of ECC memory. A limited number of motherboards by other companies also support ECC with Intel Core ix processors; the Asus P8B WS is an example, but it does not support ECC memory under [Windows] non-server operating systems.
+===
+
+Intel Nehalem Microarchitecture
+Nehalem is the codename for an [Intel] processor microarchitecture, which is the successor to the older [Core] microarchitecture. A preview system with two Nehalem processors was shown at Intel Developer Forum in 2007, and the first processor released with the Nehalem architecture was the desktop [Core i7], which was released in November 2008.
+
+"Nehalem" is a recycled Intel codename and namesake of the Nehalem River. It is an architecture that differs radically from [Netburst], while retaining some of the latter's minor features. Nehalem-based microprocessors use the 45 nm process, run at higher clock speeds, and are more energy-efficient than Penryn microprocessors. Hyper-threading is reintroduced, along with a reduction in L2 cache size, as well as an enlarged L3 cache that is shared among all cores.
+
+Nehalem was replaced with the [Sandy Bridge] microarchitecture, released in January 2011.
+===
+
+Intel Sandy Bridge Microarchitecture
+Sandy Bridge is the codename for a microarchitecture developed by [Intel] beginning in 2005 for central processing units in computers to replace the [Nehalem] microarchitecture. Intel demonstrated a Sandy Bridge processor in 2009, and released first products based on the architecture in January 2011 under the [Core] brand. Developed primarily by the Israeli branch of Intel, the codename was originally "Gesher" (meaning "bridge" in Hebrew).
+
+Sandy Bridge implementations targeted a 32 nanometer manufacturing process, while Intel's subsequent product, codenamed Ivy Bridge, uses a 22 nanometer process. The Ivy Bridge die shrink, known in the Intel Tick-Tock model as the "tick", is based on FinFET (non-planar, "3D") tri-gate transistors. Intel demonstrated the Ivy Bridge processors in 2011.
+===
+
+Intel Haswell Microarchitecture
+Haswell is the codename for a processor microarchitecture developed by [Intel] as the successor to the Ivy Bridge microarchitecture. Intel officially announced CPUs based on this microarchitecture on 4 June 2013 at Computex Taipei 2013, while a working Haswell chip was demonstrated at the 2011 Intel Developer Forum. With Haswell, which uses a 22 nm process, Intel also introduced low-power processors designed for convertible or "hybrid" ultrabooks, designated by the "Y" suffix.
+
+Haswell CPUs are used in conjunction with the Intel 8 Series chipsets and Intel 9 Series chipsets.
+===
+
+Intel Skylake Microarchitecture
+Skylake is the codename used by [Intel] for a processor microarchitecture under development and due to launch in 2015 as the successor to the [Broadwell] microarchitecture. In accordance with Intel's tick-tock process-architecture design model, Skylake is a major microarchitecture redesign bringing greater CPU and GPU performance and reduced power consumption. It will use the same 14 nm manufacturing process as Broadwell. Then, as a "tick" step in the tick-tock release cycle, the manufacturing process is expected to make a transition to 10 nm in 2017; the codename for this 10 nm die shrink is "Cannonlake".
+
+Skylake's release to market is rumoured to be taking place at the Gamescom on 5 August 2015, unusually soon after Broadwell's. While industry observers initially believed that the issues[6] impacting Broadwell would also affect Skylake, newer information suggests that Intel will be seeking to recover by maintaining the traditional "tick-tock" cadence for Skylake and shortening Broadwell's release cycle instead.
+
+In early 2015, some media reports stated that Intel considers Skylake to be its "most significant processor" for a decade, due to the enhanced power efficiency and wire-free capabilities.
+===
+
+Intel Bonnell Microarchitecture
+Bonnell is a CPU microarchitecture used by [Intel Atom] processors which can execute up to two instructions per cycle. Like many other [x86 microprocessors], it translates x86 instructions (CISC instructions) into simpler internal operations (sometimes referred to as micro-ops, effectively RISC style instructions) prior to execution. The majority of instructions produce one micro-op when translated, with around 4% of instructions used in typical programs producing multiple micro-ops. The number of instructions that produce more than one micro-op is significantly fewer than the P6 and NetBurst microarchitectures. In the [Bonnell] microarchitecture, internal micro-ops can contain both a memory load and a memory store in connection with an ALU operation, thus being more similar to the x86 level and more powerful than the micro-ops used in previous designs. This enables relatively good performance with only two integer ALUs, and without any instruction reordering, speculative execution or register renaming. The Bonnell microarchitecture therefore represents a partial revival of the principles used in earlier Intel designs such as [P5] and the [i486], with the sole purpose of enhancing the performance per watt ratio. However, Hyper-Threading is implemented in an easy (i.e. low-power) way to employ the whole pipeline efficiently by avoiding the typical single thread dependencies.
+===
+
+Intel Silvermont Microarchitecture
+Silvermont is a microarchitecture for low-power [Atom] and [Celeron] branded processors used in systems on a chip (SoCs) made by [Intel]. Silvermont will form the basis for a total of four SoC families:
+
+    - Merrifield and Moorefield  - consumer SoCs intended for smartphones
+    - Bay Trail - consumer SoCs aimed at tablets, hybrid devices, netbooks, nettops, and embedded / automotive systems
+    - Avoton - SoCs for micro-servers and storage devices
+    - Rangeley - SoCs targeting network and communication infrastructure.
+
+Silvermont was announced to news media on 6 May 2013 at Intel's headquarters at Santa Clara, California. Intel has repeatedly said the first Bay Trail devices will be available during the Holiday 2013 timeframe, while leaked slides show the most recent release window for Bay Trail-T as 28 August 2013. Both Avoton and Rangeley were announced as being available in the second half of 2013. The first Merrifield devices are expected in 1H14.
+===
+
+AND x86 Microarchitecture
+    [AMD K5] - AMD's first original microarchitecture. The K5 was based on the AMD Am29000 micro architecture with the addition of an x86 decoder. Although the design was similar in idea to a [Pentium Pro], the actual performance was more like that of a [Pentium].
+    [AMD K6] - The K6 was not based on the K5 and was instead based on the Nx686 processor that was being designed by NexGen when that company was bought by AMD. The K6 was generally pin-compatible with the [Intel Pentium] (unlike NexGen's existing processors).
+        - AMD K6-2 - An improved K6 with the addition of the 3DNow! SIMD instructions.
+        - AMD K6-III - A further improved K6 with three levels of cache – 64KB L1, 256KB full-speed on-die L2, and a variable (up to 2MB) L3.
+    [AMD K7] - Microarchitecture of the [AMD Athlon classic] and [Athlon XP] microprocessors. Was a very advanced design for its day.
+    [AMD K8] - based on the K7 but was extended to 64 bits, added an integrated memory controller, HyperTransport communication fabric, L2 cache sizes up to 1MB (1128KB total cache), and SSE2. Later K8 added SSE3. The K8 was the first mainstream Windows-compatible 64-bit microprocessor and was released 22 April 2003. K8 replaced the traditional front side bus with a HyperTransport communication fabric. Also known as AMD Family 15. SledgeHammer was the first design which implemented it.
+    [AMD K10] - based on the K8 microarchitecture. Shared Level 3 Cache, 128-bit floating point units, AMD-V Nested Paging virtualisation, and HyperTransport 3.0 are introduced. Barcelona was the first design which implemented it.
+    [AMD Fusion] - Include CPU cores, Graphics processing unit and Northbridge in the same chip. Llano was the first design which implemented it.
+    [AMD Bobcat] - a new distinct line, which is aimed in the 1W to 10W power microprocessor category. Ontario and Zacate were the first designs which implemented it.
+        - Jaguar - Successor to Bobcat. Kabini and Temash.
+        - Puma - Successor to Jaguar. Beema and Mullins.
+    [AMD Bulldozer] - the successor of K10. Bulldozer is designed for processors in the 10W to 220W category, implementing XOP, FMA4 and CVT16 instruction sets. Orochi was the first design which implemented it.
+        - Piledriver
+        - Steamroller
+        - Excavator
+    [AMD Zen] - the successor of Bulldozer.
+
+===
+
+AMD K8 Microarchitecture
+The AMD K8 is a computer processor microarchitecture designed by [AMD] as the successor to the [AMD K7] microarchitecture. The K8 was the first implementation of the [AMD64] 64-bit extension to the [x86] processor architecture.
+===
+
+AMD K10 (10h) Microarchitecture
+The AMD Family 10h, or K10, is a microprocessor microarchitecture by AMD. Though there were once reports that the K10 had been canceled, the first third-generation Opteron products for servers were launched on 10 September 2007, with the Phenom processors for desktops following and launching on 11 November 2007 as the immediate successors to the [K8] series of processors ([Athlon 64], Opteron, 64-bit Sempron).
+===
+
+AMD Fusion / Accelerated Processing Unit
+The AMD Accelerated Processing Unit (APU), formerly known as Fusion, is a series of 64-bit microprocessors from [AMD] designed to act as a CPU and graphics accelerator (GPU) on a single chip.
+
+AMD announced the first generation APUs, Llano for high-performance and Brazos for low-power devices in January 2011. The second-generation Trinity for high-performance and Brazos-2 for low-power devices were announced in June 2012. The third-generation Kaveri for high performance devices was launched in January 2014, while Kabini and Temash for low-power devices were announced in summer 2013.
+
+The Sony PlayStation 4 and Microsoft XBox One eighth generation video game consoles both use semi-custom third-generation low-power APUs.
+===
+
+AMD Botcat Microarchitecture
+Bobcat is a microarchitecture created by [AMD] aimed at low-power / low-cost market.
+
+It was revealed during a speech from AMD executive vice-president Henri Richard in Computex 2007 and was put into production Q1 2011. One of the major supporters was executive vice-president Mario A. Rivas who felt it was difficult to compete in the [x86] market with a single core optimised for the 10-100 Watts range and actively promoted the development of the simpler core with a target range of 1-10 Watts. In addition, it was believed that the core could migrate into the hand-held space if the power consumption can be reduced to less than 1W.
+
+Bobcat cores are used together with GPU cores in accelerated processing units (APUs) under the "Fusion" brand. A simplified architecture diagram was released at AMD's Analyst Day in November 2009. This is similar in concept with earlier AMD research in 2003, detailing the specifications and advantages of extending x86 "everywhere".
+===
+
+AMD Bulldozer Microarchitecture
+Bulldozer is the codename for a microprocessor microarchitecture developed by [AMD] for the desktop and server markets. It was released on 12 October 2011 as the successor to the [K10] microarchitecture.
+
+Bulldozer is designed from scratch, not a development of earlier processors. The core is specifically aimed at computing products with TDPs of 10 to 125 watts. AMD claims dramatic performance-per-watt efficiency improvements in high-performance computing (HPC) applications with Bulldozer cores.
+
+The Bulldozer cores support most of the instruction sets implemented by [Intel] processors available at its introduction (including SSE4.1, SSE4.2, AES, CLMUL, and AVX) as well as new instruction sets proposed by AMD; ABM, XOP, FMA4 and F16C.
+===
+
+AMD Zen Microarchitecture
+Zen is an upcoming CPU microarchitecture created by [AMD]. The team in charge of the Zen microarchitecture is being led by Jim Keller, the engineer also responsible for the [Athlon 64]. Zen was originally planned for 2017 following the ARM64-based K12 sister core, but on AMD’s 2015 Financial Analyst Day it was revealed that K12 was delayed in favour of the Zen design for market entry in the 2016 timeframe.
+===
+
+Intel Atom
+Intel Atom is the brand name for a line of ultra-low-voltage IA-32 and x86-64 CPUs (or microprocessors) from [Intel], originally designed in 45 nm complementary metal–oxide–semiconductor (CMOS) with subsequent models, codenamed Cedar, using a 32 nm process. Atom is mainly used in netbooks, nettops, embedded applications ranging from health care to advanced robotics, and mobile Internet devices (MIDs).
+
+Atom processors are based on the [Bonnell] microarchitecture. On 21 December 2009, Intel announced the Pine Trail platform, including new Atom processor code-named Pineview (Atom N450), with total kit power consumption down 20%. On 28 December 2011, Intel updated the Atom line with the Cedar processors.
+==
+
+Intel Tick-Tock
+"Tick-Tock" is a model adopted by chip manufacturer [Intel Corporation] from 2007 to follow every [microarchitectural] change with a die shrink of the process technology. Every "tick" represents a shrinking of the process technology of the previous microarchitecture (sometimes introducing new instructions, as with [Broadwell], released in late 2014) and every "tock" designates a new microarchitecture. Every year to 18 months, there is expected to be one tick or tock.
+===

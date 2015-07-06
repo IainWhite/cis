@@ -6,7 +6,6 @@
 ./AMMvideo.html  
 ./AtlusLogin.asp	 
 ./BankLink/runBankLinkfeed.txt
-./BellDirectLogin_OLD.asp
 ./BellDirectLogin.asp   
 ./CashelHouse/runfeed.txt
 ./CashelHouse/runfeed.txt
