@@ -27,12 +27,6 @@ RPM Package Manager (RPM) (originally Red Hat Package Manager; now a recursive i
 Even though it was created for use in Red Hat Linux, RPM is now used in many GNU/Linux distributions. It has also been ported to some other operating systems, such as Novell NetWare (as of version 6.5 SP3) and IBM's AIX (as of version 4).
 ===
 
-Intel Core 2
-Core 2 is a brand encompassing a range of [Intel]'s consumer 64-bit [x86-64] single, dual, and quad-core microprocessors based on the [Core] microarchitecture. The single and dual-core models are single-die, whereas the quad-core models comprise two dies, each containing two cores, packaged in a multi-chip module. The introduction of Core 2 relegated the [Pentium] brand to the mid-range market, and reunified laptop and desktop CPU lines, which previously had been divided into the [Pentium 4], [Pentium D], and [Pentium M] brands.
-
-The Core 2 brand was introduced on 27 July 2006, comprising the Solo (single-core), Duo (dual-core), Quad (quad-core), and in 2007, the Extreme (dual- or quad-core CPUs for enthusiasts) sub-brands. Intel Core 2 processors with vPro technology (designed for businesses) include the dual-core and quad-core branches.
-===
-
 Intel Core i7
 Intel Core i7 as an [Intel] brand name applies to several families of desktop and laptop 64-bit [x86-64] processors using the [Nehalem], [Westmere], [Sandy Bridge], Ivy Bridge, [Haswell], [Broadwell] and [Skylake] microarchitectures. The Core i7 brand targets the business and high-end consumer markets for both desktop and laptop computers, and is distinguished from the [Core i3] (entry-level consumer), [Core i5] (mainstream consumer), and [Xeon] (server and workstation) brands.
 
@@ -59,14 +53,6 @@ The first Core i3 processors were launched on 7 January 2010.
 The first Nehalem based Core i3 was Clarkdale-based, with an integrated GPU and two cores. The same processor is also available as [Core i5] and [Pentium], with slightly different configurations.
 
 The Core i3-3xxM processors are based on Arrandale, the mobile version of the Clarkdale desktop processor. They are similar to the Core i5-4xx series but running at lower clock speeds and without Turbo Boost. According to an Intel FAQ they do not support Error Correction Code (ECC) memory. According to motherboard manufacturer Supermicro, if a Core i3 processor is used with a server chipset platform such as Intel 3400/3420/3450, the CPU supports ECC with UDIMM. When asked, Intel confirmed that, although the Intel 5 series chipset supports non-ECC memory only with the Core i5 or i3 processors, using those processors on a motherboard with 3400 series chipsets it supports the ECC function of ECC memory. A limited number of motherboards by other companies also support ECC with Intel Core ix processors; the Asus P8B WS is an example, but it does not support ECC memory under [Windows] non-server operating systems.
-===
-
-Intel Nehalem Microarchitecture
-Nehalem is the codename for an [Intel] processor microarchitecture, which is the successor to the older [Core] microarchitecture. A preview system with two Nehalem processors was shown at Intel Developer Forum in 2007, and the first processor released with the Nehalem architecture was the desktop [Core i7], which was released in November 2008.
-
-"Nehalem" is a recycled Intel codename and namesake of the Nehalem River. It is an architecture that differs radically from [Netburst], while retaining some of the latter's minor features. Nehalem-based microprocessors use the 45 nm process, run at higher clock speeds, and are more energy-efficient than Penryn microprocessors. Hyper-threading is reintroduced, along with a reduction in L2 cache size, as well as an enlarged L3 cache that is shared among all cores.
-
-Nehalem was replaced with the [Sandy Bridge] microarchitecture, released in January 2011.
 ===
 
 Intel Sandy Bridge Microarchitecture
