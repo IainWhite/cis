@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('AMD Opteron'); ?>
+        <p><strong>Opteron</strong> is <?php echo $this->stencil->addLink('AMD', 'C'); ?>'s <?php echo $this->stencil->addLink('x86', 'CPU'); ?> server and workstation processor line, and was the first processor which supported the <?php echo $this->stencil->addLink('AMD64', 'CPU'); ?> instruction set architecture (known generically as [x86-64]<?php echo $this->stencil->addLink('x86-64', 'CPU'); ?>). It was released on 22 April 2003 with the <strong>SledgeHammer</strong> core (<?php echo $this->stencil->addLink('K8', 'CPU'); ?>) and was intended to compete in the server and workstation markets, particularly in the same segment as the <?php echo $this->stencil->addLink('Intel Xeon', 'CPU'); ?> processor. Processors based on the <?php echo $this->stencil->addLink('AMD K10', 'CPU'); ?> microarchitecture (codenamed <strong>Barcelona</strong>) were announced on 10 September 2007 featuring a new quad-core configuration. The most recently released Opteron CPUs are the <strong>Piledriver</strong> based Opteron 4300 and 6300 series processors, codenamed "<strong>Seoul</strong>" and "<strong>Abu Dhabi</strong>" respectively.</p>
+    </div>
+</div>

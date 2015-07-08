@@ -27,22 +27,6 @@ RPM Package Manager (RPM) (originally Red Hat Package Manager; now a recursive i
 Even though it was created for use in Red Hat Linux, RPM is now used in many GNU/Linux distributions. It has also been ported to some other operating systems, such as Novell NetWare (as of version 6.5 SP3) and IBM's AIX (as of version 4).
 ===
 
-AMD Duron
-The AMD Duron is a [x86-compatible] microprocessor that was manufactured by [AMD]. It was released on 19 June 2000 as a low-cost alternative to AMD's own [Athlon] processor and the [Pentium III] and [Celeron] processor lines from rival [Intel]. The Duron was discontinued in 2004 and succeeded by the [Sempron].
-===
-
-AMD Sempron
-Sempron has been the marketing name used by [AMD] for several different budget desktop CPUs, using several different technologies and CPU socket formats. The Sempron replaced the [AMD Duron] processor and competes against [Intel]'s [Celeron] series of processors. AMD coined the name from the Latin semper, which means "always", to suggest the Sempron is suitable for "daily use, practical, and part of everyday life".
-===
-
-AMD Opteron
-Opteron is [AMD]'s [x86] server and workstation processor line, and was the first processor which supported the [AMD64] instruction set architecture (known generically as [x86-64]). It was released on 22 April 2003 with the SledgeHammer core (K8) and was intended to compete in the server and workstation markets, particularly in the same segment as the [Intel Xeon] processor. Processors based on the AMD K10 microarchitecture (codenamed Barcelona) were announced on 10 September 2007 featuring a new quad-core configuration. The most recently released Opteron CPUs are the Piledriver based Opteron 4300 and 6300 series processors, codenamed "Seoul" and "Abu Dhabi" respectively.
-===
-
-AMD Phenom
-Phenom is the 64-bit [AMD] desktop processor line based on the K10 microarchitecture, in what AMD calls family 10h (10 hex, i.e. 16 in normal decimal numbers) processors, sometimes incorrectly called "K10h". Triple-core versions (codenamed Toliman) belong to the Phenom 8000 series and quad cores (codenamed Agena) to the AMD Phenom X4 9000 series. The first processor in the family was released in 2007.
-===
-
 Intel x86 Microarchitecture
 [8086]: first x86 processor; initially a temporary substitute for the iAPX 432 to compete with [Motorola], [Zilog], and National Semiconductor and to top the successful [Z80].
 [186]: included a DMA controller, interrupt controller, timers, and chip select logic.
@@ -147,13 +131,15 @@ Silvermont is a microarchitecture for low-power [Atom] and [Celeron] branded pro
 
 Silvermont was announced to news media on 6 May 2013 at Intel's headquarters at Santa Clara, California. Intel has repeatedly said the first Bay Trail devices will be available during the Holiday 2013 timeframe, while leaked slides show the most recent release window for Bay Trail-T as 28 August 2013. Both Avoton and Rangeley were announced as being available in the second half of 2013. The first Merrifield devices are expected in 1H14.
 ===
-The IBM System/360 (S/360) was a mainframe computer system family announced by IBM on April 7, 1964, and delivered between 1965 and 1978.[1] It was the first family of computers designed to cover the complete range of applications, from small to large, both commercial and scientific. The design made a clear distinction between architecture and implementation, allowing IBM to release a suite of compatible designs at different prices. All but the incompatible model 44 and the most expensive systems used microcode to implement the instruction set, which featured 8-bit byte addressing and binary, decimal and (hexadecimal) floating-point calculations.
 
-The slowest System/360 model announced in 1964, the Model 30, could perform up to 34,500 instructions per second, with memory from 8 to 64 KB.[2] High performance models came later. The 1967 System 360 Model 91 could do up to 16.6 million instructions per second.[3] The larger 360 models could have up to 8 MB of internal main memory,[4] though main memory that big was unusual—a more typical large installation might have as little as 256 KB of main storage, but 512 KB, 768 KB or 1024 KB was more common. Up to 8 megabytes of slower (8 microsecond) Large Capacity Storage (LCS) was also available.
+IBM System/360
+The IBM System/360 was a mainframe computer system family announced by [IBM] on 7 April 1964, and delivered between 1965 and 1978. It was the first family of computers designed to cover the complete range of applications, from small to large, both commercial and scientific. The design made a clear distinction between architecture and implementation, allowing IBM to release a suite of compatible designs at different prices. All but the incompatible model 44 and the most expensive systems used microcode to implement the instruction set, which featured 8-bit byte addressing and binary, decimal and (hexadecimal) floating-point calculations.
+
+The slowest System/360 model announced in 1964, the Model 30, could perform up to 34,500 instructions per second, with memory from 8 to 64KB. High performance models came later. The 1967 System 360 Model 91 could do up to 16.6 million instructions per second. The larger 360 models could have up to 8MB of internal main memory, though main memory that big was unusual a more typical large installation might have as little as 256KB of main storage, but 512KB, 768KB or 1024KB was more common. Up to 8 megabytes of slower (8 microsecond) Large Capacity Storage (LCS) was also available.
 
 System/360 was extremely successful in the market, allowing customers to purchase a smaller system with the knowledge they would always be able to migrate upward if their needs grew, without reprogramming of application software or replacing peripheral devices. Many consider the design one of the most successful computers in history, influencing computer design for years to come.
 
-The chief architect of System/360 was Gene Amdahl, and the project was managed by Fred Brooks, responsible to Chairman Thomas J. Watson Jr.[4] The commercial release was piloted by another of Watson's lieutenants, John R. Opel, who managed the launch of IBM’s System 360 mainframe family in 1964.[5]
+The chief architect of System/360 was Gene Amdahl, and the project was managed by [Fred Brooks], responsible to Chairman Thomas J. Watson Jr. The commercial release was piloted by another of Watson's lieutenants, John R. Opel, who managed the launch of IBM’s System 360 mainframe family in 1964.
 
 Application level compatibility (with some restrictions) for System/360 software is maintained to present day with the System z servers.
 ===
