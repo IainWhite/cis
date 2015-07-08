@@ -95,12 +95,6 @@ AMD Phenom
 Phenom is the 64-bit [AMD] desktop processor line based on the K10 microarchitecture, in what AMD calls family 10h (10 hex, i.e. 16 in normal decimal numbers) processors, sometimes incorrectly called "K10h". Triple-core versions (codenamed Toliman) belong to the Phenom 8000 series and quad cores (codenamed Agena) to the AMD Phenom X4 9000 series. The first processor in the family was released in 2007.
 ===
 
-Microarchitecture
-In computer engineering and computer science, microarchitecture, also called computer organisation, is the way a given Instruction Set Architecture ([ISA]) is implemented on a processor A given ISA may be implemented with different microarchitectures; implementations may vary due to different goals of a given design or due to shifts in technology.
-
-[Computer architecture] is the combination of microarchitecture and instruction set designs.
-===
-
 Instruction Set Architecture (ISA)
 An instruction set, or Instruction Set Architecture (ISA), is the part of the computer architecture related to programming, including the native data types, instructions, registers, addressing modes, memory architecture, interrupt and exception handling, and external I/O. An ISA includes a specification of the set of opcodes (machine language), and the native commands implemented by a particular processor.
 ===
