@@ -133,17 +133,6 @@ Intel x86 Microarchitecture
 Goldmont: 14 nm Atom microarchitecture.
 ===
 
-Intel Enhanced Pentium M
-The Yonah CPU was launched in January 2006 under the [Core] brand. Single and dual-core mobile version were sold under the Core Solo, Core Duo, and Pentium Dual-Core brands, and a server version was released as Xeon LV. These processors provided partial solutions to some of the foregoing [Pentium M]'s shortcomings, by adding to its [P6] microarchitecture:
-
-    - SSE3 Support
-    - Single- and dual-core technology with 2MB of shared L2 cache (restructuring processor organization)
-    - Increased FSB speed, with the FSB running at 533 MT/s or 667 MT/s.
-    - A 12-stage instruction pipeline.
-
-This resulted in the interim microarchitecture for low-voltage only CPUs, part way between P6 and the following Core microarchitecture.
-===
-
 Intel Core 2
 Core 2 is a brand encompassing a range of [Intel]'s consumer 64-bit [x86-64] single, dual, and quad-core microprocessors based on the [Core] microarchitecture. The single and dual-core models are single-die, whereas the quad-core models comprise two dies, each containing two cores, packaged in a multi-chip module. The introduction of Core 2 relegated the [Pentium] brand to the mid-range market, and reunified laptop and desktop CPU lines, which previously had been divided into the [Pentium 4], [Pentium D], and [Pentium M] brands.
 
@@ -221,48 +210,4 @@ Silvermont is a microarchitecture for low-power [Atom] and [Celeron] branded pro
 Silvermont was announced to news media on 6 May 2013 at Intel's headquarters at Santa Clara, California. Intel has repeatedly said the first Bay Trail devices will be available during the Holiday 2013 timeframe, while leaked slides show the most recent release window for Bay Trail-T as 28 August 2013. Both Avoton and Rangeley were announced as being available in the second half of 2013. The first Merrifield devices are expected in 1H14.
 ===
 
-AMD K8 Microarchitecture
-The AMD K8 is a computer processor microarchitecture designed by [AMD] as the successor to the [AMD K7] microarchitecture. The K8 was the first implementation of the [AMD64] 64-bit extension to the [x86] processor architecture.
-===
 
-AMD K10 (10h) Microarchitecture
-The AMD Family 10h, or K10, is a microprocessor microarchitecture by AMD. Though there were once reports that the K10 had been canceled, the first third-generation Opteron products for servers were launched on 10 September 2007, with the Phenom processors for desktops following and launching on 11 November 2007 as the immediate successors to the [K8] series of processors ([Athlon 64], Opteron, 64-bit Sempron).
-===
-
-AMD Fusion / Accelerated Processing Unit
-The AMD Accelerated Processing Unit (APU), formerly known as Fusion, is a series of 64-bit microprocessors from [AMD] designed to act as a CPU and graphics accelerator (GPU) on a single chip.
-
-AMD announced the first generation APUs, Llano for high-performance and Brazos for low-power devices in January 2011. The second-generation Trinity for high-performance and Brazos-2 for low-power devices were announced in June 2012. The third-generation Kaveri for high performance devices was launched in January 2014, while Kabini and Temash for low-power devices were announced in summer 2013.
-
-The Sony PlayStation 4 and Microsoft XBox One eighth generation video game consoles both use semi-custom third-generation low-power APUs.
-===
-
-AMD Botcat Microarchitecture
-Bobcat is a microarchitecture created by [AMD] aimed at low-power / low-cost market.
-
-It was revealed during a speech from AMD executive vice-president Henri Richard in Computex 2007 and was put into production Q1 2011. One of the major supporters was executive vice-president Mario A. Rivas who felt it was difficult to compete in the [x86] market with a single core optimised for the 10-100 Watts range and actively promoted the development of the simpler core with a target range of 1-10 Watts. In addition, it was believed that the core could migrate into the hand-held space if the power consumption can be reduced to less than 1W.
-
-Bobcat cores are used together with GPU cores in accelerated processing units (APUs) under the "Fusion" brand. A simplified architecture diagram was released at AMD's Analyst Day in November 2009. This is similar in concept with earlier AMD research in 2003, detailing the specifications and advantages of extending x86 "everywhere".
-===
-
-AMD Bulldozer Microarchitecture
-Bulldozer is the codename for a microprocessor microarchitecture developed by [AMD] for the desktop and server markets. It was released on 12 October 2011 as the successor to the [K10] microarchitecture.
-
-Bulldozer is designed from scratch, not a development of earlier processors. The core is specifically aimed at computing products with TDPs of 10 to 125 watts. AMD claims dramatic performance-per-watt efficiency improvements in high-performance computing (HPC) applications with Bulldozer cores.
-
-The Bulldozer cores support most of the instruction sets implemented by [Intel] processors available at its introduction (including SSE4.1, SSE4.2, AES, CLMUL, and AVX) as well as new instruction sets proposed by AMD; ABM, XOP, FMA4 and F16C.
-===
-
-AMD Zen Microarchitecture
-Zen is an upcoming CPU microarchitecture created by [AMD]. The team in charge of the Zen microarchitecture is being led by Jim Keller, the engineer also responsible for the [Athlon 64]. Zen was originally planned for 2017 following the ARM64-based K12 sister core, but on AMD’s 2015 Financial Analyst Day it was revealed that K12 was delayed in favour of the Zen design for market entry in the 2016 timeframe.
-===
-
-Intel Atom
-Intel Atom is the brand name for a line of ultra-low-voltage IA-32 and x86-64 CPUs (or microprocessors) from [Intel], originally designed in 45 nm complementary metal–oxide–semiconductor (CMOS) with subsequent models, codenamed Cedar, using a 32 nm process. Atom is mainly used in netbooks, nettops, embedded applications ranging from health care to advanced robotics, and mobile Internet devices (MIDs).
-
-Atom processors are based on the [Bonnell] microarchitecture. On 21 December 2009, Intel announced the Pine Trail platform, including new Atom processor code-named Pineview (Atom N450), with total kit power consumption down 20%. On 28 December 2011, Intel updated the Atom line with the Cedar processors.
-==
-
-Intel Tick-Tock
-"Tick-Tock" is a model adopted by chip manufacturer [Intel Corporation] from 2007 to follow every [microarchitectural] change with a die shrink of the process technology. Every "tick" represents a shrinking of the process technology of the previous microarchitecture (sometimes introducing new instructions, as with [Broadwell], released in late 2014) and every "tock" designates a new microarchitecture. Every year to 18 months, there is expected to be one tick or tock.
-===
