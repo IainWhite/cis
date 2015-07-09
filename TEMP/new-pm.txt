@@ -56,4 +56,6 @@ OpenWrt is configured using a command-line interface (ash shell), or a web inter
 OpenWrt can run on various types of devices, including CPE routers, residential gateways, smartphones (e.g. Neo FreeRunner), pocket computers (e.g. Ben NanoNote), and laptops (e.g. One Laptop per Child (OLPC)). It is also possible to run OpenWrt on ordinary computers, which are most commonly based on the x86 architecture. Many patches from the OpenWrt's codebase have been included upstream in the Linux kernel mainline.
 ===
 
+The Intel 80186 ("eighty-one-eighty-six"), also known as the iAPX 186,[1] or just 186 ("one-eighty-six" or "one-eight-six"), is a microprocessor and microcontroller introduced in 1982. It was based on the Intel 8086 and, like it, had a 16-bit external data bus multiplexed with a 20-bit address bus. It was also available as the 80188, with an 8-bit external data bus.
+===
 

@@ -45,17 +45,6 @@ it/hardware/cobalt-raq
 it/hardware/colossus
 it/hardware/commodore-pet
 it/hardware/cpu
-it/hardware/cpu/6502
-it/hardware/cpu/6502/6522
-it/hardware/cpu/68000
-it/hardware/cpu/8088
-it/hardware/cpu/pentium
-it/hardware/cpu/x86
-it/hardware/cpu/x86/80286
-it/hardware/cpu/x86/80386
-it/hardware/cpu/x86/80486
-it/hardware/cpu/x86/8086
-it/hardware/cpu/z80
 it/hardware/difference-engine
 it/hardware/eee-pc
 it/hardware/ferranti-mark-1
