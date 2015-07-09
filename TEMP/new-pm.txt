@@ -17,45 +17,61 @@ RPM Package Manager (RPM) (originally Red Hat Package Manager; now a recursive i
 Even though it was created for use in Red Hat Linux, RPM is now used in many GNU/Linux distributions. It has also been ported to some other operating systems, such as Novell NetWare (as of version 6.5 SP3) and IBM's AIX (as of version 4).
 ===
 
-JetBrains PhpStorm is a commercial, cross-platform IDE for PHP[1] built on JetBrains' IntelliJ IDEA platform.
+PhpStorm
+JetBrains PhpStorm is a commercial, cross-platform [IDE] for [PHP] built on JetBrains' [IntelliJ IDEA] platform.
 
-PhpStorm provides an editor for PHP, HTML and JavaScript with on-the-fly code analysis, error prevention and automated refactorings for PHP and JavaScript code. PhpStorm's code completion supports PHP 5.3, 5.4, 5.5 & 5.6 (modern and legacy projects), including generators, coroutines, the finally keyword, list in foreach, namespaces, closures, traits and short array syntax. It includes a full-fledged SQL editor with editable query results.[2][3]
+PhpStorm provides an editor for [PHP], [HTML] and [JavaScript] with on-the-fly code analysis, error prevention and automated refactorings for PHP and JavaScript code. PhpStorm's code completion supports PHP 5.3, 5.4, 5.5 &amp; 5.6 (modern and legacy projects), including generators, coroutines, the finally keyword, list in foreach, namespaces, closures, traits and short array syntax. It includes a full-fledged [SQL] editor with editable query results.
 
-PhpStorm is built on IntelliJ IDEA, which is written in Java. Users can extend the IDE by installing plugins created for the IntelliJ Platform or write their own plugins.
+PhpStorm is built on IntelliJ IDEA, which is written in [Java]. Users can extend the IDE by installing plugins created for the IntelliJ Platform or write their own plugins.
 
-All features available in WebStorm are included in PhpStorm,[4] which adds support for PHP and databases.[5] WebStorm ships with pre-installed JavaScript plugins (such as for Node.js), which are available for PhpStorm as well at no cost.[6]
+All features available in [WebStorm] are included in PhpStorm, which adds support for PHP and databases. WebStorm ships with pre-installed JavaScript plugins (such as for [Node.js]), which are available for PhpStorm as well at no cost.
 ===
-IntelliJ IDEA is a Java integrated development environment (IDE) for developing computer software. It is developed by JetBrains (formerly known as IntelliJ), and is available as an Apache 2 Licensed community edition,[1] and in a proprietary commercial edition. IntelliJ IDEA is not based on Eclipse like MyEclipse or Oracle Enterprise Pack for Eclipse.
 
-The first version of IntelliJ IDEA was released in January 2001, and at the time was one of the first available Java IDE with advanced code navigation and code refactoring capabilities integrated.[2][3]
+IntelliJ IDEA
+IntelliJ IDEA is a [Java] integrated development environment ([IDE]) for developing computer software. It is developed by JetBrains (formerly known as IntelliJ), and is available as an [Apache 2 Licensed] community edition, and in a proprietary commercial edition. IntelliJ IDEA is not based on [Eclipse] like MyEclipse or Oracle Enterprise Pack for Eclipse.
 
-In a 2010 Infoworld report, IntelliJ received the highest test center score out of the four top Java programming tools: Eclipse, IntelliJ IDEA, NetBeans and Oracle JDeveloper.[4]
+The first version of IntelliJ IDEA was released in January 2001, and at the time was one of the first available Java IDE with advanced code navigation and code refactoring capabilities integrated.
 
-In December 2014, Google announced version 1.0 of Android Studio, an open source IDE for Android apps, based on the open source community edition of IntelliJ IDEA.[5] Other development environments based on IntelliJ include AppCode, PhpStorm, PyCharm, RubyMine, WebStorm, and MPS.[6]
+In a 2010 Infoworld report, IntelliJ received the highest test center score out of the four top Java programming tools: Eclipse, IntelliJ IDEA, [NetBeans] and Oracle JDeveloper.
+
+In December 2014, [Google] announced version 1.0 of [Android Studio], an open source IDE for Android apps, based on the open source community edition of IntelliJ IDEA. Other development environments based on IntelliJ include AppCode, [PhpStorm], PyCharm, RubyMine, [WebStorm], and MPS.
 ===
-JetBrains WebStorm is a commercial IDE for JavaScript, CSS & HTML built on JetBrains' IntelliJ IDEA platform. WebStorm is a specialized version of PhpStorm, offering a subset of its features.[1] WebStorm ships with pre-installed JavaScript plugins (such as for Node.js), which are available for PhpStorm as well at no cost.[2]
 
-WebStorm provides automatic code completion, on-the-fly code analysis, refactoring support and VCS integration. Supported languages are JavaScript, CoffeeScript, TypeScript and Dart.
+WebStorm
+JetBrains WebStorm is a commercial [IDE] for [JavaScript], [CSS] &amp; [HTML] built on JetBrains' [IntelliJ IDEA] platform. WebStorm is a specialised version of [PhpStorm], offering a subset of its features. WebStorm ships with pre-installed JavaScript plugins (such as for [Node.js]), which are available for PhpStorm as well at no cost.
+
+WebStorm provides automatic code completion, on-the-fly code analysis, refactoring support and VCS integration. Supported languages are JavaScript, [CoffeeScript], [TypeScript] and [Dart].
 ===
-Sublime Text is a cross-platform text and source code editor with a Python application programming interface (API). It natively supports many programming languages and markup languages, and its functionality can be extended by users with plugins, typically community-built and maintained under free-software licenses.
+
+Sublime Text
+Sublime Text is a cross-platform text and source code editor with a [Python] application programming interface (API). It natively supports many programming languages and markup languages, and its functionality can be extended by users with plugins, typically community-built and maintained under free-software licenses.
 
 Sublime Text is proprietary software. Despite users enhancing the software with free add-ons, all license revenue accrues to the primary developer.
 ===
+
+Hello, World!
 A "Hello, World!" program is a computer program that outputs "Hello, World!" (or some variant thereof) on a display device. Because it is typically one of the simplest programs possible in most programming languages, it is by tradition often used to illustrate to beginners the most basic syntax of a programming language. It is also used to verify that a language or system is operating correctly.
 ===
-A software metric is a quantitative measure of a degree to which a software system or process possesses some property. Since quantitative measurements are essential in all sciences, there is a continuous effort by computer science practitioners and theoreticians to bring similar approaches to software development. The goal is obtaining objective, reproducible and quantifiable measurements, which may have numerous valuable applications in schedule and budget planning, cost estimation, quality assurance testing, software debugging, software performance optimization, and optimal personnel task assignments.
-===
-Gentoo Linux (pronounced /ˈdʒɛntuː/ jen-too[2]) is a computer operating system based on the Linux kernel and built using the Portage package management system. It is distributed as free and open-source software. Unlike a binary software distribution, the source code is compiled locally according to the user's preferences and is often optimized for the specific type of computer. Precompiled binaries are available for some very large packages and for packages whose source code has not been released.[3]
 
-The "Gentoo" name comes from the fast-swimming Gentoo penguin. It was chosen to reflect the potential speed improvements of machine-specific optimization. Gentoo package management is designed to be modular, portable, easy to maintain, and flexible. Gentoo is sometimes described as a meta-distribution, "because of its near-unlimited adaptability", in that the majority of users have configurations and sets of installed programs which are unique to themselves.[
+Software Metric
+A software metric is a quantitative measure of a degree to which a software system or process possesses some property. Since quantitative measurements are essential in all sciences, there is a continuous effort by computer science practitioners and theoreticians to bring similar approaches to software development. The goal is obtaining objective, reproducible and quantifiable measurements, which may have numerous valuable applications in schedule and budget planning, cost estimation, quality assurance testing, software debugging, software performance optimisation, and optimal personnel task assignments.
 ===
-OpenWrt is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc or musl[5] and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers.
+
+Gentoo Linux
+Gentoo Linux is a computer operating system based on the [Linux] kernel and built using the Portage package management system. It is distributed as free and open-source software. Unlike a binary software distribution, the source code is compiled locally according to the user's preferences and is often optimised for the specific type of computer. Precompiled binaries are available for some very large packages and for packages whose source code has not been released.
+
+The "Gentoo" name comes from the fast-swimming Gentoo penguin. It was chosen to reflect the potential speed improvements of machine-specific optimisation. Gentoo package management is designed to be modular, portable, easy to maintain, and flexible. Gentoo is sometimes described as a meta-distribution, "because of its near unlimited adaptability", in that the majority of users have configurations and sets of installed programs which are unique to themselves.
+===
+
+OpenWrt
+OpenWrt is an operating system (in particular, an embedded operating system) based on the [Linux] kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc or musl and BusyBox. All components have been optimised for size, to be small enough for fitting into the limited storage and memory available in home routers.
 
 OpenWrt is configured using a command-line interface (ash shell), or a web interface (LuCI). There are about 3500 optional software packages available for installation via the opkg package management system.
 
-OpenWrt can run on various types of devices, including CPE routers, residential gateways, smartphones (e.g. Neo FreeRunner), pocket computers (e.g. Ben NanoNote), and laptops (e.g. One Laptop per Child (OLPC)). It is also possible to run OpenWrt on ordinary computers, which are most commonly based on the x86 architecture. Many patches from the OpenWrt's codebase have been included upstream in the Linux kernel mainline.
+OpenWrt can run on various types of devices, including CPE routers, residential gateways, smartphones (e.g. Neo FreeRunner), pocket computers (e.g. Ben NanoNote), and laptops (e.g. [One Laptop per Child] (OLPC)). It is also possible to run OpenWrt on ordinary computers, which are most commonly based on the x86 architecture. Many patches from the OpenWrt's codebase have been included upstream in the Linux kernel mainline.
 ===
 
-The Intel 80186 ("eighty-one-eighty-six"), also known as the iAPX 186,[1] or just 186 ("one-eighty-six" or "one-eight-six"), is a microprocessor and microcontroller introduced in 1982. It was based on the Intel 8086 and, like it, had a 16-bit external data bus multiplexed with a 20-bit address bus. It was also available as the 80188, with an 8-bit external data bus.
+Intel 80186
+The Intel 80186, also known as the iAPX 186, or just 186, is a microprocessor and microcontroller introduced in 1982. It was based on the [Intel 8086] and, like it, had a 16-bit external data bus multiplexed with a 20-bit address bus. It was also available as the 80188, with an 8-bit external data bus.
 ===
 
