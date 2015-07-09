@@ -109,12 +109,7 @@ web-development/web-servers/nginx
 web-development/website/slashdot
 web-development/websites/ebay
 web-development/websites/gmail
-web-development/websites/google-drive
 web-development/websites/google-maps
-web-development/websites/google-plus
-web-development/websites/myspace
-web-development/websites/tumblr
 web-development/wiki
-web-development/wikiwikiweb
 web-development/world-wide-web
 web-development/worldpay
