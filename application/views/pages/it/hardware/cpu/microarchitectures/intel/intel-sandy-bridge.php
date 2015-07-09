@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Intel Sandy Bridge Microarchitecture'); ?>
+        <p><strong>Sandy Bridge</strong> is the codename for a microarchitecture developed by <?php echo $this->stencil->addLink('Intel', 'C'); ?> beginning in 2005 for central processing units in computers to replace the <?php echo $this->stencil->addLink('Nehalem', 'CPU'); ?> microarchitecture. Intel demonstrated a Sandy Bridge processor in 2009, and released first products based on the architecture in January 2011 under the <?php echo $this->stencil->addLink('Core', 'CPU'); ?> brand. Developed primarily by the Israeli branch of Intel, the codename was originally "<strong>Gesher</strong>" (meaning "<em>bridge</em>" in Hebrew).</p>
+        <p>Sandy Bridge implementations targeted a 32 nanometer manufacturing process, while Intel's subsequent product, codenamed <strong>Ivy Bridge</strong>, uses a 22 nanometer process. The Ivy Bridge die shrink, known in the <?php echo $this->stencil->addLink('Intel Tick-Tock', 'ITH'); ?> model as the "tick", is based on FinFET (non-planar, "3D") tri-gate transistors. Intel demonstrated the Ivy Bridge processors in 2011.</p>
+    </div>
+</div>

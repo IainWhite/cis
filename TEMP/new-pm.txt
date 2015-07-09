@@ -3,16 +3,6 @@ POSIX
 POSIX an acronym for Portable Operating System Interface, is a family of standards specified by the [IEEE Computer Society] for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of [Unix] and other operating systems.
 ===
 
-Linux Distribution 
-A Linux distribution (often called a distro for short) is an operating system made as a software collection based on the [Linux] kernel and, often, on a package management system. Linux users usually obtain their operating system by downloading one of the Linux distributions, which are available for a wide variety of systems ranging from embedded devices (for example, OpenWrt) and personal computers to powerful supercomputers (for example, Rocks Cluster Distribution).
-
-A typical Linux distribution comprises a Linux kernel, GNU tools and libraries, additional software, documentation, a window system (the most common being the [X Window System]), a window manager, and a desktop environment. Most of the included software is free and open-source software made available both as compiled binaries and in source code form, allowing modifications to the original software. Usually, Linux distributions optionally include some proprietary software that may not be available in source code form, such as binary blobs required for some device drivers. Almost all Linux distributions are [Unix-like]; the most notable exception is [Android], which does not include a command-line interface and programs made for typical Linux distributions.
-
-A Linux distribution may also be described as a particular assortment of application and utility software (various GNU tools and libraries, for example), packaged together with the Linux kernel in such a way that its capabilities meet the needs of many users. The software is usually adapted to the distribution and then packaged into software packages by the distribution's maintainers. The software packages are available online in so-called repositories, which are storage locations usually distributed around the world. Beside glue components, such as the distribution installers (for example, Debian-Installer and Anaconda) or the package management systems, there are only very few packages that are originally written from the ground up by the maintainers of a Linux distribution.
-
-More than six hundred Linux distributions exist; over three hundred of those are in active development, constantly being revised and improved. Because of the huge availability of software, distributions have taken a wide variety of forms, including those suitable for use on desktops, servers, laptops, netbooks, mobile phones and tablets, as well as minimal environments typically for use in embedded systems. There are commercially backed distributions, such as [Fedora] (Red Hat), [openSUSE] (SUSE) and [Ubuntu] (Canonical Ltd.), and entirely community driven distributions, such as [Debian], [Slackware], [Gentoo] and [Arch Linux]. Most distributions come ready to use and pre-compiled for a specific instruction set, while some distributions (such as Gentoo) are distributed mostly in source code form and compiled locally during installation.
-===
-
 Yum - Yellowdog Updater, Modified
 The Yellowdog Updater, Modified (yum) is an open-source command-line package-management utility for [Linux] operating systems using the [RPM] Package Manager. Though yum has a command-line interface, several other tools provide graphical user interfaces to yum functionality.
 
@@ -27,79 +17,43 @@ RPM Package Manager (RPM) (originally Red Hat Package Manager; now a recursive i
 Even though it was created for use in Red Hat Linux, RPM is now used in many GNU/Linux distributions. It has also been ported to some other operating systems, such as Novell NetWare (as of version 6.5 SP3) and IBM's AIX (as of version 4).
 ===
 
-Intel Core i7
-Intel Core i7 as an [Intel] brand name applies to several families of desktop and laptop 64-bit [x86-64] processors using the [Nehalem], [Westmere], [Sandy Bridge], Ivy Bridge, [Haswell], [Broadwell] and [Skylake] microarchitectures. The Core i7 brand targets the business and high-end consumer markets for both desktop and laptop computers, and is distinguished from the [Core i3] (entry-level consumer), [Core i5] (mainstream consumer), and [Xeon] (server and workstation) brands.
+JetBrains PhpStorm is a commercial, cross-platform IDE for PHP[1] built on JetBrains' IntelliJ IDEA platform.
 
-Intel introduced the Core i7 name with the Nehalem-based Bloomfield Quad-core processor in late 2008. In 2009 new Core i7 models based on the Lynnfield (Nehalem-based) desktop quad-core processor and the Clarksfield (Nehalem-based) quad-core mobile were added, and models based on the Arrandale dual-core mobile processor (also Nehalem-based) were added in January 2010. The first six-core processor in the Core lineup is the Nehalem-based Gulftown, which was launched on March 16, 2010. Both the regular Core i7 and the Extreme Edition are advertised as five stars in the Intel Processor Rating.
+PhpStorm provides an editor for PHP, HTML and JavaScript with on-the-fly code analysis, error prevention and automated refactorings for PHP and JavaScript code. PhpStorm's code completion supports PHP 5.3, 5.4, 5.5 & 5.6 (modern and legacy projects), including generators, coroutines, the finally keyword, list in foreach, namespaces, closures, traits and short array syntax. It includes a full-fledged SQL editor with editable query results.[2][3]
 
-In each of the first three microarchitecture generations of the brand, Core i7 has family members using two distinct system-level architectures, and therefore two distinct sockets (for example, LGA 1156 and LGA 1366 with Nehalem). In each generation, the highest-performing Core i7 processors use the same socket and QPI-based architecture as the medium-end Xeon processors of that generation, while lower-performing Core i7 processors use the same socket and PCIe/DMI/FDI architecture as the Core i5.
+PhpStorm is built on IntelliJ IDEA, which is written in Java. Users can extend the IDE by installing plugins created for the IntelliJ Platform or write their own plugins.
 
-Core i7 is a successor to the [Intel Core 2] brand. Intel representatives stated that they intend the moniker Core i7 to help consumers decide which processor to purchase as Intel releases newer Nehalem-based products in the future.
+All features available in WebStorm are included in PhpStorm,[4] which adds support for PHP and databases.[5] WebStorm ships with pre-installed JavaScript plugins (such as for Node.js), which are available for PhpStorm as well at no cost.[6]
 ===
+IntelliJ IDEA is a Java integrated development environment (IDE) for developing computer software. It is developed by JetBrains (formerly known as IntelliJ), and is available as an Apache 2 Licensed community edition,[1] and in a proprietary commercial edition. IntelliJ IDEA is not based on Eclipse like MyEclipse or Oracle Enterprise Pack for Eclipse.
 
-Intel Core i5
-The first Core i5 using the Nehalem microarchitecture was introduced on 8 September 2009, as a mainstream variant of the earlier [Core i7], the Lynnfield core. Lynnfield Core i5 processors have an 8MB L3 cache, a DMI bus running at 2.5 GT/s and support for dual-channel DDR3-800/1066/1333 memory and have Hyper-threading disabled. The same processors with different sets of features (Hyper-Threading and other clock frequencies) enabled are sold as Core i7-8xx and Xeon 3400-series processors, which should not be confused with high-end Core i7-9xx and Xeon 3500-series processors based on Bloomfield. A new feature called Turbo Boost Technology was introduced which maximizes speed for demanding applications, dynamically accelerating performance to match the workload.
+The first version of IntelliJ IDEA was released in January 2001, and at the time was one of the first available Java IDE with advanced code navigation and code refactoring capabilities integrated.[2][3]
 
-The Core i5-5xx mobile processors are named Arrandale and based on the 32 nm Westmere shrink of the Nehalem microarchitecture. Arrandale processors have integrated graphics capability but only two processor cores. They were released in January 2010, together with Core i7-6xx and Core i3-3xx processors based on the same chip. The L3 cache in Core i5-5xx processors is reduced to 3 MB, while the Core i5-6xx uses the full cache and the Core i3-3xx does not support for Turbo Boost. Clarkdale, the desktop version of Arrandale, is sold as Core i5-6xx, along with related Core i3 and Pentium brands. It has Hyper-Threading enabled and the full 4MB L3 cache.
+In a 2010 Infoworld report, IntelliJ received the highest test center score out of the four top Java programming tools: Eclipse, IntelliJ IDEA, NetBeans and Oracle JDeveloper.[4]
 
-According to Intel "Core i5 desktop processors and desktop boards typically do not support ECC memory", but information on limited ECC support in the Core i3 section also applies to Core i5 and i7.
+In December 2014, Google announced version 1.0 of Android Studio, an open source IDE for Android apps, based on the open source community edition of IntelliJ IDEA.[5] Other development environments based on IntelliJ include AppCode, PhpStorm, PyCharm, RubyMine, WebStorm, and MPS.[6]
 ===
+JetBrains WebStorm is a commercial IDE for JavaScript, CSS & HTML built on JetBrains' IntelliJ IDEA platform. WebStorm is a specialized version of PhpStorm, offering a subset of its features.[1] WebStorm ships with pre-installed JavaScript plugins (such as for Node.js), which are available for PhpStorm as well at no cost.[2]
 
-Intel Core i3
-[Intel] intended the Core i3 as the new low end of the performance processor line from Intel, following the retirement of the [Core 2] brand.
-
-The first Core i3 processors were launched on 7 January 2010.
-
-The first Nehalem based Core i3 was Clarkdale-based, with an integrated GPU and two cores. The same processor is also available as [Core i5] and [Pentium], with slightly different configurations.
-
-The Core i3-3xxM processors are based on Arrandale, the mobile version of the Clarkdale desktop processor. They are similar to the Core i5-4xx series but running at lower clock speeds and without Turbo Boost. According to an Intel FAQ they do not support Error Correction Code (ECC) memory. According to motherboard manufacturer Supermicro, if a Core i3 processor is used with a server chipset platform such as Intel 3400/3420/3450, the CPU supports ECC with UDIMM. When asked, Intel confirmed that, although the Intel 5 series chipset supports non-ECC memory only with the Core i5 or i3 processors, using those processors on a motherboard with 3400 series chipsets it supports the ECC function of ECC memory. A limited number of motherboards by other companies also support ECC with Intel Core ix processors; the Asus P8B WS is an example, but it does not support ECC memory under [Windows] non-server operating systems.
+WebStorm provides automatic code completion, on-the-fly code analysis, refactoring support and VCS integration. Supported languages are JavaScript, CoffeeScript, TypeScript and Dart.
 ===
+Sublime Text is a cross-platform text and source code editor with a Python application programming interface (API). It natively supports many programming languages and markup languages, and its functionality can be extended by users with plugins, typically community-built and maintained under free-software licenses.
 
-Intel Sandy Bridge Microarchitecture
-Sandy Bridge is the codename for a microarchitecture developed by [Intel] beginning in 2005 for central processing units in computers to replace the [Nehalem] microarchitecture. Intel demonstrated a Sandy Bridge processor in 2009, and released first products based on the architecture in January 2011 under the [Core] brand. Developed primarily by the Israeli branch of Intel, the codename was originally "Gesher" (meaning "bridge" in Hebrew).
-
-Sandy Bridge implementations targeted a 32 nanometer manufacturing process, while Intel's subsequent product, codenamed Ivy Bridge, uses a 22 nanometer process. The Ivy Bridge die shrink, known in the Intel Tick-Tock model as the "tick", is based on FinFET (non-planar, "3D") tri-gate transistors. Intel demonstrated the Ivy Bridge processors in 2011.
+Sublime Text is proprietary software. Despite users enhancing the software with free add-ons, all license revenue accrues to the primary developer.
 ===
-
-Intel Haswell Microarchitecture
-Haswell is the codename for a processor microarchitecture developed by [Intel] as the successor to the Ivy Bridge microarchitecture. Intel officially announced CPUs based on this microarchitecture on 4 June 2013 at Computex Taipei 2013, while a working Haswell chip was demonstrated at the 2011 Intel Developer Forum. With Haswell, which uses a 22 nm process, Intel also introduced low-power processors designed for convertible or "hybrid" ultrabooks, designated by the "Y" suffix.
-
-Haswell CPUs are used in conjunction with the Intel 8 Series chipsets and Intel 9 Series chipsets.
+A "Hello, World!" program is a computer program that outputs "Hello, World!" (or some variant thereof) on a display device. Because it is typically one of the simplest programs possible in most programming languages, it is by tradition often used to illustrate to beginners the most basic syntax of a programming language. It is also used to verify that a language or system is operating correctly.
 ===
-
-Intel Skylake Microarchitecture
-Skylake is the codename used by [Intel] for a processor microarchitecture under development and due to launch in 2015 as the successor to the [Broadwell] microarchitecture. In accordance with Intel's tick-tock process-architecture design model, Skylake is a major microarchitecture redesign bringing greater CPU and GPU performance and reduced power consumption. It will use the same 14 nm manufacturing process as Broadwell. Then, as a "tick" step in the tick-tock release cycle, the manufacturing process is expected to make a transition to 10 nm in 2017; the codename for this 10 nm die shrink is "Cannonlake".
-
-Skylake's release to market is rumoured to be taking place at the Gamescom on 5 August 2015, unusually soon after Broadwell's. While industry observers initially believed that the issues[6] impacting Broadwell would also affect Skylake, newer information suggests that Intel will be seeking to recover by maintaining the traditional "tick-tock" cadence for Skylake and shortening Broadwell's release cycle instead.
-
-In early 2015, some media reports stated that Intel considers Skylake to be its "most significant processor" for a decade, due to the enhanced power efficiency and wire-free capabilities.
+A software metric is a quantitative measure of a degree to which a software system or process possesses some property. Since quantitative measurements are essential in all sciences, there is a continuous effort by computer science practitioners and theoreticians to bring similar approaches to software development. The goal is obtaining objective, reproducible and quantifiable measurements, which may have numerous valuable applications in schedule and budget planning, cost estimation, quality assurance testing, software debugging, software performance optimization, and optimal personnel task assignments.
 ===
+Gentoo Linux (pronounced /ˈdʒɛntuː/ jen-too[2]) is a computer operating system based on the Linux kernel and built using the Portage package management system. It is distributed as free and open-source software. Unlike a binary software distribution, the source code is compiled locally according to the user's preferences and is often optimized for the specific type of computer. Precompiled binaries are available for some very large packages and for packages whose source code has not been released.[3]
 
-Intel Bonnell Microarchitecture
-Bonnell is a CPU microarchitecture used by [Intel Atom] processors which can execute up to two instructions per cycle. Like many other [x86 microprocessors], it translates x86 instructions (CISC instructions) into simpler internal operations (sometimes referred to as micro-ops, effectively RISC style instructions) prior to execution. The majority of instructions produce one micro-op when translated, with around 4% of instructions used in typical programs producing multiple micro-ops. The number of instructions that produce more than one micro-op is significantly fewer than the P6 and NetBurst microarchitectures. In the [Bonnell] microarchitecture, internal micro-ops can contain both a memory load and a memory store in connection with an ALU operation, thus being more similar to the x86 level and more powerful than the micro-ops used in previous designs. This enables relatively good performance with only two integer ALUs, and without any instruction reordering, speculative execution or register renaming. The Bonnell microarchitecture therefore represents a partial revival of the principles used in earlier Intel designs such as [P5] and the [i486], with the sole purpose of enhancing the performance per watt ratio. However, Hyper-Threading is implemented in an easy (i.e. low-power) way to employ the whole pipeline efficiently by avoiding the typical single thread dependencies.
+The "Gentoo" name comes from the fast-swimming Gentoo penguin. It was chosen to reflect the potential speed improvements of machine-specific optimization. Gentoo package management is designed to be modular, portable, easy to maintain, and flexible. Gentoo is sometimes described as a meta-distribution, "because of its near-unlimited adaptability", in that the majority of users have configurations and sets of installed programs which are unique to themselves.[
 ===
+OpenWrt is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc or musl[5] and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers.
 
-Intel Silvermont Microarchitecture
-Silvermont is a microarchitecture for low-power [Atom] and [Celeron] branded processors used in systems on a chip (SoCs) made by [Intel]. Silvermont will form the basis for a total of four SoC families:
+OpenWrt is configured using a command-line interface (ash shell), or a web interface (LuCI). There are about 3500 optional software packages available for installation via the opkg package management system.
 
-    - Merrifield and Moorefield  - consumer SoCs intended for smartphones
-    - Bay Trail - consumer SoCs aimed at tablets, hybrid devices, netbooks, nettops, and embedded / automotive systems
-    - Avoton - SoCs for micro-servers and storage devices
-    - Rangeley - SoCs targeting network and communication infrastructure.
-
-Silvermont was announced to news media on 6 May 2013 at Intel's headquarters at Santa Clara, California. Intel has repeatedly said the first Bay Trail devices will be available during the Holiday 2013 timeframe, while leaked slides show the most recent release window for Bay Trail-T as 28 August 2013. Both Avoton and Rangeley were announced as being available in the second half of 2013. The first Merrifield devices are expected in 1H14.
-===
-
-IBM System/360
-The IBM System/360 was a mainframe computer system family announced by [IBM] on 7 April 1964, and delivered between 1965 and 1978. It was the first family of computers designed to cover the complete range of applications, from small to large, both commercial and scientific. The design made a clear distinction between architecture and implementation, allowing IBM to release a suite of compatible designs at different prices. All but the incompatible model 44 and the most expensive systems used microcode to implement the instruction set, which featured 8-bit byte addressing and binary, decimal and (hexadecimal) floating-point calculations.
-
-The slowest System/360 model announced in 1964, the Model 30, could perform up to 34,500 instructions per second, with memory from 8 to 64KB. High performance models came later. The 1967 System 360 Model 91 could do up to 16.6 million instructions per second. The larger 360 models could have up to 8MB of internal main memory, though main memory that big was unusual a more typical large installation might have as little as 256KB of main storage, but 512KB, 768KB or 1024KB was more common. Up to 8 megabytes of slower (8 microsecond) Large Capacity Storage (LCS) was also available.
-
-System/360 was extremely successful in the market, allowing customers to purchase a smaller system with the knowledge they would always be able to migrate upward if their needs grew, without reprogramming of application software or replacing peripheral devices. Many consider the design one of the most successful computers in history, influencing computer design for years to come.
-
-The chief architect of System/360 was Gene Amdahl, and the project was managed by [Fred Brooks], responsible to Chairman Thomas J. Watson Jr. The commercial release was piloted by another of Watson's lieutenants, John R. Opel, who managed the launch of IBM’s System 360 mainframe family in 1964.
-
-Application level compatibility (with some restrictions) for System/360 software is maintained to present day with the System z servers.
+OpenWrt can run on various types of devices, including CPE routers, residential gateways, smartphones (e.g. Neo FreeRunner), pocket computers (e.g. Ben NanoNote), and laptops (e.g. One Laptop per Child (OLPC)). It is also possible to run OpenWrt on ordinary computers, which are most commonly based on the x86 architecture. Many patches from the OpenWrt's codebase have been included upstream in the Linux kernel mainline.
 ===
 
 

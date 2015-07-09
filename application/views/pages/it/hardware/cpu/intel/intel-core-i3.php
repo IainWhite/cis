@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Intel Core i3'); ?>
+        <p><?php echo $this->stencil->addLink('Intel', 'C'); ?> intended the <strong>Core i3</strong> as the new low end of the performance processor line from Intel, following the retirement of the <?php echo $this->stencil->addLink('Core 2', 'CPU'); ?> brand.</p>
+        <p>The first Core i3 processors were launched on 7 January 2010.</p>
+        <p>The first Nehalem based Core i3 was Clarkdale based, with an integrated GPU and two cores. The same processor is also available as <?php echo $this->stencil->addLink('Core i5', 'CPU'); ?> and <?php echo $this->stencil->addLink('Pentium', 'CPU'); ?>, with slightly different configurations.</p>
+        <p>The Core i3-3xxM processors are based on <strong>Arrandale</strong>, the mobile version of the Clarkdale desktop processor. They are similar to the Core i5-4xx series but running at lower clock speeds and without Turbo Boost. According to an Intel FAQ they do not support Error Correction Code (ECC) memory. According to motherboard manufacturer Supermicro, if a Core i3 processor is used with a server chipset platform such as Intel 3400/3420/3450, the CPU supports ECC with UDIMM. When asked, Intel confirmed that, although the Intel 5 series chipset supports non-ECC memory only with the Core i5 or i3 processors, using those processors on a motherboard with 3400 series chipsets it supports the ECC function of ECC memory. A limited number of motherboards by other companies also support ECC with Intel Core ix processors; the Asus P8B WS is an example, but it does not support ECC memory under [Windows] non-server operating systems.</p>
+    </div>
+</div>

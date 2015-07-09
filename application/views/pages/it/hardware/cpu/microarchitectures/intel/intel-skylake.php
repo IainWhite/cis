@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Intel Skylake Microarchitecture'); ?>
+        <p><strong>Skylake</strong> is the codename used by <?php echo $this->stencil->addLink('Intel', 'C'); ?> for a processor microarchitecture under development and due to launch in 2015 as the successor to the <?php echo $this->stencil->addLink('Broadwell', 'CPU'); ?> microarchitecture. In accordance with Intel's <?php echo $this->stencil->addLink('Tick-Tock', 'ITH'); ?> process-architecture design model, Skylake is a major microarchitecture redesign bringing greater CPU and GPU performance and reduced power consumption. It will use the same 14 nm manufacturing process as Broadwell. Then, as a "tick" step in the tick-tock release cycle, the manufacturing process is expected to make a transition to 10 nm in 2017; the codename for this 10 nm die shrink is "<strong>Cannonlake</strong>".</p>
+        <p>Skylake's release to market is rumoured to be taking place at the Gamescom on 5 August 2015, unusually soon after Broadwell's. While industry observers initially believed that the issues impacting Broadwell would also affect Skylake, newer information suggests that Intel will be seeking to recover by maintaining the traditional "tick-tock" cadence for Skylake and shortening Broadwell's release cycle instead.</p>
+        <p>In early 2015, some media reports stated that Intel considers Skylake to be its "most significant processor" for a decade, due to the enhanced power efficiency and wire-free capabilities.</p>
+    </div>
+</div>
