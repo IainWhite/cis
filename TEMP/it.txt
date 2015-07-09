@@ -41,9 +41,6 @@ it/hardware/bbc-micro
 it/hardware/cobalt-raq
 it/hardware/commodore-pet
 it/hardware/cpu
-it/hardware/difference-engine
-it/hardware/eee-pc
-it/hardware/ferranti-mark-1
 it/hardware/mac
 it/hardware/Manchester Small-Scale Experimental Machine (SSEM)
 it/hardware/next
@@ -55,7 +52,6 @@ it/hardware/pc/ps-2
 it/hardware/pc/xt
 it/hardware/phones/nokia-communicator
 it/hardware/powerpc
-it/hardware/psion
 it/hardware/risc
 it/hardware/smartphone
 it/hardware/sparc

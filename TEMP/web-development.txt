@@ -26,8 +26,6 @@ networks/ip-suite/application-layer
 networks/ip-suite/internet-layer
 networks/ip-suite/link-layer
 networks/ip-suite/transport-layer
-web-development//websites/facebook
-web-development//websites/twitter
 web-development/accessibility
 web-development/active-desktop
 web-development/adwords
