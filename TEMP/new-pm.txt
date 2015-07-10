@@ -45,125 +45,8 @@ Sublime Text is a cross-platform text and source code editor with a [Python] app
 Sublime Text is proprietary software. Despite users enhancing the software with free add-ons, all license revenue accrues to the primary developer.
 ===
 
-Hello, World!
-A "Hello, World!" program is a computer program that outputs "Hello, World!" (or some variant thereof) on a display device. Because it is typically one of the simplest programs possible in most programming languages, it is by tradition often used to illustrate to beginners the most basic syntax of a programming language. It is also used to verify that a language or system is operating correctly.
-===
-
 Software Metric
 A software metric is a quantitative measure of a degree to which a software system or process possesses some property. Since quantitative measurements are essential in all sciences, there is a continuous effort by computer science practitioners and theoreticians to bring similar approaches to software development. The goal is obtaining objective, reproducible and quantifiable measurements, which may have numerous valuable applications in schedule and budget planning, cost estimation, quality assurance testing, software debugging, software performance optimisation, and optimal personnel task assignments.
-===
-
-Sir Clive Marles Sinclair 
-Sir Clive Marles Sinclair (born 30 July 1940) is an English entrepreneur and inventor, most commonly known for his work in consumer electronics in the late 1970s and early 1980s.
-
-After spending several years as assistant editor of Practical Wireless and Instrument Practice, Sinclair founded Sinclair Radionics in 1961, where he produced the first slim-line electronic pocket calculator in 1972 (the Sinclair Executive). Sinclair later moved into the production of home computers and produced the [Sinclair ZX80], the UK's first mass-market home computer for less than 100GBP, and later, with [Sinclair Research], the [ZX81] and [ZX Spectrum]; the latter is widely recognised for its importance in the early days of the British home computer industry.
-
-Knighted in 1983, Sinclair formed Sinclair Vehicles and released the Sinclair C5, a battery electric vehicle that was a commercial failure. Since then Sinclair has concentrated on personal transport, including the A-bike, a folding bicycle for commuters that weighs 5.5 kilograms (12lb) and folds down small enough to be carried on public transport.
-===
-
-Sinclair Research Ltd 
-Sinclair Research Ltd is a British consumer electronics company founded by Sir [Clive Sinclair] in Cambridge. Originally incorporated in 1973 as Ablesdeal Ltd. and renamed to Westminster Mail Order Ltd and then Sinclair Instrument Ltd. in 1975, it remained dormant until 1976, when it was activated with the intention of continuing Sinclair's commercial work from his earlier company Sinclair Radionics; it adopted the name Sinclair Research in 1981.
-
-In 1980, Clive Sinclair entered the home computer market with the [ZX80] at 99.95GBP, at the time the cheapest personal computer for sale in the UK. In 1982 the [ZX Spectrum] was released, later becoming the United Kingdom's best selling computer, competing aggressively against [Commodore] and [Amstrad].
-
-At the height of its success, and largely inspired by the Japanese Fifth Generation Computer program, the company established the "MetaLab" research center at Milton Hall (near Cambridge), in order to pursue artificial intelligence, wafer-scale integration, formal verification and other advanced projects. The combination of the failures of the [Sinclair QL] computer and the TV80 led to financial difficulties in 1985, and a year later Sinclair sold the rights to their computer products and brand name to [Amstrad]. Sinclair Research Ltd still exists today as a one-man company, continuing to market Sir Clive Sinclair's newest inventions.
-===
-
-Commodore 64
-The Commodore 64, also known as the C64, or occasionally CBM 64 or VIC-64, is an 8-bit home computer introduced in January 1982 by [Commodore International]. It is listed in the Guinness World Records as the highest-selling single computer model of all time, with independent estimates placing the number sold between 10 and 17 million units.
-
-Volume production started in early 1982, with machines being released on to the market in August at a price of US$595. Preceded by the [Commodore VIC-20] and [Commodore PET], the C64 takes its name from its 64 kilobytes (65,536 bytes) of RAM, and has technologically superior sound and graphical specifications when compared to some earlier systems such as the [Apple II] and [Atari 800], with multi-color sprites and a more advanced sound processor.
-
-The C64 dominated the low-end computer market for most of the 1980s. For a substantial period (1983-1986), the C64 had between 30% and 40% share of the US market and two million units sold per year, outselling the [IBM PC compatibles], [Apple Inc] computers, and the [Atari] 8-bit family of computers. Sam Tramiel, a later Atari president and the son of Commodore's founder, said in a 1989 interview, "When I was at Commodore we were building 400,000 C64s a month for a couple of years." In the UK market, the 64 faced competition from the [BBC Micro] and the [Sinclair Spectrum] but the 64 was still one of the two most-popular computers in the UK.
-
-Part of the Commodore 64's success is because it was sold in retail stores instead of just electronics and / or computer stores. Commodore produced many of its parts in-house to control costs, including custom IC chips from [MOS Technology]. It has been compared to the Ford Model T automobile for its role in bringing a new technology to middle-class households via creative mass-production.
-
-Approximately 10,000 commercial software titles have been made for the Commodore 64 including development tools, office productivity applications, and games. C64 emulators allow anyone with a modern computer, or a compatible video game console, to run these programs today. The C64 is also credited with popularising the computer demoscene and is still used today by some computer hobbyists. In 2008, 17 years after it was taken off the market, research showed that brand recognition for the model was still at 87%.
-===
-
-Commodore VIC-20
-The VIC-20 (Germany: VC-20; Japan: VIC-1001) is an 8-bit home computer which was sold by [Commodore Business Machines]. The VIC-20 was announced in 1980, roughly three years after Commodore's first personal computer, the [PET]. The VIC-20 was the first computer of any description to sell one million units.
-
-===
-
-Commodore International
-Commodore International was a North American home computer and electronics manufacturer. Commodore International (CI) along with its subsidiary Commodore Business Machines (CBM) participated in the development of the home personal computer industry in the 1970s and 1980s. The company developed and marketed one of the world's best-selling desktop computers, the [Commodore 64] (1982) and released its [Amiga] computer line in 1985.
-===
-
-Commodore Amiga
-The Amiga is a family of personal computers sold by [Commodore] in the 1980s and 1990s. The first model, the A1000, was launched in 1985 and became popular for its graphical, audio and multi-tasking abilities. The Amiga provided a significant upgrade from 8-bit computers, such as the [Commodore 64], and the platform quickly grew in popularity among computer enthusiasts. The name "Amiga" was chosen because it is the Spanish word for (female) friend, and alphabetically it appears before [Apple] in lists of computer makers. It originated as a project code-named "Lorraine", therefore the female was used instead of the male and general version Amigo.
-
-The best selling model, the Amiga 500, was introduced in 1987 and became one of the leading home computers of the late 1980s and early 1990s with approximately six million sold. The A3000, introduced in 1990, started the second generation of Amiga Systems, followed by the A500+ and the A600. Finally, as the third generation, the A1200 and the A4000 were released in 1992. However, poor marketing and failure to repeat the technological advances of the first systems meant that the Amiga quickly lost its market share to competing platforms, such as the fourth generation game consoles, [Apple Macintosh], and [IBM PC compatibles].
-
-Based on the [Motorola 68000] family of microprocessors, the machine has a custom chipset with graphics and sound capabilities that were unprecedented for the price, and a pre-emptive multitasking operating system called AmigaOS. The original operating system, partly based on TRIPOS and written in [BCPL], is called AmigaDOS and the [GUI] is called Workbench. When it was eventually renamed AmigaOS, the BCPL parts were rewritten in the [C] language.
-===
-
-Commodore 128
-The Commodore 128, also known as the C128 or occasionally CBM 128, is the last 8-bit home computer that was commercially released by [Commodore Business Machines] (CBM). Introduced in January 1985 at the CES in Las Vegas, it appeared three years after its predecessor, the bestselling [Commodore 64].
-
-The C128 is a significantly expanded successor to the C64, with nearly full compatibility. The new machine has 128K of RAM in two 64K banks, and an 80-column color video output. It has a redesigned case and keyboard. Also included is a [Zilog Z80] CPU which allows the C128 to run [CP/M], as an alternative to the usual Commodore BASIC environment. The presence of the Z80 and the huge CP/M software library it brings, coupled with the C64's software library, gives the C128 one of the broadest ranges of available software among its competitors.
-
-The primary hardware designer of the C128 was Bil Herd, who had worked on the Plus/4. Other hardware engineers were Dave Haynie and Frank Palaia, while the IC design work was done by Dave DiOrio. The main Commodore system software was developed by Fred Bowen and Terry Ryan, while the CP/M subsystem was developed by Von Ertwine.
-===
-
-Sinclair QL 
-The Sinclair QL (for Quantum leap), is a personal computer launched by [Sinclair Research] in 1984, as an upper-end counterpart to the [Sinclair ZX Spectrum]. The QL was aimed at the serious home user and professional and executive users markets from small to large businesses and higher educational establishments, but failed to achieve commercial success.
-===
-
-Atari
-The Atari 8-bit family is a series of 8-bit home computers introduced by [Atari Inc] in 1979 and manufactured until 1992. All are based on the [MOS Technology 6502] CPU running at 1.79 MHz, roughly twice that of similar designs, and were the first home computers designed with custom co-processor chips. This architecture allowed the Atari designs to offer graphics and sound capabilities that were more advanced than contemporary machines like the [Apple II] or [Commodore PET], and gaming on the platform was a major draw; Star Raiders is widely considered the platform's killer app. Machines with similar performance would not appear until the [BBC Micro] in late 1981 and the [Commodore 64] in 1982.
-
-The original Atari 400 and 800 models were released with a series of plug-n-play peripherals that used Atari's unique "SIO" serial bus system. Over the following decade several versions of the same basic design were released, including the XL and XE series of computers and matching peripherals. All of these used the same basic logical design, with various changes to the physical layout to lower production costs as chipmaking and manufacturing processes improved over time. The early machines were expensive to build, but dependable. Later models like the XEs were greatly cost-reduced and generally not as robust.
-
-The Atari 8-bit computer line sold two million units during its major production run between late 1979 and mid-1985, putting its sales on par with machines like the [Sinclair ZX Spectrum] and TI-99/4A. Its primary competition in the worldwide market was, starting in 1982, the [Commodore 64], which is by far the best selling computer of the 8-bit era. Atari also found a strong market in Eastern Europe and had something of a renaissance in the early 1990s as these countries joined a uniting Europe. Some estimates place sales during this period at another two million units.
-===
-
-Atari ST
-The Atari ST is a line of home computers from [Atari Corporation], and the successor to the [Atari 8-bit family]. The first ST model, the 520ST, was released in June 1985. "ST" officially stands for "Sixteen/Thirty-two", which referred to the [Motorola 68000]'s 16-bit external bus and 32-bit internals. The Atari ST is the first personal computer to come with a bit-mapped color GUI, using a version of Digital Research's [GEM] released in February 1985. The 1040ST, released in 1986, is the first personal computer to ship with a megabyte of RAM in the base configuration, and also the first with a cost-per-kilobyte of less than USD$1.
-
-The Atari ST is part of the 16/32 bit generation of home computers, based on the Motorola 68000 CPU, typically with 512KB of RAM or more, a graphical user interface, and 3½" microfloppy disks as storage. It was similar to the [Apple Macintosh], and its simple design allowed the ST to precede the [Commodore Amiga]'s commercial release by almost two months. The ST was primarily a competitor to the [Macintosh], [Amiga], and in certain markets the [Acorn Archimedes]. Where the Amiga has a graphics accelerator and sample-based synthesis based sound, the ST has a simple frame buffer and a 3 voice synthesizer chip, but with a slightly faster CPU and a high-resolution monochrome display mode ideal for business and CAD. In some markets, particularly Germany, the machine gained a strong foothold as a small business machine for CAD and Desktop publishing work.
-
-Thanks to its built-in MIDI, the ST enjoyed success for running music-sequencer software and as a controller of musical instruments among both amateurs and well-known musicians.
-
-The ST was later superseded by the Atari STE, Atari TT, Atari MEGA STE and Falcon computers.
-===
-
-Camputers Lynx
-The Lynx was an 8-bit British home computer that was first released in early 1983 as a 48K model. Several models were available with 48K, 96K or 128K RAM. It was possible to reach 192K with RAM expansions on board. John Shireff designed the hardware and Davis Jansons the firmware.
-
-The machine was based around a Z80A CPU clocked at 4 MHz, (6 MHz for the 128/192K models) and featured a Motorola 6845 as video controller. It was possible to run [CP/M] with the optional 5.25" floppy disk-drive on the 96K and 128K models.
-
-The machine was quite advanced for its time. A 48K machine cost 225GBP, a 96K machine 299GBP and a 128K machine 345GBP. When compared to its competitors, such as the [Sinclair ZX Spectrum] and the Oric 1, it was also fairly highly priced. Camputers rebranded and relaunched each machine on several occasions, with the 48K machine renamed the Leisure, and the 128K machine renamed as the Laureate.
-
-The machine had very little software available, and survived only until Camputers ceased trading in June 1984. It is believed that approximately 30,000 Camputers Lynx units were sold worldwide.
-
-Anston Technology took over in November 1984 and a re-launch was planned but never happened. In June 1986, Anston sold everything - hardware, design rights and thousands of cassettes - to the National Lynx User Group. The group planned to produce a Super-Lynx but was too busy supplying spares and technical information to owners of existing models, and the project never came into being.
-
-Unique features of this computer (compared to other home computers at the time) includes:
-
-- A quite large BASIC, including graphics commands, in line CODE sentence for inclusion of machine code in hex. All numbers were floating point BCD numbers (even line numbers).
-- A monitor program allowed hex dumps, copy, compare etc.
-- The computer always ran in "high" resolution graphics mode (256x252 pixels in eight colours) using 6 times 10 pixels characters. Only a few bytes of graphic memory could be manipulated during the horizontal sync period[citation needed], and thus graphics were extremely slow compared to most other computers.
-- Up to 192 kB of RAM and 20 kB of ROM (16 kB on the smallest model) on a 16 bit address bus was implemented using special hardware. As a consequence, certain RAM areas shadowed by ROM could only be used for data storage and the video memory had a green and alternative green bank that could be switched by a hardware register.
-- For sound it had a simple (4 bit) DAC. A comparator was included to serve as an ADC (primarily used for reading from tape drives).
-
-Compared to, for example, the [Commodore 64], the [BASIC] was more extensive and faster and resolution of graphics was better; but computer games on the other hand suffered from the special implementation and lack of hardware for sound and sprites. Thus, it was better for exploring programming or working with maths.
-===
-
-IBM PCjr 
-The IBM PCjr (read "PC junior") was [IBM]'s first attempt to enter the home computer market. The PCjr, IBM model number 4860, retains the [IBM PC]'s [8088] CPU and BIOS interface for compatibility, but various design and implementation decisions led the PCjr to be a commercial failure.
-
-Announced 1 November 1983, and first shipped in late January 1984, the PCjr nicknamed "Peanut" before its debut came in two models: the 4860-004, with 64KB of memory, priced at US$669 and the 4860-067, with 128KB of memory and a 360KB 5.25-inch floppy disk drive, priced at US$1269. It was manufactured for IBM in Lewisburg, Tennessee by Teledyne. The PCjr promised a high degree of compatibility with the IBM PC, which was already a popular business computer, in addition to offering built-in color graphics and 3 voice sound that was better than the standard PC speaker sound and color graphics of the standard IBM PC and compatibles of the day.
-
-The graphics are produced by the Video Gate Array ([VGA]), an upward-compatible extension of Color Graphics Adapter ([CGA]) which adds three new graphics modes to CGA's seven. The PCjr's sound is provided by a Texas Instruments SN76489 which can produce three square waves of varying amplitude and frequency along with a noise channel powered by a shift register. The PCjr is also the first PC compatible machine that supports page flipping for graphics operation. Since the PCjr uses system RAM to store video content and the location of this storage area can be changed, the PCjr can perform flicker-free animation and other effects that are either difficult or impossible to produce on contemporary PC clones.
-
-The PCjr's 4.77 MHz [Intel 8088] CPU is faster than that of other computers that were aimed at the home market at the time, though the PCjr does not run at the full rated 4.77 MHz because every 4th clock cycle of the 8088 CPU is designated to refresh the PCjr's dynamic RAM as it has no dedicated memory controller; the computer's effective clockspeed is therefore 3.58 MHz. The detached wireless infrared keyboard promised a degree of convenience none of its competitors had, eliciting visions of word processing wirelessly from one's couch with the computer connected to a TV set as a display.
-===
-
-Ferranti
-Ferranti was a UK electrical engineering and equipment firm that operated for over a century from 1885 until it went bankrupt in 1993 (the Belgian subsidiary lives on as Ferranti Computer Systems and is now part of the Nijkerk Holding). Known primarily for defence electronics, the company was once a constituent of the FTSE 100 Index.
-
-The firm was known for work in the area of power grid systems and defence electronics. In addition, in 1951 Ferranti began selling the first commercially available computer, the [Ferranti Mark 1].
 ===
 
 Outlook.com  / HotMail
@@ -189,5 +72,36 @@ Microsoft Developer Network, widely referred to by its abbreviation, MSDN, is th
 
 ===
 
+BIOS - Basic Input/Output System
+The BIOS (an acronym for Basic Input/Output System and also known as the System BIOS, ROM BIOS or PC BIOS) is a type of firmware used during the booting process (power-on startup) on [IBM PC compatible] computers. The BIOS firmware is built into personal computers (PCs), and it is the first software they run when powered on. The name itself originates from the Basic Input/Output System used in the [CP/M] operating system in 1975. Originally proprietary to the [IBM PC], the BIOS has been reverse engineered by companies looking to create compatible systems and the interface of that original system serves as a de facto standard.
+
+The fundamental purposes of the BIOS are to initialise and test the system hardware components, and to load a boot loader or an operating system from a mass memory device. The BIOS additionally provides an abstraction layer for the hardware, i.e. a consistent way for application programs and operating systems to interact with the keyboard, display, and other input/output (I/O) devices. Variations in the system hardware are hidden by the BIOS from programs that use BIOS services instead of directly accessing the hardware. [MS-DOS] ([PC DOS]), which was the dominant PC operating system from the early 1980s until the mid 1990s, relied on BIOS services for disk, keyboard, and text display functions. [MS Windows NT], [Linux], and other protected mode operating systems in general ignore the abstraction layer provided by the BIOS and do not use it after loading, instead accessing the hardware components directly.
+
+Every BIOS implementation is specifically designed to work with a particular computer or motherboard model, by interfacing with various devices that make up the complementary system chipset. Originally, BIOS firmware was stored in a ROM chip on the PC motherboard; in modern computer systems, the BIOS contents are stored on flash memory so it can be rewritten without removing the chip from the motherboard. This allows easy updates to the BIOS firmware so new features can be added or bugs can be fixed, but it also creates a possibility for the computer to become infected with BIOS rootkits.
+===
+
+ROM - Read Only Memory
+Read Only Memory (ROM) is a class of storage medium used in computers and other electronic devices. Data stored in ROM can only be modified slowly, with difficulty, or not at all, so it is mainly used to distribute firmware (software that is very closely tied to specific hardware, and unlikely to need frequent updates).
+
+Strictly, read-only memory refers to memory that is hard-wired, such as diode matrix and the later mask ROM. Although discrete circuits can be altered (in principle), Integrated Circuits (ICs) cannot and are useless if the data is bad. The fact that such memory can never be changed is a large drawback; more recently, ROM commonly refers to memory that is read-only in normal operation, while reserving the fact of some possible way to change it.
+
+Other types of non-volatile memory such as erasable programmable read only memory (EPROM) and electrically erasable programmable read-only memory (EEPROM or Flash ROM) are sometimes referred to, in an abbreviated way, as "read only memory" (ROM); although these types of memory can be erased and re-programmed multiple times, writing to this memory takes longer and may require different procedures than reading the memory. When used in this less precise way, "ROM" indicates a non-volatile memory which serves functions typically provided by mask ROM, such as storage of program code and nonvolatile data.
+===
+
+RAM - Random Access Memory
+Random Access Memory (RAM) is a form of computer data storage. A random access memory device allows data items to be read and written in approximately the same amount of time, regardless of the order in which data items are accessed. In contrast, with other direct-access data storage media such as hard disks, CD-RWs, DVD-RWs and the older drum memory, the time required to read and write data items varies significantly depending on their physical locations on the recording medium, due to mechanical limitations such as media rotation speeds and arm movement delays.
+
+Today, random access memory takes the form of integrated circuits. RAM is normally associated with volatile types of memory (such as DRAM memory modules), where stored information is lost if power is removed, although many efforts have been made to develop non-volatile RAM chips. Other types of non-volatile memory exist that allow random access for read operations, but either do not allow write operations or have limitations on them. These include most types of ROM and a type of flash memory called NOR-Flash.
+
+Integrated-circuit RAM chips came into the market in the late 1960s, with the first commercially available DRAM chip, the Intel 1103, introduced in October 1970.
+===
+
+Atari
+Atari (from a Japanese verb meaning "to hit the target" or "a success") is a corporate and brand name owned by several entities since its inception in 1972, currently by Atari Interactive, a subsidiary of the French publisher Atari, SA (ASA). The original Atari Inc founded in 1972 by Nolan Bushnell and Ted Dabney was a pioneer in arcade games, home video game consoles, and home computers. The company's products, such as Pong and the Atari 2600, helped define the electronic entertainment industry from the 1970s to the mid-1980s.
+
+In 1984, the original Atari Inc was split due to its role in the video game crash of 1983, and the arcade division was turned into Atari Games Inc. Atari Games received the rights to use the logo and brand name with appended text "Games" on arcade games, as well as rights to the original 1972–1984 arcade hardware properties. The Atari Consumer Electronics Division properties were in turn sold to Jack Tramiel's Tramel Technology Ltd., which then renamed itself to Atari Corporation. In 1996, Atari Corporation reverse-merged with disk-drive manufacturer JT Storage (JTS), becoming a division within the company.
+
+In 1998, Hasbro Interactive acquired all Atari Corporation related properties from JTS, creating a new subsidiary, Atari Interactive. Infogrames Entertainment (IESA) bought Hasbro Interactive in 2001 and renamed it to Infogrames Interactive, later Atari Interactive in 2003, when Infogrames Inc licensed the Atari name and logo from the latter and changed its name to Atari Inc., a name used for a company founded in 1993 as GT Interactive, which IESA also renamed to Infogrames, Inc. and acquired a 62% controlling interest in by 1999.[12] After IESA's acquisition of Hasbro Interactive, Infogrames, Inc. intermittently published Atari branded titles for Infogrames Interactive. On October 11, 2008, Infogrames completed its acquisition of Atari Inc, making it a wholly owned subsidiary.
+===
 
 

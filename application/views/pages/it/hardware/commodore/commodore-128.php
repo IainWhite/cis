@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Commodore 128'); ?>
+        <p>The <strong>Commodore 128</strong>, also known as the <strong>C128</strong> or occasionally <strong>CBM 128</strong>, is the last 8-bit home computer that was commercially released by <?php echo $this->stencil->addLink('Commodore Business Machines', 'C'); ?> (CBM). Introduced in January 1985 at the CES in Las Vegas, it appeared three years after its predecessor, the bestselling <?php echo $this->stencil->addLink('Commodore 64', 'ITH'); ?>.</p>
+        <p>The C128 is a significantly expanded successor to the C64, with nearly full compatibility. The new machine has 128K of RAM in two 64K banks, and an 80-column color video output. It has a redesigned case and keyboard. Also included is a <?php echo $this->stencil->addLink('Zilog Z80', 'CPU'); ?> CPU which allows the C128 to run <?php echo $this->stencil->addLink('CP/M', 'OS'); ?>, as an alternative to the usual <strong>Commodore BASIC</strong> environment. The presence of the Z80 and the huge CP/M software library it brings, coupled with the C64's software library, gives the C128 one of the broadest ranges of available software among its competitors.</p>
+        <p>The primary hardware designer of the C128 was Bil Herd, who had worked on the Plus/4. Other hardware engineers were Dave Haynie and Frank Palaia, while the IC design work was done by Dave DiOrio. The main Commodore system software was developed by Fred Bowen and Terry Ryan, while the CP/M subsystem was developed by Von Ertwine.</p>
+    </div>
+</div>
