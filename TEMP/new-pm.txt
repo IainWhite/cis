@@ -13,63 +13,21 @@ RPM Package Manager (RPM) (originally Red Hat Package Manager; now a recursive i
 Even though it was created for use in Red Hat Linux, RPM is now used in many GNU/Linux distributions. It has also been ported to some other operating systems, such as Novell NetWare (as of version 6.5 SP3) and IBM's AIX (as of version 4).
 ===
 
-PhpStorm
-JetBrains PhpStorm is a commercial, cross-platform [IDE] for [PHP] built on JetBrains' [IntelliJ IDEA] platform.
+TypeScript
+TypeScript is a free and open source programming language developed and maintained by [Microsoft]. It is a strict superset of [JavaScript], and adds optional static typing and class-based object-oriented programming to the language. Anders Hejlsberg, lead architect of [C#] and creator of [Delphi] and [Turbo Pascal], has worked on the development of TypeScript. TypeScript may be used to develop JavaScript applications for client-side or server-side ([Node.js]) execution.
 
-PhpStorm provides an editor for [PHP], [HTML] and [JavaScript] with on-the-fly code analysis, error prevention and automated refactorings for PHP and JavaScript code. PhpStorm's code completion supports PHP 5.3, 5.4, 5.5 &amp; 5.6 (modern and legacy projects), including generators, coroutines, the finally keyword, list in foreach, namespaces, closures, traits and short array syntax. It includes a full-fledged [SQL] editor with editable query results.
+TypeScript is designed for development of large applications and transcompiles to JavaScript. As TypeScript is a superset of JavaScript, any existing JavaScript programs are also valid TypeScript programs.
 
-PhpStorm is built on IntelliJ IDEA, which is written in [Java]. Users can extend the IDE by installing plugins created for the IntelliJ Platform or write their own plugins.
+TypeScript supports header files which can contain type information of existing JavaScript libraries, enabling other programs to use objects defined in the header files as if they were strongly typed TypeScript objects. There are third-party header files for popular libraries like [jQuery], [MongoDB], [D3.js]. TypeScript headers for the Node.js basic modules are also available, allowing development of Node.js programs within TypeScript.
 
-All features available in [WebStorm] are included in PhpStorm, which adds support for PHP and databases. WebStorm ships with pre-installed JavaScript plugins (such as for [Node.js]), which are available for PhpStorm as well at no cost.
+The TypeScript compiler is itself written in JavaScript, and licensed under the [Apache 2 License].
+
+TypeScript is included as a first-class programming language in Microsoft [Visual Studio] 2013 Update 2 and later, beside C# and other Microsoft languages. An official extension allows Visual Studio 2012 to support TypeScript as well.
 ===
 
-IntelliJ IDEA
-IntelliJ IDEA is a [Java] integrated development environment ([IDE]) for developing computer software. It is developed by JetBrains (formerly known as IntelliJ), and is available as an [Apache 2 Licensed] community edition, and in a proprietary commercial edition. IntelliJ IDEA is not based on [Eclipse] like MyEclipse or Oracle Enterprise Pack for Eclipse.
+Dart Programming Language
+Dart is an open-source Web programming language developed by [Google]. It was unveiled at the GOTO conference in Aarhus, Denmark, 10 - 12 October 2011. In order to run in mainstream browsers, Dart relies on a source-to-source compiler to [JavaScript]. According to the project site, Dart was "designed to be easy to write development tools for, well-suited to modern app development, and capable of high-performance implementations."
 
-The first version of IntelliJ IDEA was released in January 2001, and at the time was one of the first available Java IDE with advanced code navigation and code refactoring capabilities integrated.
-
-In a 2010 Infoworld report, IntelliJ received the highest test center score out of the four top Java programming tools: Eclipse, IntelliJ IDEA, [NetBeans] and Oracle JDeveloper.
-
-In December 2014, [Google] announced version 1.0 of [Android Studio], an open source IDE for Android apps, based on the open source community edition of IntelliJ IDEA. Other development environments based on IntelliJ include AppCode, [PhpStorm], PyCharm, RubyMine, [WebStorm], and MPS.
+Dart is a class-based, single-inheritance, object-oriented language with C-style syntax. It supports interfaces, abstract classes, reified generics, and optional typing. Static type annotations do not affect the runtime semantics of the code. Instead, the type annotations can provide documentation for tools like static checkers and dynamic runtime checks.
 ===
 
-WebStorm
-JetBrains WebStorm is a commercial [IDE] for [JavaScript], [CSS] &amp; [HTML] built on JetBrains' [IntelliJ IDEA] platform. WebStorm is a specialised version of [PhpStorm], offering a subset of its features. WebStorm ships with pre-installed JavaScript plugins (such as for [Node.js]), which are available for PhpStorm as well at no cost.
-
-WebStorm provides automatic code completion, on-the-fly code analysis, refactoring support and VCS integration. Supported languages are JavaScript, [CoffeeScript], [TypeScript] and [Dart].
-===
-
-Sublime Text
-Sublime Text is a cross-platform text and source code editor with a [Python] application programming interface (API). It natively supports many programming languages and markup languages, and its functionality can be extended by users with plugins, typically community-built and maintained under free-software licenses.
-
-Sublime Text is proprietary software. Despite users enhancing the software with free add-ons, all license revenue accrues to the primary developer.
-===
-
-Software Metric
-A software metric is a quantitative measure of a degree to which a software system or process possesses some property. Since quantitative measurements are essential in all sciences, there is a continuous effort by computer science practitioners and theoreticians to bring similar approaches to software development. The goal is obtaining objective, reproducible and quantifiable measurements, which may have numerous valuable applications in schedule and budget planning, cost estimation, quality assurance testing, software debugging, software performance optimisation, and optimal personnel task assignments.
-
-===
-
-BIOS - Basic Input/Output System
-The BIOS (an acronym for Basic Input/Output System and also known as the System BIOS, ROM BIOS or PC BIOS) is a type of firmware used during the booting process (power-on startup) on [IBM PC compatible] computers. The BIOS firmware is built into personal computers (PCs), and it is the first software they run when powered on. The name itself originates from the Basic Input/Output System used in the [CP/M] operating system in 1975. Originally proprietary to the [IBM PC], the BIOS has been reverse engineered by companies looking to create compatible systems and the interface of that original system serves as a de facto standard.
-
-The fundamental purposes of the BIOS are to initialise and test the system hardware components, and to load a boot loader or an operating system from a mass memory device. The BIOS additionally provides an abstraction layer for the hardware, i.e. a consistent way for application programs and operating systems to interact with the keyboard, display, and other input/output (I/O) devices. Variations in the system hardware are hidden by the BIOS from programs that use BIOS services instead of directly accessing the hardware. [MS-DOS] ([PC DOS]), which was the dominant PC operating system from the early 1980s until the mid 1990s, relied on BIOS services for disk, keyboard, and text display functions. [MS Windows NT], [Linux], and other protected mode operating systems in general ignore the abstraction layer provided by the BIOS and do not use it after loading, instead accessing the hardware components directly.
-
-Every BIOS implementation is specifically designed to work with a particular computer or motherboard model, by interfacing with various devices that make up the complementary system chipset. Originally, BIOS firmware was stored in a ROM chip on the PC motherboard; in modern computer systems, the BIOS contents are stored on flash memory so it can be rewritten without removing the chip from the motherboard. This allows easy updates to the BIOS firmware so new features can be added or bugs can be fixed, but it also creates a possibility for the computer to become infected with BIOS rootkits.
-===
-
-ROM - Read Only Memory
-Read Only Memory (ROM) is a class of storage medium used in computers and other electronic devices. Data stored in ROM can only be modified slowly, with difficulty, or not at all, so it is mainly used to distribute firmware (software that is very closely tied to specific hardware, and unlikely to need frequent updates).
-
-Strictly, read-only memory refers to memory that is hard-wired, such as diode matrix and the later mask ROM. Although discrete circuits can be altered (in principle), Integrated Circuits (ICs) cannot and are useless if the data is bad. The fact that such memory can never be changed is a large drawback; more recently, ROM commonly refers to memory that is read-only in normal operation, while reserving the fact of some possible way to change it.
-
-Other types of non-volatile memory such as erasable programmable read only memory (EPROM) and electrically erasable programmable read-only memory (EEPROM or Flash ROM) are sometimes referred to, in an abbreviated way, as "read only memory" (ROM); although these types of memory can be erased and re-programmed multiple times, writing to this memory takes longer and may require different procedures than reading the memory. When used in this less precise way, "ROM" indicates a non-volatile memory which serves functions typically provided by mask ROM, such as storage of program code and nonvolatile data.
-===
-
-RAM - Random Access Memory
-Random Access Memory (RAM) is a form of computer data storage. A random access memory device allows data items to be read and written in approximately the same amount of time, regardless of the order in which data items are accessed. In contrast, with other direct-access data storage media such as hard disks, CD-RWs, DVD-RWs and the older drum memory, the time required to read and write data items varies significantly depending on their physical locations on the recording medium, due to mechanical limitations such as media rotation speeds and arm movement delays.
-
-Today, random access memory takes the form of integrated circuits. RAM is normally associated with volatile types of memory (such as DRAM memory modules), where stored information is lost if power is removed, although many efforts have been made to develop non-volatile RAM chips. Other types of non-volatile memory exist that allow random access for read operations, but either do not allow write operations or have limitations on them. These include most types of ROM and a type of flash memory called NOR-Flash.
-
-Integrated-circuit RAM chips came into the market in the late 1960s, with the first commercially available DRAM chip, the Intel 1103, introduced in October 1970.
-===

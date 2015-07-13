@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('PHPStorm'); ?>
+        <p>JetBrains <strong>PHPStorm</strong> is a commercial, cross-platform  <?php echo $this->stencil->addLink('IDE', 'ITS'); ?> for  <?php echo $this->stencil->addLink('PHP', 'L'); ?> built on JetBrains' <?php echo $this->stencil->addLink('IntelliJ IDEA', 'ITS'); ?> platform.</p>
+        <p>PhpStorm provides an editor for <?php echo $this->stencil->addLink('PHP', 'L'); ?>, <?php echo $this->stencil->addLink('HTML', 'WD'); ?> and <?php echo $this->stencil->addLink('JavaScript', 'L'); ?> with on-the-fly code analysis, error prevention and automated refactorings for PHP and JavaScript code. PhpStorm's code completion supports PHP 5.3, 5.4, 5.5 &amp; 5.6 (modern and legacy projects), including generators, coroutines, the finally keyword, list in foreach, namespaces, closures, traits and short array syntax. It includes a full-fledged <?php echo $this->stencil->addLink('SQL', 'DB'); ?> editor with editable query results.</p>
+        <p>PhpStorm is built on IntelliJ IDEA, which is written in <?php echo $this->stencil->addLink('Java', 'L'); ?>. Users can extend the IDE by installing plugins created for the IntelliJ Platform or write their own plugins.</p>
+        <p>All features available in <?php echo $this->stencil->addLink('WebStorm', 'ITS'); ?> are included in PhpStorm, which adds support for PHP and databases. WebStorm ships with pre-installed JavaScript plugins (such as for <?php echo $this->stencil->addLink('Node.js', 'JS'); ?>), which are available for PhpStorm as well at no cost.</p>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('IntelliJ IDEA'); ?>
+        <p><strong>IntelliJ IDEA</strong> is a <?php echo $this->stencil->addLink('Java', 'L'); ?> integrated development environment (<?php echo $this->stencil->addLink('IDE', 'ITS'); ?>) for developing computer software. It is developed by JetBrains (formerly known as IntelliJ), and is available as an <?php echo $this->stencil->addLink('Apache 2 Licensed', 'LIC'); ?> community edition, and in a proprietary commercial edition. IntelliJ IDEA is not based on <?php echo $this->stencil->addLink('Eclipse', 'ITS'); ?> like MyEclipse or Oracle Enterprise Pack for Eclipse.</p>
+        <p>The first version of IntelliJ IDEA was released in January 2001, and at the time was one of the first available Java IDE with advanced code navigation and code refactoring capabilities integrated.</p>
+        <p>In a 2010 Infoworld report, IntelliJ received the highest test center score out of the four top Java programming tools: Eclipse, IntelliJ IDEA, <?php echo $this->stencil->addLink('NetBeans', 'ITS'); ?> and Oracle JDeveloper.</p>
+        <p>In December 2014, <?php echo $this->stencil->addLink('Google', 'C'); ?> announced version 1.0 of <?php echo $this->stencil->addLink('Android Studio', 'ITS'); ?>, an open source IDE for Android apps, based on the open source community edition of IntelliJ IDEA. Other development environments based on IntelliJ include AppCode, <?php echo $this->stencil->addLink('PHPStorm', 'ITS'); ?>, PyCharm, RubyMine, <?php echo $this->stencil->addLink('WebStorm', 'ITS'); ?>, and MPS.</p>
+    </div>
+</div>
