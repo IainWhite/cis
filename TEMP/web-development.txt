@@ -100,14 +100,7 @@ web-development/vpn
 web-development/web-2-0
 web-development/web-design
 web-development/web-development-books
-web-development/web-servers/apache
-web-development/web-servers/apache-tomcat
-web-development/web-servers/iis
 web-development/web-servers/nginx
-web-development/website/slashdot
-web-development/websites/ebay
-web-development/websites/gmail
 web-development/websites/google-maps
 web-development/wiki
 web-development/world-wide-web
-web-development/worldpay

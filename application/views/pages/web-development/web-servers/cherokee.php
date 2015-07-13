@@ -5,7 +5,6 @@
         <p>It is a lightweight, high-performance web server / reverse proxy licensed under the GNU General Public License.</p>
         <p>Its goal is to be fast and fully functional yet still light. Major features of Cherokee include a graphical administration interface named cherokee-admin, and a modular light-weight design.</p>
         <br />
-        <p><strong>Official Cherokee Web Server website:</strong> {'cherokee-project.com'|link_urls:'x':'http://cherokee-project.com'}</p>
         <p><strong>Official Cherokee Web Server  website:<?php echo $this->stencil->addExternalLink('cherokee-project.com', 'http://cherokee-project.com/'); ?></p>
     </div>
 </div>
