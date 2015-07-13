@@ -11,6 +11,6 @@
         <p>The name was widely believed to be a pun on "<em>A Patchy Server</em>" (since it was a set of software patches), but this is erroneous.</p>
         <p>Official documentation used to give this very explanation of the name, but in a 2000 interview, Brian Behlendorf, one of the creators of Apache, set the record straight.</p>
         <br />
-        <p><strong>Official Apache Web Server  website:<?php echo $this->stencil->addExternalLink('httpd.apache.org', 'https://httpd.apache.org/'); ?></p>
+        <p><strong>Official Apache Web Server website:<?php echo $this->stencil->addExternalLink('httpd.apache.org', 'https://httpd.apache.org/'); ?></p>
     </div>
 </div>
