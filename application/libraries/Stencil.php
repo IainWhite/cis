@@ -807,20 +807,31 @@ class Stencil {
                 break;
             case 'IE':
                 $path = 'web-development/browsers/ie';
+                break;
+            case 'XML':
+                $path = 'web-development/xml';
+                break;
             case 'WIN':
                 $path = 'it/os/windows';
+                break;
             case 'WIS':
                 $path = 'it/os/windows-server';
+                break;
             case 'OSX':
                 $path = 'it/os/os-x';
+                break;
             case 'MOS':
                 $path = 'it/os/mac-os';
+                break;
             case 'MSS':
                 $path = 'it/os/os-x-server';
+                break;
             case 'LIC':
                 $path = 'it/licenses';
+                break;
             case 'LIN':
                 $path = 'it/os/linux';
+                break;
         }
         if ($full) {
             $path = base_url() . $path;
