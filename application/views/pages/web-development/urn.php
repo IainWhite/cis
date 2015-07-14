@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('URN - Uniform Resource Name'); ?>
+        <p>A <strong>Uniform Resource Name (URN)</strong> is the historical name for a <strong>Uniform Resource Identifier (<?php echo $this->stencil->addLink('URI', 'WD'); ?>)</strong> that uses the URN scheme. A URI is a string of characters used to identify a name of a web resource. Such identification enables interaction with representations of the web resource over a network, typically the <?php echo $this->stencil->addLink('World Wide Web', 'WD'); ?>, using specific protocols.</p>
+        <p>The URN concept was formally defined in 1997, and in 2005, to avoid confusion with the term "<?php echo $this->stencil->addLink('URL', 'WD'); ?>", the use of the terms URL and URN has been deprecated in favor of the less-restrictive "URI". The original conception intended to be part of a three-part information architecture for the Internet, but this conception also underwent some changes.</p>
+        <p>The need of standard persistent URL for "URN resolution" (the need for URN resolvers) creates the false perception that only URLs are necessary. The URI term adoption and URL technical view has put URNs into some oblivion. The later revival of the use of URNs has been summarised as a manifest: "<em>Give Things Names, Not Just Addresses</em>".</p>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('URI - Uniform Resource Identifier'); ?>
+        <p>A <strong>Uniform Resource Identifier (URI)</strong> is a string of characters used to identify a name of a resource. Such identification enables interaction with representations of the resource over a network, typically the <?php echo $this->stencil->addLink('World Wide Web', 'WD'); ?>, using specific protocols. Schemes specifying a concrete syntax and associated protocols define each URI. The most common form of URI is the <strong>Uniform Resource Locator (<?php echo $this->stencil->addLink('URL', 'WD'); ?>)</strong>, frequently referred to informally as a web address. More rarely seen in usage is the <strong>Uniform Resource Name (<?php echo $this->stencil->addLink('URN', 'WD'); ?>)</strong>, which was designed to complement URLs by providing a mechanism for the identification of resources in particular namespaces.</p>
+
+        <h2>The relationship between URIs, URLs, and URNs</h2>
+        <p>A Uniform Resource Name (<?php echo $this->stencil->addLink('URN', 'WD'); ?>) functions like a person's name, while a Uniform Resource Locator (<?php echo $this->stencil->addLink('URL', 'WD'); ?>) resembles that person's street address. In other words: the URN defines an item's identity, while the URL provides a method for finding it.</p>
+
+        <h3>URLs</h3>
+        <p>A <?php echo $this->stencil->addLink('URL', 'WD'); ?> is a URI that, in addition to identifying a web resource, specifies the means of acting upon or obtaining the representation, specifying both its primary access mechanism and network location. For example, the URL <code>http://example.org/wiki/Main_Page</code> refers to a resource identified as <code>/wiki/Main_Page</code> whose representation, in the form of HTML and related code, is obtainable via HyperText Transfer Protocol (<?php echo $this->stencil->addLink('HTTP', 'IPA'); ?>) from a network host whose domain name is <code>example.org</code>.</p>
+
+        <h3>URNs</h3>
+        <p>A <?php echo $this->stencil->addLink('URN', 'WD'); ?> is a URI that identifies a resource by name in a particular namespace. A URN can be used to talk about a resource without implying its location or how to access it.</p>
+        <p>The <strong>International Standard Book Number (ISBN)</strong> system for uniquely identifying books provides a typical example of the use of URNs. <code>ISBN 0-486-27557-4</code> cites unambiguously a specific edition of Shakespeare's play Romeo and Juliet. The URN for that edition would be <code>urn:isbn:0-486-27557-4</code>. To gain access to this object and read the book, its location is needed, for which a URL would have to be specified.</p>
+
+        <h3>Conceptual Distinctions</h3>
+        <p>Technical publications, especially standards produced by the <?php echo $this->stencil->addLink('IETF', 'C'); ?> and by the <?php echo $this->stencil->addLink('W3C', 'C'); ?>, normally reflect a view outlined in a W3C Recommendation of 2001, which acknowledges the precedence of the term URI rather than endorsing any formal subdivision into URL and URN: "URL is a useful but informal concept: a URL is a type of URI that identifies a resource via a representation of its primary access mechanism (e.g., its network "location"), rather than by some other attributes it may have". A URL is simply a URI that happens to point to a physical resource over a network.</p>
+        <p>However, in non-technical contexts and in software for the <?php echo $this->stencil->addLink('World Wide Web', 'WD'); ?>, the term URL remains widely used. Additionally, the term web address (which has no formal definition) often occurs in non-technical publications as a synonym for a URI that uses the 'HTTP' or 'HTTPS' scheme. Such assumptions can lead to confusion, for example when viewing <?php echo $this->stencil->addLink('XML', 'WD'); ?> source: the normal means of identifying unique XML vocabularies within an XML document is to declare XML namespaces whose names are URIs that begin with 'HTTP' and use the syntax of a genuine domain name followed by a file path, but which have no need to point to any specific file locations that actually exist.</p>
+
+    </div>
+</div>
