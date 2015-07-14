@@ -1,9 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('XDR (XML-Data Reduced)'); ?>
-        <p><strong>XML-Data Reduced (XDR)</strong> was a schema language for specifying and validating <?php echo $this->stencil->addLink('XML', 'WD'); ?> documents.</p>
-        <p>In January 1998, <?php echo $this->stencil->addLink('Microsoft', 'C'); ?>, the <strong>University of Edinburgh</strong> and others submitted a proposal for an XML schema language called XML-Data to the World Wide Web Consortium (<?php echo $this->stencil->addLink('W3C', 'C'); ?>). XML-Data Reduced was a subset of XML-Data, with some corrections and amendments submitted in July 1998.</p>
-        <p>The XML Schema (W3C) effort in the World Wide Web Consortium (W3C) received several other proposals, and while the final result has some similarities to the XML-Data proposal, it is significantly different. XDR was implemented in SQL Server 2000 and BizTalk Server 2000. Once the XML Schema Definition was finalized in 2001, Microsoft products and tools added support for it, and XDR was gradually phased out.</p>
-        <p>Microsoft XML Core Services provided XDR schema support from versions 2.0 up to but not including version 6.0.</p>
+        <?php echo $this->stencil->setHeadline('XSD (XML Schema Definition)'); ?>
+        <p><strong>XSD (XML Schema Definition)</strong>, a recommendation of the World Wide Web Consortium (<?php echo $this->stencil->addLink('W3c', 'C'); ?>), specifies how to formally describe the elements in an <strong>Extensible Markup Language (<?php echo $this->stencil->addLink('XML', 'WD'); ?>)</strong> document. It can be used by programmers to verify each piece of item content in a document. They can check if it adheres to the description of the element it is placed in.</p>
+        <p>Like all XML schema languages, XSD can be used to express a set of rules to which an XML document must conform in order to be considered "valid" according to that schema. However, unlike most other schema languages, XSD was also designed with the intent that determination of a document's validity would produce a collection of information adhering to specific data types. Such a post validation infoset can be useful in the development of XML document processing software.</p>
     </div>
 </div>

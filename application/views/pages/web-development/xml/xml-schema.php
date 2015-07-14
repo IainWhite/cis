@@ -1,9 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('XDR (XML-Data Reduced)'); ?>
-        <p><strong>XML-Data Reduced (XDR)</strong> was a schema language for specifying and validating <?php echo $this->stencil->addLink('XML', 'WD'); ?> documents.</p>
-        <p>In January 1998, <?php echo $this->stencil->addLink('Microsoft', 'C'); ?>, the <strong>University of Edinburgh</strong> and others submitted a proposal for an XML schema language called XML-Data to the World Wide Web Consortium (<?php echo $this->stencil->addLink('W3C', 'C'); ?>). XML-Data Reduced was a subset of XML-Data, with some corrections and amendments submitted in July 1998.</p>
-        <p>The XML Schema (W3C) effort in the World Wide Web Consortium (W3C) received several other proposals, and while the final result has some similarities to the XML-Data proposal, it is significantly different. XDR was implemented in SQL Server 2000 and BizTalk Server 2000. Once the XML Schema Definition was finalized in 2001, Microsoft products and tools added support for it, and XDR was gradually phased out.</p>
-        <p>Microsoft XML Core Services provided XDR schema support from versions 2.0 up to but not including version 6.0.</p>
+        <?php echo $this->stencil->setHeadline('XML Schema'); ?>
+        <p>An <strong>XML schema</strong> is a description of a type of <?php echo $this->stencil->addLink('XML', 'WD'); ?> document, typically expressed in terms of constraints on the structure and content of documents of that type, above and beyond the basic syntactical constraints imposed by XML itself. These constraints are generally expressed using some combination of grammatical rules governing the order of elements, Boolean predicates that the content must satisfy, data types governing the content of elements and attributes, and more specialised rules such as uniqueness and referential integrity constraints.</p>
+        <p>There are languages developed specifically to express XML schemas. The <strong>Document Type Definition (<?php echo $this->stencil->addLink('DTD', 'XML'); ?>)</strong> language, which is native to the XML specification, is a schema language that is of relatively limited capability, but that also has other uses in XML aside from the expression of schemas. Two more expressive XML schema languages in widespread use are XML Schema (with a capital S) and RELAX NG.</p>
+        <p>The mechanism for associating an XML document with a schema varies according to the schema language. The association may be achieved via markup within the XML document itself, or via some external means.</p>
     </div>
 </div>

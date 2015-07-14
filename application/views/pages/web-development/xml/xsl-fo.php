@@ -1,9 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('XDR (XML-Data Reduced)'); ?>
-        <p><strong>XML-Data Reduced (XDR)</strong> was a schema language for specifying and validating <?php echo $this->stencil->addLink('XML', 'WD'); ?> documents.</p>
-        <p>In January 1998, <?php echo $this->stencil->addLink('Microsoft', 'C'); ?>, the <strong>University of Edinburgh</strong> and others submitted a proposal for an XML schema language called XML-Data to the World Wide Web Consortium (<?php echo $this->stencil->addLink('W3C', 'C'); ?>). XML-Data Reduced was a subset of XML-Data, with some corrections and amendments submitted in July 1998.</p>
-        <p>The XML Schema (W3C) effort in the World Wide Web Consortium (W3C) received several other proposals, and while the final result has some similarities to the XML-Data proposal, it is significantly different. XDR was implemented in SQL Server 2000 and BizTalk Server 2000. Once the XML Schema Definition was finalized in 2001, Microsoft products and tools added support for it, and XDR was gradually phased out.</p>
-        <p>Microsoft XML Core Services provided XDR schema support from versions 2.0 up to but not including version 6.0.</p>
+        <?php echo $this->stencil->setHeadline('XSL-FO (XSL Formatting Objects)'); ?>
+        <p><strong>XSL Formatting Objects</strong>, or <strong>XSL-FO</strong>, is a markup language for <?php echo $this->stencil->addLink('XML', 'WD'); ?> document formatting which is most often used to generate PDFs. XSL-FO is part of <?php echo $this->stencil->addLink('XSL', 'XML'); ?> (Extensible Stylesheet Language), a set of <?php echo $this->stencil->addLink('W3C', 'C'); ?> technologies designed for the transformation and formatting of XML data. The other parts of XSL are <?php echo $this->stencil->addLink('XSLT', 'XML'); ?> and <?php echo $this->stencil->addLink('XPath', 'XML'); ?>. Version 1.1 of XSL-FO was published in 2006.</p>
+        <p>XSL-FO was discontinued: the last update for the Working Draft was in January 2012, and its Working Group closed in November 2013.</p>
     </div>
 </div>

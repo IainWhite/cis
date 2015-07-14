@@ -1,9 +1,6 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('XDR (XML-Data Reduced)'); ?>
-        <p><strong>XML-Data Reduced (XDR)</strong> was a schema language for specifying and validating <?php echo $this->stencil->addLink('XML', 'WD'); ?> documents.</p>
-        <p>In January 1998, <?php echo $this->stencil->addLink('Microsoft', 'C'); ?>, the <strong>University of Edinburgh</strong> and others submitted a proposal for an XML schema language called XML-Data to the World Wide Web Consortium (<?php echo $this->stencil->addLink('W3C', 'C'); ?>). XML-Data Reduced was a subset of XML-Data, with some corrections and amendments submitted in July 1998.</p>
-        <p>The XML Schema (W3C) effort in the World Wide Web Consortium (W3C) received several other proposals, and while the final result has some similarities to the XML-Data proposal, it is significantly different. XDR was implemented in SQL Server 2000 and BizTalk Server 2000. Once the XML Schema Definition was finalized in 2001, Microsoft products and tools added support for it, and XDR was gradually phased out.</p>
-        <p>Microsoft XML Core Services provided XDR schema support from versions 2.0 up to but not including version 6.0.</p>
+        <?php echo $this->stencil->setHeadline('XPath'); ?>
+        <p><strong>XPath</strong>, the XML Path Language, is a query language for selecting nodes from an <?php echo $this->stencil->addLink('XML', 'WD'); ?> document. In addition, XPath may be used to compute values (e.g., strings, numbers, or Boolean values) from the content of an XML document. XPath was defined by the World Wide Web Consortium (<?php echo $this->stencil->addLink('W3C', 'C'); ?>).</p>
     </div>
 </div>

@@ -1,11 +1,9 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('Active Desktop'); ?>
-        <p><strong>Active Desktop</strong> was a feature of <?php echo $this->stencil->addLink('Microsoft Internet Explorers 4', 'IE'); ?>'s optional Windows Desktop Update that allows the user to add <?php echo $this->stencil->addLink('HTML', 'WD'); ?> content to the desktop, along with some other features.</p>
-        <p>This function was intended to be installed on the then current <?php echo $this->stencil->addLink('Windows 95', 'OS'); ?> operating system.</p>
-        <p>It was also included in <?php echo $this->stencil->addLink('Windows 98', 'OS'); ?> and later Windows operating systems until <?php echo $this->stencil->addLink('Windows Vista', 'OS'); ?>, where the feature was discontinued. This corresponded to version Internet Explorer 4.0 to 6.x, but not <?php echo $this->stencil->addLink('Internet Explorer 7', 'IE'); ?>.</p>
-        <p>Users can add HTML both in place of the regular wallpaper and as independent re-sizable desktop items.</p>
-        <p>Items available on-line can be regularly updated and synchronized so users can stay updated without visiting the website in their browser.</p>
-        <p>Active Desktop works much like desktop widget technology in that it allows users to place customized information on their desktop.</p>
+        <?php echo $this->stencil->setHeadline('XDR (XML-Data Reduced)'); ?>
+        <p><strong>XML-Data Reduced (XDR)</strong> was a schema language for specifying and validating <?php echo $this->stencil->addLink('XML', 'WD'); ?> documents.</p>
+        <p>In January 1998, <?php echo $this->stencil->addLink('Microsoft', 'C'); ?>, the <strong>University of Edinburgh</strong> and others submitted a proposal for an XML schema language called XML-Data to the World Wide Web Consortium (<?php echo $this->stencil->addLink('W3C', 'C'); ?>). XML-Data Reduced was a subset of XML-Data, with some corrections and amendments submitted in July 1998.</p>
+        <p>The XML Schema (W3C) effort in the World Wide Web Consortium (W3C) received several other proposals, and while the final result has some similarities to the XML-Data proposal, it is significantly different. XDR was implemented in SQL Server 2000 and BizTalk Server 2000. Once the XML Schema Definition was finalized in 2001, Microsoft products and tools added support for it, and XDR was gradually phased out.</p>
+        <p>Microsoft XML Core Services provided XDR schema support from versions 2.0 up to but not including version 6.0.</p>
     </div>
 </div>
