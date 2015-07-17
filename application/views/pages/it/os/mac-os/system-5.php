@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('System 5'); ?>
+        <p><strong>System Software 5</strong> (also referred to as "<strong>System 5</strong>") from <?php echo $this->stencil->addLink('Apple', 'C'); ?> added MultiFinder, an extension which lets the system run several programs at once. The system uses a cooperative multitasking model, meaning that time was given to the background applications only when the running application yielded control. A change in system functions that applications were already calling to handle events makes many existing applications share time automatically. Users can also choose not to use MultiFinder, thereby sticking with using a single application at a time as in previous releases of the system software.</p>
+        <p>System Software 5 is the first <?php echo $this->stencil->addLink('Macintosh', 'ITH'); ?> operating system to be given a unified "Macintosh System Software" version number, as opposed to the numbers used for the System and Finder files. It was available for a very short time and only in some countries, including the United States, Canada and some European countries.</p>
+    </div>
+</div>

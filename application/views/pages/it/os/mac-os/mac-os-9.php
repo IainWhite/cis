@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Mac OS 9'); ?>
+        <p><strong>Mac OS 9</strong> is the ninth and final major release of <?php echo $this->stencil->addLink('Apple', 'C'); ?>'s <?php echo $this->stencil->addLink('Classic Mac OS', 'OS'); ?> operating system. Introduced on 23 October 1999, Apple positioned it as "<em>The Best Internet Operating System Ever</em>", highlighting Sherlock 2's Internet search capabilities, integration with Apple's free online services known as iTools and improved Open Transport networking. While Mac OS 9 lacks protected memory and full pre-emptive multitasking, lasting improvements include the introduction of an automated Software Update engine and support for multiple users.</p>
+        <p>Apple discontinued development of Mac OS 9 in 2001, transitioning all future development to <?php echo $this->stencil->addLink('OS X', 'OS'); ?>. Since that time, no updates have been released. The final updates to Mac OS 9 addressed compatibility issues with OS X while running in the Classic Environment and compatibility with Carbon applications. At the 2002 World Wide Developers Conference, <?php echo $this->stencil->addLink('Steve Jobs', 'P'); ?> began his keynote address by staging a mock funeral for OS 9.</p>
+    </div>
+</div>

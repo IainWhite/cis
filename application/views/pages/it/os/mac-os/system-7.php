@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('System 7'); ?>
+        <p><strong>System 7</strong> (codenamed "<strong><em>Big Bang</em></strong>" and sometimes retroactively called <strong>Mac OS 7</strong>) is a single-user graphical user interface based operating system for <?php echo $this->stencil->addLink('Macintosh', 'ITH'); ?> computers. It was introduced on 13 May 1991, by <?php echo $this->stencil->addLink('Apple Computer', 'C'); ?>. It succeeded <?php echo $this->stencil->addLink('System 6', 'MAC'); ?>, and was the main Macintosh operating system until it was succeeded by <?php echo $this->stencil->addLink('Mac OS 8', 'MAC'); ?> in 1997. Features added with the System 7 release included virtual memory, personal file sharing, QuickTime, QuickDraw 3D, and an improved user interface.</p>
+        <p>"System 7" is often used generically to refer to all 7.x versions. With the release of version 7.6 in 1997, Apple officially renamed the operating system "<strong>Mac OS</strong>", a name which had first appeared on System 7.5.1's boot screen. System 7 was developed for Macs that used the <?php echo $this->stencil->addLink('Motorola 680x0', 'CPU'); ?> line of processors, but was ported to the <?php echo $this->stencil->addLink('PowerPC', 'CPU'); ?> after Apple adopted the new processor.</p>
+    </div>
+</div>
