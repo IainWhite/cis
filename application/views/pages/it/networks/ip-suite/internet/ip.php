@@ -8,6 +8,6 @@
         <p>It also defines addressing methods that are used to label the datagram with source and destination information.</p>
         <p>Historically, IP was the connectionless datagram service in the original Transmission Control Program introduced by Vint Cerf and Bob Kahn in 1974; the other being the connection-oriented Transmission Control Protocol (<?php echo $this->stencil->addLink('TCP', 'IPT'); ?>).</p>
         <p>The Internet protocol suite is therefore often referred to as <?php echo $this->stencil->addLink('TCP/IP', 'ITN'); ?>.</p>
-        <p>The first major version of IP, Internet Protocol Version 4 (IPv4), is the dominant protocol of the Internet. Its successor is Internet Protocol Version 6 (IPv6).</p>
+        <p>The first major version of IP, <strong>Internet Protocol Version 4 (<?php echo $this->stencil->addLink('IPV4', 'IP'); ?>)</strong>, is the dominant protocol of the Internet. Its successor is <strong>Internet Protocol Version 6 (<?php echo $this->stencil->addLink('IPv6', 'IP'); ?>)</strong>.</p>
      </div>
 </div>

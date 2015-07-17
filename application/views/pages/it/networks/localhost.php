@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Localhost'); ?>
+        <p>In computer networking, <strong>localhost</strong> is a <?php echo $this->stencil->addLink('hostname', 'ITN'); ?> that means this computer and may be used to access the computer's own network services via its loopback network interface. Using the loopback interface bypasses local network interface hardware. The local loopback mechanism may be useful for testing software during development, independently of any networking configurations. For example, if a computer has been configured to provide a website, directing a locally running web browser to <code>http://localhost</code> may display its home page.</p>
+        <p>On most computer systems, "localhost" resolves to the <?php echo $this->stencil->addLink('IP address', 'IP'); ?> <code>127.0.0.1</code>, which is the most commonly used <?php echo $this->stencil->addLink('IPv4', 'IP'); ?> loopback address, and to the <?php echo $this->stencil->addLink('IPv6', 'IP'); ?> loopback address <code>::1</code>. The "localhost" name is also a reserved <?php echo $this->stencil->addLink('top-level domain name', 'ITN'); ?>, set aside to avoid confusion with the narrower definition as a hostname. The <?php echo $this->stencil->addLink('IETF', 'C'); ?> standards restrict domain name registrars from assigning the "localhost" name in their normal registration procedures, such as for second-level domains; for example, registering "<code>localhost.com</code>" is not allowed.</p>
+        <p>IPv4 network standards reserve the entire <code>127.0.0.0/8</code> address block for loopback purposes. That means any packet sent to one of those 16,777,214 addresses (<code>127.0.0.1</code> through <code>127.255.255.254</code>) will be looped back. IPv6 has just a single address, <code>::1</code>.</p>
+        <p>The resolution of the name localhost into one or more <?php echo $this->stencil->addLink('IP addresses', 'IP'); ?> is configured by the following lines in the operating system's hosts file:</p>
+        <pre>
+        127.0.0.1    localhost
+        ::1          localhost
+        </pre>
+        <p>Localhost may also be mapped to other IPv4 loopback addresses, and additional synonyms may be assigned to any loopback address.</p>
+        <p>The processing of any packets sent to a loopback address is implemented in the link layer of the <?php echo $this->stencil->addLink('TCP/IP', 'ITN'); ?> stack. Such packets are never delivered to any <strong>network interface controller (NIC)</strong> or device driver, which permits testing of software in the absence of any hardware network interfaces.</p>
+        <p>Like any other packets traversing the TCP/IP stack, looped-back packets convey the IP address and port number they were addressed to. Thus, the services that ultimately receive them can respond according to the specified loopback destination. For example, an <?php echo $this->stencil->addLink('HTTP', 'IPA'); ?> service could route packets addressed to <code>127.0.0.99:80</code> and <code>127.0.0.100:80</code> to different Web servers, or to a single server that would return different web pages. To simplify such testing, the hosts file can be modified to provide appropriate aliases for each such address.</p>
+    </div>
+</div>
