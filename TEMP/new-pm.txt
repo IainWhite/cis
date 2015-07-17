@@ -1,18 +1,4 @@
 
-Yum - Yellowdog Updater, Modified
-The Yellowdog Updater, Modified (yum) is an open-source command-line package-management utility for [Linux] operating systems using the [RPM] Package Manager. Though yum has a command-line interface, several other tools provide graphical user interfaces to yum functionality.
-
-Yum allows automatic updates, package and dependency management, on RPM-based distributions. Like the Advanced Packaging Tool (APT) from [Debian], yum works with software repositories (collections of packages), which can be accessed locally or over a network connection.
-
-Under the hood, yum depends on RPM, which is a packaging standard for digital distribution of software, which automatically uses hashes and digisigs to verify the authorship and integrity of said software; unlike some app stores, which serve a similar function, neither yum nor RPM provide built-in support for proprietary restrictions on copying of packages by endusers. Yum is implemented as libraries in the Python programming language, with a small set of programs that provide a command-line interface. GUI-based wrappers such as Yum Extender (yumex) also exist. A rewrite of yum based on libsolv named DNF is currently being developed and expected to replace yum as the default package manager in Fedora 22.
-===
-
-RPM Package Manager 
-RPM Package Manager (RPM) (originally Red Hat Package Manager; now a recursive initialism) is a package management system. The name RPM variously refers to the .rpm file format, files in this format, software packaged in such files, and the package manager itself. RPM was intended primarily for Linux distributions; the file format is the baseline package format of the Linux Standard Base.
-
-Even though it was created for use in Red Hat Linux, RPM is now used in many GNU/Linux distributions. It has also been ported to some other operating systems, such as Novell NetWare (as of version 6.5 SP3) and IBM's AIX (as of version 4).
-===
-
 IP Address
 An Internet Protocol address (IP address) is a numerical label assigned to each device (e.g. computer, printer) participating in a computer network that uses the [Internet Protocol] for communication. An IP address serves two principal functions: host or network interface identification and location addressing. Its role has been characterised as follows: "A name indicates what we seek. An address indicates where it is. A route indicates how to get there."
 
