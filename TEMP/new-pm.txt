@@ -11,18 +11,6 @@ The Regional Internet Registry system evolved over time, eventually dividing the
 - Réseaux IP Européens Network Coordination Centre (RIPE NCC) for Europe, Russia, the Middle East, and Central Asia
 ===
 
-Domain Name
-A domain name is an identification string that defines a realm of administrative autonomy, authority or control within the [Internet]. Domain names are formed by the rules and procedures of the Domain Name System ([DNS]). Any name registered in the DNS is a domain name.
-
-Domain names are used in various networking contexts and application specific naming and addressing purposes. In general, a domain name represents an Internet Protocol ([IP]) resource, such as a personal computer used to access the Internet, a server computer hosting a web site, or the web site itself or any other service communicated via the Internet. In 2014, the number of active domains reached 271 million.
-
-Domain names are organised in subordinate levels (subdomains) of the DNS root domain, which is nameless. The first-level set of domain names are the [top-level domains] (TLDs), including the generic top-level domains (gTLDs), such as the prominent domains com, info, net, edu, and org, and the country code top-level domains (ccTLDs). Below these top-level domains in the DNS hierarchy are the second-level and third-level domain names that are typically open for reservation by end-users who wish to connect local area networks to the Internet, create other publicly accessible Internet resources or run web sites. The registration of these domain names is usually administered by domain name registrars who sell their services to the public.
-
-A [fully qualified domain name] (FQDN) is a domain name that is completely specified in the hierarchy of the DNS, having no parts omitted.
-
-Labels in the Domain Name System are case-insensitive, and may therefore be written in any desired capitalisation method, but most commonly domain names are written in lowercase in technical contexts.
-===
-
 Octal Numeral System
 The octal numeral system, or oct for short, is the base-8 number system, and uses the digits 0 to 7. Octal numerals can be made from binary numerals by grouping consecutive binary digits into groups of three (starting from the right). For example, the binary representation for decimal 74 is 1001010, which can be grouped into (00)1 001 010 – so the octal representation is 112.
 ===
@@ -57,7 +45,6 @@ In computing and telecommunication, binary codes are used for various methods of
 
 A bit string, interpreted as a binary number, can be translated into a decimal number. For example, the lower case a, if represented by the bit string 01100001 (as it is in the standard [ASCII code]), can also be represented as the decimal number 97.
 ===
-
 
 
 
