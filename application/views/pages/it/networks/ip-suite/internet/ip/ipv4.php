@@ -10,7 +10,7 @@
         <p>IPv4 reserves special address blocks for private networks (~18 million addresses) and multicast addresses (~270 million addresses).</p>
 
         <h2>Address Representations</h2>
-        <p>IPv4 addresses may be represented in any notation expressing a 32-bit integer value. They are most often written in the dot-decimal notation, which consists of four octets of the address expressed individually in decimal numbers and separated by periods. The CIDR notation standard combines the address with its routing prefix in a compact format, in which the address is followed by a slash character (<code>/</code>) and the count of consecutive 1 bits in the routing prefix (subnet mask).</p>
+        <p>IPv4 addresses may be represented in any notation expressing a 32-bit integer value. They are most often written in the dot-decimal notation, which consists of four <?php echo $this->stencil->addLink('octets', 'IT'); ?> of the address expressed individually in decimal numbers and separated by periods. The CIDR notation standard combines the address with its routing prefix in a compact format, in which the address is followed by a slash character (<code>/</code>) and the count of consecutive 1 bits in the routing prefix (subnet mask).</p>
         <p>For example, the quad-dotted IP address <code>192.0.2.235</code> represents the 32-bit decimal number 3221226219, which in hexadecimal format is <code>0xC00002EB</code>. This may also be expressed in dotted hex format as <code>0xC0.0x00.0x02.0xEB</code>, or with octal byte values as <code>0300.0000.0002.0353</code>.</p>
 
         <h2>Allocation</h2>

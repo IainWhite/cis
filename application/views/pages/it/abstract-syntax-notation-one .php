@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Abstract Syntax Notation One (ASN.1)'); ?>
+        <p><strong>Abstract Syntax Notation One (ASN.1)</strong> is a standard and notation that describes rules and structures for representing, encoding, transmitting, and decoding data in telecommunications and computer networking. The formal rules enable representation of objects that are independent of machine specific encoding techniques. Formal notation makes it possible to automate the task of validating whether a specific instance of data representation abides by the specifications. In other words, software tools can be used for the validation.</p>
+        <p>ASN.1 is a joint standard of the <strong>International Organisation for Standardisation (<?php echo $this->stencil->addLink('ISO', 'C'); ?>)</strong>, <strong>International Electrotechnical Commission (<?php echo $this->stencil->addLink('IEC', 'C'); ?>)</strong>, and <strong>International Telecommunication Union Telecommunication Standardisation Sector ITU-T</strong>, originally defined in 1984 as part of CCITT X.409:1984. ASN.1 moved to its own standard, X.208, in 1988 due to wide applicability. The substantially revised 1995 version is covered by the X.680 series. The latest available version is dated 2008, and is backward compatible with the 1995 version.</p>
+    </div>
+</div>
