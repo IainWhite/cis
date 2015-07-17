@@ -13,31 +13,210 @@ RPM Package Manager (RPM) (originally Red Hat Package Manager; now a recursive i
 Even though it was created for use in Red Hat Linux, RPM is now used in many GNU/Linux distributions. It has also been ported to some other operating systems, such as Novell NetWare (as of version 6.5 SP3) and IBM's AIX (as of version 4).
 ===
 
-XSL - Extensible Stylesheet Language
-Extensible Stylesheet Language (XSL) is used to refer to a family of languages used to transform and render [XML] documents.
+IP Address
+An Internet Protocol address (IP address) is a numerical label assigned to each device (e.g. computer, printer) participating in a computer network that uses the [Internet Protocol] for communication. An IP address serves two principal functions: host or network interface identification and location addressing. Its role has been characterised as follows: "A name indicates what we seek. An address indicates where it is. A route indicates how to get there."
 
-Historically, the XSL Working Group in [W3C] produced a draft specification under the name XSL, which eventually split into three parts:
+The designers of the Internet Protocol defined an IP address as a [32-bit] number and this system, known as Internet Protocol Version 4 ([IPv4]), is still in use today. However, because of the growth of the [Internet] and the predicted depletion of available addresses, a new version of IP ([IPv6]), using 128 bits for the address, was developed in 1995. IPv6 was standardised as [RFC 2460] in 1998, and its deployment has been ongoing since the mid 2000s.
 
-- XSL Transformation ([XSLT]): an XML language for transforming XML documents
-- XSL Formatting Objects ([XSL-FO]): an XML language for specifying the visual formatting of an XML document
-- XML Path Language ([XPath]): a non-XML language used by XSLT, and also available for use in non-XSLT contexts, for addressing the parts of an XML document.
+IP addresses are usually written and displayed in human readable notations, such as 172.16.254.1 (IPv4), and 2001:db8:0:1234:0:567:8:1 (IPv6).
 
-As a result, the term XSL is now used with a number of different meanings:
+The Internet Assigned Numbers Authority ([IANA]) manages the IP address space allocations globally and delegates five regional Internet registries ([RIRs]) to allocate IP address blocks to local Internet registries (Internet service providers) and other entities.
 
-Sometimes it refers to XSLT: this usage is best avoided. However, "xsl" is used both as the conventional namespace prefix for the XSLT namespace, and as the conventional filename suffix for files containing XSLT stylesheet modules
-Sometimes it refers to XSL-FO: this usage can be justified by the fact that the XSL-FO specification carries the title Extensible Stylesheet Language (XSL); however, the term XSL-FO is less likely to be misunderstood
-Sometimes it refers to both languages considered together, or to the working group that develops both languages
-Sometimes, especially in the [Microsoft] world, it refers to a now-obsolete variant of XSLT developed and shipped by Microsoft as part of [MSXML] before the W3C specification was finalised.
+IP Versions
+Two versions of the Internet Protocol (IP) are in use: IP Version 4 and IP Version 6. Each version defines an IP address differently. Because of its prevalence, the generic term IP address typically still refers to the addresses defined by IPv4. The gap in version sequence between IPv4 and IPv6 resulted from the assignment of number 5 to the experimental Internet Stream Protocol in 1979, which however was never referred to as IPv5.
+
+IPv4 Addresses
+In IPv4 an address consists of 32 bits which limits the address space to 4294967296 possible unique addresses. IPv4 reserves some addresses for special purposes such as private networks (~18 million addresses) or multicast addresses (~270 million addresses).
+
+IPv4 addresses are canonically represented in dot-decimal notation, which consists of four decimal numbers, each ranging from 0 to 255, separated by dots, e.g., 172.16.254.1. Each part represents a group of 8 bits (octet) of the address. In some cases of technical writing, IPv4 addresses may be presented in various hexadecimal, octal, or binary representations.
+
+Subnetting
+In the early stages of development of the Internet Protocol, network administrators interpreted an IP address in two parts: network number portion and host number portion. The highest order octet (most significant eight bits) in an address was designated as the network number and the remaining bits were called the rest field or host identifier and were used for host numbering within a network.
+
+This early method soon proved inadequate as additional networks developed that were independent of the existing networks already designated by a network number. In 1981, the Internet addressing specification was revised with the introduction of classful network architecture.
+
+Classful network design allowed for a larger number of individual network assignments and fine grained subnetwork design. The first three bits of the most significant octet of an IP address were defined as the class of the address. Three classes (A, B, and C) were defined for universal unicast addressing. Depending on the class derived, the network identification was based on octet boundary segments of the entire address. Each class used successively additional octets in the network identifier, thus reducing the possible number of hosts in the higher order classes (B and C). The following table gives an overview of this now obsolete system.
+
+Classful network design served its purpose in the startup stage of the Internet, but it lacked scalability in the face of the rapid expansion of the network in the 1990s. The class system of the address space was replaced with Classless Inter-Domain Routing (CIDR) in 1993. CIDR is based on variable length subnet masking (VLSM) to allow allocation and routing based on arbitrary length prefixes.
+
+Today, remnants of classful network concepts function only in a limited scope as the default configuration parameters of some network software and hardware components (e.g. netmask), and in the technical jargon used in network administrators' discussions.
+
+Private Addresses
+Early network design, when global end-to-end connectivity was envisioned for communications with all Internet hosts, intended that IP addresses be uniquely assigned to a particular computer or device. However, it was found that this was not always necessary as private networks developed and public address space needed to be conserved.
+
+Computers not connected to the Internet, such as factory machines that communicate only with each other via [TCP/IP], need not have globally unique IP addresses. Three ranges of IPv4 addresses for private networks were reserved in RFC 1918. These addresses are not routed on the Internet and thus their use need not be coordinated with an IP address registry.
+
+Today, when needed, such private networks typically connect to the Internet through network address translation (NAT).
+
+IPv4 Address Exhaustion
+High levels of demand have decreased the supply of unallocated Internet Protocol Version 4 (IPv4) addresses available for assignment to Internet service providers and end user organisations since the 1980s. This development is referred to as [IPv4 address exhaustion]. IANA's primary address pool was exhausted on 3 February 2011, when the last five blocks were allocated to the five RIRs. APNIC was the first RIR to exhaust its regional pool on 15 April 2011, except for a small amount of address space reserved for the transition to IPv6, intended to be allocated in a restricted process.
+
+IPv6 Addresses
+The rapid exhaustion of IPv4 address space, despite conservation techniques, prompted the Internet Engineering Task Force ([IETF]) to explore new technologies to expand the addressing capability in the Internet. The permanent solution was deemed to be a redesign of the Internet Protocol itself. This new generation of the Internet Protocol, intended to replace IPv4 on the Internet, was eventually named Internet Protocol Version 6 (IPv6) in 1995. The address size was increased from 32 to 128 bits or 16 octets. This, even with a generous assignment of network blocks, is deemed sufficient for the foreseeable future. Mathematically, the new address space provides the potential for a maximum of 2128, or about 3.403×1038 addresses.
+
+The primary intent of the new design was not to provide just a sufficient quantity of addresses, but also to allow an efficient aggregation of subnetwork routing prefixes at routing nodes. As a result, routing table sizes are smaller, and the smallest possible individual allocation is a subnet for 264 hosts, which is the square of the size of the entire IPv4 Internet. At these levels, actual address utilisation rates will be small on any IPv6 network segment. The new design also provides the opportunity to separate the addressing infrastructure of a network segment, that is the local administration of the segment's available space, from the addressing prefix used to route external traffic for a network. IPv6 has facilities that automatically change the routing prefix of entire networks, should the global connectivity or the routing policy change, without requiring internal redesign or manual renumbering.
+
+The large number of IPv6 addresses allows large blocks to be assigned for specific purposes and, where appropriate, to be aggregated for efficient routing. With a large address space, there is no need to have complex address conservation methods as used in CIDR.
+
+Many modern desktop and enterprise server operating systems include native support for the IPv6 protocol, but it is not yet widely deployed in other devices, such as home networking routers, voice over IP (VoIP) and multimedia equipment, and network peripherals.
+
+Private addresses
+Just as IPv4 reserves addresses for private or internal networks, blocks of addresses are set aside in IPv6 for private addresses. In IPv6, these are referred to as unique local addresses (ULA). [RFC 4193] sets aside the routing prefix fc00::/7 for this block which is divided into two /8 blocks with different implied policies. The addresses include a 40-bit pseudorandom number that minimizes the risk of address collisions if sites merge or packets are misrouted.
+
+Early designs used a different block for this purpose (fec0::), dubbed site-local addresses. However, the definition of what constituted sites remained unclear and the poorly defined addressing policy created ambiguities for routing. This address range specification was abandoned and must not be used in new systems.
+
+Addresses starting with fe80:, called link-local addresses, are assigned to interfaces for communication on the link only. The addresses are automatically generated by the operating system for each network interface. This provides instant and automatic network connectivity for any IPv6 host and means that if several hosts connect to a common hub or switch, they have a communication path via their link-local IPv6 address. This feature is used in the lower layers of IPv6 network administration (e.g. Neighbour Discovery Protocol).
+
+None of the private address prefixes may be routed on the public Internet.
 ===
 
-XSLT (Extensible Stylesheet Language Transformations)
-XSLT (Extensible Stylesheet Language Transformations) is a language for transforming [XML] documents into other XML documents, or other formats such as [HTML] for web pages, plain text or into [XSL] Formatting Objects, which may subsequently be converted to other formats, such as PDF PostScript and PNG.
+Internet Protocol Version 4 (IPv4)
+Internet Protocol version 4 (IPv4) is the fourth version in the development of the Internet Protocol ([IP]). It is one of the core protocols of standards based internetworking methods in the Internet, and was the first version deployed for production in the [ARPANET] in 1983. It still routes most Internet traffic today, despite the on-going deployment of a successor protocol, [IPv6]. IPv4 is described in [IETF] publication [RFC 791] (September 1981), replacing an earlier definition ([RFC 760], January 1980).
 
-The original document is not changed; rather, a new document is created based on the content of an existing one. Typically, input documents are XML files, but anything from which the processor can build an XQuery and XPath Data Model can be used, for example relational database tables, or geographical information systems.
+IPv4 is a connectionless protocol for use on packet-switched networks. It operates on a best effort delivery model, in that it does not guarantee delivery, nor does it assure proper sequencing or avoidance of duplicate delivery. These aspects, including data integrity, are addressed by an upper layer transport protocol, such as the Transmission Control Protocol ([TCP]).
 
-XSLT is a Turing-complete language, meaning it can specify any computation that can be performed by a computer.
+Addressing
+IPv4 uses [32-bit] (four-byte) addresses, which limits the address space to 4294967296 addresses. This limitation stimulated the development of IPv6 in the 1990s, which has been in commercial deployment since 2006.
+
+Because of the demand of the growing Internet, the small address space finally suffered exhaustion on 3 February 2011, after having been significantly delayed by classful network design, Classless Inter-Domain Routing, and network address translation (NAT).
+
+IPv4 reserves special address blocks for private networks (~18 million addresses) and multicast addresses (~270 million addresses).
+
+Address Representations
+IPv4 addresses may be represented in any notation expressing a 32-bit integer value. They are most often written in the dot-decimal notation, which consists of four octets of the address expressed individually in decimal numbers and separated by periods. The CIDR notation standard combines the address with its routing prefix in a compact format, in which the address is followed by a slash character (/) and the count of consecutive 1 bits in the routing prefix (subnet mask).
+
+For example, the quad-dotted IP address 192.0.2.235 represents the 32-bit decimal number 3221226219, which in hexadecimal format is 0xC00002EB. This may also be expressed in dotted hex format as 0xC0.0x00.0x02.0xEB, or with octal byte values as 0300.0000.0002.0353.
+
+Allocation
+Originally, an IP address was divided into two parts: the network identifier was the most significant (highest order) octet of the address, and the host identifier was the rest of the address. The latter was therefore also called the rest field. This enabled the creation of a maximum of 256 networks. This was quickly found to be inadequate.
+
+To overcome this limit, the high order octet of the addresses was redefined to create a set of classes of networks, in a system which later became known as classful networking. The system defined five classes, Class A, B, C, D, and E. The Classes A, B, and C had different bit lengths for the new network identification. The rest of an address was used as previously to identify a host within a network, which meant that each network class had a different capacity to address hosts. Class D was allocated for multicast addressing and Class E was reserved for future applications.
+
+Starting around 1985, methods were devised to subdivide IP networks. One method that has proved flexible is the use of the variable-length subnet mask (VLSM).
+
+Based on the IETF standard [RFC 1517] published in 1993, this system of classes was officially replaced with Classless Inter-Domain Routing (CIDR), which expressed the number of bits (from the most significant) as, for instance, /24, and the class-based scheme was dubbed classful, by contrast. CIDR was designed to permit repartitioning of any address space so that smaller or larger blocks of addresses could be allocated to users. The hierarchical structure created by CIDR is managed by the Internet Assigned Numbers Authority ([IANA]) and the regional Internet registries ([RIR]s). Each RIR maintains a publicly searchable WHOIS database that provides information about IP address assignments.
+
+Special Use Addresses
+The Internet Engineering Task Force (IETF) and the Internet Assigned Numbers Authority (IANA) have restricted from general use various reserved IP addresses for special purposes. Some are used for maintenance of routing tables, for multicast traffic, operation under failure modes, or to provide addressing space for public, unrestricted uses on private networks.
+
 ===
 
+Internet Protocol version 6 (IPv6)
+Internet Protocol version 6 (IPv6) is the most recent version of the Internet Protocol ([IP]), the communications protocol that provides an identification and location system for computers on networks and routes traffic across the Internet. IPv6 was developed by the Internet Engineering Task Force ([IETF]) to deal with the long anticipated problem of [IPv4 address exhaustion]. IPv6 is intended to replace [IPv4].
+
+Every device on the Internet is assigned an [IP address] for identification and location definition. With the rapid growth of the Internet after commercialisation in the 1990s, it became evident that far more addresses than the IPv4 address space has available were necessary to connect new devices in the future. By 1998, the Internet Engineering Task Force (IETF) had formalised the successor protocol. IPv6 uses a [128-bit] address, allowing 2128, or approximately 3.4×1038 addresses, or more than 7.9×1028 times as many as IPv4, which uses [32-bit] addresses and provides approximately 4.3 billion addresses. The two protocols are not designed to be interoperable, complicating the transition to IPv6. However, several IPv6 transition mechanisms have been devised to permit communication between IPv4 and IPv6 hosts.
+
+IPv6 provides other technical benefits in addition to a larger addressing space. In particular, it permits hierarchical address allocation methods that facilitate route aggregation across the Internet, and thus limit the expansion of routing tables. The use of multicast addressing is expanded and simplified, and provides additional optimisation for the delivery of services. Device mobility, security, and configuration aspects have been considered in the design of the protocol.
+
+IPv6 addresses are represented as eight groups of four hexadecimal digits with the groups being separated by colons, for example 2001:0db8:85a3:0042:1000:8a2e:0370:7334, but methods to abbreviate this full notation exist.
+
+IPv6 is an Internet Layer protocol for packet-switched internetworking and provides end-to-end datagram transmission across multiple IP networks, closely adhering to the design principles developed in the previous version of the protocol, Internet Protocol Version 4 (IPv4). IPv6 was first formally described in Internet standard document [RFC 2460], published in December 1998. In addition to offering more addresses, IPv6 also implements features not present in IPv4. It simplifies aspects of address assignment (stateless address auto-configuration), network renumbering, and router announcements when changing network connectivity providers. It simplifies processing of packets in routers by placing the responsibility for packet fragmentation into the end points. The IPv6 subnet size is standardised by fixing the size of the host identifier portion of an address to 64 bits to facilitate an automatic mechanism for forming the host identifier from link layer addressing information ([MAC address]). Network security was a design requirement of the IPv6 architecture, and included the original specification of IPsec.
+
+IPv6 does not specify interoperability features with IPv4, but essentially creates a parallel, independent network. Exchanging traffic between the two networks requires translator gateways employing one of several transition mechanisms, such as NAT64, or a tunneling protocol like 6to4, 6in4, or Teredo.
+
+Motivation and Origin
+Internet Protocol Version 4 ([IPv4]) was the first publicly used version of the Internet Protocol. IPv4 was developed as a research project by the Defense Advanced Research Projects Agency (DARPA), a United States Department of Defense agency, before becoming the foundation for the Internet and the [World Wide Web]. It is currently described by [IETF] publication [RFC 791] (September 1981), which replaced an earlier definition ([RFC 760], January 1980). IPv4 included an addressing system that used numerical identifiers consisting of 32 bits. These addresses are typically displayed in quad-dotted notation as decimal values of four octets, each in the range 0 to 255, or 8 bits per number. Thus, IPv4 provides an addressing capability of 232 or approximately 4.3 billion addresses. Address exhaustion was not initially a concern in IPv4 as this version was originally presumed to be a test of DARPA's networking concepts. During the first decade of operation of the Internet, it became apparent that methods had to be developed to conserve address space. In the early 1990s, even after the redesign of the addressing system using a classless network model, it became clear that this would not suffice to prevent [IPv4 address exhaustion], and that further changes to the Internet infrastructure were needed.
+
+The last unassigned top-level address blocks of 16 million IPv4 addresses were allocated in February 2011 by the Internet Assigned Numbers Authority ([IANA]) to the five regional Internet registries ([RIR]s). However, each RIR still has available address pools and is expected to continue with standard address allocation policies until one /8 Classless Inter-Domain Routing (CIDR) block remains. After that, only blocks of 1024 addresses (/22) will be provided from the RIRs to a local Internet registry (LIR). As of September 2012, both the Asia-Pacific Network Information Centre (APNIC) and the Réseaux IP Européens Network Coordination Centre (RIPE_NCC) have reached this stage.
+
+===
+
+IPv4 Address Exhaustion 
+IPv4 address exhaustion is the depletion of the pool of unallocated Internet Protocol Version 4 ([IPv4]) addresses, which has been anticipated since the late 1980s. This depletion is the reason for the development and deployment of its successor protocol, [IPv6].
+
+The IP address space is managed by the Internet Assigned Numbers Authority ([IANA]) globally, and by five regional Internet registries ([RIR]) responsible in their designated territories for assignment to end users and local Internet registries, such as Internet service providers. The top-level exhaustion occurred on 31 January 2011. Three of the five RIRs have exhausted allocation of all the blocks they have not reserved for IPv6 transition; this occurred on 15 April 2011 for the Asia-Pacific, on 14 September 2012 for Europe, and on 10 June 2014 for Latin America and the Caribbean.
+
+IPv4 provides approximately 4.3 billion addresses; a subset of these have been distributed by IANA to the RIRs in blocks of approximately 16.8 million addresses each. The depletion of the IPv4 allocation pool has been a concern since the late 1980s, when the Internet started to experience dramatic growth. The Internet Engineering Task Force ([IETF]) created the Routing and Addressing Group (ROAD) in November 1991 to respond to the scalability problem caused by the classful network allocation system in place at the time. The anticipated shortage has been the driving factor in creating and adopting several new technologies, including network address translation (NAT), Classless Inter-Domain Routing (CIDR) in 1993, and IPv6 in 1998. IPv6, the successor technology to IPv4 which was designed to address this problem, supports approximately 3.4×1038 network addresses.
+
+Although the predicted depletion was already approaching its final stages in 2008, most providers of Internet services and software vendors were just beginning IPv6 deployment.
+
+===
+
+Localhost
+In computer networking, localhost is a hostname that means this computer and may be used to access the computer's own network services via its loopback network interface. Using the loopback interface bypasses local network interface hardware. The local loopback mechanism may be useful for testing software during development, independently of any networking configurations. For example, if a computer has been configured to provide a website, directing a locally running web browser to http://localhost may display its home page.
+
+On most computer systems, "localhost" resolves to the IP address 127.0.0.1, which is the most commonly used [IPv4] loopback address, and to the [IPv6] loopback address ::1.[1] The "localhost" name is also a reserved top-level domain name (cf. .localhost), set aside to avoid confusion with the narrower definition as a hostname. The [IETF] standards restrict domain name registrars from assigning the "localhost" name in their normal registration procedures, such as for second-level domains; for example, registering "localhost.com" is not allowed.
+
+IPv4 network standards reserve the entire 127.0.0.0/8 address block for loopback purposes. That means any packet sent to one of those 16,777,214 addresses (127.0.0.1 through 127.255.255.254) will be looped back. IPv6 has just a single address, ::1.
+
+The resolution of the name localhost into one or more [IP addresses] is configured by the following lines in the operating system's hosts file:
+
+127.0.0.1    localhost
+::1          localhost
+
+Localhost may also be mapped to other IPv4 loopback addresses, and additional synonyms may be assigned to any loopback address.
+
+The processing of any packets sent to a loopback address is implemented in the link layer of the [TCP/IP] stack. Such packets are never delivered to any network interface controller (NIC) or device driver, which permits testing of software in the absence of any hardware network interfaces.
+
+Like any other packets traversing the TCP/IP stack, looped-back packets convey the IP address and port number they were addressed to. Thus, the services that ultimately receive them can respond according to the specified loopback destination. For example, an [HTTP] service could route packets addressed to 127.0.0.99:80 and 127.0.0.100:80 to different Web servers, or to a single server that would return different web pages. To simplify such testing, the hosts file can be modified to provide appropriate aliases for each such address.
+
+===
+
+Hostname
+A hostname is a label that is assigned to a device connected to a computer network and that is used to identify the device in various forms of electronic communication such as the [World Wide Web], [e-mail] or [Usenet]. Hostnames may be simple names consisting of a single word or phrase, or they may be structured.
+
+On the Internet, hostnames may have appended the name of a Domain Name System ([DNS]) domain, separated from the host specific label by a period ("dot"). In the latter form, a hostname is also called a [domain name]. If the domain name is completely specified, including a top-level domain of the Internet, then the hostname is said to be a [fully qualified domain name] (FQDN). Hostnames that include DNS domains are often stored in the Domain Name System together with the IP addresses of the host they represent for the purpose of mapping the hostname to an address, or the reverse process.
+===
+
+Top Level Domain (TLD) 
+A top-level domain (TLD) is one of the domains at the highest level in the hierarchical [Domain Name System] of the [Internet]. The top-level domain names are installed in the root zone of the name space. For all domains in lower levels, it is the last part of the domain name, that is, the last label of a [fully qualified domain name]. For example, in the domain name www.example.com, the top-level domain is com. Responsibility for management of most top-level domains is delegated to specific organisations by the Internet Corporation for Assigned Names and Numbers ([ICANN]), which operates the Internet Assigned Numbers Authority ([IANA]), and is in charge of maintaining the DNS root zone.
+===
+
+Fully Qualified Domain Name (FQDN)
+A fully qualified domain name (FQDN), sometimes also referred to as an absolute domain name, is a domain name that specifies its exact location in the tree hierarchy of the Domain Name System ([DNS]). It specifies all domain levels, including the [top-level domain] and the root zone. A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way.
+
+The DNS root domain is unnamed, which is expressed by the empty label, resulting in a fully qualified domain name ending with the dot character.
+
+In contrast to a domain name that is fully specified, a domain name that does not include the full path of labels up to the DNS root, is often call a partially qualified domain name.
+===
+
+Domain Name
+A domain name is an identification string that defines a realm of administrative autonomy, authority or control within the [Internet]. Domain names are formed by the rules and procedures of the Domain Name System ([DNS]). Any name registered in the DNS is a domain name.
+
+Domain names are used in various networking contexts and application specific naming and addressing purposes. In general, a domain name represents an Internet Protocol ([IP]) resource, such as a personal computer used to access the Internet, a server computer hosting a web site, or the web site itself or any other service communicated via the Internet. In 2014, the number of active domains reached 271 million.
+
+Domain names are organised in subordinate levels (subdomains) of the DNS root domain, which is nameless. The first-level set of domain names are the [top-level domains] (TLDs), including the generic top-level domains (gTLDs), such as the prominent domains com, info, net, edu, and org, and the country code top-level domains (ccTLDs). Below these top-level domains in the DNS hierarchy are the second-level and third-level domain names that are typically open for reservation by end-users who wish to connect local area networks to the Internet, create other publicly accessible Internet resources or run web sites. The registration of these domain names is usually administered by domain name registrars who sell their services to the public.
+
+A [fully qualified domain name] (FQDN) is a domain name that is completely specified in the hierarchy of the DNS, having no parts omitted.
+
+Labels in the Domain Name System are case-insensitive, and may therefore be written in any desired capitalisation method, but most commonly domain names are written in lowercase in technical contexts.
+===
+
+Octal Numeral System
+The octal numeral system, or oct for short, is the base-8 number system, and uses the digits 0 to 7. Octal numerals can be made from binary numerals by grouping consecutive binary digits into groups of three (starting from the right). For example, the binary representation for decimal 74 is 1001010, which can be grouped into (00)1 001 010 – so the octal representation is 112.
+
+===
+
+Hexadecimal Numeral System
+Hexadecimal (also base 16, or hex) is a positional numeral system with a radix, or base, of 16. It uses sixteen distinct symbols, most often the symbols 0 – 9 to represent values zero to nine, and A, B, C, D, E, F (or alternatively a, b, c, d, e, f) to represent values ten to fifteen. Hexadecimal numerals are widely used by computer systems designers and programmers. Several different notations are used to represent hexadecimal constants in computing languages; the prefix "0x" is widespread due to its use in [Unix] and [C] (and related operating systems and languages). Alternatively, some authors denote hexadecimal values using a suffix or subscript. For example, one could write 0x2AF3 or 2AF316, depending on the choice of notation.
+
+As an example, the hexadecimal number 2AF316 can be converted to an equivalent decimal representation. Observe that 2AF316 is equal to a sum of (200016 + A0016 + F016 + 316), by decomposing the numeral into a series of place value terms. Converting each term to decimal, one can further write: (216 × 163) + (A16 × 162) + (F16 × 161) + (316 × 160) =
+(2 × 4096) + (10 × 256) + (15 × 16) + (3 × 1) = 10995.
+
+Each hexadecimal digit represents four binary digits (bits), and the primary use of hexadecimal notation is a human friendly representation of binary coded values in computing and digital electronics. One hexadecimal digit represents a nibble, which is half of an octet or byte (8 bits). For example, byte values can range from 0 to 255 (decimal), but may be more conveniently represented as two hexadecimal digits in the range 00 to FF. Hexadecimal is also commonly used to represent computer memory addresses.
+==
+
+Binary Number
+A binary number is a number expressed in the binary numeral system, or base-2 numeral system, which represents numeric values using two different symbols: typically 0 (zero) and 1 (one). The base-2 system is a positional notation with a radix of 2. Because of its straightforward implementation in digital electronic circuitry using logic gates, the binary system is used internally by almost all modern computers and computer-based devices. Each digit is referred to as a bit.
+===
+
+Binary Coded Decimal (BCD) 
+Binary coded decimal (BCD) is a class of binary encodings of decimal numbers where each decimal digit is represented by a fixed number of bits, usually four or eight. Special bit patterns are sometimes used for a sign or for other indications (e.g., error or overflow).
+
+In byte oriented systems (i.e. most modern computers), the term unpacked BCD usually implies a full byte for each digit (often including a sign), whereas packed BCD typically encodes two decimal digits within a single byte by taking advantage of the fact that four bits are enough to represent the range 0 to 9. The ten states representing a BCD decimal digit are sometimes called tetrades (for the nibble typically needed to hold them also known as tetrade) with those don't care states unused named pseudo-tetrades (de)).
+
+BCD's main virtue is its more accurate representation and rounding of decimal quantities as well as an ease of conversion into human readable representations, in comparison to binary positional systems. BCD's principal drawbacks are a small increase in the complexity of the circuits needed to implement basic arithmetics and a slightly less dense storage.
+
+BCD was used in many early decimal computers, and is implemented in the instruction set of machines such as the [IBM System/360] series and its descendants and Digital's [VAX]. Although BCD per se is not as widely used as in the past and is no longer implemented in computers' instruction sets, decimal fixed-point and floating-point formats are still important and continue to be used in financial, commercial, and industrial computing, where subtle conversion and fractional rounding errors that are inherent in floating point binary representations cannot be tolerated.
+===
+
+Binary Code
+A binary code represents text or computer processor instructions using the binary number system's two binary digits, 0 and 1. A binary code assigns a bit string to each symbol or instruction. For example, a binary string of eight binary digits (bits) can represent any of 256 possible values and can therefore correspond to a variety of different symbols, letters or instruction.
+
+In computing and telecommunication, binary codes are used for various methods of encoding data, such as character strings, into bit strings. Those methods may use fixed-width or variable-width strings. In a fixed-width binary code, each letter, digit, or other character is represented by a bit string of the same length; that bit string, interpreted as a binary number, is usually displayed in code tables in [octal], [decimal] or [hexadecimal] notation. There are many character sets and many character encodings for them.
+
+A bit string, interpreted as a binary number, can be translated into a decimal number. For example, the lower case a, if represented by the bit string 01100001 (as it is in the standard [ASCII code]), can also be represented as the decimal number 97.
+===
 
 
 
