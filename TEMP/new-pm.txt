@@ -115,16 +115,6 @@ Chromium OS is the open-source development version of [Chrome OS], which is a [L
 Installable, working versions of Chromium OS have been produced and made available for download primarily by hobbyists. Some devices come with Chromium OS preinstalled as their main operating system.
 ===
 
-Chromebook
-A Chromebook is a laptop running [Chrome OS] as its operating system. The devices are designed to be used primarily while connected to the Internet, with most applications and data residing "in the cloud". A Chromebook is an example of a thin client.
-
-The first Chromebooks for sale, by [Acer Inc] and [Samsung], were announced at the [Google] I/O conference in May 2011 and began shipping on 15 June 2011. Lenovo, [Hewlett Packard] and Google itself entered the market in early 2013. In December 2013, Samsung launched a Samsung Chromebook specifically for the Indian market that employed the company's Exynos 5 Dual core processor. In addition to laptop models, a desktop version, called a Chromebox, was introduced in May 2012, and an "all-in-one" device was introduced in January 2014 by LG Electronics.
-
-Chromebooks are primarily sold both directly from Google and from the company's retail partners. By 2012, schools had become the largest category of customer. That October, Google broadened its marketing strategy to include first-time computer users and households seeking an additional computer. Critical reaction to the device was initially skeptical, with some reviewers, such as then New York Times technology columnist David Pogue, unfavourably comparing the value proposition of Chromebooks with that of more fully featured laptops running the [Microsoft Windows] operating system. That complaint dissipated later in reviews of machines from Acer and Samsung that were priced lower. In February 2013, Google announced and began shipping the Chromebook Pixel, a higher-spec machine with a high-end price tag.
-
-In October 2012, Simon Phipps, writing in InfoWorld, said, "The Chromebook line is probably the most successful Linux desktop / laptop computer we've seen to date". From January to November 2013, 1.76 million Chromebooks were sold in U.S. business to business channels.
-===
-
 Samsung
 Samsung is a South Korean multinational conglomerate company headquartered in Samsung Town, Seoul. It comprises numerous subsidiaries and affiliated businesses, most of them united under the Samsung brand, and is the largest South Korean chaebol.
 
@@ -153,36 +143,6 @@ The most recent BlackBerry devices are the BlackBerry Passport, BlackBerry Class
 BlackBerry devices can record video, take photos, play music and also provide functions such as Web browsing, email messaging, instant messaging, and the multi-platform BlackBerry Messenger service.
 
 It was one of the major smartphone vendors until 2012. The consumer BlackBerry Internet Service is available in 91 countries worldwide on over 500 mobile service operators using various mobile technologies. As of September 2013, there were 85 million BlackBerry subscribers worldwide. That number has dropped steadily, down to 46 million in September 2014. From November 2013, BlackBerry could be run in multiplatform ([Android], [iOS] and [Windows Phone]) and up to June 2015 got 260 million new users.
-===
-
-BlackBerry Limited
-BlackBerry Limited, formerly known as Research In Motion Limited (RIM), is a Canadian telecommunication and wireless equipment company best known to the general public as the developer of the [BlackBerry] brand of smartphones and tablets, but also well known worldwide as a provider of secure & high reliability software for industrial applications and mobile device management (MDM). BlackBerry's software and hardware products are used worldwide by various government's agencies and by car makers and industrial plants throughout the world, much of this activity being unseen by the public. The company is headquartered in Waterloo, Ontario, Canada. It was founded by Mike Lazaridis and Douglas Fregin in 1984. Mr. Fregin later left the company. In 1992 Mr. Lazaridis hired Jim Balsillie, and Mr. Lazaridis and Mr. Balsillie served as co-CEOs until 22 January 2012. In November 2013, John S. Chen took over as CEO. His strategy is to subcontract manufacturing to Foxconn, and to focus on software technology.
-
-Originally a dominant innovative company in the smartphone market for business and government usage, with 43% US market share in 2010, the company's dominance in the US smartphone market has in recent years declined precipitously, in part because of intense competition from [Apple]'s [iPhone] and [Google]'s [Android]. Due to such competition, the company's share in the US personal consumer market has now been reduced to 1.5% in April 2015.
-===
-
-Nokia Corporation
-Nokia Corporation is a Finnish multinational communications and information technology company. Nokia is headquartered in Espoo, Uusimaa, in the greater Helsinki metropolitan area. In 2014, Nokia employed 61,656 people across 120 countries, conducts sales in more than 150 countries and reported annual revenues of around €12.73 billion. Nokia is a public limited liability company listed on the Helsinki Stock Exchange and New York Stock Exchange. It is the world's 274th largest company measured by 2013 revenues according to the Fortune Global 500.
-
-The company currently focuses on large-scale telecommunications infrastructures, technology development and licensing, and online mapping services. Nokia is also a significant contributor to the mobile telephony industry, having assisted in development of the GSM and LTE standards, and was, for a period, the largest vendor of mobile phones in the world. Nokia's dominance also extended into the smartphone industry through its Symbian platform, but it was soon overshadowed by the growing dominance of Apple's iPhone line and Android devices. Nokia eventually entered into a pact with [Microsoft] in 2011 to exclusively use its [Windows Phone] platform on future smartphones.
-
-In September 2013, Microsoft announced that it would acquire Nokia's mobile phone business as part of an overall deal totalling €5.44 billion (US $7.17 billion). Stephen Elop, Nokia's former CEO, and several other executives joined the new Microsoft Mobile subsidiary of Microsoft as part of the deal, which was completed on 25 April 2014. In November 2014, Nokia began to license product designs and technologies to third-party manufacturers, to enable a continued presence for the Nokia brand in the consumer electronics hardware market.
-
-On 15 April 2015, Nokia announced that it would acquire the French telecommunications equipment company Alcatel-Lucent for €15.6 billion.
-
-On 18 June 2015, Nokia's CEO Rajeev Suri revealed that the company plans to re-enter the mobile phone business in 2016.
-===
-
-Excite
-Excite is a collection of web sites and services, launched in December 1995. Excite is an online service offering a variety of content, including an Internet portal showing news and weather etc. (outside United States only), a search engine, a web-based [email], [instant messaging], stock quotes, and a customisable user homepage. The content is collated from over 100 different sources.
-
-Excite's portal and services are owned by Excite Networks, but in the USA, Excite is a personal portal, called My Excite, which is operated by Mindspark and owned by IAC Search and Media.
-
-In the 1990s, Excite was one of the most recognized brands on the Internet.
-===
-
-Acer
-Acer Inc is a Taiwanese multinational hardware and electronics corporation specialising in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer's products include desktop and laptop PCs, tablet computers, servers, storage devices, displays, LED, LCD and plasma televisions, smartphones and peripherals. It also provides e-business services to businesses, governments and consumers. In 2014 Acer was the fourth largest personal computer vendor in the world. In the early 2000s, Acer implemented a new business model, shifting from a manufacturer to a designer, marketer and distributor of products, while performing production processes via contract manufacturers. In addition to its core business, Acer owns the largest franchised computer retail chain in Taipei, Taiwan.
 ===
 
 WAP (Wireless Application Protocol)
@@ -218,5 +178,3 @@ Windows Embedded Compact, formerly Windows Embedded CE and Windows CE, is an ope
 Microsoft Schedule+
 Microsoft Schedule Plus (or Microsoft Schedule+) was a time management software product developed by [Microsoft], but was discontinued as part of [Microsoft Office] when most of its functionality was incorporated into [Outlook 97]. It was originally intended as a companion to Microsoft Mail, but later it was a companion to Microsoft Exchange and was part of Microsoft Office 95, and later Microsoft Exchange Client and Windows Messaging, so it was later included and developed as part of Microsoft Exchange Server, which resulted in version 7.5 of Schedule+ as part of Exchange Server 5.0. The "Outlook Calendar" that was part of Outlook for Windows 3.1 and Macintosh versions before 9.0 was actually a new version of Schedule+. In spite of being discontinued, the software, however, is still included with all versions of Microsoft Office up to Microsoft Office 2003, although it is just to support conversion from Schedule+ 1.x. It is not available in Office 2007, although it was present in early test builds.
 ===
-
-
