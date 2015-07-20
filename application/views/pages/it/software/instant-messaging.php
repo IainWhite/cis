@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Instant Messaging (IM)'); ?>
+        <p><strong>Instant Messaging (IM)</strong> is a type of online chat which offers real-time text transmission over the Internet. A LAN messenger operates in a similar way over a local area network. Short messages are typically transmitted bi-directionally between two parties, when each user chooses to complete a thought and select "send". Some IM applications can use push technology to provide real-time text, which transmits messages character by character, as they are composed. More advanced instant messaging can add file transfer, clickable hyperlinks, <?php echo $this->stencil->addLink('Voice over IP', 'ITN'); ?>, or video chat.</p>
+        <p>Non-IM types of chat include multicast transmission, usually referred to as "chat rooms", where participants might be anonymous or might be previously known to each other (for example collaborators on a project that is using chat to facilitate communication). Instant messaging systems tend to facilitate connections between specified known users (often using a contact list also known as a "buddy list" or "friend list"). Depending on the IM protocol, the technical architecture can be peer-to-peer (direct point-to-point transmission) or client-server (a central server retransmits messages from the sender to the communication device).</p>
+    </div>
+</div>

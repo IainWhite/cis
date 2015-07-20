@@ -832,6 +832,9 @@ class Stencil {
             case 'LIN':
                 $path = 'it/os/linux';
                 break;
+            case 'IM':
+                $path = 'it/software/im';
+                break;
         }
         if ($full) {
             $path = base_url() . $path;

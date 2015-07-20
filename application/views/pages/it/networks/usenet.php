@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Usenet'); ?>
+        <p><strong>Usenet</strong> is a worldwide distributed discussion system. It was developed from the general purpose <strong>UUCP</strong> dial-up network architecture. <strong>Tom Truscott</strong> and <strong>Jim Ellis</strong> conceived the idea in 1979, and it was established in 1980. Users read and post messages (called articles or posts, and collectively termed news) to one or more categories, known as newsgroups. Usenet resembles a <strong>Bulletin Board System (<?php echo $this->stencil->addLink('BBS', 'WD'); ?>)</strong> in many respects and is the precursor to Internet forums that are widely used today. Usenet can be superficially regarded as a hybrid between email and web forums. Discussions are threaded, as with web forums and BBSes, though posts are stored on the server sequentially.</p>
+        <p>One notable difference between a BBS or web forum and Usenet is the absence of a central server and dedicated administrator. Usenet is distributed among a large, constantly changing conglomeration of servers that store and forward messages to one another in so called news feeds. Individual users may read messages from and post messages to a local server operated by a commercial usenet provider, their Internet service provider, university, employer, or their own server.</p>
+    </div>
+</div>

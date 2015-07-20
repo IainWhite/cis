@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Google Talk'); ?>
+        <p><strong>Google Talk</strong> is an <?php echo $this->stencil->addLink('instant messaging', 'ITS'); ?> service that provides both text and voice communication. The instant messaging service is colloquially known as "<em>gtalk</em>", "<em>gchat</em>", or "<em>gmessage</em>" to its users, although <?php echo $this->stencil->addLink('Google', 'C'); ?> does not endorse those names. As of March 2015, it is not discontinued despite reports to the contrary and officially remains available over <?php echo $this->stencil->addLink('XMPP', 'IM'); ?> in third party applications.</p>
+        <p>Google Talk was also the name of the client applications previously offered by Google to use the service. Google Talk applications were available for <?php echo $this->stencil->addLink('Microsoft Windows', 'OS'); ?>, <?php echo $this->stencil->addLink('Android', 'OS'); ?>, <?php echo $this->stencil->addLink('BlackBerry', 'OS'); ?>, and <?php echo $this->stencil->addLink('Chrome OS', 'OS'); ?> operating systems. A Google Talk mobile web app had also been previously available. As of February 2015, the Windows client ceased to work, with email notifications sent to users who attempt to login, recommending that they try <?php echo $this->stencil->addLink('Google Hangouts', 'ITS'); ?> instead.</p>
+        <p>Google dropped support for XMPP federation in May 2014, meaning that Google Talk servers will no longer communicate with other XMPP servers. However, users can still chat with other Google Talk users using third-party XMPP clients such as <?php echo $this->stencil->addLink('Adium', 'IM'); ?> and <?php echo $this->stencil->addLink('Pidgin', 'IM'); ?>.</p>
+        <p>The Windows desktop client for Google Talk was shut down on 23 February 2015.</p>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('ICQ'); ?>
+        <p><strong>ICQ</strong> is an <?php echo $this->stencil->addLink('instant messaging', 'ITS'); ?> computer program that was first developed and popularised by the Israeli company <strong>Mirabilis</strong> in 1996. The name ICQ stands for "<strong><em>I Seek You</em><strong>". Its ownership was passed to <?php echo $this->stencil->addLink('AOL', 'C'); ?> in 1998 and to <strong>Mail.Ru Group</strong> in 2010.</p>
+        <p>The ICQ client application and service were initially released in November 1996 and the client was freely available to download. Users could register an account and would be assigned a number, like a phone number, for others to be able to contact them (users could also provide handles). ICQ was the first stand-alone instant messenger and the first online instant messenger service as such - while real-time chat was not in itself new to the internet (<?php echo $this->stencil->addLink('IRC', 'IPA'); ?> being the most common platform at the time), the concept of a fully centralised service with individual user accounts focused on one-on-one conversations set the blueprint for later instant messaging services like <?php echo $this->stencil->addLink('AIM', 'IM'); ?>, and its influence is seen in modern social media applications.</p>
+        <p>At its peak around 2001, ICQ had over 100 million accounts registered. At the time of the Mail.Ru acquisition in 2010, there were around 42 million daily users.</p>
+    </div>
+</div>

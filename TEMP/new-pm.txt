@@ -1,0 +1,262 @@
+
+Spam
+Electronic spamming is the use of electronic messaging systems to send unsolicited messages (spam), especially advertising, as well as sending messages repeatedly on the same site. While the most widely recognised form of spam is [email] spam, the term is applied to similar abuses in other media: [instant messaging] spam, [Usenet] newsgroup spam, Web search engine spam, spam in [blogs], [wiki] spam, online classified ads spam, mobile phone messaging spam, Internet forum spam, junk fax transmissions, social spam, television advertising and file sharing spam. It is named after Spam, a luncheon meat, by way of a Monty Python sketch in which Spam is included in every dish. The food is stereotypically disliked / unwanted, so the word came to be transferred by analogy.
+
+Spamming remains economically viable because advertisers have no operating costs beyond the management of their mailing lists, and it is difficult to hold senders accountable for their mass mailings. Because the barrier to entry is so low, spammers are numerous, and the volume of unsolicited mail has become very high. In the year 2011, the estimated figure for spam messages is around seven trillion. The costs, such as lost productivity and fraud, are borne by the public and by Internet service providers, which have been forced to add extra capacity to cope with the deluge. Spamming has been the subject of legislation in many jurisdictions.
+
+A person who creates electronic spam is called a spammer.
+===
+
+Voice over IP (VoIP)
+Voice over IP (VoIP) is a methodology and group of technologies for the delivery of voice communications and multimedia sessions over Internet Protocol ([IP]) networks, such as the Internet. Other terms commonly associated with VoIP are IP telephony, Internet telephony, broadband telephony, and broadband phone service.
+
+The term Internet telephony specifically refers to the provisioning of communications services (voice, fax, SMS, voice-messaging) over the public Internet, rather than via the public switched telephone network (PSTN). The steps and principles involved in originating VoIP telephone calls are similar to traditional digital telephony and involve signalling, channel setup, digitisation of the analog voice signals, and encoding. Instead of being transmitted over a circuit-switched network, however, the digital information is packetised, and transmission occurs as IP packets over a packet-switched network. Such transmission entails careful considerations about resource management different from time-division multiplexing (TDM) networks.
+
+Early providers of voice-over-IP services offered business models and technical solutions that mirrored the architecture of the legacy telephone network. Second generation providers, such as [Skype], have built closed networks for private user bases, offering the benefit of free calls and convenience while potentially charging for access to other communication networks, such as the PSTN. This has limited the freedom of users to mix-and-match third-party hardware and software. Third generation providers, such as [Google Talk], have adopted the concept of federated VoIP which is a departure from the architecture of the legacy networks. These solutions typically allow dynamic interconnection between users on any two domains on the Internet when a user wishes to place a call.
+
+VoIP systems employ session control and signalling protocols to control the signalling, set-up, and tear-down of calls. They transport audio streams over IP networks using special media delivery protocols that encode voice, audio, video with audio codecs, and video codecs as Digital audio by streaming media. Various codecs exist that optimize the media stream based on application requirements and network bandwidth; some implementations rely on narrowband and compressed speech, while others support high fidelity stereo codecs. Some popular codecs include μ-law and a-law versions of G.711, G.722, a popular open source voice codec known as iLBC, a codec that only uses 8 kbit/s each way called G.729, and many others.
+
+VoIP is available on many smartphones, personal computers, and on Internet access devices.
+===
+
+Google Hangouts
+Google Hangouts is a communication platform developed by [Google] which includes [instant messaging], video chat, SMS and [VoIP] features. It replaces three messaging products that Google had implemented concurrently within its services, including [Google Talk], Google+ Messenger (formerly: Huddle), and Hangouts, a video chat system present within Google+. Google has also stated that Hangouts is designed to be "the future" of its telephony product, Google Voice, and integrated some of the capabilities of Google Voice into Hangouts. In current versions of [Android], Hangouts is the default application for text messaging.
+
+Prior to the launch of Hangouts, Google had maintained several similar, but technologically separate messaging services and platforms across its suite of products. These have included the enterprise oriented Google Talk (based on [XMPP]), Google+ Messenger, and the Hangouts feature of Google+, which allows for group videoconferencing with up to 10 users at once. However, its increasingly fragmented and non-unified suite of messaging offerings was also facing growing competition from services such as [Facebook Messenger], [iMessage], and [WhatsApp]. A decision was made to scrap the existing Google Talk system and code a new messaging product through a collaboration with multiple development teams.
+
+Following reports that the new service would be known as "Babel", the service officially launched as Hangouts during the Google I/O conference on 15 May 2013.
+===
+
+MODEM
+A MODEM (modulator-demodulator) is a device that modulates signals to encode digital information and demodulates signals to decode the transmitted information. The goal is to produce a signal that can be transmitted easily and decoded to reproduce the original digital data. Modems can be used with any means of transmitting analog signals, from light emitting diodes to radio. A common type of modem is one that turns the digital data of a computer into modulated electrical signal for transmission over telephone lines and demodulated by another modem at the receiver side to recover the digital data.
+
+Modems are generally classified by the amount of data they can send in a given unit of time, usually expressed in bits per second (symbol bit/s, sometimes abbreviated "bps"), or bytes per second (symbol B/s). Modems can also be classified by their symbol rate, measured in baud. The baud unit denotes symbols per second, or the number of times per second the modem sends a new signal. For example, the ITU V.21 standard used audio frequency shift keying with two possible frequencies, corresponding to two distinct symbols (or one bit per symbol), to carry 300 bits per second using 300 baud. By contrast, the original ITU V.22 standard, which could transmit and receive four distinct symbols (two bits per symbol), transmitted 1,200 bits by sending 600 symbols per second (600 baud) using phase shift keying.
+===
+
+Daemon
+In multitasking computer operating systems, a daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user. Traditionally daemon names end with the letter d. For example, syslogd is the daemon that implements the system logging facility and sshd is a daemon that services incoming [SSH] connections.
+
+In a [Unix] environment, the parent process of a daemon is often, but not always, the init process. A daemon is usually either created by a process forking a child process and then immediately exiting, thus causing init to adopt the child process, or by the init process directly launching the daemon. In addition, a daemon launched by forking and exiting typically must perform other operations, such as dissociating the process from any controlling terminal (tty). Such procedures are often implemented in various convenience routines such as daemon in Unix.
+
+Systems often start daemons at boot time and serve the function of responding to network requests, hardware activity, or other programs by performing some task. Daemons can also configure hardware (like udevd on some [Linux] systems), run scheduled tasks (like [cron]), and perform a variety of other tasks.
+
+The term was coined by the programmers of [MIT]'s Project MAC. They took the name from Maxwell's demon, an imaginary being from a thought experiment that constantly works in the background, sorting molecules. Unix systems inherited this terminology. Maxwell's Demon is consistent with Greek mythology's interpretation of a daemon as a supernatural being working in the background, with no particular bias towards good or evil. However, [BSD] and some of its derivatives have adopted a Christian demon as their mascot rather than a Greek daemon.
+
+The word daemon is an alternative spelling of demon. Alternate terms for daemon are service ([Microsoft Windows NT]), started task (IBM z/OS), and ghost job (XDS UTS).
+===
+
+Cron
+The software utility Cron is a time-based job scheduler in [Unix-like] computer operating systems. People who set up and maintain software environments use cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals. It typically automates system maintenance or administration though its general purpose nature makes it useful for things like connecting to the Internet and downloading email at regular intervals. The origin of the name cron is obscure; it has been suggested that it comes from the Greek word for time, chronos, or that it is an acronym for "Command Run On Notice" or for "Commands Run Over Night".
+
+Cron is driven by a crontab (cron table) file, a configuration file that specifies shell commands to run periodically on a given schedule. The crontab files are stored where the lists of jobs and other instructions to the cron [daemon] are kept. Users can have their own individual crontab files and often there is a system wide crontab file (usually in /etc or a subdirectory of /etc) that only system administrators can edit.
+
+Each line of a crontab file represents a job, and is composed of a CRON expression, followed by a shell command to execute. Some cron implementations, such as in the popular 4th [BSD] edition written by Paul Vixie and included in many Linux distributions, add a sixth field: an account username that runs the specified job (subject to user existence and permissions). This is allowed only in the system crontabs not in others, which are each assigned to a single user to configure. The sixth field is alternatively sometimes used for year instead of an account username the nncron daemon for Windows does this.
+===
+
+TYPO3 CMS
+TYPO3 is a free and open source web content management system written in [PHP]. It is released under the [GNU General Public License]. It can run on several web servers, such as [Apache] or [IIS], on top of many operating systems, among them [Linux], [Microsoft Windows], [FreeBSD], [Mac OS X] and [OS/2].
+
+TYPO3 is, along with [Drupal], [Joomla!] and [WordPress], among the most popular content management systems worldwide, however it is more widespread in Europe than in other regions. The biggest market share can be found in German speaking countries.
+
+TYPO3 is credited to be highly flexible. It can be extended by new functions without writing any program code. Also, the software is available in more than 50 languages and has a built-in localisation system, therefore supports publishing content in multiple languages. Due to its features, scalability and maturity, TYPO3 is used to build and manage websites of different types and size ranges, from small sites for individuals or nonprofit organisations to multilingual enterprise solutions for large corporations. According to the ability to support a corporate environment, it is classified as an enterprise level content management system.
+===
+
+Yahoo Mail 
+Yahoo Mail is a free email service (except for Yahoo Mail Business Email Plans) offered by the American company [Yahoo!]. It was launched in 1997, and, according to comScore, Yahoo Mail was the third largest web-based email service with 281 million users as of December 2011.
+
+As many as three web interfaces were available at any given date. The traditional "Yahoo Mail Classic" preserved the availability of their original 1997 interface until July 2013 in North America. A 2005 version included a new [Ajax] interface, drag-and-drop, improved search, keyboard shortcuts, address auto-completion and tabs. However other features were removed, such as column widths and one click delete-move-to-next. In October 2010, Yahoo released a beta version of Yahoo Mail that included improvements to performance, search and [Facebook] integration. In May 2011 it became the default interface. Their current Webmail interface was introduced during 2012. Yahoo Mail had unlimited storage from 27 March 2007 until 8 October 2013. The new design introduced to users from October 2013 was met with heavy criticism of its layout and user ability. Yahoo Mail suffered a major outage where some users could not access their email messages beginning 10 December 2013 until 12 December 2013, when the outage was fully resolved.
+===
+
+Google Calendar
+Google Calendar is a time management web application and mobile app for created by [Google]. It became available on 13 April 2006, and exited the beta stage in July 2009. Users are required to have a Google Account in order to use the app.
+
+The interface of Google Calendar, designed by Kevin Fox, is similar to desktop calendar applications such as [Microsoft Outlook] or [iCal] on [Mac OS X]. The [Ajax] driven interface enables users to set the number of days to show in their custom view mode.stored online; consequently, the calendar can be viewed from any location that has Internet access. For users who might experience a hard drive failure, it also means that no data is lost. The application can import Microsoft Outlook calendar files (.vcs) and , add, and drag-and-drop events from one date to another without reloading the page. It supports view modes such as weekly, monthly, and agenda. Users can "quick add" calendar events by typing standard English phrases, such as "Dinner with Michael 7 p.m. tomorrow". Users can also set the number of days to show in their custom view mode.
+===
+
+iCal
+Calendar, known as iCal before the release of [OS X Mountain Lion] in July 2012. Originally released as a free download for [Mac OS X] v10.2 on 10 September 2002, it was bundled with the operating system as iCal 1.5 with the release of Mac OS X v10.3. iCal was the first calendar application for OS X to offer support for multiple calendars and the ability to intermittently publish/subscribe to calendars on WebDAV servers. Version 2 of iCal was released as part of Mac OS X v10.4, Version 3 as part of Mac OS X v10.5, Version 4 as part of Mac OS X v10.6, Version 5 as part of Mac OS X v10.7, Version 6 as part of OS X v10.8, Version 7 as part of OS X v10.9, and Version 8 as part of OS X v10.10.
+
+[Apple] licensed the iCal name from Brown Bear Software, who have used it for their iCal application since 1997.
+
+iCal's initial development was quite different from other Apple software: it was designed independently by a small French team working "secretly" in Paris, led by Jean-Marie Hullot, a friend of [Steve Jobs]. iCal's development has since been transferred to Apple US headquarters in Cupertino.
+===
+
+Google Drive
+Google Drive is a file storage and synchronisation service created by [Google]. It allows users to store files in the cloud, share files, and edit documents, spreadsheets, and presentations with collaborators. Google Drive encompasses [Google Docs], Sheets, and Slides, an office suite that permits collaborative editing of documents, spreadsheets, presentations, drawings, forms, and more.
+
+Google Drive was launched on 24 April 2012 and had 240 million monthly active users as of October 2014.
+===
+
+Google Docs, Sheets and Slides
+Google Docs, Sheets and Slides are a word processor, a spreadsheet and a presentation program respectively, all part of a free, web-based software office suite offered by [Google] within its [Google Drive] service. The suite allows users to create and edit documents online while collaborating with other users in real-time.
+
+The three apps are available as web applications, as Chrome apps that work offline, and as mobile apps for [Android] and [iOS]. The apps are compatible with [Microsoft Office] file formats. The suite also consists of Google Forms (survey software), Google Drawings (diagramming software) and Google Fusion Tables (database manager). While Forms and Tables are only available as web applications, Drawings is also available as a Chrome app.
+
+The suite is tightly integrated with Google Drive. All files created with the apps are by default saved to Google Drive.
+===
+
+Google Play
+Google Play, originally the Android Market, is a digital distribution platform operated by [Google]. It serves as the official [app store] for the [Android] operating system, allowing users to browse and download applications developed with the Android SDK and published through Google. Google Play also serves as a digital media store, offering music, magazines, books, movies, and television programs. It previously offered Google hardware devices for purchase until the introduction of a separate online hardware retailer, Google Store, on 11 March 2015.
+
+Applications are available through Google Play either free of charge or at a cost. They can be downloaded directly to an Android or Google TV device through the Play Store mobile app, or by deploying the application to a device from the Google Play website. Many applications can be targeted to specific users based on a particular hardware attribute of their device, such as a motion sensor (for motion-dependent games) or a front-facing camera (for online video calling).
+
+Google Play was launched on 6 March 2012, with the merger of Android Market, Google Music, and Google eBookstore, marking a shift in Google's digital distribution strategy. The services operating under the Google Play banner are: Google Play Music, Google Play Books, Google Play Newsstand, Google Play Movies & TV, and Google Play Games. The Google Play store has reached over 1.43 million apps published and over 50 billion downloads.
+===
+
+Google Groups
+Google Groups is a service from [Google Inc] that provides discussion groups for people sharing common interests. The Groups service also provides a gateway to [Usenet] newsgroups via a shared user interface.
+
+Google Groups became operational in February 2001, following Google's acquisition of Deja's Usenet archive. (Deja News had been operational since 1995.)
+
+Google Groups offers at least two kinds of discussion group; in both cases users can participate in threaded conversations, either through a web interface or by e-mail. The first kind are forums specific to Google Groups which are inaccessible by NNTP and act more like mailing lists. The second kind are Usenet groups, for which Google Groups acts as gateway and unofficial archive (the Google Groups archive of Usenet newsgroup postings dates back to 1981). Through the Google Groups user interface, users can read and post to Usenet groups.
+
+In addition to accessing Google and Usenet groups, registered users can also set up mailing list archives for e-mail lists that are hosted elsewhere.
+===
+
+Google News
+Google News is a free news aggregator provided and operated by [Google], selecting up to date news from thousands of publications.
+
+A beta version was launched in September 2002, and released officially in January 2006.
+
+Google News watches more than 4500 news sources worldwide. Versions for more than 60 regions in 28 languages are available (as of 15 March 2012). As of January 2013, service in the following languages is offered: Arabic, Cantonese, Chinese, Czech, Dutch, English, French, German, Greek, Hebrew, Hindi, Hungarian, Italian, Japanese, Korean, Malayalam, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, and Vietnamese.
+
+The service covers news articles appearing within the past 30 days on various news websites. In total, Google News aggregates content from more than 25,000 publishers. For the English language, it covers about 4,500 sites; for other languages, fewer. Its front page provides roughly the first 200 characters of the article and a link to its larger content. Websites may or may not require a subscription; sites requiring subscription are noted in the article description.
+
+The layout of Google News underwent a major revision on 16 May 16, 2011.
+
+On 14 July 2011, Google introduced "Google News Badges," which it later retired in October 2012.
+
+Additionally in July 2011, the Sci/Tech section of the English Google News versions was split up into two sections: Science and Technology. It was announced that this section split would be performed on other language versions as well. As of early 2013, this split had not been applied to all language versions of Google News.
+===
+
+App Store
+An app store (or app marketplace) is a type of digital distribution platform for mobile apps. Apps provide a specific set of functions which, by definition, do not include the running of the computer itself. Apps are designed to run on specific devices, and are written for a specific operating system (such as [iOS], [Mac OS X], [Windows], or [Android]). The functionality of complex software designed for use on a personal computer, for example, may have a related app designed for use on a mobile device. Such an app may offer similar, if limited, functionality compared to the complete software running on the computer. Apps optimize the appearance of displayed data, taking into consideration the device screen size and resolution. Besides providing continuity of functionality over two different types of devices, such apps may also be capable of a file synchronisation between two dissimilar devices, even between two different operating system platforms. App stores typically organize the apps they offer based on these considerations: the function(s) provided by the app (including games, multimedia or productivity), the device for which the app was designed, and the operating system on which the app will run.
+
+App stores typically take the form of an online store, where users can browse through these different app categories, view information about each app (such as reviews or ratings), and acquire the app (including app purchase, if necessary - many apps are offered at no cost). The selected app is offered as an automatic download, after which the app installs. Some app stores may also include a system to automatically remove an installed program from devices under certain conditions, with the goal of protecting the user against malicious software.
+
+Many app stores are curated by their owners, requiring that submissions of prospective apps go through an approval process. These apps are inspected for compliance with certain guidelines (such as those for quality control and censorship), including the requirement that a commission be collected on each sale of a paid app. With the ease of use apps offer, and their presence on most mobile devices, app stores rose in prominence in at the beginning of the 21st century with their adoption by iOS ([iOS App Store]) and Android ([Google Play]). Similar systems for the distribution of apps written for other operating systems have also been available for some time (particularly [Linux] distributions since the early 1990s), through package management systems and their graphical front-ends.
+==
+
+iOS App Store
+The App Store is a digital distribution platform for mobile apps on [iOS], developed and maintained by [Apple Inc] The service allows users to browse and download applications that are developed with Apple's iOS SDK. The apps can be downloaded directly to an iOS device, or onto a personal computer via [iTunes] (also developed and maintained by Apple Inc).
+
+Applications in "The App Store" are targeted at iOS devices, including [iPhones] and [iPads], and may make use of specific attributes of those devices, such as motion sensors for game controls and cameras for online video calling. Apps may be downloaded for free or for a set cost, and they may include in-app monetization (costs levied from sale of virtual goods and / or advertising). Apple takes 30 percent of all revenue generated through apps, and 70 percent goes to the app's publisher.
+===
+
+Chrome OS
+Chrome OS is an [operating system] based on the [Linux] kernel and designed by [Google] to work with web applications and installed applications. Initially, Chrome OS was almost a pure web thin client operating system, with only a handful of "native" applications, but Google gradually began encouraging developers to create "packaged applications", some of which can work offline. In 2014, Google upgraded its [Play Store] standards for packaged applications, requiring that these applications work offline. Around the same time, Google also announced that Chrome OS would gain the ability to run [Android] applications natively, by late 2014. In September 2014, App Runtime for Chrome (beta) was launched together with four Android applications being able to run on Chrome OS.
+
+Chrome OS is built upon the open source project called [Chromium OS] which, unlike Chrome OS, can be compiled from the downloaded source code. Chrome OS is the commercial version installed on specific hardware from Google's manufacturing partners. The launch date for retail hardware featuring Chrome OS was delayed from late 2010 to 15 June 2011, when "[Chromebooks]" from [Samsung], and then [Acer] shipped in July.
+===
+
+Chromium OS
+Chromium OS is the open-source development version of [Chrome OS], which is a [Linux] distribution designed by [Google] to work primarily with web applications. The operating system's architecture is three-tiered, consisting of firmware, system-level software (which includes the Linux kernel), and a window manager.
+
+Installable, working versions of Chromium OS have been produced and made available for download primarily by hobbyists. Some devices come with Chromium OS preinstalled as their main operating system.
+===
+
+Chromebook
+A Chromebook is a laptop running [Chrome OS] as its operating system. The devices are designed to be used primarily while connected to the Internet, with most applications and data residing "in the cloud". A Chromebook is an example of a thin client.
+
+The first Chromebooks for sale, by [Acer Inc] and [Samsung], were announced at the [Google] I/O conference in May 2011 and began shipping on 15 June 2011. Lenovo, [Hewlett Packard] and Google itself entered the market in early 2013. In December 2013, Samsung launched a Samsung Chromebook specifically for the Indian market that employed the company's Exynos 5 Dual core processor. In addition to laptop models, a desktop version, called a Chromebox, was introduced in May 2012, and an "all-in-one" device was introduced in January 2014 by LG Electronics.
+
+Chromebooks are primarily sold both directly from Google and from the company's retail partners. By 2012, schools had become the largest category of customer. That October, Google broadened its marketing strategy to include first-time computer users and households seeking an additional computer. Critical reaction to the device was initially skeptical, with some reviewers, such as then New York Times technology columnist David Pogue, unfavourably comparing the value proposition of Chromebooks with that of more fully featured laptops running the [Microsoft Windows] operating system. That complaint dissipated later in reviews of machines from Acer and Samsung that were priced lower. In February 2013, Google announced and began shipping the Chromebook Pixel, a higher-spec machine with a high-end price tag.
+
+In October 2012, Simon Phipps, writing in InfoWorld, said, "The Chromebook line is probably the most successful Linux desktop / laptop computer we've seen to date". From January to November 2013, 1.76 million Chromebooks were sold in U.S. business to business channels.
+===
+
+Samsung
+Samsung is a South Korean multinational conglomerate company headquartered in Samsung Town, Seoul. It comprises numerous subsidiaries and affiliated businesses, most of them united under the Samsung brand, and is the largest South Korean chaebol.
+
+Samsung was founded by Lee Byung-chul in 1938 as a trading company. Over the next three decades, the group diversified into areas including food processing, textiles, insurance, securities and retail. Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid 1970s; these areas would drive its subsequent growth. Following Lee's death in 1987, Samsung was separated into four business groups - Samsung Group, Shinsegae Group, CJ Group and Hansol Group. Since 1990s, Samsung has increasingly globalised its activities, and electronics, particularly mobile phones and semiconductors, have become its most important source of income.
+
+Notable Samsung industrial subsidiaries include Samsung Electronics (the world's largest information technology company measured by 2012 revenues, and 4th in market value), Samsung Heavy Industries (the world's 2nd largest shipbuilder measured by 2010 revenues), and Samsung Engineering and Samsung C&amp;T (respectively the world's 13th and 36th largest construction companies). Other notable subsidiaries include Samsung Life Insurance (the world's 14th largest life insurance company), Samsung Everland (operator of Everland Resort, the oldest theme park in South Korea) and Cheil Worldwide (the world's 15th largest advertising agency measured by 2012 revenues).
+===
+
+BlackBerry OS
+BlackBerry OS is a proprietary mobile operating system developed by [BlackBerry Ltd] for its [BlackBerry] line of smartphone handheld devices. The operating system provides multitasking and supports specialised input devices that have been adopted by BlackBerry Ltd. for use in its handhelds, particularly the trackwheel, trackball, and most recently, the trackpad and touchscreen.
+
+The BlackBerry platform is perhaps best known for its native support for corporate email, through MIDP 1.0 and, more recently, a subset of MIDP 2.0, which allows complete wireless activation and synchronisation with [Microsoft Exchange], [Lotus Domino], or Novell GroupWise email, calendar, tasks, notes, and contacts, when used with BlackBerry Enterprise Server. The operating system also supports [WAP] 1.2.
+
+Updates to the operating system may be automatically available from wireless carriers that support the BlackBerry over the air software loading (OTASL) service.
+
+Third-party developers can write software using the available BlackBerry API classes, although applications that make use of certain functionality must be digitally signed.
+
+BlackBerry OS was discontinued after the release of BlackBerry 10, but BlackBerry will continue support for the BlackBerry OS.
+===
+
+BlackBerry
+BlackBerry is a line of wireless handheld devices (commonly called smartphones) and services designed and marketed by [BlackBerry Limited], formerly known as Research In Motion Limited (RIM). The very first RIM device was the Inter@ctive Pager 900, a clamshell type device that allowed two-way paging, announced on 18 September 1996. After the success of the 900, the Inter@ctive Pager 800 was created for [IBM], who bought US$10 million worth of them on 4 February 1998. The next device to be released was the Inter@ctive Pager 950, on 26 August 1998. The very first device to carry the BlackBerry name was the BlackBerry 850, an email pager, released 19 January 1999. Although identical in appearance to the 950, the 850 was the first device to integrate email and the name Inter@ctive Pager was no longer used to brand the device.
+
+The most recent BlackBerry devices are the BlackBerry Passport, BlackBerry Classic, and BlackBerry Z30. The user interface varies by model; most had featured a physical [QWERTY] keyboard, while newer generations have relied on a multi-touch screen and virtual keyboard.
+
+BlackBerry devices can record video, take photos, play music and also provide functions such as Web browsing, email messaging, instant messaging, and the multi-platform BlackBerry Messenger service.
+
+It was one of the major smartphone vendors until 2012. The consumer BlackBerry Internet Service is available in 91 countries worldwide on over 500 mobile service operators using various mobile technologies. As of September 2013, there were 85 million BlackBerry subscribers worldwide. That number has dropped steadily, down to 46 million in September 2014. From November 2013, BlackBerry could be run in multiplatform ([Android], [iOS] and [Windows Phone]) and up to June 2015 got 260 million new users.
+===
+
+BlackBerry Limited
+BlackBerry Limited, formerly known as Research In Motion Limited (RIM), is a Canadian telecommunication and wireless equipment company best known to the general public as the developer of the [BlackBerry] brand of smartphones and tablets, but also well known worldwide as a provider of secure & high reliability software for industrial applications and mobile device management (MDM). BlackBerry's software and hardware products are used worldwide by various government's agencies and by car makers and industrial plants throughout the world, much of this activity being unseen by the public. The company is headquartered in Waterloo, Ontario, Canada. It was founded by Mike Lazaridis and Douglas Fregin in 1984. Mr. Fregin later left the company. In 1992 Mr. Lazaridis hired Jim Balsillie, and Mr. Lazaridis and Mr. Balsillie served as co-CEOs until 22 January 2012. In November 2013, John S. Chen took over as CEO. His strategy is to subcontract manufacturing to Foxconn, and to focus on software technology.
+
+Originally a dominant innovative company in the smartphone market for business and government usage, with 43% US market share in 2010, the company's dominance in the US smartphone market has in recent years declined precipitously, in part because of intense competition from [Apple]'s [iPhone] and [Google]'s [Android]. Due to such competition, the company's share in the US personal consumer market has now been reduced to 1.5% in April 2015.
+===
+
+Nokia Corporation
+Nokia Corporation is a Finnish multinational communications and information technology company. Nokia is headquartered in Espoo, Uusimaa, in the greater Helsinki metropolitan area. In 2014, Nokia employed 61,656 people across 120 countries, conducts sales in more than 150 countries and reported annual revenues of around €12.73 billion. Nokia is a public limited liability company listed on the Helsinki Stock Exchange and New York Stock Exchange. It is the world's 274th largest company measured by 2013 revenues according to the Fortune Global 500.
+
+The company currently focuses on large-scale telecommunications infrastructures, technology development and licensing, and online mapping services. Nokia is also a significant contributor to the mobile telephony industry, having assisted in development of the GSM and LTE standards, and was, for a period, the largest vendor of mobile phones in the world. Nokia's dominance also extended into the smartphone industry through its Symbian platform, but it was soon overshadowed by the growing dominance of Apple's iPhone line and Android devices. Nokia eventually entered into a pact with [Microsoft] in 2011 to exclusively use its [Windows Phone] platform on future smartphones.
+
+In September 2013, Microsoft announced that it would acquire Nokia's mobile phone business as part of an overall deal totalling €5.44 billion (US $7.17 billion). Stephen Elop, Nokia's former CEO, and several other executives joined the new Microsoft Mobile subsidiary of Microsoft as part of the deal, which was completed on 25 April 2014. In November 2014, Nokia began to license product designs and technologies to third-party manufacturers, to enable a continued presence for the Nokia brand in the consumer electronics hardware market.
+
+On 15 April 2015, Nokia announced that it would acquire the French telecommunications equipment company Alcatel-Lucent for €15.6 billion.
+
+On 18 June 2015, Nokia's CEO Rajeev Suri revealed that the company plans to re-enter the mobile phone business in 2016.
+===
+
+Excite
+Excite is a collection of web sites and services, launched in December 1995. Excite is an online service offering a variety of content, including an Internet portal showing news and weather etc. (outside United States only), a search engine, a web-based [email], [instant messaging], stock quotes, and a customisable user homepage. The content is collated from over 100 different sources.
+
+Excite's portal and services are owned by Excite Networks, but in the USA, Excite is a personal portal, called My Excite, which is operated by Mindspark and owned by IAC Search and Media.
+
+In the 1990s, Excite was one of the most recognized brands on the Internet.
+===
+
+Acer
+Acer Inc is a Taiwanese multinational hardware and electronics corporation specialising in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer's products include desktop and laptop PCs, tablet computers, servers, storage devices, displays, LED, LCD and plasma televisions, smartphones and peripherals. It also provides e-business services to businesses, governments and consumers. In 2014 Acer was the fourth largest personal computer vendor in the world. In the early 2000s, Acer implemented a new business model, shifting from a manufacturer to a designer, marketer and distributor of products, while performing production processes via contract manufacturers. In addition to its core business, Acer owns the largest franchised computer retail chain in Taipei, Taiwan.
+===
+
+WAP (Wireless Application Protocol)
+Wireless Application Protocol (WAP) is a technical standard for accessing information over a mobile wireless network. A WAP browser is a web browser for mobile devices such as mobile phones that uses the protocol.
+
+The bottom most protocol in the suite, the WAP Datagram Protocol (WDP), functions as an adaptation layer that makes every data network look a bit like UDP to the upper layers by providing unreliable transport of data with two 16-bit port numbers (origin and destination). All the upper layers view WDP as one and the same protocol, which has several "technical realisations" on top of other "data bearers" such as SMS, USSD, etc. On native IP bearers such as GPRS, UMTS packet-radio service, or PPP on top of a circuit-switched data connection, WDP is in fact exactly UDP.
+
+WTLS, an optional layer, provides a public-key cryptography based security mechanism similar to TLS.
+
+WTP provides transaction support (reliable request / response) adapted to the wireless world. WTP supports more effectively than TCP the problem of packet loss, which occurs commonly in 2G wireless technologies in most radio conditions, but is misinterpreted by [TCP] as network congestion.
+
+Finally, one can think of WSP initially as a compressed version of [HTTP].
+
+This protocol suite allows a terminal to transmit requests that have an HTTP or HTTPS equivalent to a WAP gateway; the gateway translates requests into plain HTTP.
+===
+
+Windows Phone
+Windows Phone is a family of mobile operating systems developed by [Microsoft] for smartphones as the replacement successor to [Windows Mobile and [Zune]. Windows Phone features a new user interface derived from Metro design language. Unlike Windows Mobile, it is primarily aimed at the consumer market rather than the enterprise market. It was first launched in October 2010 with Windows Phone 7. Windows Phone 8.1 is the latest public release of the operating system, released to manufacturing on 14 April 2014.
+
+Windows 10 Mobile will succeed Windows Phone 8.1 in 2015; it emphasises a larger amount of integration and unification with its PC counterpart including a new, unified application ecosystem, along with an expansion of its scope to include small screened tablets.
+===
+
+Windows Mobile
+Windows Mobile is a family of mobile operating systems developed by [Microsoft] for smartphones and Pocket PCs.
+
+Its origins dated back to [Windows CE] in 1996, though Windows Mobile itself first appeared in 2000 as PocketPC 2000. It was renamed "Windows Mobile" in 2003, at which point it came in several versions (similar to the desktop versions of [Windows]) and was aimed at business and enterprise consumers. By 2007, it was the most popular smartphone software in the U.S., but this popularity faded in the following years. In February 2010, facing competition from rival OSs including [iOS] and [Android], Microsoft announced [Windows Phone] to supersede Windows Mobile. As a result, Windows Mobile has been deprecated. Windows Phone is incompatible with Windows Mobile devices and software. The last version of Windows Mobile, released after the announcement of Windows Phone, was 6.5.5. After this, Microsoft ceased development on Windows Mobile, in order to concentrate on Windows Phone.
+===
+
+Windows CE
+Windows Embedded Compact, formerly Windows Embedded CE and Windows CE, is an operating system subfamily developed by [Microsoft] as part of its Windows Embedded family of products. Unlike Windows Embedded Standard, which is based on [Windows NT], Windows Embedded Compact uses an exclusive hybrid kernel. Microsoft licenses Windows CE to original equipment manufacturers ([OEM]s), who can modify and create their own user interfaces and experiences, with Windows CE providing the technical foundation to do so.
+===
+
+Microsoft Schedule+
+Microsoft Schedule Plus (or Microsoft Schedule+) was a time management software product developed by [Microsoft], but was discontinued as part of [Microsoft Office] when most of its functionality was incorporated into [Outlook 97]. It was originally intended as a companion to Microsoft Mail, but later it was a companion to Microsoft Exchange and was part of Microsoft Office 95, and later Microsoft Exchange Client and Windows Messaging, so it was later included and developed as part of Microsoft Exchange Server, which resulted in version 7.5 of Schedule+ as part of Exchange Server 5.0. The "Outlook Calendar" that was part of Outlook for Windows 3.1 and Macintosh versions before 9.0 was actually a new version of Schedule+. In spite of being discontinued, the software, however, is still included with all versions of Microsoft Office up to Microsoft Office 2003, although it is just to support conversion from Schedule+ 1.x. It is not available in Office 2007, although it was present in early test builds.
+===
+
+
