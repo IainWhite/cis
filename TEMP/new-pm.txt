@@ -1,36 +1,10 @@
 
-Spam
-Electronic spamming is the use of electronic messaging systems to send unsolicited messages (spam), especially advertising, as well as sending messages repeatedly on the same site. While the most widely recognised form of spam is [email] spam, the term is applied to similar abuses in other media: [instant messaging] spam, [Usenet] newsgroup spam, Web search engine spam, spam in [blogs], [wiki] spam, online classified ads spam, mobile phone messaging spam, Internet forum spam, junk fax transmissions, social spam, television advertising and file sharing spam. It is named after Spam, a luncheon meat, by way of a Monty Python sketch in which Spam is included in every dish. The food is stereotypically disliked / unwanted, so the word came to be transferred by analogy.
-
-Spamming remains economically viable because advertisers have no operating costs beyond the management of their mailing lists, and it is difficult to hold senders accountable for their mass mailings. Because the barrier to entry is so low, spammers are numerous, and the volume of unsolicited mail has become very high. In the year 2011, the estimated figure for spam messages is around seven trillion. The costs, such as lost productivity and fraud, are borne by the public and by Internet service providers, which have been forced to add extra capacity to cope with the deluge. Spamming has been the subject of legislation in many jurisdictions.
-
-A person who creates electronic spam is called a spammer.
-===
-
-Voice over IP (VoIP)
-Voice over IP (VoIP) is a methodology and group of technologies for the delivery of voice communications and multimedia sessions over Internet Protocol ([IP]) networks, such as the Internet. Other terms commonly associated with VoIP are IP telephony, Internet telephony, broadband telephony, and broadband phone service.
-
-The term Internet telephony specifically refers to the provisioning of communications services (voice, fax, SMS, voice-messaging) over the public Internet, rather than via the public switched telephone network (PSTN). The steps and principles involved in originating VoIP telephone calls are similar to traditional digital telephony and involve signalling, channel setup, digitisation of the analog voice signals, and encoding. Instead of being transmitted over a circuit-switched network, however, the digital information is packetised, and transmission occurs as IP packets over a packet-switched network. Such transmission entails careful considerations about resource management different from time-division multiplexing (TDM) networks.
-
-Early providers of voice-over-IP services offered business models and technical solutions that mirrored the architecture of the legacy telephone network. Second generation providers, such as [Skype], have built closed networks for private user bases, offering the benefit of free calls and convenience while potentially charging for access to other communication networks, such as the PSTN. This has limited the freedom of users to mix-and-match third-party hardware and software. Third generation providers, such as [Google Talk], have adopted the concept of federated VoIP which is a departure from the architecture of the legacy networks. These solutions typically allow dynamic interconnection between users on any two domains on the Internet when a user wishes to place a call.
-
-VoIP systems employ session control and signalling protocols to control the signalling, set-up, and tear-down of calls. They transport audio streams over IP networks using special media delivery protocols that encode voice, audio, video with audio codecs, and video codecs as Digital audio by streaming media. Various codecs exist that optimize the media stream based on application requirements and network bandwidth; some implementations rely on narrowband and compressed speech, while others support high fidelity stereo codecs. Some popular codecs include μ-law and a-law versions of G.711, G.722, a popular open source voice codec known as iLBC, a codec that only uses 8 kbit/s each way called G.729, and many others.
-
-VoIP is available on many smartphones, personal computers, and on Internet access devices.
-===
-
 Google Hangouts
 Google Hangouts is a communication platform developed by [Google] which includes [instant messaging], video chat, SMS and [VoIP] features. It replaces three messaging products that Google had implemented concurrently within its services, including [Google Talk], Google+ Messenger (formerly: Huddle), and Hangouts, a video chat system present within Google+. Google has also stated that Hangouts is designed to be "the future" of its telephony product, Google Voice, and integrated some of the capabilities of Google Voice into Hangouts. In current versions of [Android], Hangouts is the default application for text messaging.
 
 Prior to the launch of Hangouts, Google had maintained several similar, but technologically separate messaging services and platforms across its suite of products. These have included the enterprise oriented Google Talk (based on [XMPP]), Google+ Messenger, and the Hangouts feature of Google+, which allows for group videoconferencing with up to 10 users at once. However, its increasingly fragmented and non-unified suite of messaging offerings was also facing growing competition from services such as [Facebook Messenger], [iMessage], and [WhatsApp]. A decision was made to scrap the existing Google Talk system and code a new messaging product through a collaboration with multiple development teams.
 
 Following reports that the new service would be known as "Babel", the service officially launched as Hangouts during the Google I/O conference on 15 May 2013.
-===
-
-MODEM
-A MODEM (modulator-demodulator) is a device that modulates signals to encode digital information and demodulates signals to decode the transmitted information. The goal is to produce a signal that can be transmitted easily and decoded to reproduce the original digital data. Modems can be used with any means of transmitting analog signals, from light emitting diodes to radio. A common type of modem is one that turns the digital data of a computer into modulated electrical signal for transmission over telephone lines and demodulated by another modem at the receiver side to recover the digital data.
-
-Modems are generally classified by the amount of data they can send in a given unit of time, usually expressed in bits per second (symbol bit/s, sometimes abbreviated "bps"), or bytes per second (symbol B/s). Modems can also be classified by their symbol rate, measured in baud. The baud unit denotes symbols per second, or the number of times per second the modem sends a new signal. For example, the ITU V.21 standard used audio frequency shift keying with two possible frequencies, corresponding to two distinct symbols (or one bit per symbol), to carry 300 bits per second using 300 baud. By contrast, the original ITU V.22 standard, which could transmit and receive four distinct symbols (two bits per symbol), transmitted 1,200 bits by sending 600 symbols per second (600 baud) using phase shift keying.
 ===
 
 Daemon
@@ -51,20 +25,6 @@ The software utility Cron is a time-based job scheduler in [Unix-like] computer 
 Cron is driven by a crontab (cron table) file, a configuration file that specifies shell commands to run periodically on a given schedule. The crontab files are stored where the lists of jobs and other instructions to the cron [daemon] are kept. Users can have their own individual crontab files and often there is a system wide crontab file (usually in /etc or a subdirectory of /etc) that only system administrators can edit.
 
 Each line of a crontab file represents a job, and is composed of a CRON expression, followed by a shell command to execute. Some cron implementations, such as in the popular 4th [BSD] edition written by Paul Vixie and included in many Linux distributions, add a sixth field: an account username that runs the specified job (subject to user existence and permissions). This is allowed only in the system crontabs not in others, which are each assigned to a single user to configure. The sixth field is alternatively sometimes used for year instead of an account username the nncron daemon for Windows does this.
-===
-
-TYPO3 CMS
-TYPO3 is a free and open source web content management system written in [PHP]. It is released under the [GNU General Public License]. It can run on several web servers, such as [Apache] or [IIS], on top of many operating systems, among them [Linux], [Microsoft Windows], [FreeBSD], [Mac OS X] and [OS/2].
-
-TYPO3 is, along with [Drupal], [Joomla!] and [WordPress], among the most popular content management systems worldwide, however it is more widespread in Europe than in other regions. The biggest market share can be found in German speaking countries.
-
-TYPO3 is credited to be highly flexible. It can be extended by new functions without writing any program code. Also, the software is available in more than 50 languages and has a built-in localisation system, therefore supports publishing content in multiple languages. Due to its features, scalability and maturity, TYPO3 is used to build and manage websites of different types and size ranges, from small sites for individuals or nonprofit organisations to multilingual enterprise solutions for large corporations. According to the ability to support a corporate environment, it is classified as an enterprise level content management system.
-===
-
-Yahoo Mail 
-Yahoo Mail is a free email service (except for Yahoo Mail Business Email Plans) offered by the American company [Yahoo!]. It was launched in 1997, and, according to comScore, Yahoo Mail was the third largest web-based email service with 281 million users as of December 2011.
-
-As many as three web interfaces were available at any given date. The traditional "Yahoo Mail Classic" preserved the availability of their original 1997 interface until July 2013 in North America. A 2005 version included a new [Ajax] interface, drag-and-drop, improved search, keyboard shortcuts, address auto-completion and tabs. However other features were removed, such as column widths and one click delete-move-to-next. In October 2010, Yahoo released a beta version of Yahoo Mail that included improvements to performance, search and [Facebook] integration. In May 2011 it became the default interface. Their current Webmail interface was introduced during 2012. Yahoo Mail had unlimited storage from 27 March 2007 until 8 October 2013. The new design introduced to users from October 2013 was met with heavy criticism of its layout and user ability. Yahoo Mail suffered a major outage where some users could not access their email messages beginning 10 December 2013 until 12 December 2013, when the outage was fully resolved.
 ===
 
 Google Calendar
