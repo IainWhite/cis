@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('iOS App Store'); ?>
+        <p>The <strong>App Store</strong> is a digital distribution platform for mobile apps on <?php echo $this->stencil->addLink('iOS', 'OS'); ?>, developed and maintained by <?php echo $this->stencil->addLink('Apple Inc', 'C'); ?> The service allows users to browse and download applications that are developed with Apple's iOS SDK. The apps can be downloaded directly to an iOS device, or onto a personal computer via <?php echo $this->stencil->addLink('iTunes', 'URL'); ?> (also developed and maintained by Apple Inc).</p>
+        <p>Applications in "The App Store" are targeted at iOS devices, including <?php echo $this->stencil->addLink('iPhones', 'ITH'); ?> and <?php echo $this->stencil->addLink('iPads', 'ITH'); ?>, and may make use of specific attributes of those devices, such as motion sensors for game controls and cameras for online video calling. Apps may be downloaded for free or for a set cost, and they may include in-app monetization (costs levied from sale of virtual goods and / or advertising). Apple takes 30 percent of all revenue generated through apps, and 70 percent goes to the app's publisher.</p>
+    </div>
+</div>

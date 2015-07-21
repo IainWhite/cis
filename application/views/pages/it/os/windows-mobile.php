@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Windows Mobile'); ?>
+        <p><strong>Windows Mobile</strong> is a family of mobile operating systems developed by <?php echo $this->stencil->addLink('Microsoft', 'C'); ?> for smartphones and Pocket PCs.</p>
+        <p>Its origins dated back to <?php echo $this->stencil->addLink('Windows CE', 'WIN'); ?> in 1996, though Windows Mobile itself first appeared in 2000 as <strong>PocketPC 2000</strong>. It was renamed "Windows Mobile" in 2003, at which point it came in several versions (similar to the desktop versions of <?php echo $this->stencil->addLink('Windows', 'OS'); ?>) and was aimed at business and enterprise consumers. By 2007, it was the most popular smartphone software in the U.S., but this popularity faded in the following years. In February 2010, facing competition from rival OSs including <?php echo $this->stencil->addLink('iOS', 'OS'); ?> and <?php echo $this->stencil->addLink('Android', 'OS'); ?>, Microsoft announced <?php echo $this->stencil->addLink('Windows Phone', 'OS'); ?> to supersede Windows Mobile. As a result, Windows Mobile has been deprecated. Windows Phone is incompatible with Windows Mobile devices and software. The last version of Windows Mobile, released after the announcement of Windows Phone, was 6.5.5. After this, Microsoft ceased development on Windows Mobile, in order to concentrate on Windows Phone.</p>
+    </div>
+</div>

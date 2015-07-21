@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Microsoft Schedule+'); ?>
+        <p><strong>Microsoft Schedule Plus</strong> (or <strong>Microsoft Schedule+</strong>) was a time management software product developed by <?php echo $this->stencil->addLink('Microsoft', 'C'); ?>, but was discontinued as part of <?php echo $this->stencil->addLink('Microsoft Office', 'ITS'); ?> when most of its functionality was incorporated into <?php echo $this->stencil->addLink('Outlook 97', 'ITS'); ?>. It was originally intended as a companion to <strong>Microsoft Mail</strong>, but later it was a companion to Microsoft Exchange and was part of Microsoft Office 95, and later Microsoft Exchange Client and Windows Messaging, so it was later included and developed as part of Microsoft Exchange Server, which resulted in version 7.5 of Schedule+ as part of Exchange Server 5.0. The "Outlook Calendar" that was part of Outlook for Windows 3.1 and Macintosh versions before 9.0 was actually a new version of Schedule+. In spite of being discontinued, the software, however, is still included with all versions of Microsoft Office up to Microsoft Office 2003, although it is just to support conversion from Schedule+ 1.x. It is not available in Office 2007, although it was present in early test builds.</p>
+    </div>
+</div>
