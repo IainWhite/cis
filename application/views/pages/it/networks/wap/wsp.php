@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Wireless Session Protocol (WSP)'); ?>
+        <p><strong>Wireless Session Protocol (WSP)</strong> is an open standard for maintaining high level session. Wireless session is nothing but a normal Web browsing session that starts when the user connects to one <?php echo $this->stencil->addLink('URL', 'WD'); ?> and ends when the user leaves that URL. By establishing the session means that the session wide properties need only to be defined once at the beginning of the session. This has the benefit of saving bandwidth due to the nature of the wireless communication. The session establishing process will not have lengthy hand shaking mechanisms.</p>
+        <p>WSP is based on <strong>HTTP 1.1</strong> with few enhancements. WSP provides the upper-level application layer of <?php echo $this->stencil->addLink('WAP', 'ITN'); ?> with a consistent interface for two session services. The first is a connection oriented service that operates above a transaction layer protocol <?php echo $this->stencil->addLink('WTP', 'WAP'); ?> and the second is a connection less service that operates above a secure or non-secure datagram transport service. Therefore, WSP exists for two reasons. First, in the connection mode it enhances the HTTP 1.1's performance over wireless environment. Second, it provides a session layer so the whole WAP environment resembles <?php echo $this->stencil->addLink('ISO OSI Reference Model', 'ITN'); ?>.</p>
+    </div>
+</div>

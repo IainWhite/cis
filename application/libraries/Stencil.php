@@ -673,6 +673,9 @@ class Stencil {
             case 'IPT':
                 $path = 'it/networks/ip-suite/transport';
                 break;
+            case 'WAP':
+                $path = 'it/networks/wap';
+                break;
             case 'OS':
                 $path = 'it/operating-systems';
                 break;

@@ -7,26 +7,6 @@ Prior to the launch of Hangouts, Google had maintained several similar, but tech
 Following reports that the new service would be known as "Babel", the service officially launched as Hangouts during the Google I/O conference on 15 May 2013.
 ===
 
-Daemon
-In multitasking computer operating systems, a daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user. Traditionally daemon names end with the letter d. For example, syslogd is the daemon that implements the system logging facility and sshd is a daemon that services incoming [SSH] connections.
-
-In a [Unix] environment, the parent process of a daemon is often, but not always, the init process. A daemon is usually either created by a process forking a child process and then immediately exiting, thus causing init to adopt the child process, or by the init process directly launching the daemon. In addition, a daemon launched by forking and exiting typically must perform other operations, such as dissociating the process from any controlling terminal (tty). Such procedures are often implemented in various convenience routines such as daemon in Unix.
-
-Systems often start daemons at boot time and serve the function of responding to network requests, hardware activity, or other programs by performing some task. Daemons can also configure hardware (like udevd on some [Linux] systems), run scheduled tasks (like [cron]), and perform a variety of other tasks.
-
-The term was coined by the programmers of [MIT]'s Project MAC. They took the name from Maxwell's demon, an imaginary being from a thought experiment that constantly works in the background, sorting molecules. Unix systems inherited this terminology. Maxwell's Demon is consistent with Greek mythology's interpretation of a daemon as a supernatural being working in the background, with no particular bias towards good or evil. However, [BSD] and some of its derivatives have adopted a Christian demon as their mascot rather than a Greek daemon.
-
-The word daemon is an alternative spelling of demon. Alternate terms for daemon are service ([Microsoft Windows NT]), started task (IBM z/OS), and ghost job (XDS UTS).
-===
-
-Cron
-The software utility Cron is a time-based job scheduler in [Unix-like] computer operating systems. People who set up and maintain software environments use cron to schedule jobs (commands or shell scripts) to run periodically at fixed times, dates, or intervals. It typically automates system maintenance or administration though its general purpose nature makes it useful for things like connecting to the Internet and downloading email at regular intervals. The origin of the name cron is obscure; it has been suggested that it comes from the Greek word for time, chronos, or that it is an acronym for "Command Run On Notice" or for "Commands Run Over Night".
-
-Cron is driven by a crontab (cron table) file, a configuration file that specifies shell commands to run periodically on a given schedule. The crontab files are stored where the lists of jobs and other instructions to the cron [daemon] are kept. Users can have their own individual crontab files and often there is a system wide crontab file (usually in /etc or a subdirectory of /etc) that only system administrators can edit.
-
-Each line of a crontab file represents a job, and is composed of a CRON expression, followed by a shell command to execute. Some cron implementations, such as in the popular 4th [BSD] edition written by Paul Vixie and included in many Linux distributions, add a sixth field: an account username that runs the specified job (subject to user existence and permissions). This is allowed only in the system crontabs not in others, which are each assigned to a single user to configure. The sixth field is alternatively sometimes used for year instead of an account username the nncron daemon for Windows does this.
-===
-
 Google Calendar
 Google Calendar is a time management web application and mobile app for created by [Google]. It became available on 13 April 2006, and exited the beta stage in July 2009. Users are required to have a Google Account in order to use the app.
 
@@ -81,89 +61,4 @@ On 14 July 2011, Google introduced "Google News Badges," which it later retired 
 Additionally in July 2011, the Sci/Tech section of the English Google News versions was split up into two sections: Science and Technology. It was announced that this section split would be performed on other language versions as well. As of early 2013, this split had not been applied to all language versions of Google News.
 ===
 
-QWERTY
-QWERTY is the most common modern-day keyboard layout for Latin script. The name comes from reading the first six keys appearing on the top left letter row of the keyboard (Q, W, E, R, T, and Y) from left to right. The QWERTY design is based on a layout created for the Sholes and Glidden typewriter and sold to Remington in 1873. It became popular with the success of the Remington No. 2 of 1878, and remains in use on electronic keyboards due to inertia, the difficulty of learning a layout that differs from the currently entrenched standard, the network effect of a standard layout and the claim by some that alternatives fail to provide very significant advantages. The QWERTY keyboard has only one vowel (the letter A) on the home row, even though every English word contains a vowel, forcing the fingers to travel off the home row for most words.
-===
-
-Wireless Markup Language (WML)
-Wireless Markup Language (WML), based on [XML], is a markup language intended for devices that implement the Wireless Application Protocol ([WAP]) specification, such as mobile phones. It provides navigational support, data input, hyperlinks, text and image presentation, and forms, much like [HTML] (HyperText Markup Language). It preceded the use of other markup languages now used with WAP, such as HTML itself, and [XHTML] (which are gaining in popularity as processing power in mobile devices increases).
-
-Building on Openwave's [HDML], Nokia's "Tagged Text Markup Language" (TTML) and Ericsson's proprietary markup language for mobile content, the WAP Forum created the WML 1.1 standard in 1998. WML 2.0 was specified in 2001, but has not been widely adopted. It was an attempt at bridging WML and XHTML Basic before the WAP 2.0 spec was finalised. In the end, XHTML Mobile Profile became the markup language used in WAP 2.0. The newest WML version in active use is 1.3.
-
-The first company to launch a public WML site was Dutch mobile phone network operator Telfort in October 1999 and the first company in the world to launch the Nokia 7110. The Telfort WML site was created and developed as side project to test the device's capabilities by a billing engineer called Christopher Bee and National Deployment Manager, Euan McLeod. The WML site consists of four pages in both Dutch and English that contained many grammatical errors in Dutch as the two developers were unaware the WML was configured on the Nokia 7110 as the home page and neither were native Dutch speakers.
-===
-
-Wireless Datagram Protocol (WDP)
-Wireless Datagram Protocol (WDP), defines the movement of information from receiver to the sender and resembles the User Datagram Protocol in the Internet protocol suite.
-The Wireless Datagram Protocol a protocol in WAP architecture, covers the Transport Layer Protocols in the Internet model. As a general transport service, WDP offers to the upper layers an invisible interface independent of the underlying network technology used. In consequence of the interface common to transport protocols, the upper layer protocols of the WAP architecture can operate independent of the underlying wireless network. By letting only the transport layer deal with physical network dependent issues, global interoperability can be acquired using mediating gateways.
-===
-
-Wireless Transport Layer Security (WTLS)
-Wireless Transport Layer Security (WTLS) is a security protocol, part of the Wireless Application Protocol ([WAP]) stack. It sits between the [WTP] and [WDP] layers in the WAP communications stack.
-
-WTLS is derived from [TLS]. WTLS uses similar semantics adapted for a low bandwidth mobile device. The main changes are...
-
-    - Compressed data structures - Where possible packet sizes are reduced by using bit-fields, discarding redundancy and truncating some cryptographic elements.
-    - New certificate format - WTLS defines a compressed certificate format. This broadly follows the X.509 v3 certificate structure, but uses smaller data structures.
-    - Packet based design - TLS is designed for use over a data stream. WTLS adapts that design to be more appropriate on a packet based network. A significant amount of the design is based on a requirement that it be possible to use a packet network such as SMS as a data transport.
-
-WTLS has been superseded in the WAP Wireless Application Protocol 2.0 standard by the End-to-end Transport Layer Security Specification.
-===
-
-Wireless Transaction Protocol (WTP)
-Wireless Transaction Protocol (WTP) is a standard used in mobile telephony. It is a layer of the Wireless Application Protocol ([WAP]) that is intended to bring Internet access to mobile phones. WTP provides functions to similar to [TCP], except that WTP has reduced amount of information needed for each transaction (e.g. does not include a provision for rearranging out-of-order packets). WTP runs on top of UDP and performs many of the same tasks as TCP but in a way optimised for wireless devices, which saves processing and memory cost as compared to TCP.
-
-It Supports 3 types of transaction:
-
-1    Unreliable One-Way Request
-2    Reliable One-Way Request
-3    Reliable Two-Way request
-===
-
-Wireless Session Protocol (WSP)
-Wireless Session Protocol (WSP) is an open standard for maintaining high level session. Wireless session is nothing but a normal Web browsing session that starts when the user connects to one URL and ends when the user leaves that [URL]. By establishing the session means that the session wide properties need only to be defined once at the beginning of the session. This has the benefit of saving bandwidth due to the nature of the wireless communication. The session establishing process will not have lengthy hand shaking mechanisms.
-
-WSP is based on HTTP 1.1 with few enhancements. WSP provides the upper-level application layer of [WAP] with a consistent interface for two session services. The first is a connection oriented service that operates above a transaction layer protocol [WTP] and the second is a connection less service that operates above a secure or non-secure datagram transport service. Therefore, WSP exists for two reasons. First, in the connection-mode it enhances the HTTP 1.1's performance over wireless environment. Second, it provides a session layer so the whole WAP environment resembles [ISO OSI Reference Model].
-===
-
-Handheld Device Markup Language (HDML)
-The Handheld Device Markup Language (HDML) is a markup language intended for display on handheld computers, information appliances, smartphones, etc.. It is similar to [HTML], but for wireless and handheld devices with small displays, like PDA, mobile phones and so on.
-
-It was originally developed in about 1996 by Unwired Planet, the company that became Phone.com and then Openwave. HDML was submitted to [W3C] for standardisation, but was not turned into a standard. Instead it became an important influence on the development and standardisation of [WML], which then replaced HDML in practice. (Although HDML is still in use in Japan by KDDI brands such as au, especially for mobile banking solutions.)
-===
-
-XHTML Basic
-XHTML Basic is an [XML] based structured markup language primarily used for simple (mainly handheld) user agents, typically mobile devices.
-
-XHTML Basic is a subset of XHTML 1.1, defined using [XHTML] Modularisation including a reduced set of modules for document structure, images, forms, basic tables, and object support. XHTML Basic is suitable for mobile phones, PDAs, pagers, and settop boxes.
-
-It will replace [WML] and [C-HTML] as more compliant user agents are developed.
-
-One large advantage XHTML Basic has over WML and C-HTML is that XHTML Basic pages can be rendered differently in web browsers and on handhelds, without the need for two different versions of the same page.
-
-In 2006, the specification was revised to version 1.1. Six new features have been incorporated into the language in order to better serve the small device community.
-===
-
-XHTML Mobile Profile (XHTML MP)
-XHTML Mobile Profile (XHTML MP) is a hypertextual computer language standard designed specifically for mobile phones and other resource constrained devices.
-
-It is an [XHTML] document type defined by the Open Mobile Alliance. XHTML-MP is derived from [XHTML Basic] 1.0 by adding XHTML Modules, with later versions of the standard adding more modules. However, for certain modules, XHTML-MP does not mandate a complete implementation so an XHTML-MP browser may not be fully conforming on all modules.
-
-XHTML Basic 1.1 became a [W3C] Recommendation in July 2008, superseding XHTML-MP 1.2.
-===
-
-C-HTML
-C-HTML (short for Compact HyperText Markup Language), also called i-mode-HTML, is a subset of [HTML] for small information devices, such as first generation smartphones and PDAs, such as DoCoMo's i-mode mobile phones used in Japan. C-HTML adds several features not found in standard HTML, notably accesskeys, phone number shortcuts for links, and emoji pictorial characters as locally extended Shift JIS, all concepts borrowed from HDML and [WML].
-
-Because small devices such as cellular phones have hardware restrictions such as lower memory, low-power CPUs with limited or no storage capabilities, small monochrome display screens, single-character fonts and restricted input methods (the absence of a keyboard or a mouse), there is a need for a simpler form of HTML.
-
-C-HTML does not support tables, image maps, multiple fonts and styling of fonts, background colours and images, frames, or style sheets, and is limited to a monochromatic display.
-
-The language is defined so that all the basic interactive operations can be done by a combination of four buttons and not by two-dimensional cursor movement: cursor forward, cursor backward, select, and back/stop. Functionality requiring two-dimensional cursor pointing, like image maps, is excluded from C-HTML.
-===
-
-Tagged Text Markup Language (TTML)
-TTML was used by the [Nokia 9000 Communicator] in 1997 to enable network operators and third-party providers to offer information from the Internet to subscribers. The technology optimised Web pages for narrow-band connections by filtering out extra information such as logos and graphics.
-
-TTML was one of the markup languages used by the WAP Forum during the creation of the [WML] 1.1 standard in 1998, which effectively made TTML itself obsolete.
-===
+ISO OSI Reference Model

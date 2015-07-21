@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('QWERTY'); ?>
+        <p><strong>QWERTY</strong> is the most common modern-day keyboard layout for Latin script. The name comes from reading the first six keys appearing on the top left letter row of the keyboard (Q, W, E, R, T, and Y) from left to right. The QWERTY design is based on a layout created for the <strong>Sholes and Glidden</strong> typewriter and sold to <strong>Remington</strong> in 1873. It became popular with the success of the Remington No. 2 of 1878, and remains in use on electronic keyboards due to inertia, the difficulty of learning a layout that differs from the currently entrenched standard, the network effect of a standard layout and the claim by some that alternatives fail to provide very significant advantages. The QWERTY keyboard has only one vowel (the letter A) on the home row, even though every English word contains a vowel, forcing the fingers to travel off the home row for most words.</p>
+    </div>
+</div>
