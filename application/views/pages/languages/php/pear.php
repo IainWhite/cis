@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('EAR - PHP Extension and Application Repository'); ?>
+        <?php echo $this->stencil->setHeadline('PEAR - PHP Extension and Application Repository'); ?>
         <p><strrong>The PHP Extension and Application Repository</strrong>, or <strong>PEAR</strong>, is a repository of <?php echo $this->stencil->addLink('PHP', 'L'); ?> software code.</p>
         <p><strong>Stig S. Bakken</strong> founded the PEAR project in 1999 to promote the re-use of code that performs common functions.</p>
         <p>The project seeks to provide a structured library of code, maintain a system for distributing code and for managing code packages, and promote a standard coding style. Though community driven, the PEAR project has a PEAR Group which serves as the governing body and takes care of administrative tasks. Each PEAR code package comprises an independent project under the PEAR umbrella. It has its own development team, versioning control and documentation.</p>
