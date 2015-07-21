@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Google Calendar'); ?>
+        <p><strong>Google Calendar</strong> is a time management web application and mobile app for created by <?php echo $this->stencil->addLink('Google', 'C'); ?>. It became available on 13 April 2006, and exited the beta stage in July 2009. Users are required to have a Google Account in order to use the app.</p>
+        <p>The interface of Google Calendar, designed by <strong>Kevin Fox</strong>, is similar to desktop calendar applications such as <?php echo $this->stencil->addLink('Microsoft Outlook', 'ITS'); ?> or <?php echo $this->stencil->addLink('iCal', 'ITS'); ?> on <?php echo $this->stencil->addLink('Mac OS X', 'OS'); ?>. The <?php echo $this->stencil->addLink('AJAX', 'WD'); ?> driven interface enables users to set the number of days to show in their custom view mode.stored online; consequently, the calendar can be viewed from any location that has Internet access. For users who might experience a hard drive failure, it also means that no data is lost. The application can import Microsoft Outlook calendar files (<code>.vcs</code>) and , add, and drag-and-drop events from one date to another without reloading the page. It supports view modes such as weekly, monthly, and agenda. Users can "quick add" calendar events by typing standard English phrases, such as "<em>Dinner with Iain and Mary at 7p.m. tomorrow</em>". Users can also set the number of days to show in their custom view mode.</p>
+    </div>
+</div>
