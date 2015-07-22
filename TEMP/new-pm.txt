@@ -331,34 +331,43 @@ The preferences dialog for Terminal.app in OS X 10.8 ([Mountain Lion]) offers ch
 
 Terminal includes several features that specifically access OS X APIs and features. These include the ability to use the standard OS X Help search function to find manual pages and integration with Spotlight. Terminal was used by Apple as a showcase for OS X graphics APIs in early advertising of Mac OS X, offering a range of custom font and colouring options, including transparent backgrounds.
 ===
-Wyse is a leading manufacturer[1] of cloud computing systems. They are best known for their video terminal line introduced in the 1980s, which competed with the market leading Digital. They also had a successful line of IBM PC compatible in the mid-to-late 1980s, but were outcompeted by companies such as Dell starting late in the decade. Current products include thin client hardware and software[2] as well as desktop virtualization.[3] Other products include cloud software-supporting desktop computers, laptops, and mobile devices.[4] Dell Cloud Client Computing is partnered with IT vendors such as Citrix, IBM, Microsoft, and VMware.[5]
 
-On 2 April 2012, Dell and Wyse announced that Dell intends to take over the company.[6] With this acquisition Dell would surpass their rival Hewlett-Packard in the market for thin clients.[7] On 25 May 2012 Dell informed the market that it had completed the acquisition of Wyse Technology,[8] which is now known as Dell Wyse.
+Wyse
+Wyse is a leading manufacturer of cloud computing systems. They are best known for their video terminal line introduced in the 1980s, which competed with the market leading [DEC]. They also had a successful line of [IBM PC compatible] in the mid to late 1980s, but were outcompeted by companies such as [Dell] starting late in the decade. Current products include thin client hardware and software as well as desktop virtualisation. Other products include cloud software supporting desktop computers, laptops, and mobile devices.
+
+On 2 April 2012, Dell and Wyse announced that Dell intends to take over the company. With this acquisition Dell would surpass their rival [Hewlett-Packard] in the market for thin clients. On 25 May 2012 Dell informed the market that it had completed the acquisition of Wyse Technology, which is now known as Dell Wyse.
 ===
-The National Replacement Character Set, or NRCS for short, was a feature supported by later models of Digital's (DEC) computer terminal systems, starting with the VT200 series in 1983. NRCS allowed individual characters from one character set to be replaced by one from another set, allowing the construction of different character sets on the fly. It was used to customize the character set to different local languages, without having to change the terminal's ROM for different counties, or alternately, include many different sets in a larger ROM. Many 3rd party terminals and terminal emulators supporting VT200 codes also supported NRCS.
 
-ASCII is a 7-bit standard, allowing a total of 128 characters in the character set. Some of these are reserved as control characters, leaving 96 printable characters. This set of 96 includes upper and lower case letters, numbers, and basic math and punctuation.
+National Replacement Character Set
+The National Replacement Character Set, or NRCS for short, was a feature supported by later models of Digital's ([DEC]) computer terminal systems, starting with the [VT200] series in 1983. NRCS allowed individual characters from one character set to be replaced by one from another set, allowing the construction of different character sets on the fly. It was used to customize the character set to different local languages, without having to change the terminal's [ROM] for different counties, or alternately, include many different sets in a larger ROM. Many 3rd party terminals and terminal emulators supporting VT200 codes also supported NRCS.
 
-ASCII does not have enough room to include other common characters such as multi-national currency symbols or the various accented letters common in European languages. This led to a number of country-specific varieties of 7-bit ASCII with certain characters replaced. For instance, the UK standard simply replaced ASCII's hash mark, #, with the pound symbol, £. This normally led to different models of a given computer terminal or printer, differing only in the glyphs stored in ROM. These were standardized as part of ISO/IEC 646.[1][2]
+[ASCII] is a 7-bit standard, allowing a total of 128 characters in the character set. Some of these are reserved as control characters, leaving 96 printable characters. This set of 96 includes upper and lower case letters, numbers, and basic math and punctuation.
 
-On an 8-bit clean serial link, ASCII can be expanded to support a total of 256 characters. In this case, instead of replacing the characters in the original printable characters range from 32 to 127, new characters are added in the 128 to 255 range. This offers enough room for a single character set to include all the variety of characters used in North America and western Europe. This capability led to the introduction of the ISO/IEC 8859-1 standard character set containing 191 characters of what it calls the "Latin alphabet no. 1", but normally referred to as "ISO Latin". Windows-1252 is a slightly expanded superset of ISO Latin.[1]
+ASCII does not have enough room to include other common characters such as multi-national currency symbols or the various accented letters common in European languages. This led to a number of country specific varieties of 7-bit ASCII with certain characters replaced. For instance, the UK standard simply replaced ASCII's hash mark, #, with the pound symbol, £. This normally led to different models of a given computer terminal or printer, differing only in the [glyphs] stored in ROM. These were standardised as part of ISO/IEC 646.
 
-NRCS was introduced to solve the problem of requiring different terminals for each country by allowing characters in the basic 7-bit ASCII set to be re-defined by copying the glyph from the DEC's version of ISO Latin, the Multinational Character Set (MCS). This meant that the ROM had to store only two character sets, standard ASCII and MCS, and could build any required local ASCII variant on the fly. For instance, instead of having a separate "UK ASCII" version of the terminal with a modified glyph in ROM, the terminal included an NRCS with instructions to replace the hash mark glyph with the pound. When used in the UK, typing Shift 3 produced the pound, the same keys pressed on a US terminal produced hash.[1]
+On an [8-bit clean] serial link, ASCII can be expanded to support a total of 256 characters. In this case, instead of replacing the characters in the original printable characters range from 32 to 127, new characters are added in the 128 to 255 range. This offers enough room for a single character set to include all the variety of characters used in North America and western Europe. This capability led to the introduction of the ISO/IEC 8859-1 standard character set containing 191 characters of what it calls the "Latin alphabet no. 1", but normally referred to as "ISO Latin". [Windows-1252] is a slightly expanded superset of ISO Latin.
 
-The NRCS could be set through a setup command, or more commonly, by replacing the keyboard with a model that sent back a code when first booted. That way simply plugging in a UK keyboard, which had a pound sign on the 3 key, automatically set the NRSC to that same replacement.[1]
+NRCS was introduced to solve the problem of requiring different terminals for each country by allowing characters in the basic 7-bit ASCII set to be re-defined by copying the glyph from the DEC's version of ISO Latin, the [Multinational Character Set] (MCS). This meant that the ROM had to store only two character sets, standard ASCII and MCS, and could build any required local ASCII variant on the fly. For instance, instead of having a separate "UK ASCII" version of the terminal with a modified glyph in ROM, the terminal included an NRCS with instructions to replace the hash mark glyph with the pound. When used in the UK, typing Shift 3 produced the pound, the same keys pressed on a US terminal produced hash.
 
+The NRCS could be set through a setup command, or more commonly, by replacing the keyboard with a model that sent back a code when first booted. That way simply plugging in a UK keyboard, which had a pound sign on the 3 key, automatically set the NRSC to that same replacement.
 ===
-The Multinational Character Set (MCS) is a character encoding created by Digital Equipment Corporation for use in the popular VT220 terminal. It was an 8-bit extension of ASCII that added accented characters, currency symbols, and other character glyphs missing from 7-bit ASCII. It is only one of the code pages implemented for the VT220 National Replacement Character Set.[1][2]
 
-Such "extended ASCII" sets were common (the National Replacement Character Set provided sets for more than a dozen European languages), but MCS has the distinction of being the ancestor of both ISO 8859-1 and Unicode.[3]
+Multinational Character Set (MCS)
+The Multinational Character Set (MCS) is a character encoding created by [Digital Equipment Corporation] for use in the popular [VT220] terminal. It was an [8-bit] extension of ASCII that added accented characters, currency symbols, and other character [glyphs] missing from 7-bit [ASCII]. It is only one of the code pages implemented for the VT220 [National Replacement Character Set].
+
+Such "[extended ASCII]" sets were common (the National Replacement Character Set provided sets for more than a dozen European languages), but MCS has the distinction of being the ancestor of both [ISO 8859-1] and [Unicode].
 ===
-Extended ASCII (or high ASCII) is eight-bit or larger character encodings that include the standard seven-bit ASCII characters as well as others. The use of the term is sometimes criticized,[1][2][3] because it can be mistakenly interpreted that the ASCII standard has been updated to include more than 128 characters or that the term unambiguously identifies a single encoding, both of which are untrue.
+
+Extended ASCII
+Extended ASCII (or high ASCII) is [8-bit] or larger character encodings that include the standard 7-bit [ASCII] characters as well as others. The use of the term is sometimes criticised, because it can be mistakenly interpreted that the ASCII standard has been updated to include more than 128 characters or that the term unambiguously identifies a single encoding, both of which are untrue.
 ===
-In typography, a glyph /ˈɡlɪf/ is an elemental symbol within an agreed set of symbols, intended to represent a readable character for the purposes of writing and thereby expressing thoughts, ideas and concepts. As such, glyphs are considered to be unique marks that collectively add up to the spelling of a word, or otherwise contribute to a specific meaning of what is written, with that meaning dependent on cultural and social usage.
 
-For example, in most languages written in any variety of the Latin alphabet the dot on a lower-case i is not a glyph because it does not convey any distinction, and an i in which the dot has been accidentally omitted is still likely to be recognized correctly. In Turkish, however, it is a glyph because that language has two distinct versions of the letter i, with and without a dot.
+Glyph
+In typography, a glyph is an elemental symbol within an agreed set of symbols, intended to represent a readable character for the purposes of writing and thereby expressing thoughts, ideas and concepts. As such, glyphs are considered to be unique marks that collectively add up to the spelling of a word, or otherwise contribute to a specific meaning of what is written, with that meaning dependent on cultural and social usage.
 
-In Japanese syllabaries, a number of the characters are made up of more than one separate mark, but in general these separate marks are not glyphs because they have no meaning by themselves. However, in some cases, additional marks fulfill the role of diacritics, to differentiate distinct characters. Such additional marks constitute glyphs.
+For example, in most languages written in any variety of the Latin alphabet the dot on a lower-case i is not a glyph because it does not convey any distinction, and an i in which the dot has been accidentally omitted is still likely to be recognised correctly. In Turkish, however, it is a glyph because that language has two distinct versions of the letter i, with and without a dot.
+
+In Japanese syllabaries, a number of the characters are made up of more than one separate mark, but in general these separate marks are not glyphs because they have no meaning by themselves. However, in some cases, additional marks fulfil the role of diacritics, to differentiate distinct characters. Such additional marks constitute glyphs.
 
 In general, a diacritic is a glyph, even if (like a cedilla in French, the ogonek in several languages or the stroke on a Polish "Ł") it is "joined up" with the rest of the character.
 
@@ -366,50 +375,117 @@ Some characters, such as "æ" in Icelandic and the "ß" in German, would probabl
 
 Two or more glyphs which have the same significance, whether used interchangeably or chosen depending on context, are called allographs of each other.
 ===
-8-bit clean describes a computer system that correctly handles 8-bit character encodings, such as the ISO 8859 series and the UTF-8 encoding of Unicode.
 
-Up to the early 1990s, many programs and data transmission channels assumed that all characters would be represented as numbers between 0 and 127 (7 bits). On computers and data links using 8-bit bytes this left the top bit of each byte free for use as a parity, flag bit, or meta data control bit. 7-bit systems and data links are unable to handle more complex character codes which are commonplace in non-English-speaking countries with larger alphabets.
+8-bit Clean
+8-bit clean describes a computer system that correctly handles [8-bit] character encodings, such as the [ISO 8859] series and the [UTF-8] encoding of [Unicode].
 
-Binary files cannot be transmitted through 7-bit data channels directly. To work around this, binary-to-text encodings have been devised which use only 7-bit ASCII characters. Some of these encodings are uuencoding, Ascii85, SREC, BinHex, kermit and MIME's Base64. EBCDIC-based systems cannot handle all characters used in UUencoded data. However, the base64 encoding does not have this problem.
+Up to the early 1990s, many programs and data transmission channels assumed that all characters would be represented as numbers between 0 and 127 (7 bits). On computers and data links using 8-bit bytes this left the top bit of each byte free for use as a parity, flag bit, or meta data control bit. 7-bit systems and data links are unable to handle more complex character codes which are commonplace in non-English speaking countries with larger alphabets.
 
+Binary files cannot be transmitted through 7-bit data channels directly. To work around this, binary-to-text encodings have been devised which use only 7-bit [ASCII] characters. Some of these encodings are uuencoding, Ascii85, SREC, BinHex, kermit and [MIME]'s [Base64]. EBCDIC-based systems cannot handle all characters used in UUencoded data. However, the base64 encoding does not have this problem.
 ===
-In telecommunications, RS-232 is a standard for serial communication transmission of data. It formally defines the signals connecting between a DTE (data terminal equipment) such as a computer terminal, and a DCE (data circuit-terminating equipment, originally defined as data communication equipment[1]), such as a modem. The RS-232 standard is commonly used in computer serial ports. The standard defines the electrical characteristics and timing of signals, the meaning of signals, and the physical size and pinout of connectors. The current version of the standard is TIA-232-F Interface Between Data Terminal Equipment and Data Circuit-Terminating Equipment Employing Serial Binary Data Interchange, issued in 1997.
 
-An RS-232 serial port was once a standard feature of a personal computer, used for connections to modems, printers, mice, data storage, uninterruptible power supplies, and other peripheral devices. However, RS-232 is hampered by low transmission speed, large voltage swing, and large standard connectors. In modern personal computers, USB has displaced RS-232 from most of its peripheral interface roles. Many computers do not come equipped with RS-232 ports and must use either an external USB-to-RS-232 converter or an internal expansion card with one or more serial ports to connect to RS-232 peripherals. Nevertheless, RS-232 devices are still used, especially in industrial machines, networking equipment and scientific instruments.
+RS-232
+In telecommunications, RS-232 is a standard for serial communication transmission of data. It formally defines the signals connecting between a DTE (data terminal equipment) such as a computer terminal, and a DCE (data circuit-terminating equipment, originally defined as data communication equipment), such as a modem. The RS-232 standard is commonly used in computer serial ports. The standard defines the electrical characteristics and timing of signals, the meaning of signals, and the physical size and pinout of connectors. The current version of the standard is TIA-232-F Interface Between Data Terminal Equipment and Data Circuit-Terminating Equipment Employing Serial Binary Data Interchange, issued in 1997.
+
+An RS-232 serial port was once a standard feature of a personal computer, used for connections to [modems], printers, mice, data storage, uninterruptible power supplies, and other peripheral devices. However, RS-232 is hampered by low transmission speed, large voltage swing, and large standard connectors. In modern personal computers, [USB] has displaced RS-232 from most of its peripheral interface roles. Many computers do not come equipped with RS-232 ports and must use either an external USB-to-RS-232 converter or an internal expansion card with one or more serial ports to connect to RS-232 peripherals. Nevertheless, RS-232 devices are still used, especially in industrial machines, networking equipment and scientific instruments.
 ===
-Centronics Data Computer Corporation was an American manufacturer of computer printers, now remembered primarily for the parallel interface that bears its name.
 
-Centronics began as a division of Wang Laboratories. Founded and initially operated by Robert Howard (president) and Samuel Lang (vice president and owner of the well known K & L Color Photo Service Lab in New York City), the group produced remote terminals and systems for the casino industry. Printers were developed to print receipts and transaction reports. Wang spun off the business in 1971 and Centronics was formed as a corporation in Hudson, New Hampshire with Howard as president and chairman.
+Centronics Data Computer Corporation
+Centronics Data Computer Corporation was an American manufacturer of computer printers, now remembered primarily for the [parallel interface] that bears its name.
+
+Centronics began as a division of [Wang Laboratories]. Founded and initially operated by Robert Howard (president) and Samuel Lang (vice president and owner of the well known K & L Color Photo Service Lab in New York City), the group produced remote terminals and systems for the casino industry. Printers were developed to print receipts and transaction reports. Wang spun off the business in 1971 and Centronics was formed as a corporation in Hudson, New Hampshire with Howard as president and chairman.
 
 The Centronics Model 101 was introduced at the 1970 National Computer Conference. The print head used an innovative seven-wire solenoid impact system. Based on this design, Centronics later made the claim to have developed the first dot matrix impact printer.
 
-Howard developed a personal relationship with his neighbor, Max Hugel, the founder and president of Brother International, the United States arm of Brother Industries, Ltd., a manufacturer of sewing machines and typewriters. A business relationship developed when Centronics needed reliable manufacturing of the printer mechanisms—a relationship that would help propel Brother into the printer industry. Hugel would later become executive vice president of Centronics. Print heads and electronics were built in Centronics plants in New Hampshire and Ireland, mechanisms were built in Japan by Brother and the printers were assembled in New Hampshire.
+Howard developed a personal relationship with his neighbour, Max Hugel, the founder and president of [Brother International], the United States arm of Brother Industries, Ltd., a manufacturer of sewing machines and typewriters. A business relationship developed when Centronics needed reliable manufacturing of the printer mechanisms a relationship that would help propel Brother into the printer industry. Hugel would later become executive vice president of Centronics. Print heads and electronics were built in Centronics plants in New Hampshire and Ireland, mechanisms were built in Japan by Brother and the printers were assembled in New Hampshire.
 
 In the 1970s, Centronics formed a relationship with Canon to develop non-impact printers. No products were ever produced, but Canon continued to work on laser printers, eventually developing a highly successful series of engines.
 
 In 1977, Centronics sued competitor Mannesmann AG in a patent dispute regarding the return spring used in the print actuator.
 
-In 1975, Centronics formed an OEM agreement with Tandy and produced DMP and LP series printers for several years. The 6000 series band printers were introduced in 1978. By 1979 company revenues were over $100 million.
+In 1975, Centronics formed an [OEM] agreement with [Tandy] and produced DMP and LP series printers for several years. The 6000 series band printers were introduced in 1978. By 1979 company revenues were over $100 million.
 
-In 1980, the Mini-Printer Model 770 was introduced—a small, low-cost desktop serial matrix printer. This was the first printer built completely in-house, and there were problems. Flaws in the microprocessor led to a recall and a stoppage of manufacturing for a year. During this period, Epson, Brother and others began to gain market share and Centronics never recovered. 1980 also saw the introduction of the E Series 900 and 1200 LPM band printers.
+In 1980, the Mini-Printer Model 770 was introduced a small, low-cost desktop serial matrix printer. This was the first printer built completely in-house, and there were problems. Flaws in the microprocessor led to a recall and a stoppage of manufacturing for a year. During this period, Epson, Brother and others began to gain market share and Centronics never recovered. 1980 also saw the introduction of the E Series 900 and 1200 LPM band printers.
 ===
-A parallel port is a type of interface found on computers (personal and otherwise) for connecting peripherals. In computing, a parallel port is a parallel communication physical interface. It is also known as a printer port or Centronics port. It was an industry de facto standard for many years, and was finally standardized as IEEE 1284 in the late 1990s, which defined the Enhanced Parallel Port (EPP) and Extended Capability Port (ECP) bi-directional versions. Today, the parallel port interface is seeing decreasing use because of the rise of Universal Serial Bus (USB) devices, along with network printing using Ethernet.
 
-The parallel port interface was originally known as the Parallel Printer Adapter on IBM PC-compatible computers. It was primarily designed to operate a line printer that used IBM's 8-bit extended ASCII character set to print text, but could also be used to adapt other peripherals. Graphical printers, along with a host of other devices, have been designed to communicate with the system.
+Dot Matrix Printing
+Dot matrix printing or impact matrix printing is a type of computer printing which uses a print head that moves back and forth, or in an up and down motion, on the page and prints by impact, striking an ink soaked cloth ribbon against the paper, much like the print mechanism on a typewriter. However, unlike a typewriter or daisy wheel printer, letters are drawn out of a dot matrix, and thus, varied fonts and arbitrary graphics can be produced.
 
-The term "Centronics port" now commonly refers to an IEEE-1284 Type B or 36-pin micro ribbon interface. The first parallel interface for printers was introduced with the Centronics Model 101 printer in 1970.[2] The interface was developed by Dr. An Wang, Robert Howard and Prentice Robinson at Centronics. Wang had a surplus stock of 20,000 Amphenol 36-pin micro ribbon connectors that were originally used for one of their early calculators, which they used to create the Centronics interface on their computers. The connector has become so closely associated with Centronics that it is now popularly known as the “Centronics connector”.
+In the 1970s and 1980s, dot matrix impact printers were generally considered the best combination of expense and versatility, and until the 1990s they were by far the most common form of printer used with personal and home computers.
 
-The Centronics parallel interface quickly became an industry de facto standard; manufacturers of the time tended to use various connectors on the system side, so a variety of cables were required. For example, early VAX systems used a DC-37 connector, NCR used the 36-pin micro ribbon connector, Texas Instruments used a 25-pin card edge connector and Data General used a 50-pin micro ribbon connector.
+The [Epson] MX-80, introduced in 1979, was the groundbreaking model that sparked the initial popularity of impact printers in the personal computer market. The MX-80 combined affordability with good quality text output (for its time). Early impact printers (including the MX) were notoriously loud during operation, a result of the hammer like mechanism in the print head. The MX-80 even inspired the name of a noise rock band. The MX-80's low dot density (60 dpi horizontal, 72 dpi vertical) produced printouts of a distinctive "computerised" quality. When compared to the crisp typewriter quality of a daisy-wheel printer, the dot-matrix printer's legibility appeared especially bad. In office applications, output quality was a serious issue, as the dot-matrix text's readability would rapidly degrade with each photocopy generation. [IBM] sold the MX-80 as IBM 5125.
+===
 
-When IBM implemented the parallel interface on the IBM PC, they used the DB-25F connector at the PC-end of the interface, creating the now familiar parallel cable with a DB25M at one end and a 36 pin micro ribbon connector at the other. HP adopted Centronics parallel on their printer models and introduced a bidirectional version known as Bitronics on the LaserJet 4 in 1992. The Bitronics and Centronics interfaces were superseded by the IEEE 1284 standard in 1994.
+Seiko Epson Corporation
+Seiko Epson Corporation commonly known as Epson, is a Japanese electronics company and one of the world's largest manufacturers of computer printers, and information and imaging related equipment. Headquartered in Suwa, Nagano, Japan, the company has numerous subsidiaries worldwide and manufactures inkjet, dot matrix and laser printers, scanners, desktop computers, business, multimedia and home theatre projectors, large home theatre televisions, robots and industrial automation equipment, point of sale docket printers and cash registers, laptops, integrated circuits, LCD components and other associated electronic components. It is one of three core companies of the Seiko Group, a name traditionally known for manufacturing Seiko timepieces since its founding.
+===
+
+Brother Industries Ltd
+Brother Industries Ltd. is a Japanese multinational electronics and electrical equipment company headquartered in Nagoya, Japan. Its products include printers, multifunction printers, sewing machines, large machine tools, label printers, typewriters, fax machines, and other computer-related electronics. Brother distributes its products both under its own name and under [OEM] agreements with other companies.
+===
+
+Wang Laboratories
+Wang Laboratories was a computer company founded in 1951 by Dr. An Wang and Dr. G. Y. Chu. The company was successively headquartered in Cambridge, Massachusetts (1954 – 1963), Tewksbury, Massachusetts (1963 – 1976), and finally in Lowell, Massachusetts (1976 – 1997). At its peak in the 1980s, Wang Laboratories had annual revenues of $3 billion and employed over 33,000 people.
+
+The company was directed by Dr. Wang, who was described as an "indispensable leader" and played a personal role in setting business and product strategy until his death in 1990. Under his direction, the company went through several distinct transitions between different product lines.
+
+Wang Laboratories filed for bankruptcy protection in August 1992. After emerging from bankruptcy, the company eventually changed its name to Wang Global. Wang Global was acquired by Getronics of The Netherlands in 1999, becoming Getronics North America, then was sold to KPN in 2007 and CompuCom in 2008, after which it no longer existed as a distinct brand or division.
+===
+
+Tandy
+Tandy Leather, which later grew in to the Tandy Corporation, was a family owned leather goods company based in Fort Worth, Texas. Tandy Leather was founded in 1919 as a leather supply store, and acquired a number of craft retail companies, including RadioShack in 1963. In 2000, the Tandy Corporation name was dropped and entity became the RadioShack Corporation, selling The Tandy Leather name and operating assets to The Leather Factory.
+===
+
+Canon
+Canon Inc is a Japanese multinational corporation specialised in the manufacture of imaging and optical products, including cameras, camcorders, photocopiers, steppers, computer printers and medical equipment. Its headquarters are located in Ōta, Tokyo, Japan.
+
+Canon has a primary listing on the Tokyo Stock Exchange and is a constituent of the TOPIX index. It has a secondary listing on the New York Stock Exchange. At the beginning of 2015, Canon was the tenth largest public company in Japan when measured by market capitalisation.
+===
+
+Parallel Port
+A parallel port is a type of interface found on computers (personal and otherwise) for connecting peripherals. In computing, a parallel port is a parallel communication physical interface. It is also known as a printer port or Centronics port. It was an industry de facto standard for many years, and was finally standardised as IEEE 1284 in the late 1990s, which defined the Enhanced Parallel Port (EPP) and Extended Capability Port (ECP) bi-directional versions. Today, the parallel port interface is seeing decreasing use because of the rise of Universal Serial Bus ([USB]) devices, along with network printing using [Ethernet].
+
+The parallel port interface was originally known as the Parallel Printer Adapter on [IBM PC compatible] computers. It was primarily designed to operate a line printer that used [IBM]'s [8-bit] extended [ASCII] character set to print text, but could also be used to adapt other peripherals. Graphical printers, along with a host of other devices, have been designed to communicate with the system.
+
+The term "Centronics port" now commonly refers to an IEEE-1284 Type B or 36-pin micro ribbon interface. The first parallel interface for printers was introduced with the [Centronics] Model 101 printer in 1970. The interface was developed by Dr. An Wang, Robert Howard and Prentice Robinson at Centronics. [Wang] had a surplus stock of 20,000 Amphenol 36-pin micro ribbon connectors that were originally used for one of their early calculators, which they used to create the Centronics interface on their computers. The connector has become so closely associated with Centronics that it is now popularly known as the “Centronics connector”.
+
+The Centronics parallel interface quickly became an industry de facto standard; manufacturers of the time tended to use various connectors on the system side, so a variety of cables were required. For example, early [VAX] systems used a DC-37 connector, NCR used the 36-pin micro ribbon connector, [Texas Instruments] used a 25-pin card edge connector and [Data General] used a 50-pin micro ribbon connector.
+
+When IBM implemented the parallel interface on the IBM PC, they used the DB-25F connector at the PC-end of the interface, creating the now familiar parallel cable with a DB25M at one end and a 36 pin micro ribbon connector at the other. [HP] adopted Centronics parallel on their printer models and introduced a bidirectional version known as Bitronics on the LaserJet 4 in 1992. The Bitronics and Centronics interfaces were superseded by the IEEE 1284 standard in 1994.
 
 Centronics parallel is generally compliant with IEEE 1284 compatibility mode. The original Centronics implementation called for the busy lead to toggle with each received line of data (busy by line), whereas IEEE 1284 calls for busy to toggle with each received character (busy by character). Some host systems or print servers may use a strobe signal with a relatively low voltage output or a fast toggle. Any of these issues might cause no or intermittent printing, missing or repeated characters or garbage printing. Some printer models may have a switch or setting to set busy by character; others may require a handshake adapter.
-
-
 ===
-USB, short for Universal Serial Bus, is an industry standard developed in the mid-1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication, and power supply between computers and electronic devices.[2]
 
-USB was designed to standardize the connection of computer peripherals (including keyboards, pointing devices, digital cameras, printers, portable media players, disk drives and network adapters) to personal computers, both to communicate and to supply electric power. It has become commonplace on other devices, such as smartphones, PDAs and video game consoles.[3] USB has effectively replaced a variety of earlier interfaces, such as serial and parallel ports, as well as separate power chargers for portable devices.
+Texas Instruments
+Texas Instruments Inc is an American electronics company that designs and makes semiconductors, which it sells to electronics designers and manufacturers globally. Headquartered at Dallas, Texas, United States, TI is the third largest manufacturer of semiconductors worldwide after [Intel] and [Samsung], the second largest supplier of chips for cellular handsets after Qualcomm, and the largest producer of digital signal processors (DSPs) and analog semiconductors, among a wide range of other semiconductor products, including calculators, microcontrollers and multi-core processors. Texas Instruments is among the Top 20 Semiconductor producing companies in the world.
+
+Texas Instruments was founded in 1951. It emerged after a reorganisation of Geophysical Service. This company manufactured equipment for use in the seismic industry as well as defence electronics. TI began research in transistors in the early 1950s and produced the world's first commercial silicon transistor. In 1954, Texas Instruments designed and manufactured the first transistor radio and Jack Kilby invented the integrated circuit in 1958 while working at TI's Central Research Labs. The company produced the first integrated circuit-based computer for the U.S. Air Force in 1961. TI researched infrared technology in the late 1950s and later made radar systems as well as guidance and control systems for both missiles and bombs. The hand-held calculator was introduced to the world by TI in 1967.
+
+In the 1970s and 80s the company focused on consumer electronics including digital clocks, watches, hand-held calculators, home computers as well as various sensors. In 1997, its defence business was sold to Raytheon. In 2007, Texas Instruments was awarded the Manufacturer of the Year for Global Supply Chain Excellence by World Trade magazine. Texas Instruments is considered to be one of the most ethical companies in the world.
+
+After the acquisition of National Semiconductor in 2011, the company has a combined portfolio of nearly 45,000 analog products and customer design tools, making it the world's largest maker of analog technology components. In 2011, Texas Instruments ranked 175 in the Fortune 500. TI is made up of two main divisions: Semiconductors (SC) and Educational Technology (ET) of which Semiconductor products account for approximately 96% of TI's revenue.
+===
+
+National Semiconductor
+National Semiconductor was an American semiconductor manufacturer which specialised in analog devices and subsystems, formerly headquartered in Santa Clara, California, United States. The company produced power management integrated circuits, display drivers, audio and operational amplifiers, communication interface products and data conversion solutions. National's key markets included wireless handsets, displays and a variety of broad electronics markets, including medical, automotive, industrial and test and measurement applications.
+
+On 23 September 2011, the company formally became part of [Texas Instruments] as the "[Silicon Valley]" division.
+===
+
+Silicon Valley
+Silicon Valley is a nickname for the southern portion of the San Francisco Bay Area in California, United States. It is home to many of the world's largest high-tech corporations, as well as thousands of tech startup companies. The region occupies roughly the same area as the Santa Clara Valley where it is centered, including San Jose and surrounding cities and towns. The term originally referred to the large number of silicon chip innovators and manufacturers in the region, but eventually came to refer to all high tech businesses in the area, and is now generally used as a metonym for the American high-technology economic sector.
+
+Silicon Valley is a leading hub and startup ecosystem for high-tech innovation and development, accounting for one-third of all of the venture capital investment in the United States. Geographically, Silicon Valley is generally thought to encompass all of the Santa Clara Valley, San Francisco, the San Francisco Peninsula, and southern portions of the East Bay.
+===
+
+Data General 
+Data General was one of the first minicomputer firms from the late 1960s. Three of the four founders were former employees of [Digital Equipment Corporation]. Their first product, the Data General Nova, was a 16-bit minicomputer. This used their own operating system, RDOS, and in conjunction with programming languages like "Data General Business Basic" they provided a multi-user operating system with record locking and built-in databases far ahead of many contemporary systems. The Nova was followed by the Supernova and Eclipse product lines, all of which were used in many applications for the next two decades. The company employed an Original Equipment Manufacturer ([OEM]) sales strategy to sell to third parties who incorporated Data General computers into the OEM's specific product lines. A series of missteps in the 1980s, including missing the advance of microcomputers despite the launch of the microNOVA in 1977, and the Data General-One portable computer in 1984, led to a decline in the company's market share. The company did continue into the 1990s, however, and was eventually acquired by EMC Corporation in 1999.
+===
+
+USB - Universal Serial Bus
+USB, short for Universal Serial Bus, is an industry standard developed in the mid 1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication, and power supply between computers and electronic devices.
+
+USB was designed to standardise the connection of computer peripherals (including keyboards, pointing devices, digital cameras, printers, portable media players, disk drives and network adapters) to personal computers, both to communicate and to supply electric power. It has become commonplace on other devices, such as smartphones, PDAs and video game consoles. USB has effectively replaced a variety of earlier interfaces, such as serial and parallel ports, as well as separate power chargers for portable devices.
 
 Version History
 Release name				Release date
@@ -423,76 +499,63 @@ USB 2.0						April 2000
 USB 3.0						November 2008
 USB 3.1						July 2013
 
-USB 1.x[edit]
+USB 1.x
 Released in January 1996, USB 1.0 specified data rates of 1.5 Mbit/s (Low Bandwidth or Low Speed) and 12 Mbit/s (Full Bandwidth or Full Speed). It did not allow for extension cables or pass-through monitors, due to timing and power limitations. Few USB devices made it to the market until USB 1.1 was released in August 1998, fixing problems identified in 1.0, mostly related to using hubs. USB 1.1 was the earliest revision that was widely adopted.
 
-USB 2.0[edit]
+USB 2.0
+USB 2.0 was released in April 2000, adding a higher maximum signalling rate of 480 Mbit/s called High Speed, in addition to the USB 1.x Full Speed signalling rate of 12 Mbit/s. Due to bus access constraints, the effective throughput of the High Speed signalling rate is limited to 35 MB/s or 280 Mbit/s.
 
-The Hi-Speed USB Logo
-
-A USB 2.0 PCI expansion card
-USB 2.0 was released in April 2000, adding a higher maximum signaling rate of 480 Mbit/s called High Speed, in addition to the USB 1.x Full Speed signaling rate of 12 Mbit/s. Due to bus access constraints, the effective throughput of the High Speed signaling rate is limited to 35 MB/s or 280 Mbit/s.[22][23]
-
-Further modifications to the USB specification have been made via Engineering Change Notices (ECN). The most important of these ECNs are included into the USB 2.0 specification package available from USB.org:[24]
+Further modifications to the USB specification have been made via Engineering Change Notices (ECN). The most important of these ECNs are included into the USB 2.0 specification package available from USB.org.
 
 - Mini-A and Mini-B Connector ECN: Released in October 2000.
-Specifications for mini-A and B plug and receptacle. Also receptacle that accepts both plugs for On-The-Go. These should not be confused with micro-B plug and receptacle.
+	- Specifications for mini-A and B plug and receptacle. Also receptacle that accepts both plugs for On-The-Go. These should not be confused with micro-B plug and receptacle.
 - Pull-up/Pull-down Resistors ECN: Released in May 2002
-Interface Associations ECN: Released in May 2003.
-New standard descriptor was added that allows associating multiple interfaces with a single device function.
+	- Interface Associations ECN: Released in May 2003.
+	- New standard descriptor was added that allows associating multiple interfaces with a single device function.
 - Rounded Chamfer ECN: Released in October 2003.
-A recommended, backward compatible change to mini-B plugs that results in longer lasting connectors.
+	- A recommended, backward compatible change to mini-B plugs that results in longer lasting connectors.
 - Unicode ECN: Released in February 2005.
-This ECN specifies that strings are encoded using UTF-16LE. USB 2.0 specified Unicode, but did not specify the encoding.
+	- This ECN specifies that strings are encoded using UTF-16LE. USB 2.0 specified Unicode, but did not specify the encoding.
 - Inter-Chip USB Supplement: Released in March 2006
 - On-The-Go Supplement 1.3: Released in December 2006.
-USB On-The-Go makes it possible for two USB devices to communicate with each other without requiring a separate USB host. In practice, one of the USB devices acts as a host for the other device.
+	- USB On-The-Go makes it possible for two USB devices to communicate with each other without requiring a separate USB host. In practice, one of the USB devices acts as a host for the other device.
 - Battery Charging Specification 1.1: Released in March 2007 and updated on 15 April 2009.
-Adds support for dedicated chargers (power supplies with USB connectors), host chargers (USB hosts that can act as chargers) and the No Dead Battery provision, which allows devices to temporarily draw 100 mA current after they have been attached. If a USB device is connected to dedicated charger, maximum current drawn by the device may be as high as 1.8 A. (Note that this document is not distributed with USB 2.0 specification package, only USB 3.0 and USB On-The-Go.)
+	- Adds support for dedicated chargers (power supplies with USB connectors), host chargers (USB hosts that can act as chargers) and the No Dead Battery provision, which allows devices to temporarily draw 100 mA current after they have been attached. If a USB device is connected to dedicated charger, maximum current drawn by the device may be as high as 1.8 A. (Note that this document is not distributed with USB 2.0 specification package, only USB 3.0 and USB On-The-Go.)
 - Micro-USB Cables and Connectors Specification 1.01: Released in April 2007.
 - Link Power Management Addendum ECN: Released in July 2007.
-This adds "sleep", a new power state between enabled and suspended states. Device in this state is not required to reduce its power consumption. However, switching between enabled and sleep states is much faster than switching between enabled and suspended states, which allows devices to sleep while idle.
-- Battery Charging Specification 1.2:[25] Released in December 2010.
-Several changes and increasing limits including allowing 1.5 A on charging ports for unconfigured devices, allowing High Speed communication while having a current up to 1.5 A and allowing a maximum current of 5 A.
+	- This adds "sleep", a new power state between enabled and suspended states. Device in this state is not required to reduce its power consumption. However, switching between enabled and sleep states is much faster than switching between enabled and suspended states, which allows devices to sleep while idle.
+- Battery Charging Specification 1.2 Released in December 2010.
+	- Several changes and increasing limits including allowing 1.5 A on charging ports for unconfigured devices, allowing High Speed communication while having a current up to 1.5 A and allowing a maximum current of 5 A.
 
+USB 3.0
+USB 3.0 standard was released in November 2008, defining a new SuperSpeed mode. A USB 3.0 port, usually coloured blue, is backward compatible with USB 2.0 devices and cables.
 
-USB 3.0[edit]
-Main article: USB 3.0
+The USB 3.0 Promoter Group announced on 17 November 2008 that the specification of version 3.0 had been completed and had made the transition to the USB Implementers Forum (USB-IF), the managing body of USB specifications. This move effectively opened the specification to hardware developers for implementation in products.
 
-The SuperSpeed USB logo
-USB 3.0 standard was released in November 2008, defining a new SuperSpeed mode. A USB 3.0 port, usually colored blue, is backward compatible with USB 2.0 devices and cables.
+The new SuperSpeed bus provides a fourth transfer mode with a data signalling rate of 5.0 Gbit/s, in addition to the modes supported by earlier versions. The payload throughput is 4 Gbit/s (due to the overhead induced by used 8b/10b encoding), and the specification considers it reasonable to achieve around 3.2 Gbit/s (0.4 GB/s or 400 MB/s), which should increase with future hardware advances. Communication is full-duplex in SuperSpeed transfer mode; in the modes supported previously, by 1.x and 2.0, communication is half-duplex, with direction controlled by the host.
 
-The USB 3.0 Promoter Group announced on 17 November 2008 that the specification of version 3.0 had been completed and had made the transition to the USB Implementers Forum (USB-IF), the managing body of USB specifications.[26] This move effectively opened the specification to hardware developers for implementation in products.
+As with previous USB versions, USB 3.0 ports come in low-power and high-power variants, providing 150 mA and 900 mA respectively, while simultaneously transmitting data at SuperSpeed rates. Additionally, there is a Battery Charging Specification (Version 1.2 – December 2010), which increases the power handling capability to 1.5 A but does not allow concurrent data transmission. The Battery Charging Specification requires that the physical ports themselves be capable of handling 5 A of current but limits the maximum current drawn to 1.5 A.
 
-The new SuperSpeed bus provides a fourth transfer mode with a data signaling rate of 5.0 Gbit/s, in addition to the modes supported by earlier versions. The payload throughput is 4 Gbit/s[citation needed] (due to the overhead induced by used 8b/10b encoding), and the specification considers it reasonable to achieve around 3.2 Gbit/s (0.4 GB/s or 400 MB/s), which should increase with future hardware advances. Communication is full-duplex in SuperSpeed transfer mode; in the modes supported previously, by 1.x and 2.0, communication is half-duplex, with direction controlled by the host.[27]
-
-As with previous USB versions, USB 3.0 ports come in low-power and high-power variants, providing 150 mA and 900 mA respectively, while simultaneously transmitting data at SuperSpeed rates.[28] Additionally, there is a Battery Charging Specification (Version 1.2 – December 2010), which increases the power handling capability to 1.5 A but does not allow concurrent data transmission.[25] The Battery Charging Specification requires that the physical ports themselves be capable of handling 5 A of current[citation needed] but limits the maximum current drawn to 1.5 A.
-
-USB 3.1[edit]
-A January 2013 press release from the USB group revealed plans to update USB 3.0 to 10 Gbit/s.[29] The group ended up creating a new USB version, USB 3.1, which was released on 31 July 2013,[30] introducing a faster transfer mode called "SuperSpeed USB 10 Gbit/s", putting it on par with a single first-generation Thunderbolt channel. The new mode's logo features a "Superspeed+" caption (stylized as SUPERSPEED+). The USB 3.1 standard increases the data signaling rate to 10 Gbit/s in the USB 3.1 Gen2 mode, double that of USB 3.0 (referred to as USB 3.1 Gen1) and reduces line encoding overhead to just 3% by changing the encoding scheme to 128b/132b.[31] The first USB 3.1 implementation demonstrated transfer speeds of 7.2 Gbit/s.[32]
+USB 3.1
+A January 2013 press release from the USB group revealed plans to update USB 3.0 to 10 Gbit/s. The group ended up creating a new USB version, USB 3.1, which was released on 31 July 2013, introducing a faster transfer mode called "SuperSpeed USB 10 Gbit/s", putting it on par with a single first-generation Thunderbolt channel. The new mode's logo features a "Superspeed+" caption (stylised as SUPERSPEED+). The USB 3.1 standard increases the data signalling rate to 10 Gbit/s in the USB 3.1 Gen2 mode, double that of USB 3.0 (referred to as USB 3.1 Gen1) and reduces line encoding overhead to just 3% by changing the encoding scheme to 128b/132b. The first USB 3.1 implementation demonstrated transfer speeds of 7.2 Gbit/s.
 
 The USB 3.1 standard is backward compatible with USB 3.0 and USB 2.0.
 
-USB Type-C[edit]
-Main article: USB Type-C
+USB Type-C
+Developed at roughly the same time as the USB 3.1 specification, but distinct from it, the USB Type-C Specification 1.0 defines a new small reversible plug connector for USB devices. The Type-C plug connects to both hosts and devices, replacing various Type-B and Type-A connectors and cables with a standard meant to be future proof, similar to [Apple] Lightning and Thunderbolt. The 24-pin double-sided connector provides four power / ground pairs, two differential pairs for USB 2.0 data bus (though only one pair is implemented in a Type-C cable), four pairs for high-speed data bus, two "sideband use" pins, and two configuration pins for cable orientation detection, dedicated biphase mark code (BMC) configuration data channel, and VCONN +5 V power for active cables. Type-A and Type-B adaptors and cables will be required for older devices in order to plug into Type-C hosts; adaptors and cables with a Type-C receptacle are not allowed.
 
-The USB Type-C plug
-Developed at roughly the same time as the USB 3.1 specification, but distinct from it, the USB Type-C Specification 1.0 defines a new small reversible-plug connector for USB devices.[33] The Type-C plug connects to both hosts and devices, replacing various Type-B and Type-A connectors and cables with a standard meant to be future-proof, similar to Apple Lightning and Thunderbolt.[34][35][36] The 24-pin double-sided connector provides four power/ground pairs, two differential pairs for USB 2.0 data bus (though only one pair is implemented in a Type-C cable), four pairs for high-speed data bus, two "sideband use" pins, and two configuration pins for cable orientation detection, dedicated biphase mark code (BMC) configuration data channel, and VCONN +5 V power for active cables.[37][38] Type-A and Type-B adaptors and cables will be required for older devices in order to plug into Type-C hosts; adaptors and cables with a Type-C receptacle are not allowed.
+Full-featured USB Type-C cables are active, electronically marked cables that contain a chip with an ID function based on the configuration data channel and vendor defined messages (VDMs) from the USB Power Delivery 2.0 specification. USB Type-C devices also support power currents of 1.5 A and 3.0 A over the 5 V power bus in addition to baseline 900 mA; devices can either negotiate increased USB current through the configuration line, or they can support the full Power Delivery specification using both BMC-coded configuration line and legacy BFSK-coded VBUS line.
 
-Full-featured USB Type-C cables are active, electronically marked cables that contain a chip with an ID function based on the configuration data channel and vendor-defined messages (VDMs) from the USB Power Delivery 2.0 specification. USB Type-C devices also support power currents of 1.5 A and 3.0 A over the 5 V power bus in addition to baseline 900 mA; devices can either negotiate increased USB current through the configuration line, or they can support the full Power Delivery specification using both BMC-coded configuration line and legacy BFSK-coded VBUS line.
-
-Alternate Mode dedicates some of the physical wires in the Type-C cable for direct device-to-host transmission of alternate data protocols. The four high-speed lanes, two sideband pins, and—​for dock, detachable device and permanent cable applications only—​two USB 2.0 pins and one configuration pin can be used for Alternate Mode transmission. The modes are configured using VDMs through the configuration channel.
-
+Alternate Mode dedicates some of the physical wires in the Type-C cable for direct device-to-host transmission of alternate data protocols. The four high-speed lanes, two sideband pins, and—​for dock, detachable device and permanent cable applications only two USB 2.0 pins and one configuration pin can be used for Alternate Mode transmission. The modes are configured using VDMs through the configuration channel.
 ===
-The Sound Blaster family of sound cards was the de facto standard for consumer audio on the IBM PC compatible system platform, until the widespread transition to Microsoft Windows 95, which standardized the programming interface at application level (eliminating the importance of backward compatibility with Sound Blaster), and the evolution in PC design led to onboard motherboard-audio, which commoditized PC audio functionality.
 
-The creator of Sound Blaster is the Singapore-based firm Creative Technology Limited, also known by the name of its United States subsidiary, Creative Labs.
+Sound Blaster
+The Sound Blaster family of sound cards was the de facto standard for consumer audio on the [IBM PC compatible] system platform, until the widespread transition to [Microsoft Windows 95], which standardised the programming interface at application level (eliminating the importance of backward compatibility with Sound Blaster), and the evolution in PC design led to onboard motherboard-audio, which commoditised PC audio functionality.
 
-Sound Blaster 16[edit]
+The creator of Sound Blaster is the Singapore based firm [Creative Technology Limited], also known by the name of its United States subsidiary, Creative Labs.
 
-Sound Blaster 16 (CT2940)
-Main article: Sound Blaster 16
-The next model, the Sound Blaster 16, announced in June 1992, introduced:
+Sound Blaster 16
+The Sound Blaster 16, announced in June 1992, introduced:
 
 - 16-bit CD-quality digital audio sampling;
 - An MPU-401 compatible UART;
@@ -501,67 +564,80 @@ The next model, the Sound Blaster 16, announced in June 1992, introduced:
 
 The Sound Blaster 16 retained the Yamaha OPL-3 for FM synthesis and a backward compatible programming interface, so most software titles written for the older Sound Blasters and Sound Blaster Pros would run without modification.
 
-Eventually this design proved so popular that Creative made a PCI version of this card. Moving the card off the ISA bus, which was already approaching obsolescence, meant that no line for host-controlled ISA DMA was available, as the PCI slot offers no such line. Instead, the card used PCI bus mastering to transfer data from the main memory to the D/A converters. Since existing DOS programs expected to be able to initiate host-controlled ISA DMA for producing sound, backward compatibility with the older Sound Blaster cards for DOS programs required a software driver work-around; since this work-around necessarily depended on the virtual 8086 mode of the PC's CPU in order to catch and reroute accesses from the ISA DMA controller to the card itself, it failed for a number of DOS games that either were not fully compatible with this CPU mode or needed so much free conventional memory that they could not be loaded with the driver occupying part of this memory. In Microsoft Windows, there was no problem, as Creative's Windows driver software could handle both ISA and PCI cards correctly.
+Eventually this design proved so popular that Creative made a [PCI] version of this card. Moving the card off the [ISA] bus, which was already approaching obsolescence, meant that no line for host controlled ISA DMA was available, as the PCI slot offers no such line. Instead, the card used PCI bus mastering to transfer data from the main memory to the D/A converters. Since existing [DOS] programs expected to be able to initiate host controlled ISA DMA for producing sound, backward compatibility with the older Sound Blaster cards for DOS programs required a software driver work around; since this work around necessarily depended on the virtual [8086] mode of the PC's CPU in order to catch and reroute accesses from the ISA DMA controller to the card itself, it failed for a number of DOS games that either were not fully compatible with this CPU mode or needed so much free conventional memory that they could not be loaded with the driver occupying part of this memory. In [Microsoft Windows], there was no problem, as Creative's Windows driver software could handle both ISA and PCI cards correctly.
 
-Sound Blaster AWE32[edit]
-
-Sound Blaster AWE32 (CT3900)
-Main article: Sound Blaster AWE32
+Sound Blaster AWE32
 Released in March 1994, the Sound Blaster AWE32 (Advanced Wave Effects) introduced an all new MIDI synthesizer section based on the EMU8000. The AWE32 consisted of two distinct audio sections; the Creative digital audio section (audio codec, optional CSP/ASP chip socket, Yamaha OPL3), and the E-mu MIDI synthesizer section. The synthesizer section consisted of the EMU8000 sampler and effects processor, an EMU8011 1 MB sample ROM, and 512 KB of sample RAM (expandable to 28 MB). To fit the new hardware, the AWE32 was a full-length ISA card, measuring 14 in (360 mm).
 
-Sound Blaster 32[edit]
+Sound Blaster 32
+A derivative of the AWE32 design, the Sound Blaster 32 (SB32) was a value-oriented offering from Creative. Announced on 6 June 1995, the SB32 became the new entry-level card in the AWE32 product-line (previously held by the AWE32 Value). The SB32 retained the AWE32's EMU8000/EMU8011 MIDI-synthesis engine and built-in instrument ROM, but dropped the onboard RAM, the Wave Blaster header, and the CSP port. The SB32 used the Vibra chip to reduce component count, which meant bass/treble/gain control was limited compared to the AWE32. The loss of onboard RAM is offset by the inclusion of 30-pin SIMM RAM sockets, which allow up to 8 MB RAM to be installed and used by the EMU engine.
 
-Sound Blaster 32 ISA (CT3930)
-A derivative of the AWE32 design, the Sound Blaster 32 (SB32) was a value-oriented offering from Creative. Announced on June 6, 1995, the SB32 became the new entry-level card in the AWE32 product-line (previously held by the AWE32 Value.) The SB32 retained the AWE32's EMU8000/EMU8011 MIDI-synthesis engine and built-in instrument ROM, but dropped the onboard RAM, the Wave Blaster header, and the CSP port. The SB32 used the Vibra chip to reduce component count, which meant bass/treble/gain control was limited compared to the AWE32. The loss of onboard RAM is offset by the inclusion of 30-pin SIMM RAM sockets, which allow up to 8 MB RAM to be installed and used by the EMU engine.
-
-Sound Blaster AWE64[edit]
-
-Sound Blaster AWE64 Gold (CT4390)
-Main article: Sound Blaster AWE64
-The AWE32's successor, the Sound Blaster AWE64 (November 1996), was significantly smaller, being a "half-length ISA card" (that term is misleading — see the pictures for size comparison). It offered similar features to the AWE32, but also had a few notable improvements, including support for greater polyphony, although this was a product of 32 extra software emulated channels. The 30-pin SIMM slots from AWE32/SB32 were replaced with a proprietary memory format which could be (expensively) purchased from Creative.
+Sound Blaster AWE64
+The AWE32's successor, the Sound Blaster AWE64 (November 1996), was significantly smaller, being a "half-length ISA card". It offered similar features to the AWE32, but also had a few notable improvements, including support for greater polyphony, although this was a product of 32 extra software emulated channels. The 30-pin SIMM slots from AWE32/SB32 were replaced with a proprietary memory format which could be (expensively) purchased from Creative.
 
 The main improvements were better compatibility with older SB models, and an improved signal-to-noise ratio. The AWE64 came in three versions: A Value version (with 512KB of RAM), a Standard version (with 1 MB of RAM), and a Gold version (with 4 MB of RAM and a separate S/PDIF output).
-
 ===
-Creative Technology Ltd. is a Singapore-based global company headquartered in Jurong East, Singapore. The principal activities of the company and its subsidiaries consist of the design, manufacture and distribution of digitized sound and video boards, computers and related multimedia, and personal digital entertainment products.
 
-It also partners with mainboard manufacturers and laptop brands to embed its Sound Blaster technology on their products.[5]
+Industry Standard Architecture (ISA)
+Industry Standard Architecture (ISA) is a retronym term for the [16-bit] internal bus of [IBM PC/AT] and similar computers based on the [Intel 80286] and its immediate successors during the 1980s. The bus was (largely) backward compatible with the [8-bit] bus of the [8088] based [IBM PC], including the [IBM PC/XT] as well as [IBM PC compatibles].
+
+Originally referred to as the PC/AT-bus it was also termed I/O Channel by [IBM]. The ISA concept was coined by competing PC-clone manufacturers in the late 1980s or early 1990s as a reaction to IBM attempts to replace the AT-bus with its new and incompatible Micro Channel architecture.
+
+The 16-bit ISA bus was used also with 32-bit processors for several years. An attempt to extend it to 32 bits, called Extended Industry Standard Architecture (EISA), was not very successful, however. Later buses such as [VESA Local Bus] and [PCI] were used instead, often along with ISA slots on the same mainboard. A derivative of the AT bus structure is still used in the PCMCIA standard, Compact Flash, the PC/104 bus, and internally within Super I/O chips.
 ===
-DOSBox is an emulator program that emulates an IBM PC compatible computer running a DOS operating system. Many IBM PC compatible graphics and sound cards are also emulated. This means that original DOS programs (including PC games) are provided an environment in which they can run correctly, even though the modern computers have dropped support for that old environment. DOSBox is free software written primarily in C++ and distributed under the GNU General Public License. DOSBox has been downloaded over 25 million times since its release on SourceForge in 2002.[7]
+
+Conventional PCI
+Conventional PCI, often shortened to PCI, is a local computer bus for attaching hardware devices in a computer. PCI is the initialism for Peripheral Component Interconnect and is part of the PCI Local Bus standard. The PCI bus supports the functions found on a processor bus but in a standardised format that is independent of any particular processor's native bus. Devices connected to the PCI bus appear to a bus master to be connected directly to its own bus and are assigned addresses in the processor's address space. It is a parallel bus, synchronous to a single bus clock.
+
+Attached devices can take either the form of an integrated circuit fitted onto the motherboard itself (called a planar device in the PCI specification) or an expansion card that fits into a slot. The PCI Local Bus was first implemented in [IBM PC compatibles], where it displaced the combination of several slow [ISA] slots and one fast [VESA Local Bus] slot as the bus configuration. It has subsequently been adopted for other computer types. Typical PCI cards used in PCs include: network cards, sound cards, modems, extra ports such as [USB] or serial, TV tuner cards and disk controllers. PCI video cards replaced ISA and VESA cards until growing bandwidth requirements outgrew the capabilities of PCI. The preferred interface for video cards then became AGP, itself a superset of conventional PCI, before giving way to PCI Express.
+
+The first version of conventional PCI found in consumer desktop computers was a 32-bit bus using a 33 MHz bus clock and 5 V signalling, although the PCI 1.0 standard provided for a 64-bit variant as well. These have one locating notch in the card. Version 2.0 of the PCI standard introduced 3.3 V slots, physically distinguished by a flipped physical connector to preventing accidental insertion of 5 V cards. Universal cards, which can operate on either voltage, have two notches. Version 2.1 of the PCI standard introduced optional 66 MHz operation. A server-oriented variant of conventional PCI, called PCI-X (PCI Extended) operated at frequencies up to 133 MHz for PCI-X 1.0 and up to 533 MHz for PCI-X 2.0. An internal connector for laptop cards, called Mini PCI, was introduced in version 2.2 of the PCI specification. The PCI bus was also adopted for an external laptop connector standard—the CardBus. The first PCI specification was developed by Intel, but subsequent development of the standard became the responsibility of the PCI Special Interest Group (PCI-SIG).
+
+Conventional PCI and PCI-X are sometimes called Parallel PCI in order to distinguish them technologically from their more recent successor PCI Express, which adopted a serial, lane-based architecture. Conventional PCI's heyday in the desktop computer market was approximately the decade 1995 - 2005. PCI and PCI-X have become obsolete for most purposes; however, they are still common on modern desktops for the purposes of backwards compatibility and the low relative cost to produce. Many kinds of devices previously available on PCI expansion cards are now commonly integrated onto motherboards or available in universal serial bus and PCI Express versions.
+===
+
+VESA Local Bus 
+The VESA Local Bus (usually abbreviated to VL-Bus or VLB) was mostly used in personal computers. VESA (Video Electronics Standards Association) Local Bus worked alongside the [ISA] bus; it acted as a high-speed conduit for memory-mapped I/O and DMA, while the ISA bus handled interrupts and port-mapped I/O.
+===
+
+Creative Technology
+Creative Technology Ltd is a Singapore based global company headquartered in Jurong East, Singapore. The principal activities of the company and its subsidiaries consist of the design, manufacture and distribution of digitised sound and video boards, computers and related multimedia, and personal digital entertainment products.
+
+It also partners with mainboard manufacturers and laptop brands to embed its [Sound Blaster] technology on their products.
+===
+
+DOSBox
+DOSBox is an emulator program that emulates an [IBM PC compatible] computer running a [DOS] operating system. Many IBM PC compatible graphics and sound cards are also emulated. This means that original DOS programs (including PC games) are provided an environment in which they can run correctly, even though the modern computers have dropped support for that old environment. DOSBox is free software written primarily in [C++] and distributed under the [GNU General Public License]. DOSBox has been downloaded over 25 million times since its release on SourceForge in 2002.
 
 DOSBox can run old DOS software on modern computers which would not work otherwise, because of incompatibilities between the older software and modern hardware and operating systems.
 
 A number of usability enhancements have been added to DOSBox beyond emulating DOS. The added features include virtual hard drives, peer-to-peer networking, screen capture and screencasting from the emulated screen.
 
-The original DOSBox has not been updated in a long time. Active development is happening on forks of DOSBox. Forks such as SVN Daum and DOSBox-X provide additional features, which include support for save states and long filenames.[8]
+The original DOSBox has not been updated in a long time. Active development is happening on forks of DOSBox. Forks such as SVN Daum and DOSBox-X provide additional features, which include support for save states and long filenames.
 
 A number of vintage DOS games have been re-released by video game developers to run on modern computers by encapsulating them inside DOSBox.
 ===
-In computing, a character encoding is used to represent a repertoire of characters by some kind of an encoding system.[1] Depending on the abstraction level and context, corresponding code points and the resulting code space may be regarded as bit patterns, octets, natural numbers, electrical pulses, etc. A character encoding is used in computation, data storage, and transmission of textual data. Terms such as character set, character map, codeset or code page are sometimes used as near synonyms; however, these terms have related but distinct meanings described in the article.
 
-Early character codes associated with the optical or electrical telegraph could only represent a subset of the characters used in written languages, sometimes restricted to upper case letters, numerals and some punctuation only. The low cost of digital representation of data in modern computer systems allows more elaborate character codes (such as Unicode) which represent more of the characters used in many written languages. Character encoding using internationally accepted standards permits worldwide interchange of text in electronic form.
+Character Encoding
+In computing, a character encoding is used to represent a repertoire of characters by some kind of an encoding system. Depending on the abstraction level and context, corresponding code points and the resulting code space may be regarded as bit patterns, octets, natural numbers, electrical pulses, etc. A character encoding is used in computation, data storage, and transmission of textual data. Terms such as character set, character map, codeset or code page are sometimes used as near synonyms; however, these terms have related but distinct meanings described in the article.
+
+Early character codes associated with the optical or electrical telegraph could only represent a subset of the characters used in written languages, sometimes restricted to upper case letters, numerals and some punctuation only. The low cost of digital representation of data in modern computer systems allows more elaborate character codes (such as [Unicode]) which represent more of the characters used in many written languages. Character encoding using internationally accepted standards permits worldwide interchange of text in electronic form.
 ===
-ISO/IEC 8859-1:1998, Information technology — 8-bit single-byte coded graphic character sets — Part 1: Latin alphabet No. 1, is part of the ISO/IEC 8859 series of ASCII-based standard character encodings, first edition published in 1987. It is generally intended for Western European languages (see below for a list). It is the basis for most popular 8-bit character sets, including Windows-1252 and the first block of characters in Unicode.
+
+ISO/IEC 8859-1
+ISO/IEC 8859-1 is a [8-bit] single-byte coded graphic character sets — Part 1: Latin alphabet No. 1, is part of the ISO/IEC 8859 series of [ASCII] based standard character encodings, first edition published in 1987. It is generally intended for Western European languages. It is the basis for most popular 8-bit character sets, including [Windows-1252] and the first block of characters in [Unicode].
 
 ISO-8859-1 is the IANA preferred name for this standard when supplemented with the C0 and C1 control codes from ISO/IEC 6429. The following other aliases are registered for ISO-8859-1: iso-ir-100, csISOLatin1, latin1, l1, IBM819, CP819.
 
-The Windows-1252 codepage coincides with ISO-8859-1 for all codes except the range 128 to 159 (hex 80 to 9F), where the little-used C1 controls are replaced with additional characters including all the missing characters provided by ISO-8859-15. Code page 28591 a.k.a. Windows-28591 is the actual ISO-8859-1 codepage.[1]
+The Windows-1252 codepage coincides with ISO-8859-1 for all codes except the range 128 to 159 (hex 80 to 9F), where the little used C1 controls are replaced with additional characters including all the missing characters provided by ISO-8859-15. Code page 28591 a.k.a. Windows-28591 is the actual ISO-8859-1 codepage.
 ===
-SO/IEC 8859-15:1999, Information technology — 8-bit single-byte coded graphic character sets — Part 15: Latin alphabet No. 9, is part of the ISO/IEC 8859 series of ASCII-based standard character encodings, first edition published in 1999. It is informally referred to as Latin-9 (and was for a while called Latin-0). It is similar to ISO 8859-1, and thus generally intended for “Western European” languages, but replaces some less common symbols with the euro sign and some letters that were now deemed missing in part 1 for the target use.
 
-ISO-8859-15 is the IANA preferred charset name for this standard when supplemented with the C0 and C1 control codes from ISO/IEC 6429.
+UTF-8
+UTF-8 is a character encoding capable of encoding all possible characters, or code points, in [Unicode].
 
-Microsoft has assigned code page 28605 aka Windows-28605 to ISO-8859-15.
+The encoding is variable length and uses [8-bit] code units. It was designed for backward compatibility with [ASCII], and to avoid the complications of endianness and byte order marks in the alternative [UTF-16] and [UTF-32] encodings. The name is derived from: Universal Coded Character Set + Transformation Format—8-bit.
 
-There were attempts to make ISO-8859-15 the default character set for 8-bit communication, but it was never able to supplant the popular ISO-8859-1. However, it did see some use as a character set for terminal or textual programs under Linux when the Euro sign was needed, but the use of full UTF-8 (Unicode) was not practical. All the printable characters from both ISO/IEC 8859-1 and ISO/IEC 8859-15 are also found in Windows-1252.
-===
-UTF-8 is a character encoding capable of encoding all possible characters, or code points, in Unicode.
-
-The encoding is variable-length and uses 8-bit code units. It was designed for backward compatibility with ASCII, and to avoid the complications of endianness and byte order marks in the alternative UTF-16 and UTF-32 encodings. The name is derived from: Universal Coded Character Set + Transformation Format—8-bit.[1]
-
-
-Graph indicating that UTF-8 (light blue) exceeded other main encodings of text on the Web, and that by 2010 it was nearing 50% (and up to 84% in July 2015[2]). Encodings were detected by examining the text, not from the encoding tag in the header,[3] thus does not include ASCII tagged as UTF-8. As ASCII is valid UTF-8 it could be added to the UTF-8 to get over 65% usage in 2010.
-UTF-8 is the dominant character encoding for the World Wide Web, accounting for 84.3% of all Web pages in July 2015 (with the most popular East Asian encoding, GB 2312, at 1.3%).[2][3][4] The Internet Mail Consortium (IMC) recommends that all e-mail programs be able to display and create mail using UTF-8,[5] and the W3C recommends UTF-8 as the default encoding in XML and HTML.
+UTF-8 is the dominant character encoding for the [World Wide Web], accounting for 84.3% of all Web pages in July 2015. The Internet Mail Consortium (IMC) recommends that all e-mail programs be able to display and create mail using UTF-8, and the [W3C] recommends UTF-8 as the default encoding in [XML] and [HTML].
 
 UTF-8 encodes each of the 1,112,064 valid code points in the Unicode code space (1,114,112 code points minus 2,048 surrogate code points) using one to four 8-bit bytes (a group of 8 bits is known as an octet in the Unicode Standard). Code points with lower numerical values (i.e., earlier code positions in the Unicode character set, which tend to occur more frequently) are encoded using fewer bytes. The first 128 characters of Unicode, which correspond one-to-one with ASCII, are encoded using a single octet with the same binary value as ASCII, making valid ASCII text valid UTF-8-encoded Unicode as well. And ASCII bytes do not occur when encoding non-ASCII code points into UTF-8, making UTF-8 safe to use within most programming and document languages that interpret certain ASCII characters in a special way, e.g. as end of string.
 ===
