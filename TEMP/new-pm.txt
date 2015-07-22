@@ -1,62 +1,4 @@
 
-
-Open Systems Interconnection (OSI)
-Open Systems Interconnection (OSI) is an effort to standardise computer networking that was started in 1977 by the International Organisation for Standardisation ([ISO]), along with the ITU-T.
-
-Prior to OSI, networking was largely either government sponsored ([ARPANET] in the US, CYCLADES in France) or vendor developed and proprietary standards (such as the System network architecture (SNA) of [IBM] and [DECnet] of [Digital Equipment Corporation]). A Experimental Packet Switched system in the UK circa 1973, also identified the need to define higher level protocols. The NCC (UK) publication 'Why Distributed Computing' which came from considerable research into future configurations for computer systems, resulted in the UK presenting the case for an international standards committee to cover this area at the ISO meeting in Sydney in March 1977. OSI was hence an industry effort, attempting to get industry participants to agree on common network standards to provide multi-vendor interoperability. It was common for large networks to support multiple network protocol suites, with many devices unable to interoperate with other devices because of a lack of common protocols. However, while OSI developed its networking standards, TCP/IP came into widespread use on multivendor networks for internetworking, while on the local network level both [Ethernet] and [token ring] gained prominence.
-
-The OSI reference model was a major advance in the teaching of network concepts. It promoted the idea of a consistent model of protocol layers, defining interoperability between network devices and software. The [OSI model] was defined in raw form in Washington, DC in February 1978 by Hubert Zimmermann of France and the refined standard was published by the ISO in 1984.
-===
-
-VMScluster
-A VMScluster is a computer cluster involving a group of computers running the [OpenVMS] operating system. Whereas tightly coupled multiprocessor systems run a single copy of the operating system, a VMScluster is loosely coupled: each machine runs its own copy of OpenVMS, but the disk storage, lock manager, and security domain are all cluster-wide. Machines can join or leave a VMScluster without affecting the rest of the cluster. For enhanced availability, VMSclusters support the use of dual-ported disks connected to two machines or storage controllers simultaneously. With OpenVMS now ported to Alpha and IA-64 machines, the facility originally named VAXclustering was renamed to VMSclustering.
-
-[Digital Equipment Corporation] first announced VAXclusters in May 1983. At this stage, clustering required specialised communications hardware, as well as some major changes to low-level subsystems in [VMS]. The software and hardware were designed jointly.
-
-At the center of each cluster was a star coupler, to which every node (computer) and data storage device in the cluster was connected by one or two pairs of CI cables. ("CI" stands for Computer Interconnect) Each pair of cables had a transmission rate of 70 megabits per second, a high speed for that era. Using two pairs gave an aggregate transmission rate of 140 megabits per second, with redundancy in case one cable failed; the star couplers also had redundant wiring for better availability.
-
-Each CI cable connected to its computer via a CI Port, which could send and receive packets without any CPU involvement. To send a packet, a CPU had only to create a small data structure in memory and append it to a "send" queue; similarly, the CI Port would append each incoming message to a "receive" queue. Tests showed that a VAX-11/780 could send and receive 3000 messages per second, even though it was nominally a 1-MIPS machine. The closely related Mass Storage Control Protocol (MSCP) allowed similarly high performance from the mass storage subsystem. In addition, MSCP packets were very easily transported over the CI allowing remote access to storage devices.
-
-VAXclustering was the first clustering system to achieve commercial success, and was a major selling point for [VAX] systems.
-===
-
-DECnet
-DECnet is a suite of network protocols created by [Digital Equipment Corporation], originally released in 1975 in order to connect two PDP-11 minicomputers. It evolved into one of the first peer-to-peer network architectures, thus transforming DEC into a networking powerhouse in the 1980s. Initially built with three layers, it later (1982) evolved into a seven layer [OSI model] compliant networking protocol.
-
-DECnet was built right into the DEC flagship operating system [VMS] since its inception. Later Digital ported it to [Ultrix], as well as [Apple Macintosh] and [IBM PC] running variants of [DOS] and [Microsoft Windows] under the name DEC Pathworks, allowing these systems to connect to DECnet networks of [VAX] machines as terminal nodes. More recently, an open-source version has been developed for [GNU/Linux]. DECnet code in the [Linux] kernel was marked as orphaned on 18 February 2010.
-
-===
-
-Local Area Transport (LAT) 
-Local Area Transport (LAT) is a non-routable (Data Link Layer) networking technology developed by [Digital Equipment Corporation] to provide connection between the DECserver 90, 100, 200, 300, 500, 700 and DECserver 900 terminal servers and Digital's [VAX] and Alpha and MIPS host computers via [Ethernet], giving communication between those hosts and serial devices such as video terminals and printers. The protocol itself was designed in such a manner as to maximize packet efficiency over Ethernet by bundling multiple characters from multiple ports into a single packet for Ethernet transport (Mann, US 4823122). Over time, other host implementations of the LAT protocol appeared allowing communications to a wide range of [Unix] and other non-Digital operating systems using the LAT protocol.
-
-In 1984, the first implementation of the LAT protocol connected a terminal server to a VMS [VAX-Cluster] in Spit Brook Road, Nashua, NH. By "virtualising" the terminal port at the host end, a very large number of plug-and-play [VT100] class terminals could connect to each host computer system. Additionally, a single physical terminal could connect via multiple sessions to multiple hosts simultaneously. Future generations of terminal servers included both LAT and [TELNET] protocols, one of the earliest protocols created to run on a burgeoning [TCP/IP] based Internet. Additionally, the ability to create reverse direction pathways from users to non-traditional [RS232] devices (i.e. UNIX Host TTYS1 operator ports) created an entirely new market for Terminal Servers, now known as console servers in the mid to late 1990s, year 2000 and beyond through today.
-
-LAT and [VMS] drove the initial surge of adoption of "thick-wire" Ethernet by the computer industry. By 1986, terminal server networks accounted for 10% of Digital's $10 billion revenue. These early Ethernet LANs scaled using Ethernet bridges (another DEC invention) as well as DECnet routers. Subsequently, Cisco routers, which implemented TCP-IP and [DECnet], emerged as a global connection between these packet-based Ethernet LANs.
-
-Over time, when terminals became less popular, terminal emulators had a built-in LAT client.
-
-===
-
-VT100
-The VT100 is a video terminal, introduced in August 1978 by Digital Equipment Corporation ([DEC]). It was one of the first terminals to support [ANSI escape codes] for cursor control and other tasks, and added a number of extended codes for special features like controlling the LED lamps on the keyboard. This led to rapid uptake of the ANSI standard, becoming the de facto standard for terminal emulators.
-
-The VT100s, especially the VT102, was extremely successful in the market, and made DEC the leading terminal vendor for some time. The VT100 series was replaced by the [VT200] series starting in 1983, which proved just as successful. Ultimately, over six million terminals in the VT series would be sold, based largely on the success of the VT100s.
-
-The VT100 was introduced in August 1978, replacing the VT50 / [VT52] family. Like the earlier models, it communicated with its host system over serial lines using the ASCII character set and control sequences. Unlike the VT52's custom control sequences, the VT100 used sequences standardised by ANSI. The VT100 was also the first Digital mass-market terminal to incorporate "graphic renditions" (blinking, bolding, reverse video, and underlining) as well as 80 or 132 column displays. The VT100 also introduced an additional character set containing various bits of graphics that allowed the drawing of on-screen forms. All setup of the VT100 was accomplished using interactive displays presented on the screen; the setup data was stored in non-volatile memory within the terminal.
-
-The control sequences used by the VT100 family are based on the ANSI X3.64 standard, also known as ECMA-48 and ISO/IEC 6429. These are sometimes referred to as ANSI escape codes. The VT100 was not the first terminal to be based on X3.64 The Heath Company had a microprocessor based video terminal, the Heathkit H-19 (H19), that implemented a subset of the standard proposed by ANSI in X3.64. In addition, the VT100 provided backwards compatibility for VT52 users, with support for the VT52 control sequences.
-
-In 1983, the VT100 was replaced by the more-powerful VT200 series terminals such as the [VT220].
-
-The VT100 was the first of Digital's terminals to be based on an industry standard microprocessor, the [Intel 8080]. Options could be added to the terminal to support an external printer, additional graphic renditions, and more memory. The later option, known as Advanced Video Option or AVO, allowed the terminal to support a full 24 lines of text in 132 column mode. The VT100 became a platform on which Digital constructed related products.
-
-The VT101 and VT102 were cost reduced, non-expandable follow on versions. The VT101 was essentially a base model VT100, while the VT102 came standard with the AVO and serial printer port options pre-installed. The VT105 contained a simple graphics subsystem known as waveform graphics which was mostly compatible with same system in the earlier VT55. This system allowed two mathematical functions to be drawn to the screen on top of the normal text display, allowing text and graphics to be mixed to produce charts and similar output. The VT125 added an implementation of the byte efficient Remote Graphic Instruction Set, [ReGIS], which used custom ANSI codes to send the graphics commands to the terminal, rather than requiring the terminal to be set to a separate graphics mode like the VT105.
-
-The VT100 form factor left significant room in the case for expansion, and DEC used this to produce several all-in-one stand alone minicomputer systems. The VT103 included a cardcage and 4×4 (8-slot) Q-Bus backplane, sufficient to configure a small LSI-11 system within the case, and supported an optional dual TU58 DECtape II block addressable cartridge tape drive which behaves like a very slow disk drive. The VT180 (codenamed "Robin") added a single-board microcomputer using a [Zilog Z80] to run [CP/M]. The VT278 (DECmate) added a PDP-8 processor, allowing the terminal to run Digital's [WPS-8] word processing software.
-
-===
-
 ReGIS - Remote Graphic Instruction Set
 ReGIS, short for Remote Graphic Instruction Set, was a vector graphics markup language developed by Digital Equipment Corporation ([DEC]) for later models of their famous VT series of computer terminals. ReGIS supported rudimentary vector graphics consisting of lines, circular arcs, and similar shapes. Terminals supporting ReGIS generally allowed graphics and text to be mixed on-screen, which made construction of graphs and charts relatively easy.
 
@@ -214,9 +156,11 @@ The WebDAV protocol provides a framework for users to create, change and move do
 
 The WebDAV working group concluded its work in March 2007, after the Internet Engineering Steering Group ([IESG]) accepted an incremental update to [RFC 2518]. Other extensions left unfinished at that time, such as the BIND method, have been finished by their individual authors, independent of the formal working group.
 ===
+
 SabreDAV 
 SabreDAV is an open source [WebDAV] server, developed by fruux built in [PHP]. It is an implementation of the WebDAV protocol (with extensions for [CalDAV] and CardDAV), providing a native PHP server implementation which operates on [Apache 2] and [Nginx] web servers.
 ===
+
 CalDAV - Calendaring Extensions to WebDAV
 Calendaring Extensions to WebDAV, or CalDAV, is an Internet standard allowing a client to access scheduling information on a remote server. It extends [WebDAV] ([HTTP] based protocol for data manipulation) specification and uses [iCalendar] format for the data. The access protocol is defined by [RFC 4791]. It allows multiple client access to the same information thus allowing cooperative planning and information sharing. Many server and client applications support the protocol. Extensions to CalDAV for automated scheduling are also standardised, as [RFC 6638].
 ===
@@ -335,49 +279,57 @@ Much like an extension of Google's "Knowledge Graph", Hummingbird is aimed at ma
 
 Hummingbird places greater emphasis on page content making search results more relevant and pertinent and ensuring that Google delivers users to the most appropriate page of a website, rather than to a home page or top level page.
 ===
-Sixel, short for "six pixels", is a bitmap graphics format supported by terminals and printers from DEC. It consists of a pattern six pixels high and one wide, resulting in 63 possible patterns. Each possible pattern is assigned an ASCII character, making the sixels easy to transmit on 7-bit serial links.
 
-Sixel was first introduced as a way of sending bitmap graphics to DEC dot matrix printers like the LA50. After being put into "sixel mode" the following data was interpreted to directly control six of the pins in the nine-pin print head. A string of sixel characters encodes a single 6-pixel high row of the image.
+Sixel
+Sixel, short for "six pixels", is a bitmap graphics format supported by terminals and printers from [DEC]. It consists of a pattern six pixels high and one wide, resulting in 63 possible patterns. Each possible pattern is assigned an [ASCII] character, making the sixels easy to transmit on 7-bit serial links.
 
-The system was later re-used as a way to send bitmap data to the VT200 series terminals as a way to define custom character sets. A number of sixels were used to define each character. Starting with the VT300 series, the terminals could decode a complete sixel image to the screen, like those previously sent to printers.
+Sixel was first introduced as a way of sending bitmap graphics to DEC dot matrix printers like the LA50. After being put into "sixel mode" the following data was interpreted to directly control six of the pins in the nine pin print head. A string of sixel characters encodes a single 6 pixel high row of the image.
 
-Sixel encodes images by breaking up the bitmap into a series of 6-pixel high horizontal strips. Each 1-pixel-wide vertical column in a particular strip forms a single sixel. Each sixel's pixels are read as binary and encoded into a single 6-bit number, with "on" pixels encoded as a 1. This number, from 0 to 63 decimal, is then converted into a single ASCII character, offset by 63 so that an all-black sixel, 0 decimal, is encoded as ?. This ensures that the sixels remain within the easily printable range of the character set. Carriage return (CR) is represented by $, and line feeds (LF) with a -, both had to be sent in turn to return the cursor to the start of the line, CRLF.
+The system was later re-used as a way to send bitmap data to the [VT200] series terminals as a way to define custom character sets. A number of sixels were used to define each character. Starting with the [VT300] series, the terminals could decode a complete sixel image to the screen, like those previously sent to printers.
 
-Sixel also included a rudimentary form of compression, using run length encoding (RLE). This was accomplished with the ! character followed by a decimal number of the times to repeat, and then a single sixel character to be repeated. Since the ! and decimal digits could not be valid sixel data, lying outside the encoded range, the encoding was easy to identify and expand back out in software.
+Sixel encodes images by breaking up the bitmap into a series of 6 pixel high horizontal strips. Each 1 pixel wide vertical column in a particular strip forms a single sixel. Each sixel's pixels are read as binary and encoded into a single 6 bit number, with "on" pixels encoded as a 1. This number, from 0 to 63 decimal, is then converted into a single ASCII character, offset by 63 so that an all-black sixel, 0 decimal, is encoded as ?. This ensures that the sixels remain within the easily printable range of the character set. Carriage return (CR) is represented by $, and line feeds (LF) with a -, both had to be sent in turn to return the cursor to the start of the line, CRLF.
+
+Sixel also included a rudimentary form of compression, using Run Length Encoding ([RLE]). This was accomplished with the ! character followed by a decimal number of the times to repeat, and then a single sixel character to be repeated. Since the ! and decimal digits could not be valid sixel data, lying outside the encoded range, the encoding was easy to identify and expand back out in software.
 
 "Sixel mode" was entered by sending the sequence <ESC>Pp1;p2;p3;q. The p1 through p3 were optional setup parameters, with p1 defining an aspect ratio (deprecated in favor of p3), p2 how to interpret the color of zeros, and p3 with simple grid size parameters. <ESC>P is the standard DEC "Device Control String", or DCS, which was used to turn on or off a number of special features in DEC's equipment. The "q" is the sixel identifier. Sixel data then followed the q. The "Stop Text" sequence <ESC>\ returned the device back to normal character mode again.
 
-For printing, sixels are sent to the printer, decoded back into binary, and sent directly to the six pins of the print head. The only complexity involved expanding the RLE's into the internal print buffer. Display on a terminal is somewhat more difficult. On terminals supporting graphics, the ReGIS graphics system was used to directly draw the sixel pattern into the screen's bitmap. This was done at high speed by storing the bitmap patterns as a glyph and then bitting them.
+For printing, sixels are sent to the printer, decoded back into binary, and sent directly to the six pins of the print head. The only complexity involved expanding the RLE's into the internal print buffer. Display on a terminal is somewhat more difficult. On terminals supporting graphics, the [ReGIS] graphics system was used to directly draw the sixel pattern into the screen's bitmap. This was done at high speed by storing the bitmap patterns as a glyph and then bitting them.
 
 When used for defining custom character sets the format was almost identical, although the escape codes changed. In terms of the data, the only major difference was the replacement of the separate CR/LF with a single /. In the VT300 series for instance, 80-column character glyphs were 15 pixels wide by 12 high, meaning that a character could be defined by sending a total of 30 sixels.
 
-Color was also supported using the # character, followed by a number referring to one of a number of color registers, which varied from device to device. Colors were defined using either RGB or HSV values in a peculiar DEC format. On a printer, a line of sixels was sent several times, each representing a single bitplane from the register-based colors on the terminals (normally 2 or 4 bits). For non-graphics terminals, color was simply dropped. Since the capabilities of the hardware varied widely, a color sixel drawing could only be output to targeted devices.
-
+Colour was also supported using the # character, followed by a number referring to one of a number of colour registers, which varied from device to device. Colours were defined using either [RGB] or [HSV] values in a peculiar DEC format. On a printer, a line of sixels was sent several times, each representing a single bitplane from the register based colours on the terminals (normally 2 or 4 bits). For non-graphics terminals, colour was simply dropped. Since the capabilities of the hardware varied widely, a colour sixel drawing could only be output to targeted devices.
 ===
-Run-length encoding (RLE) is a very simple form of data compression in which runs of data (that is, sequences in which the same data value occurs in many consecutive data elements) are stored as a single data value and count, rather than as the original run. This is most useful on data that contains many such runs. Consider, for example, simple graphic images such as icons, line drawings, and animations. It is not useful with files that don't have many runs as it could greatly increase the file size.
 
-RLE may also be used to refer to an early graphics file format supported by CompuServe for compressing black and white images, but was widely supplanted by their later Graphics Interchange Format. RLE also refers to a little-used image format in Windows 3.x, with the extension rle, which is a Run Length Encoded Bitmap, used to compress the Windows 3.x startup screen.
+Run Length Encoding (RLE) 
+Run Length Encoding (RLE) is a very simple form of data compression in which runs of data (that is, sequences in which the same data value occurs in many consecutive data elements) are stored as a single data value and count, rather than as the original run. This is most useful on data that contains many such runs. Consider, for example, simple graphic images such as icons, line drawings, and animations. It is not useful with files that don't have many runs as it could greatly increase the file size.
+
+RLE may also be used to refer to an early graphics file format supported by [CompuServe] for compressing black and white images, but was widely supplanted by their later [Graphics Interchange Format]. RLE also refers to a little used image format in [Windows 3.x], with the extension .rle, which is a Run Length Encoded Bitmap, used to compress the Windows 3.x startup screen.
 
 Typical applications of this encoding are when the source information comprises long substrings of the same character or binary digit.
 ===
-CompuServe (CompuServe Information Service, also known by its acronym CIS) was the first major commercial online service in the United States. It dominated the field during the 1980s and remained a major player through the mid-1990s, when it was sidelined by the rise of services such as AOL with monthly subscriptions rather than hourly rates. Since the purchase of CompuServe's Information Services Division by AOL, it has operated as an online service provider and an Internet service provider. The original CompuServe Information Service, later rebranded as CompuServe Classic, was shut down July 1, 2009. The newer version of the service, CompuServe 2000, continues to operate as an internet portal.
+
+CompuServe
+CompuServe (CompuServe Information Service, also known by its acronym CIS) was the first major commercial online service in the United States. It dominated the field during the 1980s and remained a major player through the mid 1990s, when it was sidelined by the rise of services such as [AOL] with monthly subscriptions rather than hourly rates. Since the purchase of CompuServe's Information Services Division by AOL, it has operated as an online service provider and an Internet service provider. The original CompuServe Information Service, later rebranded as CompuServe Classic, was shut down 1 July 2009. The newer version of the service, CompuServe 2000, continues to operate as an internet portal.
 ===
-In computing, ANSI escape codes (or escape sequences) are a method using in-band signaling to control the formatting, color, and other output options on video text terminals. To encode this formatting information, certain sequences of bytes are embedded into the text, which the terminal looks for and interprets as commands, not as character codes.
 
-ANSI codes were introduced in the 1970s and became widespread in the minicomputer/mainframe market by the early 1980s. They were used by the nascent bulletin board system market to offer improved displays compared to earlier systems lacking cursor movement, leading to even more widespread use.
+NSI Escape Codes
+In computing, ANSI escape codes (or escape sequences) are a method using in-band signaling to control the formatting, colour, and other output options on video text terminals. To encode this formatting information, certain sequences of bytes are embedded into the text, which the terminal looks for and interprets as commands, not as character codes.
 
-Although hardware text terminals have become increasingly rare in the 21st century, the relevance of the ANSI standard persists because most terminal emulators interpret at least some of the ANSI escape sequences in the output text. One notable exception is the win32 console component of Microsoft Windows.
+ANSI codes were introduced in the 1970s and became widespread in the minicomputer / mainframe market by the early 1980s. They were used by the nascent [bulletin board system] market to offer improved displays compared to earlier systems lacking cursor movement, leading to even more widespread use.
 
+Although hardware text terminals have become increasingly rare in the 21st century, the relevance of the ANSI standard persists because most terminal emulators interpret at least some of the ANSI escape sequences in the output text. One notable exception is the win32 console component of [Microsoft Windows].
 ===
-Terminal (Terminal.app) is the terminal emulator included in the OS X operating system by Apple.[1][dead link]
 
-Terminal originated in NeXTSTEP and OPENSTEP, the predecessor operating systems of OS X.
+Mac Terminal
+Terminal (Terminal.app) is the terminal emulator included in the [OS X] operating system by [Apple].
 
-As a terminal emulator, the application provides text-based access to the operating system, in contrast to the mostly graphical nature of the user experience of OS X, by providing a command line interface to the operating system when used in conjunction with a Unix shell, such as bash.
+Terminal originated in [NeXTSTEP] and OPENSTEP, the predecessor operating systems of OS X.
 
-The preferences dialog for Terminal.app in OS X 10.8 (Mountain Lion) offers choices for values of the TERM environment variable. Available options are ansi, dtterm, nsterm, rxvt, vt52, vt100, vt102, xterm, xterm-16color and xterm-256color, which differ from the OS X 10.5 (Leopard) choices by dropping the xterm-color and adding xterm-16color and xterm-256color. These settings do not alter the operation of Terminal, and the xterm settings do not match the behavior of xterm.[2]
+As a terminal emulator, the application provides text-based access to the operating system, in contrast to the mostly graphical nature of the user experience of OS X, by providing a command line interface to the operating system when used in conjunction with a [Unix] shell, such as [bash].
 
-Terminal includes several features that specifically access OS X APIs and features. These include the ability to use the standard OS X Help search function to find manual pages and integration with Spotlight.[citation needed] Terminal was used by Apple as a showcase for OS X graphics APIs in early advertising of Mac OS X,[citation needed] offering a range of custom font and coloring options, including transparent backgrounds.
+The preferences dialog for Terminal.app in OS X 10.8 ([Mountain Lion]) offers choices for values of the TERM environment variable. Available options are ansi, dtterm, nsterm, rxvt, vt52, vt100, vt102, xterm, xterm-16color and xterm-256color, which differ from the OS X 10.5 ([Leopard]) choices by dropping the xterm-color and adding xterm-16color and xterm-256color. These settings do not alter the operation of Terminal, and the xterm settings do not match the behaviour of xterm.
+
+Terminal includes several features that specifically access OS X APIs and features. These include the ability to use the standard OS X Help search function to find manual pages and integration with Spotlight. Terminal was used by Apple as a showcase for OS X graphics APIs in early advertising of Mac OS X, offering a range of custom font and colouring options, including transparent backgrounds.
 ===
 Wyse is a leading manufacturer[1] of cloud computing systems. They are best known for their video terminal line introduced in the 1980s, which competed with the market leading Digital. They also had a successful line of IBM PC compatible in the mid-to-late 1980s, but were outcompeted by companies such as Dell starting late in the decade. Current products include thin client hardware and software[2] as well as desktop virtualization.[3] Other products include cloud software-supporting desktop computers, laptops, and mobile devices.[4] Dell Cloud Client Computing is partnered with IT vendors such as Citrix, IBM, Microsoft, and VMware.[5]
 

@@ -676,6 +676,9 @@ class Stencil {
             case 'IPT':
                 $path = 'it/networks/ip-suite/transport';
                 break;
+            case 'DEC':
+                $path = 'it/networks/dec';
+                break;
             case 'WAP':
                 $path = 'it/networks/wap';
                 break;
@@ -840,6 +843,9 @@ class Stencil {
                 break;
             case 'IM':
                 $path = 'it/software/im';
+                break;
+            case 'VT':
+                $path = 'it/hardware/dec';
                 break;
         }
         if ($full) {
