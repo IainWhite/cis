@@ -641,39 +641,45 @@ UTF-8 is the dominant character encoding for the [World Wide Web], accounting fo
 
 UTF-8 encodes each of the 1,112,064 valid code points in the Unicode code space (1,114,112 code points minus 2,048 surrogate code points) using one to four 8-bit bytes (a group of 8 bits is known as an octet in the Unicode Standard). Code points with lower numerical values (i.e., earlier code positions in the Unicode character set, which tend to occur more frequently) are encoded using fewer bytes. The first 128 characters of Unicode, which correspond one-to-one with ASCII, are encoded using a single octet with the same binary value as ASCII, making valid ASCII text valid UTF-8-encoded Unicode as well. And ASCII bytes do not occur when encoding non-ASCII code points into UTF-8, making UTF-8 safe to use within most programming and document languages that interpret certain ASCII characters in a special way, e.g. as end of string.
 ===
-UTF-16 (16-bit Unicode Transformation Format) is a character encoding capable of encoding all 1,112,064 possible characters in Unicode. The encoding is variable-length, as code points are encoded with one or two 16-bit code units. (also see Comparison of Unicode encodings for a comparison of UTF-8, -16 & -32)
+
+UTF-16
+UTF-16 (16-bit [Unicode] Transformation Format) is a character encoding capable of encoding all 1,112,064 possible characters in Unicode. The encoding is variable-length, as code points are encoded with one or two [16-bit] code units. (also see Comparison of Unicode encodings for a comparison of [UTF-8], UTF-16 & [UTF-32])
 
 UTF-16 developed from an earlier fixed-width 16-bit encoding known as UCS-2 (for 2-byte Universal Character Set) once it became clear that a fixed-width 2-byte encoding could not encode enough characters to be truly universal.
 ===
-UTF-32 (or UCS-4) stands for Unicode Transformation Format 32 bits. It is a protocol to encode Unicode characters that uses exactly 32 bits per Unicode code point. This makes UTF-32 a fixed-length encoding, in contrast to all other Unicode transformation formats which are variable-length encodings. The UTF-32 form of a character is a direct representation of its codepoint.[1]
 
-The main advantage of UTF-32, versus variable-length encodings, is that the Unicode code points are directly indexable. Examining the n'th code point is a constant time operation.[2] In contrast, a variable-length code requires sequential access to find the n'th code point. This makes UTF-32 a simple replacement in code that uses integers to index characters out of strings, as was commonly done for ASCII.
+UTF-32
+UTF-32 (or UCS-4) stands for [Unicode] Transformation Format [32-bits]. It is a protocol to encode Unicode characters that uses exactly 32-bits per Unicode code point. This makes UTF-32 a fixed-length encoding, in contrast to all other Unicode transformation formats which are variable-length encodings. The UTF-32 form of a character is a direct representation of its codepoint.
 
-The main disadvantage of UTF-32 is that it is space inefficient, using four bytes per character. Non-BMP characters are so rare in most texts[citation needed], they may as well be considered non-existent for sizing issues, making UTF-32 up to twice the size of UTF-16 and up to four times the size of UTF-8.
+The main advantage of UTF-32, versus variable-length encodings, is that the Unicode code points are directly indexable. Examining the n'th code point is a constant time operation. In contrast, a variable-length code requires sequential access to find the n'th code point. This makes UTF-32 a simple replacement in code that uses integers to index characters out of strings, as was commonly done for [ASCII].
+
+The main disadvantage of UTF-32 is that it is space inefficient, using four bytes per character. Non-BMP characters are so rare in most texts, they may as well be considered non-existent for sizing issues, making UTF-32 up to twice the size of UTF-16 and up to four times the size of UTF-8.
 ===
-Windows-1252 or CP-1252 is a character encoding of the Latin alphabet, used by default in the legacy components of Microsoft Windows in English and some other Western languages. It is one version within the group of Windows code pages.
 
-This character encoding is a superset of ISO 8859-1, but differs from the IANA's ISO-8859-1 by using displayable characters rather than control characters in the 80 to 9F (hex) range. Notable additional characters are curly quotation marks, the Euro sign, and all the printable characters that are in ISO 8859-15. It is known to Windows by the code page number 1252, and by the IANA-approved name "windows‑1252".
+Windows-1252
+Windows-1252 or CP-1252 is a character encoding of the Latin alphabet, used by default in the legacy components of [Microsoft Windows] in English and some other Western languages. It is one version within the group of [Windows code pages].
 
-It is very common to mislabel Windows-1252 text with the charset label ISO-8859-1. A common result was that all the quotes and apostrophes (produced by "smart quotes" in word-processing software) were replaced with question marks or boxes on non-Windows operating systems, making text difficult to read. Most modern web browsers and e-mail clients treat the MIME charset ISO-8859-1 as Windows-1252 to accommodate such mislabeling. This is now standard behavior in the HTML 5 specification, which requires that documents advertised as ISO-8859-1 actually be parsed with the Windows-1252 encoding.[1]
+This character encoding is a superset of [ISO 8859-1], but differs from the IANA's ISO-8859-1 by using displayable characters rather than control characters in the 80 to 9F (hex) range. Notable additional characters are curly quotation marks, the Euro sign, and all the printable characters that are in ISO 8859-15. It is known to Windows by the code page number 1252, and by the IANA-approved name "windows‑1252".
 
-Historically, the phrase "ANSI Code Page" (ACP) is used in Windows to refer to various code pages considered as native. The intention was that most of these would be ANSI standards such as ISO-8859-1. Even though Windows-1252 was the first and by far most popular code page named so in Microsoft Windows parlance, the code page has never been an ANSI standard. Microsoft explains, "The term ANSI as used to signify Windows code pages is a historical reference, but is nowadays a misnomer that continues to persist in the Windows community."[2]
+It is very common to mislabel Windows-1252 text with the charset label ISO-8859-1. A common result was that all the quotes and apostrophes (produced by "smart quotes" in word-processing software) were replaced with question marks or boxes on non-Windows operating systems, making text difficult to read. Most modern web browsers and e-mail clients treat the [MIME] charset ISO-8859-1 as Windows-1252 to accommodate such mislabeling. This is now standard behaviour in the [HTML 5] specification, which requires that documents advertised as ISO-8859-1 actually be parsed with the Windows-1252 encoding.
 
-
+Historically, the phrase "ANSI Code Page" (ACP) is used in [Windows] to refer to various code pages considered as native. The intention was that most of these would be ANSI standards such as ISO-8859-1. Even though Windows-1252 was the first and by far most popular code page named so in Microsoft Windows parlance, the code page has never been an ANSI standard. Microsoft explains, "The term ANSI as used to signify Windows code pages is a historical reference, but is nowadays a misnomer that continues to persist in the Windows community."
 ===
-Windows code pages are sets of characters or code pages (known as character encodings in other operating systems) used in Microsoft Windows from the 1980s and 1990s. Windows code pages were gradually superseded when Unicode was implemented in Windows, although they are still supported both within Windows and other platforms.
 
-There are two groups of code pages in Windows systems: OEM and ANSI code pages. Code pages in both of these groups are extended ASCII code pages.
+Windows Code Pages
+Windows code pages are sets of characters or code pages (known as character encodings in other operating systems) used in [Microsoft Windows] from the 1980s and 1990s. Windows code pages were gradually superseded when Unicode was implemented in Windows, although they are still supported both within Windows and other platforms.
 
-ANSI code page[edit]
-ANSI code pages (officially called "Windows code pages"[1] after Microsoft accepted the former term being a misnomer[2]) are used for native non-Unicode (say, byte oriented) applications using a graphical user interface on Windows systems. ANSI Windows code pages, and especially the code page 1252, were called that way since they were purportedly based on drafts submitted or intended for ANSI. However, ANSI and ISO have not standardized any of these code pages. Instead they are either supersets of the standard sets such as those of ISO 8859 and the various national standards (like Windows-1252 vs. ISO-8859-1), major modifications of these (making them incompatible to various degrees, like Windows-1250 vs. ISO-8859-2) or having no parallel encoding (like Windows-1257 vs. ISO-8859-4; ISO-8859-13 was introduced much later).[2] About twelve of the typography and business characters from CP1252 at code points 0x80–0x9F (in ISO 8859 occupied by C1 control codes, which are useless in Windows) are present in many other ANSI/Windows code pages at the same codes. These code pages are labelled by Internet Assigned Numbers Authority (IANA) as "Windows-number".[3]
+There are two groups of code pages in Windows systems: OEM and ANSI code pages. Code pages in both of these groups are extended [ASCII] code pages.
 
-OEM code page[edit]
-The OEM code pages (original equipment manufacturer) are used by Win32 console applications, and by virtual DOS, and can be considered a holdover from DOS and the original IBM PC architecture. A separate suite of code pages was implemented not only due to compatibility, but also because the fonts of VGA (and descendant) hardware suggest encoding of line drawing characters to be compatible with code page 437. Most OEM code pages share many code points, particularly for non-letter characters, with the second (non-ASCII) half of CP437.
+ANSI code page
+ANSI code pages (officially called "Windows code pages" after [Microsoft] accepted the former term being a misnomer) are used for native non-Unicode (say, byte oriented) applications using a graphical user interface on Windows systems. ANSI Windows code pages, and especially the code page 1252, were called that way since they were purportedly based on drafts submitted or intended for ANSI. However, ANSI and ISO have not standardised any of these code pages. Instead they are either supersets of the standard sets such as those of ISO 8859 and the various national standards (like Windows-1252 vs. ISO-8859-1), major modifications of these (making them incompatible to various degrees, like Windows-1250 vs. ISO-8859-2) or having no parallel encoding (like Windows-1257 vs. ISO-8859-4; ISO-8859-13 was introduced much later). About twelve of the typography and business characters from CP1252 at code points 0x80–0x9F (in ISO 8859 occupied by C1 control codes, which are useless in Windows) are present in many other ANSI / Windows code pages at the same codes. These code pages are labelled by Internet Assigned Numbers Authority ([IANA]) as "Windows-number".
 
-A typical OEM code page, in its second half, does not resemble any ANSI/Windows code page even roughly. Nevertheless, two single-byte, fixed-width code pages (874 for Thai and 1258 for Vietnamese) and four multibyte CJK code pages (932, 936, 949, 950) are used as both OEM and ANSI code pages. Code page 1258 uses combining diacritics, as Vietnamese requires more than 128 letter-diacritic combinations. This is in contrast to VISCII, which replaces some of the C0 (i.e. ASCII) control codes.
+OEM code page
+The OEM code pages (original equipment manufacturer) are used by Win32 console applications, and by virtual DOS, and can be considered a holdover from [DOS] and the original [IBM PC] architecture. A separate suite of code pages was implemented not only due to compatibility, but also because the fonts of [VGA] (and descendant) hardware suggest encoding of line drawing characters to be compatible with code page 437. Most OEM code pages share many code points, particularly for non-letter characters, with the second (non-ASCII) half of CP437.
 
-The following Windows code pages exist:
+A typical OEM code page, in its second half, does not resemble any ANSI / Windows code page even roughly. Nevertheless, two single-byte, fixed-width code pages (874 for Thai and 1258 for Vietnamese) and four multibyte CJK code pages (932, 936, 949, 950) are used as both OEM and ANSI code pages. Code page 1258 uses combining diacritics, as Vietnamese requires more than 128 letter-diacritic combinations. This is in contrast to VISCII, which replaces some of the C0 (i.e. ASCII) control codes.
+
+Windows Code Pages
 
 ID		Names					Description						Type		Base				Encoding	Standard
 37		CP037, IBM037			IBM EBCDIC US-Canada			Other		EBCDIC derivation	8-bit SBCS	IBM CP037	
@@ -688,9 +694,9 @@ ID		Names					Description						Type		Base				Encoding	Standard
 1257	CP1257, Windows-1257	Baltic							ANSI		ASCII derivation	8-bit SBCS	Microsoft CP1257		
 1258	CP1258, Windows-1258	Vietnamese						OEM + ANSI	?					8-bit SBCS	Microsoft CP1258
 
-
-
 ====
+
+Unicode
 Unicode is a computing industry standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems. Developed in conjunction with the Universal Character Set standard and published as The Unicode Standard, the latest version of Unicode contains a repertoire of more than 120,000 characters covering 129 modern and historic scripts, as well as multiple symbol sets. The standard consists of a set of code charts for visual reference, an encoding method and set of standard character encodings, a set of reference data files, and a number of related items, such as character properties, rules for normalization, decomposition, collation, rendering, and bidirectional display order (for the correct display of text containing both right-to-left scripts, such as Arabic and Hebrew, and left-to-right scripts).[1] As of June 2015, the most recent version is Unicode 8.0. The standard is maintained by the Unicode Consortium.
 
 Unicode's success at unifying character sets has led to its widespread and predominant use in the internationalization and localization of computer software. The standard has been implemented in many recent technologies, including modern operating systems, XML, the Java programming language, and the Microsoft .NET Framework.
