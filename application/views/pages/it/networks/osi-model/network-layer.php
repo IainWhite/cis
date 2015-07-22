@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Layer 3: Network Layer'); ?>
+        <p>The <strong>network layer</strong> provides the functional and procedural means of transferring variable length data sequences (called datagrams) from one node to another connected to the same network. It translates logical network address into physical machine address. A network is a medium to which many nodes can be connected, on which every node has an address and which permits nodes connected to it to transfer messages to other nodes connected to it by merely providing the content of a message and the address of the destination node and letting the network find the way to deliver ("route") the message to the destination node. In addition to message routing, the network may (or may not) implement message delivery by splitting the message into several fragments, delivering each fragment by a separate route and reassembling the fragments, report delivery errors, etc.</p>
+        <p>Datagram delivery at the network layer is not guaranteed to be reliable.</p>
+        <p>A number of layer management protocols, a function defined in the management annex, ISO 7498/4, belong to the network layer. These include routing protocols, multicast group management, network layer information and error, and network layer address assignment. It is the function of the payload that makes these belong to the network layer, not the protocol that carries them.</p>
+    </div>
+</div>

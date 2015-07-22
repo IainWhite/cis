@@ -658,6 +658,9 @@ class Stencil {
             case 'ITN':
                 $path = 'it/networks';
                 break;
+            case 'OSI':
+                $path = 'it/networks/osi-model';
+                break;
             case 'IPS':
                 $path = 'it/networks/ip-suite';
                 break;

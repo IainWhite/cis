@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('OSI Model'); ?>
+        <p>The <strong>Open Systems Interconnection model (OSI Model)</strong> is a conceptual model that characterises and standardises the communication functions of a telecommunication or computing system without regard of their underlying internal structure and technology. Its goal is the interoperability of diverse communication systems with standard protocols. The model partitions a communication system into abstraction layers. The original version of the model defined seven layers.</p>
+        <p>A layer serves the layer above it and is served by the layer below it. For example, a layer that provides error free communications across a network provides the path needed by applications above it, while it calls the next lower layer to send and receive packets that comprise the contents of that path. Two instances at the same layer are visualised as connected by a horizontal connection in that layer.</p>
+        <p>The model is a product of the <?php echo $this->stencil->addLink('Open Systems Interconnection', 'ITN'); ?> project at the <strong>International Organisation for Standardisation (<?php echo $this->stencil->addLink('ISO', 'C'); ?>)</strong>, maintained by the identification ISO/IEC 7498-1.</p>
+        <p>In the late 1970s, two projects began independently, with the same goal: to define a unifying standard for the architecture of networking systems. One was administered by the International Organisation for Standardisation (ISO), while the other was undertaken by the <strong>International Telegraph and Telephone Consultative Committee</strong>, or <strong>CCITT</strong> (the abbreviation is from the French version of the name). These two international standards bodies each developed a document that defined similar networking models.</p>
+        <p>In 1983, these two documents were merged to form a standard called <strong>The Basic Reference Model for Open Systems Interconnection</strong>. The standard is usually referred to as the <strong>Open Systems Interconnection Reference Model</strong>, the <strong>OSI Reference Model</strong>, or simply the <strong>OSI model</strong>. It was published in 1984 by both the ISO, as standard ISO 7498, and the renamed CCITT (now called the <strong>Telecommunications Standardisation Sector of the International Telecommunication Union</strong> or <strong>ITU-T</strong>) as standard X.200.</p>
+        <p>OSI had two major components, an abstract model of networking, called the Basic Reference Model or seven layer model, and a set of specific protocols.</p>
+        <p>The concept of a seven layer model was provided by the work of <strong>Charles Bachman</strong> at <strong>Honeywell Information Services</strong>. Various aspects of OSI design evolved from experiences with the <?php echo $this->stencil->addLink('ARPANET', 'ITN'); ?>, NPLNET, EIN, CYCLADES network and the work in IFIP WG6.1. The new design was documented in ISO 7498 and its various addenda. In this model, a networking system was divided into layers. Within each layer, one or more entities implement its functionality. Each entity interacted directly only with the layer immediately beneath it, and provided facilities for use by the layer above it.</p>
+        <p>Protocols enable an entity in one host to interact with a corresponding entity at the same layer in another host. Service definitions abstractly described the functionality provided to an (N)-layer by an (N-1) layer, where N was one of the seven layers of protocols operating in the local host.</p>
+
+        <h2>Description of OSI Layers</h2>
+        <p>The recommendation X.200 describes seven layers, labeled 1 to 7. Layer 1 is the lowest layer in this model.</p>
+
+        <table>
+            <tr><td>7</td><td><?php echo $this->stencil->addLink('Application Layer', 'OSI'); ?></td><td>High-level APIs, including resource sharing, remote file access, directory services and virtual terminals</td></tr>
+            <tr><td>6</td><td><?php echo $this->stencil->addLink('Presentation Layer', 'OSI'); ?></td><td>Translation of data between a networking service and an application; including character encoding, data compression and encryption/decryption</td></tr>
+            <tr><td>5</td><td><?php echo $this->stencil->addLink('Session Layer', 'OSI'); ?></td><td>Managing communication sessions, i.e. continuous exchange of information in the form of multiple back-and-forth transmissions between two nodes</td></tr>
+            <tr><td>4</td><td><?php echo $this->stencil->addLink('Transport Layer', 'OSI'); ?></td><td>Reliable transmission of data segments between points on a network, including segmentation, acknowledgement and multiplexing</td></tr>
+            <tr><td>3</td><td><?php echo $this->stencil->addLink('Network Layer', 'OSI'); ?></td><td>Structuring and managing a multi-node network, including addressing, routing and traffic control</td></tr>
+            <tr><td>2</td><td><?php echo $this->stencil->addLink('Data link Layer', 'OSI'); ?></td><td>Reliable transmission of data frames between two nodes connected by a physical layer</td></tr>
+            <tr><td>1</td><td><?php echo $this->stencil->addLink('Physical Layer', 'OSI'); ?></td><td>Transmission and reception of raw bit streams over a physical medium</td></tr>
+        </table>
+
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Layer 4: Transport Layer'); ?>
+        <p>The <strong>transport layer</strong> provides the functional and procedural means of transferring variable-length data sequences from a source to a destination host via one or more networks, while maintaining the quality of service functions.</p>
+        <p>An example of a transport layer protocol in the standard Internet stack is <strong>Transmission Control Protocol (<?php echo $this->stencil->addLink('TCP', 'ITN'); ?>)</strong>, usually built on top of the <strong>Internet Protocol (<?php echo $this->stencil->addLink('IP', 'ITN'); ?>)</strong>.</p>
+        <p>The transport layer controls the reliability of a given link through flow control, segmentation / desegmentation, and error control. Some protocols are state and connection oriented. This means that the transport layer can keep track of the segments and retransmit those that fail. The transport layer also provides the acknowledgement of the successful data transmission and sends the next data if no errors occurred. The transport layer creates packets out of the message received from the application layer. Packetising is a process of dividing the long message into smaller messages.</p>
+        <p>OSI defines five classes of connection-mode transport protocols ranging from class 0 (which is also known as TP0 and provides the fewest features) to class 4 (TP4, designed for less reliable networks, similar to the Internet). Class 0 contains no error recovery, and was designed for use on network layers that provide error free connections. Class 4 is closest to TCP, although TCP contains functions, such as the graceful close, which OSI assigns to the session layer.</p>
+    </div>
+</div>
