@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('IBM 8514'); ?>
+        <p><strong>IBM 8514</strong> is an <?php echo $this->stencil->addLink('IBM', 'C'); ?> graphics computer display standard supporting a display resolution of 1024x768 pixels with 256 colours at 43.5Hz (interlaced), or 640x480 at 60Hz (non-interlaced). 8514 usually refers to the display controller hardware (such as the 8514/A display adapter.) However, IBM sold the companion <?php echo $this->stencil->addLink('CRT', 'ITH'); ?> monitor (for use with the 8514/A) which carries the same designation, 8514.</p>
+        <p>8514 used a standardised programming interface called the "<strong>Adapter Interface</strong>" or AI. This interface is also used by <?php echo $this->stencil->addLink('XGA', 'VID'); ?>, <strong>IBM Image Adapter/A</strong>, and clones of the 8514/A and XGA such as the <?php echo $this->stencil->addLink('ATI Technologies', 'C'); ?> Mach 32 and IIT AGX. The interface allows computer software to offload common 2D-drawing operations (line-draw, color-fill, BITBLT) onto the 8514 hardware. This freed the host CPU for other tasks, and greatly improved the speed of redrawing a graphics visual (such as a pie-chart or <?php echo $this->stencil->addLink('CAD', 'ITS'); ?> illustration).</p>
+    </div>
+</div>
