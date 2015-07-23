@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Wyse'); ?>
+        <p><strong>Wyse</strong> is a leading manufacturer of cloud computing systems. They are best known for their video terminal line introduced in the 1980s, which competed with the market leading <?php echo $this->stencil->addLink('DEC', 'C'); ?>. They also had a successful line of <?php echo $this->stencil->addLink('IBM PC compatible', 'PC'); ?> in the mid to late 1980s, but were outcompeted by companies such as <?php echo $this->stencil->addLink('Dell', 'C'); ?> starting late in the decade. Current products include thin client hardware and software as well as desktop virtualisation. Other products include cloud software supporting desktop computers, laptops, and mobile devices.</p>
+        <p></p>On 2 April 2012, Dell and Wyse announced that Dell intends to take over the company. With this acquisition Dell would surpass their rival <?php echo $this->stencil->addLink('Hewlwtt-Packard', 'C'); ?> in the market for thin clients. On 25 May 2012 Dell informed the market that it had completed the acquisition of Wyse Technology, which is now known as <strong>Dell Wyse</strong>.</p>
+    </div>
+</div>

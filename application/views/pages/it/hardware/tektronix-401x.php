@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Tektronix 401x'); ?>
+        <p>The <strong>Tektronix 401x</strong> series was a family of text and graphics computer terminals based on the company's storage tube technology. The 4000 series were less expensive (under $10,000) than earlier graphics terminals, such as the <strong>IBM 2250</strong> because no additional electronics were needed to maintain the display on the screen (beyond providing proper voltages to it). They were widely used in the <?php echo $this->stencil->addLink('CAD', 'ITS'); ?> market in the 1970s and early 1980s. There were several members of the family introduced through the 1970s, the best known being the 4010 and 4014. They remained popular until the introduction of inexpensive graphics workstations in the 1980s. The new graphics workstations used raster displays and dedicated screen buffers that became more affordable as solid state memory chips became cheaper.</p>
+    </div>
+</div>

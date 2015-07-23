@@ -1,40 +1,4 @@
 
-ReGIS - Remote Graphic Instruction Set
-ReGIS, short for Remote Graphic Instruction Set, was a vector graphics markup language developed by Digital Equipment Corporation ([DEC]) for later models of their famous VT series of computer terminals. ReGIS supported rudimentary vector graphics consisting of lines, circular arcs, and similar shapes. Terminals supporting ReGIS generally allowed graphics and text to be mixed on-screen, which made construction of graphs and charts relatively easy.
-
-ReGIS was first introduced on the [VT125] in July 1981, followed shortly thereafter by the VK100 "GIGI" which combined the VT125 display system with composite video output and a [BASIC] interpreter. Later versions of the VT series included ReGIS, often with color support as well. This included the [VT240] and 241, VT330 and 340, and the VT525. ReGIS is also supported by a small number of terminal emulator systems.
-
-ReGIS replaced an earlier system known as waveform graphics that had been introduced on the VT55 and later used on the VT105. DEC normally provided backward compatibility with their terminals, but in this case the waveform system was simply dropped when ReGIS was introduced.
-===
-
-DEC ALL-IN-1
-ALL-IN-1 was an office automation product developed and sold by [Digital Equipment Corporation] in the 1980s. [HP] now maintains the current version Office Server V3.2 for [OpenVMS Alpha] and [OpenVMS VAX] systems.
-
-ALL-IN-1 was advertised as an office automation system including functionality in Electronic Messaging, Word Processing and Time Management. It offered an application development platform and customisation capabilities that ranged from scripting to code-level integration.
-
-ALL-IN-1 was designed and developed by Skip Walter, John Churin and Marty Skinner from Digital Equipment Corporation who began work in 1977. The first version of the software was called CP/OSS, the Charlotte Package of Office System Services, named after the location of the developers. In 1983, the product was renamed ALL-IN-1 and the Charlotte group continued to develop versions 1.1 through 1.3.
-
-Digital then made the decision to move most of the development activity to its central engineering facility in Reading, United Kingdom, where a group there took responsibility for the product from version 2.0 (released in field test in 1984 and to customers in 1985) onward. The Charlotte group continued to work on the Time Management subsystem until version 2.3 and other contributions were made from groups based in Sophia-Antipolis, France (System for Customisation Management and the integration with VAX Notes), Reading (Message Router and MAILbus), and Spitbrook, New Hampshire (FMS). ALL-IN-1 V3.0 introduced shared file cabinets and the File Cabinet Server (FCS) to lay the foundation for an eventual integration with TeamLinks, Digital's PC office client. Previous integrations with PCs included PC ALL-IN-1, a [DOS] based product introduced in 1989 that never proved popular with customers.
-===
-
-The Gold Key
-The Gold key is a computer keyboard key used as a prefix to invoke a variety of single-key editing and formatting functions. Usually located in the top-left position of the numeric keypad on platforms such as the [VT100], it is the signature element of a consistent user interface implemented by [Digital Equipment Corporation] across multiple product lines.
-
-It is used within WPS, EDT, and many other common [VAX] programs. The key, typically located as the upper leftmost key on the numeric keypad on different terminals, was not necessarily coloured gold. Some Digital Equipment Corporation (DEC) terminals would include keyboards where the gold key was labeled PF1, as on the VT100 and [VT200], or was coloured blue, as on the [VT52]. On some keyboards, the normal function of a key would be labeled on the lower portion of the key, while its alternate function activated with the GOLD key would be labeled above it.
-
-The Gold Key is used to invoke single-key functions which may be located on either the main keyboard or the numeric keypad. For example, on the [WPS-8] word processing system, the main keyboard key C is marked “CENTR”, in gold lettering, on its front surface; the keystrokes GOLDC invoke that word processing function to center the current line of text.
-
-The Gold key is a prefix key, not a modifier key. A modifier key would be pressed and held while a second key is pressed; the Gold key is pressed and released before a second key is pressed and released. In that sense, DEC and compatible software uses the Gold key in the same way that [Emacs] uses the escape key.
-===
-
-Tektronix 401x
-The Tektronix 401x series was a family of text and graphics computer terminals based on the company's storage tube technology. The 4000 series were less expensive (under $10,000) than earlier graphics terminals, such as the IBM 2250 because no additional electronics were needed to maintain the display on the screen (beyond providing proper voltages to it). They were widely used in the [CAD] market in the 1970s and early 1980s. There were several members of the family introduced through the 1970s, the best known being the 4010 and 4014. They remained popular until the introduction of inexpensive graphics workstations in the 1980s. The new graphics workstations used raster displays and dedicated screen buffers that became more affordable as solid state memory chips became cheaper.
-===
-
-Tektronix
-Tektronix Inc is an American company best known for manufacturing test and measurement devices such as oscilloscopes, logic analysers, and video and mobile test protocol equipment. In November 2007, Danaher Corporation acquired Tektronix as a subsidiary. The company received a 2007 Technology & Engineering Emmy Awards for compliance standards monitoring systems for Advanced Television Systems Committee (ATSC) standard and Digital Video Broadcasting (DVB) transport streams. Several charities are or were associated with Tektronix, including the Tektronix Foundation and the M.J. Murdock Charitable Trust in Vancouver, Washington.
-===
-
 WebDAV - Web Distributed Authoring and Versioning
 Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol ([HTTP]) that allows clients to perform remote Web content authoring operations. A working group of the Internet Engineering Task Force ([IETF]) defined WebDAV in [RFC 4918].
 
@@ -117,7 +81,6 @@ Google Panda affects the ranking of an entire site or a specific section rather 
 In March 2012, Google updated Panda.
 
 Google says it only takes a few pages of poor quality or duplicated content to hold down traffic on an otherwise solid site, and recommends such pages be removed, blocked from being indexed by the search engine, or rewritten. However, Matt Cutts, head of webspam at Google, warns that rewriting duplicate content so that it is original may not be enough to recover from Panda, the rewrites must be of sufficiently high quality, as such content brings "additional value" to the web. Content that is general, non-specific, and not substantially different from what is already out there should not be expected to rank well: "Those other sites are not bringing additional value. While they’re not duplicates they bring nothing new to the table."
-
 ===
 
 Google Penalty 
@@ -194,11 +157,7 @@ RLE may also be used to refer to an early graphics file format supported by [Com
 Typical applications of this encoding are when the source information comprises long substrings of the same character or binary digit.
 ===
 
-CompuServe
-CompuServe (CompuServe Information Service, also known by its acronym CIS) was the first major commercial online service in the United States. It dominated the field during the 1980s and remained a major player through the mid 1990s, when it was sidelined by the rise of services such as [AOL] with monthly subscriptions rather than hourly rates. Since the purchase of CompuServe's Information Services Division by AOL, it has operated as an online service provider and an Internet service provider. The original CompuServe Information Service, later rebranded as CompuServe Classic, was shut down 1 July 2009. The newer version of the service, CompuServe 2000, continues to operate as an internet portal.
-===
-
-NSI Escape Codes
+ANSI Escape Codes
 In computing, ANSI escape codes (or escape sequences) are a method using in-band signaling to control the formatting, colour, and other output options on video text terminals. To encode this formatting information, certain sequences of bytes are embedded into the text, which the terminal looks for and interprets as commands, not as character codes.
 
 ANSI codes were introduced in the 1970s and became widespread in the minicomputer / mainframe market by the early 1980s. They were used by the nascent [bulletin board system] market to offer improved displays compared to earlier systems lacking cursor movement, leading to even more widespread use.
@@ -216,12 +175,6 @@ As a terminal emulator, the application provides text-based access to the operat
 The preferences dialog for Terminal.app in OS X 10.8 ([Mountain Lion]) offers choices for values of the TERM environment variable. Available options are ansi, dtterm, nsterm, rxvt, vt52, vt100, vt102, xterm, xterm-16color and xterm-256color, which differ from the OS X 10.5 ([Leopard]) choices by dropping the xterm-color and adding xterm-16color and xterm-256color. These settings do not alter the operation of Terminal, and the xterm settings do not match the behaviour of xterm.
 
 Terminal includes several features that specifically access OS X APIs and features. These include the ability to use the standard OS X Help search function to find manual pages and integration with Spotlight. Terminal was used by Apple as a showcase for OS X graphics APIs in early advertising of Mac OS X, offering a range of custom font and colouring options, including transparent backgrounds.
-===
-
-Wyse
-Wyse is a leading manufacturer of cloud computing systems. They are best known for their video terminal line introduced in the 1980s, which competed with the market leading [DEC]. They also had a successful line of [IBM PC compatible] in the mid to late 1980s, but were outcompeted by companies such as [Dell] starting late in the decade. Current products include thin client hardware and software as well as desktop virtualisation. Other products include cloud software supporting desktop computers, laptops, and mobile devices.
-
-On 2 April 2012, Dell and Wyse announced that Dell intends to take over the company. With this acquisition Dell would surpass their rival [Hewlett-Packard] in the market for thin clients. On 25 May 2012 Dell informed the market that it had completed the acquisition of Wyse Technology, which is now known as Dell Wyse.
 ===
 
 National Replacement Character Set
@@ -302,32 +255,6 @@ In the 1970s and 1980s, dot matrix impact printers were generally considered the
 The [Epson] MX-80, introduced in 1979, was the groundbreaking model that sparked the initial popularity of impact printers in the personal computer market. The MX-80 combined affordability with good quality text output (for its time). Early impact printers (including the MX) were notoriously loud during operation, a result of the hammer like mechanism in the print head. The MX-80 even inspired the name of a noise rock band. The MX-80's low dot density (60 dpi horizontal, 72 dpi vertical) produced printouts of a distinctive "computerised" quality. When compared to the crisp typewriter quality of a daisy-wheel printer, the dot-matrix printer's legibility appeared especially bad. In office applications, output quality was a serious issue, as the dot-matrix text's readability would rapidly degrade with each photocopy generation. [IBM] sold the MX-80 as IBM 5125.
 ===
 
-Seiko Epson Corporation
-Seiko Epson Corporation commonly known as Epson, is a Japanese electronics company and one of the world's largest manufacturers of computer printers, and information and imaging related equipment. Headquartered in Suwa, Nagano, Japan, the company has numerous subsidiaries worldwide and manufactures inkjet, dot matrix and laser printers, scanners, desktop computers, business, multimedia and home theatre projectors, large home theatre televisions, robots and industrial automation equipment, point of sale docket printers and cash registers, laptops, integrated circuits, LCD components and other associated electronic components. It is one of three core companies of the Seiko Group, a name traditionally known for manufacturing Seiko timepieces since its founding.
-===
-
-Brother Industries Ltd
-Brother Industries Ltd. is a Japanese multinational electronics and electrical equipment company headquartered in Nagoya, Japan. Its products include printers, multifunction printers, sewing machines, large machine tools, label printers, typewriters, fax machines, and other computer-related electronics. Brother distributes its products both under its own name and under [OEM] agreements with other companies.
-===
-
-Wang Laboratories
-Wang Laboratories was a computer company founded in 1951 by Dr. An Wang and Dr. G. Y. Chu. The company was successively headquartered in Cambridge, Massachusetts (1954 – 1963), Tewksbury, Massachusetts (1963 – 1976), and finally in Lowell, Massachusetts (1976 – 1997). At its peak in the 1980s, Wang Laboratories had annual revenues of $3 billion and employed over 33,000 people.
-
-The company was directed by Dr. Wang, who was described as an "indispensable leader" and played a personal role in setting business and product strategy until his death in 1990. Under his direction, the company went through several distinct transitions between different product lines.
-
-Wang Laboratories filed for bankruptcy protection in August 1992. After emerging from bankruptcy, the company eventually changed its name to Wang Global. Wang Global was acquired by Getronics of The Netherlands in 1999, becoming Getronics North America, then was sold to KPN in 2007 and CompuCom in 2008, after which it no longer existed as a distinct brand or division.
-===
-
-Tandy
-Tandy Leather, which later grew in to the Tandy Corporation, was a family owned leather goods company based in Fort Worth, Texas. Tandy Leather was founded in 1919 as a leather supply store, and acquired a number of craft retail companies, including RadioShack in 1963. In 2000, the Tandy Corporation name was dropped and entity became the RadioShack Corporation, selling The Tandy Leather name and operating assets to The Leather Factory.
-===
-
-Canon
-Canon Inc is a Japanese multinational corporation specialised in the manufacture of imaging and optical products, including cameras, camcorders, photocopiers, steppers, computer printers and medical equipment. Its headquarters are located in Ōta, Tokyo, Japan.
-
-Canon has a primary listing on the Tokyo Stock Exchange and is a constituent of the TOPIX index. It has a secondary listing on the New York Stock Exchange. At the beginning of 2015, Canon was the tenth largest public company in Japan when measured by market capitalisation.
-===
-
 Parallel Port
 A parallel port is a type of interface found on computers (personal and otherwise) for connecting peripherals. In computing, a parallel port is a parallel communication physical interface. It is also known as a printer port or Centronics port. It was an industry de facto standard for many years, and was finally standardised as IEEE 1284 in the late 1990s, which defined the Enhanced Parallel Port (EPP) and Extended Capability Port (ECP) bi-directional versions. Today, the parallel port interface is seeing decreasing use because of the rise of Universal Serial Bus ([USB]) devices, along with network printing using [Ethernet].
 
@@ -342,30 +269,10 @@ When IBM implemented the parallel interface on the IBM PC, they used the DB-25F 
 Centronics parallel is generally compliant with IEEE 1284 compatibility mode. The original Centronics implementation called for the busy lead to toggle with each received line of data (busy by line), whereas IEEE 1284 calls for busy to toggle with each received character (busy by character). Some host systems or print servers may use a strobe signal with a relatively low voltage output or a fast toggle. Any of these issues might cause no or intermittent printing, missing or repeated characters or garbage printing. Some printer models may have a switch or setting to set busy by character; others may require a handshake adapter.
 ===
 
-Texas Instruments
-Texas Instruments Inc is an American electronics company that designs and makes semiconductors, which it sells to electronics designers and manufacturers globally. Headquartered at Dallas, Texas, United States, TI is the third largest manufacturer of semiconductors worldwide after [Intel] and [Samsung], the second largest supplier of chips for cellular handsets after Qualcomm, and the largest producer of digital signal processors (DSPs) and analog semiconductors, among a wide range of other semiconductor products, including calculators, microcontrollers and multi-core processors. Texas Instruments is among the Top 20 Semiconductor producing companies in the world.
-
-Texas Instruments was founded in 1951. It emerged after a reorganisation of Geophysical Service. This company manufactured equipment for use in the seismic industry as well as defence electronics. TI began research in transistors in the early 1950s and produced the world's first commercial silicon transistor. In 1954, Texas Instruments designed and manufactured the first transistor radio and Jack Kilby invented the integrated circuit in 1958 while working at TI's Central Research Labs. The company produced the first integrated circuit-based computer for the U.S. Air Force in 1961. TI researched infrared technology in the late 1950s and later made radar systems as well as guidance and control systems for both missiles and bombs. The hand-held calculator was introduced to the world by TI in 1967.
-
-In the 1970s and 80s the company focused on consumer electronics including digital clocks, watches, hand-held calculators, home computers as well as various sensors. In 1997, its defence business was sold to Raytheon. In 2007, Texas Instruments was awarded the Manufacturer of the Year for Global Supply Chain Excellence by World Trade magazine. Texas Instruments is considered to be one of the most ethical companies in the world.
-
-After the acquisition of National Semiconductor in 2011, the company has a combined portfolio of nearly 45,000 analog products and customer design tools, making it the world's largest maker of analog technology components. In 2011, Texas Instruments ranked 175 in the Fortune 500. TI is made up of two main divisions: Semiconductors (SC) and Educational Technology (ET) of which Semiconductor products account for approximately 96% of TI's revenue.
-===
-
-National Semiconductor
-National Semiconductor was an American semiconductor manufacturer which specialised in analog devices and subsystems, formerly headquartered in Santa Clara, California, United States. The company produced power management integrated circuits, display drivers, audio and operational amplifiers, communication interface products and data conversion solutions. National's key markets included wireless handsets, displays and a variety of broad electronics markets, including medical, automotive, industrial and test and measurement applications.
-
-On 23 September 2011, the company formally became part of [Texas Instruments] as the "[Silicon Valley]" division.
-===
-
 Silicon Valley
 Silicon Valley is a nickname for the southern portion of the San Francisco Bay Area in California, United States. It is home to many of the world's largest high-tech corporations, as well as thousands of tech startup companies. The region occupies roughly the same area as the Santa Clara Valley where it is centered, including San Jose and surrounding cities and towns. The term originally referred to the large number of silicon chip innovators and manufacturers in the region, but eventually came to refer to all high tech businesses in the area, and is now generally used as a metonym for the American high-technology economic sector.
 
 Silicon Valley is a leading hub and startup ecosystem for high-tech innovation and development, accounting for one-third of all of the venture capital investment in the United States. Geographically, Silicon Valley is generally thought to encompass all of the Santa Clara Valley, San Francisco, the San Francisco Peninsula, and southern portions of the East Bay.
-===
-
-Data General 
-Data General was one of the first minicomputer firms from the late 1960s. Three of the four founders were former employees of [Digital Equipment Corporation]. Their first product, the Data General Nova, was a 16-bit minicomputer. This used their own operating system, RDOS, and in conjunction with programming languages like "Data General Business Basic" they provided a multi-user operating system with record locking and built-in databases far ahead of many contemporary systems. The Nova was followed by the Supernova and Eclipse product lines, all of which were used in many applications for the next two decades. The company employed an Original Equipment Manufacturer ([OEM]) sales strategy to sell to third parties who incorporated Data General computers into the OEM's specific product lines. A series of missteps in the 1980s, including missing the advance of microcomputers despite the launch of the microNOVA in 1977, and the Data General-One portable computer in 1984, led to a decline in the company's market share. The company did continue into the 1990s, however, and was eventually acquired by EMC Corporation in 1999.
 ===
 
 USB - Universal Serial Bus
