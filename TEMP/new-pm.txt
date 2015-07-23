@@ -784,26 +784,6 @@ Standards such as [MDA], [CGA], [HGC], [Tandy], [PGC], [EGA], [VGA], [MCGA], [85
 Virtually all current video cards are built with either [AMD] sourced or [Nvidia] sourced graphics chips. Most video cards offer various functions such as accelerated rendering of 3D scenes and 2D graphics, MPEG-2 / MPEG-4 decoding, TV output, or the ability to connect multiple monitors (multi-monitor).
 ===
 
-Professional Graphics Controller (PGC)
-Professional Graphics Controller (PGC, often called Professional Graphics Adapter and sometimes Professional Graphics Array) was a graphics card manufactured by [IBM] for [PCs]. It consisted of three interconnected PCBs, and contained its own processor and memory. The PGC was, at the time of its release, the most advanced graphics card for the [IBM XT] and aimed for tasks such as [CAD].
-
-Introduced in 1984, the Professional Graphics Controller offered a maximum resolution of 640x480 with 256 colours at a refresh rate of 60 Hertz a higher resolution and colour depth than [EGA] and [VGA] supported. This mode is not [BIOS] supported. It was intended for the Computer Aided Design market and included 320kB of display RAM and an on-board [Intel 8088] microprocessor. The 8088 was placed directly on the card to permit rapid updates of video memory. Other cards forced the PC's CPU to write to video memory through a slower [ISA] bus. While never widespread in consumer class personal computers, its US$4,290 list price compared favourably to US$50,000 dedicated CAD workstations of the time. It was discontinued in 1987 with the arrival of VGA and 8514.
-===
-
-Enhanced Graphics Adapter (EGA)
-The Enhanced Graphics Adapter (EGA) is an [IBM PC] computer display standard specification which is between [CGA] and [VGA] in terms of colour and space resolution. Introduced in October 1984 by [IBM] shortly after (but not exclusively for) its new [PC/AT], EGA produces a display of 16 simultaneous colours from a palette of 64 at a resolution of up to 640x350 pixels, a bit more than [Tandy] which can do up to 16 simultaneous colours from the same palette at a resolution of up to 320x200 but only 4 colours at 640x200. The EGA card includes a 16KB ROM to extend the system [BIOS] for additional graphics functions, and includes a custom [CRT] controller that has a backward compatibility mode with Motorola MC6845 chip.
-
-Each of the 16 colours can be assigned a unique [RGB] colour code via a palette mechanism in the 640x350 high-resolution mode; the 64 palette colours are a balanced RGB colour set comprising all possible combinations of two bits per pixel for red, green and blue. EGA also includes full 16-colour versions of the [CGA] 640x200 and 320x200 graphics modes; only the 16 CGA/RGBI colours are available in these modes. EGA 4-bit (16 colours) graphic modes are also notable for a sophisticated use of bit planes and mask registers together with CPU bitwise operations, which constitutes an early graphics accelerator inherited by [VGA] and numerous compatible hardware.
-
-EGA is dual-sync; it scans at 23 kHz when 350-line modes are used and 15 kHz when 200-line modes are used. The original CGA modes are also present, though EGA is not 100% hardware compatible with CGA. EGA can drive an [MDA] monitor by a special setting of switches on the board; only 640x350 high-resolution monochrome graphics and the standard MDA text mode are available in this mode.
-
-EGA cards use the PC [ISA] bus and were available starting in 8-bit versions. The original IBM EGA card had 64k of onboard RAM and required a daughterboard to add an additional 64k (cards with 64k are limited to 4 colours when 640x350 mode is used). All third-party cards came with 128k already installed and some even 256k, allowing multiple graphics pages. A few third-party EGA clones (notably the ATI Technologies and Paradise boards) feature a range of extended graphics modes (e.g., 640x400, 640x480 and 720x540), as well as automatic monitor type detection, and sometimes also a special 400-line interlace mode for use on CGA monitors.
-
-The EGA standard was made obsolete by the introduction in 1987 of [MCGA] with the [PS/2] computer line and VGA.
-
-Shortly before the introduction of VGA, Genoa Systems introduced a half-size graphics card built around a proprietary chip set, which they called Super EGA (later cards supporting an extended version of the VGA were similarly named Super VGA).
-===
-
 Video Graphics Array (VGA)
 Video Graphics Array (VGA) refers specifically to the display hardware first introduced with the [IBM PS/2] line of computers in 1987, but through its widespread adoption has also come to mean either an Amplitude Modulated computer display standard, the 15-pin D-subminiature VGA connector or the 640x480 resolution itself.
 
