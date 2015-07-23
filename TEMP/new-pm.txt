@@ -702,70 +702,386 @@ Unicode is a computing industry standard for the consistent encoding, representa
 Unicode's success at unifying character sets has led to its widespread and predominant use in the internationalization and localization of computer software. The standard has been implemented in many recent technologies, including modern operating systems, XML, the Java programming language, and the Microsoft .NET Framework.
 
 Unicode can be implemented by different character encodings. The most commonly used encodings are UTF-8, UTF-16 and the now-obsolete UCS-2. UTF-8 uses one byte for any ASCII character, all of which have the same code values in both UTF-8 and ASCII encoding, and up to four bytes for other characters. UCS-2 uses a 16-bit code unit (two 8-bit bytes) for each character but cannot encode every character in the current Unicode standard. UTF-16 extends UCS-2, using one 16-bit unit for the characters that were representable in UCS-2 and two 16-bit units (4 × 8 bit) to handle each of the additional characters.
-
 ===
+
+Universal Coded Character Set (UCS)
 The Universal Coded Character Set (UCS), defined by the International Standard ISO/IEC 10646, Information technology — Universal Coded Character Set (UCS) (plus amendments to that standard), is a standard set of characters upon which many character encodings are based. The UCS contains nearly one hundred thousand abstract characters, each identified by an unambiguous name and an integer number called its code point.
 
 Characters (letters, numbers, symbols, ideograms, logograms, etc.) from the many languages, scripts, and traditions of the world are represented in the UCS with unique code points. The inclusiveness of the UCS is continually improving as characters from previously unrepresented writing systems are added.
 
-Since 1991, the Unicode Consortium has worked with ISO to develop The Unicode Standard ("Unicode") and ISO/IEC 10646 in tandem. The repertoire, character names, and code points of Version 2.0 of Unicode exactly match those of ISO/IEC 10646-1:1993 with its first seven published amendments. After the publication of Unicode 3.0 in February 2000, corresponding new and updated characters entered the UCS via ISO/IEC 10646-1:2000. In 2003, parts 1 and 2 of ISO/IEC 10646 were combined into a single part, which has since had a number of amendments adding characters to the standard in approximate synchrony with the Unicode standard.
+Since 1991, the Unicode Consortium has worked with ISO to develop The Unicode Standard ("Unicode") and ISO/IEC 10646 in tandem. The repertoire, character names, and code points of Version 2.0 of Unicode exactly match those of ISO/IEC 10646-1 with its first seven published amendments. After the publication of [Unicode] 3.0 in February 2000, corresponding new and updated characters entered the UCS via ISO/IEC 10646-1. In 2003, parts 1 and 2 of ISO/IEC 10646 were combined into a single part, which has since had a number of amendments adding characters to the standard in approximate synchrony with the Unicode standard.
 
 The UCS has over 1.1 million code points available for use, but only the first 65,536 (the Basic Multilingual Plane, or BMP) had entered into common use before 2000. This situation began changing when the People's Republic of China (PRC) ruled in 2000 that all software sold in its jurisdiction would have to support GB 18030. This required software intended for sale in the PRC to move beyond the BMP.
 
 The system deliberately leaves many code points not assigned to characters, even in the BMP. It does this to allow for future expansion or to minimize conflicts with other encoding forms.
 ===
-DECmate was the name of a series of PDP-8-compatible computers produced by the Digital Equipment Corporation in the late 1970s and early 1980s. All of the models used an Intersil 6100 (later known as the Harris 6100) or Harris 6120 (an improved Intersil 6100) microprocessor which emulated the 12-bit DEC PDP-8 CPU. They were text-only and used the OS/78 or OS/278 operating systems, which were extensions of OS/8 for the PDP-8. Aimed for the word processing market, they typically ran the WPS-8 word-processing program.
 
-Later models optionally had Intel 8080 or Z80 microprocessors which allowed them to run CP/M.
+Web Server 
+A Web server is an information technology that processes requests via [HTTP], the basic network protocol used to distribute information on the [World Wide Web]. The term can refer either to the entire computer system, an appliance, or specifically to the software that accepts and supervises the HTTP requests.
 
-The range was a development of the VT78 which was introduced in July 1977.
+The primary function of a web server is to store, process and deliver web pages to clients. The communication between client and server takes place using the Hypertext Transfer Protocol (HTTP). Pages delivered are most frequently [HTML] documents, which may include images, style sheets and scripts in addition to text content.
 
-DECmate[edit]
-Introduced in 1980, this machine was built into a VT100 case. It had a 10 MHz clock and 32 Kwords of memory. It was also known as the VT278.
+A user agent, commonly a [Web browser] or Web crawler, initiates communication by making a request for a specific resource using HTTP and the server responds with the content of that resource or an error message if unable to do so. The resource is typically a real file on the server's secondary storage, but this is not necessarily the case and depends on how the web server is implemented.
 
-DECmate II[edit]
-As part of a three-pronged strategy against IBM, the company released this model at the same time as the PDP-11-based PRO-380 and the Intel 8088-based Rainbow 100.
+While the primary function is to serve content, a full implementation of HTTP also includes ways of receiving content from clients. This feature is used for submitting web forms, including uploading of files.
 
-The DECmate II resembles the Rainbow 100 but uses the 6120 processor. Its two operating systems are the WPS-8 word processing system, and the COS-310 Commercial Operating System running DIBOL.[1] Like the others it had a monochrome VR201 (VT220-style) monitor, an LK201 keyboard and dual 400K single-sided quad-density 5.25 inch RX50 floppy disk drives. It had 32 Kwords of RAM for use by programs, and a further 32 Kwords containing code which was used for device emulation. Code running in this second bank was nicknamed "slushware", in contrast to firmware since it was loaded from floppy disk as the machine booted. It was also known as the PC278.
+Many generic web servers also support server-side scripting using Active Server Pages ([ASP]), [PHP], or other scripting languages. This means that the behaviour of the Web server can be scripted in separate files, while the actual server software remains unchanged. Usually, this function is used to generate HTML documents dynamically ("on-the-fly") as opposed to returning static documents. The former is primarily used for retrieving and / or modifying information from databases. The latter is typically much faster and more easily cached but cannot deliver dynamic content.
 
-It could be expanded, either by adding another pair of 5.25 inch floppy disk drives, and it could also support either an additional pair of RX01 or RX02 8-inch floppy disk drives or a winchester disk.
+Web servers are not always used for serving the World Wide Web. They can also be found embedded in devices such as printers, routers, webcams and serving only a local network. The web server may then be used as a part of a system for monitoring and / or administering the device in question. This usually means that no additional software has to be installed on the client computer, since only a web browser is required (which now is included with most operating systems).
 
-It can also have a coprocessor board added, to allow it to run CP/M.[1] There was a choice of three coprocessor boards, one with a Z80 and 64 KB RAM, and a choice of two boards with both a Z80 and an Intel 8086, the difference being that they had either 256 KB or 512 KB RAM.
+In 1989 [Tim Berners-Lee] proposed a new project to his employer [CERN], with the goal of easing the exchange of information between scientists by using a hypertext system. The project resulted in Berners-Lee writing two programs in 1990:
 
-Manufacture ceased in 1986. It was superseded by the DECmate III, introduced in 1984.
+- A browser called [WorldWideWeb].
+- The world's first web server, later known as [CERN httpd], which ran on [NeXTSTEP]
 
-DECmate III[edit]
-This was introduced in 1984. It had a smaller system case, color monitor, 8 MHz clock, two 5.25-inch RX50 floppy disk drives, 32 KB user RAM, 32 KB system RAM. It was also known as the PC238.
+Between 1991 and 1994, the simplicity and effectiveness of early technologies used to surf and exchange data through the World Wide Web helped to port them to many different operating systems and spread their use among scientific organisations and universities, and then to industry.
 
-DECmate III+[edit]
-This was introduced in 1985 and withdrawn in 1990. It included a hard disk controller as part of the basic configuration. Otherwise, it was very similar to the DECmate III. It was also known as the PC24P.
+In 1994 Tim Berners-Lee decided to constitute the World Wide Web Consortium ([W3C]) to regulate the further development of the many technologies involved (HTTP, HTML, etc.) through a standardisation process.
+===
+
+CERN Httpd
+CERN httpd (later also known as W3C httpd) was a [Web server] ([HTTP]) [daemon] originally developed at [CERN] from 1990 onwards by [Tim Berners-Lee], Ari Luotonen and Henrik Frystyk Nielsen. Implemented in [C], it was the first ever Web server software and went live on Christmas Day 1990.
+
+CERN httpd was originally developed on a [NeXT] Computer running [NeXTSTEP], and was later ported to other [Unix-like] operating systems and [VMS]. It could also be configured as a Web proxy server. Version 0.1 was released in June 1991. In August 1991, Berners-Lee announced in the Usenet newsgroup alt.hypertext the availability of the source code of the server daemon and other World Wide Web software from the CERN FTP site.
+
+The original, first generation HTTP server which some call the Volkswagen of the Web.
+
+The server was presented on the Hypertext 91 conference in San Antonio and was part of the CERN Program Library (CERNLIB).
+
+Later versions of the server are based on the libwww library. The development of CERN httpd was later taken over by [W3C], with the last release being version 3.0A of 15 July 1996. From 1996 onwards, W3C focused on the development of the [Java] based [Jigsaw] server.
+
+The initial version was public domain software; the last one was under an [MIT license].
+===
+
+Punched Card
+A punched card, punch card, IBM card, or Hollerith card is a piece of stiff paper that contained either commands for controlling automated machinery or data for data processing applications. Both commands and data were represented by the presence or absence of holes in predefined positions.
+
+Now obsolete as a recording medium, punched cards were widely used throughout the 20th century for controlling textile looms and in the late 19th and early 20th century for controlling fairground organs and related instruments. Punched cards were used through most of the 20th century in what became known as the data processing industry; the use of unit record machines, organised into data processing systems, for data input, processing, and storage. Early digital computers used punched cards, often prepared using keypunch machines, as the primary medium for input of both computer programs and data.
+==
+
+Punched Tape
+Punched tape or perforated paper tape is a form of data storage, consisting of a long strip of paper in which holes are punched to store data. Now effectively obsolete, it was widely used during much of the twentieth century for teleprinter communication, for input to computers of the 1950s and 1960s, and later as a storage medium for minicomputers and [CNC] machine tools.
+
+The earliest forms of punched tape come from weaving looms and embroidery, where cards with simple instructions about a machine's intended movements were first fed individually as instructions, then controlled by instruction cards, and later were fed as a string of connected cards.
+
+This led to the concept of communicating data not as a stream of individual cards, but one "continuous card", or a tape. Many professional embroidery operations still refer to those individuals who create the designs and machine patterns as "punchers", even though punched cards and paper tape were eventually phased out, after many years of use, in the 1990s.
+
+Tape Formats
+Data were represented by the presence or absence of a hole at a particular location. Tapes originally had five rows of holes for data. Later tapes had 6, 7 and 8 rows. An early electro-mechanical calculating machine, the Automatic Sequence Controlled Calculator or Harvard Mark I, used paper tape with 24 rows. A row of narrower holes that were always punched served to feed the tape, originally using a wheel with radial teeth called a sprocket wheel. Later optical readers used the sprocket holes to generate timing pulses.
+
+Text was encoded in several ways. The earliest standard character encoding was Baudot, which dates back to the nineteenth century and had 5 holes. The Baudot code was never used in teleprinters. Instead, modifications such as the Murray code (which added carriage return and line feed), Western Union code, International Telegraphic Alphabet #2 (ITA 2), and American Teletypewriter code (USTTY), were used. Other standards, such as Teletypesetter (TTS), Fieldata and Flexowriter, had 6 holes. In the early 1960s, the American Standards Association led a project to develop a universal code for data processing, which became known as [ASCII]. This 7-level code was adopted by some teleprinter users, including AT&amp;T (Teletype). Others, such as Telex, stayed with the earlier codes.
+
+Dimensions
+Tape for punching was 0.00394 inches (0.1 mm) thick. The two most common widths were 11/16 inch (17.46 mm) for five bit codes, and 1 inch (25.4 mm) for tapes with six or more bits. Hole spacing was 0.1 inch (2.54 mm) in both directions. Data holes were 0.072 inches (1.83 mm) in diameter; feed holes were 0.046 inches (1.17 mm). Paper tape rolls in both widths are still commercially available as of 2012.
+
+Chad
+Most tape-punching equipment used solid punches to create holes in the tape. This process inevitably created "chad", or small circular pieces of paper. Managing the disposal of chad was an annoying and complex problem, as the tiny paper pieces had a tendency to escape and interfere with the other electromechanical parts of the teleprinter equipment.
+===
+
+Zip drive
+The Zip drive is a medium capacity removable [floppy disk] storage system that was introduced by [Iomega] in late 1994. Originally, Zip disks launched with capacities of 100MB, but later versions increased this to first 250MB and then 750MB.
+
+The format became the most popular of the superfloppy products which filled a niche in the late 1990s portable storage market. However, it was never popular enough to replace the [3.5-inch floppy disk] nor could ever match the storage size available on rewritable CDs and later rewritable DVDs. USB flash drives ultimately proved to be the better rewritable storage medium among the general public due to the near-ubiquity of USB ports on personal computers and soon after because of the far greater storage sizes offered. Zip drives fell out of favor for mass portable storage during the early 2000s. The Zip brand later covered internal and external CD writers known as Zip-650 or Zip-CD, which had no relation to the Zip drive.
+===
+
+LS-120 SuperDisk
+Announced in 1995, the "SuperDisk" marketed as the LS-120 drive, often seen with the brand names Matsushita (Panasonic) and Imation, had an initial capacity of 120MB using even higher density "LS-120" disks.
+
+LS in this case stands for Laser Servo, which used a very low power superluminescent LED that generated light with a small focal spot. This allowed the drive to align its rotation to precisely the same point each time, allowing far more data to be written due to the absence of conventional magnetic alignment marks. The alignment was based on hard coded optical alignment marks, which meant that a complete format could be done. This worked very well at the time and as a result failures associated with magnetic fields wiping the ZIP drive alignment Z tracks were less of a problem.
+
+It was upgraded (as the "LS-240") to 240MB. Not only could the drive read and write 1440kB disks, but the last versions of the drives could write 32MB onto a normal 1440kB disk. Unfortunately, popular opinion held the Super Disk disks to be quite unreliable, though no more so than the [Zip drives] and SyQuest Technology offerings of the same period and there were also many reported problems moving standard floppies between LS-120 drives and normal floppy drives. This belief, true or otherwise, crippled adoption. The [BIOS] of many motherboards even to this day supports LS-120 drives as boot options.
+
+One suggested improvement to LS-240 was the addition of an optical reader based on low resolution B/W CCD technology, as this would be able to detect disk flaws before they could cause data loss and adjust write strategies accordingly. Also it would allow detection of damage caused by head misalignment before the data surface was compromised. Had this ever been implemented then it would have allowed the LS240 to store nearly 500MB of data. This strategy was later implemented on [HP] and [Epson] printers to allow photo quality printing on normal non-photo paper.
+
+LS-120 compatible drives were available as options on many computers, including desktop and notebook computers from [Compaq Computer Corporation]. In the case of the Compaq notebooks, the LS-120 drive replaced the standard floppy drive in a multi-bay configuration.
+===
+LenovoEMC (formerly Iomega), sometimes styled lenovo EMC², is a producer of external, portable, and networked storage solutions. Established in the 1980s as Iomega, LenovoEMC has sold more than 410 million digital storage drives and disks. It was a public company, trading on the New York Stock Exchange under the symbol IOM beginning in 1983.[2] The ZIP Drive was Iomega's most notable product.[3]
+===
+
+The Disc Filing System (DFS) is a computer file system developed by Acorn Computers, initially as an add-on to the Eurocard-based Acorn System 2.
+
+In 1981, the Education Departments of Western Australia and South Australia announced joint tenders calling for the supply of personal computers to their schools. Acorn's Australian computer distributor, Barson Computers, convinced Joint Managing Directors Hermann Hauser and Chris Curry to allow the soon to be released Acorn BBC Microcomputer to be offered with disk storage as part of the bundle. They agreed on condition that Barson adapted the Acorn DFS from the System 2 without assistance from Acorn as they had no resources available. This required some minor hardware and software changes to make the DFS compatible with the BBC Micro.
+
+Barson won the tenders for both states, with the DFS fitted, a year ahead of the UK. It was this early initiative that resulted in the BBC Micro being more heavily focused on the education market in Australia, with very little penetration of the home computer market until the arrival of the Acorn Electron.
+
+The DFS shipped as a ROM and Disk Controller Chip fitted to the BBC Micro's motherboard. The filing system was of extremely limited functionality and storage capability, using a flat directory structure. Each filename can be up to seven letters long, plus one letter for the directory in which the file is stored.[1]
+
+The DFS is remarkable in that unlike most filing systems, there was no single vendor or implementation. The original DFS was written by Acorn, who continued to maintain their own codebase, but various disc drive vendors wrote their own implementations. Companies who wrote their own DFS implementation included Cumana, Opus and Watford Electronics. The Watford Electronics implementation is notable for supporting 62 files per disc instead of the usual 31, using a non-standard disc format. Other features in third-party implementations included being able to review free space, and built-in FORMAT and VERIFY commands, which were shipped on a utility disc with the original Acorn DFS.
+
+Acorn followed up their original DFS series with the Acorn 1770 DFS, which used the same disc format as the earlier version but added a set of extra commands and supported the improved WD1770 floppy drive controller chip.
+===
+The Advanced Disc Filing System (ADFS) is a computing file system particular to the Acorn computer range and RISC OS-based successors. Initially based on the rare Acorn Winchester Filing System, it was renamed to the Advanced Disc Filing System when support for floppy discs was added (utilising a WD1770 floppy disc controller) and on later 32-bit systems a variant of a PC-style floppy controller.[2]
+
+Acorn's original Disc Filing System was limited to 31 files per disk surface, 7 characters per file name and a single character for directory names, a format inherited from the earlier Atom and System 3–5 Eurocard computers. To overcome some of these restrictions Acorn developed ADFS. The most dramatic change was the introduction of a hierarchical directory structure. The filename length increased from 7 to 10 letters and the number of files in a directory expanded to 47. It retained some superficial attributes from DFS; the directory separator continued to be a dot and $ now indicated the hierarchical root of the filesystem. "^" (minus the quotes) was used to refer to the parent directory and "\" was the previously-visited directory.
+
+The BBC Master Compact contained ADFS Version 2.0, which provided the addition of format, verify and backup commands in ROM.[3]
+===
+A floppy disk, also called a diskette, is a disk storage medium composed of a disk of thin and flexible magnetic storage medium, sealed in a rectangular plastic carrier lined with fabric that removes dust particles. Floppy disks are read and written by a floppy disk drive (FDD).
+
+Floppy disks, initially as 8-inch (200 mm) media and later in 5¼-inch (133 mm) and 3½-inch (90 mm) sizes, were a ubiquitous form of data storage and exchange from the mid-1970s well into the 2000s.[1]
+
+By 2010, computer motherboards were rarely manufactured with floppy drive support; 3½-inch floppy disks can be used with an external USB floppy disk drive, but USB drives for 5¼-inch, 8-inch and non-standard diskettes are rare or non-existent, and those formats must usually be handled by old equipment.
+
+While floppy disk drives still have some limited uses, especially with legacy industrial computer equipment, they have been superseded by data storage methods with much greater capacity, such as USB flash drives, portable external hard disk drives, optical discs, memory cards and computer networks.
+==
+8-inch floppy disk[edit]
+
+8-inch floppy disk
+The first floppy disk was 8 inches in diameter, was protected by a flexible plastic jacket and was a read-only device used by IBM as a way of loading microcode.[16] Read/Write floppy disks and their drives became available in 1972 but it was IBM's 1973 introduction of the 3740 data entry system[17] that began the establishment of floppy disks, called by IBM the "Diskette 1," as an industry standard for information interchange. Early microcomputers used for engineering, business, or word processing often used one or more 8-inch disk drives for removable storage; the CP/M operating system was developed for microcomputers with 8-inch drives.
+
+The family of 8-inch disks and drives increased over time and later versions could store up to 1.2 MB;[18] many microcomputer applications did not need that much capacity on one disk, so a smaller size disk with lower-cost media and drives was feasible. The 5¼-inch inch drive succeeded the 8-inch size in many applications, and developed to about the same storage capacity as the original 8-inch size, using higher-density media and recording techniques.
+===
+5¼-inch floppy disk[edit]
+
+Uncovered 5¼‑inch disk mechanism with disk inserted. The edge of the disk with the opening for the medium was inserted first, then the lever was turned to close the mechanism and engage the drive motor and heads.
+The head gap of an 80‑track high-density (1.2 MB in the MFM format) 5¼‑inch drive (a.k.a. Mini diskette, Mini disk, or Minifloppy) is smaller than that of a 40‑track double-density (360 KB) drive but can format, read and write 40‑track disks well provided the controller supports double stepping or has a switch to do such a process. A blank 40‑track disk formatted and written on an 80‑track drive can be taken to its native drive without problems, and a disk formatted on a 40‑track drive can be used on an 80‑track drive. Disks written on a 40‑track drive and then updated on an 80 track drive become unreadable on any 40‑track drives due to track width incompatibility.
+
+Single sided disks were coated on both sides, despite the availability of more expensive double sided disks. The reason usually given for the higher cost was that double sided disks were certified error-free on both sides of the media. Architectural differences among computer platforms negated this claim, however, with RadioShack TRS-80 Model I computers using one side and the Apple II machines the other. Double-sided disks could be used in drives for single-sided disks, one side at a time, by turning them over (flippy disks); more expensive dual-head drives which could read both sides without turning over were later produced, and eventually became used universally.
+==
+3½-inch floppy disk[edit]
+
+Internal parts of a 3½‑inch floppy disk.
+1) A hole that indicates a high-capacity disk.
+2) The hub that engages with the drive motor.
+3) A shutter that protects the surface when removed from the drive.
+4) The plastic housing.
+5) A polyester sheet reducing friction against the disk media as it rotates within the housing.
+6) The magnetic coated plastic disk.
+7) A schematic representation of one sector of data on the disk; the tracks and sectors are not visible on actual disks.
+8) The write protection tab (unlabeled) is upper left.
+
+A 3½-inch floppy disk drive.
+In the early 1980s, a number of manufacturers introduced smaller floppy drives and media in various formats. A consortium of 21 companies eventually settled on a 3½-inch floppy disk (actually 90 mm wide) a.k.a. Micro diskette, Micro disk, or Micro floppy, similar to a Sony design, but improved to support both single-sided and double-sided media, with formatted capacities generally of 360 KB and 720 KB respectively. Single-sided drives shipped in 1983,[19] and double sided in 1984. What became the most common format, the double-sided, high-density (HD) 1.44 MB disk drive, shipped in 1986.
+
+The first Macintosh computers used single-sided 3½-inch inch floppy disks, but with 400 KB formatted capacity. These were followed in 1986 by double-sided 800 KB floppies. The higher capacity was achieved at the same recording density by varying the disk rotation speed with arm position so that the linear speed of the head was closer to constant. Later Macs could also read and write 1.44 MB HD disks in PC format with fixed rotation speed.
+
+All 3½-inch disks have a rectangular hole in one corner which, if obstructed, write-enabled the disk. The HD 1.44 MB disks have a second, unobstructed hole in the opposite corner which identifies them as being of that capacity.
+
+In IBM-compatible PCs, the three densities of 3½-inch floppy disks are backwards-compatible: higher density drives can read, write and format lower density media. It is physically possible to format a disk at the wrong density, although the resulting disk will not work properly. Fresh disks manufactured as high density can theoretically be formatted at double density only if no information has been written on the disk in high density, or the disk has been thoroughly demagnetized with a bulk eraser, as the magnetic strength of a high density record is stronger and overrides lower density, remaining on the disk and causing problems.
+
+Writing at different densities than disks were intended for, sometimes by altering or drilling holes, was possible but deprecated. The holes on the right side of a 3½‑inch disk can be altered as to make some disk drives and operating systems treat the disk as one of higher or lower density, for bidirectional compatibility or economical reasons.[clarification needed][20][21] Some computers, such as the PS/2 and Acorn Archimedes, ignored these holes altogether.[22]
+
+It is possible to make a 3½-inch floppy disk drive be recognized by a system as a 5¼‑inch 360 KB or 1200 KB drive, and to read and write disks with the same number of tracks and sectors as those disks; this had some application in data exchange with obsolete CP/M systems.[citation needed]
+==
+A hard disk drive (HDD), hard disk, hard drive or fixed disk[b] is a data storage device used for storing and retrieving digital information using one or more rigid ("hard") rapidly rotating disks (platters) coated with magnetic material. The platters are paired with magnetic heads arranged on a moving actuator arm, which read and write data to the platter surfaces.[2] Data is accessed in a random-access manner, meaning that individual blocks of data can be stored or retrieved in any order rather than sequentially. An HDD retains its data even when powered off.
+
+Introduced by IBM in 1956,[3] HDDs became the dominant secondary storage device for general-purpose computers by the early 1960s. Continuously improved, HDDs have maintained this position into the modern era of servers and personal computers. More than 200 companies have produced HDD units, though most current units are manufactured by Seagate, Toshiba and Western Digital. Worldwide disk storage revenues were US $32 billion in 2013, down 3% from 2012.[4]
+
+The primary characteristics of an HDD are its capacity and performance. Capacity is specified in unit prefixes corresponding to powers of 1000: a 1-terabyte (TB) drive has a capacity of 1,000 gigabytes (GB; where 1 gigabyte = 1 billion bytes). Typically, some of an HDD's capacity is unavailable to the user because it is used by the file system and the computer operating system, and possibly inbuilt redundancy for error correction and recovery. Performance is specified by the time required to move the heads to a track or cylinder (average access time) plus the time it takes for the desired sector to move under the head (average latency, which is a function of the physical rotational speed in revolutions per minute), and finally the speed at which the data is transmitted (data rate).
+
+The two most common form factors for modern HDDs are 3.5-inch, for desktop computers, and 2.5-inch, primarily for laptops. HDDs are connected to systems by standard interface cables such as SATA (Serial ATA), USB or SAS (Serial attached SCSI) cables.
+
+As of 2015, the primary competing technology for secondary storage is flash memory in the form of solid-state drives (SSDs), which have higher data transfer rates and significantly lower latency and access times, but HDDs remain the dominant medium for secondary storage due to advantages in price per unit of storage and recording capacity.[5][6] However, SSDs are replacing HDDs where speed, power consumption and durability are more important considerations.[7][8]
+===
+Small Computer System Interface (SCSI, /ˈskʌzi/ skuz-ee)[1] is a set of standards for physically connecting and transferring data between computers and peripheral devices. The SCSI standards define commands, protocols and electrical and optical interfaces. SCSI is most commonly used for hard disk drives and tape drives, but it can connect a wide range of other devices, including scanners and CD drives, although not all controllers can handle all devices. The SCSI standard defines command sets for specific peripheral device types; the presence of "unknown" as one of these types means that in theory it can be used as an interface to almost any device, but the standard is highly pragmatic and addressed toward commercial requirements.
+===
+A solid-state drive (SSD) (also known as a solid-state disk[1][2][3] though it contains no actual disk, nor a drive motor to spin a disk) is a solid-state storage device that uses integrated circuit assemblies as memory to store data persistently. SSD technology primarily uses electronic interfaces compatible with traditional block input/output (I/O) hard disk drives, which permit simple replacements in common applications.[4] Additionally, new I/O interfaces, like SATA Express, have been designed to address specific requirements of the SSD technology.
+
+SSDs have no moving (mechanical) components. This distinguishes them from traditional electromechanical magnetic disks such as hard disk drives (HDDs) or floppy disks, which contain spinning disks and movable read/write heads.[5] Compared with electromechanical disks, SSDs are typically more resistant to physical shock, run silently, have lower access time, and less latency.[6] However, while the price of SSDs has continued to decline over time,[7] consumer-grade SSDs are still roughly six to seven times more expensive per unit of storage than consumer-grade HDDs.
+
+As of 2014, most SSDs use NAND-based flash memory, which retains data without power. For applications requiring fast access, but not necessarily data persistence after power loss, SSDs may be constructed from random-access memory (RAM). Such devices may employ separate power sources, such as batteries, to maintain data after power loss.[4]
+
+Hybrid drives or solid-state hybrid drives (SSHDs) combine the features of SSDs and HDDs in the same unit, containing a large hard disk drive and an SSD cache to improve performance of frequently accessed data.[8][9][10]
+===
+A light pen is a computer input device in the form of a light-sensitive wand used in conjunction with a computer's CRT display.
+
+It allows the user to point to displayed objects or draw on the screen in a similar way to a touchscreen but with greater positional accuracy. A light pen can work with any CRT-based display and other display technologies, but its ability to be used with LCDs was unclear (though Toshiba and Hitachi displayed a similar idea at the "Display 2006" show in Japan[1]).
+
+A light pen detects a change of brightness of nearby screen pixels when scanned by cathode ray tube electron beam and communicates the timing of this event to the computer. Since a CRT scans the entire screen one pixel at a time, the computer can keep track of the expected time of scanning various locations on screen by the beam and infer the pen's position from the latest timestamp.
+
+The first light pen was created around 1955 as part of the Whirlwind project at MIT.[2][3]
+
+During the 1960s light pens were common on graphics terminals such as the IBM 2250, and were also available for the IBM 3270 text-only terminal.
+
+The light pen was used in the early 1980s. It was notable for its use in the Fairlight CMI, and the BBC Micro. IBM PC compatible CGA, HGC and some EGA graphics cards featured a connector for a light pen as well. Even some consumer products were given light pens, such as the Thomson MO5 computer family as well as the Atari 8-bit and Commodore 8-bit home computers.
+
+Because the user was required to hold his/her arm in front of the screen for long periods of time or to use a desk that tilts the monitor, the light pen fell out of use as a general purpose input device.[citation needed]
+===
+A trackball is a pointing device consisting of a ball held by a socket containing sensors to detect a rotation of the ball about two axes—like an upside-down mouse with an exposed protruding ball. The user rolls the ball with the thumb, fingers, or the palm of the hand to move a pointer.
+
+Compared with a mouse, a trackball has no limits on effective travel; at times, a mouse can reach an edge of its working area while the operator still wishes to move the screen pointer farther. With a trackball, the operator just continues rolling, whereas a mouse would have to be lifted and re-positioned. Some trackballs have notably low friction, as well as being made of dense material such as glass, so they can be spun to make them coast. The trackball's buttons may be situated to that of a mouse or to a unique style that suits the user.
+
+Large trackballs are common on CAD workstations for easy precision. Before the advent of the touchpad, small trackballs were common on portable computers, where there may be no desk space on which to run a mouse. Some small thumbballs clip onto the side of the keyboard and have integral buttons with the same function as mouse buttons.
+
+The trackball was invented as part of a post-World War II-era radar plotting system named Comprehensive Display System (CDS) by Ralph Benjamin when working for the British Royal Navy Scientific Service.[1][2] Benjamin's project used analog computers to calculate the future position of target aircraft based on several initial input points provided by a user with a joystick. Benjamin felt that a more elegant input device was needed and invented a ball tracker[1][2] system called the roller ball[1] for this purpose in 1946.[1][2] The device was patented in 1947,[1] but only a prototype using a metal ball rolling on two rubber-coated wheels was ever built[2] and the device was kept as a military secret.[2]
+===
+A graphics tablet or digitizer is a computer input device that enables a user to hand-draw images, animations and graphics, similar to the way a person draws images with a pencil and paper. These tablets may also be used to capture data or handwritten signatures. It can also be used to trace an image from a piece of paper which is taped or otherwise secured to the surface. Capturing data in this way, by tracing or entering the corners of linear poly-lines or shapes, is called digitizing.
+
+The device consists of a flat surface upon which the user may "draw" or trace an image using an attached stylus, a pen-like drawing apparatus. The image is displayed on the computer monitor, although some graphics tablets also have a screen.
+
+Some tablets are intended as a replacement for the mouse as the primary pointing and navigation device for desktop computers.
+
+The first electronic handwriting device was the Telautograph, patented by Elisha Gray in 1888.[1] Elisha Gray is best known as a contemporaneous inventor of the telephone to Alexander Graham Bell.
+
+The first graphics tablet resembling contemporary tablets and used for handwriting recognition by a computer was the Stylator in 1957.[2] Better known (and often misstated as the first digitizer tablet) is the RAND Tablet[3] also known as the Grafacon[4] (for Graphic Converter), introduced in 1964. The RAND Tablet employed a grid of wires under the surface of the pad that encoded horizontal and vertical coordinates in a small magnetic signal. The stylus would receive the magnetic signal, which could then be decoded back as coordinate information.
+
+The acoustic tablet, or spark tablet, used a stylus that generated clicks with a spark plug. The clicks were then triangulated by a series of microphones to locate the pen in space.[5] The system was fairly complex and expensive, and the sensors were susceptible to interference by external noise.
+
+Digitizers were popularized in the mid 1970s and early 1980s by the commercial success of the ID (Intelligent Digitizer) and BitPad manufactured by the Summagraphics Corp. These digitizers were used as the input device for many high-end CAD (Computer Aided Design) systems as well as bundled with PCs and PC-based CAD software like AutoCAD.
+
+Summagraphics also made an OEM version of its BitPad which was sold by Apple Computer as the Apple Graphics Tablet accessory to their Apple II. These tablets used a magnetostriction technology which used wires made of a special alloy stretched over a solid substrate to accurately locate the tip of a stylus or the center of a digitizer cursor on the surface of the tablet. This technology also allowed Proximity or "Z" axis measurement.
+
+The first home computer graphics tablet was the KoalaPad. Though originally designed for the Apple II, the Koala eventually broadened its applicability to practically all home computers with graphics support, examples of which include the TRS-80 Color Computer, Commodore 64, and Atari 8-bit family. Competing tablets were eventually produced; the tablets produced by Atari were generally considered to be of high quality.
+
+In 1981, musician Todd Rundgren created the first color graphics tablet software for personal computers, which was licensed to Apple as the Utopia Graphics Tablet System.[6]
+
+In the 1980s, several vendors of graphics tablets began to include additional functions, such as handwriting recognition and on-tablet menus.[7][8]
+===
+A webcam is a video camera that feeds or streams its image in real time to or through a computer to computer network. When "captured" by the computer, the video stream may be saved, viewed or sent on to other networks via systems such as the internet, and email as an attachment. When sent to a remote location, the video stream may be saved, viewed or on sent there. Unlike an IP camera (which connects using Ethernet or Wi-Fi), a webcam is generally connected by a USB cable, or similar cable, or built into computer hardware, such as laptops.
+
+The term 'webcam' (a clipped compound) may also be used in its original sense of a video camera connected to the Web continuously for an indefinite time, rather than for a particular session, generally supplying a view for anyone who visits its web page over the Internet. Some of them, for example, those used as online traffic cameras, are expensive, rugged professional video cameras.
+===
+The plotter is a computer printer for printing vector graphics. In the past, plotters were used in applications such as computer-aided design, though they have generally been replaced with wide-format conventional printers. A plotter gives a hard copy of the output. It draws pictures on a paper using a pen. Plotters are used to print designs of ships and machines, plans for buildings and so on.
+
+Pen plotters print by moving a pen or other instrument across the surface of a piece of paper. This means that plotters are vector graphics devices, rather than raster graphics as with other printers. Pen plotters can draw complex line art, including text, but do so slowly because of the mechanical movement of the pens. They are often incapable of efficiently creating a solid region of color, but can hatch an area by drawing a number of close, regular lines.
+
+Plotters offered the fastest way to efficiently produce very large drawings or color high-resolution vector-based artwork when computer memory was very expensive and processor power was very limited, and other types of printers had limited graphic output capabilities.
+
+Pen plotters have essentially become obsolete, and have been replaced by large-format inkjet printers and LED toner based printers. Such devices may still understand vector languages originally designed for plotter use, because in many uses, they offer a more efficient alternative to raster data.
+
+The Z64, the image you see, is a flatbed drawing machine of high precision.[1]
+
+Electrostatic plotters[edit]
+Electrostatic plotters used a dry toner transfer process similar to that in many photocopiers. They were faster than pen plotters and were available in large formats, suitable for reproducing engineering drawings. The quality of image was often not as good as contemporary pen plotters. Electrostatic plotters were made in both flat-bed and drum types.
+
+Cutting plotters[edit]
+Cutting plotters use knives to cut into a piece of material (such as paper, mylar or vinyl) that is lying on the flat surface area of the plotter. It is achieved because the cutting plotter is connected to a computer, which is equipped with specialized cutting design or drawing computer software programs. Those computer software programs are responsible for sending the necessary cutting dimensions or designs in order to command the cutting knife to produce the correct project cutting needs.[2]
+
+In recent years the use of cutting plotters (generally called die-cut machines) has become popular with home enthusiasts of paper crafts such as cardmaking and scrapbooking. Such tools allow desired card shapes to be cut out very precisely, and repeated perfectly identically.
 
 ===
-The Rainbow 100 was a microcomputer introduced by Digital Equipment Corporation (DEC) in 1982. This desktop unit had the video-terminal display circuitry from the VT102, a video monitor similar to the VT220 in a dual-CPU box with both 4 MHz Zilog Z80 and 4.81 MHz Intel 8088 CPUs.[1] The Rainbow 100 was a triple-use machine: VT100 mode (industry standard dumb terminal for interacting with DEC's own VAX), 8-bit CP/M mode (using the Z80), and 16-bit CP/M-86 or MS-DOS mode using the 8088.[1][2]
+Computer-aided manufacturing (CAM) is the use of computer software to control machine tools and related machinery in the manufacturing of workpieces.[1][2][3][4][5] This is not the only definition for CAM, but it is the most common;[1] CAM may also refer to the use of a computer to assist in all operations of a manufacturing plant, including planning, management, transportation and storage.[6][7] Its primary purpose is to create a faster production process and components and tooling with more precise dimensions and material consistency, which in some cases, uses only the required amount of raw material (thus minimizing waste), while simultaneously reducing energy consumption.[citation needed] CAM is now a system used in schools and lower educational purposes. CAM is a subsequent computer-aided process after computer-aided design (CAD) and sometimes computer-aided engineering (CAE), as the model generated in CAD and verified in CAE can be input into CAM software, which then controls the machine tool.
 
-Models[edit]
-The Rainbow came in three models, the 100A, 100B and 100+. The "A" model was the first released, followed later by the "B" model. The most noticeable differences between the two models were the firmware and slight hardware changes. The systems were referred to with model numbers PC-100A and PC-100B respectively; later "B" models were also designated PC-100B2.
+Traditionally, CAM has been considered as a numerical control (NC) programming tool, where in two-dimensional (2-D) or three-dimensional (3-D) models of components generated in CADAs with other “Computer-Aided” technologies, CAM does not eliminate the need for skilled professionals such as manufacturing engineers, NC programmers, or machinists. CAM, in fact, leverages both the value of the most skilled manufacturing professionals through advanced productivity tools, while building the skills of new professionals through visualization, simulation and optimization tools.
 
-PC-100A[edit]
-The "A" model was the first produced by Digital. The distinguishing characteristic of the "A" model from an end-user perspective was that the earlier firmware did not support booting from a hard disk. Other distinguishing hardware features included the three 2764 ROM chips holding the system firmware[3] and the case fan/power supply combinations.[4] Versions of the 100A shipped outside the USA included a user-changeable ROM chip in a special casing. The user changed the built-in ROM for this one to support their keyboard layout and language of the boot screen.
+===
+Computer-aided engineering (CAE) is the broad usage of computer software to aid in engineering analysis tasks. It includes Finite Element Analysis (FEA), Computational Fluid Dynamics (CFD), Multibody dynamics (MBD), and optimization.
 
-PC-100B[edit]
-The "B" model followed the "A" model, and introduced a number of changes. The "B" model featured the ability to boot from a hard disk (referred to as the Winchester drive) via the boot menu due to updated firmware. The hardware changes included bigger firmware stored on two 27128 ROMs (16 kB)[3] and an improved case fan/power supply.[5]
+Software tools that have been developed to support these activities are considered CAE tools. CAE tools are being used, for example, to analyze the robustness and performance of components and assemblies. The term encompasses simulation, validation, and optimization of products and manufacturing tools. In the future, CAE systems will be major providers of information to help support design teams in decision making. Computer-aided engineering is used in many fields such as automotive, aviation, space, and shipbuilding industries.[1]
 
-The "100+" model was actually a marketing designation signifying that the system shipped with a hard drive installed; the "100+" and "B" models were identical in all other respects. When a hard-disk option was installed on the Rainbow, the kit included the 100+ emblem for the computer's case.[6]
+In regard to information networks, CAE systems are individually considered a single node on a total information network and each node may interact with other nodes on the network.
 
-Software[edit]
-The Rainbow runs the CP/M 86/80 operating system, which detects whether software is written for 8-bit CP/M and 16-bit CP/M-86 and runs it on the appropriate processor.[15] DEC later released MS-DOS, but little DOS software was released on Rainbow media, and there were subtle differences between Rainbow's MS-DOS implementation and MS-DOS (or PC DOS) running on true IBM PC compatibles. Towards the end of its life, Rainbow users were able to run IBM PC-compatible MS-DOS software using an emulation application called Code Blue.
+CAE systems can provide support to businesses. This is achieved by the use of reference architectures and their ability to place information views on the business process. Reference architecture is the basis from which information model, especially product and manufacturing models.
 
-MS-DOS compatibility was added late in the design, so hardware interrupts and MS-DOS software interrupts overlapped. One DEC documentation pack for developers included a listing of Microsoft assembly code to handle this. The theory was that hardware interrupts would interrupt again but software interrupts would only happen once.
+The term CAE has also been used by some in the past to describe the use of computer technology within engineering in a broader sense than just engineering analysis. It was in this context that the term was coined by Jason Lemon, founder of SDRC in the late 1970s. This definition is however better known today by the terms CAx and PLM.[citation needed]
 
-DEC itself ported Microsoft Windows 1.0 to the Rainbow. There was also a third-party upgrade that included a 286 processor board and a modified version of Windows 3.0.
 
-In popular culture[edit]
-The Rainbow 100 plays a small but important role in the creation of the FidoNet system. A computer club in St. Louis was in the process of setting up a BBS system using CBBS on CP/M when they learned that DEC would be giving the club a Rainbow 100 for free. The group planned on starting the BBS on this machine as soon as it arrived, but when it did so they found that the Z80 did not have access to the serial ports. Casting about for a new BBS platform that ran on DOS, they learned of FidoBBS and arranged to have its developer port the serial drivers to the Rainbow platform. This ran up considerable phone bills sending emails and file transfers between St. Louis and the developer in San Francisco, and the developer produced FidoNet as a method of automating exchanges late at night when phone rates were lower.[16]
+===
+Numerical control (NC) is the automation of machine tools that are operated by precisely programmed commands encoded on a storage medium, as opposed to controlled manually via hand wheels or levers, or mechanically automated via cams alone. Most NC today is computer (or computerized) numerical control (CNC),[1] in which computers play an integral part of the control.
 
-A television advertisement for the DEC Rainbow appears in The Philadelphia Experiment.
+In modern CNC systems, end-to-end component design is highly automated using computer-aided design (CAD) and computer-aided manufacturing (CAM) programs. The programs produce a computer file that is interpreted to extract the commands needed to operate a particular machine via a post processor, and then loaded into the CNC machines for production. Since any particular component might require the use of a number of different tools – drills, saws, etc., modern machines often combine multiple tools into a single "cell". In other installations, a number of different machines are used with an external controller and human or robotic operators that move the component from machine to machine. In either case, the series of steps needed to produce any part is highly automated and produces a part that 
 
-The DEC Rainbow 100 can be seen in the 1984 film Ghostbusters. Janine uses the Rainbow at the Ghostbusters' reception.
+===
+Direct numerical control (DNC), also known as distributed numerical control (also DNC), is a common manufacturing term for networking CNC machine tools. On some CNC machine controllers, the available memory is too small to contain the machining program (for example machining complex surfaces), so in this case the program is stored in a separate computer and sent directly to the machine, one block at a time. If the computer is connected to a number of machines it can distribute programs to different machines as required. Usually, the manufacturer of the control provides suitable DNC software. However, if this provision is not possible, some software companies provide DNC applications that fulfill the purpose. DNC networking or DNC communication is always required when CAM programs are to run on some CNC machine control.
 
+Wireless DNC is also used in place of hard-wired versions. Controls of this type are very widely used in industries with significant sheet metal fabrication, such as the automotive, appliance, and aerospace industries.
+
+===
+
+British Aerospace plc (BAe) was a British aircraft, munitions and defence-systems manufacturer. Its head office was at Warwick House in the Farnborough Aerospace Centre in Farnborough, Hampshire.[1] In 1999 it purchased Marconi Electronic Systems, the defence electronics and naval shipbuilding subsidiary of the General Electric Company plc, to form BAE Systems.
+
+===
+
+A video card (also called a video adapter, display card, graphics card, graphics board, display adapter, graphics adapter or frame buffer[1]) is an expansion card which generates a feed of output images to a display (such as a computer monitor). Frequently, these are advertised as discrete or dedicated graphics cards, emphasizing the distinction between these and integrated graphics. Within the industry, video cards are sometimes called graphics add-in-boards, abbreviated as AIBs,[2] with the word "graphics" usually omitted.
+
+Standards such as MDA, CGA, HGC, Tandy, PGC, EGA, VGA, MCGA, 8514 or XGA were introduced from 1982 to 1990 and supported by a variety of hardware manufacturers.
+
+Virtually all current video cards are built with either AMD-sourced or Nvidia-sourced graphics chips.[2] Most video cards offer various functions such as accelerated rendering of 3D scenes and 2D graphics, MPEG-2/MPEG-4 decoding, TV output, or the ability to connect multiple monitors (multi-monitor).
+===
+The Monochrome Display Adapter (MDA, also MDA card, Monochrome Display and Printer Adapter, MDPA) introduced in 1981 was IBM's standard video display card and computer display standard for the PC. The MDA did not have any pixel-addressable graphics modes. It had only a single monochrome text mode (PC video mode 7), which could display 80 columns by 25 lines of high resolution text characters or symbols useful for drawing forms.
+
+The standard IBM MDA card was equipped with four kilobytes (kB) of video memory. The MDA's high character resolution (sharpness) was a feature meant to facilitate business and wordprocessing use: Each character was rendered in a box of 9×14 pixels, of which 8×14 made out the character itself (the other pixels being used for space between character columns and lines). Some characters, such as the lowercase "m", were rendered eight pixels across.
+
+The MDA featured the following character display attributes: invisible, underline, normal, bright (bold), reverse video, and blinking; some of these attributes could be combined, so that e.g., bright, underlined text could be produced.[1]
+
+The theoretical total screen display resolution of the MDA was 720×350 pixels. This number is arrived at through calculating character width (nine pixels) by columns of text (80) and character height (14 pixels) by rows of text (25). However, the MDA again could not address individual pixels; it could only work in text mode, limiting its choice of display patterns to 256 characters. Its character set is known as code page 437. The character patterns were stored in ROM on the card, and so could not be changed by software. The only way to simulate "graphical" screen content was through ASCII art.
+
+Because of the lack of pixel-addressable graphics, MDA owners could not play most graphics-based games. At least one game, IBM's One Hundred And One Monochrome Mazes ("Amazing fun for the whole family"), required MDA.[2] Code page 437 included the standard 127 ASCII characters but also another 127 characters like the aforementioned characters for drawing forms. Some of these shapes would later show up in Unicode as box-drawing characters. The characters were also used in early PC games such as early BBS door games, or games like Castle Adventure by Kevin Bales.
+
+IBM's original MDA included a parallel printer port (hence its original name of "Monochrome Display and Printer Adapter"), thus avoiding the need for a separate parallel interface on computers fitted with an MDA.
+===
+The Color Graphics Adapter (CGA), originally also called the Color/Graphics Adapter or IBM Color/Graphics Monitor Adapter,[1] introduced in 1981, was IBM's first graphics card and first color display card for the IBM PC. For this reason, it also became that computer's first color computer display standard.
+
+The standard IBM CGA graphics card was equipped with 16 kilobytes of video memory and could be connected either to a dedicated direct-drive CRT monitor using a 4-bit digital (TTL) "RGBI"[2] interface, such as the IBM 5153 color display, or to an NTSC-compatible television or composite video monitor via an RCA connector.[3] The RCA connector provided only baseband video, so to connect the CGA card to a standard television set required a separate RF modulator.[4]
+
+Built around the Motorola MC6845 display controller, the CGA card featured several graphics and text modes. The highest display resolution of any mode was 640×200, and the highest color depth supported was 4-bit (16 colors).
+===
+The Hercules Graphics Card (HGC) was a computer graphics controller made by Hercules Computer Technology, Inc. that combined IBM's text-only MDA display standard with a bitmapped graphics mode. This allowed the HGC to offer both high quality text and graphics from a single card. The HGC was very popular, and became a widely supported de facto display standard on IBM PC compatibles connected to a monochrome monitor. The HGC standard was used long after more technically capable systems had entered the market, especially on dual-monitor setups.
+===
+Tandy Graphics Adapter (TGA) is a computer display standard for an IBM PC compatible video adapter that improved on IBM's Color Graphics Adapter (CGA) technology. Whereas CGA could display only four colors at a time at a screen resolution of 320×200 pixels, a TGA adapter could display up to 16 colors.
+
+IBM premiered the new video adapter in the PCjr home computer it announced in 1983. At that time, the company called the adapter the Video Gate Array (not to be confused with the later Video Graphics Array standard), or CGA Plus. The adapter incorporated the Motorola 6845, an integrated circuit for controlling video.
+
+The PCjr was not popular, but the Tandy 1000 family of home computers were compatible with its video standard and Texas Instruments SN76489-based enhanced sound, and sold well. With built-in joystick ports the 1000 was the best platform for IBM PC-compatible games before the VGA era, and the combination of its graphics and sound became known as "Tandy compatible";[1][2] 28 of 66 games that Computer Gaming World tested in 1989 supported Tandy graphics.[3] The later Tandy 1000 SL and TL models were equipped with an enhanced version of the CGA Plus adapter, capable of displaying 16 colors at an improved resolution of 640x200.[4]
+===
+Professional Graphics Controller (PGC, often called Professional Graphics Adapter and sometimes Professional Graphics Array) was a graphics card manufactured by IBM for PCs.[1] It consisted of three interconnected PCBs, and contained its own processor and memory. The PGC was, at the time of its release, the most advanced graphics card for the IBM XT and aimed for tasks such as CAD.[2]
+
+Introduced in 1984,[3] the Professional Graphics Controller offered a maximum resolution of 640×480 with 256 colors at a refresh rate of 60 Hertz—a higher resolution and color depth than EGA and VGA supported. This mode is not BIOS-supported. It was intended for the computer-aided design market and included 320 kB of display RAM and an on-board Intel 8088 microprocessor. The 8088 was placed directly on the card to permit rapid updates of video memory. Other cards forced the PC's CPU to write to video memory through a slower ISA bus. While never widespread in consumer-class personal computers, its US $4,290 list price compared favorably to US$50,000 dedicated CAD workstations of the time. It was discontinued in 1987 with the arrival of VGA and 8514.
+===
+The Enhanced Graphics Adapter (EGA) is an IBM PC computer display standard specification which is between CGA and VGA in terms of color and space resolution. Introduced in October 1984[2][3] by IBM shortly after (but not exclusively for) its new PC/AT, EGA produces a display of 16 simultaneous colors from a palette of 64 at a resolution of up to 640×350 pixels, a bit more than Tandy which can do up to 16 simultaneous colors from the same palette at a resolution of up to 320×200 but only 4 colors at 640×200. The EGA card includes a 16 KB ROM to extend the system BIOS for additional graphics functions, and includes a custom CRT controller that has a backward compatibility mode with Motorola MC6845 chip.[4]
+
+Each of the 16 colors can be assigned a unique RGB color code via a palette mechanism in the 640×350 high-resolution mode; the 64 palette colors are a balanced RGB color set comprising all possible combinations of two bits per pixel for red, green and blue. EGA also includes full 16-color versions of the CGA 640×200 and 320×200 graphics modes; only the 16 CGA/RGBI colors are available in these modes[citation needed]. EGA 4-bit (16 colors) graphic modes are also notable for a sophisticated use of bit planes and mask registers[5] together with CPU bitwise operations,[6] which constitutes an early graphics accelerator inherited by VGA and numerous compatible hardware.
+
+EGA is dual-sync; it scans at 23 kHz when 350-line modes are used and 15 kHz when 200-line modes are used. The original CGA modes are also present, though EGA is not 100% hardware compatible with CGA. EGA can drive an MDA monitor by a special setting of switches on the board; only 640×350 high-resolution monochrome graphics and the standard MDA text mode are available in this mode.
+
+EGA cards use the PC ISA bus and were available starting in 8-bit versions. The original IBM EGA card had 64k of onboard RAM and required a daughterboard to add an additional 64k (cards with 64k are limited to 4 colors when 640x350 mode is used). All third-party cards came with 128k already installed and some even 256k, allowing multiple graphics pages. A few third-party EGA clones (notably the ATI Technologies and Paradise boards) feature a range of extended graphics modes (e.g., 640×400, 640×480 and 720×540), as well as automatic monitor type detection, and sometimes also a special 400-line interlace mode for use on CGA monitors.
+
+The EGA standard was made obsolete by the introduction in 1987 of MCGA with the PS/2 computer line[7] and VGA.
+
+Shortly before the introduction of VGA, Genoa Systems introduced a half-size graphics card built around a proprietary chip set, which they called Super EGA (later cards supporting an extended version of the VGA were similarly named Super VGA).[8]
+===
+Video Graphics Array (VGA) refers specifically to the display hardware first introduced with the IBM PS/2 line of computers in 1987,[1] but through its widespread adoption has also come to mean either an Amplitude Modulated computer display standard, the 15-pin D-subminiature VGA connector or the 640x480 resolution itself.
+
+VGA was the last IBM graphics standard to which the majority of PC clone manufacturers conformed, making it the lowest common denominator that virtually all post-1990 PC graphics hardware can be expected to implement. It was officially followed by IBM's Extended Graphics Array (XGA) standard, but was effectively superseded by numerous slightly different extensions to VGA made by clone manufacturers, collectively known as Super VGA.
+
+Today, the VGA analog interface is used for high definition video, including resolutions of 1080p and higher. While the transmission bandwidth of VGA is high enough to support even higher resolution playback, there can be picture quality degradation depending on cable quality and length. How discernible this degradation is depends on the individual's eyesight and the display, though it is more noticeable when switching to and from digital inputs like HDMI or DVI.
+===
+The Multi-Color Graphics Array or MCGA was a video subsystem built into the motherboard of the IBM PS/2 Model 30, introduced on April 2, 1987, and Model 25, introduced later on August 11; no standalone MCGA cards were ever made.[1]
+
+The MCGA supported all CGA display modes plus 640×480 monochrome at a refresh rate of 60 Hz, and 320×200 with 256 colors (out of a palette of 262,144) at 70 Hz. The display adapter used a DE-15 connector. The MDA monochrome text mode was not supported.
+
+MCGA was similar to VGA in that it had a 256-color mode (the 256-color mode in VGA was sometimes referred to as MCGA) and used 15-pin analog connectors. The PS/2 chipset's limited abilities prevented EGA compatibility and high-resolution multi-color VGA display modes.
+
+The tenure of MCGA was brief; the PS/2 Model 25 and Model 30 were discontinued by 1992, and no manufacturer produced a clone of this display adapter except for Epson Equity Ie, since the VGA standard introduced at the same time was considered superior.[2]
+===
+IBM 8514 is an IBM graphics computer display standard supporting a display resolution of 1024x768 pixels with 256 colors at 43.5 Hz (interlaced), or 640x480 at 60 Hz (non-interlaced).[1] 8514 usually refers to the display controller hardware (such as the 8514/A display adapter.) However, IBM sold the companion CRT monitor (for use with the 8514/A) which carries the same designation, 8514.
+
+8514 used a standardised programming interface called the "Adapter Interface" or AI. This interface is also used by XGA, IBM Image Adapter/A, and clones of the 8514/A and XGA such as the ATI Technologies Mach 32 and IIT AGX. The interface allows computer software to offload common 2D-drawing operations (line-draw, color-fill, BITBLT) onto the 8514 hardware. This freed the host CPU for other tasks, and greatly improved the speed of redrawing a graphics visual (such as a pie-chart or CAD-illustration).
+===
+Super Video Graphics Array or Ultra Video Graphics Array,[1] almost always abbreviated to Super VGA, Ultra VGA or just SVGA or UVGA is a broad term that covers a wide range of computer display standards.[2]
+
+
+SVGA (4:3) compared with the other display standards.
+
+15-pin D-sub port
+Originally, it was an extension to the VGA standard first released by IBM in 1987. Unlike VGA—a purely IBM-defined standard—Super VGA was never formally defined. The closest to an "official" definition was in the VBE extensions defined by the Video Electronics Standards Association (VESA), an open consortium set up to promote interoperability and define standards. In this document, there was simply a footnote stating that "The term 'Super VGA' is used in this document for a graphics display controller implementing any superset of the standard IBM VGA display adapter."[3] When used as a resolution specification, in contrast to VGA or XGA for example, the term SVGA normally refers to a resolution of 800x600 pixels.
+
+Though Super VGA cards appeared in the same year as VGA (1987),[citation needed] it wasn't until 1989 that a standard for programming Super VGA modes was defined by VESA. In that first version, it defined support for (but did not require) a maximum resolution of 800x600 4-bit pixels. Each pixel could therefore be any of 16 different colors. It was quickly extended to 1024x768 8-bit pixels, and well beyond that in the following years.[citation needed]
+
+Although the number of colors is defined in the VBE specification, this is irrelevant when referring to Super VGA monitors as (in contrast to the old CGA and EGA standards) the interface between the video card and the VGA or Super VGA monitor uses simple analog voltages to indicate the desired color. In consequence, so far as the monitor is concerned, there is no theoretical limit to the number of different colors that can be displayed. This applies to any VGA or Super VGA monitor.
+
+While the output of a VGA or Super VGA video card is analog, the internal calculations the card performs in order to arrive at these output voltages are entirely digital. To increase the number of colors a Super VGA display system can reproduce, no change at all is needed for the monitor, but the video card needs to handle much larger numbers and may well need to be redesigned from scratch. Even so, the leading graphics chip vendors were producing parts for high-color video cards within just a few months of Super VGA's introduction.
+
+On paper, the original Super VGA was to be succeeded by Super XGA[citation needed], but in practice the industry soon abandoned the attempt to provide a unique name for each higher display standard, and almost all display systems made between the late 1990s and the early 2000s are classed as Super VGA.
+
+Monitor manufacturers sometimes advertise their products as XGA or Super XGA. In practice this means little, since all Super VGA monitors manufactured since the later 1990s have been capable of at least XGA and usually considerably higher performance.
+
+SVGA uses a VGA connector, the same DE-15 (a.k.a. HD-15) as the original standard.
+===
+XGA (1024x768)[edit]
+XGA, the Extended Graphics Array, is an IBM display standard introduced in 1990. Later it became the most common appellation of the 1024x768 pixels display resolution, but the official definition is broader than that. It was not a new and improved replacement for Super VGA, but rather became one particular subset of the broad range of capabilities covered under the "Super VGA" umbrella.
+
+The initial version of XGA (and its predecessor, the IBM 8514) expanded upon IBM's older VGA by adding support for four new screen modes (three, for the 8514), including one new resolution:[11]
+
+640x480 pixels in direct 16 bits-per-pixel (65,536 color) RGB hi-color (XGA only, with 1 MB video memory option) and 8 bpp (256 color) palette-indexed mode.
+1024x768 pixels with a 16- or 256-color (4 or 8 bpp) palette, using a low frequency interlaced refresh rate (again, the higher 8 bpp mode required 1 MB VRAM[12]).
+Like the 8514, XGA offered fixed function hardware acceleration to offload processing of 2D drawing tasks. Both adaptors allowed offloading of line-draw, bitmap-copy (bitblt), and color-fill operations from the host CPU. XGA's acceleration was faster than 8514's, and more comprehensive, supporting more drawing primitives, the VGA-res hi-color mode, versatile "brush" and "mask" modes, system memory addressing functions, and a single simple hardware sprite typically used to providing a low CPU load mouse pointer. It was also capable of wholly independent function, as it incorporated support for all existing VGA functions and modes – the 8514 itself was a simpler add-on adaptor that required a separate VGA to be present. It should be noted that, as they were designed for use with IBM's own range of fixed-frequency monitors, neither adaptor offered support for 800x600 SVGA modes.
+
+XGA-2 added a 24-bit DAC, but this was used only to extend the available master palette in 256-color mode, e.g. to allow true 256-greyscale output instead of the 64 grey levels previously available; there was still no direct Truecolor mode despite the adaptor featuring enough default onboard VRAM (1 MB) to support it. Other improvements included provision of the previously missing 800x600 resolution (using an SVGA or multisync monitor) in up to 65,536 colors, faster screen refresh rates in all modes (including non-interlace, flicker-free output for 1024x768), and improved accelerator performance and versatility.
+
+IBM licensed the XGA technology and architecture to certain third party hardware developers, and its characteristic modes (although not necessarily the accelerator functions, nor the MCA data-bus interface) were aped by many others. These accelerators typically did not suffer from the same limitations on available resolutions and refresh rate, and featured other now-standard modes like 800x600 (and 1280x1024) at various color depths (up to 24 bpp Truecolor) and interlaced, non-interlaced and flicker-free refresh rates even before the release of the XGA-2.
+
+All standard XGA modes have a 4:3 aspect ratio with square pixels, although this does not hold for certain standard VGA and third-party extended modes (640x400, 1280x1024).
+
+XGA should not be confused with EVGA (Extended Video Graphics Array), a contemporaneous VESA standard that also has 1024x768 pixels. It should also not be confused with the Expanded Graphics Adapter, a peripheral for the IBM 3270 PC which can also be referred to as XGA.[13]
 ===
