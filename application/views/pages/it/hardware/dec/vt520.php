@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('VT520'); ?>
+        <p>The <strong>VT520</strong> is an <?php echo $this->stencil->addLink('ANSI standard', 'IT'); ?> computer terminal introduced by <strong>Digital Equipment Corporation (<?php echo $this->stencil->addLink('DEC', 'C'); ?>)</strong> in 1993 and 1994. The VT520 supports monochrome graphics using the <?php echo $this->stencil->addLink('ReGIS', 'IT'); ?> vector or <?php echo $this->stencil->addLink('Sixel', 'IT'); ?> bitmap systems. The <strong>VT525</strong> added colour support, while the <strong>VT510</strong> was a single-session, text-only version with a built in monitor. The <strong>VT525</strong> appears to be the most popular model in the series.</p>
+        <p>The VT500s replaced all previous models of DEC's VT line, at that time consisting of the <?php echo $this->stencil->addLink('VT420', 'VT'); ?> text and <?php echo $this->stencil->addLink('VT340', 'VT'); ?> graphics terminals. It was introduced in an era when the market was being flooded by low-cost <?php echo $this->stencil->addLink('IBM PC clones', 'ITH'); ?> which could perform the same functions using a terminal emulator while also running other software. DEC introduced the VT500s only a short time before selling off their entire terminal division in August 1995. This brought the VT series to a close, after a total of about six million terminals had been sold.</p>
+        <p>The VT520 is still available from <strong>Boundless Technologies</strong>.</p>
+    </div>
+</div>
