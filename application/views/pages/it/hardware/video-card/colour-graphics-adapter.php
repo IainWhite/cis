@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Colour Graphics Adapter (CGA)'); ?>
+        <p>The <strong>Colour Graphics Adapter (CGA)</strong>, originally also called the <strong>Colour/Graphics Adapter</strong> or <strong>IBM Colour/Graphics Monitor Adapter</strong>, introduced in 1981, was <?php echo $this->stencil->addLink('IBM', 'C'); ?>'s first graphics card and first colour display card for the <?php echo $this->stencil->addLink('IBM PC', 'PC'); ?>. For this reason, it also became that computer's first colour computer display standard.</p>
+        <p>The standard IBM CGA graphics card was equipped with 16 kilobytes of video memory and could be connected either to a dedicated direct drive <?php echo $this->stencil->addLink('CRT', 'ITH'); ?> monitor using a 4-bit digital (TTL) "RGBI" interface, such as the IBM 5153 color display, or to an NTSC compatible television or composite video monitor via an RCA connector. The RCA connector provided only baseband video, so to connect the CGA card to a standard television set required a separate RF modulator.</p>
+        <p>Built around the <strong>Motorola MC6845</strong> display controller, the CGA card featured several graphics and text modes. The highest display resolution of any mode was 640x200, and the highest colour depth supported was 4-bit (16 colours).</p>
+    </div>
+</div>

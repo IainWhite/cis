@@ -784,40 +784,6 @@ Standards such as [MDA], [CGA], [HGC], [Tandy], [PGC], [EGA], [VGA], [MCGA], [85
 Virtually all current video cards are built with either [AMD] sourced or [Nvidia] sourced graphics chips. Most video cards offer various functions such as accelerated rendering of 3D scenes and 2D graphics, MPEG-2 / MPEG-4 decoding, TV output, or the ability to connect multiple monitors (multi-monitor).
 ===
 
-Monochrome Display Adapter (MDA)
-The Monochrome Display Adapter (MDA, also MDA card, Monochrome Display and Printer Adapter, MDPA) introduced in 1981 was [IBM]'s standard video display card and computer display standard for the [PC]. The MDA did not have any pixel addressable graphics modes. It had only a single monochrome text mode (PC video mode 7), which could display 80 columns by 25 lines of high resolution text characters or symbols useful for drawing forms.
-
-The standard IBM MDA card was equipped with four kilobytes (kB) of video memory. The MDA's high character resolution (sharpness) was a feature meant to facilitate business and wordprocessing use: Each character was rendered in a box of 9×14 pixels, of which 8×14 made out the character itself (the other pixels being used for space between character columns and lines). Some characters, such as the lowercase "m", were rendered eight pixels across.
-
-The MDA featured the following character display attributes: invisible, underline, normal, bright (bold), reverse video, and blinking; some of these attributes could be combined, so that e.g. bright, underlined text could be produced.
-
-The theoretical total screen display resolution of the MDA was 720x350 pixels. This number is arrived at through calculating character width (nine pixels) by columns of text (80) and character height (14 pixels) by rows of text (25). However, the MDA again could not address individual pixels; it could only work in text mode, limiting its choice of display patterns to 256 characters. Its character set is known as code page 437. The character patterns were stored in [ROM] on the card, and so could not be changed by software. The only way to simulate "graphical" screen content was through [ASCII art].
-
-Because of the lack of pixel addressable graphics, MDA owners could not play most graphics based games. At least one game, IBM's One Hundred And One Monochrome Mazes ("Amazing fun for the whole family"), required MDA. Code page 437 included the standard 127 ASCII characters but also another 127 characters like the aforementioned characters for drawing forms. Some of these shapes would later show up in [Unicode] as box-drawing characters. The characters were also used in early PC games such as early [BBS] door games, or games like Castle Adventure by Kevin Bales.
-
-IBM's original MDA included a parallel printer port (hence its original name of "Monochrome Display and Printer Adapter"), thus avoiding the need for a separate parallel interface on computers fitted with an MDA.
-===
-
-Colour Graphics Adapter (CGA)
-The Colour Graphics Adapter (CGA), originally also called the Colour/Graphics Adapter or IBM Colour/Graphics Monitor Adapter, introduced in 1981, was [IBM]'s first graphics card and first color display card for the [IBM PC]. For this reason, it also became that computer's first color computer display standard.
-
-The standard IBM CGA graphics card was equipped with 16 kilobytes of video memory and could be connected either to a dedicated direct drive [CRT] monitor using a 4-bit digital (TTL) "RGBI" interface, such as the IBM 5153 color display, or to an NTSC compatible television or composite video monitor via an RCA connector. The RCA connector provided only baseband video, so to connect the CGA card to a standard television set required a separate RF modulator.
-
-Built around the Motorola MC6845 display controller, the CGA card featured several graphics and text modes. The highest display resolution of any mode was 640x200, and the highest colour depth supported was 4-bit (16 colors).
-===
-
-Hercules Graphics Card (HGC)
-The Hercules Graphics Card (HGC) was a computer graphics controller made by Hercules Computer Technology, Inc. that combined [IBM]'s text-only [MDA] display standard with a bitmapped graphics mode. This allowed the HGC to offer both high quality text and graphics from a single card. The HGC was very popular, and became a widely supported de facto display standard on [IBM PC compatibles] connected to a monochrome monitor. The HGC standard was used long after more technically capable systems had entered the market, especially on dual-monitor setups.
-===
-
-Tandy Graphics Adapter (TGA)
-Tandy Graphics Adapter (TGA) is a computer display standard for an [IBM PC] compatible video adapter that improved on [IBM]'s Color Graphics Adapter ([CGA]) technology. Whereas CGA could display only four colours at a time at a screen resolution of 320x200 pixels, a TGA adapter could display up to 16 colours.
-
-IBM premiered the new video adapter in the [PCjr] home computer it announced in 1983. At that time, the company called the adapter the Video Gate Array (not to be confused with the later [Video Graphics Array] standard), or CGA Plus. The adapter incorporated the Motorola 6845, an integrated circuit for controlling video.
-
-The PCjr was not popular, but the Tandy 1000 family of home computers were compatible with its video standard and [Texas Instruments] SN76489-based enhanced sound, and sold well. With built-in joystick ports the 1000 was the best platform for IBM PC compatible games before the VGA era, and the combination of its graphics and sound became known as "Tandy compatible"; 28 of 66 games that Computer Gaming World tested in 1989 supported Tandy graphics. The later Tandy 1000 SL and TL models were equipped with an enhanced version of the CGA Plus adapter, capable of displaying 16 colours at an improved resolution of 640x200.
-===
-
 Professional Graphics Controller (PGC)
 Professional Graphics Controller (PGC, often called Professional Graphics Adapter and sometimes Professional Graphics Array) was a graphics card manufactured by [IBM] for [PCs]. It consisted of three interconnected PCBs, and contained its own processor and memory. The PGC was, at the time of its release, the most advanced graphics card for the [IBM XT] and aimed for tasks such as [CAD].
 
