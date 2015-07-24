@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Zip Drive'); ?>
+        <p>The <strong>Zip drive</strong> is a medium capacity removable <?php echo $this->stencil->addLink('floppy disk', 'ITH'); ?> storage system that was introduced by <?php echo $this->stencil->addLink('Iomega', 'C'); ?> in late 1994. Originally, Zip disks launched with capacities of 100MB, but later versions increased this to first 250MB and then 750MB.</p>
+        <p>The format became the most popular of the <strong>superfloppy</strong> products which filled a niche in the late 1990s portable storage market. However, it was never popular enough to replace the <?php echo $this->stencil->addLink('3.5-inch floppy disk', 'ITH'); ?> nor could ever match the storage size available on rewritable CDs and later rewritable DVDs. USB flash drives ultimately proved to be the better rewritable storage medium among the general public due to the near-ubiquity of USB ports on personal computers and soon after because of the far greater storage sizes offered. Zip drives fell out of favor for mass portable storage during the early 2000s. The Zip brand later covered internal and external CD writers known as <strong>Zip-650</strong> or <strong>Zip-CD</strong>, which had no relation to the Zip drive.</p>
+    </div>
+</div>

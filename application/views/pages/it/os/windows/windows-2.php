@@ -2,9 +2,9 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('MS Windows 2.x'); ?>
         <p><strong>Windows 2.0</strong> is a 16-bit <?php echo $this->stencil->addLink('Microsoft', 'C'); ?> <?php echo $this->stencil->addLink('Windows', 'OS'); ?> <?php echo $this->stencil->addLink('GUI', 'IT'); ?> based operating environment that was released on 9 December 1987 and is the successor to <?php echo $this->stencil->addLink('Windows 1', 'WIN'); ?>.</p>
-        <p>Windows 2.0 allowed application windows to overlap each other unlike its predecessor Windows 1.0, which could display only tiled windows.</p>
+        <p>Windows 2.0 allowed application windows to overlap each other unlike its predecessor <?php echo $this->stencil->addLink('Windows 1.0', 'WIN'); ?>, which could display only tiled windows.</p>
         <p>Windows 2.0 also introduced more sophisticated keyboard-shortcuts and the terminology of "<em>Minimize</em>" and "<em>Maximize</em>", as opposed to "<em>Iconize</em>" and "<em>Zoom</em>" in Windows 1.0.</p>
-        <p>New features in Windows 2.0 included <strong>VGA</strong> graphics (although 16 colors only). It was also the last version of Windows that did not require a hard disk.</p>
+        <p>New features in Windows 2.0 included <?php echo $this->stencil->addLink('VGA', 'VID'); ?> graphics (although 16 colours only). It was also the last version of Windows that did not require a hard disk.</p>
         <p>Windows 2.0 was also the first Windows version to integrate the control panel.</p>
     </div>
 </div>

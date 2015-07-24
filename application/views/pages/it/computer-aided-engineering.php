@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Computer Aided Engineering (CAE)'); ?>
+        <p><strong>Computer Aided Engineering (CAE)</strong> is the broad usage of computer software to aid in engineering analysis tasks. It includes <strong>Finite Element Analysis (FEA)</strong>, <strong>Computational Fluid Dynamics (CFD)</strong>, <strong>Multibody dynamics (MBD)</strong>, and optimisation.</p>
+        <p>Software tools that have been developed to support these activities are considered CAE tools. CAE tools are being used, for example, to analyse the robustness and performance of components and assemblies. The term encompasses simulation, validation, and optimisation of products and manufacturing tools. In the future, CAE systems will be major providers of information to help support design teams in decision making. Computer Aided Engineering is used in many fields such as automotive, aviation, space, and shipbuilding industries.</p>
+        <p>In regard to information networks, CAE systems are individually considered a single node on a total information network and each node may interact with other nodes on the network.</p>
+        <p>CAE systems can provide support to businesses. This is achieved by the use of reference architectures and their ability to place information views on the business process. Reference architecture is the basis from which information model, especially product and manufacturing models.</p>
+        <p>The term CAE has also been used by some in the past to describe the use of computer technology within engineering in a broader sense than just engineering analysis. It was in this context that the term was coined by <strong>Jason Lemon</strong>, founder of <strong>SDRC</strong> in the late 1970s. This definition is however better known today by the terms <strong>CAx</strong> and <strong>PLM</strong>.</p>
+    </div>
+</div>

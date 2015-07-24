@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('CERN Httpd'); ?>
+        <p><strong>CERN httpd</strong> (later also known as <strong>W3C httpd</strong>) was a <?php echo $this->stencil->addLink('Web server', 'WD'); ?> (<?php echo $this->stencil->addLink('HTTP', 'WD'); ?>) <?php echo $this->stencil->addLink('daemon', 'IT'); ?> originally developed at <?php echo $this->stencil->addLink('CERN', 'C'); ?> from 1990 onwards by <?php echo $this->stencil->addLink('Tim Berners-Lee', 'P'); ?>, <strong>Ari Luotonen</strong> and <strong>Henrik Frystyk Nielsen</strong>. Implemented in <?php echo $this->stencil->addLink('C', 'L'); ?>, it was the first ever Web server software and went live on Christmas Day 1990.</p>
+        <p>CERN httpd was originally developed on a <?php echo $this->stencil->addLink('NeXT', 'ITH'); ?> Computer running <?php echo $this->stencil->addLink('NeXTSTEP', 'OS'); ?>, and was later ported to other <?php echo $this->stencil->addLink('Unix-like', 'OS'); ?> operating systems and <?php echo $this->stencil->addLink('VMS', 'OS'); ?>. It could also be configured as a Web proxy server. Version 0.1 was released in June 1991. In August 1991, Berners-Lee announced in the Usenet newsgroup <code>alt.hypertext</code> the availability of the source code of the server daemon and other World Wide Web software from the CERN FTP site.</p>
+        <p>The server was presented on the Hypertext 91 conference in San Antonio and was part of the CERN Program Library (CERNLIB).</p>
+        <p>Later versions of the server are based on the <code>libwww</code> library. The development of CERN httpd was later taken over by <?php echo $this->stencil->addLink('W3C', 'C'); ?>, with the last release being version 3.0A of 15 July 1996. From 1996 onwards, W3C focused on the development of the <?php echo $this->stencil->addLink('Java', 'L'); ?> based <strong>Jigsaw</strong> server.</p>
+        <p>The initial version was public domain software; the last one was under an <?php echo $this->stencil->addLink('MIT license', 'LIC'); ?>.</p>
+    </div>
+</div>

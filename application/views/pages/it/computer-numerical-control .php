@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Computer Numerical Control (CNC)'); ?>
+        <p><strong>Numerical Control (NC)</strong> is the automation of machine tools that are operated by precisely programmed commands encoded on a storage medium, as opposed to controlled manually via hand wheels or levers, or mechanically automated via cams alone. Most NC today is <strong>Computer Numerical Control (CNC)</strong>, in which computers play an integral part of the control.</p>
+        <p>In modern CNC systems, end-to-end component design is highly automated using <strong>Computer Aided Design (<?php echo $this->stencil->addLink('CAD', 'ITS'); ?>)</strong> and <strong>Computer Aided Manufacturing (<?php echo $this->stencil->addLink('CAM', 'IT'); ?>)</strong> programs. The programs produce a computer file that is interpreted to extract the commands needed to operate a particular machine via a post processor, and then loaded into the CNC machines for production. Since any particular component might require the use of a number of different tools - drills, saws, etc., modern machines often combine multiple tools into a single "cell". In other installations, a number of different machines are used with an external controller and human or robotic operators that move the component from machine to machine.</p>
+    </div>
+</div>

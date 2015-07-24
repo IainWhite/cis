@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Direct Numerical Control (DNC)'); ?>
+        <p><strong>Direct Numerical Control (DNC)</strong>, also known as <strong>Distributed Numerical Control</strong> (also DNC), is a common manufacturing term for networking <?php echo $this->stencil->addLink('CNC', 'IT'); ?> machine tools. On some CNC machine controllers, the available memory is too small to contain the machining program (for example machining complex surfaces), so in this case the program is stored in a separate computer and sent directly to the machine, one block at a time. If the computer is connected to a number of machines it can distribute programs to different machines as required. Usually, the manufacturer of the control provides suitable DNC software. However, if this provision is not possible, some software companies provide DNC applications that fulfil the purpose. DNC networking or DNC communication is always required when CAM programs are to run on some CNC machine control.</p>
+        <p>Wireless DNC is also used in place of hard-wired versions. Controls of this type are very widely used in industries with significant sheet metal fabrication, such as the automotive, appliance, and aerospace industries.</p>
+    </div>
+</div>

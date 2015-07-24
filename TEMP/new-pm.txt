@@ -509,43 +509,6 @@ The UCS has over 1.1 million code points available for use, but only the first 6
 The system deliberately leaves many code points not assigned to characters, even in the BMP. It does this to allow for future expansion or to minimize conflicts with other encoding forms.
 ===
 
-Web Server 
-A Web server is an information technology that processes requests via [HTTP], the basic network protocol used to distribute information on the [World Wide Web]. The term can refer either to the entire computer system, an appliance, or specifically to the software that accepts and supervises the HTTP requests.
-
-The primary function of a web server is to store, process and deliver web pages to clients. The communication between client and server takes place using the Hypertext Transfer Protocol (HTTP). Pages delivered are most frequently [HTML] documents, which may include images, style sheets and scripts in addition to text content.
-
-A user agent, commonly a [Web browser] or Web crawler, initiates communication by making a request for a specific resource using HTTP and the server responds with the content of that resource or an error message if unable to do so. The resource is typically a real file on the server's secondary storage, but this is not necessarily the case and depends on how the web server is implemented.
-
-While the primary function is to serve content, a full implementation of HTTP also includes ways of receiving content from clients. This feature is used for submitting web forms, including uploading of files.
-
-Many generic web servers also support server-side scripting using Active Server Pages ([ASP]), [PHP], or other scripting languages. This means that the behaviour of the Web server can be scripted in separate files, while the actual server software remains unchanged. Usually, this function is used to generate HTML documents dynamically ("on-the-fly") as opposed to returning static documents. The former is primarily used for retrieving and / or modifying information from databases. The latter is typically much faster and more easily cached but cannot deliver dynamic content.
-
-Web servers are not always used for serving the World Wide Web. They can also be found embedded in devices such as printers, routers, webcams and serving only a local network. The web server may then be used as a part of a system for monitoring and / or administering the device in question. This usually means that no additional software has to be installed on the client computer, since only a web browser is required (which now is included with most operating systems).
-
-In 1989 [Tim Berners-Lee] proposed a new project to his employer [CERN], with the goal of easing the exchange of information between scientists by using a hypertext system. The project resulted in Berners-Lee writing two programs in 1990:
-
-- A browser called [WorldWideWeb].
-- The world's first web server, later known as [CERN httpd], which ran on [NeXTSTEP]
-
-Between 1991 and 1994, the simplicity and effectiveness of early technologies used to surf and exchange data through the World Wide Web helped to port them to many different operating systems and spread their use among scientific organisations and universities, and then to industry.
-
-In 1994 Tim Berners-Lee decided to constitute the World Wide Web Consortium ([W3C]) to regulate the further development of the many technologies involved (HTTP, HTML, etc.) through a standardisation process.
-===
-
-CERN Httpd
-CERN httpd (later also known as W3C httpd) was a [Web server] ([HTTP]) [daemon] originally developed at [CERN] from 1990 onwards by [Tim Berners-Lee], Ari Luotonen and Henrik Frystyk Nielsen. Implemented in [C], it was the first ever Web server software and went live on Christmas Day 1990.
-
-CERN httpd was originally developed on a [NeXT] Computer running [NeXTSTEP], and was later ported to other [Unix-like] operating systems and [VMS]. It could also be configured as a Web proxy server. Version 0.1 was released in June 1991. In August 1991, Berners-Lee announced in the Usenet newsgroup alt.hypertext the availability of the source code of the server daemon and other World Wide Web software from the CERN FTP site.
-
-The original, first generation HTTP server which some call the Volkswagen of the Web.
-
-The server was presented on the Hypertext 91 conference in San Antonio and was part of the CERN Program Library (CERNLIB).
-
-Later versions of the server are based on the libwww library. The development of CERN httpd was later taken over by [W3C], with the last release being version 3.0A of 15 July 1996. From 1996 onwards, W3C focused on the development of the [Java] based [Jigsaw] server.
-
-The initial version was public domain software; the last one was under an [MIT license].
-===
-
 Punched Card
 A punched card, punch card, IBM card, or Hollerith card is a piece of stiff paper that contained either commands for controlling automated machinery or data for data processing applications. Both commands and data were represented by the presence or absence of holes in predefined positions.
 
@@ -569,28 +532,6 @@ Tape for punching was 0.00394 inches (0.1 mm) thick. The two most common widths 
 
 Chad
 Most tape-punching equipment used solid punches to create holes in the tape. This process inevitably created "chad", or small circular pieces of paper. Managing the disposal of chad was an annoying and complex problem, as the tiny paper pieces had a tendency to escape and interfere with the other electromechanical parts of the teleprinter equipment.
-===
-
-Zip drive
-The Zip drive is a medium capacity removable [floppy disk] storage system that was introduced by [Iomega] in late 1994. Originally, Zip disks launched with capacities of 100MB, but later versions increased this to first 250MB and then 750MB.
-
-The format became the most popular of the superfloppy products which filled a niche in the late 1990s portable storage market. However, it was never popular enough to replace the [3.5-inch floppy disk] nor could ever match the storage size available on rewritable CDs and later rewritable DVDs. USB flash drives ultimately proved to be the better rewritable storage medium among the general public due to the near-ubiquity of USB ports on personal computers and soon after because of the far greater storage sizes offered. Zip drives fell out of favor for mass portable storage during the early 2000s. The Zip brand later covered internal and external CD writers known as Zip-650 or Zip-CD, which had no relation to the Zip drive.
-===
-
-LS-120 SuperDisk
-Announced in 1995, the "SuperDisk" marketed as the LS-120 drive, often seen with the brand names Matsushita (Panasonic) and Imation, had an initial capacity of 120MB using even higher density "LS-120" disks.
-
-LS in this case stands for Laser Servo, which used a very low power superluminescent LED that generated light with a small focal spot. This allowed the drive to align its rotation to precisely the same point each time, allowing far more data to be written due to the absence of conventional magnetic alignment marks. The alignment was based on hard coded optical alignment marks, which meant that a complete format could be done. This worked very well at the time and as a result failures associated with magnetic fields wiping the ZIP drive alignment Z tracks were less of a problem.
-
-It was upgraded (as the "LS-240") to 240MB. Not only could the drive read and write 1440kB disks, but the last versions of the drives could write 32MB onto a normal 1440kB disk. Unfortunately, popular opinion held the Super Disk disks to be quite unreliable, though no more so than the [Zip drives] and SyQuest Technology offerings of the same period and there were also many reported problems moving standard floppies between LS-120 drives and normal floppy drives. This belief, true or otherwise, crippled adoption. The [BIOS] of many motherboards even to this day supports LS-120 drives as boot options.
-
-One suggested improvement to LS-240 was the addition of an optical reader based on low resolution B/W CCD technology, as this would be able to detect disk flaws before they could cause data loss and adjust write strategies accordingly. Also it would allow detection of damage caused by head misalignment before the data surface was compromised. Had this ever been implemented then it would have allowed the LS240 to store nearly 500MB of data. This strategy was later implemented on [HP] and [Epson] printers to allow photo quality printing on normal non-photo paper.
-
-LS-120 compatible drives were available as options on many computers, including desktop and notebook computers from [Compaq Computer Corporation]. In the case of the Compaq notebooks, the LS-120 drive replaced the standard floppy drive in a multi-bay configuration.
-===
-
-Iomega
-LenovoEMC (formerly Iomega), is a producer of external, portable, and networked storage solutions. Established in the 1980s as Iomega, LenovoEMC has sold more than 410 million digital storage drives and disks. It was a public company, trading on the New York Stock Exchange under the symbol IOM beginning in 1983. The [ZIP Driv]e was Iomega's most notable product.
 ===
 
 Disc Filing System (DFS)
@@ -740,36 +681,6 @@ Cutting Plotters
 Cutting plotters use knives to cut into a piece of material (such as paper, mylar or vinyl) that is lying on the flat surface area of the plotter. It is achieved because the cutting plotter is connected to a computer, which is equipped with specialised cutting design or drawing computer software programs. Those computer software programs are responsible for sending the necessary cutting dimensions or designs in order to command the cutting knife to produce the correct project cutting needs.
 
 In recent years the use of cutting plotters (generally called die-cut machines) has become popular with home enthusiasts of paper crafts such as card making and scrapbooking. Such tools allow desired card shapes to be cut out very precisely, and repeated perfectly identically.
-===
-
-Computer Aided Manufacturing (CAM) 
-Computer Aided Manufacturing (CAM) is the use of computer software to control machine tools and related machinery in the manufacturing of workpieces. This is not the only definition for CAM, but it is the most common; CAM may also refer to the use of a computer to assist in all operations of a manufacturing plant, including planning, management, transportation and storage. Its primary purpose is to create a faster production process and components and tooling with more precise dimensions and material consistency, which in some cases, uses only the required amount of raw material (thus minimising waste), while simultaneously reducing energy consumption. CAM is a subsequent computer aided process after Computer Aided Design ([CAD]) and sometimes Computer Aided Engineering ([CAE]), as the model generated in CAD and verified in CAE can be input into CAM software, which then controls the machine tool.
-
-Traditionally, CAM has been considered as a Numerical Control ([NC]) programming tool, where in two-dimensional (2-D) or three-dimensional (3-D) models of components generated in CADAs with other “Computer Aided” technologies, CAM does not eliminate the need for skilled professionals such as manufacturing engineers, NC programmers, or machinists. CAM, in fact, leverages both the value of the most skilled manufacturing professionals through advanced productivity tools, while building the skills of new professionals through visualisation, simulation and optimisation tools.
-===
-
-Computer Aided Engineering (CAE) 
-Computer Aided Engineering (CAE) is the broad usage of computer software to aid in engineering analysis tasks. It includes Finite Element Analysis (FEA), Computational Fluid Dynamics (CFD), Multibody dynamics (MBD), and optimisation.
-
-Software tools that have been developed to support these activities are considered CAE tools. CAE tools are being used, for example, to analyse the robustness and performance of components and assemblies. The term encompasses simulation, validation, and optimisation of products and manufacturing tools. In the future, CAE systems will be major providers of information to help support design teams in decision making. Computer Aided Engineering is used in many fields such as automotive, aviation, space, and shipbuilding industries.
-
-In regard to information networks, CAE systems are individually considered a single node on a total information network and each node may interact with other nodes on the network.
-
-CAE systems can provide support to businesses. This is achieved by the use of reference architectures and their ability to place information views on the business process. Reference architecture is the basis from which information model, especially product and manufacturing models.
-
-The term CAE has also been used by some in the past to describe the use of computer technology within engineering in a broader sense than just engineering analysis. It was in this context that the term was coined by Jason Lemon, founder of SDRC in the late 1970s. This definition is however better known today by the terms CAx and PLM.
-===
-
-Computer Numerical Control (CNC) 
-Numerical Control (NC) is the automation of machine tools that are operated by precisely programmed commands encoded on a storage medium, as opposed to controlled manually via hand wheels or levers, or mechanically automated via cams alone. Most NC today is Computer Numerical Control (CNC), in which computers play an integral part of the control.
-
-In modern CNC systems, end-to-end component design is highly automated using Computer Aided Design ([CAD]) and Computer Aided Manufacturing ([CAM]) programs. The programs produce a computer file that is interpreted to extract the commands needed to operate a particular machine via a post processor, and then loaded into the CNC machines for production. Since any particular component might require the use of a number of different tools - drills, saws, etc., modern machines often combine multiple tools into a single "cell". In other installations, a number of different machines are used with an external controller and human or robotic operators that move the component from machine to machine. In either case, the series of steps needed to produce any part is highly automated and produces a part that 
-===
-
-Direct Numerical Control (DNC)
-Direct Numerical Control (DNC), also known as Distributed Numerical Control (also DNC), is a common manufacturing term for networking CNC machine tools. On some [CNC] machine controllers, the available memory is too small to contain the machining program (for example machining complex surfaces), so in this case the program is stored in a separate computer and sent directly to the machine, one block at a time. If the computer is connected to a number of machines it can distribute programs to different machines as required. Usually, the manufacturer of the control provides suitable DNC software. However, if this provision is not possible, some software companies provide DNC applications that fulfil the purpose. DNC networking or DNC communication is always required when CAM programs are to run on some CNC machine control.
-
-Wireless DNC is also used in place of hard-wired versions. Controls of this type are very widely used in industries with significant sheet metal fabrication, such as the automotive, appliance, and aerospace industries.
 ===
 
 The cathode ray tube (CRT) is a vacuum tube containing one or more electron guns, and a fluorescent screen used to view images.[1] It has a means to accelerate and deflect the electron beam(s) onto the screen to create the images. The images may represent electrical waveforms (oscilloscope), pictures (television, computer monitor), radar targets or others. CRTs have also been used as memory devices, in which case the visible light emitted from the fluorescent material (if any) is not intended to have significant meaning to a visual observer (though the visible pattern on the tube face may cryptically represent the stored data).
