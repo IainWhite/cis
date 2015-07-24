@@ -1,38 +1,4 @@
 
-WebDAV - Web Distributed Authoring and Versioning
-Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol ([HTTP]) that allows clients to perform remote Web content authoring operations. A working group of the Internet Engineering Task Force ([IETF]) defined WebDAV in [RFC 4918].
-
-The WebDAV protocol provides a framework for users to create, change and move documents on a server, typically a web server or web share. The most important features of the WebDAV protocol include the maintenance of properties about an author or modification date, namespace management, collections, and overwrite protection. Maintenance of properties includes such things as the creation, removal, and querying of file information. Namespace management deals with the ability to copy and move web pages within a server’s namespace. Collections deal with the creation, removal, and listing of various resources. Lastly, overwrite protection handles aspects related to locking of files.
-
-The WebDAV working group concluded its work in March 2007, after the Internet Engineering Steering Group ([IESG]) accepted an incremental update to [RFC 2518]. Other extensions left unfinished at that time, such as the BIND method, have been finished by their individual authors, independent of the formal working group.
-===
-
-SabreDAV 
-SabreDAV is an open source [WebDAV] server, developed by fruux built in [PHP]. It is an implementation of the WebDAV protocol (with extensions for [CalDAV] and CardDAV), providing a native PHP server implementation which operates on [Apache 2] and [Nginx] web servers.
-===
-
-CalDAV - Calendaring Extensions to WebDAV
-Calendaring Extensions to WebDAV, or CalDAV, is an Internet standard allowing a client to access scheduling information on a remote server. It extends [WebDAV] ([HTTP] based protocol for data manipulation) specification and uses [iCalendar] format for the data. The access protocol is defined by [RFC 4791]. It allows multiple client access to the same information thus allowing cooperative planning and information sharing. Many server and client applications support the protocol. Extensions to CalDAV for automated scheduling are also standardised, as [RFC 6638].
-===
-
-iCalendar
-iCalendar is a computer file format which allows Internet users to send meeting requests and tasks to other Internet users, via email, or sharing files with an extension of .ics. Recipients of the iCalendar data file (with supporting software, such as an email client or calendar application) can respond to the sender easily or counter propose another meeting date / time.
-
-iCalendar is used and supported by a large number of products, including [Google Calendar], Apple Calendar (formerly [iCal]), [IBM Lotus Notes], [Yahoo! Calendar], Evolution (software), eM Client, Lightning extension for [Mozilla Thunderbird] and [SeaMonkey], and partially by [Microsoft Outlook] and [Novell GroupWise].
-
-iCalendar is designed to be independent of the transport protocol. For example, certain events can be sent by traditional email or whole calendar files can be shared and edited by using a WebDav server, or [SyncML]. Simple web servers (using just the HTTP protocol) are often used to distribute iCalendar data about an event and to publish busy times of an individual. Publishers can embed iCalendar data in web pages using [hCalendar], a 1:1 microformat representation of iCalendar in semantic (X)HTML.
-===
-
-hCalendar
-hCalendar (short for HTML iCalendar) is a microformat standard for displaying a semantic (X)HTML representation of [iCalendar] format calendar information about an event, on web pages, using HTML classes and rel attributes.
-
-It allows parsing tools (for example other websites, or browser add-ons like [Firefox]'s Operator extension) to extract the details of the event, and display them using some other website, index or search them, or to load them into a calendar or diary program, for instance. Multiple instances can be displayed as timelines.
-===
-
-SyncML (Synchronization Markup Language) 
-SyncML (Synchronization Markup Language) is the former name for a platform independent information synchronisation standard. The project is currently referred to as Open Mobile Alliance Data Synchronisation and Device Management. The purpose of SyncML is to offer an open standard as a replacement for existing data synchronisation solutions, which have mostly been somewhat vendor, application or operating system specific.
-===
-
 Novell GroupWise
 GroupWise is a messaging and collaboration platform from [Novell] that supports email, calendaring, personal information management, instant messaging, and document management. The GroupWise platform consists of desktop client software, which is available for [Windows], [Mac OS X], and [Linux], and the server software, which is supported on Windows Server and Linux.
 
@@ -793,3 +759,4 @@ VESA's initial goal was to produce a standard for 800x600 [SVGA] resolution vide
 In November 2010, VESA announced a cooperative agreement with the Wireless Gigabit Alliance (WiGig) for sharing technology expertise and specifications to develop multi-gigabit wireless DisplayPort capabilities. DisplayPort is a VESA technology that provides digital display connectivity for Monitor mount.
 ===
 Thunderbolt
+CardDAV
