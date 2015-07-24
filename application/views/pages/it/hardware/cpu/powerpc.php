@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('PowerPC'); ?>
+        <p><strong>PowerPC</strong> (an acronym for <strong>P</strong>erformance <strong>O</strong>ptimization <strong>W</strong>ith <strong>E</strong>nhanced <strong>R</strong>ISC - <strong>P</strong>erformance <strong>C</strong>omputing, sometimes abbreviated as <strong>PPC</strong>) is a <?php echo $this->stencil->addLink('RISC', 'CPU'); ?> instruction set architecture created by the 1991 <?php echo $this->stencil->addLink('Apple', 'C'); ?>-<?php echo $this->stencil->addLink('IBM', 'C'); ?>-<?php echo $this->stencil->addLink('Motorola', 'C'); ?> alliance, known as <?php echo $this->stencil->addLink('AIM', 'C'); ?>.</p>
+        <p>PowerPC, as an evolving instruction set, has since 2006 been renamed <strong>Power ISA</strong> but lives on as a legacy trademark for some implementations of Power Architecture based processors.</p>
+        <p>Originally intended for personal computers, PowerPC CPUs have since become popular as embedded and high-performance processors.</p>
+        <p>PowerPC was the cornerstone of AIM's <strong>PReP</strong> and Common Hardware Reference Platform initiatives in the 1990s and while the architecture is well known for being used by Apple's <?php echo $this->stencil->addLink('Macintosh', 'ITH'); ?> lines from 1994 to 2006 (before Apple's transition to <?php echo $this->stencil->addLink('Intel', 'C'); ?>), its use in video game consoles and embedded applications provided an array of uses.</p>
+        <p>PowerPC is largely based on IBM's earlier POWER instruction set architecture, and retains a high level of compatibility with it; the architectures have remained close enough that the same programs and operating systems will run on both if some care is taken in preparation; newer chips in the POWER series implement the full PowerPC instruction set.</p>
+    </div>
+</div>

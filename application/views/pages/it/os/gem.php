@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('GEM'); ?>
+        <p><strong>GEM</strong> (<strong>G</strong>raphical <strong>E</strong>nvironment <strong>M</strong>anager) was an operating environment created by <?php echo $this->stencil->addLink('Digital Research Inc', 'C'); ?> for use with the <?php echo $this->stencil->addLink('CP/M', 'OS'); ?> operating system on the <?php echo $this->stencil->addLink('Intel 8088', 'CPU'); ?> and <?php echo $this->stencil->addLink('Motorola 68000', 'CPU'); ?> microprocessors. Later versions ran over {'DOS'|link_urls:'i'}<?php echo $this->stencil->addLink('DOS', 'OS'); ?> as well.</p>
+        <p>GEM is known primarily as the graphical user interface (<?php echo $this->stencil->addLink('GUI', 'IT'); ?>) for the <?php echo $this->stencil->addLink('Atari ST', 'ITH'); ?> series of computers, and was also supplied with a series of <?php echo $this->stencil->addLink('IBM PC compatible', 'PC'); ?> computers from <?php echo $this->stencil->addLink('Amstrad', 'C'); ?>. It also was available for standard IBM PC, at the time when the 6MHz <?php echo $this->stencil->addLink('IBM PC AT', 'PC'); ?> (and the very concept of a GUI) was brand new. It was the core for a small number of DOS programs, the most notable being <strong>Ventura Publisher</strong>. It was ported to a number of other computers that previously lacked graphical interfaces, but never gained popularity on those platforms.</p>
+    </div>
+</div>
