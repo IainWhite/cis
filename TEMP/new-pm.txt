@@ -1,30 +1,4 @@
 
-Novell GroupWise
-GroupWise is a messaging and collaboration platform from [Novell] that supports email, calendaring, personal information management, instant messaging, and document management. The GroupWise platform consists of desktop client software, which is available for [Windows], [Mac OS X], and [Linux], and the server software, which is supported on Windows Server and Linux.
-
-The platform also supports WebAccess, its browser-based webmail client. Mobile access to messaging, calendaring, contacts and other data from smartphones and tablet computers is supported (through the Novell Data Synchroniser server software) via the Exchange ActiveSync protocol. Enterprise instant messaging and presence is handled by Novell Messenger, which integrates with GroupWise.
-
-Versions
-Name					Version Number	Release Date
-WordPerfect Library		-				-	
-WordPerfect Office		2.0				1988	
-WordPerfect Office		3.0				1990	
-WordPerfect Office		3.1				1992	
-WordPerfect Office		4.0				1993	
-GroupWise				4.1				1994	
-GroupWise				5				1996	
-GroupWise				5.1				1997	
-GroupWise				5.2				1997	
-GroupWise				5.5				1998	
-GroupWise				6.0				2001	
-GroupWise				6.5				2003	
-GroupWise				7.0				2005	
-GroupWise				8.0				2008	
-GroupWise				2012			2012	
-GroupWise				2014			2014
-
-===
-
 Base64
 Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an [ASCII] string format by translating it into a radix-64 representation. The term Base64 originates from a specific [MIME] content transfer encoding.
 
@@ -33,48 +7,6 @@ Base64 encoding schemes are commonly used when there is a need to encode binary 
 
 WebGL
 WebGL (Web Graphics Library) is a [JavaScript] API for rendering interactive 3D computer graphics and 2D graphics within any compatible web browser without the use of plug-ins. WebGL is integrated completely into all the web standards of the browser allowing GPU accelerated usage of physics and image processing and effects as part of the web page canvas. WebGL elements can be mixed with other [HTML] elements and composited with other parts of the page or page background. WebGL programs consist of control code written in JavaScript and shader code that is executed on a computer's Graphics Processing Unit (GPU). WebGL is designed and maintained by the non-profit Khronos Group.
-===
-
-Google Panda
-Google Panda is a change to [Google]'s search results ranking algorithm that was first released in February 2011. The change aimed to lower the rank of "low-quality sites" or "thin sites", and return higher quality sites near the top of the search results. CNET reported a surge in the rankings of news websites and social networking sites, and a drop in rankings for sites containing large amounts of advertising. This change reportedly affected the rankings of almost 12 percent of all search results. Soon after the Panda rollout, many websites, including Google's webmaster forum, became filled with complaints of scrapers / copyright infringers getting better rankings than sites with original content. At one point, Google publicly asked for data points to help detect scrapers better. Google's Panda has received several updates since the original rollout in February 2011, and the effect went global in April 2011. To help affected publishers, Google provided an advisory on its blog, thus giving some direction for self-evaluation of a website's quality. Google has provided a list of 23 bullet points on its blog answering the question of "What counts as a high-quality site?" that is supposed to help webmasters "step into Google's mindset".
-
-Google Panda is a filter that prevents low quality sites and / or pages from ranking well in the search engine results page. The filter's threshold is influenced by Google Quality Raters. Quality Raters answer questions such as "would I trust this site with my credit card?" so that Google can distinguish the difference between high and low quality sites.
-
-The Google Panda patent (patent 8,682,892), filed on 28 September 2012, was granted on 25 March 2014. The patent states that Google Panda creates a ratio with a site's inbound links and reference queries, search queries for the site's brand. That ratio is then used to create a sitewide modification factor. The sitewide modification factor is then used to create a modification factor for a page based upon a search query. If the page fails to meet a certain threshold, the modification factor is applied and, therefore, the page would rank lower in the search engine results page.
-
-Google Panda affects the ranking of an entire site or a specific section rather than just the individual pages on a site.
-
-In March 2012, Google updated Panda.
-
-Google says it only takes a few pages of poor quality or duplicated content to hold down traffic on an otherwise solid site, and recommends such pages be removed, blocked from being indexed by the search engine, or rewritten. However, Matt Cutts, head of webspam at Google, warns that rewriting duplicate content so that it is original may not be enough to recover from Panda, the rewrites must be of sufficiently high quality, as such content brings "additional value" to the web. Content that is general, non-specific, and not substantially different from what is already out there should not be expected to rank well: "Those other sites are not bringing additional value. While they’re not duplicates they bring nothing new to the table."
-===
-
-Google Penalty 
-A Google penalty is the negative impact on a website's search rankings based on updates to [Google]'s search algorithms and / or manual review. The penalty can be an unfortunate by-product of an algorithm update or an intentional penalisation for various black-hat SEO techniques.
-
-Google penalises sites for engaging in practices that are against its webmaster guidelines. These penalties can be the result of a manual review or algorithm updates such as [Google Penguin].
-
-Google penalties can result in the drop of rankings for every page of a site, for a specific keyword, or for a specific page. Any drop in rankings brings with it a major drop in traffic for the site.
-
-To find out if a website has been affected by a Google penalty, website owners can use Google Webmaster Tools as well as analyse the timing of their traffic drop with the timing of known Google updates.
-
-Google has been updating its algorithm for as long as it has been fighting the manipulation of organic search results. However, up until May 10, 2012, when Google launched the Google Penguin update, many people wrongly believed that low-quality backlinks would not negatively affect ranks. While this viewpoint was common, it was not correct, as Google had been applying such link-based penalties for many years, but not made public how the company approached and dealt with what they called "link spam". Since this time there has been a much wider acknowledgement about the dangers of bad [SEO] and a forensic analysis of backlinks to ensure there are no harmful links.
-===
-
-Google Penguin
-Google Penguin is a codename for a [Google] algorithm update that was first announced on 24 April 2012. The update is aimed at decreasing search engine rankings of websites that violate Google’s Webmaster Guidelines by using now declared black-hat SEO techniques involved in increasing artificially the ranking of a webpage by manipulating the number of links pointing to the page. Such tactics are commonly described as link schemes. According to Google's John Mueller, Google has announced all updates to the Penguin filter to the public.
-
-By Google’s estimates, Penguin affects approximately 3.1% of search queries in English, about 3% of queries in languages like German, Chinese, and Arabic, and an even bigger percentage of them in "highly spammed" languages. On 25 May 2012, Google unveiled another Penguin update, called Penguin 1.1. This update, according to Matt Cutts, was supposed to affect less than one-tenth of a percent of English searches. The guiding principle for the update was to penalise websites using manipulative techniques to achieve high rankings. The purpose per Google was to catch excessive spammers. Allegedly, few websites lost search rankings on Google for specific keywords during the Panda and Penguin rollouts. Google specifically mentions that doorway pages, which are only built to attract search engine traffic, are against their webmaster guidelines.
-
-In January 2012, the so-called Page Layout Algorithm Update (also known as the Top Heavy Update) was released, which targeted websites with too many ads, or too little content above the fold.
-
-Penguin 3 was released 5 October 2012 and affected 0.3% of queries. Penguin 4 (AKA Penguin 2.0) was released on 22 May 2013 and affected 2.3% of queries. Penguin 5 (AKA Penguin 2.1) was released on 4 October 2013, affected around 1% of queries, and has been the most recent of the Google Penguin algorithm updates.
-===
-
-Spamdexing
-In computing, spamdexing (also known as search engine spam, search engine poisoning, Black-Hat SEO, search spam or web spam) is the deliberate manipulation of search engine indexes. It involves a number of methods, such as repeating unrelated phrases, to manipulate the relevance or prominence of resources indexed in a manner inconsistent with the purpose of the indexing system. It could be considered to be a part of [search engine optimisation], though there are many search engine optimisation methods that improve the quality and appearance of the content of web sites and serve content useful to many users. Search engines use a variety of algorithms to determine relevancy ranking. Some of these include determining whether the search term appears in the body text or URL of a web page. Many search engines check for instances of spamdexing and will remove suspect pages from their indexes. Also, people working for a search-engine organisation can quickly block the results listing from entire websites that use spamdexing, perhaps alerted by user complaints of false matches. The rise of spamdexing in the mid 1990s made the leading search engines of the time less useful. Using unethical methods to make websites rank higher in search engine results than they otherwise would is commonly referred to in the SEO (Search Engine Optimisation) industry as "Black Hat SEO."
-
-Common spamdexing techniques can be classified into two broad classes: content spam (or term spam) and link spam.
 ===
 
 Google Hummingbird

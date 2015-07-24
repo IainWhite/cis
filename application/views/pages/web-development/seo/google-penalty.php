@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Google Penalty'); ?>
+        <p>A <strong>Google penalty</strong> is the negative impact on a website's search rankings based on updates to <?php echo $this->stencil->addLink('Google', 'C'); ?>'s search algorithms and / or manual review. The penalty can be an unfortunate by-product of an algorithm update or an intentional penalisation for various <?php echo $this->stencil->addLink('black hat SEO', 'SEO'); ?> techniques.</p>
+        <p>Google penalises sites for engaging in practices that are against its webmaster guidelines. These penalties can be the result of a manual review or algorithm updates such as <?php echo $this->stencil->addLink('Google Penguin', 'SEO'); ?>.</p>
+        <p>Google penalties can result in the drop of rankings for every page of a site, for a specific keyword, or for a specific page. Any drop in rankings brings with it a major drop in traffic for the site.</p>
+        <p>To find out if a website has been affected by a Google penalty, website owners can use <strong>Google Webmaster Tools</strong> as well as analyse the timing of their traffic drop with the timing of known Google updates.</p>
+        <p>Google has been updating its algorithm for as long as it has been fighting the manipulation of organic search results. However, up until May 10, 2012, when Google launched the Google Penguin update, many people wrongly believed that low-quality backlinks would not negatively affect ranks. While this viewpoint was common, it was not correct, as Google had been applying such link-based penalties for many years, but not made public how the company approached and dealt with what they called "link spam". Since this time there has been a much wider acknowledgement about the dangers of bad <?php echo $this->stencil->addLink('SEO', 'WD'); ?> and a forensic analysis of backlinks to ensure there are no harmful links.</p>
+    </div>
+</div>
