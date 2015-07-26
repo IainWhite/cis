@@ -34,7 +34,6 @@ it/hardware/amstrad-pc1512
 it/hardware/amstrad-pcw
 it/hardware/analytical-engine
 it/hardware/antikythera-mechanism
-it/hardware/arm
 it/hardware/arm-architecture
 it/hardware/bbc-domesday-project
 it/hardware/bbc-micro
@@ -51,16 +50,10 @@ it/hardware/pc/ibm-pc-compatible
 it/hardware/pc/ps-2
 it/hardware/pc/xt
 it/hardware/phones/nokia-communicator
-it/hardware/powerpc
-it/hardware/risc
 it/hardware/smartphone
 it/hardware/sparc
 it/hardware/sparcstation
 it/hardware/vax
-it/hardware/video/cga
-it/hardware/video/ega
-it/hardware/video/svga
-it/hardware/video/vga
 it/hsl
 it/ims
 it/internet
@@ -73,7 +66,6 @@ it/junit
 it/jvm
 languages/java/testdox
 it/latex
-it/mda
 it/metafont
 it/network
 it/network/ethernet
@@ -95,15 +87,10 @@ it/operating-systems/cp-m
 it/operating-systems/debian
 it/operating-systems/fedora
 it/operating-systems/freebsd
-it/operating-systems/gem
-it/operating-systems/geos
 it/operating-systems/linux
 it/operating-systems/linux/tux
-it/operating-systems/mac-os
 it/operating-systems/mobile/android
 it/operating-systems/mobile/cocoa-touch
-it/operating-systems/nextstep
-it/operating-systems/os-x
 it/operating-systems/plan-9
 it/operating-systems/red-hat
 it/operating-systems/red-hat/red-hat-enterprise-linux
@@ -112,20 +99,9 @@ it/operating-systems/sunos
 it/operating-systems/suse
 it/operating-systems/ubuntu
 it/operating-systems/vms
-it/operating-systems/windows/windows-2000
-it/operating-systems/windows/windows-3
-it/operating-systems/windows/windows-7
-it/operating-systems/windows/windows-8
-it/operating-systems/windows/windows-95
-it/operating-systems/windows/windows-98
 it/operating-systems/windows/windows-api
-it/operating-systems/windows/windows-me
-it/operating-systems/windows/windows-nt
 it/operating-systems/windows/windows-template-library
-it/operating-systems/windows/windows-vista
-it/operating-systems/windows/windows-xp
 it/Original Equipment Manufacturer (OEM)
-it/pgc
 it/relational-model
 it/Request for Comments (RFC)
 it/rgb
