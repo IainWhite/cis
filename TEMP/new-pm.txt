@@ -690,5 +690,215 @@ VESA's initial goal was to produce a standard for 800x600 [SVGA] resolution vide
 
 In November 2010, VESA announced a cooperative agreement with the Wireless Gigabit Alliance (WiGig) for sharing technology expertise and specifications to develop multi-gigabit wireless DisplayPort capabilities. DisplayPort is a VESA technology that provides digital display connectivity for Monitor mount.
 ===
-Thunderbolt
-CardDAV
+vCard Extensions to WebDAV (CardDAV) is an address book client/server protocol designed to allow users to access and share contact data on a server.
+
+The CardDAV protocol was developed by the IETF and has been published as RFC 6352 in August 2011.[1] CardDAV is based on WebDAV, which is based on HTTP, and it uses vCard for contact data.[2]
+===
+vCard is a file format standard for electronic business cards. vCards are often attached to e-mail messages, but can be exchanged in other ways, such as on the World Wide Web or instant messaging. They can contain name and address information, phone numbers, e-mail addresses, URLs, logos, photographs, and audio clips.
+===
+Thunderbolt, developed under the name Light Peak,[1] is a hardware interface that allows the connection of external peripherals to a computer. Thunderbolt 1 and 2 use the same connector as Mini DisplayPort (MDP), while Thunderbolt 3 will use USB Type-C. It was first sold as part of a consumer product on February 24, 2011.[2]
+
+Thunderbolt combines PCI Express (PCIe) and DisplayPort (DP) into one serial signal, and additionally provides DC power, all in one cable. Up to six peripherals may be supported by one connector through various topologies.
+
+The interface was originally intended to run exclusively on an optical physical layer using components and flexible optical fiber cabling developed by Intel partners and at Intel's Silicon Photonics lab. It was initially marketed under the name Light Peak,[5] and after 2011 as Silicon Photonics Link.[6] However, it was discovered that conventional copper wiring could furnish the desired 10 Gbit/s per channel at lower cost.
+
+This copper-based version of the Light Peak concept was co-developed by Apple and Intel. Apple registered Thunderbolt as a trademark, but later transferred the mark to Intel, which held overriding intellectual-property rights.[7]
+
+Thunderbolt controllers multiplex one or more individual data lanes from connected PCIe and DisplayPort devices for transmission via one duplex Thunderbolt lane, then de-multiplex them for use by PCIe and DisplayPort devices on the other end.[3] A single Thunderbolt port supports up to six Thunderbolt devices via hubs or daisy chains; as many of these as the host has DP sources may be Thunderbolt monitors.[8]
+
+A single Mini DisplayPort monitor or other device of any kind may be connected directly or at the very end of the chain. Thunderbolt is interoperable with DP-1.1a compatible devices. When connected to a DP-compatible device, the Thunderbolt port can provide a native DisplayPort signal with four lanes of output data at no more than 5.4 Gbit/s per Thunderbolt lane. When connected to a Thunderbolt device, the per-lane data rate becomes 10 Gbit/s and the four Thunderbolt lanes are configured as two duplex lanes, each 10 Gbit/s comprising one lane of input and one lane of output.[3]
+
+Thunderbolt can be implemented on PCIe graphics cards, which have access to DisplayPort data and PCIe connectivity, or on the motherboard of new computers with onboard video, such as the MacBook Air.[8][9][10]
+
+Sumitomo Electric Industries started selling up to 30-metre-long (100 ft) optical Thunderbolt cables in Japan in January 2013,[11] with US company Corning Inc. selling up to 60-metre-long (200 ft) optical cables from late September 2013.[12]
+
+Thunderbolt was commercially introduced on Apple's 2011 MacBook Pro, using the same Apple-developed connector as Mini DisplayPort, which is electrically identical to DisplayPort, but uses a smaller, non-locking connector.
+
+
+===
+The Mini DisplayPort (MiniDP or mDP) is a miniaturized version of the DisplayPort audio-visual digital interface.
+
+It was announced by Apple in October 2008. As of 2013, all new Apple Macintosh computers had the port, as did the LED Cinema Display.[2][not in citation given] The Mini DisplayPort is also fitted to some PC motherboards, and some PC notebooks from Asus, Microsoft, Lenovo, Toshiba, HP, Dell, and other manufacturers.
+
+Unlike its Mini-DVI and Micro-DVI predecessors, the Mini DisplayPort can drive display devices with resolutions up to 2560×1600 (WQXGA) in its DisplayPort 1.1a implementation, and 4096x2160 (4K) in its DisplayPort 1.2 implementation. With an adapter, the Mini DisplayPort can drive display devices with VGA, DVI, or HDMI interfaces.[3][4][5]
+
+Apple offers a free license for the Mini DisplayPort[6] but they reserve the right to cancel the license should the licensee "commence an action for patent infringement against Apple".[7]
+===
+A liquid-crystal display (LCD) is a flat panel display, electronic visual display, or video display that uses the light modulating properties of liquid crystals. Liquid crystals do not emit light directly.[1]
+
+LCDs are available to display arbitrary images (as in a general-purpose computer display) or fixed images which can be displayed or hidden, such as preset words, digits, and 7-segment displays as in a digital clock. They use the same basic technology, except that arbitrary images are made up of a large number of small pixels, while other displays have larger elements.
+
+LCDs are used in a wide range of applications including computer monitors, televisions, instrument panels, aircraft cockpit displays, and signage. They are common in consumer devices such as DVD players, gaming devices, clocks, watches, calculators, and telephones, and have replaced cathode ray tube (CRT) displays in most applications. They are available in a wider range of screen sizes than CRT and plasma displays, and since they do not use phosphors, they do not suffer image burn-in. LCDs are, however, susceptible to image persistence.[2]
+
+The LCD screen is more energy efficient and can be disposed of more safely than a CRT. Its low electrical power consumption enables it to be used in battery-powered electronic equipment. It is an electronically modulated optical device made up of any number of segments filled with liquid crystals and arrayed in front of a light source (backlight) or reflector to produce images in color or monochrome. Liquid crystals were first discovered in 1888.[3] By 2008, annual sales of televisions with LCD screens exceeded sales of CRT units worldwide, and the CRT became obsolete for most purposes.
+===
+The iTunes Store, originally the iTunes Music Store, is a software-based online digital media store operated by Apple Inc. It opened on April 28, 2003, and has been the largest music vendor in the United States since April 2008,[2] and the largest music vendor in the world since February 2010.[3] It offers over 37 million songs, 700,000 apps, 190,000 TV episodes and 45,000 films as of September 12, 2012.[1] The iTunes Store's revenues in the first quarter of 2011 totalled nearly US$1.4 billion;[4] by February 6, 2013, the store had sold 25 billion songs worldwide.[5][6]
+
+While most downloaded files initially included usage restrictions enforced by FairPlay, Apple's implementation of digital rights management (DRM), iTunes later initiated a shift into selling DRM-free music in most countries, marketed as iTunes Plus. On January 6, 2009, Apple announced that DRM had been removed from 80% of its music catalog in the US.[7] Full iTunes Plus availability was achieved in the US on April 7, 2009, coinciding with the introduction of a three-tiered pricing model;[8] however, television episodes, many books, and films are still FairPlay-protected. As of June 2013, the iTunes Store possesses 575 million active user accounts,[9] and serves over 315 million mobile devices, including Apple Watches, iPods, iPhones, Apple TV and iPads.[10][11]
+===
+In computing, a plug and play device or computer bus, is one with a specification that facilitates the discovery of a hardware component in a system without the need for physical device configuration or user intervention in resolving resource conflicts.[1][2]
+
+Plug and play devices can be due to boot-time assignment of device resources and to hotplug systems such as USB and IEEE 1394 (FireWire).[3]
+===
+n computing, PC Card is a configuration for computer peripheral interface designed for laptop computers. Originally introduced as PCMCIA Card, the PC Card standard as well as its successors like CardBus were defined and developed by the Personal Computer Memory Card International Association (PCMCIA).
+
+It was originally designed as a standard for memory-expansion cards for computer storage. The existence of a usable general standard for notebook peripherals led to many kinds of devices being made available based on its configurability, including network cards, modems, and hard disks.
+===
+A graphics processor unit (GPU), also occasionally called visual processor unit (VPU), is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display. GPUs are used in embedded systems, mobile phones, personal computers, workstations, and game consoles. Modern GPUs are very efficient at manipulating computer graphics and image processing, and their highly parallel structure makes them more effective than general-purpose CPUs for algorithms where processing of large blocks of data is done in parallel. In a personal computer, a GPU can be present on a video card, or it can be embedded on the motherboard or—in certain CPUs—on the CPU die.[1]
+
+The term GPU was popularized by Nvidia in 1999, who marketed the GeForce 256 as "the world's first GPU", or Graphics Processing Unit, a single-chip processor with integrated transform, lighting, triangle setup/clipping, and rendering engines that are capable of processing a minimum of 10 million polygons per second". Rival ATI Technologies coined the term visual processing unit or VPU with the release of the Radeon 9700 in 2002.
+===
+Radeon /ˈreɪdiːɒn/ is a brand of computer products, including graphics processing units, random-access memory, RAM disk software, solid-state drives, produced by Advanced Micro Devices. The brand was launched in 2000 by ATI Technologies, which was acquired by AMD in 2006.
+
+Radeon Graphics is the successor to the Rage line. Three different families of microarchitectures can be roughly distinguished, the fixed-pipeline family and the unified shader model-families of TeraScale and Graphics Core Next. ATI/AMD have developed different technologies, such as TruForm, HyperMemory, HyperZ, XGP, Eyefinity for multi-monitor setups, PowerPlay for power-saving, CrossFire (for multi-GPU) or Hybrid Graphics. A range of SIP blocks is also to be found on certain models in the Radeon products line: Unified Video Decoder, Video Coding Engine and TrueAudio.
+
+The brand was previously only known as "ATI Radeon" until August 2010, when it was renamed to increase AMD's brand awareness on a global scale.[1] Products up to and including the HD 5000 series are branded as ATI Radeon, while the HD 6000 series and beyond use the new AMD Radeon branding.[2]
+
+Radeon Graphics card brands[edit]
+Though it did at one time, AMD does not distribute Radeon cards directly to consumers. Instead, it sells Radeon GPUs to third-party manufacturers, who build and sell the Radeon-based video cards to the OEM and retail channels. Manufacturers of the Radeon cards --- some of whom also make motherboards—include Sapphire, XFX, Asus, Gigabyte, MSI, Biostar, Gainward, Diamond, HIS, PowerColor, Club 3D, VisionTek and Force3D.
+
+===
+
+GeForce is a brand of graphics processing units (GPUs) designed by Nvidia. As of 2013, there have been twelve iterations of the design. The first GeForce products were discrete GPUs designed for add-on graphics boards, intended for the high-margin PC gaming market, and later diversification of the product line covered all tiers of the PC graphics market, ranging from cost-sensitive[1] GPUs integrated on motherboards, to mainstream add-in retail boards. Most recently, GeForce technology has been introduced into Nvidia's line of embedded application processors, designed for electronic handhelds and mobile handsets.
+
+With respect to discrete GPUs, found in add-in graphics-boards, Nvidia's GeForce and AMD's Radeon GPUs are the only remaining competitors in the high-end market. Along with its nearest competitor, the AMD Radeon, the GeForce architecture is moving toward GPGPU (General Purpose-Graphics Processor Unit). GPGPU is expected to expand GPU functionality beyond the traditional rasterization of 3D graphics, to turn it into a high-performance computing device able to execute arbitrary programming code in the same way a CPU does, but with different strengths (highly parallel execution of straightforward calculations) and weaknesses (worse performance for complex decision-making code).
+
+Name origin[edit]
+The "GeForce" name originated from a contest held by Nvidia in early 1999 called "Name That Chip". The company called out to the public to name the successor to the RIVA TNT2 line of graphics boards. There were over 12,000 entries received and 7 winners received a RIVA TNT2 Ultra graphics card as a reward.[2][3]
+
+===
+OpenGL (Open Graphics Library)[3][4][5] is a cross-language, multi-platform application programming interface (API) for rendering 2D and 3D vector graphics. The API is typically used to interact with a graphics processing unit (GPU), to achieve hardware-accelerated rendering.
+
+Silicon Graphics Inc. (SGI) started developing OpenGL in 1991 and released it in January 1992;[6] applications use it extensively in the fields of CAD, virtual reality, scientific visualization, information visualization, flight simulation, and video games. OpenGL is managed by the non-profit technology consortium Khronos Group.
+
+===
+The Magic Mouse is a multi-touch mouse manufactured and sold by Apple.[1] It was first sold on October 20, 2009.[2] The Magic Mouse is the first consumer mouse to have multi-touch capabilities.[1] Taking after the iPhone, iPad, iPod Touch, and multi-touch trackpads, the Magic Mouse allows the use of gestures such as swiping and scrolling across the top surface of the mouse to interact with desktop computers. It connects via Bluetooth and runs on two AA batteries. Apple includes two non-rechargeable batteries in the box. Just like the predecessor, the Mighty Mouse, the Magic Mouse is capable of right-clicking.[3]
+
+The mouse requires minimum Mac OS X 10.5.8. It can be configured as a two-buttoned left-handed or right-handed mouse, but the default is a single button. It uses laser tracking for increased pointer accuracy over previous generation Apple mice.[4] Since its release, it has been included along with a wireless keyboard with the 2009 generation of iMacs, and with a wired keyboard with the 2010 Mac Pro workstations. It can also be purchased separately.
+
+Initial reception to the Magic Mouse was negative, with reactions to its inability to perform simple day-to-day functions such as the ability to middle click (without any additional software), or trigger Exposé, Dashboard, or Spaces, features that had been offered by its predecessor.[5] Many of those features can be enabled on the Magic Mouse with the use of third-party tools.[6]
+
+Gestures[edit]
+Not all gestures are supported on all operating systems:
+
+-Click
+-Two-button click
+-360°-scroll
+-Screen zoom
+-Screen pan
+-Two-finger swipe
+-One-finger swipe
+-Two-finger double tap
+-One-finger double tap
+
+Gestures can be customized and new ones can be added via third-party software.[6] Inertia scrolling is said to be available in Snow Leopard only after installing a software update, but it could also be enabled in Leopard with a terminal command.[8] Despite these new features, the Magic Mouse still cannot left- and right-click together.[9][10][11]
+==
+The Apple Mouse (formerly Apple Mighty Mouse) is a multi-control USB mouse manufactured by Mitsumi Electric and sold by Apple Inc. It was announced and sold for the first time on August 2, 2005, and a Bluetooth version was available from 2006 to 2009. Before the Mighty Mouse, Apple had sold only one-button mice with its computers, beginning with the Apple Lisa 22 years earlier.
+
+On October 20, 2009, the wireless Mighty Mouse was discontinued and replaced by the multi-touch Magic Mouse. The wired version of the device remains available, but was renamed the "Apple Mouse" as of the same date,[1] due to trademark issues with another manufacturer of a device named "Mighty Mouse".[citation needed]
+
+The Mighty Mouse is made of white plastic and has a recessed Apple logo on the mouse's face. The mouse has four functional controls: a left capacitive sensor, a right capacitive sensor, a track ball with a pressure sensor and side squeeze sensors. The track ball enables users to scroll a page or document in any direction, including diagonally. Instead of mechanical buttons, the touch-sensitive topshell (mentioned below) and the pressure sensing trackball allow the mouse to detect which side is being touched or whether the trackball is being held in.
+
+The mouse emits a sound when the scroll ball is rolled, but this is not a direct product of the ball moving; the sound is actually produced by a tiny speaker inside the mouse.[2] There is no way to disable this feature other than physically disabling the speaker inside the mouse.[3]
+
+Currently, Mac OS X is the only operating system that fully supports the mouse without third party software. When used with Mac OS X, the sensors can be set to launch applications or trigger features of the Apple operating system, such as Dashboard and Exposé. If not used with Mac OS X, the mouse behaves as a four "button" mouse with a vertical and horizontal scroll wheel. There are third-party drivers (XMouse,[4] AppleM[5]) that provide more functions to users of other platforms such as Windows.
+
+The Mighty Mouse does not report whether the right and left sensors are activated simultaneously. In fact, it reports a right-click only when there is no finger contact on the left side of the mouse. Thus a right-click requires lifting the finger off the mouse, then right-clicking. This also means that the Mighty Mouse cannot support mouse chording, used by CAD software, games, and other applications where multiple functions are mapped to the mouse.
+
+Name[edit]
+Prior to launching the device, Apple received a license to the name "Mighty Mouse" from Viacom, and subsequently CBS Operations, as owner of the Mighty Mouse cartoon series, the title having been registered in the U.S. as a trademark with respect to various merchandise (such as T-shirts and multivitamins) associated with the character.[13] However, the trademark did not cover computer peripherals, and CBS did not apply to trademark the term in the U.S. with respect to computer mice until mid-2007.[14]
+
+On May 21, 2008, it was announced that Man & Machine Inc., a supplier of keyboards and mice to laboratories and hospitals, had sued Apple Inc. for trademark infringement over its use of the name Mighty Mouse.[15] Man & Machine Inc. had four registered or pending trademarks on various computer pointing related technologies, including "Cool Mouse", "Really Cool", and "Man and Machine and Design".[16] The particular Mighty Mouse trademark in dispute was first filed by Man & Machine Inc., on December 18, 2007 with the description "Computer cursor control devices, namely, computer mice" — after CBS's filing, but claiming first use in 2004, before the introduction of the Apple device. There also was another scroll mouse named Mighty Mouse developed by NTT and ETH Zürich in 1985.
+
+Following opposition proceedings on both sides against the other, CBS subsequently withdrew its application, allowing Man & Machine to register the U.S. trademark for computer mice.[14][17] As a result, Apple stopped selling mice under the "Mighty Mouse" name on October 20, 2009, when it introduced the wireless Magic Mouse and renamed the existing wired mouse the "Apple Mouse".[1]
+
+Incidentally, CBS was successful in registering "Mighty Mouse" as a trademark for computer mice in some other countries, including Canada,[18] although Apple nevertheless chose to change its product name internationally.
+
+===
+In computing, a mouse is a pointing device that detects two-dimensional motion relative to a surface. This motion is typically translated into the motion of a pointer on a display, which allows for fine control of a graphical user interface.
+
+Physically, a mouse consists of an object held in one's hand, with one or more buttons. Mice often also feature other elements, such as touch surfaces and "wheels", which enable additional control and dimensional input.
+
+Naming[edit]
+The earliest known publication of the term mouse as a computer pointing device is in Bill English's 1965 publication "Computer-Aided Display Control".[1]
+
+The online Oxford Dictionaries entry for mouse states the plural for the small rodent is mice, while the plural for the small computer connected device is either mice or mouses. However, in the use section of the entry it states that the more common plural is mice, and that the first recorded use of the term in the plural is mice as well[2] (though it cites a 1984 use of mice when there were actually several earlier ones, such as J. C. R. Licklider's "The Computer as a Communication Device" of 1968[3]). According to the fifth edition of The American Heritage Dictionary of the English Language the plural can be either "mice" or "mouses".[4]
+
+===
+The Magic Trackpad is a multi-touch trackpad produced by Apple Inc. Announced on July 27, 2010, it is similar to the trackpad found on the current MacBook family of laptops, albeit 80% larger. The trackpad is fully compatible with Macintosh computers running Mac OS X Snow Leopard versions 10.6.4 and higher with a software update, as well as Windows 7, Windows XP, and Windows Vista in Apple's Boot Camp with an added device driver. It is also capable of performing in a basic capacity when paired with a Windows computer or a Macintosh without the necessary software. Ubuntu Linux computers can be configured to support most of the multitouch gestures that Mac OS supports, and additionally custom gestures can be added for most applications which do not natively support multi-touch (such as photo viewers, web browsers, etc.).[1][2]
+
+===
+Boot Camp is a multi boot utility included with Apple Inc.'s OS X that assists users in installing Microsoft Windows operating systems on Intel-based Macintosh computers. The utility's Boot Camp Assistant guides users through non-destructive disk partitioning (including resizing of an existing HFS+ partition, if necessary) of their hard disk drive and installation of Windows device drivers. The utility also installs a Windows Control Panel applet for selecting the boot operating system.
+
+Initially introduced as an unsupported beta for Mac OS X Tiger,[3][4] the utility was first included with Mac OS X Leopard and has been included in subsequent versions of the operating system ever since. Previous versions of Boot Camp supported Windows XP, Windows Vista and Windows 7. Boot Camp 4.0 for Mac OS X Snow Leopard up to OS X Mountain Lion version 10.8.2 only supported Windows 7.[5] However, with the release of Boot Camp 5.0 for OS X Mountain Lion version 10.8.3, only 64-bit versions of Windows 7 and Windows 8 are officially supported.[1][6] Users have also installed Linux using the utility, although Apple has not listed support for Linux operating systems.[7][8]
+===
+Disk partitioning is[1][a] used to mean the partitioning or division of certain kinds of secondary storage (such as hard disk drives (HDDs)), via the creation of multiple partitions. Partitions are[2][3] logical containers which are usually used to house filesystems, where operating systems, applications, and data are installed on. A single partition may span the entirety of a physical storage device.
+
+A partition editor software program can be used to create, resize, delete, and manipulate these partitions on the HDD. A partition on a traditional mechanical hard drive consists of a range of cylinders of HDD—i.e. each partition is defined by both a start and end cylinder (the size of cylinders varying from disk to disk).[4]
+===
+PartitionMagic is a computer program for hard disk drive partitioning originally made by the PowerQuest corporation, but now owned by Symantec. As of December 8, 2009, the Symantec website stated that they no longer offer Partition Magic. The program runs on Microsoft Windows operating systems including Windows 2000 and Windows XP, but the application is incompatible with Windows Vista, 7, or 8 and must use a bootable disk for partitioning drives instead. The utility can also be run from a bootable CD-ROM and enables creation and modification of partitions. Existing partitions can be resized without loss of data.
+
+PartitionMagic is capable of resizing NTFS, FAT16 or FAT32 partitions without data loss, and can copy and move partitions, including to other disks. It also has various other features, including being able to convert between FAT16, FAT32 and NTFS, modify the cluster size of FAT16, FAT32 and NTFS filesystems, and merge adjacent FAT or NTFS filesystems (all without data loss, though some NTFS-only metadata is lost on conversion to FAT). Additionally, it had somewhat limited support for ext2 and ext3 partitions. PartitionMagic was the first commercial product of its kind containing patented technology.[1]
+
+The first version of PartitionMagic was released with DOS and OS/2 support. Versions 2–3 were offered with DOS, OS/2 and Windows support. Symantec's PartitionMagic version 8 dropped the OS/2 version. A server version was also offered under the name Server Magic for Windows and Novell NetWare servers.
+
+The stable version of PartitionMagic 8.05 also includes for a rescue floppy disk an additional DOS version of PartitionMagic. This DOS version of PartitionMagic (include DR-DOS or MS-DOS) is matching on two 1.44 MB or one 2.88 MB floppy disks.
+===
+Drive Image (PQDI) is a software disk cloning package for Intel-based computers. The software was developed and distributed by the former PowerQuest Corporation. Drive Image version 7 became the basis for Norton Ghost 9.0, which was released to retail markets in August 2004. Ghost was a competing product, developed by Binary Research, before Symantec bought the company in 1998. This also explains the different file extensions used for Ghost image files: formerly it was .gho, now in versions 9.0 and above it is .v2i.
+===
+Ghost (an acronym for general hardware-oriented system transfer[3]) is a discontinued disk cloning and backup tool originally developed by Murray Haszard in 1995 for Binary Research. The technology was acquired in 1998 by Symantec.
+
+The backup and recovery functionality has been replaced by Symantec System Recovery (SSR), although the Ghost imaging technology is still actively developed and is available as part of Symantec Ghost Solution Suite.
+===
+NTFS (New Technology File System[1]) is a proprietary file system developed by Microsoft.[1] Starting with Windows NT 3.1, it is the default file system of Windows NT family.[7]
+
+NTFS has several technical improvements over FAT and HPFS (High Performance File System), the file systems that it superseded, such as improved support for metadata, and the use of advanced data structures to improve performance, reliability, and disk space utilization, plus additional extensions, such as security access control lists (ACL) and file system journaling.
+===
+An access control list (ACL), with respect to a computer file system, is a list of permissions attached to an object. An ACL specifies which users or system processes are granted access to objects, as well as what operations are allowed on given objects.[1] Each entry in a typical ACL specifies a subject and an operation. For instance, if a file object has an ACL that contains (Alice: read,write; Bob: read), this would give Alice permission to read and write the file and Bob to only read it.
+===
+FAT16[edit]
+
+On 14 August 1984, IBM released the PC AT, which featured a 20 MB hard disk and PC DOS 3.0.[26][27] Microsoft introduced MS-DOS 3.0 in parallel. Cluster addresses were increased to 16-bit, allowing for up to 65,524 clusters per volume, and consequently much greater file system sizes, at least in theory. However, the maximum possible number of sectors and the maximum (partition, rather than disk) size of 32 MB did not change. Therefore, although cluster addresses were 16 bits, this format was not what today is commonly understood as FAT16. A partition type 0x04 indicates this form of FAT16 with less than 65536 sectors (less than 32 MB for sector size 512).
+
+With the initial implementation of FAT16 not actually providing for larger partition sizes than FAT12, the early benefit of FAT16 was to enable the use of smaller clusters, making disk usage more efficient, particularly for large numbers of files only a few hundred bytes in size.
+
+MS-DOS 2.x hard disks larger than 15 MB are incompatible with later versions of MS-DOS.[28] A 20 MB hard disk formatted under MS-DOS 3.0 was not accessible by the older MS-DOS 2.0 because MS-DOS 2.0 did not support version 3.0's FAT16. MS-DOS 3.0 could still access MS-DOS 2.0 style 8 KB-cluster partitions under 15 MB.
+===
+
+FAT32[edit]
+
+In order to overcome the volume size limit of FAT16, while at the same time allowing DOS real mode code to handle the format, Microsoft designed a new version of the file system, FAT32, which supported an increased number of possible clusters, but could reuse most of the existing code, so that the conventional memory footprint was increased by less than 5 KB under DOS.[38] Cluster values are represented by 32-bit numbers, of which 28 bits are used to hold the cluster number. The boot sector uses a 32-bit field for the sector count, limiting the FAT32 volume size to 2 TB for a sector size of 512 bytes and 16 TB for a sector size of 4,096 bytes.[39][40] FAT32 was introduced with MS-DOS 7.1 / Windows 95 OSR2 in 1996, although reformatting was needed to use it, and DriveSpace 3 (the version that came with Windows 95 OSR2 and Windows 98) never supported it. Windows 98 introduced a utility to convert existing hard disks from FAT16 to FAT32 without loss of data. In the Windows NT line, native support for FAT32 arrived in Windows 2000. A free FAT32 driver for Windows NT 4.0 was available from Winternals, a company later acquired by Microsoft. Since the acquisition the driver is no longer officially available. Since 1998, Caldera's dynamically loadable DRFAT32 driver could be used to enable FAT32 support in DR-DOS.[41][42] The first version of DR-DOS to natively support FAT32 and LBA access was OEM DR-DOS 7.04 in 1999. That same year IMS introduced native FAT32 support with REAL/32 7.90, and IBM 4690 OS added FAT32 support with version 2.[43] Ahead Software provided another dynamically loadable FAT32.EXE driver for DR-DOS 7.03 with Nero Burning ROM in 2004. IBM PC DOS introduced native FAT32 support with OEM PC DOS 7.10 in 2003.
+
+The maximum possible size for a file on a FAT32 volume is 4 GB minus 1 byte or 4,294,967,295 (232 − 1) bytes. This limit is a consequence of the file length entry in the directory table and would also affect huge FAT16 partitions with a sufficient sector size.[1] Large video files, DVD images, and databases easily exceed this limit.
+
+As with previous file systems, the design of the FAT32 file system does not include direct built-in support for long filenames, but FAT32 volumes can optionally hold VFAT long filenames in addition to short filenames in exactly the same way as VFAT long filenames have been optionally implemented for FAT12 and FAT16 volumes.
+
+Two partition types have been reserved for FAT32 partitions, 0x0B and 0x0C. The latter type is also named FAT32X in order to indicate usage of LBA disk access instead of CHS.[41][42][44][45][46][47][48][49][50][51] On such partitions, CHS-related geometry entries, namely the CHS sector addresses in the MBR as well as the number of sectors per track and the number of heads in the EBPB record, may contain no or misleading values and should not be used.[44][50][51]
+
+===
+File Allocation Table (FAT) is a computer file system architecture and a family of industry-standard file systems utilizing it. The FAT file system is a legacy file system which is simple and robust.[3] It offers good performance even in light-weight implementations, but cannot deliver the same performance, reliability and scalability as some modern file systems. It is, however, supported for compatibility reasons by nearly all currently developed operating systems for personal computers and many mobile devices and embedded systems, and thus is a well-suited format for data exchange between computers and devices of almost any type and age from 1981 up to the present.
+
+Originally designed in 1977 for use on floppy disks, FAT was soon adapted and used almost universally on hard disks throughout the DOS and Windows 9x eras for two decades.[citation needed] As disk drives evolved, the capabilities of the file system have been extended accordingly, resulting in three major file system variants: FAT12, FAT16 and FAT32. The FAT standard has also been expanded in other ways while generally preserving backward compatibility with existing software.
+
+With the introduction of more powerful computers and operating systems, as well as the development of more complex file systems for them, FAT is no longer the default file system for usage on Microsoft Windows computers.[4]
+
+Today, FAT file systems are still commonly found on floppy disks, USB sticks, flash and other solid-state memory cards and modules, and many portable and embedded devices. DCF implements FAT as the standard file system for digital cameras. FAT is also utilized in the boot stage of EFI-compliant computers.
+===
+FAT32[edit]
+
+In order to overcome the volume size limit of FAT16, while at the same time allowing DOS real mode code to handle the format, Microsoft designed a new version of the file system, FAT32, which supported an increased number of possible clusters, but could reuse most of the existing code, so that the conventional memory footprint was increased by less than 5 KB under DOS.[38] Cluster values are represented by 32-bit numbers, of which 28 bits are used to hold the cluster number. The boot sector uses a 32-bit field for the sector count, limiting the FAT32 volume size to 2 TB for a sector size of 512 bytes and 16 TB for a sector size of 4,096 bytes.[39][40] FAT32 was introduced with MS-DOS 7.1 / Windows 95 OSR2 in 1996, although reformatting was needed to use it, and DriveSpace 3 (the version that came with Windows 95 OSR2 and Windows 98) never supported it. Windows 98 introduced a utility to convert existing hard disks from FAT16 to FAT32 without loss of data. In the Windows NT line, native support for FAT32 arrived in Windows 2000. A free FAT32 driver for Windows NT 4.0 was available from Winternals, a company later acquired by Microsoft. Since the acquisition the driver is no longer officially available. Since 1998, Caldera's dynamically loadable DRFAT32 driver could be used to enable FAT32 support in DR-DOS.[41][42] The first version of DR-DOS to natively support FAT32 and LBA access was OEM DR-DOS 7.04 in 1999. That same year IMS introduced native FAT32 support with REAL/32 7.90, and IBM 4690 OS added FAT32 support with version 2.[43] Ahead Software provided another dynamically loadable FAT32.EXE driver for DR-DOS 7.03 with Nero Burning ROM in 2004. IBM PC DOS introduced native FAT32 support with OEM PC DOS 7.10 in 2003.
+
+The maximum possible size for a file on a FAT32 volume is 4 GB minus 1 byte or 4,294,967,295 (232 − 1) bytes. This limit is a consequence of the file length entry in the directory table and would also affect huge FAT16 partitions with a sufficient sector size.[1] Large video files, DVD images, and databases easily exceed this limit.
+
+As with previous file systems, the design of the FAT32 file system does not include direct built-in support for long filenames, but FAT32 volumes can optionally hold VFAT long filenames in addition to short filenames in exactly the same way as VFAT long filenames have been optionally implemented for FAT12 and FAT16 volumes.
+
+Two partition types have been reserved for FAT32 partitions, 0x0B and 0x0C. The latter type is also named FAT32X in order to indicate usage of LBA disk access instead of CHS.[41][42][44][45][46][47][48][49][50][51] On such partitions, CHS-related geometry entries, namely the CHS sector addresses in the MBR as well as the number of sectors per track and the number of heads in the EBPB record, may contain no or misleading values and should not be used.[44][50][51]
+
+
+===
+
+Evesham Technology was a computer manufacturing and retail company based in Evesham, Worcestershire, England. It began operations in 1983 and closed in 2008 following financial difficulties. It was a significant contributor to the United Kingdom's domestic computer and digital television market. Its assets grew to include a factory and warehouse complex, and a chain of 19 retail stores in towns and cities throughout the UK, with around 300 employees. The company was founded in 1983 by Richard Austin and Robert (Bob) Hitchcock as Evesham Micros, to be briefly known as Evesham.com and finally as Evesham Technology. Austin continued as chairman and controlling shareholder until the company and its much reduced, short-lived successor, Geemore Technology Ltd, went into liquidation.
+====
+
+
+
