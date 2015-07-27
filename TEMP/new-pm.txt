@@ -690,87 +690,183 @@ VESA's initial goal was to produce a standard for 800x600 [SVGA] resolution vide
 
 In November 2010, VESA announced a cooperative agreement with the Wireless Gigabit Alliance (WiGig) for sharing technology expertise and specifications to develop multi-gigabit wireless DisplayPort capabilities. DisplayPort is a VESA technology that provides digital display connectivity for Monitor mount.
 ===
-vCard Extensions to WebDAV (CardDAV) is an address book client/server protocol designed to allow users to access and share contact data on a server.
 
-The CardDAV protocol was developed by the IETF and has been published as RFC 6352 in August 2011.[1] CardDAV is based on WebDAV, which is based on HTTP, and it uses vCard for contact data.[2]
+CardDAV
+vCard Extensions to WebDAV (CardDAV) is an address book client / server protocol designed to allow users to access and share contact data on a server.
+
+The CardDAV protocol was developed by the [IETF] and has been published as [RFC 6352] in August 2011. CardDAV is based on [WebDAV], which is based on [HTTP], and it uses [vCard] for contact data.
 ===
-vCard is a file format standard for electronic business cards. vCards are often attached to e-mail messages, but can be exchanged in other ways, such as on the World Wide Web or instant messaging. They can contain name and address information, phone numbers, e-mail addresses, URLs, logos, photographs, and audio clips.
+
+vCard
+vCard is a file format standard for electronic business cards. vCards are often attached to [e-mail] messages, but can be exchanged in other ways, such as on the [World Wide Web] or instant messaging. They can contain name and address information, phone numbers, e-mail addresses, URLs, logos, photographs, and audio clips.
+
 ===
-Thunderbolt, developed under the name Light Peak,[1] is a hardware interface that allows the connection of external peripherals to a computer. Thunderbolt 1 and 2 use the same connector as Mini DisplayPort (MDP), while Thunderbolt 3 will use USB Type-C. It was first sold as part of a consumer product on February 24, 2011.[2]
+
+Thunderbolt
+Thunderbolt, developed under the name Light Peak, is a hardware interface that allows the connection of external peripherals to a computer. Thunderbolt 1 and 2 use the same connector as [Mini DisplayPort] (MDP), while Thunderbolt 3 will use USB Type-C. It was first sold as part of a consumer product on 24 February 2011.
 
 Thunderbolt combines PCI Express (PCIe) and DisplayPort (DP) into one serial signal, and additionally provides DC power, all in one cable. Up to six peripherals may be supported by one connector through various topologies.
 
-The interface was originally intended to run exclusively on an optical physical layer using components and flexible optical fiber cabling developed by Intel partners and at Intel's Silicon Photonics lab. It was initially marketed under the name Light Peak,[5] and after 2011 as Silicon Photonics Link.[6] However, it was discovered that conventional copper wiring could furnish the desired 10 Gbit/s per channel at lower cost.
+The interface was originally intended to run exclusively on an optical physical layer using components and flexible optical fiber cabling developed by [Intel] partners and at Intel's Silicon Photonics lab. It was initially marketed under the name Light Peak, and after 2011 as Silicon Photonics Link. However, it was discovered that conventional copper wiring could furnish the desired 10 Gbit/s per channel at lower cost.
 
-This copper-based version of the Light Peak concept was co-developed by Apple and Intel. Apple registered Thunderbolt as a trademark, but later transferred the mark to Intel, which held overriding intellectual-property rights.[7]
+This copper based version of the Light Peak concept was co-developed by [Apple] and [Intel]. Apple registered Thunderbolt as a trademark, but later transferred the mark to Intel, which held overriding intellectual property rights.
 
-Thunderbolt controllers multiplex one or more individual data lanes from connected PCIe and DisplayPort devices for transmission via one duplex Thunderbolt lane, then de-multiplex them for use by PCIe and DisplayPort devices on the other end.[3] A single Thunderbolt port supports up to six Thunderbolt devices via hubs or daisy chains; as many of these as the host has DP sources may be Thunderbolt monitors.[8]
+Thunderbolt controllers multiplex one or more individual data lanes from connected PCIe and DisplayPort devices for transmission via one duplex Thunderbolt lane, then de-multiplex them for use by PCIe and DisplayPort devices on the other end. A single Thunderbolt port supports up to six Thunderbolt devices via hubs or daisy chains; as many of these as the host has DP sources may be Thunderbolt monitors.
 
-A single Mini DisplayPort monitor or other device of any kind may be connected directly or at the very end of the chain. Thunderbolt is interoperable with DP-1.1a compatible devices. When connected to a DP-compatible device, the Thunderbolt port can provide a native DisplayPort signal with four lanes of output data at no more than 5.4 Gbit/s per Thunderbolt lane. When connected to a Thunderbolt device, the per-lane data rate becomes 10 Gbit/s and the four Thunderbolt lanes are configured as two duplex lanes, each 10 Gbit/s comprising one lane of input and one lane of output.[3]
+A single Mini DisplayPort monitor or other device of any kind may be connected directly or at the very end of the chain. Thunderbolt is interoperable with DP-1.1a compatible devices. When connected to a DP compatible device, the Thunderbolt port can provide a native DisplayPort signal with four lanes of output data at no more than 5.4 Gbit/s per Thunderbolt lane. When connected to a Thunderbolt device, the per-lane data rate becomes 10 Gbit/s and the four Thunderbolt lanes are configured as two duplex lanes, each 10 Gbit/s comprising one lane of input and one lane of output.
 
-Thunderbolt can be implemented on PCIe graphics cards, which have access to DisplayPort data and PCIe connectivity, or on the motherboard of new computers with onboard video, such as the MacBook Air.[8][9][10]
+Thunderbolt can be implemented on PCIe graphics cards, which have access to DisplayPort data and PCIe connectivity, or on the motherboard of new computers with onboard video, such as the MacBook Air.
 
-Sumitomo Electric Industries started selling up to 30-metre-long (100 ft) optical Thunderbolt cables in Japan in January 2013,[11] with US company Corning Inc. selling up to 60-metre-long (200 ft) optical cables from late September 2013.[12]
+Sumitomo Electric Industries started selling up to 30 metre long (100 ft) optical Thunderbolt cables in Japan in January 2013, with US company Corning Inc. selling up to 60 metre long (200 ft) optical cables from late September 2013.
 
-Thunderbolt was commercially introduced on Apple's 2011 MacBook Pro, using the same Apple-developed connector as Mini DisplayPort, which is electrically identical to DisplayPort, but uses a smaller, non-locking connector.
-
-
-===
-The Mini DisplayPort (MiniDP or mDP) is a miniaturized version of the DisplayPort audio-visual digital interface.
-
-It was announced by Apple in October 2008. As of 2013, all new Apple Macintosh computers had the port, as did the LED Cinema Display.[2][not in citation given] The Mini DisplayPort is also fitted to some PC motherboards, and some PC notebooks from Asus, Microsoft, Lenovo, Toshiba, HP, Dell, and other manufacturers.
-
-Unlike its Mini-DVI and Micro-DVI predecessors, the Mini DisplayPort can drive display devices with resolutions up to 2560×1600 (WQXGA) in its DisplayPort 1.1a implementation, and 4096x2160 (4K) in its DisplayPort 1.2 implementation. With an adapter, the Mini DisplayPort can drive display devices with VGA, DVI, or HDMI interfaces.[3][4][5]
-
-Apple offers a free license for the Mini DisplayPort[6] but they reserve the right to cancel the license should the licensee "commence an action for patent infringement against Apple".[7]
-===
-A liquid-crystal display (LCD) is a flat panel display, electronic visual display, or video display that uses the light modulating properties of liquid crystals. Liquid crystals do not emit light directly.[1]
-
-LCDs are available to display arbitrary images (as in a general-purpose computer display) or fixed images which can be displayed or hidden, such as preset words, digits, and 7-segment displays as in a digital clock. They use the same basic technology, except that arbitrary images are made up of a large number of small pixels, while other displays have larger elements.
-
-LCDs are used in a wide range of applications including computer monitors, televisions, instrument panels, aircraft cockpit displays, and signage. They are common in consumer devices such as DVD players, gaming devices, clocks, watches, calculators, and telephones, and have replaced cathode ray tube (CRT) displays in most applications. They are available in a wider range of screen sizes than CRT and plasma displays, and since they do not use phosphors, they do not suffer image burn-in. LCDs are, however, susceptible to image persistence.[2]
-
-The LCD screen is more energy efficient and can be disposed of more safely than a CRT. Its low electrical power consumption enables it to be used in battery-powered electronic equipment. It is an electronically modulated optical device made up of any number of segments filled with liquid crystals and arrayed in front of a light source (backlight) or reflector to produce images in color or monochrome. Liquid crystals were first discovered in 1888.[3] By 2008, annual sales of televisions with LCD screens exceeded sales of CRT units worldwide, and the CRT became obsolete for most purposes.
-===
-The iTunes Store, originally the iTunes Music Store, is a software-based online digital media store operated by Apple Inc. It opened on April 28, 2003, and has been the largest music vendor in the United States since April 2008,[2] and the largest music vendor in the world since February 2010.[3] It offers over 37 million songs, 700,000 apps, 190,000 TV episodes and 45,000 films as of September 12, 2012.[1] The iTunes Store's revenues in the first quarter of 2011 totalled nearly US$1.4 billion;[4] by February 6, 2013, the store had sold 25 billion songs worldwide.[5][6]
-
-While most downloaded files initially included usage restrictions enforced by FairPlay, Apple's implementation of digital rights management (DRM), iTunes later initiated a shift into selling DRM-free music in most countries, marketed as iTunes Plus. On January 6, 2009, Apple announced that DRM had been removed from 80% of its music catalog in the US.[7] Full iTunes Plus availability was achieved in the US on April 7, 2009, coinciding with the introduction of a three-tiered pricing model;[8] however, television episodes, many books, and films are still FairPlay-protected. As of June 2013, the iTunes Store possesses 575 million active user accounts,[9] and serves over 315 million mobile devices, including Apple Watches, iPods, iPhones, Apple TV and iPads.[10][11]
-===
-In computing, a plug and play device or computer bus, is one with a specification that facilitates the discovery of a hardware component in a system without the need for physical device configuration or user intervention in resolving resource conflicts.[1][2]
-
-Plug and play devices can be due to boot-time assignment of device resources and to hotplug systems such as USB and IEEE 1394 (FireWire).[3]
-===
-n computing, PC Card is a configuration for computer peripheral interface designed for laptop computers. Originally introduced as PCMCIA Card, the PC Card standard as well as its successors like CardBus were defined and developed by the Personal Computer Memory Card International Association (PCMCIA).
-
-It was originally designed as a standard for memory-expansion cards for computer storage. The existence of a usable general standard for notebook peripherals led to many kinds of devices being made available based on its configurability, including network cards, modems, and hard disks.
-===
-A graphics processor unit (GPU), also occasionally called visual processor unit (VPU), is a specialized electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display. GPUs are used in embedded systems, mobile phones, personal computers, workstations, and game consoles. Modern GPUs are very efficient at manipulating computer graphics and image processing, and their highly parallel structure makes them more effective than general-purpose CPUs for algorithms where processing of large blocks of data is done in parallel. In a personal computer, a GPU can be present on a video card, or it can be embedded on the motherboard or—in certain CPUs—on the CPU die.[1]
-
-The term GPU was popularized by Nvidia in 1999, who marketed the GeForce 256 as "the world's first GPU", or Graphics Processing Unit, a single-chip processor with integrated transform, lighting, triangle setup/clipping, and rendering engines that are capable of processing a minimum of 10 million polygons per second". Rival ATI Technologies coined the term visual processing unit or VPU with the release of the Radeon 9700 in 2002.
-===
-Radeon /ˈreɪdiːɒn/ is a brand of computer products, including graphics processing units, random-access memory, RAM disk software, solid-state drives, produced by Advanced Micro Devices. The brand was launched in 2000 by ATI Technologies, which was acquired by AMD in 2006.
-
-Radeon Graphics is the successor to the Rage line. Three different families of microarchitectures can be roughly distinguished, the fixed-pipeline family and the unified shader model-families of TeraScale and Graphics Core Next. ATI/AMD have developed different technologies, such as TruForm, HyperMemory, HyperZ, XGP, Eyefinity for multi-monitor setups, PowerPlay for power-saving, CrossFire (for multi-GPU) or Hybrid Graphics. A range of SIP blocks is also to be found on certain models in the Radeon products line: Unified Video Decoder, Video Coding Engine and TrueAudio.
-
-The brand was previously only known as "ATI Radeon" until August 2010, when it was renamed to increase AMD's brand awareness on a global scale.[1] Products up to and including the HD 5000 series are branded as ATI Radeon, while the HD 6000 series and beyond use the new AMD Radeon branding.[2]
-
-Radeon Graphics card brands[edit]
-Though it did at one time, AMD does not distribute Radeon cards directly to consumers. Instead, it sells Radeon GPUs to third-party manufacturers, who build and sell the Radeon-based video cards to the OEM and retail channels. Manufacturers of the Radeon cards --- some of whom also make motherboards—include Sapphire, XFX, Asus, Gigabyte, MSI, Biostar, Gainward, Diamond, HIS, PowerColor, Club 3D, VisionTek and Force3D.
-
+Thunderbolt was commercially introduced on Apple's 2011 MacBook Pro, using the same Apple developed connector as Mini DisplayPort, which is electrically identical to DisplayPort, but uses a smaller, non-locking connector.
 ===
 
-GeForce is a brand of graphics processing units (GPUs) designed by Nvidia. As of 2013, there have been twelve iterations of the design. The first GeForce products were discrete GPUs designed for add-on graphics boards, intended for the high-margin PC gaming market, and later diversification of the product line covered all tiers of the PC graphics market, ranging from cost-sensitive[1] GPUs integrated on motherboards, to mainstream add-in retail boards. Most recently, GeForce technology has been introduced into Nvidia's line of embedded application processors, designed for electronic handhelds and mobile handsets.
+Mini DisplayPort 
+The Mini DisplayPort (MiniDP or mDP) is a miniaturised version of the [DisplayPort] audio-visual digital interface.
 
-With respect to discrete GPUs, found in add-in graphics-boards, Nvidia's GeForce and AMD's Radeon GPUs are the only remaining competitors in the high-end market. Along with its nearest competitor, the AMD Radeon, the GeForce architecture is moving toward GPGPU (General Purpose-Graphics Processor Unit). GPGPU is expected to expand GPU functionality beyond the traditional rasterization of 3D graphics, to turn it into a high-performance computing device able to execute arbitrary programming code in the same way a CPU does, but with different strengths (highly parallel execution of straightforward calculations) and weaknesses (worse performance for complex decision-making code).
+It was announced by [Apple] in October 2008. As of 2013, all new [Apple Macintosh] computers had the port. The Mini DisplayPort is also fitted to some [PC] motherboards, and some PC notebooks from [Asus], [Microsoft], [Lenovo], [Toshiba], [HP], [Dell], and other manufacturers.
 
-Name origin[edit]
-The "GeForce" name originated from a contest held by Nvidia in early 1999 called "Name That Chip". The company called out to the public to name the successor to the RIVA TNT2 line of graphics boards. There were over 12,000 entries received and 7 winners received a RIVA TNT2 Ultra graphics card as a reward.[2][3]
+Unlike its Mini-DVI and Micro-DVI predecessors, the Mini DisplayPort can drive display devices with resolutions up to 2560×1600 (WQXGA) in its DisplayPort 1.1a implementation, and 4096x2160 (4K) in its DisplayPort 1.2 implementation. With an adapter, the Mini DisplayPort can drive display devices with [VGA], [DVI], or [HDMI] interfaces.
 
+Apple offers a free license for the Mini DisplayPort but they reserve the right to cancel the license should the licensee "commence an action for patent infringement against Apple".
 ===
-OpenGL (Open Graphics Library)[3][4][5] is a cross-language, multi-platform application programming interface (API) for rendering 2D and 3D vector graphics. The API is typically used to interact with a graphics processing unit (GPU), to achieve hardware-accelerated rendering.
 
-Silicon Graphics Inc. (SGI) started developing OpenGL in 1991 and released it in January 1992;[6] applications use it extensively in the fields of CAD, virtual reality, scientific visualization, information visualization, flight simulation, and video games. OpenGL is managed by the non-profit technology consortium Khronos Group.
+iTunes Store
+The iTunes Store, originally the iTunes Music Store, is a software based online digital media store operated by [Apple Inc]. It opened on 28 April 2003, and has been the largest music vendor in the United States since April 2008, and the largest music vendor in the world since February 2010. It offers over 37 million songs, 700,000 apps, 190,000 TV episodes and 45,000 films as of 12 September 2012. The iTunes Store's revenues in the first quarter of 2011 totalled nearly US$1.4 billion, by 6 February 2013, the store had sold 25 billion songs worldwide.
 
+While most downloaded files initially included usage restrictions enforced by [FairPlay], Apple's implementation of digital rights management ([DRM]), iTunes later initiated a shift into selling DRM free music in most countries, marketed as iTunes Plus. On 6 January 2009, Apple announced that DRM had been removed from 80% of its music catalog in the US. Full iTunes Plus availability was achieved in the US on 7 April 2009, coinciding with the introduction of a three-tiered pricing model; however, television episodes, many books, and films are still FairPlay protected. As of June 2013, the iTunes Store possesses 575 million active user accounts, and serves over 315 million mobile devices, including [Apple Watches], [iPods], [iPhones], [Apple TV] and [iPads].
+===
+
+DRM - Digital Rights Management
+Digital Rights Management (DRM) is a class of copy protection technologies that are used by hardware and software manufacturers, publishers, copyright holders, and individuals with the intent to control the use of digital content and devices after sale; there are, however, many competing definitions. With first-generation DRM software, the intent is to control copying; with second-generation DRM, the intent is to control executing, viewing, copying, printing, and altering of works or devices. The term is also sometimes referred to as copy protection, copy prevention, and copy control, although the correctness of doing so is disputed. DRM is a set of access control technologies. In 1998, the [Digital Millennium Copyright Act] (DMCA) was passed in the United States to impose criminal penalties on those who make available technologies whose primary purpose and function are to circumvent content protection technologies.
+
+The use of digital rights management is not universally accepted. Some content providers claim that DRM is necessary to fight copyright infringement and that it can help the copyright holder maintain artistic control or ensure continued revenue streams. Proponents argue that digital locks should be considered necessary to prevent "intellectual property" from being copied freely, just as physical locks are needed to prevent personal property from being stolen. Those opposed to DRM contend there is no evidence that DRM helps prevent copyright infringement, arguing instead that it serves only to inconvenience legitimate customers, and that DRM helps big business stifle innovation and competition. Furthermore, works can become permanently inaccessible if the DRM scheme changes or if the service is discontinued.
+
+Digital locks placed in accordance with DRM policies can also restrict users from exercising their legal rights under copyright law, such as backing up copies of CDs or DVDs, lending materials out through a library, accessing works in the public domain, or using copyrighted materials for research and education under the US fair use laws, and under French law. The [Electronic Frontier Foundation] (EFF) and the [Free Software Foundation] (FSF) consider the use of DRM systems to be anti-competitive practice.
+===
+
+Digital Millennium Copyright Act (DMCA)
+The Digital Millennium Copyright Act (DMCA) is a United States copyright law that implements two 1996 treaties of the [World Intellectual Property Organisation] (WIPO). It criminalizes production and dissemination of technology, devices, or services intended to circumvent measures (commonly known as digital rights management or [DRM]) that control access to copyrighted works. It also criminalizes the act of circumventing an access control, whether or not there is actual infringement of copyright itself. In addition, the DMCA heightens the penalties for copyright infringement on the Internet. Passed on 12 October 1998, by a unanimous vote in the United States Senate and signed into law by President Bill Clinton on 28 October 1998, the DMCA amended Title 17 of the United States Code to extend the reach of copyright, while limiting the liability of the providers of online services for copyright infringement by their users.
+
+The DMCA's principal innovation in the field of copyright is the exemption from direct and indirect liability of Internet service providers and other intermediaries. This exemption was adopted by the European Union in the Electronic Commerce Directive 2000. The Copyright Directive 2001 implemented the 1996 WIPO Copyright Treaty in the EU.
+===
+
+World Intellectual Property Organisation (WIPO)
+The World Intellectual Property Organisation (WIPO) is one of the 17 specialised agencies of the United Nations.
+
+WIPO was created in 1967 "to encourage creative activity, to promote the protection of intellectual property throughout the world".
+
+WIPO currently has 188 member states, administers 26 international treaties, and is headquartered in Geneva, Switzerland. The current Director-General of WIPO is Francis Gurry, who took office on 1 October 2008. 186 of the UN Members as well as the Holy See and Niue are Members of WIPO. Non-members are the states of Marshall Islands, Federated States of Micronesia, Nauru, Palau, Solomon Islands, South Sudan and Timor-Leste.
+===
+
+Electronic Frontier Foundation (EFF) 
+The Electronic Frontier Foundation (EFF) is an international non-profit digital rights group based in the United States.
+
+EFF provides funds for legal defence in court, presents amicus curiae briefs, defends individuals and new technologies from what it considers baseless or misdirected legal threats, works to expose government malfeasance, provides guidance to the government and courts, organizes political action and mass mailings, supports some new technologies which it believes preserve personal freedoms, maintains a database and web sites of related news and information, monitors and challenges potential legislation that it believes would infringe on personal liberties and fair use, and solicits a list of what it considers patent abuses with intentions to defeat those that it considers without merit.
+===
+
+FairPlay
+FairPlay is a digital rights management ([DRM]) technology created by [Apple Inc], based on technology created by the company Veridisc. FairPlay is built into the [QuickTime] multimedia software and used by the [iPhone], [iPod], [iPad], [Apple TV], and [iTunes Store] and the [App Store]. Formerly, all songs in the iTunes Store were encoded with FairPlay. Apple later started offering a selection of songs that, after an additional 30 cents is paid per song, could be downloaded FairPlay free. Apple no longer sells individual songs or albums with FairPlay encryption from the iTunes store. However, apps downloaded from the iTunes store and Apple Music subscription songs saved for offline listening are still encrypted with FairPlay. FairPlay digitally encrypts AAC audio files and prevents users from playing these files on unauthorised computers.
+
+The majority of FairPlay encrypted content is purchased through the iTunes Store, using the iTunes software. The iTunes software relies on Apple's Quicktime multimedia software for decoding and playback of the encrypted files. Every media player capable of using QuickTime is capable of playing back FairPlay encrypted files, including [RealPlayer], JRiver Media Center, Media Player Classic and Songbird.
+===
+
+Toshiba
+Toshiba Corporation is a Japanese multinational conglomerate corporation headquartered in Tokyo, Japan. Its diversified products and services include information technology and communications equipment and systems, electronic components and materials, power systems, industrial and social infrastructure systems, consumer electronics, household appliances, medical equipment, office equipment, lighting and logistics.
+
+Toshiba was founded in 1938 as Tokyo Shibaura Electric K.K. through the merger of Shibaura Seisaku-sho (founded in 1875) and Tokyo Denki (founded in 1890). The company name was officially changed to Toshiba Corporation in 1978. Toshiba has made numerous corporate acquisitions during its history, including of Semp in 1977, of Westinghouse Electric LLC, a nuclear energy company in 2006, of Landis+Gyr in 2011, and of [IBM]'s point-of-sale business in 2012.
+
+Toshiba is organised into four business groupings: the Digital Products Group, the Electronic Devices Group, the Home Appliances Group and the Social Infrastructure Group. In 2010, Toshiba was the world's fifth-largest personal computer vendor measured by revenues (after [Hewlett-Packard], [Dell], [Acer] and [Lenovo]). In the same year, it was also the world's fourth-largest manufacturer of semiconductors by revenues (after [Intel Corporation], [Samsung Electronics] and [Texas Instruments]).
+
+Toshiba is listed on the Tokyo Stock Exchange, where it is a constituent of the Nikkei 225 and TOPIX indices, the Osaka Securities Exchange and the Nagoya Stock Exchange.
+===
+
+Lenovo
+Lenovo Group Ltd is a Chinese multinational computer technology company with headquarters in Beijing, China, and Morrisville, North Carolina, United States. It designs, develops, manufactures and sells personal computers, tablet computers, smartphones, workstations, servers, electronic storage devices, IT management software and smart televisions. In 2014, Lenovo was the world's largest personal computer vendor by unit sales. It markets the ThinkPad line of notebook computers and the ThinkCentre line of desktops.
+
+Lenovo has operations in more than 60 countries and sells its products in around 160 countries. Lenovo's principal facilities are in Beijing, Morrisville and Singapore, with research centers in those locations, as well as Shanghai, Shenzhen, Xiamen, and Chengdu in China, and Yamato in Kanagawa Prefecture, Japan. It operates a joint venture with EMC, LenovoEMC, which sells network-attached storage solutions. It also has a joint venture with NEC, Lenovo NEC Holdings, which produces personal computers for the Japanese market.
+
+Lenovo was founded in Beijing in 1984 as Legend and was incorporated in Hong Kong in 1988. Lenovo acquired [IBM]'s personal computer business in 2005 and agreed to acquire its [Intel] based server business in 2014. Lenovo entered the smartphone market in 2012 and as of 2014 is the largest vendor of smartphones in Mainland China. In January 2014, Lenovo agreed to acquire the mobile phone handset maker Motorola Mobility from [Google], and in October 2014 the deal was finalised.
+
+Lenovo is listed on the Hong Kong Stock Exchange and is a constituent of the Hang Seng China Affiliated Corporations Index, often referred to as "Red Chips".
+===
+
+Apple Watch
+Apple Watch is a [smartwatch] developed by [Apple Inc] It incorporates fitness tracking and health oriented capabilities as well as integration with [iOS] and other Apple products and services. The device is available in three "collections": Apple Watch Sport, Apple Watch, and Apple Watch Edition. The watch is distinguished by different combinations of cases and first or third party interchangeable bands. Apple Watch relies on a wirelessly connected [iPhone] (5 or above) to perform many of its default functions (e.g. calling and texting). It is compatible with the iPhone 5 or later models running iOS 8.2 or later, through the use of [Bluetooth] or [Wi-Fi]. Announced by Tim Cook on 9 September 2014, the device was available for pre-order on 10 April and began shipping on 24 April 2015. Apple Watch became World's leading seller of wearables with the shipment of 4.2 million smartwatches in the second quarter of 2015, according to analyst outfit Canalys.
+===
+
+Smartwatch
+A smartwatch is a computerised wristwatch with functionality that is enhanced beyond timekeeping. While early models can perform basic tasks, such as calculations, translations, and game playing, modern smartwatches are effectively wearable computers. Many smartwatches run mobile apps, while a smaller number of models run a mobile operating system and function as portable media players, offering playback of FM radio, audio, and video files to the user via a [Bluetooth] headset. Some smartwatches models, also called 'watch phones', feature full mobile phone capability, and can make or answer phone calls.
+
+Such devices may include features such as a camera, accelerometer, thermometer, altimeter, barometer, compass, chronograph, calculator, cell phone, touch screen, GPS navigation, Map display, graphical display, speaker, scheduler, watch, SDcards that are recognised as a mass storage device by a computer, and rechargeable battery. It may communicate with a wireless headset, heads-up display, insulin pump, microphone, modem, or other devices.
+
+Some also have "sport watch" functionality with activity tracker features (also known as "fitness tracker") as seen in GPS watches made for Training, Diving, and Outdoor sports. Functions may include training programs (such as intervals), Lap times, speed display, GPS tracking unit, Route tracking, dive computer, heart rate monitor compatibility, Cadence sensor compatibility, and compatibility with sport transitions (as in triathlons).
+
+Like other computers, a smartwatch may collect information from internal or external sensors. It may control, or retrieve data from, other instruments or computers. It may support wireless technologies like [Bluetooth], [Wi-Fi], and [GPS]. However, it is possible a "wristwatch computer" may just serve as a front end for a remote system, as in the case of watches utilising cellular technology or Wi-Fi.
+===
+
+Watch OS
+Watch OS is the operating system of the [Apple Watch], developed by [Apple Inc] It is based on the [iOS] operating system and has many features similar to those of iOS. It was first released on 24 April 2015, alongside the Apple Watch. The Apple Watch is currently the only device that runs watchOS. The API is called WatchKit. At WWDC 2015 watchOS 2 with major improvements like support for native third-party apps was previewed and will be released fall 2015.
+===
+
+Apple TV
+Apple TV is a digital media player and a microconsole developed and sold by [Apple Inc]. It is a small network appliance and entertainment device that can receive digital data from a number of sources and stream it to a capable TV for playing on the TV screen.
+
+The third generation of Apple TV was introduced on 7 March 2012, incorporating the higher resolution (1080p) video standard. Apple TV is an [HDMI] compliant source device connected to an enhanced definition or high definition widescreen television via a HDMI cable to the TV's HDMI port, and the TV is put into HDMI mode. The device has no integrated controls and can only be controlled externally, either by an Apple Remote control device (with which it is shipped) using its infrared capability or by the 'Remote' app (downloadable from [App Store]) on [iOS] devices, such as the [iPhone], [iPod Touch], [iPad], or [Apple Watch], using its [Wi-Fi] capability. Its Wi-Fi capability is also used to receive digital content from the iTunes app using [AirPlay] or directly from [iTunes Store], which is then streamed to the TV. It also plays digital content from the iTunes Store, Netflix, Hulu Plus, Now TV (UK only), [YouTube] and Vevo, along with the TV Everywhere portals of several cable and broadcast networks, and the video subscription portals of three of the four major North American sports leagues; MLB.tv, NBA League Pass and NHL GameCenter. It plays content from any [Mac OS X] or [Windows] computer running iTunes.
+===
+
+LED - Light Emitting Diode 
+A Light Emitting Diode (LED) is a two-lead semiconductor light source. It is a p–n junction diode, which emits light when activated. When a suitable voltage is applied to the leads, electrons are able to recombine with electron holes within the device, releasing energy in the form of photons. This effect is called electroluminescence, and the colour of the light (corresponding to the energy of the photon) is determined by the energy band gap of the semiconductor.
+
+An LED is often small in area (less than 1 mm2) and integrated optical components may be used to shape its radiation pattern.
+
+Appearing as practical electronic components in 1962, the earliest LEDs emitted low-intensity infrared light. Infrared LEDs are still frequently used as transmitting elements in remote control circuits, such as those in remote controls for a wide variety of consumer electronics. The first visible light LEDs were also of low intensity, and limited to red. Modern LEDs are available across the visible, ultraviolet, and infrared wavelengths, with very high brightness.
+
+Early LEDs were often used as indicator lamps for electronic devices, replacing small incandescent bulbs. They were soon packaged into numeric readouts in the form of seven-segment displays, and were commonly seen in digital clocks.
+
+Recent developments in LEDs permit them to be used in environmental and task lighting. LEDs have many advantages over incandescent light sources including lower energy consumption, longer lifetime, improved physical robustness, smaller size, and faster switching. Light Emitting Diodes are now used in applications as diverse as aviation lighting, automotive headlamps, advertising, general lighting, traffic signals, camera flashes and even LED wallpaper. However, LEDs powerful enough for room lighting are still relatively expensive, and require more precise current and heat management than compact fluorescent lamp sources of comparable output.
+===
+
+Plug and Play 
+In computing, a plug and play device or computer bus, is one with a specification that facilitates the discovery of a hardware component in a system without the need for physical device configuration or user intervention in resolving resource conflicts.
+
+Plug and play devices can be due to boot time assignment of device resources and to hot plug systems such as [USB] and IEEE 1394 ([FireWire]).
+===
+
+PC Card / PCMCIA Card
+In computing, PC Card is a configuration for computer peripheral interface designed for laptop computers. Originally introduced as PCMCIA Card, the PC Card standard as well as its successors like CardBus were defined and developed by the Personal Computer Memory Card International Association (PCMCIA).
+
+It was originally designed as a standard for memory expansion cards for computer storage. The existence of a usable general standard for notebook peripherals led to many kinds of devices being made available based on its configurability, including network cards, modems, and hard disks.
+===
+
+GPU - Graphics Processor Unit
+A Graphics Processor Unit (GPU), also occasionally called Visual Processor Unit (VPU), is a specialised electronic circuit designed to rapidly manipulate and alter memory to accelerate the creation of images in a frame buffer intended for output to a display. GPUs are used in embedded systems, mobile phones, personal computers, workstations, and game consoles. Modern GPUs are very efficient at manipulating computer graphics and image processing, and their highly parallel structure makes them more effective than general purpose [CPUs] for algorithms where processing of large blocks of data is done in parallel. In a personal computer, a GPU can be present on a video card, or it can be embedded on the motherboard or in certain CPUs on the CPU die.
+
+The term GPU was popularised by [Nvidia] in 1999, who marketed the [GeForce 256] as "the world's first GPU", or Graphics Processing Unit, a single-chip processor with integrated transform, lighting, triangle setup / clipping, and rendering engines that are capable of processing a minimum of 10 million polygons per second". Rival [ATI Technologies] coined the term Visual Processing Unit or VPU with the release of the [Radeon 9700] in 2002.
+===
+
+Radeon
+Radeon is a brand of computer products, including Graphics Processing Units ([GPU], random access memory, RAM disk software, solid-state drives, produced by [Advanced Micro Devices]. The brand was launched in 2000 by [ATI Technologies], which was acquired by AMD in 2006.
+
+Radeon Graphics is the successor to the [Rage] line. Three different families of microarchitectures can be roughly distinguished, the fixed-pipeline family and the unified shader model families of TeraScale and Graphics Core Next. ATI/AMD have developed different technologies, such as TruForm, HyperMemory, HyperZ, XGP, Eyefinity for multi-monitor setups, PowerPlay for power-saving, CrossFire (for multi-GPU) or Hybrid Graphics. A range of SIP blocks is also to be found on certain models in the Radeon products line: Unified Video Decoder, Video Coding Engine and TrueAudio.
+
+The brand was previously only known as "ATI Radeon" until August 2010, when it was renamed to increase AMD's brand awareness on a global scale. Products up to and including the HD 5000 series are branded as ATI Radeon, while the HD 6000 series and beyond use the new AMD Radeon branding.
+===
+
+GeForce
+GeForce is a brand of Graphics Processing Units ([GPU]) designed by [Nvidia]. As of 2013, there have been twelve iterations of the design. The first GeForce products were discrete GPUs designed for add on graphics boards, intended for the high margin [PC] gaming market, and later diversification of the product line covered all tiers of the PC graphics market, ranging from cost sensitive GPUs integrated on motherboards, to mainstream add-in retail boards. Most recently, GeForce technology has been introduced into Nvidia's line of embedded application processors, designed for electronic handhelds and mobile handsets.
+
+With respect to discrete GPUs, found in add-in graphics boards, Nvidia's GeForce and [AMD]'s [Radeon] GPUs are the only remaining competitors in the high-end market. Along with its nearest competitor, the AMD Radeon, the GeForce architecture is moving toward GPGPU (General Purpose-Graphics Processor Unit). GPGPU is expected to expand GPU functionality beyond the traditional rasterisation of 3D graphics, to turn it into a high performance computing device able to execute arbitrary programming code in the same way a [CPU] does, but with different strengths (highly parallel execution of straightforward calculations) and weaknesses (worse performance for complex decision making code).
+
+Name Origin
+The "GeForce" name originated from a contest held by Nvidia in early 1999 called "Name That Chip". The company called out to the public to name the successor to the RIVA TNT2 line of graphics boards. There were over 12,000 entries received and 7 winners received a RIVA TNT2 Ultra graphics card as a reward.
+===
+
+OpenGL
+OpenGL (Open Graphics Library) is a cross language, multi-platform application programming interface (API) for rendering 2D and 3D vector graphics. The API is typically used to interact with a Graphics Processing Unit ([GPU]), to achieve hardware accelerated rendering.
+
+[Silicon Graphics Inc] (SGI) started developing OpenGL in 1991 and released it in January 1992; applications use it extensively in the fields of [CAD], virtual reality, scientific visualisation, information visualisation, flight simulation, and video games. OpenGL is managed by the non-profit technology consortium Khronos Group.
 ===
 The Magic Mouse is a multi-touch mouse manufactured and sold by Apple.[1] It was first sold on October 20, 2009.[2] The Magic Mouse is the first consumer mouse to have multi-touch capabilities.[1] Taking after the iPhone, iPad, iPod Touch, and multi-touch trackpads, the Magic Mouse allows the use of gestures such as swiping and scrolling across the top surface of the mouse to interact with desktop computers. It connects via Bluetooth and runs on two AA batteries. Apple includes two non-rechargeable batteries in the box. Just like the predecessor, the Mighty Mouse, the Magic Mouse is capable of right-clicking.[3]
 
