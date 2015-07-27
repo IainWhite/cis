@@ -1025,5 +1025,59 @@ Bluetooth is a wireless technology standard for exchanging data over short dista
 Bluetooth is managed by the [Bluetooth Special Interest Group] (SIG), which has more than 25,000 member companies in the areas of telecommunication, computing, networking, and consumer electronics. The I[EEE] standardised Bluetooth as IEEE 802.15.1, but no longer maintains the standard. The Bluetooth SIG oversees development of the specification, manages the qualification program, and protects the trademarks. A manufacturer must make a device meet Bluetooth SIG standards to market it as a Bluetooth device. A network of patents apply to the technology, which are licensed to individual qualifying devices.
 ===
 
+The Bluetooth Special Interest Group (SIG) is the body that oversees the development of Bluetooth standards and the licensing of the Bluetooth technologies and trademarks to manufacturers. The SIG is a not-for-profit, non-stock corporation founded in September 1998. The SIG is headquartered in Kirkland, Washington. The SIG has local offices in Beijing, Seoul, Tokyo, and Malmö.
+
+The SIG does not make, manufacture or sell Bluetooth enabled products.
+===
+Digg is a news aggregator with a curated front page, aiming to select stories specifically for the Internet audience such as science, trending political issues, and viral Internet issues. It was launched in its current form on July 31, 2012, with support for sharing content to other social platforms such as Twitter and Facebook.
+
+It formerly had been a very popular social news website, allowing people to vote web content up or down, called digging and burying, respectively. Quantcast had estimated Digg's monthly U.S. unique visits at 3.8 million.[6] Digg's popularity prompted the creation of similar social networking sites with story submission and voting systems such as Reddit.[5][7]
+
+In July 2008, the former company took part in advanced acquisition talks with Google for a reported $200 million price tag, but the deal ultimately fell through. After a controversial 2010 redesign and the departure of co-founders Jay Adelson and Kevin Rose, in July 2012 Digg was sold in three parts: the Digg brand, website and technology were sold to the current owner, Betaworks, for an estimated $500,000; 15 staff were transferred to the Washington Post‍ '​s "SocialCode" for a reported $12 million; and a suite of patents were sold to LinkedIn for about $4 million.[8][9][10]
+
+According to third-party web analytics provider SimilarWeb, the DailyTech.com site has over 14 million visits per month, as of 2015,[11] and is ranked #387 among News and Media sites.[12]
+===
+The ATI Rage is a series of graphics chipsets offering GUI 2D acceleration, video acceleration, and 3D acceleration. It is the successor to the Mach series of 2D accelerators.
+===
+AirPlay is a proprietary protocol stack/suite developed by Apple Inc. that allows wireless streaming between devices of audio, video, device screens, and photos, together with related metadata. Originally implemented only in Apple's software and devices, it was called AirTunes and used for audio only.[2] Apple has since licensed the AirPlay protocol stack as a third-party software component technology to manufacturer partners for them to use in their products in order to be compatible with Apple's devices.
+===
+RealPlayer, formerly RealAudio Player, RealOne Player and RealPlayer G2, is a cross-platform media player app, developed by RealNetworks. The media player is compatible with numerous container file formats of the multimedia realm, including MP3, MP4, QuickTime File Format, Windows Media format, and the proprietary RealAudio and RealVideo formats.[8] RealPlayer is also available for other operating systems (OS) and Linux, Unix, Palm OS, Windows Mobile and Symbian versions have been released.[9]
+
+The program is powered by an underlying open-source media engine called Helix.[10]
+===
+VLC media player (commonly known as VLC) is a portable, free and open-source, cross-platform media player and streaming media server written by the VideoLAN project.
+
+VLC media player supports many audio and video compression methods and file formats, including DVD-Video, video CD and streaming protocols. It is able to stream media over computer networks and to transcode multimedia files.[10]
+
+The default distribution of VLC includes a large number of free decoding and encoding libraries, avoiding the need for finding/calibrating proprietary plugins. The libavcodec library from the FFmpeg project provides many of VLC's codecs, but the player mainly uses its own muxers, and demuxers. It also has its own protocol implementations. It also gained distinction as the first player to support playback of encrypted DVDs on Linux and OS X by using the libdvdcss DVD decryption library.
+===
+Winamp is a media player for Windows, Android, and OS X developed by Justin Frankel and Dmitry Boldyrev[5][6][7] by their company Nullsoft, which they later sold to AOL, who sold to Radionomy in January 2014. Since version 2 it has been sold as freemium and supports extensibility with plug-ins and skins, and features music visualization, playlist and a media library, supported by a large online community.
+
+Version 1 of Winamp was released in 1997, and grew quickly popular with over 3 million downloads,[8] paralleling the developing trend of MP3 (music) file sharing. Winamp 2.0 was released on September 8, 1998. The 2.x versions were widely used and made Winamp one of the most downloaded Windows applications.[9] By 2000, Winamp had over 25 million registered users.[10]
+
+A poor reception to the 2002 rewrite, Winamp 3, was followed by the release of Winamp 5 in 2003, and a later release of version 5.5 in 2007.
+===
+Windows Media Player (abbreviated WMP) is a media player and media library application developed by Microsoft that is used for playing audio, video and viewing images on personal computers running the Microsoft Windows operating system, as well as on Pocket PC and Windows Mobile–based devices. Editions of Windows Media Player were also released for Mac OS, Mac OS X and Solaris but development of these has since been discontinued.
+
+In addition to being a media player, Windows Media Player includes the ability to rip music from and copy music to compact discs, burn recordable discs in Audio CD format or as data discs with playlists such as an MP3 CD, synchronize content with a digital audio player (MP3 player) or other mobile devices, and enable users to purchase or rent music from a number of online music stores.
+
+Windows Media Player replaced an earlier application called Media Player, adding features beyond simple video or audio playback.
+
+Windows Media Player 11 is available for Windows XP and included in Windows Vista and Windows Server 2008. The default file formats are Windows Media Video (WMV), Windows Media Audio (WMA), and Advanced Systems Format (ASF), and its own XML based playlist format called Windows Playlist (WPL). The player is also able to utilize a digital rights management service in the form of Windows Media DRM.
+
+Windows Media Player 12 is the most recent version of Windows Media Player. It was released on July 22, 2009 along with Windows 7 and has not available for previous versions of Windows nor has it been updated since for Windows 8, Windows 8.1 and Windows 10.[1][2] Unlike Windows 8, Windows RT does not run Windows Media Player.
+===
+QuickTime is an extensible multimedia framework developed by Apple Inc., capable of handling various formats of digital video, picture, sound, panoramic images, and interactivity. The classic version of QuickTime is available for Windows XP and later, as well as Mac OS X Leopard and later operating systems. A more recent version, QuickTime X, is currently available on Mac OS X Snow Leopard and newer.
+
+As of the Mac OS X Lion, the underlying media framework for Quicktime, QTKit, is deprecated in favor of a newer graphics framework, AV Foundation.[2] The Quicktime X player however is still included with the new releases of the OS.
+===
+The Global Positioning System (GPS) is a space-based navigation system that provides location and time information in all weather conditions, anywhere on or near the earth where there is an unobstructed line of sight to four or more GPS satellites.[1] The system provides critical capabilities to military, civil, and commercial users around the world. The United States government created the system, maintains it, and makes it freely accessible to anyone with a GPS receiver.
+
+The US began the GPS project in 1973 to overcome the limitations of previous navigation systems,[2] integrating ideas from several predecessors, including a number of classified engineering design studies from the 1960s. The U.S. Department of Defense (DoD) developed the system, which originally used 24 satellites. It became fully operational in 1995. Bradford Parkinson, Roger L. Easton, and Ivan A. Getting are credited with inventing it.
+
+Advances in technology and new demands on the existing system have now led to efforts to modernize the GPS system and implement the next generation of GPS Block IIIA satellites and Next Generation Operational Control System (OCX).[3] Announcements from Vice President Al Gore and the White House in 1998 initiated these changes. In 2000, the U.S. Congress authorized the modernization effort, GPS III.
+
+In addition to GPS, other systems are in use or under development. The Russian Global Navigation Satellite System (GLONASS) was developed contemporaneously with GPS, but suffered from incomplete coverage of the globe until the mid-2000s.[4] There are also the planned European Union Galileo positioning system, India's Indian Regional Navigation Satellite System, and the Chinese BeiDou Navigation Satellite System.
+===
 
 

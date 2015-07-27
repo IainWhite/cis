@@ -1,0 +1,130 @@
+New wd_course
+
+id, institute, when_date, title, desc, lecturer
+Lynda
+
+2014/12/06
+Web Design Fundamentals
+New to web design? Start here first. In these tutorials, James Williamson introduces the fundamental concepts, tools, and learning paths for web design. He explains what it means to be a web designer, the various areas of specialization, and whether web design is the right hobby or career for you. Along the way, he talks to five prominent designers and developers, who have each found success in a different corner of the web.
+If you want to get up and running fast, check out the chapter on getting online, choosing a domain name and web host, and getting around the backend of a standard website. Need to stock your tool chest? Learn what you'll need to build a brand new site, from web design software and content management systems, to testing and prototyping tools and development frameworks. Finally, James outlines learning paths for where to go next, touching on subjects such as standards and accessibility, responsive design, and the three core web technologies: HTML, CSS, and JavaScript.
+James Williamson
+
+2014/12/11
+WordPress Developer Tips: DRY Development
+DRY development is "don't repeat yourself" development: a smart strategy for reusing code and reducing repetition, wherever possible. This short course shows how to put DRY development techniques into practice in your WordPress sites. Staff author Morten Rand-Hendriksen introduces four techniques for DRY development in WordPress, and shows how they are used in both default themes and custom themes like Simone.
+Morten Rand-Hendriksen
+
+2014/12/20
+Brainstorming Basics
+What is brainstorming? Invented in 1948, brainstorming is still the dominant technique when it comes to idea generation. It combines creativity, problem solving, and group discussion. Unfortunately for creator Alex Osborn, most brainstorms fail before they ever begin. Why? Because the organizer doesn't have a clear picture of the purpose, process, or intended outcome. In this course, Stefan Mumaw brings brainstorming into the modern age, with rules and techniques that will help you set up and run more-effective creative brainstorming sessions.
+Stefan Mumaw
+
+2014/12/20
+The Fundamentals of Document Retention and Data Management
+Do you know which documents to keep, and how long to keep them? A solid document-retention policy can preserve knowledge, prevent liabilities, and keep you compliant with government regulations. In this course, William R. Joseph will help you get the proper documentation and data-management policies in place at your organization. He introduces the basic concepts behind document retention.
+William Joseph
+
+2014/12/20
+Holding Skip-Level Meetings
+A new type of meeting is emerging: skip-level meetings. Skip-level meetings are meetings you hold with employees who work for the managers who report to you—essentially "skipping" a level to learn more about the organization around you. In this short course, author Todd Dewett shows you how to successfully initiate and hold these meetings with employees who work for your direct reports. Discover how to set the tone, ask for candid feedback, and make meaningful connections. At the end of this course, you'll have the skills you need to build bridges across teams, and learn much more about your organization than you could through your direct reports alone.
+Todd Dewett
+
+2014/12/20
+WordPress Quick Tips: Migration and Database Reset
+??
+Morten Rand-Hendriksen
+
+2014/12/23
+WordPress Developer Tips: Managing Users in the Database
+Welcome to another installment of WordPress Developer Tips. In this quick course, staff author Morten Rand-Hendriksen shows you how to edit WordPress user accounts directly in the database with phpMyAdmin—bypassing WordPress entirely. This is a useful technique for managing large pools of users and troubleshooting unresponsive accounts. Dive in and learn how to reset passwords, change user names and roles, and remove users from the database altogether.
+Morten Rand-Hendriksen
+
+2014/12/23
+The Five-Step Creative Process
+The creative process isn't just "generating ideas." The reality is it's a five-step process, and ideation is only one of those steps. The entire creative process is made up of objective finding, data gathering, problem design, ideation, and selection. Understanding the role of each step enables us to ensure that we generate the most effective solutions. In this course, Stefan Mumaw guides us through the five steps and then shows us what the complete process looks like, with a real-world project: designing a website.
+Stefan Mumaw
+
+2014/12/23
+The Science of Logo Design
+Logo design requires artistry, but did you know your logos can also benefit from science? William Lidwell introduces the whys behind well-known guidelines and even debunks a few outdated design myths along the way. He reviews the 4 principles that make a logo ARMM'd for use: attention, response, meaning, and memory. Use these tips to bring scientific rigor to your logos and start designing on evidence, not industry hearsay.
+William Lidwell
+
+2014/12/23
+Improving Your Conflict Competence
+Workplace conflict is inevitable. But it doesn't have to end badly. In this course, author and conflict expert Craig Runde helps you manage workplace conflict more effectively. He first explains the dynamics that create conflict, and helps you become aware of what your conflict response is. Once you are aware of how conflict arises, learn some practical steps you can take to manage your emotions and engage with others constructively.
+Craig Runde
+
+2014/12/23
+Pay Strategy Fundamentals
+Pay isn't just a cost; it's a contributor to business culture and performance, too. In this course, HR expert Ed Lawler addresses the impact of an organization's pay and rewards strategies on its business goals. Based on his years of research, teaching, and consulting, Ed outlines the effectiveness of using pay to drive particular objectives, such as attracting new talent, encouraging and rewarding behavior, accomplishing a specific goal, and driving performance in a business unit. Last, Ed reveals how to create an overall pay system to match your business strategy.
+Edward Lawler III
+
+2014/12/23
+Creative Insights: Lauren Bacon on Web Design
+Lauren Bacon ran a successful web design and development firm for twelve years. Now she is working as a business coach, helping entrepreneurs get their own businesses up and running. In this course, she shares her insights on breaking into the industry: acquiring the right skills, thinking beyond the digital toolset, and specializing in areas that will make your firm in demand. Lauren also answers questions about navigating career transitions, from employee to manager, to freelancer (and maybe even back again), and what the future will look like for new web designers.
+Lauren Bacon
+
+2014/12/28
+Mapping the Modern Web Design Process
+Once you eliminate the trends and terminology, web design is about one thing and one thing only: getting your message across to an online audience. This course offers a 10,000-foot view of the web design process, to help ensure you never lose sight of your users. Morten Rand-Hendriksen takes you on a journey from initial consultation and discovery through content strategy and UX considerations, to development, content creation, design, testing, and launch. By the end, you'll understand the different players and phases and how they fit together in a web design approach focused on meaningful communication and a great user experience.
+Morten Rand-Hendriksen
+
+2014/12/28
+Collaborative Design: Vision and Strategy
+Beneath the surface of great design—where the color palettes, fonts, and graphics live—lies a strong core vision. Creating that vision requires what Lauren Bacon calls "deep collaboration" with your clients. When you can get inside the heads of the people you're designing for, you can do extraordinary work. In this course, Lauren teaches you how to listen, ask better questions, and collaborate more effectively with clients and other stakeholders, in order to develop a project vision and strategy that results in better, more effective designs.
+Lauren Bacon
+
+2015/01/01
+Foundations of UX: Multidevice Design
+If users really like your website or app, they're not logging in from a single device. They're visiting from their desktop at work, their phone on the train, and their tablet at home. Your design also needs to perform elegantly and consistently on all platforms. In this course, Brian Thurston shows how to design complete experiences that take visitors from one device to another, and back again. You'll leave with a solid understanding of the planning it takes to ensure your site is prepared for success, the importance of flexible content creation and preparation, and special considerations involved in designing for touch screens. Brian also takes a look forward at the impact wearable devices and future tech will have on the UX designs of today.
+Brian Thurston Bralczyk
+
+2015/01/01
+Design Aesthetics for Web Design
+A basic understanding of the principles of good design (such as contrast, unity, and balance) is the foundation for creating beautiful websites. In this course, Sue Jenkins explains design aesthetics in simple terms, and shows how to incorporate the principles of design in specific ways that improve your site. Learn how to adjust adjacent colors to add contrast, create depth with texture, incorporate movement, and use repeating shapes, patterns, and borders to unify your design. Then, in the final chapter, learn about special issues designers should address in their web layouts, such as responsive design for mobile devices, accessibility, and originality.
+Sue Jenkins
+
+2015/01/02
+CSS for Developers
+CSS for Developers is designed to give a working knowledge of CSS to web developers and coders who already have a firm grasp of XHTML/HTML and want to harness the power of style sheets to take their web sites to the next level. Instructor Bill Weinman reviews CSS fundamentals, including the benefits and limitations of the language, and then dives straight into creating styles. This course covers how to format text, images, and backgrounds; how to position elements on the page; and how to apply styles, both inline and via an external style sheet. CSS best practices and browser support issues are also addressed. Exercise files accompany the course.
+Bill Weinman
+
+2015/01/03
+WordPress Developer Tips: Locking Down WordPress
+You need to lock WordPress down to keep your site secure and prevent malicious attacks. This installment of Morten Rand-Hendriksen's WordPress Developer Tips covers security best practices, such as backing up your site, limiting admin and server access, and using settings and code snippets to block access to core files. Morten also introduces valuable security plugins and third-party services that will help you limit login attempts, enable two-factor authentication, and divert malicious traffic.
+Morten Rand-Hendriksen
+
+2015/01/16
+Body Language for Leaders
+Research shows that when your verbal and nonverbal signals are out of alignment, people are forced to choose between what they hear and what they see. And subconsciously, they'll believe your body language. In this course, workplace body-language expert Carol Kinsey Goman, PhD, reveals how body language is perceived and often misread, and shares the six nonverbal signals you need to know to make a positive first impression. She also discusses the importance of body language for leaders, and shows how you can establish leadership presence. Lastly, she provides simple and effective tips on communicating with gestures and stance.
+Carol Kinsey Goman
+
+2015/01/16
+Dealing with a Difficult Boss
+Author and professional coach Todd Dewett helps you address the challenge of working with a difficult boss by helping you identify, understand, and manage the triggers that contribute to your problematic relationship. He also outlines actions you can take, such as correctly documenting events, knowing when to speak up, and—sometimes—not taking any action at all.
+Todd Dewett
+
+2015/01/17
+Overcoming Procrastination
+Is procrastination getting in the way of your work? Take 20 minutes now to identify why you do it and set yourself up to overcome procrastination in the future. Author and Kelley School of Business lecturer Brenda Bailey-Hughes shows you how to separate procrastination from other behaviors, identify your stalls, and address your procrastination head on with strategies that will help you get more done.
+Brenda Bailey-Hughes
+
+2015/01/17
+Improving Your Judgment
+Want to make better decisions at work? In this short course, author, innovation expert, and professor Drew Boyd discusses ways to confront our hardwired cognitive biases, in order to make good decisions and exercise more balanced, sound judgment.
+Drew Boyd
+
+2015/03/30
+Making Business Projections
+Estimating future financial performance plays a big part in the life of start-ups and corporations large and small. By looking ahead, companies can proactively manage changes. Start-ups can use projections to build business plans and raise capital. This course is about making those financial projections: not by predicting the future, but by learning from past performance. Rudolph Rosenberg shares the techniques used by financial planning professionals to build robust financial projections using Microsoft Excel. He shows how to combine two approaches—bottom up and top down—into a well-rounded projection that will help you analyze revenue and expenses, anticipate changes, and incorporate company goals in a realistic picture of your company's future.
+Rudolph Rosenberg
+
+2015/03/30
+Financial Literacy: Reading Financial Reports
+A wealth of information is available to you if you know how to read financial documents. Being able to glean information from an income statement, a cash flow statement, or a balance sheet can give you an edge in understanding not only your own business but also your competition. In this course, Rudolph Rosenberg, a finance expert, takes you through the steps of making sense of what is contained in financial reports and how to read them. You'll also learn how they fit together to give you a view of a company's situation.
+Rudolph Rosenberg
+
+
+
+
+
