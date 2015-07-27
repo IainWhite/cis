@@ -989,6 +989,9 @@ As with previous file systems, the design of the FAT32 file system does not incl
 
 Two partition types have been reserved for FAT32 partitions, 0x0B and 0x0C. The latter type is also named FAT32X in order to indicate usage of LBA disk access instead of CHS. On such partitions, CHS related geometry entries, namely the CHS sector addresses in the MBR as well as the number of sectors per track and the number of heads in the EBPB record, may contain no or misleading values and should not be used.
 ===
+FAT12
+Between April and August 1980, while borrowing the [FAT] concept for SCP's own [8086] operating system [QDOS] 0.10, Tim Paterson extended the table elements to 12 bits, reduced the number of FATs to two, redefined the semantics of some of the reserved cluster values, and modified the disk layout, so that the root directory was now located between the FAT and the data area for his implementation of FAT12. Paterson also increased the nine-character (6.3) filename length limit to eleven characters in order to support [CP/M] style 8.3 filenames and File Control Blocks. The format used in [Microsoft] Standalone Disk [BASIC]'s 8-bit file system precursor was not supported by QDOS. By August 1980, QDOS had been renamed into [86-DOS] already. Starting with 86-DOS 0.42, the size and layout of directory entries was changed from 16 bytes to 32 bytes in order to add a file date stamp and increase the theoretical file size limit beyond the previous limit of 16MB. 86-DOS 1.00 became available in early 1981. Later in 1981, 86-DOS evolved into Microsoft's [MS-DOS] and [IBM PC DOS]. The capability to read previously formatted volumes with 16-byte directory entries was dropped with MS-DOS 1.20.
+===
 
 FAT - File Allocation Table
 File Allocation Table (FAT) is a computer file system architecture and a family of industry standard file systems utilising it. The FAT file system is a legacy file system which is simple and robust. It offers good performance even in light weight implementations, but cannot deliver the same performance, reliability and scalability as some modern file systems. It is, however, supported for compatibility reasons by nearly all currently developed operating systems for personal computers and many mobile devices and embedded systems, and thus is a well suited format for data exchange between computers and devices of almost any type and age from 1981 up to the present.
@@ -1003,6 +1006,24 @@ Today, FAT file systems are still commonly found on floppy disks, USB sticks, fl
 Evesham
 Evesham Technology was a computer manufacturing and retail company based in Evesham, Worcestershire, England. It began operations in 1983 and closed in 2008 following financial difficulties. It was a significant contributor to the United Kingdom's domestic computer and digital television market. Its assets grew to include a factory and warehouse complex, and a chain of 19 retail stores in towns and cities throughout the UK, with around 300 employees. The company was founded in 1983 by Richard Austin and Robert (Bob) Hitchcock as Evesham Micros, to be briefly known as Evesham.com and finally as Evesham Technology. Austin continued as chairman and controlling shareholder until the company and its much reduced, short lived successor, Geemore Technology Ltd, went into liquidation.
 ====
+
+GRUB
+GNU GRUB (short for GNU GRand Unified Bootloader) is a boot loader package from the GNU Project. GRUB is the reference implementation of the Free Software Foundation's Multiboot Specification, which provides a user the choice to boot one of multiple operating systems installed on a computer or select a specific kernel configuration available on a particular operating system's partitions.
+
+GNU GRUB was developed from a package called the Grand Unified Bootloader (a play on Grand Unified Theory). It is predominantly used for [Unix-like] systems. The GNU operating system uses GNU GRUB as its boot loader, as do most [Linux distributions]. The [Solaris] operating system has used GRUB as its boot loader on [x86] systems, starting with the Solaris 10 1/06 release.
+===
+
+Gigabyte
+Gigabyte Technology Co Ltd, is an international manufacturer and distributor of computer hardware products.
+
+Gigabyte is a motherboard vendor, with shipments of 4.8 million motherboards in Q1 2015, while ASUS shipped around 4.5 million motherboards in the same quarter. Gigabyte was ranked 17th in "Taiwan's 2010 Top 20 Global Brands" by the Taiwan External Trade Development Council.
+===
+
+Bluetooth
+Bluetooth is a wireless technology standard for exchanging data over short distances (using short wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz) from fixed and mobile devices, and building personal area networks (PANs). Invented by telecom vendor [Ericsson] in 1994, it was originally conceived as a wireless alternative to [RS-232] data cables. It can connect several devices, overcoming problems of synchronisation.
+
+Bluetooth is managed by the [Bluetooth Special Interest Group] (SIG), which has more than 25,000 member companies in the areas of telecommunication, computing, networking, and consumer electronics. The I[EEE] standardised Bluetooth as IEEE 802.15.1, but no longer maintains the standard. The Bluetooth SIG oversees development of the specification, manages the qualification program, and protects the trademarks. A manufacturer must make a device meet Bluetooth SIG standards to market it as a Bluetooth device. A network of patents apply to the technology, which are licensed to individual qualifying devices.
+===
 
 
 
