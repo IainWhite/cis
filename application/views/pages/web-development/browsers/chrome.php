@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('Google Chrome Web Browser'); ?>
+        <?php echo $this->stencil->setHeadline('Google Chrome'); ?>
         <p><strong>Google Chrome</strong> is a freeware <?php echo $this->stencil->addLink('Web browser', 'WD'); ?> developed by <?php echo $this->stencil->addLink('Google', 'C'); ?>.</p>
         <p>It used the <?php echo $this->stencil->addLink('Webkit', 'web-development/layout-engines'); ?> layout engine until version 27 and, with the exception of its <?php echo $this->stencil->addLink('iOS', 'OS'); ?> releases, from version 28 and beyond uses the WebKit fork Blink.</p>
         <p>It was first released as a beta version for <?php echo $this->stencil->addLink('Microsoft Windows', 'OS'); ?> on 2 September 2008, and as a stable public release on 11 December 2008.</p>
