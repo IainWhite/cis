@@ -124,6 +124,22 @@ Financial Literacy: Reading Financial Reports
 A wealth of information is available to you if you know how to read financial documents. Being able to glean information from an income statement, a cash flow statement, or a balance sheet can give you an edge in understanding not only your own business but also your competition. In this course, Rudolph Rosenberg, a finance expert, takes you through the steps of making sense of what is contained in financial reports and how to read them. You'll also learn how they fit together to give you a view of a company's situation.
 Rudolph Rosenberg
 
+Plural Sight
+Becoming an Outlier: Reprogramming the Developer Mind
+Career and Survival Strategies for Software Developers
+Developing a Killer Personal Brand
+Drupal 7: Foundation
+Fundamentals of Written Proposals
+Gathering Good Requirements for Developers
+GitHub for Windows Developers
+Incident Management
+Introduction to the Bash Shell on Mac OS and Linux
+ITIL Service Operation
+Mobile First Responsive Web Design
+Pitching Your Idea Effectively
+PMP - Organizational Influences & Project Management Lifecycle
+PMP – Introduction to Project Management & the PMP Exam
+SOLID Principles of Object Oriented Design
 
 
 
