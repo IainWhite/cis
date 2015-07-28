@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Firefox Version 23'); ?>
+        <p><strong>Firefox 23</strong> was released on 6 August 2013.</p>
+        <p>It includes an updated Firefox logo, mixed content blocking enabled by default to defend against man-in-the-middle attacks, implementation of the <code>input type="range"</code> form control attribute in <?php echo $this->stencil->addLink('HTML5', 'WD'); ?>, dropping support for the <code><blink></code> {'HTML'|link_urls:'w'}<?php echo $this->stencil->addLink('HTML', 'WD'); ?> element as well as <code>text-decoration:blink</code> <?php echo $this->stencil->addLink('CSS', 'WD'); ?> element, the restriction to have to "<em>switch to a different search provider across the entire browser</em>", and a global browser console, a new network monitor among other things.</p>
+        <p>JavaScript is automatically enabled by the update, without regard to the previous setting, and the ability to turn it off has been removed from the interface; the "contentious" change was made because many websites depend on JavaScript and it was felt that users unaware that they had disabled <?php echo $this->stencil->addLink('JavaScript', 'L'); ?> were attributing the resulting unpredictable layout to software bugs in Firefox.</p>
+        <p>The keyword.URL preference now is no longer supported, making it no longer possible to specify the search engine for the URL bar that way.</p>
+        <p>The search engine that is used on the URL bar and on the about:home page now is the very search engine, that is selected in the search Bar on the Navigation Toolbar.</p>
+        <p>Firefox 23.0.1 was released ten days later, 16 August 2013, to fix the rendering glitches on H.264 video only in FF23 on <?php echo $this->stencil->addLink('Windows Vista', 'WIN'); ?>; it also fixed the spell checking that was broken with non-ASCII characters in profile path, and the audio static/"burble"/breakup in Firefox to Firefox WebRTC calls.</p>
+    </div>
+</div>
