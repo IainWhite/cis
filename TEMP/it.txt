@@ -16,8 +16,25 @@ it/cygwin
 it/databases/acid
 it/databases/call-level-interface
 it/databases/dba
+it/databases/dbase
+it/databases/dec-rdb
+it/databases/foxpro
+it/databases/galera
 it/databases/jet-database-engine
+it/databases/jetty
 it/databases/microsoft-access
+it/databases/mongodb
+it/databases/mysql
+it/databases/mysql/tungsten-replicator
+it/databases/newsql
+it/databases/nosql
+it/databases/nosql/redis
+it/databases/postgresql
+it/databases/rdbms
+it/databases/sql
+it/databases/sqlite
+it/databases/sqlserver
+it/databases/t-sql
 it/design
 it/design/font/typeface
 it/design/User Experience (UX)
@@ -64,7 +81,6 @@ it/java-me
 it/jdbc
 it/junit
 it/jvm
-languages/java/testdox
 it/latex
 it/metafont
 it/network
@@ -80,16 +96,16 @@ it/networks/wi-fi/wep
 it/nsfnet
 it/Open Database Connectivity (ODBC)
 it/operating-systems (OS)
-it/operating-systems/cp-m-86
-it/operating-systems/mobile/cocoa
 it/operating-systems/centos
 it/operating-systems/cp-m
+it/operating-systems/cp-m-86
 it/operating-systems/debian
 it/operating-systems/fedora
 it/operating-systems/freebsd
 it/operating-systems/linux
 it/operating-systems/linux/tux
 it/operating-systems/mobile/android
+it/operating-systems/mobile/cocoa
 it/operating-systems/mobile/cocoa-touch
 it/operating-systems/plan-9
 it/operating-systems/red-hat
@@ -183,3 +199,4 @@ it/tar-format
 it/tex
 it/y2k
 it/yslow
+languages/java/testdox
