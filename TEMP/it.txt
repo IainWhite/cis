@@ -108,13 +108,6 @@ it/software/freehand
 it/software/gimp
 it/software/grep
 it/software/ide
-it/software/ide/dreamweaver
-it/software/ide/eclipse
-it/software/ide/homesite
-it/software/ide/microsoft-frontpage
-it/software/ide/microsoft-visual-studio
-it/software/ide/netbeans
-it/software/ide/vim
 it/software/jira
 it/software/licenses/Apple Public Source License
 it/software/licenses/Common Public License
