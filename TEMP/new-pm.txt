@@ -945,7 +945,7 @@ Drive Image
 Drive Image (PQDI) is a software disk cloning package for [Intel] based computers. The software was developed and distributed by the former [PowerQuest Corporation]. Drive Image version 7 became the basis for [Norton Ghost] 9.0, which was released to retail markets in August 2004. Ghost was a competing product, developed by Binary Research, before [Symantec] bought the company in 1998. This also explains the different file extensions used for Ghost image files: formerly it was .gho, now in versions 9.0 and above it is .v2i.
 ===
 
-Chost
+Ghost
 Ghost (an acronym for general hardware-oriented system transfer) is a discontinued disk cloning and backup tool originally developed by Murray Haszard in 1995 for Binary Research. The technology was acquired in 1998 by [Symantec].
 
 The backup and recovery functionality has been replaced by Symantec System Recovery (SSR), although the Ghost imaging technology is still actively developed and is available as part of Symantec Ghost Solution Suite.
@@ -978,6 +978,7 @@ As with previous file systems, the design of the FAT32 file system does not incl
 
 Two partition types have been reserved for FAT32 partitions, 0x0B and 0x0C. The latter type is also named FAT32X in order to indicate usage of LBA disk access instead of CHS. On such partitions, CHS related geometry entries, namely the CHS sector addresses in the MBR as well as the number of sectors per track and the number of heads in the EBPB record, may contain no or misleading values and should not be used.
 ===
+
 FAT12
 Between April and August 1980, while borrowing the [FAT] concept for SCP's own [8086] operating system [QDOS] 0.10, Tim Paterson extended the table elements to 12 bits, reduced the number of FATs to two, redefined the semantics of some of the reserved cluster values, and modified the disk layout, so that the root directory was now located between the FAT and the data area for his implementation of FAT12. Paterson also increased the nine-character (6.3) filename length limit to eleven characters in order to support [CP/M] style 8.3 filenames and File Control Blocks. The format used in [Microsoft] Standalone Disk [BASIC]'s 8-bit file system precursor was not supported by QDOS. By August 1980, QDOS had been renamed into [86-DOS] already. Starting with 86-DOS 0.42, the size and layout of directory entries was changed from 16 bytes to 32 bytes in order to add a file date stamp and increase the theoretical file size limit beyond the previous limit of 16MB. 86-DOS 1.00 became available in early 1981. Later in 1981, 86-DOS evolved into Microsoft's [MS-DOS] and [IBM PC DOS]. The capability to read previously formatted volumes with 16-byte directory entries was dropped with MS-DOS 1.20.
 ===
@@ -1241,27 +1242,27 @@ On 26 October 2009, the Android 2.0 SDK - codenamed Éclair - was released, base
 Android 2.2 - Froyo
 On 20 May 2010, the SDK for Android 2.2 (Froyo, short for frozen yogurt) was released, based on [Linux kernel] 2.6.32.
 
-Android 2.3 (Gingerbread)
+Android 2.3 - Gingerbread
 On 6 December 2010, the Android 2.3 (Gingerbread) SDK was released, based on [Linux kernel] 2.6.35. 
 
-Android 3.0 (Honeycomb) 
+Android 3.0 - Honeycomb
 On 22 February 2011, the Android 3.0 (Honeycomb) SDK - the first tablet only [Android] update - was released, based on [Linux kernel] 2.6.36. The first device featuring this version, the Motorola Xoom tablet, was released on 24 February 2011.
 Most first and second generation [Google TV] enabled devices utilize Honeycomb 3.2.
 
-Android 4.0.1 (Ice Cream Sandwich)
+Android 4.0.1 - Ice Cream Sandwich
 The SDK for Android 4.0.1 (Ice Cream Sandwich), based on [Linux kernel] 3.0.1, was publicly released on 19 October 2011. [Google]'s Gabe Cohen stated that Android 4.0 was "theoretically compatible" with any Android 2.3.x device in production at that time. The source code for Android 4.0 became available on 14 November 2011. Ice Cream Sandwich was the last version to officially support [Adobe Systems] [Flash player]. The update introduced numerous new features.
 
-Android 4.1 (Jelly Bean)
+Android 4.1 - Jelly Bean
 [Google] announced Android 4.1 (Jelly Bean) at the Google I/O conference on 27 June 2012. Based on [Linux kernel] 3.0.31, Jelly Bean was an incremental update with the primary aim of improving the functionality and performance of the user interface. The performance improvement involved "Project Butter", which uses touch anticipation, triple buffering, extended vsync timing and a fixed frame rate of 60fps to create a fluid and "buttery-smooth" UI. Android 4.1 Jelly Bean was released to the Android Open Source Project on 9 July 2012, and the Nexus 7 tablet, the first device to run Jelly Bean, was released on 13 July 2012.
 
 Google was expected to announce Jelly Bean 4.2 at an event in New York City on 29 October 2012, but the event was cancelled due to Hurricane Sandy. Instead of rescheduling the live event, Google announced the new version with a press release, under the slogan "A new flavour of Jelly Bean". Jelly Bean 4.2 was based on [Linux kernel] 3.4.0, and debuted on Google's Nexus 4 and Nexus 10, which were released on 13 November 2012.
 
 Google released Jelly Bean 4.3 under the slogan "An even sweeter Jelly Bean" on July 24, 2013, during an event in San Francisco called "Breakfast with Sundar Pichai". Most Nexus devices received the update within a week, although the second generation Nexus 7 tablet was the first device to officially ship with it. A minor bugfix update was released on 22 August 2013.
 
-Android 4.4 KitKat
+Android 4.4 - KitKat
 [Google] announced Android 4.4 KitKat on 3 September 2013. Although initially under the "Key Lime Pie" ("KLP") codename, the name was changed because "very few people actually know the taste of a key lime pie". Some technology bloggers also expected the "Key Lime Pie" release to be Android 5. KitKat debuted on Google's Nexus 5 on 31 October 2013, and was optimised to run on a greater range of devices than earlier Android versions, having 512MB of RAM as a recommended minimum; those improvements were known as "Project Svelte" internally at Google. The required minimum amount of RAM available to Android is 340MB, and all devices with less than 512MB of RAM must report themselves as "low RAM" devices.
 
-Android 5.0 "Lollipop"
+Android 5.0 - Lollipop
 Android 5.0 "Lollipop" was unveiled under the codename "Android L" on 25 June 2014, during [Google] I/O. It became available as official over-the-air (OTA) updates on 12 November 2014, for select devices that run distributions of [Android] serviced by Google, including Nexus and [Google Play] edition devices. Its source code was made available on 3 November 2014.
 
 Lollipop features a redesigned user interface built around a responsive design language referred to as "material design". Other changes include improvements to the notifications, which can be accessed from the lockscreen and displayed within applications as top-of-the-screen banners. Furthermore, Google made internal changes to the platform, with the Android Runtime (ART) officially replacing Dalvik for improved application performance, and with changes intended to improve and optimize battery usage, known internally as Project Volta.
@@ -1289,6 +1290,7 @@ Google Nexus is a line of consumer electronic devices that run the [Android] ope
 Devices in the Nexus line are considered Google's flagship Android products. They contain little to no manufacturer or wireless carrier modifications to Android (such as custom graphical user interfaces), although devices sold through carriers are sometimes SIM locked and may bear some extra branding. Nexus 6 devices sold through AT&amp;T, for example, are SIM locked and feature a custom boot splash screen and a logo on the back of the device, despite having otherwise identical hardware to the unlocked variant. The Verizon Galaxy Nexus featured a Verizon logo on the back and received software updates at a slower pace than the unlocked variant, though it featured different hardware to accommodate Verizon's CDMA network. All Nexus devices feature an unlock-able boot-loader to allow further development and end user modification. Nexus devices are often among the first Android devices to receive updates to the operating system.
 
 ===
+
 HTC Corporation
 HTC Corporation formerly High-Tech Computer Corporation, is a Taiwanese multinational manufacturer of smartphones and tablets headquartered in New Taipei City, Taiwan. Founded in 1997, HTC began as an original design manufacturer and original equipment manufacturer, designing and manufacturing devices such as mobile phones, touchscreen phones, and PDAs based on [Windows Mobile OS] and Brew MP to market to mobile network operators who were willing to pay a contract manufacturer for customised products. After initially making smartphones based mostly on Windows Mobile, HTC expanded its focus in 2009 to devices based on the [Android], and in 2010 to Windows Phone. As of 2011, HTC primarily releases and markets its smartphones under the HTC brand, ranking as the 98th top brand on Interbrand's Best Global Brands 2011 report. A September 2013 media report stated that HTC's share of the global smartphone market is less than 3 percent. However a report published in April 2015 states that the market share has risen to 7.2 percent due to its strong sales of the HTC One M8 and Desire series. The stock price has fallen by 90 percent since 2011.
 
