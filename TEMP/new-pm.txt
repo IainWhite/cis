@@ -1102,55 +1102,230 @@ It has developed a number of interface formats for digital advertising metadata,
 In June 2011, the IAB, in partnership with the ANA Association of National Advertisers and the 4A’s American Association of Advertising Agencies released the Guiding Principles of Digital Measurement. These five principles are the foundation of Making Measurement Make Sense (3MS).
 ===
 
-Firefox Version 31
-Firefox 31 and Firefox 31 ESR were released on 22 July 2014. Both versions added search field on the new tab page and were improved to block malware from downloaded files, along with other new features. Firefox 31 ESR is the first ESR to include the Australis interface, unifying the user experience across different Firefox versions. Firefox 24.x.x ESR versions will be automatically updated to ESR version 31 after 14 October 2014.
+Open Handset Alliance
+The Open Handset Alliance (OHA) is a consortium of 84 firms to develop open standards for mobile devices. Member firms include [Google], [HTC], [Sony], [Dell], [Intel], [Motorola], [Qualcomm], [Texas Instruments], [Samsung Electronics], [LG Electronics], T-Mobile, Sprint Corporation, [Nvidia], and Wind River Systems.
 
-Firefox Version 32
-Firefox 32 was released on 2 September 2014. It shows off HTTP caching improvements, adds HiDPI/Retina support in the Developer Tools UI and widens [HTML5] support, among other things. Firefox 32.0.1 was released for mobile only on 10 September fixing the link tap selection that is offset on some [Android] devices; and for desktop two days later, fixing stability issues. Firefox 32.0.2 was released for desktop only on 18 September fixing the corrupt installations causing Firefox to crash on update. Firefox 32.0.3 was released for desktop and Android on 24 September fixing a security vulnerability.
+The OHA was established on 5 November 2007, led by Google with 34 members, including mobile handset makers, application developers, some mobile carriers and chip makers. [Android], the flagship software of the alliance, is based on an open-source license and has competed against mobile platforms from [Apple], [Microsoft], [Nokia] (Symbian), [HP] (formerly Palm), [Samsung Electronics] / [Intel] (Tizen, bada), and [BlackBerry].
 
-Firefox Version 33
-Firefox 33 was released on 14 October 2014. It now has off-main-thread compositing (OMTC) enabled by default on [Windows] (which brings responsiveness improvements), OpenH264 support, search suggestions on about:home and about:newtab, address bar search improvements, session restore reliability improvements, and other changes.
-
-Firefox 33.0.1 was released for desktop only on 24 October 2014, fixing displaying of a black screen at startup with certain graphics drivers. Firefox 33.0.2 was released for desktop only on 28 October 2014, fixing a startup crash with some combination of hardware and drivers. Firefox 33.0.3 was released for desktop only on 6 November 2014, fixing several issues related to graphics drivers.
-
-Firefox 33.1 was released on 10 November 2014, celebrating Firefox's 10 year anniversary. Firefox 33.1.1 was released for desktop only on 14 November 2014, fixing a startup crash.
-
-Firefox Version 34
-Firefox 34.0 was released on 1 December 2014. It brings Firefox Hello (a WebRTC client for voice and video chat), an improved search bar, and the implementation of HTTP/2 (draft14) and ALPN, together with other features. It also disables [SSL] v3, and enables the ability to recover from a locked Firefox process and to switch themes and personas directly in the customisation mode.
-
-Firefox 34.0.5 was released for desktop only on 1 December 2014, changing the default search engine to [Yahoo!] for North America.
-
-Firefox Version 35
-Firefox 35.0 was released on 13 January 2015. It brings support for a room based conversations model to the Firefox Hello chat service, and other functions; it includes security fixes.
-
-Firefox 35.0.1 was released first for desktop on 26 January 2015, fixing various issues, and then for [Android] on 5 February 2015, fixing a crash with video playback on Asus MeMO Pad 10 and 8, Tesco Hudl, Lenovo Lifetab E models, and several other devices running the Rockchip SoC.
-
-Firefox Version 36
-Firefox 36.0 was released for desktop on 24 February 2015, bringing full HTTP/2 support and other smaller improvements and fixes. It was also released for [Android] three days later, adding support for the tablet user interface.
-
-Firefox 36.0.1 was released for desktop on 5 March 2015, and the next day for [Android], fixing various issues.
-
-Firefox 36.0.2 was released for [Android] only on 16 March 2015, fixing a startup crash on HTC One M8 devices (Verizon) with Android 5.0.1 and some potential crashes with Flash videos.
-
-Firefox 36.0.3 was released on 20 March 2015; soon after that, Version 36.0.4 was released on 21 March 2015, for desktop and Android, fixing security issues disclosed at HP Zero Day Initiative's Pwn2Own contest.
-
-Firefox Version 37
-Firefox 37 was released on 31 March 2015, bringing a heartbeat user rating system, which provides user feedback about the Firefox, and improved protection against website impersonation via OneCRL centralised certificate revocation. Also, [Bing] search is changed to use [HTTPS] for secure searching, and added is support for opportunistic encryption of the [HTTP] traffic where the server supports HTTP/2's AltSvc feature.
-
-Firefox 37.0.1 was released on 3 April 2015 for desktop and [Android], fixing security issues and several crash issues. It also disabled opportunistic encryption of the HTTP traffic introduced in 37.0.
-
-Firefox 37.0.2 was released for Android on 14 April 2015, fixing an issue related to the "request desktop site" feature, and for desktop on 20 April 2015, fixing a [Google Maps] rendering issue, stability issues for some graphics hardware and feature sets, and certain security issues.
-
-Firefox Version 38
-Both Firefox 38 and Firefox 38 ESR were released on 12 May 2015, with new tab based preferences, [Ruby] annotation support and availability of WebSockets in web workers, along with the implementation of the BroadcastChannel API and other features and security fixes.
-
-Firefox 38.0.1 and ESR 38.0.1 were released on 14 May 2015 for desktop, fixing a number of stability issues. Firefox 38.0.1 for [Android] was released on 15 May 2015, fixing a number of stability issues.
-
-Firefox 38.0.5 was released on 2 June 2015 for desktop and Android, fixing bugs and security issues, and adding new functionality that included integration of Pocket and availability of Reader View mode. This was the first release offered to the Release channel users since 38.0.1.
-
-Firefox Version 39
-Firefox 39 was released on 2 July 2015 for desktop and [Android], disabling insecure SSL v3 and RC4, improving performance for [IPv6] fallback to [IPv4] and included various security fixes.
+As part of its efforts to promote a unified Android platform, OHA members are contractually forbidden from producing devices that are based on incompatible forks of Android.
 ===
+
+Android
+Android is a mobile operating system ([O/S]) based on the [Linux kernel] and currently developed by [Google]. With a user interface based on direct manipulation, Android is designed primarily for touchscreen mobile devices such as [smartphones] and tablet computers, with specialised user interfaces for televisions (Android TV), cars (Android Auto), and wrist watches (Android Wear). The O/S uses touch inputs that loosely correspond to real-world actions, like swiping, tapping, pinching, and reverse pinching to manipulate on-screen objects, and a virtual keyboard. Despite being primarily designed for touchscreen input, it has also been used in game consoles, digital cameras, regular PCs, and other electronics. As of 2015, Android has the largest installed base of all operating systems.
+
+As of July 2013, the [Google Play] store has had over one million Android applications ("apps") published, and over 50 billion applications downloaded. An April – May 2013 survey of mobile application developers found that 71% of them create applications for Android; another 2015 survey found that 40% of full-time professional developers see Android as the "priority" target platform, which is more than [iOS] (37%) or other platforms. At Google I/O 2014, the company revealed that there were over one billion active monthly Android users, up from 538 million in June 2013.
+
+Android's source code is released by Google under open source licenses, although most Android devices ultimately ship with a combination of open source and proprietary software, including proprietary software developed and licensed by Google. Initially developed by Android, Inc, which Google bought in 2005, Android was unveiled in 2007, along with the founding of the [Open Handset Alliance] - a consortium of hardware, software, and telecommunication companies devoted to advancing open standards for mobile devices.
+
+Android is popular with technology companies which require a ready made, low-cost and customisable operating system for high-tech devices. Android's open nature has encouraged a large community of developers and enthusiasts to use the open-source code as a foundation for community driven projects, which add new features for advanced users or bring Android to devices which were officially released running other operating systems. The operating system's success has made it a target for patent litigation as part of the so called "smartphone wars" between technology companies.
+
+The version history of the Android mobile operating system began with the release of the Android beta in November 2007. The first commercial version, Android 1.0, was released in September 2008. Android is under ongoing development by Google and the Open Handset Alliance (OHA), and has seen a number of updates to its base operating system since its initial release.
+
+Since April 2009, Android versions have been developed under a confectionery themed code name and released in alphabetical order, beginning with Android 1.5 "Cupcake"; the earlier versions 1.0 and 1.1 were not released under specific code names:
+
+- Cupcake (1.5)
+- Donut (1.6)
+- Eclair (2.0–2.1)
+- Froyo (2.2–2.2.3)
+- Gingerbread (2.3–2.3.7)
+- Honeycomb (3.0–3.2.6)
+- Ice Cream Sandwich (4.0–4.0.4)
+- Jelly Bean (4.1–4.3.1)
+- KitKat (4.4–4.4.4, 4.4W–4.4W.2)
+- Lollipop (5.0–5.1.1)
+===
+
+iOS
+iOS (originally iPhone OS) is a mobile operating system created and developed by [Apple Inc] and distributed exclusively for Apple hardware. It is the operating system that presently powers many of the company's mobile devices, including the [iPhone], [iPad], and [iPod touch].
+
+Originally unveiled in 2007 for the [iPhone], it has been extended to support other Apple devices such as the iPod Touch (September 2007), iPad (January 2010), iPad Mini (November 2012) and second generation [Apple TV] onward (September 2010). As of January 2015, Apple's [App Store] contained more than 1.4 million iOS applications, 725,000 of which are native for iPad. These mobile apps have collectively been downloaded more than 100 billion times. It had a 21% share of the smartphone mobile operating system units shipped in the fourth quarter of 2012, behind [Google]'s [Android]. By the middle of 2012, there were 410 million devices activated. At WWDC 2014, Tim Cook said 800 million devices had been sold by June 2014. During Apple's quarterly earnings call in 27 January 2015, Apple announced that they have now sold one billion iOS devices.
+
+The user interface of iOS is based on the concept of direct manipulation, using multi-touch gestures. Interface control elements consist of sliders, switches, and buttons. Interaction with the OS includes gestures such as swipe, tap, pinch, and reverse pinch, all of which have specific definitions within the context of the iOS operating system and its multi-touch interface. Internal accelerometers are used by some applications to respond to shaking the device (one common result is the undo command) or rotating it in three dimensions (one common result is switching from portrait to landscape mode).
+
+iOS shares with [OS X] some frameworks such as Core Foundation and Foundation; however, its UI toolkit is [Cocoa Touch] rather than OS X's [Cocoa], so that it provides the UIKit framework rather than the AppKit framework. It is therefore not compatible with OS X for applications. Also while iOS also shares the [Darwin] foundation with OS X, [Unix-like] shell access is not available for users and restricted for apps, making iOS not fully Unix-compatible either.
+
+Major versions of iOS are released annually. In iOS, there are four abstraction layers: the Core OS layer, the Core Services layer, the Media layer, and the Cocoa Touch layer.
+===
+
+iPhone OS 1.x
+First iteration of [Apple]'s touch-centric mobile operating system. No official name given on its initial release; Apple marketing literature simply stating the [iPhone] runs a version of Apple's desktop operating system, [OS X]. On 6 March 2008, with the release of the iPhone software development kit (iPhone SDK), Apple named it iPhone OS (they went on to rename it "[iOS]" on 7 June 2010).
+
+iPhone OS 2.x
+iPhone OS 2.0, the second major release of [iOS], became available on 11 July 2008 with the release of the [iPhone 3G]. Devices running 1.x are upgradable to this version. This version of the [O/S] introduces the [App Store], making third-party applications available to the [iPhone] and [iPod Touch]. Prior to the public release of iPhone OS 2.0, Apple held a keynote event to announce the iPhone OS Software Development Kit ("SDK") to developers.
+
+iPhone OS 3.x
+iPhone OS 3.0 became available with the [iPhone 3GS]. It was released on 17 June 2009. This release added features such as copy and paste, and MMS. Not all features were available on the original [iPhone]. Devices running iPhone OS 2.x were upgradeable to this software. The final release supported on the original iPhone and [iPod touch] is iPhone OS 3.1.3. The [iPad] was introduced with iOS 3.2. iOS 3.2 was the first version to be called "[iOS]".
+
+iOS 4
+iOS 4 (formerly iPhone OS) was made available to the public for the [iPhone] and [iPod Touch] on 21 June 2010. This is the first major [iOS] release to drop support for some devices (original [iPhone] and [iPod Touch]) and that iPod Touch users do not have to pay for.
+
+The [iPhone 3G] and iPod Touch (2nd generation) have limited features, including lack of multitasking capabilities and the ability to set a home screen wallpaper, while the [iPhone 4], [iPhone 3GS], iPod Touch (3rd & 4th generation) have all features enabled, such as multitasking. The iPhone and iPod Touch (1st generation) cannot run iOS 4.0 and above.
+
+iOS 4.2.1, released 22 November 2010, added [iPad] compatibility. It was the initial release on the [iPad 2]. It also was the last version to support iPhone 3G and iPod Touch (2nd generation). iOS 4.2.1 replaced iOS 4.2 due to a [Wi-Fi] bug in iOS 4.2 beta 3, causing [Apple] to release 2 golden masters (4.2 GM and 4.2.1 GM).
+
+iOS 5
+iOS 5 was previewed to the public on 6 June 2011. It was released for [iPhone 3GS], [iPhone 4] (GSM and CDMA), [iPhone 4S], [iPod Touch] (3rd & 4th generation), [iPad], and [iPad 2] on 12 October 2011.
+
+iOS 5.1.1 is the final release supported for the iPad (1st generation) and iPod Touch (3rd generation).
+
+iOS 6
+iOS 6 was announced and previewed on 11 June 2012 during [Apple] Worldwide Developers Conference ([WWDC]) 2012, and its release was stated as Fall 2012. Following the pattern of previous [iOS] releases, some older devices were no longer supported, specifically the [iPod Touch] (3rd generation), and the [iPad] (1st generation). Supported devices include the [iPhone 3GS] and later; the iPod Touch (4th generation) and later; and the [iPad 2] and later. iOS 6 has limited support on the iPhone 3GS, iPad 2, and iPod Touch (4th generation).
+
+On 12 September 2012 at San Francisco's Yerba Buena Center for the Arts, among other items unveiled, Apple announced three iOS related items: the next generation [iPhone 5], the redesigned iPod Touch (5th generation), and the announcement of the release of iOS 6.0 the following week.
+
+iOS 6 was released to the public on 19 September 2012, through [iTunes] and over-the-air updates.
+
+iOS 6.1.6 is the final release supported for the [iPhone 3GS] and iPod Touch (4th generation).
+
+iOS 7
+[Apple] announced iOS 7 on 10 June 2013 at its annual Apple Worldwide Developers Conference ([WWDC]) event, with release announced for sometime in Fall (Northern Hemisphere) or Spring (Southern Hemisphere) 2013. At their [iPhone] event on 10 September 2013, Apple announced the full release of iOS 7 for 18 September  2013, while also unveiling two new iPhone models: the [iPhone 5C] and [iPhone 5S]. With this release, support was once again dropped for older devices, specifically the [iPhone 3GS] (due to hardware limitations) and the iPod Touch (4th generation) (due to performance issues). Supported devices on this release include the [iPhone 4] onwards, iPod Touch (5th generation), the [iPad 2] onwards, and the [iPad Mini] (1st generation) onwards. iOS 7.1.2 is the final release on the iPhone 4. But, Apple can detect an unauthorised install and deactivate the device.
+
+iOS 8
+[Apple] announced iOS 8 on 2 June 2014 at its annual Apple Worldwide Developers Conference ([WWDC]) event, with release announced for sometime in Fall (Northern Hemisphere) or Spring (Southern Hemisphere) 2014. At their [iPhone] event on 9 September 2014, Apple announced the full release of iOS 8 for 17 September 2014, while also unveiling the [iPhone 6] and [iPhone 6 Plus]. With this release, Apple resumed the cycle of dropping support for older devices, specifically the [iPhone 4]. Supported devices on this release include the [iPhone 4S] onwards, [iPod Touch] (5th generation), the [iPad 2] onwards, and the [iPad Mini] (1st generation) onwards. iOS 8 has limited support on the iPad 2, iPhone 4S, and the iPod Touch (5th generation). The current version of iOS is iOS 8.4. This release added support for the all new Apple Music streaming service.
+
+iOS 9
+[Apple] announced iOS 9 on 8 June 2015 at its annual Apple Worldwide Developers Conference ([WWDC]) event, with release announced for sometime in Fall (Northern Hemisphere) or Spring (Southern Hemisphere) 2015. With this release, Apple did not drop support for any iOS devices, with all devices supporting iOS 8 being eligible for an upgrade. Supported devices on this release include the [iPhone 4S] onwards, [iPod Touch] (5th generation) onwards, the [iPad 2] onwards, and the [iPad Mini] (1st generation) onwards. The iPad 2 is also the first iOS device to support 6 major releases of iOS, supporting iOS 4, 5, 6, 7, 8, and 9. This is the greatest amount of major iOS releases a single iOS device has supported, surpassing the iPhone 4S which supports 5 major releases (iOS 5, 6, 7, 8, and 9) and iPod Touch 5th Generation supports 4 major releases (iOS 6, 7, 8, and 9). However, iOS 9 has limited support for the iPad 2, iPhone 4S, the iPad Mini (1st Generation), and the iPod touch 5th Generation. iOS 9 is currently in the beta stage with the latest beta being iOS 9.0 beta 3. Apple released a public beta similar to OS X El Capitan to users willing to test the beta on 8 July 2015.
+===
+
+Apple Worldwide Developers Conference (WWDC)
+The Apple Worldwide Developers Conference (WWDC), is a conference held annually in California by [Apple Inc]. The conference is used by Apple to showcase its new software and technologies for software developers. Attendees can participate in hands-on labs with Apple engineers, as well as in-depth sessions that cover a wide variety of topics. Until 2007, the number of attendees varied between 2,000 and 4,200; however, during WWDC 2007, [Steve Jobs] noted that there were more than 5,000 attendees. The WWDC events held from 2008 to 2015 were capped, and sold out at 5,000 attendees (5,200 including special attendees).
+===
+
+iCloud
+iCloud is a cloud storage and cloud computing service from [Apple Inc] launched on 12 October 2011. As of July 2013, the service had 320 million users.
+
+The service provides its users with means to store data such as documents, photos, and music on remote servers for download to [iOS], [Macintosh] or [Windows] devices, to share and send data to other users, and to manage their Apple devices if lost or stolen.
+
+The service also provides the means to wirelessly back up iOS devices directly to iCloud, instead of being reliant on manual backups to a host Mac or Windows computer using [iTunes]. Service users are also able to share photos, music, and games instantly by linking accounts via [AirDrop] wireless.
+
+It replaced Apple's MobileMe service, acting as a data syncing center for email, contacts, calendars, bookmarks, notes, reminders (to-do lists), iWork documents, photos and other data.
+===
+
+iPad
+iPad is an [iOS] based line of tablet computers designed and marketed by [Apple Inc]. The first iPad was released on 3 April 2010. The user interface is built around the device's multi-touch screen, including a virtual keyboard. The iPad includes built-in [Wi-Fi] and cellular connectivity on select models. As of January 2015, there have been over 250 million iPads sold.
+
+An iPad can shoot video, take photos, play music, and perform Internet functions such as Web browsing and emailing. Other functions games, reference, GPS navigation, social networking, etc. can be enabled by downloading and installing apps. As of October 2013, the [App Store] has more than 475,000 native apps by Apple and third parties.
+
+There have been six versions of the iPad. The first generation established design precedents, such as the 9.7-inch screen size and button placement, that have persisted through all models. The [iPad 2] introduced a whole new design which also added a dual core Apple A5 processor and VGA front facing and 720p rear facing cameras designed for [FaceTime] video calling, and dramatically reduced the thickness of the device. The third generation added a [Retina Display], the new Apple A5X processor with a quad-core graphics processor, a 5 megapixel camera, HD 1080p video recording, voice dictation, and 4G (LTE). The fourth generation added the Apple A6X processor and replaces the 30-pin connector with an all-digital Lightning connector. The [iPad Air] added the Apple A7 processor and the Apple M7 motion coprocessor, and reduced the thickness for the first time since the iPad 2. The iPad Air 2 added the Apple A8X processor, the Apple M8 motion coprocessor, a 8 megapixel camera, and the Touch ID fingerprint sensor, and further reduced the thickness.
+
+There have been three versions of the iPad Mini. The first generation features a reduced screen size of 7.9 inches and features similar internal specifications as the iPad 2 except it uses the Lightning connector. The iPad Mini 2 features the Retina Display, the Apple A7 processor and the Apple M7 motion coprocessor, closely matching the internals specifications of the iPad Air. The iPad Mini 3 features the Touch ID fingerprint sensor.
+===
+
+iPhone
+iPhone is a line of [smartphones] designed and marketed by [Apple Inc]. They run Apple's [iOS] mobile operating system. The first generation iPhone was released on 29 June 2007.
+
+The user interface is built around the device's multi-touch screen, including a virtual keyboard. The iPhone has [Wi-Fi] and can connect to many cellular networks, including 1xRTT (represented by a 1x on the status bar) and GPRS (shown as GPRS on the status bar), EDGE (shown as a capital E on the status bar), UMTS and EV-DO (shown as 3G), a faster version of UMTS and 4G (shown as a 4G symbol on the status bar), and LTE (shown as LTE on the status bar). An iPhone can shoot video (though this was not a standard feature until the [iPhone 3GS]), take photos, play music, send and receive email, browse the web, send texts, GPS navigation, record notes, do mathematical calculations, and receive visual voicemail. Other functions video games, reference works, social networking, etc. can be enabled by downloading application programs (‘apps’); as of October 2013, the [App Store] offered more than one million apps by Apple and third parties and is ranked as the world's second largest mobile software distribution network of its kind (by number of currently available applications).
+
+There are eight generations of iPhone models, each accompanied by one of the eight major releases of iOS. The original 1st generation iPhone was a GSM phone and established design precedents, such as a button placement that has persisted throughout all releases and a screen size maintained for the next four iterations. The iPhone 3G added 3G cellular network capabilities and A-GPS location. The iPhone 3GS added a faster processor and a higher resolution camera that could record video at 480p. The [iPhone 4] featured a higher resolution 960×640 "[Retina Display]", a VGA front facing camera for video calling and other apps, and a 5 megapixel rear facing camera with 720p video capture. The [iPhone 4S] upgrades to an 8 megapixel camera with 1080p video recording, a dual-core A5 processor, and a natural language voice control system called [Siri]. iPhone 5 features the dual-core A6 processor, increases the size of the Retina display to 4 inches, introduces LTE support and replaces the 30-pin connector with an all-digital Lightning connector. The iPhone 5S features the dual-core 64-bit A7 processor, an updated camera with a larger aperture and dual-LED flash, and the Touch ID fingerprint scanner, integrated into the home button. The iPhone 5C features the same A6 chip as the iPhone 5, along with a new backside illuminated FaceTime camera and a new casing made of polycarbonate. The [iPhone 6] and [iPhone 6 Plus] further increased screen size, measuring at 4.7 inches and 5.5 inches, respectively. In addition, they also feature a new A8 chip and M8 motion coprocessor. As of 2013, the iPhone 3GS had the longest production run, 1,181 days; followed by the iPhone 4, produced for 1,174 days.
+
+The resounding sales of the iPhone, at the time, have been credited with reshaping the smartphone industry and helping make Apple one of the world's most valuable publicly traded companies in 2011 – 12.
+
+In late 2014, JP Morgan estimated "iPhone percentage of the worldwide smartphone install base has been around 15% since late 2012" being far behind the dominant [Android] based smartphones. In a few mature market countries such as Japan, the iPhone has a majority, an exception to Android's dominance, and Australia where Android is rapidly approaching parity. In March 2014, sales of the iPhone brand had reached 500 million devices. In the last quarter of 2014, there were 74.5 million iPhones sold, a record, compared to 51.0 million in the last quarter of 2013. Tim Cook revealed at the [Apple Watch] conference on 9 March 2015, that Apple had sold a total of 700 million iPhones to date.
+===
+
+Android 1.0
+Android 1.0, the first commercial version of the software, was released on 23 September 2008. The first commercially available Android device was the [HTC] Dream. 
+
+Android 1.1
+On 9 February 2009, the Android 1.1 update was released, initially for the [HTC] Dream only. Android 1.1 was known as "Petit Four" internally, though this name was not used officially. The update resolved bugs, changed the Android API and added a number of features.
+
+Android 1.5 - Cupcake
+On 27 April 2009, the Android 1.5 update was released, based on [Linux kernel] 2.6.27. This was the first release to officially use a codename based on a dessert item ("Cupcake"), a theme which would be used for all releases henceforth. The update included several new features and UI amendments.
+
+Android 1.6 - Donut
+On 15 September 2009, the Android 1.6 SDK - dubbed Donut - was released, based on [Linux kernel] 2.6.29. Included in the update were numerous new features.
+
+Android 2.0 - codenamed Éclair 
+On 26 October 2009, the Android 2.0 SDK - codenamed Éclair - was released, based on [Linux kernel] 2.6.29. 
+
+Android 2.2 - Froyo
+On 20 May 2010, the SDK for Android 2.2 (Froyo, short for frozen yogurt) was released, based on [Linux kernel] 2.6.32.
+
+Android 2.3 (Gingerbread)
+On 6 December 2010, the Android 2.3 (Gingerbread) SDK was released, based on [Linux kernel] 2.6.35. 
+
+Android 3.0 (Honeycomb) 
+On 22 February 2011, the Android 3.0 (Honeycomb) SDK - the first tablet only [Android] update - was released, based on [Linux kernel] 2.6.36. The first device featuring this version, the Motorola Xoom tablet, was released on 24 February 2011.
+Most first and second generation [Google TV] enabled devices utilize Honeycomb 3.2.
+
+Android 4.0.1 (Ice Cream Sandwich)
+The SDK for Android 4.0.1 (Ice Cream Sandwich), based on [Linux kernel] 3.0.1, was publicly released on 19 October 2011. [Google]'s Gabe Cohen stated that Android 4.0 was "theoretically compatible" with any Android 2.3.x device in production at that time. The source code for Android 4.0 became available on 14 November 2011. Ice Cream Sandwich was the last version to officially support [Adobe Systems] [Flash player]. The update introduced numerous new features.
+
+Android 4.1 (Jelly Bean)
+[Google] announced Android 4.1 (Jelly Bean) at the Google I/O conference on 27 June 2012. Based on [Linux kernel] 3.0.31, Jelly Bean was an incremental update with the primary aim of improving the functionality and performance of the user interface. The performance improvement involved "Project Butter", which uses touch anticipation, triple buffering, extended vsync timing and a fixed frame rate of 60fps to create a fluid and "buttery-smooth" UI. Android 4.1 Jelly Bean was released to the Android Open Source Project on 9 July 2012, and the Nexus 7 tablet, the first device to run Jelly Bean, was released on 13 July 2012.
+
+Google was expected to announce Jelly Bean 4.2 at an event in New York City on 29 October 2012, but the event was cancelled due to Hurricane Sandy. Instead of rescheduling the live event, Google announced the new version with a press release, under the slogan "A new flavour of Jelly Bean". Jelly Bean 4.2 was based on [Linux kernel] 3.4.0, and debuted on Google's Nexus 4 and Nexus 10, which were released on 13 November 2012.
+
+Google released Jelly Bean 4.3 under the slogan "An even sweeter Jelly Bean" on July 24, 2013, during an event in San Francisco called "Breakfast with Sundar Pichai". Most Nexus devices received the update within a week, although the second generation Nexus 7 tablet was the first device to officially ship with it. A minor bugfix update was released on 22 August 2013.
+
+Android 4.4 KitKat
+[Google] announced Android 4.4 KitKat on 3 September 2013. Although initially under the "Key Lime Pie" ("KLP") codename, the name was changed because "very few people actually know the taste of a key lime pie". Some technology bloggers also expected the "Key Lime Pie" release to be Android 5. KitKat debuted on Google's Nexus 5 on 31 October 2013, and was optimised to run on a greater range of devices than earlier Android versions, having 512MB of RAM as a recommended minimum; those improvements were known as "Project Svelte" internally at Google. The required minimum amount of RAM available to Android is 340MB, and all devices with less than 512MB of RAM must report themselves as "low RAM" devices.
+
+Android 5.0 "Lollipop"
+Android 5.0 "Lollipop" was unveiled under the codename "Android L" on 25 June 2014, during [Google] I/O. It became available as official over-the-air (OTA) updates on 12 November 2014, for select devices that run distributions of [Android] serviced by Google, including Nexus and [Google Play] edition devices. Its source code was made available on 3 November 2014.
+
+Lollipop features a redesigned user interface built around a responsive design language referred to as "material design". Other changes include improvements to the notifications, which can be accessed from the lockscreen and displayed within applications as top-of-the-screen banners. Furthermore, Google made internal changes to the platform, with the Android Runtime (ART) officially replacing Dalvik for improved application performance, and with changes intended to improve and optimize battery usage, known internally as Project Volta.
+
+===
+iPod Touch
+The iPod Touch is an [iOS] based all purpose pocket computer designed and marketed by [Apple Inc] with a user interface that is touchscreen based. It can be used as a music and video player, digital camera, handheld game device, and personal digital assistant (PDA). It connects to the Internet only through [Wi-Fi] base stations, does not use cellular data, and is therefore not a smartphone, though it has a similar design to the [iPhone] and is often referred to as the "phone without a phone". As of May 2013, 100 million iPod Touch units have been sold.
+
+All models of the same generation typically consist of identical features, processors, and performance, in addition to available operating system upgrades, differing only in outer color and internal storage space. An exception was the fifth generation, as the first version of the low-end (16GB) model was sold without a rear facing iSight photographic camera and lacked the iPod Touch loop. However, on 26 June 2014, the 16GB model was replaced by an upgraded model which includes the rear facing camera and complete colour options.
+===
+
+Siri
+Siri is a part of [Apple Inc]'s [iOS] which works as an intelligent personal assistant and knowledge navigator. The feature uses a natural language user interface to answer questions, make recommendations, and perform actions by delegating requests to a set of Web services such as Wolfram Alpha. The software, both in its original version and as an iOS feature, adapts to the user's individual language usage and individual searches (preferences) with continuing use, and returns results that are individualised. The name Siri is Scandinavian, a short form of the Norse name Sigrid meaning "beauty" and "victory", and comes from the intended name for the original developer's first child.
+
+Siri was originally introduced as an iOS application available in the [App Store] by Siri Inc, which was acquired by Apple on 28 April 2010. Siri Inc had announced that their software would be available for [BlackBerry] and for phones running [Android], but all development efforts for non-Apple platforms were cancelled after the acquisition by Apple.
+
+Siri has been an integral part of iOS since [iOS 5] and was introduced as a feature of the [iPhone 4S] on 14 October 2011. Dictation powered by Siri was added to the third generation iPad with the release of iOS 5.1.1 in May 2012; full Siri support was added with [iOS 6]. The 5th generation [iPod touch], released in October 2012, also gained Siri support. Siri has been included on all mobile Apple hardware manufactured during or after October 2012.
+
+Siri is also integrated into [Apple Watch]'s [watchOS], and can be activated by holding down the Digital Crown or by saying "Hey, Siri".
+===
+
+Google Nexus
+Google Nexus is a line of consumer electronic devices that run the [Android] operating system. Google manages the design, development, marketing, and support of these devices, but some development and all manufacturing are carried out by partnering original equipment manufacturers (OEMs). The product family consists mostly of mobile devices six smartphones and four tablet computers have been released to date. As of April 2015, the devices currently available in the line are the Nexus 6 smartphone (made with Motorola Mobility), Nexus 9 tablet (made with HTC), and Nexus Player digital media player (made with Asus).
+
+Devices in the Nexus line are considered Google's flagship Android products. They contain little to no manufacturer or wireless carrier modifications to Android (such as custom graphical user interfaces), although devices sold through carriers are sometimes SIM locked and may bear some extra branding. Nexus 6 devices sold through AT&amp;T, for example, are SIM locked and feature a custom boot splash screen and a logo on the back of the device, despite having otherwise identical hardware to the unlocked variant. The Verizon Galaxy Nexus featured a Verizon logo on the back and received software updates at a slower pace than the unlocked variant, though it featured different hardware to accommodate Verizon's CDMA network. All Nexus devices feature an unlock-able boot-loader to allow further development and end user modification. Nexus devices are often among the first Android devices to receive updates to the operating system.
+
+===
+HTC Corporation
+HTC Corporation formerly High-Tech Computer Corporation, is a Taiwanese multinational manufacturer of smartphones and tablets headquartered in New Taipei City, Taiwan. Founded in 1997, HTC began as an original design manufacturer and original equipment manufacturer, designing and manufacturing devices such as mobile phones, touchscreen phones, and PDAs based on [Windows Mobile OS] and Brew MP to market to mobile network operators who were willing to pay a contract manufacturer for customised products. After initially making smartphones based mostly on Windows Mobile, HTC expanded its focus in 2009 to devices based on the [Android], and in 2010 to Windows Phone. As of 2011, HTC primarily releases and markets its smartphones under the HTC brand, ranking as the 98th top brand on Interbrand's Best Global Brands 2011 report. A September 2013 media report stated that HTC's share of the global smartphone market is less than 3 percent. However a report published in April 2015 states that the market share has risen to 7.2 percent due to its strong sales of the HTC One M8 and Desire series. The stock price has fallen by 90 percent since 2011.
+
+HTC is a founding member of the [Open Handset Alliance], a group of handset manufacturers and mobile network operators dedicated to the development of the Android mobile device platform. The HTC Dream, marketed by T-Mobile in many countries as the T-Mobile G1 or Era G1, was the first phone on the market to use the Android mobile device platform.
+===
+
+Sony Ericsson
+Sony Mobile Communications Inc (formerly Sony Ericsson) is a multinational mobile phone manufacturing company jointly headquartered in Tokyo, Japan, and Lund, Sweden, and is a wholly owned subsidiary of [Sony Corporation]. It was founded on 1 October 2001 as a joint venture between Sony and the Swedish telecommunications equipment company Ericsson, under the name Sony Ericsson. Sony acquired Ericsson's share in the venture on 16 February 2012.
+
+Sony Mobile Communications has research and development facilities in Tokyo, Japan; Chennai, India; Lund, Sweden; Beijing, China and Silicon Valley, United States. Sony Mobile was the fourth largest smartphone manufacturer by market share in the fourth quarter of 2012 with 9.8 million units shipped.
+
+The current flagship device of Sony is the Sony Xperia Z3+, a smartphone that is water and dust proof with an IP68 rating, an octa-core 2 GHz Krait Processor, Qualcomm Snapdragon 810 Chipset, Android 5.0 OS, and a 20.7 megapixel 4K camera that has a G Lens, Exmor RS, and BIONZ image processor.
+===
+
+Sony Corporation
+Sony Corporation commonly referred to as Sony, is a Japanese multinational conglomerate corporation headquartered in Kōnan Minato, Tokyo, Japan. Its diversified business is primarily focused on the electronics (TV, gaming consoles, refrigerators), game, entertainment and financial services sectors. The company is one of the leading manufacturers of electronic products for the consumer and professional markets. Sony is ranked 105th on the 2014 list of Fortune Global 500.
+
+Sony Corporation is the electronics business unit and the parent company of the Sony Group, which is engaged in business through its four operating segments - electronics (including video games, network services and medical business), motion pictures, music and financial services. These make Sony one of the most comprehensive entertainment companies in the world. Sony's principal business operations include Sony Corporation (Sony Electronics in the U.S.), Sony Pictures Entertainment, Sony Computer Entertainment, Sony Music Entertainment, Sony Mobile Communications (formerly [Sony Ericsson]), and Sony Financial. Sony is among the Worldwide Top 20 Semiconductor Sales Leaders and as of 2013, the fourth largest television manufacturer in the world, after [Samsung Electronics], [LG Electronics] and TCL.
+
+===
+
+Ericsson
+Ericsson is a Swedish multinational provider of communication technology and services. The company's offerings comprise services, software and infrastructure in information and communications technology for telecom operators and other industries, including traditional telecommunications as well as Internet Protocol ([IP]) networking equipment, mobile and fixed broadband, operations and business support services, cable TV, IPTV, video systems, and an extensive services operation. Ericsson has a market share of 35% (in 2012) in the 2G / 3G / 4G mobile network infrastructure market.
+
+Founded in 1876 by Lars Magnus Ericsson, the company is today headquartered in Stockholm, Sweden. The company employs more than 110,000 people and works with customers in more than 180 countries, including Canada, United States, China, India, Brazil, Pakistan, Japan, South Africa, Australia, Germany, Italy, the UK, and Sweden. Ericsson holds over 37,000 granted patents as of May 2015, including many in the wireless communications field.
+===
+
+Linux Kernel
+The Linux kernel is a [Unix-like] computer operating system kernel. The Linux kernel is a widely used operating system kernel world-wide; the [Linux] operating system is based on it and deployed on both traditional computer systems, usually in the form of Linux distributions, and on embedded devices such as routers. The [Android] operating system for tablet computers and smartphones is also based atop the Linux kernel.
+
+The Linux kernel was initially conceived and created in 1991 by Finnish computer science student [Linus Torvalds], for his personal computer and with no cross-platform intentions, but has since expanded to support a huge array of computer architectures, many more than other operating systems or kernels. Linux rapidly attracted developers and users who adapted code from other free software projects for use with the new operating system. The Linux kernel has received contributions from nearly 12,000 programmers from more than 1,200 companies, including some of the largest software and hardware vendors.
+
+The Linux kernel API, the application programming interface (API) through which user programs interact with the kernel, is meant to be very stable and to not break userspace programs (some programs, such as those with GUIs, rely on other APIs as well). As part of the kernel's functionality, device drivers control the hardware; "mainlined" device drivers are also meant to be very stable. However, the interface between the kernel and loadable kernel modules (LKMs), unlike in many other kernels and operating systems, is not meant to be very stable by design.
+
+The Linux kernel, developed by contributors worldwide, is a prominent example of free and open source software. Day-to-day development discussions take place on the Linux kernel mailing list (LKML). The Linux kernel is released under the [GNU General Public License version 2] (GPLv2), with some firmware images released under various non-free licenses.
+===
+
 
 
 
