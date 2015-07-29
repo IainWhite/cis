@@ -1,10 +1,7 @@
 it/amazon-web-services (AWS)
-it/arcnet
-it/arpanet
 it/ascii
 it/ascii-table
 it/awards/turing-award
-it/client-server
 it/cmyk
 it/Comma-Separated Values (CSV)
 it/component-object-model
@@ -13,28 +10,8 @@ it/coroutines
 it/crc-cards
 it/csnet
 it/cygwin
-it/databases/acid
 it/databases/call-level-interface
 it/databases/dba
-it/databases/dbase
-it/databases/dec-rdb
-it/databases/foxpro
-it/databases/galera
-it/databases/jet-database-engine
-it/databases/jetty
-it/databases/microsoft-access
-it/databases/mongodb
-it/databases/mysql
-it/databases/mysql/tungsten-replicator
-it/databases/newsql
-it/databases/nosql
-it/databases/nosql/redis
-it/databases/postgresql
-it/databases/rdbms
-it/databases/sql
-it/databases/sqlite
-it/databases/sqlserver
-it/databases/t-sql
 it/design
 it/design/font/typeface
 it/design/User Experience (UX)
@@ -73,8 +50,6 @@ it/hardware/sparcstation
 it/hardware/vax
 it/hsl
 it/ims
-it/internet
-it/intranet
 it/ios
 it/java-bytecode
 it/java-me
@@ -84,16 +59,6 @@ it/jvm
 it/latex
 it/metafont
 it/network
-it/network/ethernet
-it/networking/10base5
-it/networking/category-5
-it/networking/token-ring
-it/networks/lan
-it/networks/netware
-it/networks/wi-fi
-it/networks/wi-fi/wan
-it/networks/wi-fi/wep
-it/nsfnet
 it/Open Database Connectivity (ODBC)
 it/operating-systems (OS)
 it/operating-systems/centos
@@ -157,7 +122,6 @@ it/software/licenses/End-User License Agreement (EULA)
 it/software/licenses/Free and Open-Source Software (FOSS)
 it/software/licenses/Free Software Definition
 it/software/licenses/IBM Public License
-it/software/licenses/Public Domain
 it/software/licenses/Public Domain Software
 it/software/lotus-agenda
 it/software/lotus-freelance
