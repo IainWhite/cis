@@ -775,30 +775,6 @@ Lenovo was founded in Beijing in 1984 as Legend and was incorporated in Hong Kon
 Lenovo is listed on the Hong Kong Stock Exchange and is a constituent of the Hang Seng China Affiliated Corporations Index, often referred to as "Red Chips".
 ===
 
-Apple Watch
-Apple Watch is a [smartwatch] developed by [Apple Inc] It incorporates fitness tracking and health oriented capabilities as well as integration with [iOS] and other Apple products and services. The device is available in three "collections": Apple Watch Sport, Apple Watch, and Apple Watch Edition. The watch is distinguished by different combinations of cases and first or third party interchangeable bands. Apple Watch relies on a wirelessly connected [iPhone] (5 or above) to perform many of its default functions (e.g. calling and texting). It is compatible with the iPhone 5 or later models running iOS 8.2 or later, through the use of [Bluetooth] or [Wi-Fi]. Announced by Tim Cook on 9 September 2014, the device was available for pre-order on 10 April and began shipping on 24 April 2015. Apple Watch became World's leading seller of wearables with the shipment of 4.2 million smartwatches in the second quarter of 2015, according to analyst outfit Canalys.
-===
-
-Smartwatch
-A smartwatch is a computerised wristwatch with functionality that is enhanced beyond timekeeping. While early models can perform basic tasks, such as calculations, translations, and game playing, modern smartwatches are effectively wearable computers. Many smartwatches run mobile apps, while a smaller number of models run a mobile operating system and function as portable media players, offering playback of FM radio, audio, and video files to the user via a [Bluetooth] headset. Some smartwatches models, also called 'watch phones', feature full mobile phone capability, and can make or answer phone calls.
-
-Such devices may include features such as a camera, accelerometer, thermometer, altimeter, barometer, compass, chronograph, calculator, cell phone, touch screen, GPS navigation, Map display, graphical display, speaker, scheduler, watch, SDcards that are recognised as a mass storage device by a computer, and rechargeable battery. It may communicate with a wireless headset, heads-up display, insulin pump, microphone, modem, or other devices.
-
-Some also have "sport watch" functionality with activity tracker features (also known as "fitness tracker") as seen in GPS watches made for Training, Diving, and Outdoor sports. Functions may include training programs (such as intervals), Lap times, speed display, GPS tracking unit, Route tracking, dive computer, heart rate monitor compatibility, Cadence sensor compatibility, and compatibility with sport transitions (as in triathlons).
-
-Like other computers, a smartwatch may collect information from internal or external sensors. It may control, or retrieve data from, other instruments or computers. It may support wireless technologies like [Bluetooth], [Wi-Fi], and [GPS]. However, it is possible a "wristwatch computer" may just serve as a front end for a remote system, as in the case of watches utilising cellular technology or Wi-Fi.
-===
-
-Watch OS
-Watch OS is the operating system of the [Apple Watch], developed by [Apple Inc] It is based on the [iOS] operating system and has many features similar to those of iOS. It was first released on 24 April 2015, alongside the Apple Watch. The Apple Watch is currently the only device that runs watchOS. The API is called WatchKit. At WWDC 2015 watchOS 2 with major improvements like support for native third-party apps was previewed and will be released fall 2015.
-===
-
-Apple TV
-Apple TV is a digital media player and a microconsole developed and sold by [Apple Inc]. It is a small network appliance and entertainment device that can receive digital data from a number of sources and stream it to a capable TV for playing on the TV screen.
-
-The third generation of Apple TV was introduced on 7 March 2012, incorporating the higher resolution (1080p) video standard. Apple TV is an [HDMI] compliant source device connected to an enhanced definition or high definition widescreen television via a HDMI cable to the TV's HDMI port, and the TV is put into HDMI mode. The device has no integrated controls and can only be controlled externally, either by an Apple Remote control device (with which it is shipped) using its infrared capability or by the 'Remote' app (downloadable from [App Store]) on [iOS] devices, such as the [iPhone], [iPod Touch], [iPad], or [Apple Watch], using its [Wi-Fi] capability. Its Wi-Fi capability is also used to receive digital content from the iTunes app using [AirPlay] or directly from [iTunes Store], which is then streamed to the TV. It also plays digital content from the iTunes Store, Netflix, Hulu Plus, Now TV (UK only), [YouTube] and Vevo, along with the TV Everywhere portals of several cable and broadcast networks, and the video subscription portals of three of the four major North American sports leagues; MLB.tv, NBA League Pass and NHL GameCenter. It plays content from any [Mac OS X] or [Windows] computer running iTunes.
-===
-
 LED - Light Emitting Diode 
 A Light Emitting Diode (LED) is a two-lead semiconductor light source. It is a p–n junction diode, which emits light when activated. When a suitable voltage is applied to the leads, electrons are able to recombine with electron holes within the device, releasing energy in the form of photons. This effect is called electroluminescence, and the colour of the light (corresponding to the energy of the photon) is determined by the energy band gap of the semiconductor.
 
@@ -1050,28 +1026,6 @@ Advances in technology and new demands on the existing system have now led to ef
 In addition to GPS, other systems are in use or under development. The Russian Global Navigation Satellite System (GLONASS) was developed contemporaneously with GPS, but suffered from incomplete coverage of the globe until the mid 2000s. There are also the planned European Union Galileo positioning system, India's Indian Regional Navigation Satellite System, and the Chinese BeiDou Navigation Satellite System.
 ===
 
-Interactive Advertising Bureau 
-The Interactive Advertising Bureau (IAB) is an advertising business organisation that develops industry standards, conducts research, and provides legal support for the online advertising industry. The organisation represents a large number of the most prominent media outlets globally, but mostly in the United States and in Europe.
-
-Founded in 1996, the IAB is based in New York City. Randall Rothenberg is the President and Chief Executive Officer (CEO) of the organisation. Patrick Dolan, David Doty, and Mike Zaneis are the Executive Vice Presidents.
-
-The IAB Global Network is made up of 42 international licensee organisations around the world. IAB Europe, is a coalition of 27 national IABs across Europe, and over 5500 companies. They publish annually Mediascope Europe, a media consumption research to over 50,000 consumer interviews.
-
-The IAB organisational model includes four areas: IAB (New Membership Criteria), IAB Education Foundation, IAB Technology Lab and Trustworthy Accountability Group. The Trustworthy Accountability Group is industry owned whereas the rest are owned by IAB.
-
-It has developed a number of interface formats for digital advertising metadata, including the Video Ad Serving Template and Video Player Ad Interface Definition formats. On 26 February  2012, IAB released IAB Standard Ad Unit Portfolio, that included detailed information on all display advertising formats.
-
-In June 2011, the IAB, in partnership with the ANA Association of National Advertisers and the 4A’s American Association of Advertising Agencies released the Guiding Principles of Digital Measurement. These five principles are the foundation of Making Measurement Make Sense (3MS).
-===
-
-Open Handset Alliance
-The Open Handset Alliance (OHA) is a consortium of 84 firms to develop open standards for mobile devices. Member firms include [Google], [HTC], [Sony], [Dell], [Intel], [Motorola], [Qualcomm], [Texas Instruments], [Samsung Electronics], [LG Electronics], T-Mobile, Sprint Corporation, [Nvidia], and Wind River Systems.
-
-The OHA was established on 5 November 2007, led by Google with 34 members, including mobile handset makers, application developers, some mobile carriers and chip makers. [Android], the flagship software of the alliance, is based on an open-source license and has competed against mobile platforms from [Apple], [Microsoft], [Nokia] (Symbian), [HP] (formerly Palm), [Samsung Electronics] / [Intel] (Tizen, bada), and [BlackBerry].
-
-As part of its efforts to promote a unified Android platform, OHA members are contractually forbidden from producing devices that are based on incompatible forks of Android.
-===
-
 iPhone OS 1.x
 First iteration of [Apple]'s touch-centric mobile operating system. No official name given on its initial release; Apple marketing literature simply stating the [iPhone] runs a version of Apple's desktop operating system, [OS X]. On 6 March 2008, with the release of the iPhone software development kit (iPhone SDK), Apple named it iPhone OS (they went on to rename it "[iOS]" on 7 June 2010).
 
@@ -1168,23 +1122,6 @@ Android 5.0 - Lollipop
 Android 5.0 "Lollipop" was unveiled under the codename "Android L" on 25 June 2014, during [Google] I/O. It became available as official over-the-air (OTA) updates on 12 November 2014, for select devices that run distributions of [Android] serviced by Google, including Nexus and [Google Play] edition devices. Its source code was made available on 3 November 2014.
 
 Lollipop features a redesigned user interface built around a responsive design language referred to as "material design". Other changes include improvements to the notifications, which can be accessed from the lockscreen and displayed within applications as top-of-the-screen banners. Furthermore, Google made internal changes to the platform, with the Android Runtime (ART) officially replacing Dalvik for improved application performance, and with changes intended to improve and optimize battery usage, known internally as Project Volta.
-
-===
-iPod Touch
-The iPod Touch is an [iOS] based all purpose pocket computer designed and marketed by [Apple Inc] with a user interface that is touchscreen based. It can be used as a music and video player, digital camera, handheld game device, and personal digital assistant (PDA). It connects to the Internet only through [Wi-Fi] base stations, does not use cellular data, and is therefore not a smartphone, though it has a similar design to the [iPhone] and is often referred to as the "phone without a phone". As of May 2013, 100 million iPod Touch units have been sold.
-
-All models of the same generation typically consist of identical features, processors, and performance, in addition to available operating system upgrades, differing only in outer color and internal storage space. An exception was the fifth generation, as the first version of the low-end (16GB) model was sold without a rear facing iSight photographic camera and lacked the iPod Touch loop. However, on 26 June 2014, the 16GB model was replaced by an upgraded model which includes the rear facing camera and complete colour options.
-
-===
-
-Siri
-Siri is a part of [Apple Inc]'s [iOS] which works as an intelligent personal assistant and knowledge navigator. The feature uses a natural language user interface to answer questions, make recommendations, and perform actions by delegating requests to a set of Web services such as Wolfram Alpha. The software, both in its original version and as an iOS feature, adapts to the user's individual language usage and individual searches (preferences) with continuing use, and returns results that are individualised. The name Siri is Scandinavian, a short form of the Norse name Sigrid meaning "beauty" and "victory", and comes from the intended name for the original developer's first child.
-
-Siri was originally introduced as an iOS application available in the [App Store] by Siri Inc, which was acquired by Apple on 28 April 2010. Siri Inc had announced that their software would be available for [BlackBerry] and for phones running [Android], but all development efforts for non-Apple platforms were cancelled after the acquisition by Apple.
-
-Siri has been an integral part of iOS since [iOS 5] and was introduced as a feature of the [iPhone 4S] on 14 October 2011. Dictation powered by Siri was added to the third generation iPad with the release of iOS 5.1.1 in May 2012; full Siri support was added with [iOS 6]. The 5th generation [iPod touch], released in October 2012, also gained Siri support. Siri has been included on all mobile Apple hardware manufactured during or after October 2012.
-
-Siri is also integrated into [Apple Watch]'s [watchOS], and can be activated by holding down the Digital Crown or by saying "Hey, Siri".
 ===
 
 Google Nexus
@@ -1217,26 +1154,6 @@ Ericsson
 Ericsson is a Swedish multinational provider of communication technology and services. The company's offerings comprise services, software and infrastructure in information and communications technology for telecom operators and other industries, including traditional telecommunications as well as Internet Protocol ([IP]) networking equipment, mobile and fixed broadband, operations and business support services, cable TV, IPTV, video systems, and an extensive services operation. Ericsson has a market share of 35% (in 2012) in the 2G / 3G / 4G mobile network infrastructure market.
 
 Founded in 1876 by Lars Magnus Ericsson, the company is today headquartered in Stockholm, Sweden. The company employs more than 110,000 people and works with customers in more than 180 countries, including Canada, United States, China, India, Brazil, Pakistan, Japan, South Africa, Australia, Germany, Italy, the UK, and Sweden. Ericsson holds over 37,000 granted patents as of May 2015, including many in the wireless communications field.
-===
-
-Linux Kernel
-The Linux kernel is a [Unix-like] computer operating system kernel. The Linux kernel is a widely used operating system kernel world-wide; the [Linux] operating system is based on it and deployed on both traditional computer systems, usually in the form of Linux distributions, and on embedded devices such as routers. The [Android] operating system for tablet computers and smartphones is also based atop the Linux kernel.
-
-The Linux kernel was initially conceived and created in 1991 by Finnish computer science student [Linus Torvalds], for his personal computer and with no cross-platform intentions, but has since expanded to support a huge array of computer architectures, many more than other operating systems or kernels. Linux rapidly attracted developers and users who adapted code from other free software projects for use with the new operating system. The Linux kernel has received contributions from nearly 12,000 programmers from more than 1,200 companies, including some of the largest software and hardware vendors.
-
-The Linux kernel API, the application programming interface (API) through which user programs interact with the kernel, is meant to be very stable and to not break userspace programs (some programs, such as those with GUIs, rely on other APIs as well). As part of the kernel's functionality, device drivers control the hardware; "mainlined" device drivers are also meant to be very stable. However, the interface between the kernel and loadable kernel modules (LKMs), unlike in many other kernels and operating systems, is not meant to be very stable by design.
-
-The Linux kernel, developed by contributors worldwide, is a prominent example of free and open source software. Day-to-day development discussions take place on the Linux kernel mailing list (LKML). The Linux kernel is released under the [GNU General Public License version 2] (GPLv2), with some firmware images released under various non-free licenses.
-===
-
-Retina Display
-Retina Display is a brand name used by [Apple] for screens that have a higher pixel density than their previous models. The terms are used for several Apple products, including the [iPhone], [iPod Touch], [iPad], [MacBook] (2015 version), [MacBook Pro], [iPad Mini], [iPad Air] and [iMac].
-
-The goal of retina displays is to allow the extremely crisp display of text and images, allowing computer screens to rival the smooth curves and sharpness of printed text and immediacy of photographic prints, while avoiding previous compromises such as specially designed fonts designed to render well onscreen.
-
-Because the typical viewing distance is different, depending on each device's use, the pixels per inch claiming to be of Retina quality can differ, depending on the size of the display, with higher PPI for smaller displays and lower PPI for larger displays. Later device versions have an even higher quality improvement, either counted by an increase in the PPI (the [iPhone 6 Plus]) and / or by an increase in the number of pixels (the iPhone 6 and 6 Plus, and iMac With Retina 5K Display), thus Apple using the name "Retina HD Display" or "Retina 5K Display".
-
-When an Apple product has a Retina Display, each user interface widget is doubled in width and height to compensate for the smaller pixels. Apple calls this mode HiDPI mode. Apple has applied to register the term "Retina" as a trademark in regard to computers and mobile devices with the United States Patent and Trademark Office, Canadian Intellectual Property Office, and in Jamaica. On 27 November 2012 the US Patent and Trademark office approved Apple's application and "Retina" is now a registered trademark for computer equipment.
 ===
 
 iMac
@@ -1564,3 +1481,4 @@ After 2G was launched, the previous mobile telephone systems were retrospectivel
 
 2G has been superseded by newer technologies such as 2.5G, 2.75G, [3G], and [4G]; however, 2G networks are still used in many parts of the world.
 ===
+

@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Qualcomm'); ?>
+        <p><strong>Qualcomm Incorporated</strong> is an American global semiconductor company that designs and markets wireless telecommunications products and services. The company headquarters are located in San Diego, California, United States. The company has 157 worldwide locations. The parent company is Qualcomm Incorporated (Qualcomm), which includes the Qualcomm Technology Licensing Division (QTL). Qualcomm's wholly owned subsidiary, Qualcomm Technologies, Inc. (QTI), operates substantially all of Qualcomm's R&amp;D activities, as well as its product and services businesses, including its semiconductor business, Qualcomm CDMA Technologies. In November 2014, Qualcomm CEO Steve Mollenkopf announced at the company’s annual analyst day meeting held in New York City that the company is planning to target the data center market with new server chips based on ARM technology and plans to make them commercially available by the end of 2015.</p>
+    </div>
+</div>
