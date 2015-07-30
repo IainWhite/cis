@@ -167,12 +167,6 @@ When IBM implemented the parallel interface on the IBM PC, they used the DB-25F 
 Centronics parallel is generally compliant with IEEE 1284 compatibility mode. The original Centronics implementation called for the busy lead to toggle with each received line of data (busy by line), whereas IEEE 1284 calls for busy to toggle with each received character (busy by character). Some host systems or print servers may use a strobe signal with a relatively low voltage output or a fast toggle. Any of these issues might cause no or intermittent printing, missing or repeated characters or garbage printing. Some printer models may have a switch or setting to set busy by character; others may require a handshake adapter.
 ===
 
-Silicon Valley
-Silicon Valley is a nickname for the southern portion of the San Francisco Bay Area in California, United States. It is home to many of the world's largest high-tech corporations, as well as thousands of tech startup companies. The region occupies roughly the same area as the Santa Clara Valley where it is centered, including San Jose and surrounding cities and towns. The term originally referred to the large number of silicon chip innovators and manufacturers in the region, but eventually came to refer to all high tech businesses in the area, and is now generally used as a metonym for the American high-technology economic sector.
-
-Silicon Valley is a leading hub and startup ecosystem for high-tech innovation and development, accounting for one-third of all of the venture capital investment in the United States. Geographically, Silicon Valley is generally thought to encompass all of the Santa Clara Valley, San Francisco, the San Francisco Peninsula, and southern portions of the East Bay.
-===
-
 USB - Universal Serial Bus
 USB, short for Universal Serial Bus, is an industry standard developed in the mid 1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication, and power supply between computers and electronic devices.
 
@@ -1076,43 +1070,6 @@ The Open Handset Alliance (OHA) is a consortium of 84 firms to develop open stan
 The OHA was established on 5 November 2007, led by Google with 34 members, including mobile handset makers, application developers, some mobile carriers and chip makers. [Android], the flagship software of the alliance, is based on an open-source license and has competed against mobile platforms from [Apple], [Microsoft], [Nokia] (Symbian), [HP] (formerly Palm), [Samsung Electronics] / [Intel] (Tizen, bada), and [BlackBerry].
 
 As part of its efforts to promote a unified Android platform, OHA members are contractually forbidden from producing devices that are based on incompatible forks of Android.
-===
-
-Android
-Android is a mobile operating system ([O/S]) based on the [Linux kernel] and currently developed by [Google]. With a user interface based on direct manipulation, Android is designed primarily for touchscreen mobile devices such as [smartphones] and tablet computers, with specialised user interfaces for televisions (Android TV), cars (Android Auto), and wrist watches (Android Wear). The O/S uses touch inputs that loosely correspond to real-world actions, like swiping, tapping, pinching, and reverse pinching to manipulate on-screen objects, and a virtual keyboard. Despite being primarily designed for touchscreen input, it has also been used in game consoles, digital cameras, regular PCs, and other electronics. As of 2015, Android has the largest installed base of all operating systems.
-
-As of July 2013, the [Google Play] store has had over one million Android applications ("apps") published, and over 50 billion applications downloaded. An April – May 2013 survey of mobile application developers found that 71% of them create applications for Android; another 2015 survey found that 40% of full-time professional developers see Android as the "priority" target platform, which is more than [iOS] (37%) or other platforms. At Google I/O 2014, the company revealed that there were over one billion active monthly Android users, up from 538 million in June 2013.
-
-Android's source code is released by Google under open source licenses, although most Android devices ultimately ship with a combination of open source and proprietary software, including proprietary software developed and licensed by Google. Initially developed by Android, Inc, which Google bought in 2005, Android was unveiled in 2007, along with the founding of the [Open Handset Alliance] - a consortium of hardware, software, and telecommunication companies devoted to advancing open standards for mobile devices.
-
-Android is popular with technology companies which require a ready made, low-cost and customisable operating system for high-tech devices. Android's open nature has encouraged a large community of developers and enthusiasts to use the open-source code as a foundation for community driven projects, which add new features for advanced users or bring Android to devices which were officially released running other operating systems. The operating system's success has made it a target for patent litigation as part of the so called "smartphone wars" between technology companies.
-
-The version history of the Android mobile operating system began with the release of the Android beta in November 2007. The first commercial version, Android 1.0, was released in September 2008. Android is under ongoing development by Google and the Open Handset Alliance (OHA), and has seen a number of updates to its base operating system since its initial release.
-
-Since April 2009, Android versions have been developed under a confectionery themed code name and released in alphabetical order, beginning with Android 1.5 "Cupcake"; the earlier versions 1.0 and 1.1 were not released under specific code names:
-
-- [Cupcake] (1.5)
-- [Donut] (1.6)
-- [Eclair] (2.0–2.1)
-- [Froyo] (2.2–2.2.3)
-- [Gingerbread] (2.3–2.3.7)
-- [Honeycomb] (3.0–3.2.6)
-- [Ice Cream Sandwich] (4.0–4.0.4)
-- [Jelly Bean] (4.1–4.3.1)
-- [KitKat] (4.4–4.4.4, 4.4W–4.4W.2)
-- [Lollipop] (5.0–5.1.1)
-===
-
-iOS
-iOS (originally iPhone OS) is a mobile operating system created and developed by [Apple Inc] and distributed exclusively for Apple hardware. It is the operating system that presently powers many of the company's mobile devices, including the [iPhone], [iPad], and [iPod touch].
-
-Originally unveiled in 2007 for the [iPhone], it has been extended to support other Apple devices such as the iPod Touch (September 2007), iPad (January 2010), iPad Mini (November 2012) and second generation [Apple TV] onward (September 2010). As of January 2015, Apple's [App Store] contained more than 1.4 million iOS applications, 725,000 of which are native for iPad. These mobile apps have collectively been downloaded more than 100 billion times. It had a 21% share of the smartphone mobile operating system units shipped in the fourth quarter of 2012, behind [Google]'s [Android]. By the middle of 2012, there were 410 million devices activated. At WWDC 2014, Tim Cook said 800 million devices had been sold by June 2014. During Apple's quarterly earnings call in 27 January 2015, Apple announced that they have now sold one billion iOS devices.
-
-The user interface of iOS is based on the concept of direct manipulation, using multi-touch gestures. Interface control elements consist of sliders, switches, and buttons. Interaction with the OS includes gestures such as swipe, tap, pinch, and reverse pinch, all of which have specific definitions within the context of the iOS operating system and its multi-touch interface. Internal accelerometers are used by some applications to respond to shaking the device (one common result is the undo command) or rotating it in three dimensions (one common result is switching from portrait to landscape mode).
-
-iOS shares with [OS X] some frameworks such as Core Foundation and Foundation; however, its UI toolkit is [Cocoa Touch] rather than OS X's [Cocoa], so that it provides the UIKit framework rather than the AppKit framework. It is therefore not compatible with OS X for applications. Also while iOS also shares the [Darwin] foundation with OS X, [Unix-like] shell access is not available for users and restricted for apps, making iOS not fully Unix-compatible either.
-
-Major versions of iOS are released annually. In iOS, there are four abstraction layers: the Core OS layer, the Core Services layer, the Media layer, and the Cocoa Touch layer.
 ===
 
 iPhone OS 1.x

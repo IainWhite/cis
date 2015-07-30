@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Android'); ?>
+        <p><strong>Android</strong> is a mobile operating system (<?php echo $this->stencil->addLink('O/S', 'IT'); ?>) based on the <?php echo $this->stencil->addLink('Linux kernel', 'OS'); ?> and currently developed by <?php echo $this->stencil->addLink('Google', 'C'); ?>. With a user interface based on direct manipulation, Android is designed primarily for touchscreen mobile devices such as <?php echo $this->stencil->addLink('smartphones', 'ITH'); ?> and tablet computers, with specialised user interfaces for televisions (Android TV), cars (Android Auto), and wrist watches (Android Wear). The O/S uses touch inputs that loosely correspond to real-world actions, like swiping, tapping, pinching, and reverse pinching to manipulate on-screen objects, and a virtual keyboard. Despite being primarily designed for touchscreen input, it has also been used in game consoles, digital cameras, regular PCs, and other electronics. As of 2015, Android has the largest installed base of all operating systems.</p>
+        <p>As of July 2013, the <?php echo $this->stencil->addLink('Google Play', 'MD'); ?> store has had over one million Android applications ("apps") published, and over 50 billion applications downloaded. An April - May 2013 survey of mobile application developers found that 71% of them create applications for Android; another 2015 survey found that 40% of full-time professional developers see Android as the "priority" target platform, which is more than <?php echo $this->stencil->addLink('iOS', 'OS'); ?> (37%) or other platforms. At Google I/O 2014, the company revealed that there were over one billion active monthly Android users, up from 538 million in June 2013.</p>
+        <p>Android's source code is released by Google under open source licenses, although most Android devices ultimately ship with a combination of open source and proprietary software, including proprietary software developed and licensed by Google. Initially developed by <strong>Android Inc</strong>, which Google bought in 2005, Android was unveiled in 2007, along with the founding of the <?php echo $this->stencil->addLink('Open Handset Alliance', 'C'); ?> - a consortium of hardware, software, and telecommunication companies devoted to advancing open standards for mobile devices.</p>
+        <p>Android is popular with technology companies which require a ready made, low-cost and customisable operating system for high-tech devices. Android's open nature has encouraged a large community of developers and enthusiasts to use the open-source code as a foundation for community driven projects, which add new features for advanced users or bring Android to devices which were officially released running other operating systems. The operating system's success has made it a target for patent litigation as part of the so called "smartphone wars" between technology companies.</p>
+        <p>The version history of the Android mobile operating system began with the release of the Android beta in November 2007. The first commercial version, Android 1.0, was released in September 2008. Android is under ongoing development by Google and the Open Handset Alliance (OHA), and has seen a number of updates to its base operating system since its initial release.</p>
+        <p>Since April 2009, Android versions have been developed under a confectionery themed code name and released in alphabetical order, beginning with <?php echo $this->stencil->addLink('Android 1.5', 'OS'); ?> "<em>Cupcake</em>"; the earlier versions 1.0 and 1.1 were not released under specific code names:</p>
+        <ul>
+            <li><?php echo $this->stencil->addLink('Cupcake', 'OS'); ?> (Android 1.5)</li>
+            <li><?php echo $this->stencil->addLink('Donut', 'OS'); ?> (Android 1.6)</li>
+            <li><?php echo $this->stencil->addLink('Eclair', 'OS'); ?> (Android 2.0 - 2.1)</li>
+            <li><?php echo $this->stencil->addLink('Froyo', 'OS'); ?> (Android 2.2 - 2.2.3)</li>
+            <li><?php echo $this->stencil->addLink('Gingerbread', 'OS'); ?> (Android 2.3 - 2.3.7)</li>
+            <li><?php echo $this->stencil->addLink('Honeycomb', 'OS'); ?> (Android 3.0 - 3.2.6)</li>
+            <li><?php echo $this->stencil->addLink('Ice Cream Sandwich', 'OS'); ?> (Android 4.0 - 4.0.4)</li>
+            <li><?php echo $this->stencil->addLink('Jelly Bean', 'OS'); ?> (Android 4.1 - 4.3.1)</li>
+            <li><?php echo $this->stencil->addLink('KitKat', 'OS'); ?> (Android 4.4 - 4.4.4, 4.4W - 4.4W.2)</li>
+            <li><?php echo $this->stencil->addLink('Lollipop', 'OS'); ?> (Android5.0 - 5.1.1)</li>
+        </ul>
+    </div>
+</div>
