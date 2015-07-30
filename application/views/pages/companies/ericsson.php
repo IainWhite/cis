@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Ericsson'); ?>
+        <p><strong>Ericsson</strong> is a Swedish multinational provider of communication technology and services. The company's offerings comprise services, software and infrastructure in information and communications technology for telecom operators and other industries, including traditional telecommunications as well as Internet Protocol (<?php echo $this->stencil->addLink('IP', 'IPA'); ?>) networking equipment, mobile and fixed broadband, operations and business support services, cable TV, IPTV, video systems, and an extensive services operation. Ericsson has a market share of 35% (in 2012) in the <?php echo $this->stencil->addLink('2G', 'ITH'); ?> / <?php echo $this->stencil->addLink('3G', 'ITH'); ?> / <?php echo $this->stencil->addLink('4G', 'ITH'); ?> mobile network infrastructure market.</p>
+        <p>Founded in 1876 by <strong>Lars Magnus Ericsson</strong>, the company is today headquartered in Stockholm, Sweden. The company employs more than 110,000 people and works with customers in more than 180 countries, including Canada, United States, China, India, Brazil, Pakistan, Japan, South Africa, Australia, Germany, Italy, the UK, and Sweden. Ericsson holds over 37,000 granted patents as of May 2015, including many in the wireless communications field.</p>
+    </div>
+</div>
