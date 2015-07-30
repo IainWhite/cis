@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Evesham'); ?>
+        <p><strong>Evesham Technology</strong> was a computer manufacturing and retail company based in Evesham, Worcestershire, England. It began operations in 1983 and closed in 2008 following financial difficulties. It was a significant contributor to the United Kingdom's domestic computer and digital television market. Its assets grew to include a factory and warehouse complex, and a chain of 19 retail stores in towns and cities throughout the UK, with around 300 employees. The company was founded in 1983 by Richard Austin and Robert (Bob) Hitchcock as <strong>Evesham Micros</strong>, to be briefly known as <strong>Evesham.com</strong> and finally as Evesham Technology. Austin continued as chairman and controlling shareholder until the company and its much reduced, short lived successor, <strong>Geemore Technology Ltd</strong>, went into liquidation.</p>
+    </div>
+</div>

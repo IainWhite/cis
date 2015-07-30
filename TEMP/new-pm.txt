@@ -904,17 +904,6 @@ Following opposition proceedings on both sides against the other, CBS subsequent
 Incidentally, CBS was successful in registering "Mighty Mouse" as a trademark for computer mice in some other countries, including Canada, although Apple nevertheless chose to change its product name internationally.
 ===
 
-Mouse
-In computing, a mouse is a pointing device that detects two-dimensional motion relative to a surface. This motion is typically translated into the motion of a pointer on a display, which allows for fine control of a graphical user interface.
-
-Physically, a mouse consists of an object held in one's hand, with one or more buttons. Mice often also feature other elements, such as touch surfaces and "wheels", which enable additional control and dimensional input.
-
-Naming
-The earliest known publication of the term mouse as a computer pointing device is in Bill English's 1965 publication "Computer-Aided Display Control".
-
-The online Oxford Dictionaries entry for mouse states the plural for the small rodent is mice, while the plural for the small computer connected device is either mice or mouses. However, in the use section of the entry it states that the more common plural is mice, and that the first recorded use of the term in the plural is mice as well (though it cites a 1984 use of mice when there were actually several earlier ones, such as J. C. R. Licklider's "The Computer as a Communication Device" of 1968). According to the fifth edition of The American Heritage Dictionary of the English Language the plural can be either "mice" or "mouses".
-===
-
 Magic Trackpad
 The Magic Trackpad is a multi-touch trackpad produced by [Apple Inc] Announced on 27 July 2010, it is similar to the trackpad found on the current MacBook family of laptops, albeit 80% larger. The trackpad is fully compatible with [Macintosh] computers running [Mac OS X Snow Leopard] versions 10.6.4 and higher with a software update, as well as [Windows 7], [Windows XP], and [Windows Vista] in Apple's [Boot Camp] with an added device driver. It is also capable of performing in a basic capacity when paired with a [Windows] computer or a Macintosh without the necessary software. [Ubuntu Linux] computers can be configured to support most of the multitouch gestures that Mac OS supports, and additionally custom gestures can be added for most applications which do not natively support multi-touch.
 ===
@@ -993,32 +982,10 @@ With the introduction of more powerful computers and operating systems, as well 
 Today, FAT file systems are still commonly found on floppy disks, USB sticks, flash and other solid-state memory cards and modules, and many portable and embedded devices. DCF implements FAT as the standard file system for digital cameras. FAT is also utilised in the boot stage of EFI-compliant computers.
 ===
 
-Evesham
-Evesham Technology was a computer manufacturing and retail company based in Evesham, Worcestershire, England. It began operations in 1983 and closed in 2008 following financial difficulties. It was a significant contributor to the United Kingdom's domestic computer and digital television market. Its assets grew to include a factory and warehouse complex, and a chain of 19 retail stores in towns and cities throughout the UK, with around 300 employees. The company was founded in 1983 by Richard Austin and Robert (Bob) Hitchcock as Evesham Micros, to be briefly known as Evesham.com and finally as Evesham Technology. Austin continued as chairman and controlling shareholder until the company and its much reduced, short lived successor, Geemore Technology Ltd, went into liquidation.
-====
-
 GRUB
 GNU GRUB (short for GNU GRand Unified Bootloader) is a boot loader package from the GNU Project. GRUB is the reference implementation of the Free Software Foundation's Multiboot Specification, which provides a user the choice to boot one of multiple operating systems installed on a computer or select a specific kernel configuration available on a particular operating system's partitions.
 
 GNU GRUB was developed from a package called the Grand Unified Bootloader (a play on Grand Unified Theory). It is predominantly used for [Unix-like] systems. The GNU operating system uses GNU GRUB as its boot loader, as do most [Linux distributions]. The [Solaris] operating system has used GRUB as its boot loader on [x86] systems, starting with the Solaris 10 1/06 release.
-===
-
-Gigabyte
-Gigabyte Technology Co Ltd, is an international manufacturer and distributor of computer hardware products.
-
-Gigabyte is a motherboard vendor, with shipments of 4.8 million motherboards in Q1 2015, while ASUS shipped around 4.5 million motherboards in the same quarter. Gigabyte was ranked 17th in "Taiwan's 2010 Top 20 Global Brands" by the Taiwan External Trade Development Council.
-===
-
-Bluetooth
-Bluetooth is a wireless technology standard for exchanging data over short distances (using short wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz) from fixed and mobile devices, and building personal area networks (PANs). Invented by telecom vendor [Ericsson] in 1994, it was originally conceived as a wireless alternative to [RS-232] data cables. It can connect several devices, overcoming problems of synchronisation.
-
-Bluetooth is managed by the [Bluetooth Special Interest Group] (SIG), which has more than 25,000 member companies in the areas of telecommunication, computing, networking, and consumer electronics. The I[EEE] standardised Bluetooth as IEEE 802.15.1, but no longer maintains the standard. The Bluetooth SIG oversees development of the specification, manages the qualification program, and protects the trademarks. A manufacturer must make a device meet Bluetooth SIG standards to market it as a Bluetooth device. A network of patents apply to the technology, which are licensed to individual qualifying devices.
-===
-
-Bluetooth Special Interest Group (SIG)
-The Bluetooth Special Interest Group (SIG) is the body that oversees the development of [Bluetooth] standards and the licensing of the Bluetooth technologies and trademarks to manufacturers. The SIG is a not-for-profit, non-stock corporation founded in September 1998. The SIG is headquartered in Kirkland, Washington. The SIG has local offices in Beijing, Seoul, Tokyo, and Malmö.
-
-The SIG does not make, manufacture or sell Bluetooth enabled products.
 ===
 
 Digg
@@ -1124,16 +1091,16 @@ The version history of the Android mobile operating system began with the releas
 
 Since April 2009, Android versions have been developed under a confectionery themed code name and released in alphabetical order, beginning with Android 1.5 "Cupcake"; the earlier versions 1.0 and 1.1 were not released under specific code names:
 
-- Cupcake (1.5)
-- Donut (1.6)
-- Eclair (2.0–2.1)
-- Froyo (2.2–2.2.3)
-- Gingerbread (2.3–2.3.7)
-- Honeycomb (3.0–3.2.6)
-- Ice Cream Sandwich (4.0–4.0.4)
-- Jelly Bean (4.1–4.3.1)
-- KitKat (4.4–4.4.4, 4.4W–4.4W.2)
-- Lollipop (5.0–5.1.1)
+- [Cupcake] (1.5)
+- [Donut] (1.6)
+- [Eclair] (2.0–2.1)
+- [Froyo] (2.2–2.2.3)
+- [Gingerbread] (2.3–2.3.7)
+- [Honeycomb] (3.0–3.2.6)
+- [Ice Cream Sandwich] (4.0–4.0.4)
+- [Jelly Bean] (4.1–4.3.1)
+- [KitKat] (4.4–4.4.4, 4.4W–4.4W.2)
+- [Lollipop] (5.0–5.1.1)
 ===
 
 iOS
@@ -1236,7 +1203,7 @@ On 27 April 2009, the Android 1.5 update was released, based on [Linux kernel] 2
 Android 1.6 - Donut
 On 15 September 2009, the Android 1.6 SDK - dubbed Donut - was released, based on [Linux kernel] 2.6.29. Included in the update were numerous new features.
 
-Android 2.0 - codenamed Éclair 
+Android 2.0 - Éclair 
 On 26 October 2009, the Android 2.0 SDK - codenamed Éclair - was released, based on [Linux kernel] 2.6.29. 
 
 Android 2.2 - Froyo
@@ -1272,6 +1239,7 @@ iPod Touch
 The iPod Touch is an [iOS] based all purpose pocket computer designed and marketed by [Apple Inc] with a user interface that is touchscreen based. It can be used as a music and video player, digital camera, handheld game device, and personal digital assistant (PDA). It connects to the Internet only through [Wi-Fi] base stations, does not use cellular data, and is therefore not a smartphone, though it has a similar design to the [iPhone] and is often referred to as the "phone without a phone". As of May 2013, 100 million iPod Touch units have been sold.
 
 All models of the same generation typically consist of identical features, processors, and performance, in addition to available operating system upgrades, differing only in outer color and internal storage space. An exception was the fifth generation, as the first version of the low-end (16GB) model was sold without a rear facing iSight photographic camera and lacked the iPod Touch loop. However, on 26 June 2014, the 16GB model was replaced by an upgraded model which includes the rear facing camera and complete colour options.
+
 ===
 
 Siri
@@ -1288,7 +1256,6 @@ Google Nexus
 Google Nexus is a line of consumer electronic devices that run the [Android] operating system. Google manages the design, development, marketing, and support of these devices, but some development and all manufacturing are carried out by partnering original equipment manufacturers (OEMs). The product family consists mostly of mobile devices six smartphones and four tablet computers have been released to date. As of April 2015, the devices currently available in the line are the Nexus 6 smartphone (made with Motorola Mobility), Nexus 9 tablet (made with HTC), and Nexus Player digital media player (made with Asus).
 
 Devices in the Nexus line are considered Google's flagship Android products. They contain little to no manufacturer or wireless carrier modifications to Android (such as custom graphical user interfaces), although devices sold through carriers are sometimes SIM locked and may bear some extra branding. Nexus 6 devices sold through AT&amp;T, for example, are SIM locked and feature a custom boot splash screen and a logo on the back of the device, despite having otherwise identical hardware to the unlocked variant. The Verizon Galaxy Nexus featured a Verizon logo on the back and received software updates at a slower pace than the unlocked variant, though it featured different hardware to accommodate Verizon's CDMA network. All Nexus devices feature an unlock-able boot-loader to allow further development and end user modification. Nexus devices are often among the first Android devices to receive updates to the operating system.
-
 ===
 
 HTC Corporation
@@ -1309,7 +1276,6 @@ Sony Corporation
 Sony Corporation commonly referred to as Sony, is a Japanese multinational conglomerate corporation headquartered in Kōnan Minato, Tokyo, Japan. Its diversified business is primarily focused on the electronics (TV, gaming consoles, refrigerators), game, entertainment and financial services sectors. The company is one of the leading manufacturers of electronic products for the consumer and professional markets. Sony is ranked 105th on the 2014 list of Fortune Global 500.
 
 Sony Corporation is the electronics business unit and the parent company of the Sony Group, which is engaged in business through its four operating segments - electronics (including video games, network services and medical business), motion pictures, music and financial services. These make Sony one of the most comprehensive entertainment companies in the world. Sony's principal business operations include Sony Corporation (Sony Electronics in the U.S.), Sony Pictures Entertainment, Sony Computer Entertainment, Sony Music Entertainment, Sony Mobile Communications (formerly [Sony Ericsson]), and Sony Financial. Sony is among the Worldwide Top 20 Semiconductor Sales Leaders and as of 2013, the fourth largest television manufacturer in the world, after [Samsung Electronics], [LG Electronics] and TCL.
-
 ===
 
 Ericsson
@@ -1327,406 +1293,339 @@ The Linux kernel API, the application programming interface (API) through which 
 
 The Linux kernel, developed by contributors worldwide, is a prominent example of free and open source software. Day-to-day development discussions take place on the Linux kernel mailing list (LKML). The Linux kernel is released under the [GNU General Public License version 2] (GPLv2), with some firmware images released under various non-free licenses.
 ===
-Retina Display is a brand name used by Apple for screens that have a higher pixel density than their previous models.[1] The terms are used for several Apple products, including the iPhone, iPod Touch, iPad, MacBook (2015 version), MacBook Pro, iPad Mini, iPad Air and iMac.[2]
 
-The goal of retina displays is to allow the extremely crisp display of text and images, allowing computer screens to rival the smooth curves and sharpness of printed text and immediacy of photographic prints, while avoiding previous compromises such as specially-designed fonts designed to render well onscreen.[3][4][5][6]
+Retina Display
+Retina Display is a brand name used by [Apple] for screens that have a higher pixel density than their previous models. The terms are used for several Apple products, including the [iPhone], [iPod Touch], [iPad], [MacBook] (2015 version), [MacBook Pro], [iPad Mini], [iPad Air] and [iMac].
 
-Because the typical viewing distance is different, depending on each device's use, the pixels per inch claiming to be of Retina quality can differ, depending on the size of the display, with higher PPI for smaller displays and lower PPI for larger displays. Later device versions have an even higher quality improvement, either counted by an increase in the PPI (the iPhone 6 Plus) and/or by an increase in the number of pixels (the iPhone 6 and 6 Plus, and iMac With Retina 5K Display), thus Apple using the name "Retina HD Display" or "Retina 5K Display".
+The goal of retina displays is to allow the extremely crisp display of text and images, allowing computer screens to rival the smooth curves and sharpness of printed text and immediacy of photographic prints, while avoiding previous compromises such as specially designed fonts designed to render well onscreen.
 
-When an Apple product has a Retina Display, each user interface widget is doubled in width and height to compensate for the smaller pixels. Apple calls this mode HiDPI mode. Apple has applied to register the term "Retina" as a trademark in regard to computers and mobile devices with the United States Patent and Trademark Office, Canadian Intellectual Property Office, and in Jamaica.[7][8] On November 27, 2012 the US Patent and Trademark office approved Apple's application and "Retina" is now a registered trademark for computer equipment.
+Because the typical viewing distance is different, depending on each device's use, the pixels per inch claiming to be of Retina quality can differ, depending on the size of the display, with higher PPI for smaller displays and lower PPI for larger displays. Later device versions have an even higher quality improvement, either counted by an increase in the PPI (the [iPhone 6 Plus]) and / or by an increase in the number of pixels (the iPhone 6 and 6 Plus, and iMac With Retina 5K Display), thus Apple using the name "Retina HD Display" or "Retina 5K Display".
+
+When an Apple product has a Retina Display, each user interface widget is doubled in width and height to compensate for the smaller pixels. Apple calls this mode HiDPI mode. Apple has applied to register the term "Retina" as a trademark in regard to computers and mobile devices with the United States Patent and Trademark Office, Canadian Intellectual Property Office, and in Jamaica. On 27 November 2012 the US Patent and Trademark office approved Apple's application and "Retina" is now a registered trademark for computer equipment.
 ===
-The iMac is a range of all-in-one Macintosh desktop computers designed and built by Apple Inc. It has been the primary part of Apple's consumer desktop offerings since its debut in August 1998 (shipped; introduced June 1998), and has evolved through six distinct forms.[1]
 
-In its original form, the iMac G3 had a gumdrop or egg-shaped look, with a CRT monitor, mainly enclosed by a colored, translucent plastic case, which was refreshed early on with a sleeker design notable for its slot-loaded optical drive. The second major revision, the iMac G4, moved the design to a hemispherical base containing all the main components and an LCD monitor on a freely moving arm attached to it. The third and fourth major revisions, the iMac G5 and the Intel iMac respectively, placed all the components immediately behind the display, creating a slim unified design that tilts only up and down on a simple metal base. The fifth major revision shared the same form as the previous model, but was thinner and used anodized aluminum and a glass panel over the entire front.
+iMac
+The iMac is a range of all-in-one [Macintosh] desktop computers designed and built by [Apple Inc]. It has been the primary part of Apple's consumer desktop offerings since its debut in August 1998 (shipped; introduced June 1998), and has evolved through six distinct forms.
 
-The newest iMac uses a different display unit, omits the SuperDrive, and uses different production techniques from the older unibody versions. This allows it to be thinner at the edge than older models, with an edge thickness of 5.9mm (but the same maximum depth). It also includes a dual microphone setup, and includes solid-state drive (SSD) or hard disk storage, or an Apple Fusion Drive, a hybrid of solid state and hard disk drives. This version of the iMac was announced on October 23, 2012, with the 21.5-inch (55 cm) version released on November 30 and the 27-inch (69 cm) version released in December; these were refreshed on September 24, 2013, with new Haswell processors, faster graphics, faster and larger SSD options and 802.11ac WiFi cards.[2]
+In its original form, the [iMac G3] had a gumdrop or egg-shaped look, with a [CRT] monitor, mainly enclosed by a coloured, translucent plastic case, which was refreshed early on with a sleeker design notable for its slot loaded optical drive. The second major revision, the [iMac G4], moved the design to a hemispherical base containing all the main components and an [LCD] monitor on a freely moving arm attached to it. The third and fourth major revisions, the [iMac G5] and the [Intel iMac] respectively, placed all the components immediately behind the display, creating a slim unified design that tilts only up and down on a simple metal base. The fifth major revision shared the same form as the previous model, but was thinner and used anodised aluminum and a glass panel over the entire front.
 
-On October 16, 2014, a new version of the 27-inch (69 cm) iMac was announced, whose main feature is a "Retina 5K" display at a resolution of 5120 x 2880 pixels. The new model also includes a new processor, graphics chip, and IO, along with several new storage options. [3]
+The newest iMac uses a different display unit, omits the SuperDrive, and uses different production techniques from the older unibody versions. This allows it to be thinner at the edge than older models, with an edge thickness of 5.9mm (but the same maximum depth). It also includes a dual microphone setup, and includes solid-state drive ([SSD]) or hard disk storage, or an Apple Fusion Drive, a hybrid of solid state and hard disk drives. This version of the iMac was announced on 23 October 2012, with the 21.5-inch (55 cm) version released on 30 November and the 27-inch (69 cm) version released in December; these were refreshed on 24 September 2013, with new Haswell processors, faster graphics, faster and larger SSD options and 802.11ac WiFi cards.
+
+On 16 October 2014, a new version of the 27-inch (69 cm) iMac was announced, whose main feature is a "Retina 5K" display at a resolution of 5120 x 2880 pixels. The new model also includes a new processor, graphics chip, and IO, along with several new storage options.
 ===
-The iMac G3 is a line of personal computers developed, manufactured, and sold by Apple Computer from 1998 until 2003. Noted for its innovative design via the use of translucent and brightly colored plastics, it was the first consumer-facing Apple product to debut under the recently returned interim CEO Steve Jobs. The iMac G3, among other factors, was responsible for Apple's turnaround from financial ruin during the late nineties and revitalized the Apple brand as design-oriented and simple. It was, nevertheless, criticized for abandoning then-current technological standards like the floppy drive and the Apple Desktop Bus connector in favor of the emerging USB standard. From its introduction in May 1998, the iMac G3 was updated over time with new hardware and colors until it was supplanted by the iMac G4, as well as the eMac.
 
-Steve Jobs reduced the company's large product lines immediately upon becoming Apple's interim CEO in 1997. Toward the end of the year, Apple trimmed its line of desktop Macs down to the beige Power Macintosh G3 series, which included the iMac's immediate predecessor, the Power Macintosh G3 All In One, which featured nearly identical specifications and was sold only to the educational market. Having discontinued the consumer-targeted Performa series, Apple needed a replacement for the Performa's price point. The company announced the iMac on May 6, 1998[1] and began shipping the iMac G3 on August 15, 1998.
+iMac G3
+The iMac G3 is a line of personal computers developed, manufactured, and sold by [Apple Computer] from 1998 until 2003. Noted for its innovative design via the use of translucent and brightly coloured plastics, it was the first consumer facing Apple product to debut under the recently returned interim CEO [Steve Jobs]. The iMac G3, among other factors, was responsible for Apple's turnaround from financial ruin during the late nineties and revitalised the Apple brand as design oriented and simple. It was, nevertheless, criticised for abandoning then current technological standards like the floppy drive and the Apple Desktop Bus connector in favor of the emerging [USB] standard. From its introduction in May 1998, the iMac G3 was updated over time with new hardware and colours until it was supplanted by the [iMac G4], as well as the [eMac].
 
-The iMac was dramatically different from any previous mainstream computer. It was made of translucent "Bondi Blue"-colored plastic, and was egg-shaped around a 14-inch (35.5 cm) CRT display. The case included a handle, and the peripheral connectors were hidden behind a door on the right-hand side of the machine. Dual headphone jacks in the front complemented the built-in stereo speakers. Sir Jonathan Ive, currently Senior Vice President of Industrial Design at Apple, is credited with the industrial design. Its unique shape and color options helped ingrain itself into late 1990s pop culture. The iMac was the first computer to exclusively offer USB ports as standard,[2] including as the connector for its new keyboard and mouse,[3] thus abandoning previous Macintosh peripheral connections, such as the ADB, SCSI and GeoPort serial ports.
+Steve Jobs reduced the company's large product lines immediately upon becoming Apple's interim CEO in 1997. Toward the end of the year, Apple trimmed its line of desktop Macs down to the beige [Power Macintosh G3] series, which included the iMac's immediate predecessor, the Power Macintosh G3 All In One, which featured nearly identical specifications and was sold only to the educational market. Having discontinued the consumer targeted Performa series, Apple needed a replacement for the Performa's price point. The company announced the iMac on 6 May 1998 and began shipping the iMac G3 on 15 August 1998.
 
-A further radical step was to abandon the 3½-inch floppy disk drive which had been present in every Macintosh since the first in 1984. Apple argued that recordable CDs, the Internet, and office networks were quickly making diskettes obsolete, however, Apple's omission generated controversy.[4] At the time of iMac's introduction, third-party manufacturers offered external USB floppy disk drives, often in translucent plastic to match the iMac's enclosure. Apple had initially announced the internal modem in the iMac would operate at only 33.6 kbit/s rather than the new 56 kbit/s speed, but was forced by consumer pressure to adopt the faster standard.
+The iMac was dramatically different from any previous mainstream computer. It was made of translucent "Bondi Blue" coloured plastic, and was egg-shaped around a 14-inch (35.5 cm) [CRT] display. The case included a handle, and the peripheral connectors were hidden behind a door on the right hand side of the machine. Dual headphone jacks in the front complemented the built-in stereo speakers. Sir Jonathan Ive, currently Senior Vice President of Industrial Design at Apple, is credited with the industrial design. Its unique shape and color options helped ingrain itself into late 1990s pop culture. The iMac was the first computer to exclusively offer USB ports as standard, including as the connector for its new keyboard and mouse, thus abandoning previous Macintosh peripheral connections, such as the ADB, SCSI and GeoPort serial ports.
+
+A further radical step was to abandon the 3½-inch floppy disk drive which had been present in every Macintosh since the first in 1984. Apple argued that recordable CDs, the Internet, and office networks were quickly making diskettes obsolete, however, Apple's omission generated controversy. At the time of iMac's introduction, third-party manufacturers offered external USB floppy disk drives, often in translucent plastic to match the iMac's enclosure. Apple had initially announced the internal modem in the iMac would operate at only 33.6 kbit/s rather than the new 56 kbit/s speed, but was forced by consumer pressure to adopt the faster standard.
 ===
-The eMac, short for education Mac, is a Macintosh desktop computer made by Apple Inc. It was originally aimed at the education market, but was later made available as a cheaper mass market alternative to Apple's second-generation LCD display iMac G4. The eMac was pulled from retail on October 12, 2005 and was sold exclusively to educational institutions thereafter. It was discontinued by Apple on July 5, 2006 and replaced by a cheaper, low-end iMac that, like the eMac, was originally sold exclusively to educational institutions.
 
-The eMac design closely resembles the first-generation iMac. Compared to the first iMac, eMacs feature a PowerPC G4 processor that is significantly faster than the previous generation G3 processors, as well as a 17-inch flat CRT display. Unlike the iMac G3, however, the eMac is not meant to be portable as it weighs 50 lb (23 kg) and lacks a carrying handle.[1]
+eMac
+The eMac, short for education Mac, is a [Macintosh] desktop computer made by [Apple Inc]. It was originally aimed at the education market, but was later made available as a cheaper mass market alternative to Apple's second-generation [LCD] display [iMac G4]. The eMac was pulled from retail on 12 October 2005 and was sold exclusively to educational institutions thereafter. It was discontinued by Apple on 5 July 2006 and replaced by a cheaper, low-end iMac that, like the eMac, was originally sold exclusively to educational institutions.
+
+The eMac design closely resembles the first generation [iMac]. Compared to the first iMac, eMacs feature a PowerPC G4 processor that is significantly faster than the previous generation G3 processors, as well as a 17-inch flat CRT display. Unlike the [iMac G3], however, the eMac is not meant to be portable as it weighs 50 lb (23 kg) and lacks a carrying handle.
 ===
-The iMac G4 is an all-in-one desktop computer produced and sold by Apple Inc. from 2002 to mid-2004, succeeding the egg-shaped iMac G3 and being succeeded by the iMac G5.
 
-The iMac G4 features an LCD display mounted on an adjustable arm above a hemisphere containing a full-size, tray-loading optical drive and a sixteenth-generation PowerPC G4 74xx-series processor. The arm allowed the display to hold almost any angle around the dome-shaped bottom. The iMac G4 was sold only in white, and was not translucent like the iMac G3. The machine was sold with the Apple Pro Keyboard and Apple Pro Mouse, which would be later redesigned and renamed the Apple Keyboard and Apple Mouse, respectively. Optional Apple Pro Speakers, which were of better quality than the internal speakers, were also available. The Apple Pro Speakers use a unique adapter, designed to work only with a select few Apple Macintosh models.
+iMac G4
+The iMac G4 is an all-in-one desktop computer produced and sold by [Apple Inc] from 2002 to mid 2004, succeeding the egg-shaped [iMac G3] and being succeeded by the [iMac G5].
 
-The iMac G4 originally included both Mac OS 9 and Mac OS X, due to the machine being released the year Mac OS 9 was discontinued. When running newer versions of Mac OS X (Tiger and Leopard), the iMac G4's GeForce4 MX GPU is not capable of Core Image rendering. This causes some minor graphical issues. One such issue would be the lack of the Dashboard ripple effect when a widget is introduced. Another would be an opaque menu bar in Mac OS X Leopard.
+The iMac G4 features an [LCD] display mounted on an adjustable arm above a hemisphere containing a full-size, tray-loading optical drive and a sixteenth generation PowerPC G4 74xx-series processor. The arm allowed the display to hold almost any angle around the dome shaped bottom. The iMac G4 was sold only in white, and was not translucent like the iMac G3. The machine was sold with the Apple Pro Keyboard and Apple Pro Mouse, which would be later redesigned and renamed the Apple Keyboard and Apple Mouse, respectively. Optional Apple Pro Speakers, which were of better quality than the internal speakers, were also available. The Apple Pro Speakers use a unique adapter, designed to work only with a select few Apple Macintosh models.
 
-It was originally known as the The New iMac, while the existing iMac G3 continued to be sold for several months. During this time, Apple had all but eliminated CRT displays from its product line. However, the LCD iMacs were unable to match the low price point of the iMac G3, largely due to the higher cost of the LCD technology at the time. The iMac G3 was obsolete by this point, but low-cost machines were particularly important for the education market. Because of this affordability issue, Apple created the eMac in April 2002 and ended production of the iMac G3. The iMac G4 was then marketed as the "iMac" until its discontinuation, then was retroactively labeled iMac G4 to distinguish itself from the succeeding iMac G5 in August 2004.
+The iMac G4 originally included both [Mac OS 9] and [Mac OS X], due to the machine being released the year Mac OS 9 was discontinued. When running newer versions of Mac OS X ([Tiger] and [Leopard]), the iMac G4's GeForce4 MX GPU is not capable of Core Image rendering. This causes some minor graphical issues. One such issue would be the lack of the Dashboard ripple effect when a widget is introduced. Another would be an opaque menu bar in Mac OS X Leopard.
 
+It was originally known as the The New iMac, while the existing iMac G3 continued to be sold for several months. During this time, Apple had all but eliminated [CRT] displays from its product line. However, the LCD iMacs were unable to match the low price point of the iMac G3, largely due to the higher cost of the LCD technology at the time. The iMac G3 was obsolete by this point, but low-cost machines were particularly important for the education market. Because of this affordability issue, Apple created the [eMac] in April 2002 and ended production of the iMac G3. The iMac G4 was then marketed as the "iMac" until its discontinuation, then was retroactively labeled iMac G4 to distinguish itself from the succeeding iMac G5 in August 2004.
 
-An iMac G4 with Apple Pro Speakers.
-Apple advertised the iMac G4 as having the adjustability of a desk lamp, and was nicknamed the "iLamp", similar to "Luxo Jr.", who was featured in a short film produced by Pixar, another venture of Apple co-founder Steve Jobs. One of the advertisements for the machine featured it sitting in a store window "reacting" to every move made by a passer-by on the street. At the end, when the man sticks out his tongue, the iMac responds by opening its optical drive.[1] It was also known as the "Sunflower".
-
-The Gateway Profile was one of the few Wintel competitors to the iMac G4 in the all-in-one LCD computer market. A reviewer noted that the Profile had better processing power, due to its Intel Pentium 4, whereas the iMac was hampered because its G4 chip lacked the 1 MB L2 cache found on the higher-end Power Mac. The iMac had clear advantages in LCD screen quality (it uses a digital LCD as opposed to an analog LCD), ergonomics (particularly the flexible monitor arm), and multimedia. The reviewer concluded that the iMac worked well as an introduction to the Macintosh ecosystem, but noted that their relatively high prices were approaching that of laptops, which are portable and have higher resolution LCD screens.[2]
+Apple advertised the iMac G4 as having the adjustability of a desk lamp, and was nicknamed the "iLamp", similar to "Luxo Jr.", who was featured in a short film produced by Pixar, another venture of Apple co-founder [Steve Jobs]. One of the advertisements for the machine featured it sitting in a store window "reacting" to every move made by a passer-by on the street. At the end, when the man sticks out his tongue, the iMac responds by opening its optical drive. It was also known as the "Sunflower".
 ===
-The iMac G5 is an all-in-one desktop computer designed and built by Apple Inc. It was the final iMac to use a PowerPC processor, making it the last model that could natively run Mac OS 9 (Classic) applications. It was replaced in 2006 by the Intel iMac.
 
-In August 2004, the iMac design was overhauled. By this time, the PowerPC 970 processor had been released and was being used in the Power Mac G5 line. Famously, the Power Mac G5 needed multiple fans in a large casing because of the high heat output from the PowerPC 970.
+iMac G5 
+The iMac G5 is an all-in-one desktop computer designed and built by [Apple Inc] It was the final iMac to use a [PowerPC] processor, making it the last model that could natively run [Mac OS 9] (Classic) applications. It was replaced in 2006 by the [Intel iMac].
 
-Apple's new iMac managed to incorporate the PowerPC 970 into an all-in-one design with a distinctive form factor. The computer used the same 17 and 20-inch widescreen LCDs found in the iMac G4, with the main logic board and optical drive now mounted directly behind the LCD panel; this gave the appearance of a thickened desktop LCD monitor. The approximately two inches deep enclosure is suspended above the desk by an aluminum arm that can be replaced by a VESA mounting plate. The iMac G5 uses an advanced cooling system controlled by the operating system; at low CPU loads this rendered the iMac G5 virtually silent. Apple boasted that it was the slimmest desktop computer on the market.
+In August 2004, the [iMac] design was overhauled. By this time, the PowerPC 970 processor had been released and was being used in the Power Mac G5 line. Famously, the Power Mac G5 needed multiple fans in a large casing because of the high heat output from the PowerPC 970.
+
+Apple's new iMac managed to incorporate the PowerPC 970 into an all-in-one design with a distinctive form factor. The computer used the same 17 and 20-inch widescreen [LCD]s found in the [iMac G4], with the main logic board and optical drive now mounted directly behind the LCD panel; this gave the appearance of a thickened desktop LCD monitor. The approximately two inches deep enclosure is suspended above the desk by an aluminum arm that can be replaced by a VESA mounting plate. The iMac G5 uses an advanced cooling system controlled by the operating system; at low CPU loads this rendered the iMac G5 virtually silent. Apple boasted that it was the slimmest desktop computer on the market.
 
 The iMac G5 was updated in March 2005 to the Ambient Light Sensor (ALS) revision. It included a handful of configuration differences - more RAM, a larger hard drive, improved graphics, Gigabit Ethernet, and standard AirPort Extreme (802.11g) and Bluetooth 2.0+EDR.
 
-In October 2005, the final revision was released, adding an integrated iSight webcam mounted above the LCD and Apple's Front Row media interface. Other improvements included faster processors, more RAM, larger hard drives, and improved graphics. Notably this became the first Apple computer to use the PCI Express expansion bus and DDR2 SDRAM, with these features appearing shortly before they were incorporated into the Power Mac G5. It was declared "The Gold Standard of desktop PCs" by Walt Mossberg of the Wall Street Journal.[1]
+In October 2005, the final revision was released, adding an integrated iSight webcam mounted above the LCD and Apple's Front Row media interface. Other improvements included faster processors, more RAM, larger hard drives, and improved graphics. Notably this became the first Apple computer to use the PCI Express expansion bus and DDR2 SDRAM, with these features appearing shortly before they were incorporated into the Power Mac G5. It was declared "The Gold Standard of desktop PCs" by Walt Mossberg of the Wall Street Journal.
 
-Although the iMac G5 iSight looked outwardly similar to the two previous revisions, it had a slimmer, internally new design. Improvements included superior cooling and performance increases. The stand could no longer be replaced with a VESA mount. This case, unlike the previous models, opened only from the front and requires the LCD screen to be removed before internal components can be accessed. Apple recommend no user serviceable items other than RAM, which is accessible through a small door at the base of the housing. In the intervening years, many guides have been posted on the internet to support replacing other components including the hard drive and optical drive, though doing so voids any remaining Apple warranty.
+Although the iMac G5 iSight looked outwardly similar to the two previous revisions, it had a slimmer, internally new design. Improvements included superior cooling and performance increases. The stand could no longer be replaced with a VESA mount. This case, unlike the previous models, opened only from the front and requires the LCD screen to be removed before internal components can be accessed. Apple recommend no user serviceable items other than RAM, which is accessible through a small door at the base of the housing. In the intervening years, many guides have been posted on the Internet to support replacing other components including the hard drive and optical drive, though doing so voids any remaining Apple warranty.
 
-The iMac G5 was succeeded by the Intel-based iMac on January 10, 2006, beginning the 6-month transition of Apple's entire line of computers to the Intel architecture.
+The iMac G5 was succeeded by the [Intel] based iMac on 10 January 2006, beginning the 6 month transition of Apple's entire line of computers to the Intel architecture.
 ===
-iMac (Intel-based)
 
-The iMac is a series of Macintosh desktop computers offered by Apple Inc. The current Apple iMac features either an Intel Core i5 or Core i7 processor, Intel Iris, Nvidia GeForce 700 Series, or AMD Radeon R9 M200 Series graphics cards, and a choice of either a 21.5" or 27" LED-LCD display.
+Intel iMAc
+The [iMac] is a series of [Macintosh] desktop computers offered by [Apple Inc]. The current Apple iMac features either an [Intel Core i5] or [Core i7] processor, Intel Iris, [Nvidia GeForce] 700 Series, or [AMD Radeon] R9 M200 Series graphics cards, and a choice of either a 21.5" or 27" LED-LCD display.
 
-Previous iMac models featured either a white polycarbonate enclosure or an aluminium enclosure. The late 2009 iMac model featured a unibody aluminium enclosure, which can still be seen on the current model. The current iMacs released in October 2012 also feature a much thinner display, with the edge measuring just 5 mm.[1]
+Previous iMac models featured either a white polycarbonate enclosure or an aluminium enclosure. The late 2009 iMac model featured a unibody aluminium enclosure, which can still be seen on the current model. The current iMacs released in October 2012 also feature a much thinner display, with the edge measuring just 5mm.
 
-At the Macworld Conference and Expo on January 10, 2006, Steve Jobs announced that the new iMac would be the first Macintosh to use an Intel CPU, the Core Duo. The introduction of the new iMac along with the Intel-based MacBook Pro signaled the start of a six-month transition from PowerPC to Intel processors.
+At the Macworld Conference and Expo on 10 January 2006, [Steve Jobs] announced that the new iMac would be the first Macintosh to use an [Intel] CPU, the Core Duo. The introduction of the new iMac along with the Intel based [MacBook Pro] signaled the start of a six month transition from [PowerPC] to Intel processors.
 
-The features, price, and case design remained unchanged from the iMac G5. The processor speed, however, according to tests run by Apple using SPEC,[2] was declared to be two to three times faster than the iMac G5.
+The features, price, and case design remained unchanged from the [iMac G5]. The processor speed, however, according to tests run by Apple using SPEC, was declared to be two to three times faster than the iMac G5.
 
-Polycarbonate iMac[edit]
+Polycarbonate iMac
+Alongside the MacBook Pro, the iMac Core Duo represents Apple's first computer to feature Intel processors instead of PowerPC processors, a transition that completed in November 2006. Since the introduction of the iMac Core Duo, other lines have followed, including the introduction of the Intel Core powered [Mac mini] on 28 February 2006, the [MacBook] consumer line of laptop computers on 16 May 2006, the [Mac Pro] on 7 August 2006, and the Xserve in November 2006, completing the Macintosh family transition to Intel processors.
 
-17-inch polycarbonate iMac
-Alongside the MacBook Pro, the iMac Core Duo represents Apple's first computer to feature Intel processors instead of PowerPC processors, a transition that completed in November 2006. Since the introduction of the iMac Core Duo, other lines have followed, including the introduction of the Intel Core-powered Mac mini on February 28, 2006, the MacBook consumer line of laptop computers on May 16, 2006, the Mac Pro on August 7, 2006, and the Xserve in November 2006, completing the Macintosh family transition to Intel processors.
+In early February 2006, Apple confirmed reports of video display problems on the new Intel based iMacs. When playing video on Apple's Front Row media browser, some 20-inch iMacs (those built-to-order with upgraded video cards) showed random horizontal lines, ghosting, video tearing and other problems. The problem was fixed with a software update.
 
-In early February 2006, Apple confirmed reports of video display problems on the new Intel-based iMacs. When playing video on Apple's Front Row media browser, some 20-inch iMacs (those built-to-order with upgraded video cards) showed random horizontal lines, ghosting, video tearing and other problems. The problem was fixed with a software update.
+In late 2006, Apple introduced a new version of the iMac which included a Core 2 Duo chip and a lower price. Apple added a new 24-inch model with IPS display and a resolution of 1920 × 1200 (WUXGA), making it the first iMac to be able to display 1080p content in its full resolution, and a VESA Flat Display Mounting Interface. Except for the 17-inch 1.83 GHz processor model, this version also included an 802.11n draft card.
 
-In late 2006, Apple introduced a new version of the iMac which included a Core 2 Duo chip and a lower price. Apple added a new 24-inch model with IPS-display and a resolution of 1920 × 1200 (WUXGA), making it the first iMac to be able to display 1080p content in its full resolution, and a VESA Flat Display Mounting Interface. Except for the 17-inch 1.83 GHz processor model, this version also included an 802.11n draft card.[3]
-
-Aluminum iMac[edit]
-
-20" Aluminum iMac
+Aluminum iMac
 In August 2007, Apple introduced a complete redesign of the iMac, featuring an aluminum, glass and plastic enclosure. There is only one visible screw on the entire computer, located at the base of the iMac for accessing the memory slots. The back is no longer removable and is now a continuation of the aluminum body from the front and sides. The 17-inch model was completely removed from the lineup.
 
-In March 2009, Apple released a minor refresh of the iMac line. Changes included a fourth USB port, removal of the FireWire 400 port, and a slightly redesigned base. The exterior design was almost identical to the older Intel-based iMacs. The models were one 20-inch configuration and three 24-inch configurations (instead of two at each screen size as before).[8]
+In March 2009, Apple released a minor refresh of the iMac line. Changes included a fourth USB port, removal of the FireWire 400 port, and a slightly redesigned base. The exterior design was almost identical to the older Intel based iMacs. The models were one 20-inch configuration and three 24-inch configurations (instead of two at each screen size as before).
 
-Apple doubled the default RAM and hard-disk size on all models, moving the RAM to the DDR3 specification. This revision also introduced a new, smaller, and more compact Apple Keyboard that excluded the numeric keypad and forward delete key in favor of the fn + Delete keys shortcut by default.[8] Users could, however, replace this version with a more traditional, full-size model with a numeric keypad by requesting Apple to build their machine to order through its online store.
+Apple doubled the default RAM and hard-disk size on all models, moving the RAM to the DDR3 specification. This revision also introduced a new, smaller, and more compact Apple Keyboard that excluded the numeric keypad and forward delete key in favor of the fn + Delete keys shortcut by default. Users could, however, replace this version with a more traditional, full-size model with a numeric keypad by requesting Apple to build their machine to order through its online store.
 
-Unibody iMac[edit]
+Unibody iMac
+In October 2009, a 16:9 aspect ratio screen was introduced in 21.5" and 27" models, replacing the 20" and 24" 16:10 aspect ratio screens of the previous generation. Video card options entirely switched to [AMD], save for the standard onboard [Nvidia] card in the base model. The iMac's processor selection saw a significant increase.
 
-27" Unibody iMac
-In October 2009, a 16:9 aspect ratio screen was introduced in 21.5" and 27" models, replacing the 20" and 24" 16:10 aspect ratio screens of the previous generation. Video card options entirely switched to AMD, save for the standard onboard Nvidia card in the base model. The iMac's processor selection saw a significant increase.
+Default RAM has also been increased across the iMac range. With the advent of the larger screens, Apple doubled the number of memory slots from two to four. Consequently, the maximum memory capacity was also doubled (to 16GB).
 
-Default RAM has also been increased across the iMac range. With the advent of the larger screens, Apple doubled the number of memory slots from two to four. Consequently, the maximum memory capacity was also doubled (to 16 GB).
+On 3 May 2011, Intel's new Core i5 and Core i7 chips, based on the [Sandy Bridge microarchitecture], became available standard. The current iMac ships with [Bluetooth] and [AirPort] cards, an internal FaceTime HD camera, a power cord, the Apple Wireless Keyboard, and the wireless [Apple Magic Mouse] or [Apple Magic Trackpad].
 
-On May 3, 2011, Intel's new Core i5 and Core i7 chips, based on the Sandy Bridge microarchitecture, became available standard. The current iMac ships with Bluetooth and AirPort cards, an internal FaceTime HD camera, a power cord, the Apple Wireless Keyboard, and the wireless Apple Magic Mouse or Apple Magic Trackpad.
-
-Slim Unibody iMac[edit]
-
-Side view of the Slim Unibody iMac
+Slim Unibody iMac
 In October 2012, a new iMac model was introduced that featured a considerably smaller body depth than the previous models, measuring 5mm at its thinnest point. This was partly achieved by using a process called Full lamination. The display and glass are laminated together eliminating a 2 mm gap between them. The 21.5 in and 27 in screens remained at their previous resolutions, 1920×1080 and 2560×1440 respectively.
 
-As with the 2009 model, memory has been upgraded; the standard specification is now 8 GB, with the 21.5 in model supporting up to 16 GB and the 27 in model supporting up to 32 GB. It was reported that the 21.5 in iMac would have non-replaceable soldered memory similar to the MacBook Air and Retina display MacBook Pro[17] though tear-downs show that it uses removable memory but accessing the modules requires ungluing the screen and removing the logic board.[18] The 27 in version features an access port to upgrade memory without disassembling the display.[19] Apple also upgraded the computers' processors, using Intel's Ivy Bridge microarchitecture-based Core i5 and Core i7 microprocessors.
+As with the 2009 model, memory has been upgraded; the standard specification is now 8GB, with the 21.5 in model supporting up to 16GB and the 27 in model supporting up to 32GB. It was reported that the 21.5 in iMac would have non-replaceable soldered memory similar to the [MacBook Air] and Retina display [MacBook Pro] though tear-downs show that it uses removable memory but accessing the modules requires ungluing the screen and removing the logic board. The 27 inch version features an access port to upgrade memory without disassembling the display. Apple also upgraded the computers' processors, using Intel's [Ivy Bridge microarchitecture] based Core i5 and Core i7 microprocessors.
 
 Video cards are now Nvidia as standard. USB 3.0 ports are now included for the first time. The 2012 iMac also features the option of a Fusion Drive which combines an SSD and a conventional HDD to create more efficient and faster storage. Apple also removed the built-in optical drive starting with this iMac generation.
 
-On March 5, 2013, Apple quietly announced an education-only version of the iMac, with less powerful specs for a cheaper price. It includes a 3.3 GHz dual-core Intel i3 processor, 4 GB of memory, a 500 GB hard drive and Intel HD Graphics 4000, retailing for US$1099, $200 cheaper than the base-level consumer iMac.[20]
+On 5 March 2013, Apple quietly announced an education only version of the iMac, with less powerful specs for a cheaper price. It includes a 3.3 GHz dual-core Intel i3 processor, 4GB of memory, a 500GB hard drive and Intel HD Graphics 4000, retailing for US$1099, $200 cheaper than the base-level consumer iMac.
 
-On September 24, 2013, the 2012 iMac model was updated with 4th-generation Intel Haswell processors and Nvidia 7xx series GPU, promising up to 1.4x improvements in performance. It also has 802.11ac Wi-Fi, which is capable of reaching speeds up to 1300 Mbit/s and PCIe-based flash storage, offering up to 1.5x the performance of previous-generation (Ivy Bridge) iMacs. This applies to both the Fusion Drive and pure-SSD options.
+On 24 September 2013, the 2012 iMac model was updated with 4th generation Intel Haswell processors and Nvidia 7xx series GPU, promising up to 1.4x improvements in performance. It also has 802.11ac Wi-Fi, which is capable of reaching speeds up to 1300 Mbit/s and PCIe-based flash storage, offering up to 1.5x the performance of previous generation (Ivy Bridge) iMacs. This applies to both the Fusion Drive and pure-SSD options.
 
-iMac with Retina 5K display[edit]
-A Retina Display "5K" model with a resolution of 5120 x 2880 was introduced alongside the previous year's models during a keynote on October 16, 2014. This 27" model was given faster Haswell processors and its two Thunderbolt ports were updated to Thunderbolt 2. Secondary storage was also upgraded to a 1TB Fusion drive as standard and video options changed over to AMD Radeon R9 M290X and M295X.
-
+iMac with Retina 5K Display
+A Retina Display "5K" model with a resolution of 5120 x 2880 was introduced alongside the previous year's models during a keynote on 16 October 2014. This 27" model was given faster Haswell processors and its two [Thunderbolt] ports were updated to Thunderbolt 2. Secondary storage was also upgraded to a 1TB Fusion drive as standard and video options changed over to [AMD Radeon] R9 M290X and M295X.
 ===
-Power Macintosh G3 beige
 
-The Power Macintosh G3, commonly called "beige G3s" or "platinum G3s" for the color of their cases, is a series of personal computers designed, manufactured, and sold by Apple Computer from November 1997 to January 1999. It was the first Macintosh to use the PowerPC G3 (PPC750) microprocessor, and replaced a number of earlier Power Macintosh models, in particular the 7300, 8600 and 9600 models. It was succeeded by the Power Macintosh G3 (Blue & White), which kept the name but introduced a radically different design. The introduction of the Desktop and Minitower G3 models coincided with Apple starting to sell user-configurable Macs directly from its web site in an online store[1] Archived May 9, 1998 at the Wayback Machine, which was innovative for the time as Dell was the only other major manufacturer then doing this.
+Power Macintosh G3 Beige
+The Power Macintosh G3, commonly called "beige G3s" or "platinum G3s" for the colour of their cases, is a series of personal computers designed, manufactured, and sold by [Apple Computer] from November 1997 to January 1999. It was the first [Macintosh] to use the PowerPC G3 (PPC750) microprocessor, and replaced a number of earlier Power Macintosh models, in particular the 7300, 8600 and 9600 models. It was succeeded by the [Power Macintosh G3 (Blue &amp; White)], which kept the name but introduced a radically different design. The introduction of the Desktop and Minitower G3 models coincided with Apple starting to sell user configurable Macs directly from its web site in an online store.
 
-The Power Mac G3 introduced a fast and large Level 2 backside cache to Apple's product lineup, running at half processor speed. As a result, these machines were widely considered to be faster than Intel PCs of similar CPU clock speed at launch, an assertion that was backed up by benchmarks performed by Byte Magazine,[2] which prompted Apple to create the "Snail" and "Toasted Bunnies" television commercials.[3][4][5]
+The Power Mac G3 introduced a fast and large Level 2 backside cache to Apple's product lineup, running at half processor speed. As a result, these machines were widely considered to be faster than Intel PCs of similar CPU clock speed at launch, an assertion that was backed up by benchmarks performed by Byte Magazine, which prompted Apple to create the "Snail" and "Toasted Bunnies" television commercials.
 
-The Power Macintosh G3 was originally intended to be a midrange series, between the low-end Performa/LC models and the six-PCI slot Power Macintosh 9600. It is the earliest Old World ROM Macintosh model officially able to boot into Mac OS X, and one of only two Old World ROM models able to boot into Mac OS X, the other model being the early PowerBook G3.
+The Power Macintosh G3 was originally intended to be a midrange series, between the low-end Performa/LC models and the six-PCI slot Power Macintosh 9600. It is the earliest Old World ROM Macintosh model officially able to boot into [Mac OS X], and one of only two Old World ROM models able to boot into Mac OS X, the other model being the early PowerBook G3.
 
-Apple developed a prototype G3-based six-slot full tower to be designated the Power Macintosh 9700. Despite demand from high-end users for more PCI slots in a G3 powered computer, Apple decided not to develop the prototype (dubbed "Power Express") into a shipping product,[6] leaving the 9600 as the last six-slot Mac Apple would ever make.
-
+Apple developed a prototype G3 based six-slot full tower to be designated the Power Macintosh 9700. Despite demand from high-end users for more PCI slots in a G3 powered computer, Apple decided not to develop the prototype (dubbed "Power Express") into a shipping product, leaving the 9600 as the last six-slot Mac Apple would ever make.
 ===
-Power Macintosh G3 (Blue & White)
 
+Power Macintosh G3 (Blue &amp; White)
+The Power Macintosh G3 series (commonly known as the "Blue and White G3", or sometimes either as the "B&W G3" or "Smurf Tower" to distinguish it from the original [Power Macintosh G3]) is a short lived series of personal computers designed, manufactured and sold by [Apple Computer Inc] as part of their Power Macintosh line. It was introduced in January 1999, succeeding the original "beige" Power Macintosh G3, with which it shared the name and processor architecture but little else; it was discontinued in favor of the Power Mac G4 line in August 1999.
 
-An open Power Macintosh G3 case, showing the logic board placement on the hinged door.
-The Power Macintosh G3 series (commonly known as the "Blue and White G3", or sometimes either as the "B&W G3" or "Smurf Tower" to distinguish it from the original Power Macintosh G3) is a short-lived series of personal computers designed, manufactured and sold by Apple Computer Inc. as part of their Power Macintosh line. It was introduced in January 1999, succeeding the original "beige" Power Macintosh G3, with which it shared the name and processor architecture but little else; it was discontinued in favor of the Power Mac G4 line in August 1999.
+The Blue & White G3 used a modified version of the memory/PCI controller, the [Motorola] MPC106 (codenamed "Grackle"); it used the MPC106 v4. The I/O "Heathrow" had been replaced by "Paddington" (adding 100 Mbit Ethernet and power save features), the audio chip "Screamer" (on the beige G3's "Personality Card") had been replaced by "Burgundy", and other controllers for Firewire (Texas Instruments PCI-Lynx), for USB etc. were added.
 
-The Blue & White G3 used a modified version of the memory/PCI controller, the Motorola MPC106 (codenamed "Grackle"); it used the MPC106 v4. The I/O "Heathrow" had been replaced by "Paddington" (adding 100 Mbit Ethernet and power save features), the audio chip "Screamer" (on the beige G3's "Personality Card") had been replaced by "Burgundy", and other controllers for Firewire (Texas Instruments PCI-Lynx), for USB etc. were added.
-
-Though still based on the PowerPC G3 architecture, the G3 B&W was a totally new design. The first new Power Mac model after the release of the iMac, it used a novel enclosure with the logic board on the folding "door", which swung down onto the desk for easy access (a design that was also used on all Power Mac G4 models except for the Cube), and borrowed the iMac's blue-and-white color scheme. It also introduced the New World ROM to the Power Macintosh line.
+Though still based on the PowerPC G3 architecture, the G3 B&W was a totally new design. The first new Power Mac model after the release of the [iMac], it used a novel enclosure with the logic board on the folding "door", which swung down onto the desk for easy access (a design that was also used on all Power Mac G4 models except for the Cube), and borrowed the iMac's blue-and-white colour scheme. It also introduced the New World ROM to the Power Macintosh line.
 ===
-The MacBook Pro (sometimes abbreviated MBP[1]) is a line of Macintosh portable computers introduced in January 2006 by Apple Inc., and now in its third generation. Replacing the PowerBook G4, the MacBook Pro was the second model, after the iMac, to be announced in the Apple–Intel transition. It is also the high-end model of the MacBook family and is currently produced with 13- and 15-inch screens, while a 17-inch version was also available in the past.
 
-The first generation MacBook Pro appeared externally similar to the PowerBook G4, but used the Intel Core processors instead of PowerPC G4 chips. The 15-inch model was released in January 2006, a 17-inch model in April, both of which received several updates and Core 2 Duo processors later in the year.
+MacBook Pro
+The MacBook Pro (sometimes abbreviated MBP) is a line of [Macintosh] portable computers introduced in January 2006 by [Apple Inc], and now in its third generation. Replacing the [PowerBook G4], the MacBook Pro was the second model, after the [iMac], to be announced in the Apple–Intel transition. It is also the high-end model of the MacBook family and is currently produced with 13 and 15 inch screens, while a 17 inch version was also available in the past.
 
-The second model, known as the "unibody" model, has a more tapered design and a casing made from a single block of aluminum. It debuted in October 2008 as the 15-inch MacBook Pro and the 13-inch aluminum unibody MacBook. The following January brought the design to the 17-inch model, along with the built-in battery that joined the rest of the MacBook Pro line in June, including the 13-inch model which Apple absorbed into the MacBook Pro line. Subsequent updates brought upgraded Intel Core i5 and i7 processors and introduced Intel's Thunderbolt technology.
+The first generation MacBook Pro appeared externally similar to the PowerBook G4, but used the [Intel Core] processors instead of [PowerPC] G4 chips. The 15 inch model was released in January 2006, a 17 inch model in April, both of which received several updates and Core 2 Duo processors later in the year.
 
-Apple released the third generation of MacBook Pro in June 2012 with a 15-inch screen. At the same time, slightly updated versions of the previous generation 13- and 15-inch unibody models were announced and sold in parallel, and the 17-inch variant was discontinued. While dimensionally smaller than its predecessor, the similarly styled third generation model retained a unibody design. The most substantial differences in the third generation MacBook Pro are the fitting of a significantly higher resolution Retina display, the elimination of the optical drive, and replacement of hard disk drives with solid-state drives. A 13-inch third generation MacBook Pro was released in October 2012.
+The second model, known as the "unibody" model, has a more tapered design and a casing made from a single block of aluminum. It debuted in October 2008 as the 15 inch MacBook Pro and the 13 inch aluminum unibody MacBook. The following January brought the design to the 17 inch model, along with the built-in battery that joined the rest of the MacBook Pro line in June, including the 13 inch model which Apple absorbed into the MacBook Pro line. Subsequent updates brought upgraded Intel Core i5 and i7 processors and introduced Intel's Thunderbolt technology.
+
+Apple released the third generation of MacBook Pro in June 2012 with a 15 inch screen. At the same time, slightly updated versions of the previous generation 13 and 15 inch unibody models were announced and sold in parallel, and the 17 inch variant was discontinued. While dimensionally smaller than its predecessor, the similarly styled third generation model retained a unibody design. The most substantial differences in the third generation MacBook Pro are the fitting of a significantly higher resolution [Retina display], the elimination of the optical drive, and replacement of hard disk drives with solid-state drives. A 13 inch third generation MacBook Pro was released in October 2012.
 ===
-The MacBook Air is a line of Macintosh ultraportable notebook computers from Apple Inc. The Air was designed to balance both performance and portability, consisting of a full-sized keyboard design, a machined casing made of aluminum, and a very light and thin structure. The MacBook Air is available in two sizes, with the length of the diagonal display determining the model size: 13.3-inch and 11.6-inch (or 33.78 cm and 29.46 cm, respectively). A range of model choices with different specifications are produced by Apple, and as of 2011, all Air models use solid-state drive (SSD) storage and Intel Core i5 or i7 central processing units (CPUs).[2]
 
-In the current Macintosh product line, the MacBook Air sits below both the thicker, higher-performance MacBook Pro and thinner, lighter new MacBook. The MacBook Air was originally released as a premium ultraportable which was positioned above the then entry-level MacBook.[3] Since then, the MacBook Air has become Apple's entry-level laptop due to the discontinuation of the original MacBook in 2011, as well as lowered prices on subsequent iterations of the MacBook Air.[4] In recent years, the MacBook Air has become the best-selling Macintosh computer and the best-selling ultraportable notebook,[5][6] being credited with revolutionizing lightweight yet powerful laptops known as Ultrabooks.[7]
+MacBook Air
+The MacBook Air is a line of [Macintosh] ultraportable notebook computers from [Apple Inc]. The Air was designed to balance both performance and portability, consisting of a full-sized keyboard design, a machined casing made of aluminum, and a very light and thin structure. The MacBook Air is available in two sizes, with the length of the diagonal display determining the model size: 13.3 inch and 11.6 inch (or 33.78 cm and 29.46 cm, respectively). A range of model choices with different specifications are produced by Apple, and as of 2011, all Air models use solid-state drive (SSD) storage and [Intel] Core i5 or i7 central processing units (CPUs).
 
+In the current Macintosh product line, the MacBook Air sits below both the thicker, higher performance [MacBook Pro] and thinner, lighter new [MacBook]. The MacBook Air was originally released as a premium ultraportable which was positioned above the then entry level MacBook. Since then, the MacBook Air has become Apple's entry-level laptop due to the discontinuation of the original MacBook in 2011, as well as lowered prices on subsequent iterations of the MacBook Air. In recent years, the MacBook Air has become the best-selling Macintosh computer and the best-selling ultraportable notebook, being credited with revolutionising lightweight yet powerful laptops known as Ultrabooks.
 ===
-The MacBook is a brand of notebook computers manufactured by Apple. from early 2006 to late 2011, and relaunched in 2015. It replaced the iBook series and 12-inch PowerBook series of notebooks as a part of the Apple-Intel transition from PowerPC. Positioned as the low end of the MacBook family, below the premium ultra-portable MacBook Air and the powerful MacBook Pro,[3] the MacBook was aimed at the consumer and education markets.[4] It was the best-selling Macintosh ever. For five months in 2008, it was the best-selling laptop of any brand in US retail stores.[5] Collectively, the MacBook brand is the "world's top-selling line of premium laptops."[6]
 
-There have been four separate designs of the MacBook. The original model used a combination of polycarbonate and fiberglass casing which was modeled after the iBook G4. The second type was introduced in October 2008 alongside the 15-inch MacBook Pro; the MacBook shared the more expensive laptop's unibody aluminum casing, but omitted FireWire, which hurt sales.[7] A third design, introduced in late 2009, had a polycarbonate unibody casing and no FireWire ports.
+MacBook
+The MacBook is a brand of notebook computers manufactured by [Apple] from early 2006 to late 2011, and relaunched in 2015. It replaced the [iBook] series and 12 inch [PowerBook] series of notebooks as a part of the Apple-Intel transition from [PowerPC]. Positioned as the low end of the MacBook family, below the premium ultra-portable [MacBook Air] and the powerful [MacBook Pro], the MacBook was aimed at the consumer and education markets. It was the best-selling Macintosh ever. For five months in 2008, it was the best-selling laptop of any brand in US retail stores. Collectively, the MacBook brand is the "world's top-selling line of premium laptops".
 
-On July 20, 2011, the MacBook was quietly discontinued for consumer purchase as it had been effectively superseded by the MacBook Air whose starting price was lowered.[8] Apple continued to sell the MacBook to educational institutions until February 2012.[1][2]
+There have been four separate designs of the MacBook. The original model used a combination of polycarbonate and fiberglass casing which was modeled after the iBook G4. The second type was introduced in October 2008 alongside the 15 inch MacBook Pro; the MacBook shared the more expensive laptop's unibody aluminum casing, but omitted [FireWire], which hurt sales. A third design, introduced in late 2009, had a polycarbonate unibody casing and no FireWire ports.
 
-A new, redesigned MacBook line was launched on March 9, 2015. Available in silver, gold or space grey, it is thinner than the MacBook Air and removes the traditional MagSafe charging port (along with all other ports, except the headphone port) in favor of the multi-purpose USB Type-C port.
+On 20 July 2011, the MacBook was quietly discontinued for consumer purchase as it had been effectively superseded by the MacBook Air whose starting price was lowered. Apple continued to sell the MacBook to educational institutions until February 2012.
+
+A new, redesigned MacBook line was launched on 9 March 2015. Available in silver, gold or space grey, it is thinner than the MacBook Air and removes the traditional MagSafe charging port (along with all other ports, except the headphone port) in favor of the multi-purpose USB Type-C port.
 
 ==
-iPad Mini (branded and marketed as iPad mini) is a line of mini tablet computers designed, developed, and marketed by Apple Inc. It is a sub-series of the iPad line of tablets, with a reduced screen size of 7.9 inches, in contrast to the standard 9.7 inches. The first generation iPad Mini was announced on October 23, 2012, and was released on November 2, 2012, in nearly all of Apple's markets.[3][4][5][6] It features similar internal specifications to the iPad 2, including its display resolution.
+iPad Mini
+iPad Miniis a line of mini tablet computers designed, developed, and marketed by [Apple Inc]. It is a sub-series of the [iPad] line of tablets, with a reduced screen size of 7.9 inches, in contrast to the standard 9.7 inches. The [first generation iPad Mini] was announced on 23 October 2012, and was released on 2 November 2012, in nearly all of Apple's markets. It features similar internal specifications to the [iPad 2], including its display resolution.
 
-The second generation iPad Mini, with a faster processor and a Retina Display, was announced on October 22, 2013 and released on November 12, 2013. The third generation iPad Mini was announced on October 16, 2014 and was released on October 24, 2014; it features the same hardware as the Mini 2 and the addition of a Touch ID fingerprint sensor compatible with Apple Pay.[7]
+The [second generation iPad Mini], with a faster processor and a [Retina Display], was announced on 22 October 2013 and released on 12 November 2013. The [third generation iPad Mini] was announced on 16 October 2014 and was released on 24 October 2014; it features the same hardware as the [Mini 2] and the addition of a Touch ID fingerprint sensor compatible with Apple Pay.
 ===
 iPad Mini (1st generation)
-From Wikipedia, the free encyclopedia
-iPad Mini
-IPadminiLogo.svg
-IPadminiBlack.png
-Slate iPad Mini
-Developer	Apple Inc.
-Manufacturer	Foxconn, Pegatron[1]
-Product family	iPad Mini
-Type	Tablet computer
-Generation	1st
-Release date	November 2, 2012
-Discontinued	June 19, 2015
-Operating system	Original: iOS 6.0
-Current: iOS 8.4, released June 30, 2015
-System-on-chip used	Apple A5 2nd Generation (32nm)
-CPU	1 GHz dual-core ARM Cortex-A9
-Memory	512 MB DDR2 RAM
-Storage	16, 32, or 64 GB flash memory[2]
-Display	7.9-inch (200 mm) diagonal LED-backlit Multi-Touch display with IPS technology
-1024 x 768 px at 163 PPI 4:3 aspect ratio
-Graphics	PowerVR SGX543MP2
-Input	Multi-touch touch screen
-Camera	Front-facing 1.2MP and rear-facing 5MP
-Connectivity	
-All models Wi-Fi 802.11 a/b/g/n @ 2.4 GHz and 5 GHz Bluetooth 4.0
-GSM LTE 700 / 2,100 (Band 4) MHz UMTS / HSPA+ / DC-HSDPA 850 / 900 / 1,900 / 2,100 MHz GSM / EDGE 850 / 900 / 1,800 / 1,900 MHz
-CDMA LTE 750 / 850 / 1,800 / 1,900 / 2,100 (Band 1) MHz CDMA / EV-DO Rev. A & B 800 / 1,900 / 2,100 MHz UMTS / HSPA+ / DC-HSDPA 850 / 900 / 1,900 / 2,100 MHz GSM / EDGE 850 / 900 / 1,800 / 1,900 MHz
-[2]
-Power	Built-in rechargable Li-Po battery
-3.72 V 16.5 W·h (4,440 mA·h),[3] 10hr life
-Online services	iTunes Store, App Store, iBookstore, Game Center, iCloud
-Dimensions	200 × 134.7 × 7.2 mm (7.87 × 5.30 × 0.28 in)
-Weight	Wi-Fi 308 g (0.679 lb)
-Wi-Fi + Cellular: 312 g (0.688 lb)
-Successor	iPad Mini 2
-Website	www.apple.com/ipad-mini/
-This article is part of a series on the
-iPad Mini
-1st generation
-2 3
-List of iPad Mini models
-v t e
-The first-generation iPad Mini (stylized and marketed as iPad mini) is a mini tablet computer designed, developed, and marketed by Apple Inc. It was announced on October 23, 2012, as the fifth major product in the iPad line and the first of the iPad Mini line, which features a reduced screen size of 7.9 inches, in contrast to the standard 9.7 inches. It features similar internal specifications to the iPad 2, including its display resolution.
+The first generation iPad Mini is a mini tablet computer designed, developed, and marketed by [Apple Inc]. It was announced on 23 October 2012, as the fifth major product in the [iPad] line and the first of the [iPad Mini] line, which features a reduced screen size of 7.9 inches, in contrast to the standard 9.7 inches. It features similar internal specifications to the [iPad 2], including its display resolution.
 
-The first generation iPad Mini received positive reviews, with reviewers praising the device's size, design, and availability of applications, while criticizing its use of a proprietary power connector, its lack of expandable storage, and the lack of Retina display.
-===
-Bottom: Silver iPad Mini 2
-Developer	Apple Inc.
-Manufacturer	Foxconn
-Product family	iPad
-Type	Tablet computer
-Release date	November 12, 2013
-Introductory price	Wi-Fi:
-16 GB: $399, 32 GB: $499,
-64 GB: $599, 128 GB: $699
-Wi-Fi + Cellular:
-16 GB: $529, 32 GB: $629,
-64 GB: $729, 128 GB: $829
-Operating system	Original: iOS 7.0
-Current: iOS 8.4, released June 30, 2015
-System-on-chip used	Apple A7 with 64-bit architecture and Apple M7 motion co-processor
-CPU	1.3 GHz dual-core Apple Cyclone[1]
-Memory	1GB LPDDR3 DRAM[2]
-Storage	16, 32, 64, and 128  GB flash memory (64 and 128 GB discontinued)
-Display	2048×1536 px (326 PPI), 7.9 in (200 mm) diagonal, 4:3 LED-backlit IPS LCD
-Graphics	PowerVR G6430 (four cluster@450 MHz)[3]
-Input	Multi-touch screen, headset controls, proximity and ambient light sensors, 3-axis accelerometer, 3-axis gyroscope, digital compass
-Camera	
-iSight Camera: 5 mega-pixels (2592x1936 px), ƒ/2.4 aperture, 1080p video.
-
-FaceTime HD Camera: 1.2MP photos, ƒ/2.4 aperture, 720p HD video.
-Connectivity	
-Wi-Fi 802.11 a/b/g/n at 2.4 GHz and 5 GHz
-Bluetooth 4.0
-
-GSM UMTS / HSDPA 850, 1700, 1900, 2100 MHz GSM / EDGE 850, 900, 1800, 1900 MHz
-CDMA CDMA/EV-DO Rev. A and B. 800, 1900 MHz
-LTE Multiple bands A1490: 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26; A1491: 1, 2, 3, 5, 7, 8, 18, 19, 20 and TD-LTE 38, 39, 40
-Power	Built-in rechargeable Li-Po battery
-3.75 V 24.3 W·h (6,471 mA·h),[2] 10hr life
-Online services	App Store, iTunes Store, iBookstore, iCloud, Game Center
-Dimensions	Height: 200 mm (7.9 in)
-Width: 134.7 mm (5.30 in)
-Depth: 7.5 mm (0.30 in)
-Weight	Wi-Fi: 331 g (0.730 lb)
-Wi-Fi + Cellular: 341 g (0.752 lb)
-Predecessor	iPad Mini (1st generation)
-Successor	iPad Mini 3
-Website	www.apple.com/ipad-mini
-
-The iPad Mini 2 (stylized and currently marketed as the iPad mini 2, previously marketed as the iPad mini with Retina display) is the second generation iPad Mini tablet computer produced and marketed by Apple Inc. It has a design almost identical to that of the first generation iPad Mini but features internal revisions such as the addition of the A7 system-on-a-chip and 2,048 x 1,536 resolution Retina Display.[4] Internally, the iPad Mini 2 has nearly the same hardware as its sibling device, the iPad Air. Apple quietly released the iPad Mini 2 in Space Gray and Silver colors on November 12, 2013.
-
-Its successor, the iPad Mini 3, was unveiled on October 16, 2014.
+The first generation iPad Mini received positive reviews, with reviewers praising the device's size, design, and availability of applications, while criticising its use of a proprietary power connector, its lack of expandable storage, and the lack of [Retina display].
 ===
 
-The iPad Mini 3 (stylized and marketed as iPad mini 3 also known as iPad mini 3 with Touch ID) is the third-generation iPad Mini tablet computer designed, developed and marketed by Apple Inc. It was announced alongside the iPad Air 2 on October 16, 2014 and then released on October 22.[2] It uses primarily the same design and hardware as that of its predecessor, the iPad Mini 2. Its new features are the addition of the Touch ID sensor compatible with Apple Pay,[2] differing storage sizes and being available in gold color, as well as the previous colors.
+iPad Mini 2
+The iPad Mini 2 is the second generation [iPad Mini] tablet computer produced and marketed by [Apple Inc]. It has a design almost identical to that of the [first generation iPad Mini] but features internal revisions such as the addition of the A7 system-on-a-chip and 2,048 x 1,536 resolution [Retina Display]. Internally, the iPad Mini 2 has nearly the same hardware as its sibling device, the [iPad Air]. Apple quietly released the iPad Mini 2 in Space Gray and Silver colours on 12 November 2013.
 
-Developer	Apple Inc.
-Manufacturer	Foxconn
-Product family	iPad
-Type	Tablet computer
-Release date	October 22, 2014
-Introductory price	Wi-Fi:
-16 GB: $399, 64 GB: $499,
-128 GB: $599
-Wi-Fi + Cellular:
-16 GB: $529, 64 GB: $629,
-128 GB: $729
-Operating system	Original: iOS 8.1
-Current: iOS 8.4, released June 30, 2015
-System-on-chip used	Apple A7 with 64-bit architecture and Apple M7 motion co-processor
-CPU	1.3 GHz dual-core Apple Cyclone
-Memory	1GB LPDDR3 DRAM[1]
-Storage	16, 64 or 128 GB flash memory
-Display	2048×1536 px (326 PPI), 7.9 in (200 mm) diagonal, 4:3 LED-backlit IPS LCD
-Graphics	PowerVR G6430 (four cluster@450 MHz)
-Input	Multi-touch screen, headset controls, M7 motion co-processor, proximity and ambient light sensors, 3-axis accelerometer, 3-axis gyroscope, digital compass, dual microphone
-Camera	Front: 1.2 MP, 720p HD
-Rear: 5.0 MP AF, iSight with Five Element Lens, Hybrid IR filter, video stabilisation, face detection, HDR, ƒ/2.4 aperture
-Connectivity	
-Wi-Fi and Wi-Fi + Cellular: Wi-Fi a/b/g/n at 2.4 GHz and 5 GHz and MIMO
-Bluetooth 4.0
-
-Wi-Fi + Cellular: GPS & GLONASS
-GSM UMTS / HSDPA 850, 1700, 1900, 2100 MHz GSM / EDGE 850, 900, 1800, 1900 MHz
-CDMA CDMA/EV-DO Rev. A and B. 800, 1900 MHz
-LTE Multiple bands
-Power	3.75 V 24.3 W·h (6,471 mA·h)[1]
-Online services	App Store, iTunes Store, iBookstore, iCloud, Game Center
-Dimensions	Height: 200 mm (7.9 in)
-Width: 134.7 mm (5.30 in)
-Depth: 7.5 mm (0.30 in)
-Weight	Wi-Fi: 331 g (0.730 lb)
-Wi-Fi + Cellular: 341 g (0.752 lb)
-Predecessor	iPad Mini 2
-Website	www.apple.com/ipad-mini
-===
-The first-generation iPad (/ˈaɪpæd/ eye-pad) is a tablet computer designed and marketed by Apple Inc. The device features an Apple A4 processor, a 9.7" touchscreen display and the capability of accessing Cellular networks, though the latter is only available on certain variants of the first generation iPad. Using the iOS operating system, the iPad can play music, send and receive email and browse the web. Other functions, which include the ability to play games and access references, GPS navigation software and social network services can be enabled by downloading apps.
-
-The device was announced and unveiled on January 27, 2010 at a media conference. On April 4, 2010, the Wi-Fi variant of the device was released in the United States, followed by the release of the Wi-Fi + Cellular variant on April 30. On May 28, it was released in Australia, Canada, France, Japan, Italy, Germany, Spain, Switzerland and the United Kingdom.
-
-The device received primarily positive reviews from various technology blogs and publications. Reviewers praised the device for its wide range of capabilities and labelled it as a competitor to laptops and netbooks. Some aspects were criticized, including the closed nature of the operating system and the lack of support for the Adobe Flash multimedia format. During the first 80 days, three million iPads were sold. By the launch of the iPad 2, Apple sold more than 15 million iPads.
-
-On March 2, 2011, Apple announced the new iPad 2 and the discontinuation of production of the original iPad.[6]
-
-Developer	Apple Inc.
-Manufacturer	Foxconn
-Product family	iPad
-Type	Tablet computer
-Release date	
-April 3, 2010[show]
-May 28, 2010[show]
-July 23, 2010[show]
-September 17, 2010[show]
-Discontinued	March 2, 2011
-Operating system	Original: iOS 3.2 (iPad software 1.0)
-Current: iOS 5.1.1, released May 7, 2012
-System-on-chip used	Apple A4[1]
-CPU	1 GHz ARM Cortex-A8[1][2]
-Memory	256 MB DDR RAM[3]
-Storage	16, 32 or 64 GB flash memory[1]
-Display	1024 × 768 px 132 PPI 4:3 aspect ratio
-9.7 in (250 mm) diagonal
-XGA, LED-backlit IPS LCD[1]
-Graphics	PowerVR SGX535[4]
-Sound	Bluetooth, speaker, microphone, headset jack[1]
-Input	Multi-touch screen, proximity and ambient light sensors, 3-axis accelerometer, digital compass[1]
-Connectivity	
-Wi-Fi 802.11 a/b/g/n
-Bluetooth 2.1 + EDR
-
-GSM models also include UMTS / HSDPA 850, 1,900, 2,100 MHz GSM / EDGE 850, 900, 1,800, 1,900 MHz)
-[1]
-Power	Built-in rechargeable Li-Po battery
-3.75 V 24.8 W·h (6,613 mA·h,[5] 10hr life[1]
-Online services	iTunes Store, App Store, iCloud, iBookstore
-Dimensions	9.56 in (243 mm) (h)
-7.47 in (190 mm) (w)
-0.50 in (13 mm) (d)[1]
-Weight	Wi-Fi: 1.5 lb (680 g)
-Wi-Fi + 3G: 1.6 lb (730 g)[1]
-Predecessor	Newton
-Successor	iPad 2
-Related articles	iPhone, iPod Touch (Comparison)
-Website	www.apple.com/ipad/
-===
-The second generation of the iPad, the iPad 2, is a tablet computer designed, developed and marketed by Apple Inc. It serves as a platform for audio-visual media including books, news, movies, music, games, presentations and web content. The iPad 2 has a lithium-ion polymer battery that lasts up to 10 hours, a dual core Apple A5 processor and was the first iPad to feature VGA front-facing and 720p rear-facing cameras designed for FaceTime video calling.
-
-The device was available initially with three storage sizes, 16, 32 and 64 GB and two varying connectivity options, Wi-Fi only or Wi-Fi and cellular. Each variation of the device is available with either a black or white front glass panel. However, upon the release of the 3rd generation iPad, only the 16 GB variation with two connectivity options and two front glass panel options is available. The iPad 2 is the first iOS device to receive six major versions of iOS: these being iOS 4, 5, 6, 7, 8, and 9.
-
-Apple unveiled the device on March 2, 2011.[7] Upon the announcement of the iPad 2, the original model of the iPad was discontinued.[8] Sales of the iPad 2 online and at retail stores began in the United States on March 11.[9] it was then released in 25 other Oceanian, North American and Western European countries on March 25 and released in eleven Asian countries as well as one African country on April 29.[10] Subsequently on May 6 and 27, the device was released in three South American, six Eastern European and three Asian countries.
-
-The device received mixed to positive reception from various blogs and publications. Although it was praised for its hardware improvement, such as the new Apple A5 chip, the software restriction on the iPad 2 and iOS in general drew criticism from various technology commentators.[11][12] The device sold well in its first month of sales with 2.4–2.6 million units sold and 11.12 million units were sold in the third quarter of 2011.[13][14]
-
-
-IPad 2.svg
-IPad 3.png
-Black iPad 2
-Developer	Apple Inc.
-Manufacturer	Foxconn
-Product family	iPad
-Type	Tablet computer
-Release date	
-March 11, 2011[show]
-March 25, 2011[show]
-April 29, 2011[show]
-May 6, 2011[show]
-May 27, 2011[show]
-Discontinued	March 18, 2014
-Operating system	Original: iOS 4.2.1
-Current: iOS 8.4, released June 30, 2015 and iOS 9 (Beta Only and only limited only to beta 2)
-System-on-chip used	Apple A5
-CPU	1 GHz dual-core ARM Cortex-A9
-Memory	512 MB DDR2 (1066 MHz RAM)[1]
-Storage	16 GB, 32 GB and 64 GB
-(Flash memory)[2]
-Display	
-9.7 inches (250 mm), 4:3, 132 ppi
-
-Resolution: 1024×768 px (XGA) (1080p – video out via Apple Digital AV Adapter; support simultaneous charging)[3]
-Graphics	PowerVR SGX543MP2[4]
-67 MPolygon/s
-2 GPixel/s fill rate
-Sound	Frequency response: 20 Hz to 20,000 Hz
-Audio Formats: HE-AAC (V1 and V2), AAC (8 to 320 kbit/s), Protected AAC (from iTunes Store), MP3 (8 to 320 kbit/s), MP3 VBR, Audible (formats 2, 3 & 4, AEA, AAX, and AAX+), Apple Lossless, AIFF, and WAV; support 5.1 Dolby Digital Surround pass-through[2]
-Input	Multi-touch touch screen, headset controls, proximity and ambient light sensors, three-axis gyroscope, microphone, magnetometer, accelerometer, assisted GPS + cellular (3G model only), micro-SIM card tray (3G-GSM model only)
-Camera	Front: Video recording, VGA up to 30 frame/s with audio, VGA-quality still camera, 0.3 MP.[2]
-Back: Video recording, 1280x720 up to 30 frame/s with audio, 960×720 still camera with 5× digital zoom, 0.7 MP.[5]
-Connectivity	Wi-Fi (802.11 a/b/g/n)
-Bluetooth 2.1 + EDR
-Wi-Fi + 3G GSM model also includes: UMTS/HSDPA
-Power	Internal rechargeable non-removable 3.8 V 25 W·h (6,944 mA·h)[6]
-Online services	iTunes Store, App Store, iBookstore, Game Center, iCloud
-Dimensions	9.50 in (241 mm) (height)
-7.31 in (186 mm) (width)
-0.34 in (8.6 mm) (depth)
-Weight	Wi-Fi model: 1.33 lb (600 g)
-Wi-Fi + 3G model (GSM): 1.35 lb (610 g)
-Predecessor	iPad (1st generation)
-Successor	iPad 3
-Related articles	iPad, iPhone, iPod touch (Comparison)
-Website	www.apple.com/ipad/ at the Wayback Machine (archived July 19, 2011)
+Its successor, the [iPad Mini 3], was unveiled on 16 October  2014.
 ===
 
+iPad Mini 3
+The iPad Mini 3 is the third generation [iPad Mini] tablet computer designed, developed and marketed by [Apple Inc]. It was announced alongside the [iPad Air 2] on 16 October 2014 and then released on 22 October. It uses primarily the same design and hardware as that of its predecessor, the [iPad Mini 2]. Its new features are the addition of the Touch ID sensor compatible with Apple Pay, differing storage sizes and being available in gold colour, as well as the previous colours.
+===
 
+First Generation iPad
+The first generation iPad is a tablet computer designed and marketed by [Apple Inc]. The device features an Apple A4 processor, a 9.7" touchscreen display and the capability of accessing Cellular networks, though the latter is only available on certain variants of the first generation iPad. Using the [iOS] operating system, the iPad can play music, send and receive email and browse the web. Other functions, which include the ability to play games and access references, GPS navigation software and social network services can be enabled by downloading apps.
+
+The device was announced and unveiled on 27 January 2010 at a media conference. On 4 April 2010, the [Wi-Fi] variant of the device was released in the United States, followed by the release of the Wi-Fi + Cellular variant on 30 April. On 28 May, it was released in Australia, Canada, France, Japan, Italy, Germany, Spain, Switzerland and the United Kingdom.
+
+The device received primarily positive reviews from various technology blogs and publications. Reviewers praised the device for its wide range of capabilities and labelled it as a competitor to laptops and netbooks. Some aspects were criticised, including the closed nature of the operating system and the lack of support for the [Adobe Flash] multimedia format. During the first 80 days, three million iPads were sold. By the launch of the [iPad 2], Apple sold more than 15 million iPads.
+
+On 2 March 2011, Apple announced the new iPad 2 and the discontinuation of production of the original iPad.
+===
+
+iPad 2
+The second generation of the iPad, the iPad 2, is a tablet computer designed, developed and marketed by [Apple Inc]. It serves as a platform for audio-visual media including books, news, movies, music, games, presentations and web content. The iPad 2 has a lithium-ion polymer battery that lasts up to 10 hours, a dual core Apple A5 processor and was the first iPad to feature VGA front-facing and 720p rear-facing cameras designed for FaceTime video calling.
+
+The device was available initially with three storage sizes, 16, 32 and 64 GB and two varying connectivity options, Wi-Fi only or Wi-Fi and cellular. Each variation of the device is available with either a black or white front glass panel. However, upon the release of the 3rd generation iPad, only the 16 GB variation with two connectivity options and two front glass panel options is available. The iPad 2 is the first [iOS] device to receive six major versions of iOS: these being iOS 4, 5, 6, 7, 8, and 9.
+
+Apple unveiled the device on 2 March 2011. Upon the announcement of the iPad 2, the original model of the iPad was discontinued. Sales of the iPad 2 online and at retail stores began in the United States on 11 March 11. it was then released in 25 other Oceanian, North American and Western European countries on 25 March and released in eleven Asian countries as well as one African country on 29 April. Subsequently on 6 and 27 May, the device was released in three South American, six Eastern European and three Asian countries.
+
+The device received mixed to positive reception from various blogs and publications. Although it was praised for its hardware improvement, such as the new Apple A5 chip, the software restriction on the iPad 2 and iOS in general drew criticism from various technology commentators. The device sold well in its first month of sales with 2.4–2.6 million units sold and 11.12 million units were sold in the third quarter of 2011.
+===
+
+iPad 3
+The third generation iPad (originally marketed as The new iPad, retrospectively marketed as the iPad 3) is a tablet computer, developed and marketed by [Apple Inc]. The third device in the [iPad] line of tablets, it added a [Retina display], the new Apple A5X chip with a quad-core graphics processor, a 5 megapixel camera, HD 1080p video recording, voice dictation, and support for LTE networks in North America. It shipped with [iOS 5.1], which also provides a platform for audio-visual media, including electronic books, periodicals, films, music, computer games, presentations and web content.
+
+In the US and Canada, nine variations of the third generation iPad were offered, compared to six in the rest of the world, although some countries had only the Wi-Fi only model. Each variation was available with black or white front glass panels, with options for 16, 32, or 64 GB of storage. In North America, connectivity options were Wi-Fi only, Wi-Fi + 4G (LTE) on Verizon, AT&amp;T, Telus, Rogers, or Bell. For the rest of the world outside North America, connectivity options are Wi-Fi only (on the Wi-Fi model) or Wi-Fi + 3G (on the Wi-Fi + Cellular model), with the latter unavailable in some countries, as 4G (LTE) connectivity for the device is not available outside North America. The Wi-Fi + Cellular model includes GPS capability.
+
+Initially, the cellular version was titled and marketed worldwide as the "Wi-Fi + 4G" model, but due to lack of 4G (LTE) connectivity outside of North America, Apple later rebranded and altered their marketing to call this the "Wi-Fi + Cellular" model.
+
+The tablet was released in ten countries on 16 March 2012. It gained mostly positive reviews, earning praise for its [Retina display], processor and 4G (LTE) capabilities. However, controversy arose when the LTE incompatibilities became known. Three million units were sold in the first three days.
+
+After only 221 days of official availability, the third generation iPad was discontinued on 23 October 2012, following the announcement of the [fourth generation] iPad.
+===
+
+iPad 4
+The fourth generation iPad (originally marketed as iPad with Retina display, retrospectively marketed as the iPad 4) is a tablet computer produced and marketed by [Apple Inc]. Compared to its predecessor, the fourth generation [iPad] maintained the [Retina Display] but featured new and upgraded components such as the Apple A6X chip, and the Lightning connector, which was introduced on 12 September 2012. It shipped with [iOS 6.0], which provides a platform for audio-visual media, including electronic books, periodicals, films, music, computer games, presentations and web content.
+
+It was announced at a media conference on 23 October 2012 as the fourth generation of the iPad line, succeeding the third generation iPad, and was first released on 2 November 2012 in thirty five countries. The device was released throughout December in ten other countries including China, India and Brazil. The third generation was discontinued following the fourth's announcement.
+
+The device is available with either a black or white front glass panel and various connectivity and storage options. Storage size options include 16GB, 32GB, 64GB, and 128GB; the available connectivity options are Wi-Fi only and Wi-Fi + Cellular with LTE capabilities.
+
+The fourth generation iPad received primarily positive reviews and was praised for its hardware improvements as well as the Retina display, which was also featured in the device's predecessor. Furthermore, benchmarks reveal that the fourth generation iPad is able to perform CPU reliant tasks twice as fast as its predecessor. During the first weekend of sales, an aggregated amount of three million fourth generation iPads and [iPad Minis] were sold.
+===
+
+iPad Air
+The iPad Air is the fifth generation [iPad] tablet computer designed, developed and marketed by [Apple Inc]. It was announced on 22 October 2013, and was released in space gray and silver colours on 1 November 2013. The iPad Air features a thinner design with similarities to the [iPad Mini], along with the same 64-bit Apple A7 processor with M7 coprocessor.
+
+Its successor, the [iPad Air 2], was unveiled on 16 October 2014.
+===
+
+iPad Air 2 
+The iPad Air 2 is the sixth generation iPad tablet computer designed, developed, and marketed by [Apple Inc]. It was announced on 16 October 2014 alongside the [iPad Mini 3] and then both were released on 22 October. The iPad Air 2 is thinner and faster than its predecessor, the iPad Air, and features Touch ID although the design, height and screen size are the same as those of the iPad Air.
+===
+
+iPhone 1
+The iPhone (retroactively labeled the original iPhone and often referred to as iPhone 1, iPhone 1G, or iPhone 2G) is a smartphone that was designed and marketed by [Apple Inc]. It is the first generation of [iPhone] and was announced on 9 January 2007 after years of rumours and speculation.
+
+It was introduced in the United States on 29 June 2007. It featured quad-band GSM cellular connectivity with GPRS and EDGE support for data transfer.
+
+On 9 June 2008, Apple announced its successor, the [iPhone 3G]. The original iPhone no longer receives software updates from Apple; its final official firmware version was iPhone OS (now iOS) 3.1.3.
+
+Since 11 June 2013, the original iPhone has been considered "obsolete" in Apple retail stores, "vintage" by other service providers in the US, and "obsolete" in all other regions. Apple does not service vintage or obsolete products, and replacement parts for obsolete products will not be available to service providers.
+===
+
+iPhone 3G
+The iPhone 3G is a smartphone that was designed and marketed by [Apple Inc]. It is the second generation of [iPhone], and was introduced on 9 June 2008, at the [WWDC] 2008 at the Moscone Center in San Francisco, United States.
+
+The iPhone 3G is internally similar to its predecessor, but includes several new hardware features, such as GPS, 3G data and tri-band UMTS/HSDPA. The device was originally loaded with the concurrently launched [iPhone OS 2.0]. In addition to other features (including push email and turn-by-turn navigation), this new operating system introduced the [App Store] Apple's new distribution platform for third-party applications.
+===
+
+iPhone 3GS
+The iPhone 3GS is a smartphone that was designed and marketed by [Apple Inc]. It is the third generation [iPhone], successor to the [iPhone 3G]. It was introduced on 8 June 2009, at the [WWDC] 2009 which took place at the Moscone Center, San Francisco.
+
+This iPhone is named "3GS" where "S" stood for Speed (Phil Schiller had mentioned it in the launch keynote). Improvements include performance, a 3-megapixel camera with higher resolution and video ability, voice control, and support for 7.2 Mbit/s HSDPA downloading (but remains limited to 384 kbps uploading as Apple had not implemented the HSUPA protocol). It was released in the U.S., Canada and six European countries on 8 June 2009, in Australia and Japan on 27 June and internationally in July and August 2009.
+
+The iPhone 3GS runs Apple's [iOS] operating system. It is controlled mostly by a user's fingertips on a multi-touch display. It was succeeded as Apple's flagship smartphone in 2010 by the [iPhone 4]; however, the 3GS continued in production until September 2012 when the [iPhone 5] was announced.
+===
+
+iPhone 4 
+The iPhone 4 is a smartphone that was designed and marketed by [Apple Inc]. Following a number of notable leaks, the iPhone 4 was first unveiled on 7 June 2010, at Apple's Worldwide Developers Conference in San Francisco, and was released on 24 June 2010, in the United States, United Kingdom, France, Germany and Japan. It is the 4th generation of iPhone, succeeding the [iPhone 3GS] and preceding the very similar [iPhone 4S].
+
+The iPhone 4 introduced a new hardware design to the iPhone line, which Apple's CEO [Steve Jobs] touted as the thinnest smartphone in the world at the time; it consisted of an uninsulated stainless steel frame which doubles as an antenna, with internal components situated between chemically strengthened aluminosilicate glass. The iPhone 4 also introduced Apple's new high-resolution "[Retina Display]"; while maintaining the same physical size and display resolution as its precursors, its liquid crystal display had a pixel density of 326 pixels per inch. The iPhone 4 also introduced Apple's A4 system-on-chip, along with [iOS 4] which notably introduced multitasking functionality and Apple's new FaceTime video chat service. The iPhone 4 was also the first iPhone to include a front-facing camera, and the first to be released in a version for CDMA networks, ending AT&amp;T's period as the exclusive carrier of iPhone products in the United States.
+
+It was succeeded as Apple's flagship smartphone in 2011 by the iPhone 4S; however, the 4 continued in production until 2013.
+
+The iPhone 4 received generally positive reception, with critics praising its revamped design and more powerful hardware in comparison to previous models. While it was a market success, with over 600,000 pre-orders within 24 hours, the release of the iPhone 4 was plagued by highly publicised reports that abnormalities in its new antenna design caused the device to lose its cellular signal if held in a certain way.
+
+The iPhone 4 spent the longest time as Apple's flagship iPhone model at fifteen months, and had the longest lifespan of any iPhone ever produced, spanning close to four years and available in some developing countries until early 2014.
+===
+
+iPhone 4S
+The iPhone 4S (retroactively stylised with a lowercase 's' as iPhone 4s as of September 2013) is a smartphone that was designed and marketed by [Apple Inc]. It is the fifth generation of the [iPhone], succeeding the [iPhone 4] and preceding the [iPhone 5]. Announced on 4 October 2011 at Apple's Cupertino campus, its media coverage was accompanied by the death of former Apple CEO and co-founder [Steve Jobs] on the following day.
+
+Available for pre-order on 7 October and coming to mainstream availability in retail stores on 14 October in the United States, Australia, Canada, the United Kingdom, France, Germany, and Japan, sales peaked over its predecessor with over a million sales in the first twenty four hours of preorder availability and over four million sales in the first four days of retail availability. Further worldwide rollout, including 22 additional countries on 28 October came over the next several months.
+
+This iPhone was named "4S" where "S" stood for Siri (Apple CEO Tim Cook confirmed that during the Q&amp;A session at the D10 conference in May 2012), an iPhone 4S exclusive intelligent personal assistant that was later included in future generations of mobile Apple products. Retaining the external design of the iPhone 4, the 4S hosted revised hardware specifications, most notably an upgrade to the Apple A5 chipset, and an 8-megapixel camera with 1080p video recording. It debuted with [iOS 5], the fifth major version of iOS, Apple's mobile operating system, that introduced features including [iCloud], iMessage, Notification Center, Reminders, and [Twitter] integration.
+
+Reception to the iPhone 4S was generally favorable. Reviewers noted [Siri], the new camera, and processing speeds as significant advantages over the prior model. It was succeeded by the iPhone 5 as Apple's flagship phone on 12 September 2012. The iPhone 4S remained in production, albeit being sold with reduced storage (from 16/32/64 GB down to 8 GB.) It was officially discontinued on 9 September 2014 following the announcement of the [iPhone 6] but is currently supported as of [iOS 9]: so the iPhone 4S is the first iPhone to support five major versions of iOS: these being iOS 5, 6, 7, 8, and 9.
+===
+
+iPhone 5
+The iPhone 5 is a smartphone that was designed and marketed by [Apple Inc]. It is the sixth generation of the [iPhone], succeeding the [iPhone 4S] and preceding the [iPhone 5S] and [iPhone 5C]. Formally unveiled as part of a press event on 12 September 2012, it was released on 21 September 2012. The iPhone 5 featured major design changes in comparison to its predecessor. These included an aluminum-based body which was thinner and lighter than previous models, a taller screen with a nearly 16:9 aspect ratio, the Apple A6 system-on-chip, LTE support, and Lightning, a new compact dock connector which replaces the 30-pin design used by previous iPhone models. This was the second Apple phone to include its new [Sony] made 8MP Camera, first introduced on the iPhone 4S.
+
+Apple began taking pre-orders on 14 September 2012, and over two million were received within 24 hours. Initial demand for the iPhone 5 exceeded the supply available at launch on 21 September 2012, and was described by Apple as "extraordinary", with pre-orders having sold twenty times faster than its predecessors. While reception to the iPhone 5 was generally positive, consumers and reviewers noted hardware issues, such as an unintended purple hue in photos taken, and the phone's coating being prone to chipping. Reception was also mixed over Apple's decision to switch to a different dock connector design, as the change affected iPhone 5's compatibility with accessories that were otherwise compatible with previous iterations of the line.
+
+The iPhone 5 was officially discontinued by Apple on 10 September 2013 with the announcement of its successor, iPhone 5S, and iPhone 5C, the latter being a lower cost variation of the iPhone 5 with similar internal hardware and plastic casing. The introduction of the 5C deviated from Apple's previous market strategy, where the previous iPhone model would remain in production, but sold at a lower price point below the new model.
+
+On 28 April 2014, Apple initiated an out of warranty recall program to replace any failing power buttons of iPhone 5 models which were manufactured prior to March 2013 at no cost. On 23 August 2014, Apple announced a program to replace batteries of iPhone 5 models that "may suddenly experience shorter battery life or need to be charged more frequently" which were sold between September 2012 and January 2013.
+===
+
+iPhone 5C
+The iPhone 5C (marketed with a stylised lowercase 'c' as iPhone 5c) is a smartphone designed and marketed by [Apple Inc]. It is one of two successors to the [iPhone 5] and one of two predecessors to the [iPhone 6], along with its higher-end counterpart, the [iPhone 5S]. Apple held an event to formally introduce the iPhone 5C and 5S on 10 September 2013, and they were released on 20 September 2013, therefore discontinuing sales of the previous iPhone 5.
+
+The 5C originally shipped with [iOS 7], Apple's mobile operating system. The current version of [iOS] for the iPhone 5C is [iOS 8.4]. The 5C uses much of the same hardware as the iPhone 5, with some iOS 7 optimisation like slightly improved battery life and software hardware colour coherence. However, there are a few differences from the iPhone 5; the 5C uses a hard-coated polycarbonate casing instead of aluminum used by the 5, along with a standard black glass front (instead of a white glass front offered on silver and gold iPhone models). The 5C lacks some of the features from the 5S; it uses the A6 chip instead of the A7 with motion co-processor, does not include Touch ID, does not support OpenGL ES 3.0, and lacked the Burst iSight camera mode and slow-motion video recording mode until [iOS 8]. Similar to the fifth generation [iPod Touch] models, the iPhone 5C is available in five colours: blue, green, pink, yellow, and white.
+
+On 9 September 2014, the 16 and 32GB iPhone 5C models were discontinued in unison with the announcement of the [iPhone 6] and [iPhone 6 Plus], and the 16 and 32GB models were replaced by the 8GB model.
+===
+
+Phone 5S
+Phone 5S is an [iOS] smartphone designed and marketed by [Apple Inc]. Apple held an event to formally introduce the high-range phone and its mid-range counterpart, the [iPhone 5C], on 10 September 2013, and they were released on 20 September 2013.
+
+As with the naming precedents of the [iPhone 3GS] and [iPhone 4S], the [iPhone 5S] is a revised version of its predecessor, [iPhone 5]. The phone maintains a very similar design to its predecessor, aside from the introduction of a new home button design using a laser-cut sapphire cover surrounded by a metallic ring, Touch ID, a fingerprint recognition system built directly into the home button which can be used to unlock the phone and authenticate [App Store] and [iTunes Store] purchases, and an updated camera with a larger aperture and a dual-LED flash optimised for different colour temperatures. It also introduced the A7 dual-core processor, the first 64-bit (ARMv8-A) processor to be used on a smartphone, accompanied by the M7 "motion co-processor", a dedicated processor for processing motion data from its accelerometer and gyroscopes without requiring the attention of the main processor. It was also the first Apple device to ship with [iOS 7], which introduced a revamped visual appearance and other new features.
+
+Reception towards the device was generally positive, with some outlets considering it to be best smartphone available on the market due to its upgraded hardware, Touch ID, and other changes introduced by iOS 7. However, others criticised iPhone 5S for being too similar to its predecessors, while others expressed security concerns about the Touch ID system. Nine million units of the iPhone 5S and iPhone 5C were sold on their weekend of release, breaking Apple's sales record for iPhones. The iPhone 5S was the best selling phone on all major U.S. carriers in September 2013.
+
+On 19 September 2014, the iPhone 5S was succeeded as Apple's flagship cellphone by the [iPhone 6] and [iPhone 6 Plus], but the older model remains available for purchase at a reduced price.
+===
+
+iPhone 6 / iPhone 6 Plus
+The iPhone 6 and iPhone 6 Plus are smartphones designed and marketed by [Apple Inc]. The devices are part of the [iPhone] series and were unveiled on 9 September 2014 and released on 19 September 2014. The iPhone 6 and iPhone 6 Plus jointly serve as successors to the [iPhone 5C] and [iPhone 5S]. The iPhone 6 and iPhone 6 Plus include a number of changes over its predecessor, including models with larger 4.7 and 5.5 inches (120 and 140 mm) displays, a faster processor, upgraded cameras, improved LTE and Wi-Fi connectivity, and support for a near-field communications-based mobile payments offering.
+
+Pre-orders of the iPhone 6 and iPhone 6 Plus exceeded four million within its first 24 hours of availability an Apple record. More than ten million iPhone 6 and iPhone 6 Plus devices were sold in the first three days, another Apple record.
+===
+
+4G
+4G, short for fourth generation, is the fourth generation of mobile telecommunications technology, succeeding [3G]. A 4G system, in addition to the usual voice and other services of 3G, provides mobile broadband Internet access, for example to laptops with wireless modems, to smartphones, and to other mobile devices. Potential and current applications include amended mobile web access, IP telephony, gaming services, high-definition mobile TV, video conferencing, 3D television, and cloud computing.
+===
+
+3G
+3G, short form of third generation, is the third generation of mobile telecommunications technology. This is based on a set of standards used for mobile devices and mobile telecommunications use services and networks that comply with the International Mobile Telecommunications-2000 (IMT-2000) specifications by the International Telecommunication Union. 3G finds application in wireless voice telephony, mobile Internet access, fixed wireless Internet access, video calls and mobile TV.
+
+3G telecommunication networks support services that provide an information transfer rate of at least 200 kbit/s. Later 3G releases, often denoted 3.5G and 3.75G, also provide mobile broadband access of several Mbit/s to smartphones and mobile modems in laptop computers. This ensures it can be applied to wireless voice telephony, mobile Internet access, fixed wireless Internet access, video calls and mobile TV technologies.
+
+A new generation of cellular standards has appeared approximately every tenth year since [1G] systems were introduced in 1981 / 1982. Each generation is characterised by new frequency bands, higher data rates and non backward compatible transmission technology. The first 3G networks were introduced in 1998 and fourth generation "[4G]" networks in 2008.
+===
+
+!G
+1G refers to the first generation of wireless telephone technology (mobile telecommunications). These are the analog telecommunications standards that were introduced in the 1980s and continued until being replaced by [2G] digital telecommunications. The main difference between the two mobile telephone systems (1G and 2G), is that the radio signals used by 1G networks are analog, while 2G networks are digital.
+
+Although both systems use digital signalling to connect the radio towers (which listen to the handsets) to the rest of the telephone system, the voice itself during a call is encoded to digital signals in 2G whereas 1G is only modulated to higher frequency, typically 150 MHz and up. The inherent advantages of digital technology over that of analog meant that 2G networks eventually replaced them almost everywhere.
+
+One such standard is NMT (Nordic Mobile Telephone), used in Nordic countries, Switzerland, the Netherlands, Eastern Europe and Russia. Others include AMPS (Advanced Mobile Phone System) used in North America and Australia, TACS (Total Access Communications System) in the United Kingdom, C-450 in West Germany, Portugal and South Africa, Radiocom 2000 in France, and RTMI in Italy. In Japan there were multiple systems. Three standards, TZ-801, TZ-802, and TZ-803 were developed by NTT (Nippon Telegraph and Telephone Corporation), while a competing system operated by DDI (Daini Denden Planning, Inc.[3]) used the JTACS (Japan Total Access Communications System) standard.
+
+The antecedent to 1G technology is the mobile radio telephone, or 0G.
+===
+
+2G
+2G is short for second generation wireless telephone technology. Second generation 2G cellular telecom networks were commercially launched on the GSM standard in Finland by Radiolinja (now part of Elisa Oyj) in 1991. Three primary benefits of 2G networks over their predecessors were that phone conversations were digitally encrypted; 2G systems were significantly more efficient on the spectrum allowing for far greater mobile phone penetration levels; and 2G introduced data services for mobile, starting with SMS text messages. 2G technologies enabled the various mobile phone networks to provide the services such as text messages, picture messages and MMS (multi media messages). All text messages sent over 2G are digitally encrypted, allowing for the transfer of data in such a way that only the intended receiver can receive and read it.
+
+After 2G was launched, the previous mobile telephone systems were retrospectively dubbed [1G]. While radio signals on 1G networks are analog, radio signals on 2G networks are digital. Both systems use digital signalling to connect the radio towers (which listen to the handsets) to the rest of the telephone system.
+
+2G has been superseded by newer technologies such as 2.5G, 2.75G, [3G], and [4G]; however, 2G networks are still used in many parts of the world.
+===

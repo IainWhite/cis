@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Bluetooth'); ?>
+        <p><strong>Bluetooth</strong> is a wireless technology standard for exchanging data over short distances (using short wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz) from fixed and mobile devices, and building personal area networks (PANs). Invented by telecom vendor [Ericsson] in 1994, it was originally conceived as a wireless alternative to [RS-232] data cables. It can connect several devices, overcoming problems of synchronisation.</p>
+        <p>Bluetooth is managed by the <?php echo $this->stencil->addLink('Bluetooth Special Interest Group', 'C'); ?> (SIG), which has more than 25,000 member companies in the areas of telecommunication, computing, networking, and consumer electronics. The <?php echo $this->stencil->addLink('IEEE', 'C'); ?> standardised Bluetooth as IEEE 802.15.1, but no longer maintains the standard. The Bluetooth SIG oversees development of the specification, manages the qualification program, and protects the trademarks. A manufacturer must make a device meet Bluetooth SIG standards to market it as a Bluetooth device. A network of patents apply to the technology, which are licensed to individual qualifying devices.</p>
+    </div>
+</div>
