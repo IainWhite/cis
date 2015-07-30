@@ -1452,7 +1452,7 @@ Pre-orders of the iPhone 6 and iPhone 6 Plus exceeded four million within its fi
 A new generation of cellular standards has appeared approximately every tenth year since [1G] systems were introduced in 1981 / 1982. Each generation is characterised by new frequency bands, higher data rates and non backward compatible transmission technology. The first 3G networks were introduced in 1998 and fourth generation "[4G]" networks in 2008.
 ===
 
-!G
+1G
 1G refers to the first generation of wireless telephone technology (mobile telecommunications). These are the analog telecommunications standards that were introduced in the 1980s and continued until being replaced by [2G] digital telecommunications. The main difference between the two mobile telephone systems (1G and 2G), is that the radio signals used by 1G networks are analog, while 2G networks are digital.
 
 Although both systems use digital signalling to connect the radio towers (which listen to the handsets) to the rest of the telephone system, the voice itself during a call is encoded to digital signals in 2G whereas 1G is only modulated to higher frequency, typically 150 MHz and up. The inherent advantages of digital technology over that of analog meant that 2G networks eventually replaced them almost everywhere.

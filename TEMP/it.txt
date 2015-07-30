@@ -1,6 +1,4 @@
 it/amazon-web-services (AWS)
-it/ascii
-it/ascii-table
 it/awards/turing-award
 it/cmyk
 it/Comma-Separated Values (CSV)
@@ -11,7 +9,6 @@ it/crc-cards
 it/csnet
 it/cygwin
 it/databases/call-level-interface
-it/databases/dba
 it/design
 it/design/font/typeface
 it/design/User Experience (UX)
@@ -21,7 +18,6 @@ it/dot-com-bubble
 it/font
 it/foss
 it/gdi
-it/hardware
 it/hardware/acorn-archimedes
 it/hardware/acorn-electron
 it/hardware/amstrad-pc1512
@@ -31,7 +27,6 @@ it/hardware/antikythera-mechanism
 it/hardware/arm-architecture
 it/hardware/bbc-domesday-project
 it/hardware/bbc-micro
-it/hardware/cobalt-raq
 it/hardware/commodore-pet
 it/hardware/cpu
 it/hardware/mac
@@ -47,10 +42,8 @@ it/hardware/phones/nokia-communicator
 it/hardware/smartphone
 it/hardware/sparc
 it/hardware/sparcstation
-it/hardware/vax
 it/hsl
 it/ims
-it/ios
 it/java-bytecode
 it/java-me
 it/jdbc
@@ -58,9 +51,7 @@ it/junit
 it/jvm
 it/latex
 it/metafont
-it/network
 it/Open Database Connectivity (ODBC)
-it/operating-systems (OS)
 it/operating-systems/centos
 it/operating-systems/cp-m
 it/operating-systems/cp-m-86
@@ -82,14 +73,12 @@ it/operating-systems/ubuntu
 it/operating-systems/vms
 it/operating-systems/windows/windows-api
 it/operating-systems/windows/windows-template-library
-it/Original Equipment Manufacturer (OEM)
 it/relational-model
 it/Request for Comments (RFC)
 it/rgb
 it/shell-scripts
 it/slackware
 it/social-networking
-it/software
 it/software-licenses
 it/software/activex
 it/software/adobe-air (was air)
@@ -134,7 +123,6 @@ it/software/midnight-commander
 it/software/mozilla-thunderbird
 it/software/norton-commander
 it/software/norton-utilities
-it/software/notepad-plus-plus
 it/software/paintshop-pro
 it/software/pc-tools
 it/software/sed
@@ -144,7 +132,6 @@ it/software/spreadsheets/multiplan
 it/software/spreadsheets/visicalc
 it/software/spreedsheets/supercalc
 it/software/visio
-it/software/visual-web-developer-express
 it/software/word-processors/ami-pro
 it/software/word-processors/microsoft-write
 it/software/word-processors/word

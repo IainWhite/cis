@@ -1,4 +1,3 @@
-
 software-development/architectural-patterns
 software-development/architectural-patterns/Blackboard pattern
 software-development/architectural-patterns/Layering
