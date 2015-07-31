@@ -27,26 +27,6 @@ Much like an extension of Google's "Knowledge Graph", Hummingbird is aimed at ma
 Hummingbird places greater emphasis on page content making search results more relevant and pertinent and ensuring that Google delivers users to the most appropriate page of a website, rather than to a home page or top level page.
 ===
 
-Sixel
-Sixel, short for "six pixels", is a bitmap graphics format supported by terminals and printers from [DEC]. It consists of a pattern six pixels high and one wide, resulting in 63 possible patterns. Each possible pattern is assigned an [ASCII] character, making the sixels easy to transmit on 7-bit serial links.
-
-Sixel was first introduced as a way of sending bitmap graphics to DEC dot matrix printers like the LA50. After being put into "sixel mode" the following data was interpreted to directly control six of the pins in the nine pin print head. A string of sixel characters encodes a single 6 pixel high row of the image.
-
-The system was later re-used as a way to send bitmap data to the [VT200] series terminals as a way to define custom character sets. A number of sixels were used to define each character. Starting with the [VT300] series, the terminals could decode a complete sixel image to the screen, like those previously sent to printers.
-
-Sixel encodes images by breaking up the bitmap into a series of 6 pixel high horizontal strips. Each 1 pixel wide vertical column in a particular strip forms a single sixel. Each sixel's pixels are read as binary and encoded into a single 6 bit number, with "on" pixels encoded as a 1. This number, from 0 to 63 decimal, is then converted into a single ASCII character, offset by 63 so that an all-black sixel, 0 decimal, is encoded as ?. This ensures that the sixels remain within the easily printable range of the character set. Carriage return (CR) is represented by $, and line feeds (LF) with a -, both had to be sent in turn to return the cursor to the start of the line, CRLF.
-
-Sixel also included a rudimentary form of compression, using Run Length Encoding ([RLE]). This was accomplished with the ! character followed by a decimal number of the times to repeat, and then a single sixel character to be repeated. Since the ! and decimal digits could not be valid sixel data, lying outside the encoded range, the encoding was easy to identify and expand back out in software.
-
-"Sixel mode" was entered by sending the sequence <ESC>Pp1;p2;p3;q. The p1 through p3 were optional setup parameters, with p1 defining an aspect ratio (deprecated in favor of p3), p2 how to interpret the color of zeros, and p3 with simple grid size parameters. <ESC>P is the standard DEC "Device Control String", or DCS, which was used to turn on or off a number of special features in DEC's equipment. The "q" is the sixel identifier. Sixel data then followed the q. The "Stop Text" sequence <ESC>\ returned the device back to normal character mode again.
-
-For printing, sixels are sent to the printer, decoded back into binary, and sent directly to the six pins of the print head. The only complexity involved expanding the RLE's into the internal print buffer. Display on a terminal is somewhat more difficult. On terminals supporting graphics, the [ReGIS] graphics system was used to directly draw the sixel pattern into the screen's bitmap. This was done at high speed by storing the bitmap patterns as a glyph and then bitting them.
-
-When used for defining custom character sets the format was almost identical, although the escape codes changed. In terms of the data, the only major difference was the replacement of the separate CR/LF with a single /. In the VT300 series for instance, 80-column character glyphs were 15 pixels wide by 12 high, meaning that a character could be defined by sending a total of 30 sixels.
-
-Colour was also supported using the # character, followed by a number referring to one of a number of colour registers, which varied from device to device. Colours were defined using either [RGB] or [HSV] values in a peculiar DEC format. On a printer, a line of sixels was sent several times, each representing a single bitplane from the register based colours on the terminals (normally 2 or 4 bits). For non-graphics terminals, colour was simply dropped. Since the capabilities of the hardware varied widely, a colour sixel drawing could only be output to targeted devices.
-===
-
 Run Length Encoding (RLE) 
 Run Length Encoding (RLE) is a very simple form of data compression in which runs of data (that is, sequences in which the same data value occurs in many consecutive data elements) are stored as a single data value and count, rather than as the original run. This is most useful on data that contains many such runs. Consider, for example, simple graphic images such as icons, line drawings, and animations. It is not useful with files that don't have many runs as it could greatly increase the file size.
 
@@ -1439,12 +1419,6 @@ After 2G was launched, the previous mobile telephone systems were retrospectivel
 2G has been superseded by newer technologies such as 2.5G, 2.75G, [3G], and [4G]; however, 2G networks are still used in many parts of the world.
 ===
 
-Atlassian
-Atlassian is an Australian enterprise software company that develops products geared towards software developers and project managers. It is best known for its issue tracking application, [JIRA], and its team collaboration product, [Confluence]. Atlassian serves over 35,000 customers globally, including 85 of the Fortune 100.
-
-Atlassian is headquartered in Sydney, Australia. It also has offices in Amsterdam, San Francisco, Austin and Tokyo. As of September 2014, the company has over 1,148 employees, offices in 12 cities, over 40,000 customers and many millions of users. On 14 February 2014, Atlassian president Jay Simons announced the opening of an Austin office that will eventually employ 600 people.
-===
-
 Confluence
 Confluence is team collaboration software. Written in [Java] and mainly used in corporate environments, it is developed and marketed by [Atlassian]. Confluence is sold as either on premises software or as a hosted solution.
 
@@ -1475,19 +1449,5 @@ Bitbucket
 Bitbucket is a web based hosting service for projects that use either the [Mercurial] (since launch) or [Git] (since October 2011) revision control systems. Bitbucket offers both commercial plans and free accounts. It offers free accounts with an unlimited number of private repositories (which can have up to five users in the case of free accounts) as of September 2010, but by inviting three users to join Bitbucket, three more users can be added, for eight users in total. Bitbucket is written in [Python] using the [Django] web framework.
 
 It is similar to [GitHub], which primarily uses Git. In a 2008 blog post, Bruce Eckel compared Bitbucket favorably to Launchpad, which uses [Bazaar].
-===
-
-Bazaar
-GNU Bazaar (formerly Bazaar-NG, command line tool bzr) is a distributed revision control system sponsored by Canonical.
-
-Bazaar can be used by a single developer working on multiple branches of local content, or by teams collaborating across a network.
-
-Bazaar is written in the [Python] programming language, with packages for major [GNU/Linux] distributions, [Mac OS X] and [Microsoft Windows]. Bazaar is free software and part of the [GNU Project].
-===
-
-Flex
-Apache Flex, formerly Adobe Flex, is a software development kit (SDK) for the development and deployment of cross-platform rich Internet applications based on the [Adobe Flash] platform. Initially developed by [Macromedia] and then acquired by [Adobe Systems], Flex was donated by [Adobe] to the [Apache Software Foundation] in 2011 and promoted to a top-level project in December 2012.
-
-The Flex 3 SDK was released under the open source [Mozilla Public License] in 2008. Consequently, Flex applications can be developed using standard IDEs, for example [IntelliJ IDEA], [Eclipse], the free and open source IDE FlashDevelop, as well as the proprietary Adobe Flash Builder. The latest version of the SDK is version 4.14.1.
 ===
 
