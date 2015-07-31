@@ -972,10 +972,6 @@ ATI Rage
 The ATI Rage is a series of graphics chipsets offering GUI 2D acceleration, video acceleration, and 3D acceleration. It is the successor to the Mach series of 2D accelerators.
 ===
 
-AirPlay
-AirPlay is a proprietary protocol stack / suite developed by [Apple Inc] that allows wireless streaming between devices of audio, video, device screens, and photos, together with related metadata. Originally implemented only in Apple's software and devices, it was called AirTunes and used for audio only. Apple has since licensed the AirPlay protocol stack as a third-party software component technology to manufacturer partners for them to use in their products in order to be compatible with Apple's devices.
-===
-
 RealPlayer
 RealPlayer, formerly RealAudio Player, RealOne Player and RealPlayer G2, is a cross-platform media player app, developed by RealNetworks. The media player is compatible with numerous container file formats of the multimedia realm, including MP3, MP4, [QuickTime] File Format, Windows Media format, and the proprietary RealAudio and RealVideo formats. RealPlayer is also available for other operating systems ([OS]) and [Linux], [Unix], Palm OS, [Windows Mobile] and Symbian versions have been released.
 
@@ -1066,20 +1062,6 @@ iOS 9
 [Apple] announced iOS 9 on 8 June 2015 at its annual Apple Worldwide Developers Conference ([WWDC]) event, with release announced for sometime in Fall (Northern Hemisphere) or Spring (Southern Hemisphere) 2015. With this release, Apple did not drop support for any iOS devices, with all devices supporting iOS 8 being eligible for an upgrade. Supported devices on this release include the [iPhone 4S] onwards, [iPod Touch] (5th generation) onwards, the [iPad 2] onwards, and the [iPad Mini] (1st generation) onwards. The iPad 2 is also the first iOS device to support 6 major releases of iOS, supporting iOS 4, 5, 6, 7, 8, and 9. This is the greatest amount of major iOS releases a single iOS device has supported, surpassing the iPhone 4S which supports 5 major releases (iOS 5, 6, 7, 8, and 9) and iPod Touch 5th Generation supports 4 major releases (iOS 6, 7, 8, and 9). However, iOS 9 has limited support for the iPad 2, iPhone 4S, the iPad Mini (1st Generation), and the iPod touch 5th Generation. iOS 9 is currently in the beta stage with the latest beta being iOS 9.0 beta 3. Apple released a public beta similar to OS X El Capitan to users willing to test the beta on 8 July 2015.
 ===
 
-Apple Worldwide Developers Conference (WWDC)
-The Apple Worldwide Developers Conference (WWDC), is a conference held annually in California by [Apple Inc]. The conference is used by Apple to showcase its new software and technologies for software developers. Attendees can participate in hands-on labs with Apple engineers, as well as in-depth sessions that cover a wide variety of topics. Until 2007, the number of attendees varied between 2,000 and 4,200; however, during WWDC 2007, [Steve Jobs] noted that there were more than 5,000 attendees. The WWDC events held from 2008 to 2015 were capped, and sold out at 5,000 attendees (5,200 including special attendees).
-===
-
-iCloud
-iCloud is a cloud storage and cloud computing service from [Apple Inc] launched on 12 October 2011. As of July 2013, the service had 320 million users.
-
-The service provides its users with means to store data such as documents, photos, and music on remote servers for download to [iOS], [Macintosh] or [Windows] devices, to share and send data to other users, and to manage their Apple devices if lost or stolen.
-
-The service also provides the means to wirelessly back up iOS devices directly to iCloud, instead of being reliant on manual backups to a host Mac or Windows computer using [iTunes]. Service users are also able to share photos, music, and games instantly by linking accounts via [AirDrop] wireless.
-
-It replaced Apple's MobileMe service, acting as a data syncing center for email, contacts, calendars, bookmarks, notes, reminders (to-do lists), iWork documents, photos and other data.
-===
-
 Android 1.0
 Android 1.0, the first commercial version of the software, was released on 23 September 2008. The first commercially available Android device was the [HTC] Dream. 
 
@@ -1128,20 +1110,6 @@ Google Nexus
 Google Nexus is a line of consumer electronic devices that run the [Android] operating system. Google manages the design, development, marketing, and support of these devices, but some development and all manufacturing are carried out by partnering original equipment manufacturers (OEMs). The product family consists mostly of mobile devices six smartphones and four tablet computers have been released to date. As of April 2015, the devices currently available in the line are the Nexus 6 smartphone (made with Motorola Mobility), Nexus 9 tablet (made with HTC), and Nexus Player digital media player (made with Asus).
 
 Devices in the Nexus line are considered Google's flagship Android products. They contain little to no manufacturer or wireless carrier modifications to Android (such as custom graphical user interfaces), although devices sold through carriers are sometimes SIM locked and may bear some extra branding. Nexus 6 devices sold through AT&amp;T, for example, are SIM locked and feature a custom boot splash screen and a logo on the back of the device, despite having otherwise identical hardware to the unlocked variant. The Verizon Galaxy Nexus featured a Verizon logo on the back and received software updates at a slower pace than the unlocked variant, though it featured different hardware to accommodate Verizon's CDMA network. All Nexus devices feature an unlock-able boot-loader to allow further development and end user modification. Nexus devices are often among the first Android devices to receive updates to the operating system.
-===
-
-HTC Corporation
-HTC Corporation formerly High-Tech Computer Corporation, is a Taiwanese multinational manufacturer of smartphones and tablets headquartered in New Taipei City, Taiwan. Founded in 1997, HTC began as an original design manufacturer and original equipment manufacturer, designing and manufacturing devices such as mobile phones, touchscreen phones, and PDAs based on [Windows Mobile OS] and Brew MP to market to mobile network operators who were willing to pay a contract manufacturer for customised products. After initially making smartphones based mostly on Windows Mobile, HTC expanded its focus in 2009 to devices based on the [Android], and in 2010 to Windows Phone. As of 2011, HTC primarily releases and markets its smartphones under the HTC brand, ranking as the 98th top brand on Interbrand's Best Global Brands 2011 report. A September 2013 media report stated that HTC's share of the global smartphone market is less than 3 percent. However a report published in April 2015 states that the market share has risen to 7.2 percent due to its strong sales of the HTC One M8 and Desire series. The stock price has fallen by 90 percent since 2011.
-
-HTC is a founding member of the [Open Handset Alliance], a group of handset manufacturers and mobile network operators dedicated to the development of the Android mobile device platform. The HTC Dream, marketed by T-Mobile in many countries as the T-Mobile G1 or Era G1, was the first phone on the market to use the Android mobile device platform.
-===
-
-Sony Ericsson
-Sony Mobile Communications Inc (formerly Sony Ericsson) is a multinational mobile phone manufacturing company jointly headquartered in Tokyo, Japan, and Lund, Sweden, and is a wholly owned subsidiary of [Sony Corporation]. It was founded on 1 October 2001 as a joint venture between Sony and the Swedish telecommunications equipment company Ericsson, under the name Sony Ericsson. Sony acquired Ericsson's share in the venture on 16 February 2012.
-
-Sony Mobile Communications has research and development facilities in Tokyo, Japan; Chennai, India; Lund, Sweden; Beijing, China and Silicon Valley, United States. Sony Mobile was the fourth largest smartphone manufacturer by market share in the fourth quarter of 2012 with 9.8 million units shipped.
-
-The current flagship device of Sony is the Sony Xperia Z3+, a smartphone that is water and dust proof with an IP68 rating, an octa-core 2 GHz Krait Processor, Qualcomm Snapdragon 810 Chipset, Android 5.0 OS, and a 20.7 megapixel 4K camera that has a G Lens, Exmor RS, and BIONZ image processor.
 ===
 
 iMac
@@ -1292,6 +1260,7 @@ iPad Miniis a line of mini tablet computers designed, developed, and marketed by
 
 The [second generation iPad Mini], with a faster processor and a [Retina Display], was announced on 22 October 2013 and released on 12 November 2013. The [third generation iPad Mini] was announced on 16 October 2014 and was released on 24 October 2014; it features the same hardware as the [Mini 2] and the addition of a Touch ID fingerprint sensor compatible with Apple Pay.
 ===
+
 iPad Mini (1st generation)
 The first generation iPad Mini is a mini tablet computer designed, developed, and marketed by [Apple Inc]. It was announced on 23 October 2012, as the fifth major product in the [iPad] line and the first of the [iPad Mini] line, which features a reduced screen size of 7.9 inches, in contrast to the standard 9.7 inches. It features similar internal specifications to the [iPad 2], including its display resolution.
 
@@ -1468,5 +1437,57 @@ The antecedent to 1G technology is the mobile radio telephone, or 0G.
 After 2G was launched, the previous mobile telephone systems were retrospectively dubbed [1G]. While radio signals on 1G networks are analog, radio signals on 2G networks are digital. Both systems use digital signalling to connect the radio towers (which listen to the handsets) to the rest of the telephone system.
 
 2G has been superseded by newer technologies such as 2.5G, 2.75G, [3G], and [4G]; however, 2G networks are still used in many parts of the world.
+===
+
+Atlassian
+Atlassian is an Australian enterprise software company that develops products geared towards software developers and project managers. It is best known for its issue tracking application, [JIRA], and its team collaboration product, [Confluence]. Atlassian serves over 35,000 customers globally, including 85 of the Fortune 100.
+
+Atlassian is headquartered in Sydney, Australia. It also has offices in Amsterdam, San Francisco, Austin and Tokyo. As of September 2014, the company has over 1,148 employees, offices in 12 cities, over 40,000 customers and many millions of users. On 14 February 2014, Atlassian president Jay Simons announced the opening of an Austin office that will eventually employ 600 people.
+===
+
+Confluence
+Confluence is team collaboration software. Written in [Java] and mainly used in corporate environments, it is developed and marketed by [Atlassian]. Confluence is sold as either on premises software or as a hosted solution.
+
+Confluence 1.0 was released on 25 March 2004. The stated purpose of version 1.0 was "to build an application that was built to the requirements of an enterprise knowledge management system, without losing the essential, powerful simplicity of the wiki in the process".
+
+In recent versions, Confluence has evolved into part of an integrated collaboration platform, and has been adapted to work in conjunction with [JIRA] and other Atlassian software products: FishEye, Clover, Crucible, [Bamboo] and Crowd.
+
+In 2014, Confluence Data Center was released, to offer customers high availability with load balancing across nodes in a clustered setup.
+===
+
+HipChat
+HipChat is a Web service for internal / private chat and [instant messaging]. As well as one-on-one and group / topic chat, it also features cloud-based file storage, video calling, searchable message history and inline image viewing. HipChat is available to download onto computers running [Windows], [Mac] or [Linux], as well as [Android] and [iOS] smartphones and tablets. HipChat is currently based on a freemium model, as much of the service is free with some additional features requiring organisations to pay $2 per user per month.
+
+Having launched in January 2010, HipChat was founded by Chris Rivers, Garret Heaton and Pete Curley, the trio behind HipCal and Plaxo Pulse. HipChat was later acquired by [Atlassian] in March 2012.
+
+HipChat has surpassed the billion message mark and has entered a cycle of exponential growth, as the number of messages has doubled every few months. As of January 2014, it was estimated that the service handles 60 messages per second and boasts 1.2 billion messages stored and half a terabyte of searchable data. HipChat is mainly written in [PHP] and [Python] using the Twisted framework, but features an extensive platform that utilizes numerous third-party services.
+===
+
+Bamboo
+Bamboo is a continuous integration server from [Atlassian], the makers of [JIRA], [Confluence] and Crowd.
+
+Bamboo is free for philanthropic and open-source projects. Commercial organisations are charged based on the number of build agents needed. Academic organisations receive a 50% discount on licensing costs under Atlassian's academic licensing program.
+
+Bamboo supports builds in any programming language using any build tool, including [Ant], [Maven], [make], and any command line tools. Build notifications can be customised based on the type of event, and received via email, instant message, RSS, or pop-up windows in Eclipse based IDEs and [IntelliJ IDEA].
+===
+
+Bitbucket
+Bitbucket is a web based hosting service for projects that use either the [Mercurial] (since launch) or [Git] (since October 2011) revision control systems. Bitbucket offers both commercial plans and free accounts. It offers free accounts with an unlimited number of private repositories (which can have up to five users in the case of free accounts) as of September 2010, but by inviting three users to join Bitbucket, three more users can be added, for eight users in total. Bitbucket is written in [Python] using the [Django] web framework.
+
+It is similar to [GitHub], which primarily uses Git. In a 2008 blog post, Bruce Eckel compared Bitbucket favorably to Launchpad, which uses [Bazaar].
+===
+
+Bazaar
+GNU Bazaar (formerly Bazaar-NG, command line tool bzr) is a distributed revision control system sponsored by Canonical.
+
+Bazaar can be used by a single developer working on multiple branches of local content, or by teams collaborating across a network.
+
+Bazaar is written in the [Python] programming language, with packages for major [GNU/Linux] distributions, [Mac OS X] and [Microsoft Windows]. Bazaar is free software and part of the [GNU Project].
+===
+
+Flex
+Apache Flex, formerly Adobe Flex, is a software development kit (SDK) for the development and deployment of cross-platform rich Internet applications based on the [Adobe Flash] platform. Initially developed by [Macromedia] and then acquired by [Adobe Systems], Flex was donated by [Adobe] to the [Apache Software Foundation] in 2011 and promoted to a top-level project in December 2012.
+
+The Flex 3 SDK was released under the open source [Mozilla Public License] in 2008. Consequently, Flex applications can be developed using standard IDEs, for example [IntelliJ IDEA], [Eclipse], the free and open source IDE FlashDevelop, as well as the proprietary Adobe Flash Builder. The latest version of the SDK is version 4.14.1.
 ===
 
