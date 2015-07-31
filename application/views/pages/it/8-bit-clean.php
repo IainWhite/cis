@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('8-bit Clean'); ?>
+        <p><strong>8-bit clean</strong> describes a computer system that correctly handles <?php echo $this->stencil->addLink('8-bit', 'IT'); ?> character encodings, such as the <?php echo $this->stencil->addLink('ISO 8859', 'IT'); ?> series and the <?php echo $this->stencil->addLink('UTF-8', 'IT'); ?> encoding of <?php echo $this->stencil->addLink('Unicode', 'IT'); ?>.</p>
+        <p>Up to the early 1990s, many programs and data transmission channels assumed that all characters would be represented as numbers between 0 and 127 (7 bits). On computers and data links using 8-bit bytes this left the top bit of each byte free for use as a parity, flag bit, or meta data control bit. 7-bit systems and data links are unable to handle more complex character codes which are commonplace in non-English speaking countries with larger alphabets.</p>
+        <p>Binary files cannot be transmitted through 7-bit data channels directly. To work around this, binary-to-text encodings have been devised which use only 7-bit <?php echo $this->stencil->addLink('ASCII', 'IT'); ?> characters. Some of these encodings are uuencoding, Ascii85, SREC, BinHex, kermit and <?php echo $this->stencil->addLink('MIME', 'IT'); ?>'s <?php echo $this->stencil->addLink('Base64', 'IT'); ?>. EBCDIC-based systems cannot handle all characters used in UUencoded data. However, the base64 encoding does not have this problem.</p>
+    </div>
+</div>

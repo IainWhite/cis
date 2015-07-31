@@ -9,24 +9,6 @@ WebGL
 WebGL (Web Graphics Library) is a [JavaScript] API for rendering interactive 3D computer graphics and 2D graphics within any compatible web browser without the use of plug-ins. WebGL is integrated completely into all the web standards of the browser allowing GPU accelerated usage of physics and image processing and effects as part of the web page canvas. WebGL elements can be mixed with other [HTML] elements and composited with other parts of the page or page background. WebGL programs consist of control code written in JavaScript and shader code that is executed on a computer's Graphics Processing Unit (GPU). WebGL is designed and maintained by the non-profit Khronos Group.
 ===
 
-Google Hummingbird
-Google Hummingbird is a search algorithm used by [Google].
-
-Google started using Hummingbird about 30 August 2013, and announced the change on 26 September on the eve of the company's 15th anniversary.
-
-Gianluca Fiorelli said Hummingbird is about synonyms but also about context. Google always had synonyms, he writes, but with Hummingbird it is also able to judge context - thereby judging the intent of a person carrying out a search, to determine what they are trying to find out. This concept is called semantic search.
-
-Danny Sullivan said of Hummingbird, "Google said that Hummingbird is paying more attention to each word in a query, ensuring that the whole query — the whole sentence or conversation or meaning — is taken into account." Michelle Hill said Hummingbird is about "understanding intent". Steve Masters wrote, "The Hummingbird approach should be inspirational to anyone managing and planning content — if you aren't already thinking like Hummingbird, you should be. In a nutshell, think about why people are looking for something rather than what they are looking for. A content strategy should be designed to answer their needs, not just provide them with facts".
-
-The Hummingbird update was the first major update to Google's search algorithm since the 2010 “Caffeine Update”, but even that was limited primarily to improving the indexing of information rather than the sorting of information. Google search chief Amit Singhal stated that Hummingbird is the first major update of its type since 2001.
-
-Conversational search leverages natural language, semantic search, and more to improve the way search queries are parsed. Unlike previous search algorithms which would focus on each individual word in the search query, Hummingbird considers each word but also how each word makes up the entirety of the query — the whole sentence or conversation or meaning — is taken into account, rather than particular words. The goal is that pages matching the meaning do better, rather than pages matching just a few words.
-
-Much like an extension of Google's "Knowledge Graph", Hummingbird is aimed at making interactions more human — capable of understanding the concepts and relationships between keywords.
-
-Hummingbird places greater emphasis on page content making search results more relevant and pertinent and ensuring that Google delivers users to the most appropriate page of a website, rather than to a home page or top level page.
-===
-
 Run Length Encoding (RLE) 
 Run Length Encoding (RLE) is a very simple form of data compression in which runs of data (that is, sequences in which the same data value occurs in many consecutive data elements) are stored as a single data value and count, rather than as the original run. This is most useful on data that contains many such runs. Consider, for example, simple graphic images such as icons, line drawings, and animations. It is not useful with files that don't have many runs as it could greatly increase the file size.
 
@@ -77,34 +59,6 @@ Such "[extended ASCII]" sets were common (the National Replacement Character Set
 
 Extended ASCII
 Extended ASCII (or high ASCII) is [8-bit] or larger character encodings that include the standard 7-bit [ASCII] characters as well as others. The use of the term is sometimes criticised, because it can be mistakenly interpreted that the ASCII standard has been updated to include more than 128 characters or that the term unambiguously identifies a single encoding, both of which are untrue.
-===
-
-Glyph
-In typography, a glyph is an elemental symbol within an agreed set of symbols, intended to represent a readable character for the purposes of writing and thereby expressing thoughts, ideas and concepts. As such, glyphs are considered to be unique marks that collectively add up to the spelling of a word, or otherwise contribute to a specific meaning of what is written, with that meaning dependent on cultural and social usage.
-
-For example, in most languages written in any variety of the Latin alphabet the dot on a lower-case i is not a glyph because it does not convey any distinction, and an i in which the dot has been accidentally omitted is still likely to be recognised correctly. In Turkish, however, it is a glyph because that language has two distinct versions of the letter i, with and without a dot.
-
-In Japanese syllabaries, a number of the characters are made up of more than one separate mark, but in general these separate marks are not glyphs because they have no meaning by themselves. However, in some cases, additional marks fulfil the role of diacritics, to differentiate distinct characters. Such additional marks constitute glyphs.
-
-In general, a diacritic is a glyph, even if (like a cedilla in French, the ogonek in several languages or the stroke on a Polish "Ł") it is "joined up" with the rest of the character.
-
-Some characters, such as "æ" in Icelandic and the "ß" in German, would probably be regarded as glyphs: they were originally ligatures but over time have become characters in their own right, and these languages treat them as separate letters. However, a ligature such as "ſi", which is treated in some typefaces as a single unit, is arguably not a glyph as this is just a quirk of the typeface, essentially an allographic feature, and includes more than one grapheme. In normal handwriting, even long words are often written "joined up", without the pen leaving the paper, and the form of each written letter will often vary depending on which letters precede and follow it, but that does not make the whole word into a single glyph.
-
-Two or more glyphs which have the same significance, whether used interchangeably or chosen depending on context, are called allographs of each other.
-===
-
-8-bit Clean
-8-bit clean describes a computer system that correctly handles [8-bit] character encodings, such as the [ISO 8859] series and the [UTF-8] encoding of [Unicode].
-
-Up to the early 1990s, many programs and data transmission channels assumed that all characters would be represented as numbers between 0 and 127 (7 bits). On computers and data links using 8-bit bytes this left the top bit of each byte free for use as a parity, flag bit, or meta data control bit. 7-bit systems and data links are unable to handle more complex character codes which are commonplace in non-English speaking countries with larger alphabets.
-
-Binary files cannot be transmitted through 7-bit data channels directly. To work around this, binary-to-text encodings have been devised which use only 7-bit [ASCII] characters. Some of these encodings are uuencoding, Ascii85, SREC, BinHex, kermit and [MIME]'s [Base64]. EBCDIC-based systems cannot handle all characters used in UUencoded data. However, the base64 encoding does not have this problem.
-===
-
-RS-232
-In telecommunications, RS-232 is a standard for serial communication transmission of data. It formally defines the signals connecting between a DTE (data terminal equipment) such as a computer terminal, and a DCE (data circuit-terminating equipment, originally defined as data communication equipment), such as a modem. The RS-232 standard is commonly used in computer serial ports. The standard defines the electrical characteristics and timing of signals, the meaning of signals, and the physical size and pinout of connectors. The current version of the standard is TIA-232-F Interface Between Data Terminal Equipment and Data Circuit-Terminating Equipment Employing Serial Binary Data Interchange, issued in 1997.
-
-An RS-232 serial port was once a standard feature of a personal computer, used for connections to [modems], printers, mice, data storage, uninterruptible power supplies, and other peripheral devices. However, RS-232 is hampered by low transmission speed, large voltage swing, and large standard connectors. In modern personal computers, [USB] has displaced RS-232 from most of its peripheral interface roles. Many computers do not come equipped with RS-232 ports and must use either an external USB-to-RS-232 converter or an internal expansion card with one or more serial ports to connect to RS-232 peripherals. Nevertheless, RS-232 devices are still used, especially in industrial machines, networking equipment and scientific instruments.
 ===
 
 Centronics Data Computer Corporation
@@ -263,12 +217,6 @@ Conventional PCI and PCI-X are sometimes called Parallel PCI in order to disting
 
 VESA Local Bus 
 The VESA Local Bus (usually abbreviated to VL-Bus or VLB) was mostly used in personal computers. VESA (Video Electronics Standards Association) Local Bus worked alongside the [ISA] bus; it acted as a high-speed conduit for memory-mapped I/O and DMA, while the ISA bus handled interrupts and port-mapped I/O.
-===
-
-Creative Technology
-Creative Technology Ltd is a Singapore based global company headquartered in Jurong East, Singapore. The principal activities of the company and its subsidiaries consist of the design, manufacture and distribution of digitised sound and video boards, computers and related multimedia, and personal digital entertainment products.
-
-It also partners with mainboard manufacturers and laptop brands to embed its [Sound Blaster] technology on their products.
 ===
 
 DOSBox
@@ -473,10 +421,6 @@ The two most common form factors for modern HDDs are 3.5-inch, for desktop compu
 As of 2015, the primary competing technology for secondary storage is flash memory in the form of solid-state drives ([SSD]s), which have higher data transfer rates and significantly lower latency and access times, but HDDs remain the dominant medium for secondary storage due to advantages in price per unit of storage and recording capacity. However, SSDs are replacing HDDs where speed, power consumption and durability are more important considerations.
 ===
 
-SCSI
-Small Computer System Interface (SCSI) is a set of standards for physically connecting and transferring data between computers and peripheral devices. The SCSI standards define commands, protocols and electrical and optical interfaces. SCSI is most commonly used for hard disk drives and tape drives, but it can connect a wide range of other devices, including scanners and CD drives, although not all controllers can handle all devices. The SCSI standard defines command sets for specific peripheral device types; the presence of "unknown" as one of these types means that in theory it can be used as an interface to almost any device, but the standard is highly pragmatic and addressed toward commercial requirements.
-===
-
 Solid State Drive (SSD) 
 A solid state drive (SSD) (also known as a solid state disk though it contains no actual disk, nor a drive motor to spin a disk) is a solid state storage device that uses integrated circuit assemblies as memory to store data persistently. SSD technology primarily uses electronic interfaces compatible with traditional block input/output (I/O) hard disk drives, which permit simple replacements in common applications. Additionally, new I/O interfaces, like SATA Express, have been designed to address specific requirements of the SSD technology.
 
@@ -629,12 +573,6 @@ HDMI implements the EIA/CEA-861 standards, which define video formats and wavefo
 Several versions of HDMI have been developed and deployed since initial release of the technology but all use the same cable and connector. Other than improved audio and video capacity, performance, resolution and colour spaces, newer versions have optional advanced features such as 3D, Ethernet data connection, and CEC (Consumer Electronics Control) extensions.
 
 Production of consumer HDMI products started in late 2003. In Europe either DVI-HDCP or HDMI is included in the HD ready in-store labeling specification for TV sets for HDTV, formulated by EICTA with SES Astra in 2005. HDMI began to appear on consumer HDTV camcorders and digital still cameras in 2006. As of 8 January 2013 (ten years after the release of the first HDMI specification), over 3 billion HDMI devices have been sold.
-===
-
-Nvidia
-Nvidia Corporation (commonly referred to as Nvidia, stylised as NVIDIA, nVIDIA or nVidia) is an American worldwide technology company based in Santa Clara, California. Nvidia manufactures graphics processing units (GPUs), as well as system on a chip units (SOCs) for the mobile computing market. Nvidia's primary GPU product line, labeled "[GeForce]", is in direct competition with [AMD]'s "[Radeon]" products. Nvidia also joined the gaming industry with its handheld Shield Portable and Shield Tablet, as well as the tablet market with the Tegra Note 7.
-
-In addition to GPU manufacturing, Nvidia provides parallel processing capabilities to researchers and scientists that allow them to efficiently run high-performance applications. They are deployed in supercomputing sites around the world. More recently, Nvidia has moved into the mobile computing market, where it produces Tegra mobile processors for smartphones and tablets, as well as vehicle navigation and entertainment systems. In addition to [Advanced Micro Devices], its competitors include [Intel] and [Qualcomm].
 ===
 
 ATI
