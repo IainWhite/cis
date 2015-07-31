@@ -1389,3 +1389,387 @@ Bitbucket is a web based hosting service for projects that use either the [Mercu
 It is similar to [GitHub], which primarily uses Git. In a 2008 blog post, Bruce Eckel compared Bitbucket favorably to Launchpad, which uses [Bazaar].
 ===
 
+The Von Neumann architecture, also known as the Von Neumann model and Princeton architecture, is a computer architecture based on that described in 1945 by the mathematician and physicist John von Neumann and others in the First Draft of a Report on the EDVAC.[1] This describes a design architecture for an electronic digital computer with parts consisting of a processing unit containing an arithmetic logic unit and processor registers, a control unit containing an instruction register and program counter, a memory to store both data and instructions, external mass storage, and input and output mechanisms.[1][2] The meaning has evolved to be any stored-program computer in which an instruction fetch and a data operation cannot occur at the same time because they share a common bus. This is referred to as the Von Neumann bottleneck and often limits the performance of the system.[3]
+
+The design of a Von Neumann architecture is simpler than the more modern Harvard architecture which is also a stored-program system but has one dedicated set of address and data buses for reading data from and writing data to memory, and another set of address and data buses for fetching instructions.
+
+A stored-program digital computer is one that keeps its program instructions, as well as its data, in read-write, random-access memory (RAM). Stored-program computers were an advancement over the program-controlled computers of the 1940s, such as the Colossus and the ENIAC, which were programmed by setting switches and inserting patch leads to route data and to control signals between various functional units. In the vast majority of modern computers, the same memory is used for both data and program instructions, and the Von Neumann vs. Harvard distinction applies to the cache architecture, not the main memory.
+===
+John von Neumann (/vɒn ˈnɔɪmən/; December 28, 1903 – February 8, 1957) was a Jewish-born Hungarian and later American pure and applied mathematician, physicist, inventor, polymath, and polyglot. He made major contributions to a number of fields,[3] including mathematics (foundations of mathematics, functional analysis, ergodic theory, geometry, topology, and numerical analysis), physics (quantum mechanics, hydrodynamics, and fluid dynamics), economics (game theory), computing (Von Neumann architecture, linear programming, self-replicating machines, stochastic computing), and statistics.[4] He was a pioneer of the application of operator theory to quantum mechanics, in the development of functional analysis, a principal member of the Manhattan Project and the Institute for Advanced Study in Princeton (as one of the few originally appointed), and a key figure in the development of game theory[3][5] and the concepts of cellular automata,[3] the universal constructor, and the digital computer.
+
+Von Neumann's mathematical analysis of the structure of self-replication preceded the discovery of the structure of DNA.[6] In a short list of facts about his life he submitted to the National Academy of Sciences, he stated "The part of my work I consider most essential is that on quantum mechanics, which developed in Göttingen in 1926, and subsequently in Berlin in 1927–1929. Also, my work on various forms of operator theory, Berlin 1930 and Princeton 1935–1939; on the ergodic theorem, Princeton, 1931–1932." Along with theoretical physicist Edward Teller and mathematician Stanislaw Ulam, von Neumann worked out key steps in the nuclear physics involved in thermonuclear reactions and the hydrogen bomb.
+
+Von Neumann wrote 150 published papers in his life; 60 in pure mathematics, 20 in physics, and 60 in applied mathematics. His last work, an unfinished manuscript written while in the hospital and later published in book form as The Computer and the Brain, gives an indication of the direction of his interests at the time of his death.
+===
+Von Neumann bottleneck[edit]
+The shared bus between the program memory and data memory leads to the Von Neumann bottleneck, the limited throughput (data transfer rate) between the CPU and memory compared to the amount of memory. Because program memory and data memory cannot be accessed at the same time, throughput is much smaller than the rate at which the CPU can work. This seriously limits the effective processing speed when the CPU is required to perform minimal processing on large amounts of data. The CPU is continually forced to wait for needed data to be transferred to or from memory. Since CPU speed and memory size have increased much faster than the throughput between them, the bottleneck has become more of a problem, a problem whose severity increases with every newer generation of CPU.
+
+The von Neumann bottleneck was described by John Backus in his 1977 ACM Turing Award lecture. According to Backus:
+
+Surely there must be a less primitive way of making big changes in the store than by pushing vast numbers of words back and forth through the von Neumann bottleneck. Not only is this tube a literal bottleneck for the data traffic of a problem, but, more importantly, it is an intellectual bottleneck that has kept us tied to word-at-a-time thinking instead of encouraging us to think in terms of the larger conceptual units of the task at hand. Thus programming is basically planning and detailing the enormous traffic of words through the von Neumann bottleneck, and much of that traffic concerns not significant data itself, but where to find it.[22][23]
+
+The performance problem can be alleviated (to some extent) by several mechanisms. Providing a cache between the CPU and the main memory, providing separate caches or separate access paths for data and instructions (the so-called Modified Harvard architecture), using branch predictor algorithms and logic, and providing a limited CPU stack or other on-chip scratchpad memory to reduce memory access are four of the ways performance is increased. The problem can also be sidestepped somewhat by using parallel computing, using for example the Non-Uniform Memory Access (NUMA) architecture—this approach is commonly employed by supercomputers. It is less clear whether the intellectual bottleneck that Backus criticized has changed much since 1977. Backus's proposed solution has not had a major influence.[citation needed] Modern functional programming and object-oriented programming are much less geared towards "pushing vast numbers of words back and forth" than earlier languages like Fortran were, but internally, that is still what computers spend much of their time doing, even highly parallel supercomputers.
+
+As of 1996, a database benchmark study found that three out of four CPU cycles were spent waiting for memory. Researchers expect that increasing the number of simultaneous instruction streams with multithreading or single-chip multiprocessing will make this bottleneck even worse. [24]
+
+===
+The Harvard architecture is a computer architecture with physically separate storage and signal pathways for instructions and data. The term originated from the Harvard Mark I relay-based computer, which stored instructions on punched tape (24 bits wide) and data in electro-mechanical counters. These early machines had data storage entirely contained within the central processing unit, and provided no access to the instruction storage as data. Programs needed to be loaded by an operator; the processor could not initialize itself.
+
+Today, most processors implement such separate signal pathways for performance reasons, but actually implement a modified Harvard architecture, so they can support tasks like loading a program from disk storage as data and then executing it.
+
+===
+In computing, a keyboard is a typewriter-style device, which uses an arrangement of buttons or keys, to act as mechanical levers or electronic switches. Following the decline of punch cards and paper tape, interaction via teleprinter-style keyboards became the main input device for computers.
+
+A keyboard typically has characters engraved or printed on the keys and each press of a key typically corresponds to a single written symbol. However, to produce some symbols requires pressing and holding several keys simultaneously or in sequence. While most keyboard keys produce letters, numbers or signs (characters), other keys or simultaneous key presses can produce actions or execute computer commands.
+
+Despite the development of alternative input devices, such as the mouse, touchscreen, pen devices, character recognition and voice recognition, the keyboard remains the most commonly used device for direct (human) input of alphanumeric data into computers.
+
+In normal usage, the keyboard is used as a text entry interface to type text and numbers into a word processor, text editor or other programs. In a modern computer, the interpretation of key presses is generally left to the software. A computer keyboard distinguishes each physical key from every other and reports all key presses to the controlling software. Keyboards are also used for computer gaming, either with regular keyboards or by using keyboards with special gaming features, which can expedite frequently used keystroke combinations. A keyboard is also used to give commands to the operating system of a computer, such as Windows' Control-Alt-Delete combination, which brings up a task window or shuts down the machine. A command-line interface is a type of user interface operated entirely through a keyboard, or another device doing the job of one.
+===
+A command-line interface or command language interpreter (CLI), also known as command-line user interface, console user interface,[1] and character user interface (CUI), is a means of interacting with a computer program where the user (or client) issues commands to the program in the form of successive lines of text (command lines).
+
+The CLI was the primary means of interaction with most computer systems until the introduction of the video display terminal in the mid-1960s, and continued to be used throughout the 1970s and 1980s on OpenVMS, Unix systems and personal computer systems including MS-DOS, CP/M and Apple DOS. The interface is usually implemented with a command line shell, which is a program that accepts commands as text input and converts commands to appropriate operating system functions.
+
+Command-line interfaces to computer operating systems are less widely used by casual computer users, who favor graphical user interfaces. Command-line interfaces are often preferred by more advanced computer users, as they often provide a more concise and powerful means to control a program or operating system.
+
+Programs with command-line interfaces are generally easier to automate via scripting.
+===
+Apple DOS was the family of disk operating systems for the Apple II series of microcomputers from late 1978 through early 1983. Apple DOS had three major releases: DOS 3.1, DOS 3.2, and DOS 3.3; each one of these three releases was followed by a second, minor "bug-fix" release, but only in the case of Apple DOS 3.2 did that minor release receive its own version number, Apple DOS 3.2.1. The best-known and most-used version was Apple DOS 3.3 in the 1980 and 1983 releases. Prior to the release of Apple DOS 3.1, Apple users had to rely on audio cassette tapes for data storage and retrieval, but that method was notoriously slow, inconvenient, and unreliable.
+===
+The Konami Code (Japanese: コナミコマンド, Konami komando, "Konami command") is a cheat code that appears in many Konami video games,[1] although the code also appears in some non-Konami games.[2]
+
+During the title screen before the game demo begins, the player could press the following sequence of buttons on the game controller to enable the cheat:
+
+↑↑↓↓←→←→BA
+
+The code has also found a place in popular culture as a reference to the third generation of video game consoles.[3] The code is also present as an Easter egg on a number of websites.[4][
+
+The code was first used in the 1986 release of Gradius for the NES[8] but was popularized among North American players in the NES version of Contra, for which it was also dubbed both the "Contra Code" and "30 Lives Code", because of its nearly necessary use in the game.
+
+The Konami Code was created by Kazuhisa Hashimoto, who was developing the home port of the 1985 arcade game Gradius, a scrolling shooter released on the NES in 1986. Finding the game too difficult to play through during testing, he created a cheat code to give the player a full set of power-ups (normally attained gradually throughout the game).[2] The code was still present in the released Gradius after Hashimoto forgot to remove it.[citation needed] Players discovered and shared the code.[how?]
+
+The Konami Code was thus included in the series' other sequels and spin-offs, with some key differences:
+
+In the Super NES version of Gradius III, the original code destroys the player's ship. However, replacing ← and → with the L and R triggers of the SNES controller powers up the ship.
+In the most recent iteration of the series—Gradius Rebirth on the Wii—the Wii Remote's 1 and 2 buttons fill in for A and B, respectively.
+The code has been subsequently re-used in a large number of other games and is now used in the Opera Browser to activate hidden advanced settings.
+===
+An Easter egg is an intentional inside joke, hidden message, or feature in an interactive work such as a computer program, video game or DVD menu screen. The name has been said to evoke the idea of a traditional Easter egg hunt.[1]
+
+According to game designer Warren Robinett, this traditional term was coined into the context of media by Atari personnel who were alerted to the presence of a secret message which had been hidden by Robinett in his already widely distributed game, Adventure.[2][3] Released in 1979, Atari's Adventure contains the first video game Easter egg to have been discovered by its players; the hidden item is the name of the game's programmer, Warren Robinett. Robinett inserted his Easter egg late in the game's development in an attempt to gain some recognition for his work, as Atari then kept its programmers' names secret.[4][5] In 2004, an earlier Easter egg was found in Video Whizball, a 1978 game for the Fairchild Channel F system, displaying programmer Bradley Reid-Selth's surname.[1]
+===
+Control-Alt-Delete (often abbreviated to Ctrl+Alt+Del, also known as the "three-finger salute")[1][2][3] is a computer keyboard command on IBM PC compatible computers, invoked by pressing the Delete key while holding the Control and Alt keys: Ctrl+Alt+Delete. The function of the key combination differs depending on the context but it generally interrupts or facilitates interrupting a function. For instance, in pre-boot environment (before an operating system starts)[4][5][6] or in DOS, Windows 3.0 and earlier versions of Windows or OS/2, the key combination reboots the computer. Starting with Windows 3.1, the command invokes a task manager or security related component that facilitates ending a Windows session.
+===
+The PDP-11 is a series of 16-bit minicomputers sold by Digital Equipment Corporation (DEC) from 1970 into the 1990s, one of a succession of products in the PDP series.[1][2] The PDP-11 had several uniquely innovative features, and was easier to program than its predecessors through the additional general-purpose registers. The PDP-11 replaced the PDP-8 in many real-time applications, although both product lines lived in parallel for more than 10 years. In total, around 600,000 PDP-11s of all models were sold, making it one of DEC's most successful product lines.[3] Its successor in the mid-range minicomputer niche was the 32-bit VAX-11, named as a nod to the PDP-11's popularity.[4]
+
+The PDP-11 is considered by some experts[5][6][7] to be the most popular minicomputer ever. Design features of the PDP-11 influenced the design of most late-1970s computer systems including the Intel x86[5] and the Motorola 68000.
+
+Design features of PDP-11 operating systems, as well as other operating systems from Digital Equipment, influenced the design of other operating systems such as CP/M[8] and hence also MS-DOS.[9] For a decade PDP-11 was the smallest system that could run Unix;[10] the first officially named version ran on the PDP-11/20 in 1970. It is commonly stated that the C programming language took advantage of several low-level PDP-11–dependent programming features,[11] albeit not originally by design.[12]
+===
+A Motherboard (sometimes alternatively known as the mainboard, system board, planar board or logic board,[1] or colloquially, a mobo) is the main printed circuit board (PCB) found in computers and other expandable systems. It holds and allows communication between many of the crucial electronic components of a system, such as the central processing unit (CPU) and memory, and provides connectors for other peripherals. Unlike a backplane, a motherboard contains significant sub-systems such as the processor and other components.
+
+Motherboard specifically refers to a PCB with expansion capability and as the name suggests, this board is often referred to as the "mother" of all components attached to it, which often include sound cards, video cards, network cards, hard drives, or other forms of persistent storage; TV tuner cards, cards providing extra USB or FireWire slots and a variety of other custom components (the term mainboard is applied to devices with a single board and no additional expansions or capability, such as controlling boards in televisions, washing machines and other embedded systems).
+===
+In a computer system, a chipset is a set of electronic components in an integrated circuit that manages the data flow between the processor, memory and peripherals. It is usually found on the motherboard. Chipsets are usually designed to work with a specific family of microprocessors. Because it controls communications between the processor and external devices, the chipset plays a crucial role in determining system performance.
+
+===
+In computer architecture, a bus (related to the Latin "omnibus", meaning "for all") is a communication system that transfers data between components inside a computer, or between computers. This expression covers all related hardware components (wire, optical fiber, etc.) and software, including communication protocols.[1]
+
+Early computer buses were parallel electrical wires with multiple connections, but the term is now used for any physical arrangement that provides the same logical functionality as a parallel electrical bus. Modern computer buses can use both parallel and bit serial connections, and can be wired in either a multidrop (electrical parallel) or daisy chain topology, or connected by switched hubs, as in the case of USB.
+===
+Cray Inc. is an American supercomputer manufacturer headquartered in Seattle, Washington.[1] The company's predecessor, Cray Research, Inc. (CRI), was founded in 1972 by computer designer Seymour Cray.[3] Seymour Cray went on to form the spin-off Cray Computer Corporation (CCC), in 1989, which went bankrupt in 1995, while Cray Research was bought by SGI the next year. Cray Inc. was formed in 2000 when Tera Computer Company purchased the Cray Research Inc. business from SGI and adopted the name of its acquisition.[4]
+===
+The Web Hypertext Application Technology Working Group (WHATWG) is a community of people interested in evolving HTML and related technologies. The WHATWG was founded by individuals from Apple, the Mozilla Foundation and Opera Software in 2004.[1] Since then, the editor of the WHATWG specifications, Ian Hickson, has moved to Google. Chris Wilson of Microsoft was invited but did not join, citing the lack of a patent policy to ensure all specifications can be implemented on a royalty-free basis.[2]
+
+The WHATWG has a small, invitation-only oversight committee called "Members", which has the power to impeach the editor of the specifications.[3] Anyone can participate as a Contributor by joining the WHATWG mailing list.
+===
+A web worker, as defined by the World Wide Web Consortium (W3C) and the Web Hypertext Application Technology Working Group (WHATWG), is a JavaScript script executed from an HTML page that runs in the background, independently of other user-interface scripts that may also have been executed from the same HTML page.[1] Web workers are able to utilize multi-core CPUs more effectively.[citation needed]
+
+The W3C and WHATWG envision web workers as long-running scripts that are not interrupted by user-interface scripts (scripts that respond to clicks or other user interactions). Keeping such workers from being interrupted by user activities should allow Web pages to remain responsive at the same time as they are running long tasks in the background.
+
+The simplest use of workers is for performing a computationally expensive task without interrupting the user interface.
+
+The W3C and the WHATWG are currently in the process of developing a definition for an API for web workers.[1]
+===
+WebSocket is a protocol providing full-duplex communication channels over a single TCP connection. The WebSocket protocol was standardized by the IETF as RFC 6455 in 2011, and the WebSocket API in Web IDL is being standardized by the W3C.
+
+WebSocket is designed to be implemented in web browsers and web servers, but it can be used by any client or server application. The WebSocket Protocol is an independent TCP-based protocol. Its only relationship to HTTP is that its handshake is interpreted by HTTP servers as an Upgrade request.[1] The WebSocket protocol makes more interaction between a browser and a website possible, facilitating live content and the creation of real-time games. This is made possible by providing a standardized way for the server to send content to the browser without being solicited by the client, and allowing for messages to be passed back and forth while keeping the connection open. In this way a two-way (bi-directional) ongoing conversation can take place between a browser and the server. The communications are done over TCP port number 80, which is of benefit for those environments which block non-web Internet connections using a firewall. Similar two-way browser-server communications have been achieved in non-standardized ways using stop-gap technologies such as Comet.
+
+The WebSocket protocol is currently supported in most major browsers including Google Chrome, Internet Explorer, Firefox, Safari and Opera. WebSocket also requires web applications on the server to support it.
+
+Unlike HTTP, WebSocket provides full-duplex communication.[2] Additionally, WebSocket enables streams of messages on top of TCP. TCP alone deals with streams of bytes with no inherent concept of a message. Before WebSocket, port 80 full-duplex communication was attainable using Comet channels; however, Comet implementation is nontrivial, and due to the TCP handshake and HTTP header overhead, it is inefficient for small messages. WebSocket protocol aims to solve these problems without compromising security assumptions of the web.
+
+The WebSocket protocol specification defines two new URI schemes, ws: and wss:,[3] for unencrypted and encrypted connections respectively. Apart from the scheme name and fragment (# is not supported), the rest of the URI components are defined to use URI generic syntax.[4]
+
+Using the Google Chrome Developer Tools, developers can inspect the WebSocket handshake as well as the WebSocket frames.[5]
+
+
+===
+Mathematical Markup Language (MathML) is a mathematical markup language, an application of XML for describing mathematical notations and capturing both its structure and content. It aims at integrating mathematical formulae into World Wide Web pages and other documents. It is a recommendation of the W3C math working group and part of HTML5.
+===
+Emacs /ˈiːmæks/ and its derivatives are a family of text editors that are characterized by their extensibility. The manual for the most widely used variant, GNU Emacs, describes it as "the extensible, customizable, self-documenting, real-time display editor".[1] Development of the first Emacs began in the mid-1970s and continues actively as of 2015. Emacs has over 2,000 built-in commands and allows the user to combine these commands into macros to automate work. Emacs Lisp provides a deep extension capability allowing users and developers to write new commands using a dialect of the Lisp programming language.
+
+The original EMACS was written in 1976 by Richard Stallman and Guy L. Steele, Jr. as a set of Editor MACroS for the TECO editor.[2][3][4][5] It was inspired by the ideas of the TECO-macro editors TECMAC and TMACS.[6]
+
+The most popular, and most ported, version of Emacs is GNU Emacs, which was created by Stallman for the GNU Project.[7] XEmacs is a variant that branched from GNU Emacs in 1991. Both GNU Emacs and XEmacs use Emacs Lisp and are for the most part compatible with each other.
+
+Emacs is, along with vi, one of the two main contenders in the traditional editor wars of Unix culture. Both are among the oldest application programs still in use.
+===
+AT&T Inc. is an American multinational telecommunications corporation, headquartered at Whitacre Tower in downtown Dallas, Texas.[4] AT&T is the second largest provider of mobile telephone and the largest provider of fixed telephone[5] in the United States, and also provides broadband subscription television services. AT&T is the third-largest company in Texas (the largest non-oil company, behind only ExxonMobil and ConocoPhillips, and also the largest Dallas company).[6] As of May 2014, AT&T is the 23rd-largest company in the world as measured by a composite of revenues, profits, assets and market value,[7] and the 16th-largest non-oil company.[8] As of 2015, it is also the 20th-largest mobile telecom operator in the world, with over 123.9 million mobile customers.[9]
+
+AT&T Inc. began its existence as Southwestern Bell Corporation, one of seven Regional Bell Operating Companies (RBOC's) created in 1983 in the divestiture of the American Telephone and Telegraph Company (founded 1885, later AT&T Corp.) following the 1982 United States v. AT&T antitrust lawsuit. Southwestern Bell changed its name to SBC Communications Inc. in 1995. In 2005, SBC purchased former parent AT&T Corp. and took on its branding, with the merged entity naming itself AT&T Inc. and using the iconic AT&T Corp. logo and stock-trading symbol.
+===
+In computing, Representational State Transfer (REST) is a software architecture style for building scalable web services.[1][2] REST gives a coordinated set of constraints to the design of components in a distributed hypermedia system that can lead to a more performant and maintainable architecture.[3]
+
+RESTful systems typically, but not always, communicate over the Hypertext Transfer Protocol with the same HTTP verbs (GET, POST, PUT, DELETE, etc.) which web browsers use to retrieve web pages and to send data to remote servers.[3] REST interfaces usually involve collections of resources with identifiers, for example /people/paul, which can be operated upon using standard verbs, such as DELETE /people/paul.
+
+The W3C Technical Architecture Group (TAG) developed the REST architectural style in parallel with HTTP 1.1 of 1996-1999, based on the existing design of HTTP 1.0[4] of 1996. The World Wide Web itself represents the largest implementation of a system conforming to the REST architectural style.
+===
+The following is a list of Hypertext Transfer Protocol (HTTP) response status codes. This includes codes from IETF internet standards as well as other IETF RFCs, other specifications and some additional commonly used codes. The first digit of the status code specifies one of five classes of response; the bare minimum for an HTTP client is that it recognises these five classes. The phrases used are the standard examples, but any human-readable alternative can be provided. Unless otherwise stated, the status code is part of the HTTP/1.1 standard (RFC 7231).
+
+The Internet Assigned Numbers Authority (IANA) maintains the official registry of HTTP status codes.[1]
+
+Microsoft IIS sometimes uses additional decimal sub-codes to provide more specific information,[2] but these are not listed here.
+
+1xx Informational[edit]
+Request received, continuing process.
+
+This class of status code indicates a provisional response, consisting only of the Status-Line and optional headers, and is terminated by an empty line. Since HTTP/1.0 did not define any 1xx status codes, servers must not[note 1] send a 1xx response to an HTTP/1.0 client except under experimental conditions.
+
+100 Continue
+This means that the server has received the request headers, and that the client should proceed to send the request body (in the case of a request for which a body needs to be sent; for example, a POST request). If the request body is large, sending it to a server when a request has already been rejected based upon inappropriate headers is inefficient. To have a server check if the request could be accepted based on the request's headers alone, a client must send Expect: 100-continue as a header in its initial request and check if a 100 Continue status code is received in response before continuing (or receive 417 Expectation Failed and not continue).
+101 Switching Protocols
+This means the requester has asked the server to switch protocols and the server is acknowledging that it will do so.
+102 Processing (WebDAV; RFC 2518)
+As a WebDAV request may contain many sub-requests involving file operations, it may take a long time to complete the request. This code indicates that the server has received and is processing the request, but no response is available yet.[3] This prevents the client from timing out and assuming the request was lost.
+2xx Success[edit]
+This class of status codes indicates the action requested by the client was received, understood, accepted and processed successfully.
+
+200 OK
+Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.
+201 Created
+The request has been fulfilled and resulted in a new resource being created.
+202 Accepted
+The request has been accepted for processing, but the processing has not been completed. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place.
+203 Non-Authoritative Information (since HTTP/1.1)
+The server successfully processed the request, but is returning information that may be from another source.
+204 No Content
+The server successfully processed the request, but is not returning any content. Usually used as a response to a successful delete request.
+205 Reset Content
+The server successfully processed the request, but is not returning any content. Unlike a 204 response, this response requires that the requester reset the document view.
+206 Partial Content (RFC 7233)
+The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by tools like wget to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams.
+207 Multi-Status (WebDAV; RFC 4918)
+The message body that follows is an XML message and can contain a number of separate response codes, depending on how many sub-requests were made.[4]
+208 Already Reported (WebDAV; RFC 5842)
+The members of a DAV binding have already been enumerated in a previous reply to this request, and are not being included again.
+226 IM Used (RFC 3229)
+The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.[5]
+3xx Redirection[edit]
+This class of status code indicates the client must take additional action to complete the request. Many of these status codes are used in URL redirection.
+
+A user agent may carry out the additional action with no user interaction only if the method used in the second request is GET or HEAD. A user agent should not automatically redirect a request more than five times, since such redirections usually indicate an infinite loop.
+
+300 Multiple Choices
+Indicates multiple options for the resource that the client may follow. It, for instance, could be used to present different format options for video, list files with different extensions, or word sense disambiguation.
+301 Moved Permanently
+This and all future requests should be directed to the given URI.
+302 Found
+This is an example of industry practice contradicting the standard. The HTTP/1.0 specification (RFC 1945) required the client to perform a temporary redirect (the original describing phrase was "Moved Temporarily"),[6] but popular browsers implemented 302 with the functionality of a 303 See Other. Therefore, HTTP/1.1 added status codes 303 and 307 to distinguish between the two behaviours.[7] However, some Web applications and frameworks use the 302 status code as if it were the 303.[8]
+303 See Other (since HTTP/1.1)
+The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), it should be assumed that the server has received the data and the redirect should be issued with a separate GET message.
+304 Not Modified (RFC 7232)
+Indicates that the resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match. This means that there is no need to retransmit the resource, since the client still has a previously-downloaded copy.
+305 Use Proxy (since HTTP/1.1)
+The requested resource is only available through a proxy, whose address is provided in the response. Many HTTP clients (such as Mozilla[9] and Internet Explorer) do not correctly handle responses with this status code, primarily for security reasons.[10]
+306 Switch Proxy
+No longer used. Originally meant "Subsequent requests should use the specified proxy."[11]
+307 Temporary Redirect (since HTTP/1.1)
+In this case, the request should be repeated with another URI; however, future requests should still use the original URI. In contrast to how 302 was historically implemented, the request method is not allowed to be changed when reissuing the original request. For instance, a POST request should be repeated using another POST request.[12]
+308 Permanent Redirect (RFC 7538)
+The request, and all future requests should be repeated using another URI. 307 and 308 (as proposed) parallel the behaviours of 302 and 301, but do not allow the HTTP method to change. So, for example, submitting a form to a permanently redirected resource may continue smoothly.[13]
+308 Resume Incomplete (Google)
+This code is used in the Resumable HTTP Requests Proposal to resume aborted PUT or POST requests.[14]
+4xx Client Error[edit]
+A 404 error on the German language Wikipedia.
+404 error on German Wikipedia
+The 4xx class of status code is intended for cases in which the client seems to have erred. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. These status codes are applicable to any request method. User agents should display any included entity to the user.
+
+400 Bad Request
+The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).[15]
+401 Unauthorized (RFC 7235)
+Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. See Basic access authentication and Digest access authentication.
+402 Payment Required
+Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened, and this code is not usually used. YouTube uses this status if a particular IP address has made excessive requests, and requires the person to enter a CAPTCHA.[citation needed]
+403 Forbidden
+The request was a valid request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference.
+404 Not Found
+The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible.
+405 Method Not Allowed
+A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.
+406 Not Acceptable
+The requested resource is only capable of generating content not acceptable according to the Accept headers sent in the request.
+407 Proxy Authentication Required (RFC 7235)
+The client must first authenticate itself with the proxy.
+408 Request Timeout
+The server timed out waiting for the request. According to HTTP specifications: "The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time."
+409 Conflict
+Indicates that the request could not be processed because of conflict in the request, such as an edit conflict in the case of multiple updates.
+410 Gone
+Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource again in the future. Clients such as search engines should remove the resource from their indices.[16] Most use cases do not require clients and search engines to purge the resource, and a "404 Not Found" may be used instead.
+411 Length Required
+The request did not specify the length of its content, which is required by the requested resource.
+412 Precondition Failed (RFC 7232)
+The server does not meet one of the preconditions that the requester put on the request.
+413 Payload Too Large (RFC 7231)
+The request is larger than the server is willing or able to process. Called "Request Entity Too Large " previously.
+414 Request-URI Too Long
+The URI provided was too long for the server to process. Often the result of too much data being encoded as a query-string of a GET request, in which case it should be converted to a POST request.
+415 Unsupported Media Type
+The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.
+416 Requested Range Not Satisfiable (RFC 7233)
+The client has asked for a portion of the file (byte serving), but the server cannot supply that portion. For example, if the client asked for a part of the file that lies beyond the end of the file.
+417 Expectation Failed
+The server cannot meet the requirements of the Expect request-header field.
+418 I'm a teapot (RFC 2324)
+This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers. The RFC specifies this code should be returned by tea pots requested to brew coffee.
+419 Authentication Timeout (not in RFC 2616)
+Not a part of the HTTP standard, 419 Authentication Timeout denotes that previously valid authentication has expired. It is used as an alternative to 401 Unauthorized in order to differentiate from otherwise authenticated clients being denied access to specific server resources.[citation needed]
+420 Method Failure (Spring Framework)
+Not part of the HTTP standard, but defined by Spring in the HttpStatus class to be used when a method failed. This status code is deprecated by Spring.
+420 Enhance Your Calm (Twitter)
+Not part of the HTTP standard, but returned by version 1 of the Twitter Search and Trends API when the client is being rate limited.[17] Other services may wish to implement the 429 Too Many Requests response code instead.
+421 Misdirected Request (HTTP/2)
+The request was directed at a server that is not able to produce a response (for example because a connection reuse).[18]
+422 Unprocessable Entity (WebDAV; RFC 4918)
+The request was well-formed but was unable to be followed due to semantic errors.[4]
+423 Locked (WebDAV; RFC 4918)
+The resource that is being accessed is locked.[4]
+424 Failed Dependency (WebDAV; RFC 4918)
+The request failed due to failure of a previous request (e.g., a PROPPATCH).[4]
+426 Upgrade Required
+The client should switch to a different protocol such as TLS/1.0, given in the Upgrade header field.
+428 Precondition Required (RFC 6585)
+The origin server requires the request to be conditional. Intended to prevent "the 'lost update' problem, where a client GETs a resource's state, modifies it, and PUTs it back to the server, when meanwhile a third party has modified the state on the server, leading to a conflict."[19]
+429 Too Many Requests (RFC 6585)
+The user has sent too many requests in a given amount of time. Intended for use with rate limiting schemes.[19]
+431 Request Header Fields Too Large (RFC 6585)
+The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.[19]
+440 Login Timeout (Microsoft)
+A Microsoft extension. Indicates that your session has expired.[20]
+444 No Response (Nginx)
+Used in Nginx logs to indicate that the server has returned no information to the client and closed the connection (useful as a deterrent for malware).
+449 Retry With (Microsoft)
+A Microsoft extension. The request should be retried after performing the appropriate action.[21]
+450 Blocked by Windows Parental Controls (Microsoft)
+A Microsoft extension. This error is given when Windows Parental Controls are turned on and are blocking access to the given webpage.[22]
+451 Unavailable For Legal Reasons (Internet draft)
+Defined in the internet draft "A New HTTP Status Code for Legally-restricted Resources".[23] Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed.[24]
+451 Redirect (Microsoft)
+Used in Exchange ActiveSync if there either is a more efficient server to use or the server cannot access the users' mailbox.[25]
+The client is supposed to re-run the HTTP Autodiscovery protocol to find a better suited server.[26]
+494 Request Header Too Large (Nginx)
+Nginx internal code similar to 431 but it was introduced earlier in version 0.9.4 (on January 21, 2011).[27][original research?]
+495 Cert Error (Nginx)
+Nginx internal code used when SSL client certificate error occurred to distinguish it from 4XX in a log and an error page redirection.
+496 No Cert (Nginx)
+Nginx internal code used when client didn't provide certificate to distinguish it from 4XX in a log and an error page redirection.
+497 HTTP to HTTPS (Nginx)
+Nginx internal code used for the plain HTTP requests that are sent to HTTPS port to distinguish it from 4XX in a log and an error page redirection.
+498 Token expired/invalid (Esri)
+Returned by ArcGIS for Server. A code of 498 indicates an expired or otherwise invalid token.[28]
+499 Client Closed Request (Nginx)
+Used in Nginx logs to indicate when the connection has been closed by client while the server is still processing its request, making server unable to send a status code back.[29]
+499 Token required (Esri)
+Returned by ArcGIS for Server. A code of 499 indicates that a token is required (if no token was submitted).[28]
+5xx Server Error[edit]
+The server failed to fulfill an apparently valid request.
+
+Response status codes beginning with the digit "5" indicate cases in which the server is aware that it has encountered an error or is otherwise incapable of performing the request. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and indicate whether it is a temporary or permanent condition. Likewise, user agents should display any included entity to the user. These response codes are applicable to any request method.
+
+500 Internal Server Error
+A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.
+501 Not Implemented
+The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability (e.g., a new feature of a web-service API).
+502 Bad Gateway
+The server was acting as a gateway or proxy and received an invalid response from the upstream server.
+503 Service Unavailable
+The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.
+504 Gateway Timeout
+The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.
+505 HTTP Version Not Supported
+The server does not support the HTTP protocol version used in the request.
+506 Variant Also Negotiates (RFC 2295)
+Transparent content negotiation for the request results in a circular reference.[30]
+507 Insufficient Storage (WebDAV; RFC 4918)
+The server is unable to store the representation needed to complete the request.[4]
+508 Loop Detected (WebDAV; RFC 5842)
+The server detected an infinite loop while processing the request (sent in lieu of 208 Already Reported).
+509 Bandwidth Limit Exceeded (Apache bw/limited extension)[31]
+This status code is not specified in any RFCs. Its use is unknown.
+510 Not Extended (RFC 2774)
+Further extensions to the request are required for the server to fulfil it.[32]
+511 Network Authentication Required (RFC 6585)
+The client needs to authenticate to gain network access. Intended for use by intercepting proxies used to control access to the network (e.g., "captive portals" used to require agreement to Terms of Service before granting full Internet access via a Wi-Fi hotspot).[19]
+520 Unknown Error
+This status code is not specified in any RFC and is returned by certain services, for instance Microsoft Azure and CloudFlare servers: "The 520 error is essentially a “catch-all” response for when the origin server returns something unexpected or something that is not tolerated/interpreted (protocol violation or empty response)."[33]
+522 Origin Connection Time-out
+This status code is not specified in any RFCs, but is used by CloudFlare's reverse proxies to signal that a server connection timed out.
+598 Network read timeout error (Unknown)
+This status code is not specified in any RFCs, but is used by Microsoft HTTP proxies to signal a network read timeout behind the proxy to a client in front of the proxy.[citation needed]
+599 Network connect timeout error (Unknown)
+This status code is not specified in any RFCs, but is used by Microsoft HTTP proxies to signal a network connect timeout behind the proxy to a client in front of the proxy.[citation needed]
+
+===
+The HTTP response status code 301 Moved Permanently is used for permanent URL redirection, meaning current links or records using the URL that the response is received for should be updated. The new URL should be provided in the Location field included with the response. RFC 2616 states that:
+
+If a client has link-editing capabilities, it should update all references to the Request URL.
+The response is cachable.
+Unless the request method was HEAD, the entity should contain a small hypertext note with a hyperlink to the new URL(s).
+If the 301 status code is received in response to a request of any type other than GET or HEAD, the client must ask the user before redirecting.
+===
+The HTTP response status code 302 Found is a common way of performing URL redirection.
+
+An HTTP response with this status code will additionally provide a URL in the location header field. The user agent (e.g. a web browser) is invited by a response with this code to make a second, otherwise identical, request to the new URL specified in the location field. The HTTP/1.0 specification (RFC 1945) initially defined this code, and gives it the description phrase "Moved Temporarily".
+
+Many web browsers implemented this code in a manner that violated this standard, changing the request type of the new request to GET, regardless of the type employed in the original request (e.g. POST).[1] For this reason, HTTP/1.1 (RFC 2616) added the new status codes 303 and 307 to disambiguate between the two behaviours, with 303 mandating the change of request type to GET, and 307 preserving the request type as originally sent. Despite the greater clarity provided by this disambiguation, the 302 code is still employed in web frameworks to preserve compatibility with browsers that do not implement the HTTP/1.1 specification.[2]
+
+As a consequence, the update of RFC 2616 changes the definition to allow user agents to rewrite POST to GET.[3]
+===
+The HTTP response status code 303 See Other is a way to redirect web applications to a new URI, particularly after a HTTP POST has been performed, since RFC 2616 (HTTP 1.1).
+
+According to RFC 7231, which obsoletes RFC 2616, "A 303 response to a GET request indicates that the origin server does not have a representation of the target resource that can be transferred by the server over HTTP. However, the Location field value refers to a resource that is descriptive of the target resource, such that making a retrieval request on that other resource might result in a representation that is useful to recipients without implying that it represents the original target resource."
+
+This status code should be used with the location header, as described below.
+
+303 See Other has been proposed as one way of responding to a request for a URI that identifies a real-world object according to Semantic Web theory (the other being the use of hash URIs).[1] For example, if http://www.example.com/id/alice identifies a person, Alice, then it would be inappropriate for a server to respond to a GET request with 200 OK, as the server could not deliver Alice herself. Instead the server would issue a 303 See Other response which redirected to a separate URI providing a description of the person Alice.
+
+303 See Other can be used for other purposes. For example, when building a RESTful web API that needs to return to the caller immediately but continue executing asynchronously (such as a long-lived image conversion), the web API can provide a status check URI that allows the original client who requested the conversion to check on the conversion's status. This status check web API should return 303 See Other to the caller when the task is complete, along with a URI from which to retrieve the result in the Location HTTP header field.[2]
+===
+A web server may return a 403 Forbidden HTTP status code in response to a request from a client for a web page or resource to indicate that the server can be reached and understood the request, but refuses to take any further action. Status code 403 responses are the result of the web server being configured to deny access, for some reason, to the requested resource by the client.
+
+A typical request that may receive a 403 Forbidden response is a GET for a web page, performed by a web browser to retrieve the page for display to a user in a browser window. The web server may return a 403 Forbidden status for other types of requests as well.
+
+The Apache web server returns 403 Forbidden in response to requests for url paths that correspond to filesystem directories, when directory listings have been disabled in the server. Some administrators configure the Mod proxy extension to Apache to block such requests, and this will also return 403 Forbidden. Microsoft IIS responds in the same way when directory listings are denied in that server. In WebDAV, the 403 Forbidden response will be returned by the server if the client issued a PROPFIND request but did not also issue the required Depth header, or issued a Depth header of infinity.[1]
+===
+The 404 or Not Found error message is an HTTP standard response code indicating that the client was able to communicate with a given server, but the server could not find what was requested.
+
+The web site hosting server will typically generate a "404 Not Found" web page when a user attempts to follow a broken or dead link; hence the 404 error is one of the most recognizable errors users can find on the web.[1]
+
+Custom error pages[edit]
+
+The Wikimedia 404 message
+Web servers can typically be configured to display a customised 404 error page, including a more natural description, the parent site's branding, and sometimes a site map, a search form or 404 page widget. The protocol level phrase, which is hidden from the user, is rarely customized.
+
+Internet Explorer, however, will not display custom pages unless they are larger than 512 bytes, opting instead to display a "friendly" error page.[3] Google Chrome includes similar functionality, where the 404 is replaced with alternative suggestions generated by Google algorithms, if the page is under 512 bytes in size.[citation needed]
+
+Another problem is that if the page does not provide a favicon, and a separate custom 404 page exists, extra traffic and longer loading times will be generated on every page view.[4][5]
+
+Many organizations use 404 error pages as an opportunity to inject humor into what may otherwise be a serious website. For example, Metro UK shows a polar bear on a skateboard, and the web development agency Left Logic has a simple drawing program.[6]
+
+While many websites send additional information in a 404 error message—such as a link to the homepage of a website or a search box—some also endeavor to find the correct web page the user wanted. Extensions are available for some popular content management systems (CMSs) to do this.[7]
+
+In Europe, the NotFound project, created by multiple European organisations including Missing Children Europe and Child Focus, encourages site operators to add a snippet of code to serve customised 404 error pages[8] which provide data about missing children.[9]
+===
+So, what’s the "418 I'm a teapot" all about? Well, the group of people who make these codes and set the standards is the IETF or "Internet Engineering Task Force". To propose new standards, the members release RFC’s or "Requests for Comments" to the community. Every year since 1989, they release a few humorous RFC’s for April’s Fool Day and on April 1st, 1998, RFC 2324 introduced the "Hyper Text Coffee Pot Control Protocol" or (HTCPCP/1.0). This was a brand new protocol for controlling, monitoring, and diagnosing coffee pots. Now, the RFC is pretty funny with lines like "Coffee pots heat water using electronic mechanisms, so there is no fire. Thus, no firewalls are necessary". If you have never read it, it’s definitely worth a read. I added a link in the description below. Now, you may be asking, if this is a COFFEE protocol, why the "teapot" code? This is answered in Section 2.3.2. in that "Any attempt to brew coffee with a teapot should result in the HTTP error code 418 I'm a teapot and the resulting entity body MAY be short and stout". And just like that the "418 I’m a teapot" code was born!
+===
