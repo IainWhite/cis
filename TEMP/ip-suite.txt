@@ -1,0 +1,212 @@
+application								Done
+application/bgp
+application/dhcp						Done
+application/dns							Done
+application/ftp							Done
+application/goopher						Done
+application/http						Done
+application/imap						Done
+application/irc							Done
+application/ldap
+application/mgcp
+application/nntp						Done
+application/ntp
+application/onc-rpc
+application/pop3						Done
+application/rip
+application/rtp
+application/rtsp
+application/sip
+application/smtp						Done
+application/snmp
+application/ssh							Done
+application/ssl
+application/telnet						Done
+application/xmapp						Done
+internet								Done
+internet/ecn
+internet/icmp
+internet/icmp/iGmpv6
+internet/igmp
+internet/ip								Done
+internet/ip/ip-address					Done
+internet/ip/ipv4						Done
+internet/ip/ipv4-address-exhaustion		Done
+internet/ip/ipv6						Done
+internet/ipsec
+link									Done
+link/adsl								Done
+link/apr
+link/dsl								Done
+link/isdn								Done
+link/mac
+link/ndp
+link/ospf
+link/ppp								Done
+link/ppp/pppoa							Done
+link/ppp/pppoe							Done
+link/tunnels
+transport								Done
+transport/dccp
+transport/rsvp
+transport/sctp
+transport/tcp							Done
+transport/udp							Done
+
+====
+
+Border Gateway Protocol (BGP)
+Border Gateway Protocol (BGP) is a standardised exterior gateway protocol designed to exchange routing and reachability information between autonomous systems (AS) on the Internet. The protocol is often classified as a path vector protocol but is sometimes also classed as a distance vector routing protocol. The Border Gateway Protocol makes routing decisions based on paths, network policies, or rule-sets configured by a network administrator and is involved in making core routing decisions.
+
+BGP may be used for routing within an AS. In this application it is referred to as Interior Border Gateway Protocol, Internal BGP, or iBGP. In contrast, the Internet application of the protocol may be referred to as Exterior Border Gateway Protocol, External BGP, or EBGP.
+===
+
+Lightweight Directory Access Protocol (LDAP)
+The Lightweight Directory Access Protocol (LDAP) is an open, vendor neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol ([IP]) network. Directory services play an important role in developing intranet and Internet applications by allowing the sharing of information about users, systems, networks, services, and applications throughout the network. As examples, directory services may provide any organised set of records, often with a hierarchical structure, such as a corporate email directory. Similarly, a telephone directory is a list of subscribers with an address and a phone number.
+
+LDAP is specified in a series of Internet Engineering Task Force ([IETF]) Standard Track publications called Request for Comments ([RFCs]), using the description language ASN.1. The latest specification is Version 3, published as [RFC 4511]. For example, here is an LDAP search translated into plain English: "Search in the company email directory for all people located in Brisbane whose name contains 'White' that have an email address. Please return their full name, email, title, and description".
+
+A common usage of LDAP is to provide a single sign on where one password for a user is shared between many services, such as applying a company login code to web pages (so that staff log in only once to company computers, and then are automatically logged into the company [intranet]).
+
+LDAP is based on a simpler subset of the standards contained within the X.500 standard. Because of this relationship, LDAP is sometimes called X.500-lite.
+===
+The Media Gateway Control Protocol (MGCP) is an implementation of the Media Gateway Control Protocol architecture for controlling media gateways on Internet Protocol (IP) networks connected to the public switched telephone network (PSTN).[1] The protocol architecture and programming interface is described in RFC 2805 and the current specific MGCP definition is RFC 3435 which overrides RFC 2705. It is a successor to the Simple Gateway Control Protocol (SGCP) which was developed by Bellcore and Cisco. In November 1998, the Simple Gateway Control Protocol (SGCP) was combined with Level 3 Communications Internet Protocol Device Control (IPDC) to form the Media Gateway Control Protocol (MGCP).[2]
+
+MGCP is a text-based signaling and call control communications protocol used in Voice over IP (VoIP) systems. It implements a model similar to the structure of the PSTN with the power of the network residing in a call control center softswitch which is analogous to the central office in the telephone networks. The endpoints are low-intelligence devices, mostly executing control commands. The protocol represents a decomposition of other VoIP models, such as H.323, in which the H.323 Gatekeeper, have higher levels of signaling intelligence.
+
+MGCP uses the Session Description Protocol (SDP) for specifying and negotiating the media streams to be transmitted in a call session and the Real-time Transport Protocol (RTP) for framing of the media streams.
+===
+Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks. In operation since before 1985, NTP is one of the oldest Internet protocols in current use. NTP was originally designed by David L. Mills of the University of Delaware, who still oversees its development.
+
+NTP is intended to synchronize all participating computers to within a few milliseconds of Coordinated Universal Time (UTC).[1]:3 It uses a modified version of Marzullo's algorithm to select accurate time servers and is designed to mitigate the effects of variable network latency. NTP can usually maintain time to within tens of milliseconds over the public Internet, and can achieve better than one millisecond accuracy in local area networks under ideal conditions. Asymmetric routes and network congestion can cause errors of 100 ms or more.[2][3]
+
+The protocol is usually described in terms of a client-server model, but can as easily be used in peer-to-peer relationships where both peers consider the other to be a potential time source.[1]:20 Implementations send and receive timestamps using the User Datagram Protocol (UDP) on port number 123.[4][5] They can also use broadcasting or multicasting, where clients passively listen to time updates after an initial round-trip calibrating exchange.[3] NTP supplies a warning of any impending leap second adjustment, but no information about local time zones or daylight saving time is transmitted.[2][3]
+
+The current protocol is version 4 (NTPv4), which is a proposed standard as documented in RFC 5905. It is backward compatible with version 3, specified in RFC 1305.
+===
+Open Network Computing (ONC) Remote Procedure Call (RPC) is a widely deployed remote procedure call system. ONC was originally developed by Sun Microsystems in the 1980s as part of their Network File System project, and is sometimes referred to as Sun RPC.
+
+ONC is based on calling conventions used in Unix and the C programming language. It serializes data using the External Data Representation (XDR), which has also found some use to encode and decode data in files that are to be accessed on more than one platform. ONC then delivers the XDR payload using either UDP or TCP. Access to RPC services on a machine are provided via a port mapper that listens for queries on a well-known port (number 111) over UDP and TCP.
+
+ONC RPC was described in RFC 1831, published in 1995. RFC 5531, published in 2009, is the current version. Authentication mechanisms used by ONC RPC are described in RFC 2695, RFC 2203, and RFC 2623.
+
+Implementations of ONC RPC exist in most Unix-like systems. Microsoft supplies an implementation for Windows in their Microsoft Windows Services for UNIX product; in addition, a number of third-party implementation of ONC RPC for Windows exist, including versions for C/C++, Java, and .NET (see external links).
+
+In 2009, Sun relicensed the ONC RPC code under the standard 3-clause BSD license[1] and then reconfirmed by Oracle Corporation in 2010 following confusion about the scope of the relicensing.[2]
+
+ONC is considered "lean and mean", but has limited appeal as a generalized RPC system for WANs or heterogeneous environments[citation needed]. Systems such as DCE, CORBA and SOAP are generally used in this wider role[citation needed].
+
+
+===
+The Routing Information Protocol (RIP) is one of the oldest distance-vector routing protocols, which employs the hop count as a routing metric. RIP prevents routing loops by implementing a limit on the number of hops allowed in a path from the source to a destination. The maximum number of hops allowed for RIP is 15. This hop limit, however, also limits the size of networks that RIP can support. A hop count of 16 is considered an infinite distance, in other words the route is considered unreachable. RIP implements the split horizon, route poisoning and holddown mechanisms to prevent incorrect routing information from being propagated.
+
+Originally, each RIP router transmitted full updates every 30 seconds. In the early deployments, routing tables were small enough that the traffic was not significant. As networks grew in size, however, it became evident there could be a massive traffic burst every 30 seconds, even if the routers had been initialized at random times. It was thought, as a result of random initialization, the routing updates would spread out in time, but this was not true in practice. Sally Floyd and Van Jacobson showed in 1994[1] that, without slight randomization of the update timer, the timers synchronized over time. In most current networking environments, RIP is not the preferred choice for routing as its time to converge and scalability are poor compared to EIGRP, OSPF, or IS-IS (the latter two being link-state routing protocols), and a hop limit severely limits the size of network it can be used in. However, it is easy to configure, because RIP does not require any parameters on a router unlike other protocols.
+
+RIP uses the User Datagram Protocol (UDP) as its transport protocol, and is assigned the reserved port number 520.[2]
+===
+The Real-time Transport Protocol (RTP) is a network protocol for delivering audio and video over IP networks. RTP is used extensively in communication and entertainment systems that involve streaming media, such as telephony, video teleconference applications, television services and web-based push-to-talk features.
+
+RTP is used in conjunction with the RTP Control Protocol (RTCP). While RTP carries the media streams (e.g., audio and video), RTCP is used to monitor transmission statistics and quality of service (QoS) and aids synchronization of multiple streams. RTP is one of the technical foundations of Voice over IP and in this context is often used in conjunction with a signaling protocol such as the Session Initiation Protocol (SIP) which establishes connections across the network.
+
+RTP was developed by the Audio-Video Transport Working Group of the Internet Engineering Task Force (IETF) and first published in 1996 as RFC 1889, superseded by RFC 3550 in 2003.
+===
+The Real Time Streaming Protocol (RTSP) is a network control protocol designed for use in entertainment and communications systems to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points. Clients of media servers issue VCR-style commands, such as play and pause, to facilitate real-time control of playback of media files from the server.
+
+The transmission of streaming data itself is not a task of RTSP. Most RTSP servers use the Real-time Transport Protocol (RTP) in conjunction with Real-time Control Protocol (RTCP) for media stream delivery, however some vendors implement proprietary transport protocols. The RTSP server software from RealNetworks, for example, also used RealNetworks' proprietary Real Data Transport (RDT).
+
+RTSP was developed by RealNetworks, Netscape[1] and Columbia University, with the first draft submitted to IETF in 1996.[2] It was standardized by the Multiparty Multimedia Session Control Working Group (MMUSIC WG) of the Internet Engineering Task Force (IETF) and published as RFC 2326 in 1998.[3] RTSP 2.0 is currently under development as a replacement of RTSP 1.0. RTSP 2.0 is based on RTSP 1.0 but is not backwards compatible other than in the basic version negotiation mechanism.[4]
+===
+The Session Initiation Protocol (SIP) is a communications protocol for signaling and controlling multimedia communication sessions. The most common applications of SIP are in Internet telephony for voice and video calls, as well as instant messaging all over Internet Protocol (IP) networks.
+
+The protocol defines the messages that are sent between endpoints, which govern establishment, termination and other essential elements of a call. SIP can be used for creating, modifying and terminating sessions consisting of one or several media streams. SIP is an application layer protocol designed to be independent of the underlying transport layer. It is a text-based protocol, incorporating many elements of the Hypertext Transfer Protocol (HTTP) and the Simple Mail Transfer Protocol (SMTP).[1]
+
+SIP works in conjunction with several other application layer protocols that identify and carry the session media. Media identification and negotiation is achieved with the Session Description Protocol (SDP). For the transmission of media streams (voice, video) SIP typically employs the Real-time Transport Protocol (RTP) or Secure Real-time Transport Protocol (SRTP). For secure transmissions of SIP messages, the protocol may be encrypted with Transport Layer Security (TLS).
+===
+Simple Network Management Protocol (SNMP) is an "Internet-standard protocol for managing devices on IP networks". Devices that typically support SNMP include routers, switches, servers, workstations, printers, modem racks and more.[1] SNMP is widely used in network management systems to monitor network-attached devices for conditions that warrant administrative attention. SNMP is a component of the Internet Protocol Suite as defined by the Internet Engineering Task Force (IETF). It consists of a set of standards for network management, including an application layer protocol, a database schema, and a set of data objects.[2]
+
+SNMP exposes management data in the form of variables on the managed systems, which describe the system configuration. These variables can then be queried (and sometimes set) by managing applications.
+===
+Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), are cryptographic protocols designed to provide communications security over a computer network.[1] They use X.509 certificates and hence asymmetric cryptography to authenticate the counterparty with whom they are communicating,[2] and to negotiate a symmetric session key. This session key is then used to encrypt data flowing between the parties. This allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product, message authentication.[clarification needed] Several versions of the protocols are in widespread use in applications such as web browsing, electronic mail, Internet faxing, instant messaging, and voice-over-IP (VoIP). An important property in this context is forward secrecy, so the short-term session key cannot be derived from the long-term asymmetric secret key.[3]
+
+As a consequence of choosing X.509 certificates, certificate authorities and a public key infrastructure are necessary to verify the relation between a certificate and its owner, as well as to generate, sign, and administer the validity of certificates. While this can be more beneficial than verifying the identities via a web of trust, the 2013 mass surveillance disclosures made it more widely known that certificate authorities are a weak point from a security standpoint, allowing man-in-the-middle attacks (MITM).[4][5]
+
+In the Internet Protocol Suite, TLS and SSL encrypt the data of network connections in the application layer. In OSI model equivalences, TLS/SSL is initialized at layer 5 (session layer) and works at layer 6 (the presentation layer).[citation needed] The session layer has a handshake using an asymmetric cipher in order to establish cipher settings and a shared key for that session; then the presentation layer encrypts the rest of the communication using a symmetric cipher and that session key. In both models, TLS and SSL work on behalf of the underlying transport layer, whose segments carry encrypted data.
+
+TLS is an Internet Engineering Task Force (IETF) standards track protocol, first defined in 1999 and updated in RFC 5246 (August 2008) and RFC 6176 (March 2011). It is based on the earlier SSL specifications (1994, 1995, 1996) developed by Netscape Communications[6] for adding the HTTPS protocol to their Navigator web browser.
+===
+Explicit Congestion Notification (ECN) is an extension to the Internet Protocol and to the Transmission Control Protocol and is defined in RFC 3168 (2001). ECN allows end-to-end notification of network congestion without dropping packets. ECN is an optional feature that may be used between two ECN-enabled endpoints when the underlying network infrastructure also supports it.
+
+Conventionally, TCP/IP networks signal congestion by dropping packets. When ECN is successfully negotiated, an ECN-aware router may set a mark in the IP header instead of dropping a packet in order to signal impending congestion. The receiver of the packet echoes the congestion indication to the sender, which reduces its transmission rate as though it detected a dropped packet.
+
+Rather than responding properly or ignoring the bits, some outdated or faulty network equipment has historically dropped or mangled packets that have ECN bits set.[1][2][3] As of 2015, measurements suggest that the fraction of web servers on the public Internet for which setting ECN prevents network connections has been reduced to less than 1%.[4]
+
+In June 2015, Apple Inc. announced that it will enable ECN signalling by default on its hundreds of millions of deployed products, in a move that Apple believes will help drive the adoption of ECN in other products.[5]
+===
+The Internet Group Management Protocol (IGMP) is a communications protocol used by hosts and adjacent routers on IPv4 networks to establish multicast group memberships. IGMP is an integral part of IP multicast.
+
+IGMP can be used for one-to-many networking applications such as online streaming video and gaming, and allows more efficient use of resources when supporting these types of applications.
+
+IGMP is used on IPv4 networks. Multicast management on IPv6 networks is handled by Multicast Listener Discovery (MLD) which uses ICMPv6 messaging in contrast to IGMP's bare IP encapsulation.
+===
+The Internet Control Message Protocol (ICMP) is one of the main protocols of the Internet Protocol Suite. It is used by network devices, like routers, to send error messages indicating, for example, that a requested service is not available or that a host or router could not be reached. ICMP can also be used to relay query messages.[1] It is assigned protocol number 1.[2] ICMP[3] differs from transport protocols such as TCP and UDP in that it is not typically used to exchange data between systems, nor is it regularly employed by end-user network applications (with the exception of some diagnostic tools like ping and traceroute).
+===
+Internet Control Message Protocol version 6 (ICMPv6) is the implementation of the Internet Control Message Protocol (ICMP) for Internet Protocol version 6 (IPv6) defined in RFC 4443.[1] ICMPv6 is an integral part of IPv6 and performs error reporting and diagnostic functions (e.g., ping), and has a framework for extensions to implement future changes.
+
+Several extensions have been published, defining new ICMPv6 message types as well as new options for existing ICMPv6 message types. Neighbor Discovery Protocol (NDP) is a node discovery protocol in IPv6 which replaces and enhances functions of ARP.[2] Secure Neighbor Discovery Protocol (SEND) is an extension of NDP with extra security. Multicast Router Discovery (MRD) allows discovery of multicast routers.
+===
+Internet Protocol Security (IPsec) is a protocol suite for securing Internet Protocol (IP) communications by authenticating and encrypting each IP packet of a communication session. IPsec includes protocols for establishing mutual authentication between agents at the beginning of the session and negotiation of cryptographic keys to be used during the session. IPsec can be used in protecting data flows between a pair of hosts (host-to-host), between a pair of security gateways (network-to-network), or between a security gateway and a host (network-to-host).[1]
+
+Internet Protocol security (IPsec) uses cryptographic security services to protect communications over Internet Protocol (IP) networks. IPsec supports network-level peer authentication, data origin authentication, data integrity, data confidentiality (encryption), and replay protection.
+
+IPsec is an end-to-end security scheme operating in the Internet Layer of the Internet Protocol Suite, while some other Internet security systems in widespread use, such as Transport Layer Security (TLS) and Secure Shell (SSH), operate in the upper layers at the Application layer. Hence, only IPsec protects all application traffic over an IP network. Applications can be automatically secured by IPsec at the IP layer.
+===
+The Address Resolution Protocol (ARP) is a telecommunication protocol used for resolution of network layer addresses into link layer addresses, a critical function in multiple-access networks. ARP was defined by RFC 826 in 1982.[1] It is Internet Standard STD 37. It is also the name of the program for manipulating these addresses in most operating systems.
+
+ARP is used for converting a network address (e.g. an IPv4 address) to a physical address like an Ethernet address (also named a MAC address). ARP has been implemented with many combinations of network and data link layer technologies, like IPv4, Chaosnet, DECnet and Xerox PARC Universal Packet (PUP) using IEEE 802 standards, FDDI, X.25, Frame Relay and Asynchronous Transfer Mode (ATM). IPv4 over IEEE 802.3 and IEEE 802.11 is the most common case.
+
+In Internet Protocol Version 6 (IPv6) networks, the functionality of ARP is provided by the Neighbor Discovery Protocol (NDP).
+===
+In the seven-layer OSI model of computer networking, media access control (MAC) data communication protocol is a sublayer of the data link layer (layer 2). The MAC sublayer provides addressing and channel access control mechanisms that make it possible for several terminals or network nodes to communicate within a multiple access network that incorporates a shared medium, e.g. an Ethernet network. The hardware that implements the MAC is referred to as a media access controller.
+
+The MAC sublayer acts as an interface between the logical link control (LLC) sublayer and the network's physical layer. The MAC layer emulates a full-duplex logical communication channel in a multi-point network. This channel may provide unicast, multicast or broadcast communication service.
+===
+The Neighbor Discovery Protocol (NDP) is a protocol in the Internet protocol suite used with Internet Protocol Version 6 (IPv6). It operates in the Link Layer of the Internet model (RFC 1122) and is responsible for address autoconfiguration of nodes, discovery of other nodes on the link, determining the link layer addresses of other nodes, duplicate address detection, finding available routers and Domain Name System (DNS) servers, address prefix discovery, and maintaining reachability information about the paths to other active neighbor nodes (RFC 4861).[1]
+
+The protocol defines five different ICMPv6 packet types to perform functions for IPv6 similar to the Address Resolution Protocol (ARP) and Internet Control Message Protocol (ICMP) Router Discovery and Router Redirect protocols for IPv4. However, it provides many improvements over its IPv4 counterparts (RFC 4861, section 3.1). For example, it includes Neighbor Unreachability Detection (NUD), thus improving robustness of packet delivery in the presence of failing routers or links, or mobile nodes.
+
+The Inverse Neighbor Discovery (IND) protocol extension (RFC 3122) allows nodes to determine and advertise an IPv6 address corresponding to a given link-layer address, similar to Reverse ARP for IPv4. The Secure Neighbor Discovery Protocol (SEND) is a security extension of NDP that uses Cryptographically Generated Addresses (CGA) and the Resource Public Key Infrastructure (RPKI) to provide an alternate mechanism for securing NDP with a cryptographic method that is independent of IPsec. Neighbor Discovery Proxy (ND Proxy) (RFC 4389) provides a service similar to IPv4 Proxy ARP and allows bridging multiple network segments within a single subnet prefix when bridging cannot be done at the link layer.
+==
+Open Shortest Path First (OSPF) is a routing protocol for Internet Protocol (IP) networks. It uses a link state routing algorithm and falls into the group of interior routing protocols, operating within a single autonomous system (AS). It is defined as OSPF Version 2 in RFC 2328 (1998) for IPv4.[1] The updates for IPv6 are specified as OSPF Version 3 in RFC 5340 (2008).[2]
+
+OSPF is perhaps the most widely used interior gateway protocol (IGP) in large enterprise networks. Intermediate System to Intermediate System (IS-IS), another link-state dynamic routing protocol, is more common in large service provider networks. The most widely used exterior gateway protocol is the Border Gateway Protocol (BGP), the principal routing protocol between autonomous systems on the Internet.
+===
+In computer networks, a tunneling protocol allows a network user to access or provide a network service that the underlying network does not support or provide directly. One important use of a tunneling protocol is to allow a foreign protocol to run over a network that does not support that particular protocol; for example, running IPv6 over IPv4. Another important use is to provide services that are impractical or unsafe to be offered using only the underlying network services; for example, providing a corporate network address to a remote user whose physical network address is not part of the corporate network. Because tunneling involves repackaging the traffic data into a different form, perhaps with encryption as standard, a third use is to hide the nature of the traffic that is run through the tunnel.
+
+The tunneling protocol works by using the data portion of a packet (the payload) to carry the packets that actually provide the service. Tunneling uses a layered protocol model such as those of the OSI or TCP/IP protocol suite, but usually violates the layering when using the payload to carry a service not normally provided by the network. Typically, the delivery protocol operates at an equal or higher level in the layered model than the payload protocol.
+===
+The Datagram Congestion Control Protocol (DCCP) is a message-oriented transport layer protocol. DCCP implements reliable connection setup, teardown, Explicit Congestion Notification (ECN), congestion control, and feature negotiation. DCCP was published as RFC 4340, a proposed standard, by the IETF in March, 2006. RFC 4336 provides an introduction. FreeBSD had an implementation for version 5.1.[1] Linux also had an implementation of DCCP first released in Linux kernel version 2.6.14 (released October 28, 2005).
+
+DCCP provides a way to gain access to congestion control mechanisms without having to implement them at the application layer. It allows for flow-based semantics like in Transmission Control Protocol (TCP), but does not provide reliable in-order delivery. Sequenced delivery within multiple streams as in the Stream Control Transmission Protocol (SCTP) is not available in DCCP.
+
+DCCP is useful for applications with timing constraints on the delivery of data. Such applications include streaming media, multiplayer online games and Internet telephony. The primary feature of these applications is that old messages quickly become stale so that getting new messages is preferred to resending lost messages. Currently such applications have often either settled for TCP or used User Datagram Protocol (UDP) and implemented their own congestion control mechanisms, or have no congestion control at all.
+
+While being useful for these applications, DCCP can also be positioned as a general congestion control mechanism for UDP-based applications, by adding, as needed, a mechanism for reliable and/or in-order delivery on the top of UDP/DCCP. In this context, DCCP allows the use of different, but generally TCP-friendly congestion control mechanisms.
+
+A DCCP connection contains acknowledgment traffic as well as data traffic. Acknowledgments inform a sender whether its packets have arrived, and whether they were marked by Explicit Congestion Notification (ECN). Acknowledgements are transmitted as reliably as the congestion control mechanism in use requires, possibly completely reliably.
+
+DCCP has the option for very long (48-bit) sequence numbers corresponding to a packet ID, rather than a byte ID as in TCP. The long length of the sequence numbers is intended to guard against "some blind attacks, such as the injection of DCCP-Resets into the connection."[2]
+===
+The Resource Reservation Protocol (RSVP) is a Transport Layer[1] protocol designed to reserve resources across a network for an integrated services Internet. RSVP operates over an IPv4 or IPv6 Internet Layer and provides receiver-initiated setup of resource reservations for multicast or unicast data flows with scaling and robustness. It does not transport application data but is similar to a control protocol, like Internet Control Message Protocol (ICMP) or Internet Group Management Protocol (IGMP). RSVP is described in RFC 2205.
+
+RSVP can be used by either hosts or routers to request or deliver specific levels of quality of service (QoS) for application data streams or flows. RSVP defines how applications place reservations and how they can relinquish the reserved resources once the need for them has ended. RSVP operation will generally result in resources being reserved in each node along a path.
+
+RSVP is not a routing protocol and was designed to interoperate with current and future routing protocols.
+
+RSVP by itself is rarely deployed in telecommunications networks today[citation needed] but the traffic engineering extension of RSVP, or RSVP-TE, is becoming more widely accepted nowadays in many QoS-oriented networks. Next Steps in Signaling (NSIS) is a replacement for RSVP.
+===
+n computer networking, the Stream Control Transmission Protocol (SCTP) is a transport-layer protocol (protocol number 132[1]), serving in a similar role to the popular protocols Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). It provides some of the same service features of both: it is message-oriented like UDP and ensures reliable, in-sequence transport of messages with congestion control like TCP.
+
+The IETF Signaling Transport (SIGTRAN) working group defined the protocol in 2000,[2] and the IETF Transport Area (TSVWG) working group maintains it. RFC 4960 defines the protocol. RFC 3286 provides an introduction.
+
+In the absence of native SCTP support in operating systems it is possible to tunnel SCTP over UDP,[3] as well as mapping TCP API calls to SCTP ones.[4]
+===
