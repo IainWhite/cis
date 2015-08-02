@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('NeXT'); ?>
+        <p>The <strong>NeXT Computer</strong> was a workstation computer developed, manufactured, and sold by <?php echo $this->stencil->addLink('NeXT Inc', 'C'); ?> , a company founded by <?php echo $this->stencil->addLink('Steve Jobs', 'P'); ?>  and several other veterans of the <?php echo $this->stencil->addLink('Macintosh', 'ITH'); ?>  and <?php echo $this->stencil->addLink('Lisa', 'ITH'); ?>  teams, from 1988 until 1990.</p>
+        <p>It ran the <?php echo $this->stencil->addLink('Unix', 'OS'); ?>  based <?php echo $this->stencil->addLink('NeXTSTEP', 'OS'); ?>  operating system, with a unique <?php echo $this->stencil->addLink('GUI', 'IT'); ?>  using a <strong>Display PostScript</strong> based back end.</p>
+        <p>The motherboard was square and fit into one of four identical slots in the enclosure.</p>
+        <p>The NeXT Computer enclosure consisted of a 1-foot (305 mm) die-cast magnesium cube shaped, black case, which led to the machine being informally referred to as "<em>The Cube</em>".</p>
+        <p>The NeXT Computer was not a great commercial success at the level of high volume personal computers such as the <?php echo $this->stencil->addLink('Apple II', 'ITH'); ?> , the Macintosh, or Microsoft Windows PCs; some of the workstations were sold to universities, financial institutions, and government agencies however.</p>
+        <p>A NeXT Computer and its object oriented development tools and libraries were used by <?php echo $this->stencil->addLink('Tim Berners-Lee', 'P'); ?>  and <?php echo $this->stencil->addLink('Robert Calliau', 'P'); ?>  at <?php echo $this->stencil->addLink('CERN', 'C'); ?>  to develop the world's first <?php echo $this->stencil->addLink('Web server', 'WD'); ?>  software, <?php echo $this->stencil->addLink('CERN HTTPd', 'WS'); ?> , and also used to write the first <?php echo $this->stencil->addLink('Web browser', 'WD'); ?>, <?php echo $this->stencil->addLink('WorldWideWeb', 'WB'); ?> .</p>
+        <p>The NeXT Computer was succeeded by the <strong>NeXTcube</strong>, an upgraded model, in 1990.</p>
+    </div>
+</div>
