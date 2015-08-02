@@ -1773,3 +1773,107 @@ In Europe, the NotFound project, created by multiple European organisations incl
 ===
 So, what’s the "418 I'm a teapot" all about? Well, the group of people who make these codes and set the standards is the IETF or "Internet Engineering Task Force". To propose new standards, the members release RFC’s or "Requests for Comments" to the community. Every year since 1989, they release a few humorous RFC’s for April’s Fool Day and on April 1st, 1998, RFC 2324 introduced the "Hyper Text Coffee Pot Control Protocol" or (HTCPCP/1.0). This was a brand new protocol for controlling, monitoring, and diagnosing coffee pots. Now, the RFC is pretty funny with lines like "Coffee pots heat water using electronic mechanisms, so there is no fire. Thus, no firewalls are necessary". If you have never read it, it’s definitely worth a read. I added a link in the description below. Now, you may be asking, if this is a COFFEE protocol, why the "teapot" code? This is answered in Section 2.3.2. in that "Any attempt to brew coffee with a teapot should result in the HTTP error code 418 I'm a teapot and the resulting entity body MAY be short and stout". And just like that the "418 I’m a teapot" code was born!
 ===
+HTTP header fields are components of the header section of request and response messages in the Hypertext Transfer Protocol (HTTP). They define the operating parameters of an HTTP transaction.
+
+General format[edit]
+The header fields are transmitted after the request or response line, which is the first line of a message. Header fields are colon-separated name-value pairs in clear-text string format, terminated by a carriage return (CR) and line feed (LF) character sequence. The end of the header section is indicated by an empty field, resulting in the transmission of two consecutive CR-LF pairs. Historically, long lines could be folded into multiple lines; continuation lines are indicated by the presence of a space (SP) or horizontal tab (HT) as the first character on the next line. This folding is now deprecated.[1]
+
+Field names[edit]
+A core set of fields is standardized by the Internet Engineering Task Force (IETF) in RFCs 7230, 7231, 7232, 7233, 7234, and 7235. The permanent registry of header fields and repository of provisional registrations are maintained by the IANA. Additional field names and permissible values may be defined by each application.
+
+Non-standard header fields were conventionally marked by prefixing the field name with X-[2] but this convention was deprecated in June 2012 because of the inconveniences it caused when non-standard fields became standard.[3] An earlier restriction on use of Downgraded- was lifted in March 2013.[4]
+
+Field values[edit]
+A few fields can contain comments (i.e. in User-Agent, Server, Via fields), which can be ignored by software.[5]
+
+Many field values may contain a quality (q) key-value pair, specifying a weight to use in content negotiation.[6]
+
+Size limits[edit]
+The standard imposes no limits to the size of each header field name or value, or to the number of fields. However, most servers, clients, and proxy software impose some limits for practical and security reasons. For example, the Apache 2.3 server by default limits the size of each field to 8190 bytes, and there can be at most 100 header fields in a single request.[7]
+===
+In computing, a user agent is software (a software agent) that is acting on behalf of a user. For example, an email reader is a mail user agent, and in the Session Initiation Protocol (SIP), the term user agent refers to both end points of a communications session.[1]
+
+In many cases, a user agent acts as a client in a network protocol used in communications within a client–server distributed computing system. In particular, the Hypertext Transfer Protocol (HTTP) identifies the client software originating the request, using a "User-Agent" header, even when the client is not operated by a user. The SIP protocol (based on HTTP) followed this usage.
+===
+User agent identification[edit]
+When a software agent operates in a network protocol, it often identifies itself, its application type, operating system, software vendor, or software revision, by submitting a characteristic identification string to its operating peer. In HTTP,[2] SIP,[1] and SMTP/NNTP[3] protocols, this identification is transmitted in a header field User-Agent. Bots, such as Web crawlers, often also include a URL and/or e-mail address so that the Webmaster can contact the operator of the bot.
+
+In HTTP, the User-Agent string is often used for content negotiation, where the origin server selects suitable content or operating parameters for the response. For example, the User-Agent string might be used by a web server to choose variants based on the known capabilities of a particular version of client software.
+
+The User-Agent string is one of the criteria by which Web crawlers may be excluded from accessing certain parts of a Web site using the Robots Exclusion Standard (robots.txt file).
+
+As with many other HTTP request headers, the information in the "User-Agent" string contributes to the information that the client sends to the server, since the string can vary considerably from user to user.[4]
+
+Format for human-operated web browsers[edit]
+The User-Agent string format is currently specified by Section 5.5.3 of HTTP/1.1 Semantics and Content. The format of the User-Agent string in HTTP is a list of product tokens (keywords) with optional comments. For example if a user's product were called WikiBrowser, their user agent string might be WikiBrowser/1.0 Gecko/1.0. The "most important" product component is listed first. The parts of this string are as follows:
+
+Product name and version (WikiBrowser/1.0)
+Layout engine and version (Gecko/1.0)
+During the first browser war, many web servers were configured to only send web pages that required advanced features, including frames, to clients that were identified as some version of Mozilla.[5] Other browsers were considered to be older products such as Mosaic, Cello or Samba and would be sent a bare bones HTML document.
+
+For this reason, most Web browsers use a User-Agent value as follows: Mozilla/[version] ([system and browser information]) [platform] ([platform details]) [extensions]. For example, Safari on the iPad has used the following:
+
+Mozilla/5.0 (iPad; U; CPU OS 3_2_1 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B405
+The components of this string are as follows:
+
+Mozilla/5.0: Previously used to indicate compatibility with the Mozilla rendering engine
+(iPad; U; CPU OS 3_2_1 like Mac OS X; en-us): Details of the system in which the browser is running
+AppleWebKit/531.21.10: The platform the browser uses
+(KHTML, like Gecko): Browser platform details
+Mobile/7B405: This is used by the browser to indicate specific enhancements that are available directly in the browser or through third parties. An example of this is Microsoft Live Meeting which registers an extension so that the Live Meeting service knows if the software is already installed, which means it can provide a streamlined experience to joining meetings.
+Before migrating to the Chromium code base, Opera was the most prolific web browser to not begin its User-Agent string with "Mozilla" (instead beginning it with "Opera"). As of July 15, 2013,[6] Opera's User-Agent string begins with "Mozilla/5.0" and, to avoid encountering legacy server rules, no longer includes the word "Opera" (instead using the string "OPR" to denote the Opera version).
+
+Format for automated agents (bots)[edit]
+Automated web crawling tools can use a simplified form, where an important field is contact information in case of problems. By convention the word "bot" is included in the name of the agent. For example:
+
+ Googlebot/2.1 (+http://www.google.com/bot.html)
+Automated agents are expected to follow rules in a special file called "robots.txt".
+
+User agent spoofing[edit]
+The popularity of various Web browser products has varied throughout the Web's history, and this has influenced the design of Web sites in such a way that Web sites are sometimes designed to work well only with particular browsers, rather than according to uniform standards by the World Wide Web Consortium (W3C) or the Internet Engineering Task Force (IETF). Web sites often include code to detect browser version to adjust the page design sent according to the user agent string received. This may mean that less-popular browsers are not sent complex content (even though they might be able to deal with it correctly) or, in extreme cases, refused all content.[7] Thus, various browsers have a feature to cloak or spoof their identification to force certain server-side content. For example, the Android browser identifies itself as Safari (among other things) in order to aid compatibility.[8][9]
+
+Other HTTP client programs, like download managers and offline browsers, often have the ability to change the user agent string.
+
+Spam bots and Web scrapers often use fake user agents.
+
+At times it has been popular among Web developers to initiate Viewable With Any Browser campaigns,[10] encouraging developers to design Web pages that work equally well with any browser.
+
+A result of user agent spoofing may be that collected statistics of Web browser usage are inaccurate.
+
+==
+The robots exclusion standard, also known as the robots exclusion protocol or robots.txt protocol, is a standard used by websites to communicate with web crawlers and other web robots. The standard specifies the instruction format to be used to inform the robot about which areas of the website should not be processed or scanned. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code. Not all robots cooperate with the standard including email harvesters, spambots and malware robots that scan for security vulnerabilities. The standard is different from, but can be used in conjunction with Sitemaps, a robot inclusion standard for websites.
+
+The standard was proposed by Martijn Koster,[1][2] when working for Nexor[3] in February, 1994[4] on the www-talk mailing list, the main communication channel for WWW-related activities at the time. Charles Stross claims to have provoked Koster to suggest robots.txt, after he wrote a badly-behaved web crawler that caused an inadvertent denial of service attack on Koster's server.[5]
+
+It quickly became a de facto standard that present and future web crawlers were expected to follow; most complied, including those operated by search engines such as WebCrawler, Lycos and AltaVista.[citation needed]
+
+===
+
+The ETag or entity tag is part of HTTP, the protocol for the World Wide Web. It is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control,[1] as a way to help prevent simultaneous updates of a resource from overwriting each other.
+
+An ETag is an opaque identifier assigned by a web server to a specific version of a resource found at a URL. If the resource representation at that URL ever changes, a new and different ETag is assigned. Used in this manner ETags are similar to fingerprints, and they can be quickly compared to determine whether two representations of a resource are the same.
+
+
+
+===
+An HTTP cookie (also called web cookie, Internet cookie, browser cookie or simply cookie, the latter which is not to be confused with the literal definition), is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website. Every time the user loads the website, the browser sends the cookie back to the server to notify the website of the user's previous activity.[1] Cookies were designed to be a reliable mechanism for websites to remember stateful information (such as items in a shopping cart) or to record the user's browsing activity (including clicking particular buttons, logging in, or recording which pages were visited by the user as far back as months or years ago).
+
+Although when everything is working correctly, cookies cannot carry viruses, and cannot install malware on the host computer,[2] tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals' browsing histories—a potential privacy concern that prompted European[3] and U.S. law makers to take action in 2011.[4][5] Cookies can also store passwords and form content a user has previously entered, such as a credit card number or an address.
+
+Other kinds of cookies perform essential functions in the modern web. Perhaps most importantly, authentication cookies are the most common method used by web servers to know whether the user is logged in or not, and which account they are logged in with. Without such a mechanism, the site would not know whether to send a page containing sensitive information, or require the user to authenticate themselves by logging in. The security of an authentication cookie generally depends on the security of the issuing website and the user's web browser, and on whether the cookie data is encrypted. Security vulnerabilities may allow a cookie's data to be read by a hacker, used to gain access to user data, or used to gain access (with the user's credentials) to the website to which the cookie belongs (see cross-site scripting and cross-site request forgery for examples).[6]
+
+The term "cookie" was derived from the term "magic cookie", which is a packet of data a program receives and sends back unchanged. Magic cookies were already used in computing when computer programmer Lou Montulli had the idea of using them in web communications in June 1994.[7] At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for MCI. Vint Cerf and John Klensin represented MCI in technical discussions with Netscape Communications. Not wanting the MCI servers to have to retain partial transaction states led to MCI's request to Netscape to find a way to store that state in each user's computer. Cookies provided a solution to the problem of reliably implementing a virtual shopping cart.[8][9]
+
+Together with John Giannandrea, Montulli wrote the initial Netscape cookie specification the same year. Version 0.9beta of Mosaic Netscape, released on October 13, 1994,[10][11] supported cookies[citation needed]. The first use of cookies (out of the labs) was checking whether visitors to the Netscape website had already visited the site. Montulli applied for a patent for the cookie technology in 1995, and US 5774670 was granted in 1998. Support for cookies was integrated in Internet Explorer in version 2, released in October 1995.[12]
+
+The introduction of cookies was not widely known to the public at the time. In particular, cookies were accepted by default, and users were not notified of their presence. The general public learned about cookies after the Financial Times published an article about them on February 12, 1996.[13] In the same year, cookies received a lot of media attention, especially because of potential privacy implications. Cookies were discussed in two U.S. Federal Trade Commission hearings in 1996 and 1997.
+
+The development of the formal cookie specifications was already ongoing. In particular, the first discussions about a formal specification started in April 1995 on the www-talk mailing list. A special working group within the IETF was formed. Two alternative proposals for introducing state in HTTP transactions had been proposed by Brian Behlendorf and David Kristol respectively, but the group, headed by Kristol himself and Aron Afatsuom, soon decided to use the Netscape specification as a starting point. In February 1996, the working group identified third-party cookies as a considerable privacy threat. The specification produced by the group was eventually published as RFC 2109 in February 1997. It specifies that third-party cookies were either not allowed at all, or at least not enabled by default.
+
+At this time, advertising companies were already using third-party cookies. The recommendation about third-party cookies of RFC 2109 was not followed by Netscape and Internet Explorer. RFC 2109 was superseded by RFC 2965 in October 2000.
+
+A definitive specification for cookies as used in the real world was published as RFC 6265 in April 2011.
+===
+AltaVista was an early web search engine founded in 1995. It was once one of the most popular search engines, but it lost ground to Google and was purchased by Yahoo! in 2003, which retained the brand but based all AltaVista searches on its own search engine. On July 8, 2013, the service was shut down by Yahoo! and since then, the domain redirects to Yahoo!'s own search site.[2]
+
+

@@ -54,7 +54,7 @@ transport/tcp							Done
 transport/udp							Done
 
 ====
-
+ 
 Border Gateway Protocol (BGP)
 Border Gateway Protocol (BGP) is a standardised exterior gateway protocol designed to exchange routing and reachability information between autonomous systems (AS) on the Internet. The protocol is often classified as a path vector protocol but is sometimes also classed as a distance vector routing protocol. The Border Gateway Protocol makes routing decisions based on paths, network policies, or rule-sets configured by a network administrator and is involved in making core routing decisions.
 
