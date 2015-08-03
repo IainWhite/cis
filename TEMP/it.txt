@@ -18,26 +18,13 @@ it/dot-com-bubble
 it/font
 it/foss
 it/gdi
-it/hardware/acorn-archimedes
-it/hardware/acorn-electron
-it/hardware/amstrad-pc1512
-it/hardware/amstrad-pcw
 it/hardware/analytical-engine
 it/hardware/antikythera-mechanism
 it/hardware/arm-architecture
 it/hardware/bbc-domesday-project
-it/hardware/bbc-micro
 it/hardware/commodore-pet
 it/hardware/cpu
-it/hardware/mac
 it/hardware/Manchester Small-Scale Experimental Machine (SSEM)
-it/hardware/next
-it/hardware/pc
-it/hardware/pc/at
-it/hardware/pc/ibm-pc
-it/hardware/pc/ibm-pc-compatible
-it/hardware/pc/ps-2
-it/hardware/pc/xt
 it/hardware/phones/nokia-communicator
 it/hardware/smartphone
 it/hardware/sparc
@@ -74,16 +61,13 @@ it/operating-systems/vms
 it/operating-systems/windows/windows-api
 it/operating-systems/windows/windows-template-library
 it/relational-model
-it/Request for Comments (RFC)
 it/rgb
 it/shell-scripts
 it/slackware
 it/social-networking
 it/software-licenses
 it/software/activex
-it/software/adobe-air (was air)
 it/software/awk
-it/software/borland-sidekick
 it/software/cacti
 it/software/cad
 it/software/coreldraw
@@ -111,7 +95,6 @@ it/software/lotus-magellan
 it/software/lotus-notes
 it/software/lotus-organizer
 it/software/lotus-smartsuite
-it/software/lotus-symphony
 it/software/microsoft-exchange
 it/software/microsoft-office
 it/software/microsoft-outlook
@@ -119,25 +102,13 @@ it/software/microsoft-powerpoint
 it/software/microsoft-project
 it/software/microsoft-script-editor
 it/software/microsoft-works
-it/software/midnight-commander
 it/software/mozilla-thunderbird
 it/software/norton-commander
 it/software/norton-utilities
 it/software/paintshop-pro
 it/software/pc-tools
 it/software/sed
-it/software/spreadsheets/excel
-it/software/spreadsheets/lotus-1-2-3
-it/software/spreadsheets/multiplan
-it/software/spreadsheets/visicalc
-it/software/spreedsheets/supercalc
 it/software/visio
-it/software/word-processors/ami-pro
-it/software/word-processors/microsoft-write
-it/software/word-processors/word
-it/software/word-processors/wordpad
-it/software/word-processors/wordperfect
-it/software/xcode
 it/stackdriver
 it/tar-format
 it/tex
