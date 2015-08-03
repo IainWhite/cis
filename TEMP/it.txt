@@ -10,7 +10,6 @@ it/coroutines
 it/crc-cards
 it/csnet
 it/cygwin
-it/databases/call-level-interface
 it/design
 it/design/font/typeface
 it/design/User Experience (UX)
@@ -20,29 +19,14 @@ it/dot-com-bubble
 it/font
 it/foss
 it/gdi
-it/hardware/analytical-engine
-it/hardware/antikythera-mechanism
-it/hardware/bbc-domesday-project
-it/hardware/commodore-pet
-it/hardware/cpu
-it/hardware/Manchester Small-Scale Experimental Machine (SSEM)
 it/hardware/phones/nokia-communicator
 it/hardware/smartphone
-it/hardware/sparc
 it/hardware/sparcstation
 it/hsl
 it/ims
-it/java-bytecode
-it/java-me
-it/jdbc
-it/junit
-it/jvm
 it/latex
 it/metafont
-it/Open Database Connectivity (ODBC)
-it/operating-systems/linux/tux
 it/operating-systems/mobile/android
-it/relational-model
 it/rgb
 it/shell-scripts
 it/slackware
@@ -63,7 +47,6 @@ it/software/freehand
 it/software/gimp
 it/software/grep
 it/software/ide
-it/software/jira
 it/software/licenses/Apple Public Source License
 it/software/licenses/Common Public License
 it/software/licenses/End-User License Agreement (EULA)
@@ -92,7 +75,6 @@ it/software/pc-tools
 it/software/sed
 it/software/visio
 it/stackdriver
-it/tar-format
 it/tex
 it/windows-api
 it/windows-template-library
