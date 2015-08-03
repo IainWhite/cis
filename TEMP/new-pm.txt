@@ -1752,8 +1752,8 @@ This status code is not specified in any RFCs, but is used by [Microsoft] HTTP p
 This status code is not specified in any RFCs, but is used by [Microsoft] HTTP proxies to signal a network connect timeout behind the proxy to a client in front of the proxy.
 ===
 
-01 Moved Permanently
-The HTTP response status code 301 Moved Permanently is used for permanent [URL] redirection, meaning current links or records using the URL that the response is received for should be updated. The new URL should be provided in the Location field included with the response. [RFC 2616] states that:
+301 Moved Permanently
+The [HTTP response status code] 301 Moved Permanently is used for permanent [URL] redirection, meaning current links or records using the URL that the response is received for should be updated. The new URL should be provided in the Location field included with the response. [RFC 2616] states that:
 
 If a client has link editing capabilities, it should update all references to the Request URL.
 The response is catchable.
@@ -1761,92 +1761,102 @@ Unless the request method was HEAD, the entity should contain a small hypertext 
 If the 301 status code is received in response to a request of any type other than GET or HEAD, the client must ask the user before redirecting.
 
 ===
-The HTTP response status code 302 Found is a common way of performing URL redirection.
 
-An HTTP response with this status code will additionally provide a URL in the location header field. The user agent (e.g. a web browser) is invited by a response with this code to make a second, otherwise identical, request to the new URL specified in the location field. The HTTP/1.0 specification (RFC 1945) initially defined this code, and gives it the description phrase "Moved Temporarily".
+302 Found
+The [HTTP response status code] 302 Found is a common way of performing [URL] redirection.
 
-Many web browsers implemented this code in a manner that violated this standard, changing the request type of the new request to GET, regardless of the type employed in the original request (e.g. POST).[1] For this reason, HTTP/1.1 (RFC 2616) added the new status codes 303 and 307 to disambiguate between the two behaviours, with 303 mandating the change of request type to GET, and 307 preserving the request type as originally sent. Despite the greater clarity provided by this disambiguation, the 302 code is still employed in web frameworks to preserve compatibility with browsers that do not implement the HTTP/1.1 specification.[2]
+An HTTP response with this status code will additionally provide a URL in the location header field. The user agent (e.g. a Web browser) is invited by a response with this code to make a second, otherwise identical, request to the new URL specified in the location field. The HTTP/1.0 specification ([RFC 1945]) initially defined this code, and gives it the description phrase "Moved Temporarily".
 
-As a consequence, the update of RFC 2616 changes the definition to allow user agents to rewrite POST to GET.[3]
+Many web browsers implemented this code in a manner that violated this standard, changing the request type of the new request to GET, regardless of the type employed in the original request (e.g. POST). For this reason, HTTP/1.1 ([RFC 2616]) added the new status codes 303 and 307 to disambiguate between the two behaviours, with 303 mandating the change of request type to GET, and 307 preserving the request type as originally sent. Despite the greater clarity provided by this disambiguation, the 302 code is still employed in web frameworks to preserve compatibility with browsers that do not implement the HTTP/1.1 specification.
+
+As a consequence, the update of [RFC 2616] changes the definition to allow user agents to rewrite POST to GET.
 ===
-The HTTP response status code 303 See Other is a way to redirect web applications to a new URI, particularly after a HTTP POST has been performed, since RFC 2616 (HTTP 1.1).
 
-According to RFC 7231, which obsoletes RFC 2616, "A 303 response to a GET request indicates that the origin server does not have a representation of the target resource that can be transferred by the server over HTTP. However, the Location field value refers to a resource that is descriptive of the target resource, such that making a retrieval request on that other resource might result in a representation that is useful to recipients without implying that it represents the original target resource."
+303 See Other
+The [HTTP response status code] 303 See Other is a way to redirect web applications to a new [URI], particularly after a HTTP POST has been performed, since [RFC 2616] (HTTP 1.1).
 
-This status code should be used with the location header, as described below.
+According to [RFC 7231], which obsoletes [RFC 2616], "A 303 response to a GET request indicates that the origin server does not have a representation of the target resource that can be transferred by the server over HTTP. However, the Location field value refers to a resource that is descriptive of the target resource, such that making a retrieval request on that other resource might result in a representation that is useful to recipients without implying that it represents the original target resource".
 
-303 See Other has been proposed as one way of responding to a request for a URI that identifies a real-world object according to Semantic Web theory (the other being the use of hash URIs).[1] For example, if http://www.example.com/id/alice identifies a person, Alice, then it would be inappropriate for a server to respond to a GET request with 200 OK, as the server could not deliver Alice herself. Instead the server would issue a 303 See Other response which redirected to a separate URI providing a description of the person Alice.
+303 See Other has been proposed as one way of responding to a request for a URI that identifies a real world object according to Semantic Web theory (the other being the use of hash URIs). For example, if http://www.example.com/id/iain identifies a person, Iain, then it would be inappropriate for a server to respond to a GET request with 200 OK, as the server could not deliver Iain himself. Instead the server would issue a 303 See Other response which redirected to a separate URI providing a description of the person Iain.
 
-303 See Other can be used for other purposes. For example, when building a RESTful web API that needs to return to the caller immediately but continue executing asynchronously (such as a long-lived image conversion), the web API can provide a status check URI that allows the original client who requested the conversion to check on the conversion's status. This status check web API should return 303 See Other to the caller when the task is complete, along with a URI from which to retrieve the result in the Location HTTP header field.[2]
+303 See Other can be used for other purposes. For example, when building a [RESTful] web API that needs to return to the caller immediately but continue executing asynchronously (such as a long lived image conversion), the web API can provide a status check URI that allows the original client who requested the conversion to check on the conversion's status. This status check web API should return 303 See Other to the caller when the task is complete, along with a URI from which to retrieve the result in the Location HTTP header field.
 ===
-A web server may return a 403 Forbidden HTTP status code in response to a request from a client for a web page or resource to indicate that the server can be reached and understood the request, but refuses to take any further action. Status code 403 responses are the result of the web server being configured to deny access, for some reason, to the requested resource by the client.
+
+403 Forbidden
+A [Web server] may return a 403 Forbidden [HTTP status code] in response to a request from a client for a web page or resource to indicate that the server can be reached and understood the request, but refuses to take any further action. Status code 403 responses are the result of the web server being configured to deny access, for some reason, to the requested resource by the client.
 
 A typical request that may receive a 403 Forbidden response is a GET for a web page, performed by a web browser to retrieve the page for display to a user in a browser window. The web server may return a 403 Forbidden status for other types of requests as well.
 
-The Apache web server returns 403 Forbidden in response to requests for url paths that correspond to filesystem directories, when directory listings have been disabled in the server. Some administrators configure the Mod proxy extension to Apache to block such requests, and this will also return 403 Forbidden. Microsoft IIS responds in the same way when directory listings are denied in that server. In WebDAV, the 403 Forbidden response will be returned by the server if the client issued a PROPFIND request but did not also issue the required Depth header, or issued a Depth header of infinity.[1]
+The [Apache] Web server returns 403 Forbidden in response to requests for URL paths that correspond to filesystem directories, when directory listings have been disabled in the server. Some administrators configure the Mod proxy extension to Apache to block such requests, and this will also return 403 Forbidden. [Microsoft IIS] responds in the same way when directory listings are denied in that server. In [WebDAV], the 403 Forbidden response will be returned by the server if the client issued a PROPFIND request but did not also issue the required Depth header, or issued a Depth header of infinity.
 ===
-The 404 or Not Found error message is an HTTP standard response code indicating that the client was able to communicate with a given server, but the server could not find what was requested.
 
-The web site hosting server will typically generate a "404 Not Found" web page when a user attempts to follow a broken or dead link; hence the 404 error is one of the most recognizable errors users can find on the web.[1]
+404 Not Found 
+The 404 or Not Found error message is an [HTTP response status code] indicating that the client was able to communicate with a given server, but the server could not find what was requested.
 
-Custom error pages[edit]
+The web site hosting server will typically generate a "404 Not Found" web page when a user attempts to follow a broken or dead link; hence the 404 error is one of the most recognisable errors users can find on the Web.
 
-The Wikimedia 404 message
-Web servers can typically be configured to display a customised 404 error page, including a more natural description, the parent site's branding, and sometimes a site map, a search form or 404 page widget. The protocol level phrase, which is hidden from the user, is rarely customized.
+Custom Error Pages
+[Web servers] can typically be configured to display a customised 404 error page, including a more natural description, the parent site's branding, and sometimes a site map, a search form or 404 page widget. The protocol level phrase, which is hidden from the user, is rarely customised.
 
-Internet Explorer, however, will not display custom pages unless they are larger than 512 bytes, opting instead to display a "friendly" error page.[3] Google Chrome includes similar functionality, where the 404 is replaced with alternative suggestions generated by Google algorithms, if the page is under 512 bytes in size.[citation needed]
+[Internet Explorer], however, will not display custom pages unless they are larger than 512 bytes, opting instead to display a "friendly" error page. [Google Chrome] includes similar functionality, where the 404 is replaced with alternative suggestions generated by [Google] algorithms, if the page is under 512 bytes in size.
 
-Another problem is that if the page does not provide a favicon, and a separate custom 404 page exists, extra traffic and longer loading times will be generated on every page view.[4][5]
+Another problem is that if the page does not provide a [favicon], and a separate custom 404 page exists, extra traffic and longer loading times will be generated on every page view.
 
-Many organizations use 404 error pages as an opportunity to inject humor into what may otherwise be a serious website. For example, Metro UK shows a polar bear on a skateboard, and the web development agency Left Logic has a simple drawing program.[6]
+Many organisations use 404 error pages as an opportunity to inject humor into what may otherwise be a serious website. For example, Metro UK shows a polar bear on a skateboard, and the web development agency Left Logic has a simple drawing program.
 
-While many websites send additional information in a 404 error message—such as a link to the homepage of a website or a search box—some also endeavor to find the correct web page the user wanted. Extensions are available for some popular content management systems (CMSs) to do this.[7]
+While many websites send additional information in a 404 error message such as a link to the homepage of a website or a search box some also endeavour to find the correct web page the user wanted. Extensions are available for some popular Content Management Systems ([CMS]) to do this.
 
-In Europe, the NotFound project, created by multiple European organisations including Missing Children Europe and Child Focus, encourages site operators to add a snippet of code to serve customised 404 error pages[8] which provide data about missing children.[9]
+In Europe, the NotFound project, created by multiple European organisations including Missing Children Europe and Child Focus, encourages site operators to add a snippet of code to serve customised 404 error pages which provide data about missing children.
 ===
-So, what’s the "418 I'm a teapot" all about? Well, the group of people who make these codes and set the standards is the IETF or "Internet Engineering Task Force". To propose new standards, the members release RFC’s or "Requests for Comments" to the community. Every year since 1989, they release a few humorous RFC’s for April’s Fool Day and on April 1st, 1998, RFC 2324 introduced the "Hyper Text Coffee Pot Control Protocol" or (HTCPCP/1.0). This was a brand new protocol for controlling, monitoring, and diagnosing coffee pots. Now, the RFC is pretty funny with lines like "Coffee pots heat water using electronic mechanisms, so there is no fire. Thus, no firewalls are necessary". If you have never read it, it’s definitely worth a read. I added a link in the description below. Now, you may be asking, if this is a COFFEE protocol, why the "teapot" code? This is answered in Section 2.3.2. in that "Any attempt to brew coffee with a teapot should result in the HTTP error code 418 I'm a teapot and the resulting entity body MAY be short and stout". And just like that the "418 I’m a teapot" code was born!
+
+418 I'm A Teapot
+What is the [HTTP response status code] 418 I'm a teapot all about? Well, the group of people who make these codes and set the standards is the [IETF] or "Internet Engineering Task Force". To propose new standards, the members release [RFC]’s or "Requests for Comments" to the community. Every year since 1989, they release a few humorous RFC’s for April’s Fool Day and on 1 April 1998, [RFC 2324] introduced the "Hyper Text Coffee Pot Control Protocol" or (HTCPCP/1.0). This was a brand new protocol for controlling, monitoring, and diagnosing coffee pots. Now, the RFC is pretty funny with lines like "Coffee pots heat water using electronic mechanisms, so there is no fire. Thus, no firewalls are necessary". If you have never read it, it’s definitely worth a read. Now, you may be asking, if this is a COFFEE protocol, why the "teapot" code? This is answered in Section 2.3.2. in that "Any attempt to brew coffee with a teapot should result in the HTTP error code 418 I'm a teapot and the resulting entity body MAY be short and stout". And just like that the "418 I’m a teapot" code was born!
 ===
-HTTP header fields are components of the header section of request and response messages in the Hypertext Transfer Protocol (HTTP). They define the operating parameters of an HTTP transaction.
 
-General format[edit]
-The header fields are transmitted after the request or response line, which is the first line of a message. Header fields are colon-separated name-value pairs in clear-text string format, terminated by a carriage return (CR) and line feed (LF) character sequence. The end of the header section is indicated by an empty field, resulting in the transmission of two consecutive CR-LF pairs. Historically, long lines could be folded into multiple lines; continuation lines are indicated by the presence of a space (SP) or horizontal tab (HT) as the first character on the next line. This folding is now deprecated.[1]
+HTTP Header Fields
+HTTP header fields are components of the header section of request and response messages in the Hypertext Transfer Protocol ([HTTP]). They define the operating parameters of an HTTP transaction.
 
-Field names[edit]
-A core set of fields is standardized by the Internet Engineering Task Force (IETF) in RFCs 7230, 7231, 7232, 7233, 7234, and 7235. The permanent registry of header fields and repository of provisional registrations are maintained by the IANA. Additional field names and permissible values may be defined by each application.
+The header fields are transmitted after the request or response line, which is the first line of a message. Header fields are colon separated name value pairs in clear text string format, terminated by a carriage return (CR) and line feed (LF) character sequence. The end of the header section is indicated by an empty field, resulting in the transmission of two consecutive CR-LF pairs. Historically, long lines could be folded into multiple lines; continuation lines are indicated by the presence of a space (SP) or horizontal tab (HT) as the first character on the next line. This folding is now deprecated.
 
-Non-standard header fields were conventionally marked by prefixing the field name with X-[2] but this convention was deprecated in June 2012 because of the inconveniences it caused when non-standard fields became standard.[3] An earlier restriction on use of Downgraded- was lifted in March 2013.[4]
+Field Names
+A core set of fields is standardised by the Internet Engineering Task Force ([IETF]) in RFCs [7230], [7231], [7232], [7233], [7234], and [7235]. The permanent registry of header fields and repository of provisional registrations are maintained by the [IANA]. Additional field names and permissible values may be defined by each application.
 
-Field values[edit]
-A few fields can contain comments (i.e. in User-Agent, Server, Via fields), which can be ignored by software.[5]
+Non-standard header fields were conventionally marked by prefixing the field name with X- but this convention was deprecated in June 2012 because of the inconveniences it caused when non-standard fields became standard. An earlier restriction on use of Downgraded- was lifted in March 2013.
 
-Many field values may contain a quality (q) key-value pair, specifying a weight to use in content negotiation.[6]
+Field Values
+A few fields can contain comments (i.e. in User-Agent, Server, Via fields), which can be ignored by software.
 
-Size limits[edit]
-The standard imposes no limits to the size of each header field name or value, or to the number of fields. However, most servers, clients, and proxy software impose some limits for practical and security reasons. For example, the Apache 2.3 server by default limits the size of each field to 8190 bytes, and there can be at most 100 header fields in a single request.[7]
+Many field values may contain a quality key value pair, specifying a weight to use in content negotiation.
+
+Size Limits
+The standard imposes no limits to the size of each header field name or value, or to the number of fields. However, most servers, clients, and proxy software impose some limits for practical and security reasons. For example, the [Apache] 2.3 server by default limits the size of each field to 8190 bytes, and there can be at most 100 header fields in a single request.
 ===
-In computing, a user agent is software (a software agent) that is acting on behalf of a user. For example, an email reader is a mail user agent, and in the Session Initiation Protocol (SIP), the term user agent refers to both end points of a communications session.[1]
 
-In many cases, a user agent acts as a client in a network protocol used in communications within a client–server distributed computing system. In particular, the Hypertext Transfer Protocol (HTTP) identifies the client software originating the request, using a "User-Agent" header, even when the client is not operated by a user. The SIP protocol (based on HTTP) followed this usage.
+User Agent
+In computing, a user agent is software (a software agent) that is acting on behalf of a user. For example, an email reader is a mail user agent, and in the Session Initiation Protocol ([SIP]), the term user agent refers to both end points of a communications session.
+
+In many cases, a user agent acts as a client in a network protocol used in communications within a client–server distributed computing system. In particular, the Hypertext Transfer Protocol ([HTTP]) identifies the client software originating the request, using a "User-Agent" header, even when the client is not operated by a user. The SIP protocol (based on HTTP) followed this usage.
 ===
-User agent identification[edit]
-When a software agent operates in a network protocol, it often identifies itself, its application type, operating system, software vendor, or software revision, by submitting a characteristic identification string to its operating peer. In HTTP,[2] SIP,[1] and SMTP/NNTP[3] protocols, this identification is transmitted in a header field User-Agent. Bots, such as Web crawlers, often also include a URL and/or e-mail address so that the Webmaster can contact the operator of the bot.
+
+User Agent Identification
+When a software agent operates in a network protocol, it often identifies itself, its application type, operating system, software vendor, or software revision, by submitting a characteristic identification string to its operating peer. In [HTTP], [SIP], and [SMTP] / NNTP protocols, this identification is transmitted in a header field User-Agent. Bots, such as Web crawlers, often also include a URL and / or e-mail address so that the Webmaster can contact the operator of the bot.
 
 In HTTP, the User-Agent string is often used for content negotiation, where the origin server selects suitable content or operating parameters for the response. For example, the User-Agent string might be used by a web server to choose variants based on the known capabilities of a particular version of client software.
 
-The User-Agent string is one of the criteria by which Web crawlers may be excluded from accessing certain parts of a Web site using the Robots Exclusion Standard (robots.txt file).
+The User-Agent string is one of the criteria by which Web crawlers may be excluded from accessing certain parts of a Web site using the [Robots Exclusion Standard] (robots.txt file).
 
-As with many other HTTP request headers, the information in the "User-Agent" string contributes to the information that the client sends to the server, since the string can vary considerably from user to user.[4]
+As with many other HTTP request headers, the information in the "User-Agent" string contributes to the information that the client sends to the server, since the string can vary considerably from user to user.
 
-Format for human-operated web browsers[edit]
 The User-Agent string format is currently specified by Section 5.5.3 of HTTP/1.1 Semantics and Content. The format of the User-Agent string in HTTP is a list of product tokens (keywords) with optional comments. For example if a user's product were called WikiBrowser, their user agent string might be WikiBrowser/1.0 Gecko/1.0. The "most important" product component is listed first. The parts of this string are as follows:
 
 Product name and version (WikiBrowser/1.0)
 Layout engine and version (Gecko/1.0)
-During the first browser war, many web servers were configured to only send web pages that required advanced features, including frames, to clients that were identified as some version of Mozilla.[5] Other browsers were considered to be older products such as Mosaic, Cello or Samba and would be sent a bare bones HTML document.
+During the first browser war, many web servers were configured to only send web pages that required advanced features, including frames, to clients that were identified as some version of [Mozilla]. Other browsers were considered to be older products such as [Mosaic], Cello or Samba and would be sent a bare bones HTML document.
 
-For this reason, most Web browsers use a User-Agent value as follows: Mozilla/[version] ([system and browser information]) [platform] ([platform details]) [extensions]. For example, Safari on the iPad has used the following:
+For this reason, most Web browsers use a User-Agent value as follows: Mozilla/[version] ([system and browser information]) [platform] ([platform details]) [extensions]. For example, [Safari] on the [iPad] has used the following:
 
 Mozilla/5.0 (iPad; U; CPU OS 3_2_1 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Mobile/7B405
+
 The components of this string are as follows:
 
 Mozilla/5.0: Previously used to indicate compatibility with the Mozilla rendering engine
@@ -1854,42 +1864,41 @@ Mozilla/5.0: Previously used to indicate compatibility with the Mozilla renderin
 AppleWebKit/531.21.10: The platform the browser uses
 (KHTML, like Gecko): Browser platform details
 Mobile/7B405: This is used by the browser to indicate specific enhancements that are available directly in the browser or through third parties. An example of this is Microsoft Live Meeting which registers an extension so that the Live Meeting service knows if the software is already installed, which means it can provide a streamlined experience to joining meetings.
-Before migrating to the Chromium code base, Opera was the most prolific web browser to not begin its User-Agent string with "Mozilla" (instead beginning it with "Opera"). As of July 15, 2013,[6] Opera's User-Agent string begins with "Mozilla/5.0" and, to avoid encountering legacy server rules, no longer includes the word "Opera" (instead using the string "OPR" to denote the Opera version).
+Before migrating to the [Chromium] code base, [Opera] was the most prolific web browser to not begin its User-Agent string with "Mozilla" (instead beginning it with "Opera"). As of 15 July 2013, Opera's User-Agent string begins with "Mozilla/5.0" and, to avoid encountering legacy server rules, no longer includes the word "Opera" (instead using the string "OPR" to denote the Opera version).
 
-Format for automated agents (bots)[edit]
 Automated web crawling tools can use a simplified form, where an important field is contact information in case of problems. By convention the word "bot" is included in the name of the agent. For example:
 
- Googlebot/2.1 (+http://www.google.com/bot.html)
+Googlebot/2.1 (+http://www.google.com/bot.html)
 Automated agents are expected to follow rules in a special file called "robots.txt".
 
-User agent spoofing[edit]
-The popularity of various Web browser products has varied throughout the Web's history, and this has influenced the design of Web sites in such a way that Web sites are sometimes designed to work well only with particular browsers, rather than according to uniform standards by the World Wide Web Consortium (W3C) or the Internet Engineering Task Force (IETF). Web sites often include code to detect browser version to adjust the page design sent according to the user agent string received. This may mean that less-popular browsers are not sent complex content (even though they might be able to deal with it correctly) or, in extreme cases, refused all content.[7] Thus, various browsers have a feature to cloak or spoof their identification to force certain server-side content. For example, the Android browser identifies itself as Safari (among other things) in order to aid compatibility.[8][9]
+User Agent Spoofing
+The popularity of various Web browser products has varied throughout the Web's history, and this has influenced the design of Web sites in such a way that Web sites are sometimes designed to work well only with particular browsers, rather than according to uniform standards by the World Wide Web Consortium ([W3C]) or the Internet Engineering Task Force ([IETF]). Web sites often include code to detect browser version to adjust the page design sent according to the user agent string received. This may mean that less popular browsers are not sent complex content (even though they might be able to deal with it correctly) or, in extreme cases, refused all content. Thus, various browsers have a feature to cloak or spoof their identification to force certain server-side content. For example, the [Android] browser identifies itself as [Safari] (among other things) in order to aid compatibility.
 
 Other HTTP client programs, like download managers and offline browsers, often have the ability to change the user agent string.
 
 Spam bots and Web scrapers often use fake user agents.
 
-At times it has been popular among Web developers to initiate Viewable With Any Browser campaigns,[10] encouraging developers to design Web pages that work equally well with any browser.
+At times it has been popular among Web developers to initiate Viewable With Any Browser campaigns, encouraging developers to design Web pages that work equally well with any browser.
 
 A result of user agent spoofing may be that collected statistics of Web browser usage are inaccurate.
-
 ==
+
+Robots Exclusion Standard
 The robots exclusion standard, also known as the robots exclusion protocol or robots.txt protocol, is a standard used by websites to communicate with web crawlers and other web robots. The standard specifies the instruction format to be used to inform the robot about which areas of the website should not be processed or scanned. Robots are often used by search engines to categorize and archive web sites, or by webmasters to proofread source code. Not all robots cooperate with the standard including email harvesters, spambots and malware robots that scan for security vulnerabilities. The standard is different from, but can be used in conjunction with Sitemaps, a robot inclusion standard for websites.
 
-The standard was proposed by Martijn Koster,[1][2] when working for Nexor[3] in February, 1994[4] on the www-talk mailing list, the main communication channel for WWW-related activities at the time. Charles Stross claims to have provoked Koster to suggest robots.txt, after he wrote a badly-behaved web crawler that caused an inadvertent denial of service attack on Koster's server.[5]
+The standard was proposed by Martijn Koster, when working for Nexor in February 1994 on the www-talk mailing list, the main communication channel for WWW-related activities at the time. Charles Stross claims to have provoked Koster to suggest robots.txt, after he wrote a badly behaved web crawler that caused an inadvertent denial of service attack on Koster's server.
 
-It quickly became a de facto standard that present and future web crawlers were expected to follow; most complied, including those operated by search engines such as WebCrawler, Lycos and AltaVista.[citation needed]
-
+It quickly became a de facto standard that present and future web crawlers were expected to follow; most complied, including those operated by search engines such as [WebCrawler], [Lycos] and [AltaVista].
 ===
 
-The ETag or entity tag is part of HTTP, the protocol for the World Wide Web. It is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control,[1] as a way to help prevent simultaneous updates of a resource from overwriting each other.
+Etag
+The ETag or entity tag is part of [HTTP], the protocol for the [World Wide Web]. It is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other.
 
-An ETag is an opaque identifier assigned by a web server to a specific version of a resource found at a URL. If the resource representation at that URL ever changes, a new and different ETag is assigned. Used in this manner ETags are similar to fingerprints, and they can be quickly compared to determine whether two representations of a resource are the same.
-
-
-
+An ETag is an opaque identifier assigned by a web server to a specific version of a resource found at a [URL]. If the resource representation at that URL ever changes, a new and different ETag is assigned. Used in this manner ETags are similar to fingerprints, and they can be quickly compared to determine whether two representations of a resource are the same.
 ===
-An HTTP cookie (also called web cookie, Internet cookie, browser cookie or simply cookie, the latter which is not to be confused with the literal definition), is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website. Every time the user loads the website, the browser sends the cookie back to the server to notify the website of the user's previous activity.[1] Cookies were designed to be a reliable mechanism for websites to remember stateful information (such as items in a shopping cart) or to record the user's browsing activity (including clicking particular buttons, logging in, or recording which pages were visited by the user as far back as months or years ago).
+
+HTTP Cookie
+An HTTP cookie (also called Web cookie, Internet cookie, browser cookie or simply cookie), is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website. Every time the user loads the website, the browser sends the cookie back to the server to notify the website of the user's previous activity.[1] Cookies were designed to be a reliable mechanism for websites to remember stateful information (such as items in a shopping cart) or to record the user's browsing activity (including clicking particular buttons, logging in, or recording which pages were visited by the user as far back as months or years ago).
 
 Although when everything is working correctly, cookies cannot carry viruses, and cannot install malware on the host computer,[2] tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals' browsing histories—a potential privacy concern that prompted European[3] and U.S. law makers to take action in 2011.[4][5] Cookies can also store passwords and form content a user has previously entered, such as a credit card number or an address.
 
@@ -1908,5 +1917,38 @@ At this time, advertising companies were already using third-party cookies. The 
 A definitive specification for cookies as used in the real world was published as RFC 6265 in April 2011.
 ===
 AltaVista was an early web search engine founded in 1995. It was once one of the most popular search engines, but it lost ground to Google and was purchased by Yahoo! in 2003, which retained the brand but based all AltaVista searches on its own search engine. On July 8, 2013, the service was shut down by Yahoo! and since then, the domain redirects to Yahoo!'s own search site.[2]
+===
+CloudFlare, Inc. is a U.S. company that provides a content delivery network and distributed domain name server services, sitting between the visitor and the CloudFlare user's hosting provider, acting as a reverse proxy for websites. Its network protects, speeds up, and improves availability for a website or mobile application with a change in DNS. CloudFlare is headquartered in San Francisco, California, with an additional office in London.[1]
+
+CloudFlare was created in 2009 by Matthew Prince, Lee Holloway, and Michelle Zatlyn,[2][3] who had previously worked on Project Honey Pot.[3][4] CloudFlare was launched at the September 2010 TechCrunch Disrupt conference.[2][3] It received media attention in June 2011, after providing security to LulzSec's website.[2][5]
+
+The hacker group UGNazi attacked CloudFlare partially via flaws in Google's authentication systems in June 2012, gaining administrative access to CloudFlare and using it to deface 4chan.[6][7]
+
+In February 2014, CloudFlare mitigated the largest-ever recorded DDoS attack, which peaked at 400 Gbit/s.[8]
+
+Funding rounds
+
+In December 2012, CloudFlare raised $50 million in a Series C round from New Enterprise Associates, Pelion Venture Partners, Venrock, Union Square Ventures, and Greenspring Associates.[9][10][11]
+
+In July 2011, CloudFlare raised $20 million in a Series B round from New Enterprise Associates, Pelion Venture Partners, Venrock.[12][13][14]
+
+In November 2009, CloudFlare raised $2.1 million in a Series A round from Pelion Venture Partners and Venrock.[12]
+
+In March 2015, at the South by Southwest Interactive conference, CloudFlare CEO Matthew Prince said that the company, which is valued at more than $1 billion, was on a trajectory to go public in 2017. Noted that the company became profitable in August 2014, Prince speculated that CloudFlare's gross profit margin could be as high as 90% by the time it goes public (as of March 2015 it was 75%).[15]
+
+Acquisitions
+
+In June 2014, CloudFlare acquired CryptoSeal, founded by Ryan Lackey, in a deal it says will extend web user security services.[16][17][18] In February 2014 it acquired StopTheHacker, which offers malware detection, automatic malware removal, and reputation and blacklist monitoring.[17][19]
+
+CloudFlare uses a modified version of Nginx as a key technology.[20] As of December 2014, it reportedly operated from within 30 partner data centers.[21]
+
+CloudFlare claims to protect, speed up, and improve availability for a website or mobile application by using a DNS change. The network optimizes web and mobile pages to improve page load times and performance. CloudFlare also attempts to block threats and limit abusive bots and crawlers. CloudFlare currently runs on an anycast network.[22] CloudFlare aims to protect customers from DDoS attacks, they also provide other services like a web application firewall (WAF).
+
+CloudFlare releases "Keyless SSL" technology that lets sites use CloudFlare’s Secure Socket Layer (SSL) service while retaining on-premises custody of their private keys.[23]
+
+CloudFlare launched a free service for both its paying and free customers: automatic SSL encryption for any site without the need to pay for or configure an encryption certificate.[24]
+===
+
+
 
 

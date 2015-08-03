@@ -1,6 +1,8 @@
 it/amazon-web-services (AWS)
 it/awards/turing-award
 it/cmyk
+it/cocoa
+it/cocoa-touch
 it/Comma-Separated Values (CSV)
 it/component-object-model
 it/computer-modern
@@ -39,18 +41,8 @@ it/jvm
 it/latex
 it/metafont
 it/Open Database Connectivity (ODBC)
-
-
-it/operating-systems/linux
 it/operating-systems/linux/tux
 it/operating-systems/mobile/android
-it/cocoa
-it/cocoa-touch
-it/operating-systems/plan-9
-it/operating-systems/solaris
-it/operating-systems/sunos
-it/windows-api
-it/windows-template-library
 it/relational-model
 it/rgb
 it/shell-scripts
@@ -103,6 +95,8 @@ it/software/visio
 it/stackdriver
 it/tar-format
 it/tex
+it/windows-api
+it/windows-template-library
 it/y2k
 it/yslow
 languages/java/testdox
