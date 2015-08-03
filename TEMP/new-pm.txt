@@ -1932,7 +1932,114 @@ CloudFlare releases "Keyless SSL" technology that lets sites use CloudFlare’s 
 
 CloudFlare launched a free service for both its paying and free customers: automatic SSL encryption for any site without the need to pay for or configure an encryption certificate.
 ===
-DDoS
+Distributed attack[edit]
+A distributed denial-of-service (DDoS) attack occurs when multiple systems flood the bandwidth or resources of a targeted system, usually one or more web servers.[6] Such an attack is often the result of multiple compromised systems (for example a botnet) flooding the targeted system with traffic. When a server is overloaded with connections, new connections can no longer be accepted. The major advantages to an attacker of using a distributed denial-of-service attack are that multiple machines can generate more attack traffic than one machine, multiple attack machines are harder to turn off than one attack machine, and that the behavior of each attack machine can be stealthier, making it harder to track and shut down. These attacker advantages cause challenges for defense mechanisms. For example, merely purchasing more incoming bandwidth than the current volume of the attack might not help, because the attacker might be able to simply add more attack machines. This after all will end up completely crashing a website for periods of time.
+
+Malware can carry DDoS attack mechanisms; one of the better-known examples of this was MyDoom. Its DoS mechanism was triggered on a specific date and time. This type of DDoS involved hardcoding the target IP address prior to release of the malware and no further interaction was necessary to launch the attack.
+
+A system may also be compromised with a trojan, allowing the attacker to download a zombie agent, or the trojan may contain one. Attackers can also break into systems using automated tools that exploit flaws in programs that listen for connections from remote hosts. This scenario primarily concerns systems acting as servers on the web. Stacheldraht is a classic example of a DDoS tool. It utilizes a layered structure where the attacker uses a client program to connect to handlers, which are compromised systems that issue commands to the zombie agents, which in turn facilitate the DDoS attack. Agents are compromised via the handlers by the attacker, using automated routines to exploit vulnerabilities in programs that accept remote connections running on the targeted remote hosts. Each handler can control up to a thousand agents.[20] In some cases a machine may become part of a DDoS attack with the owner's consent, for example, in Operation Payback, organized by the group Anonymous. These attacks can use different types of internet packets such as: TCP, UDP, ICMP etc.
+
+These collections of systems compromisers are known as botnets. DDoS tools like Stacheldraht still use classic DoS attack methods centered on IP spoofing and amplification like smurf attacks and fraggle attacks (these are also known as bandwidth consumption attacks). SYN floods (also known as resource starvation attacks) may also be used. Newer tools can use DNS servers for DoS purposes. Unlike MyDoom's DDoS mechanism, botnets can be turned against any IP address. Script kiddies use them to deny the availability of well known websites to legitimate users.[21] More sophisticated attackers use DDoS tools for the purposes of extortion – even against their business rivals.[22]
+
+Simple attacks such as SYN floods may appear with a wide range of source IP addresses, giving the appearance of a well distributed DoS. These flood attacks do not require completion of the TCP three way handshake and attempt to exhaust the destination SYN queue or the server bandwidth. Because the source IP addresses can be trivially spoofed, an attack could come from a limited set of sources, or may even originate from a single host. Stack enhancements such as syn cookies may be effective mitigation against SYN queue flooding, however complete bandwidth exhaustion may require involvement.[further explanation needed]
+
+If an attacker mounts an attack from a single host it would be classified as a DoS attack. In fact, any attack against availability would be classed as a denial-of-service attack. On the other hand, if an attacker uses many systems to simultaneously launch attacks against a remote host, this would be classified as a DDoS attack.
+
+UK's GCHQ has tools built for DDOS, named PREDATORS FACE and ROLLING THUNDER.[23]
+===
+The Government Communications Headquarters (GCHQ) is a British intelligence and security organisation responsible for providing signals intelligence (SIGINT) and information assurance to the British government and armed forces.[2] Based in "The Doughnut", in the suburbs of Cheltenham, it operates under the formal direction of the Joint Intelligence Committee (JIC) alongside the Security Service (MI5), the Secret Intelligence Service (MI6) and Defence Intelligence (DI). GCHQ is the responsibility of the UK Secretary of State for Foreign and Commonwealth Affairs, but it is not a part of the Foreign Office and its Director ranks as a Permanent Secretary.
+
+GCHQ was originally established after the First World War as the Government Code and Cypher School (GC&CS) and was known under that name until 1946. During the Second World War it was located at Bletchley Park, where it was famed for its role in the breaking of the German Enigma codes. Currently there are two main components of the GCHQ, the Composite Signals Organisation (CSO), which is responsible for gathering information, and the CESG, which is responsible for securing the UK's own communications. The Joint Technical Language Service (JTLS) is a small department and cross-government resource responsible for mainly technical language support and translation and interpreting services across government departments. It is co-located with GCHQ for administrative purposes.
+
+In 2013, GCHQ received considerable media attention when the former National Security Agency contractor Edward Snowden revealed that the agency was in the process of collecting all online and telephone data in the UK via the Tempora programme.[3] Snowden's revelations began a spate of ongoing disclosures of global surveillance.
+===
+Advanced Gravis Computer Technology, Ltd. was a manufacturer of computer peripherals and hardware. The company was founded in 1982 in British Columbia, Canada.
+
+Their most famous products were the Gravis PC GamePad, at one time one of the most popular gaming controllers for the PC, the once-ubiquitous Gravis Joystick (black with red buttons), and the Gravis Ultrasound add-on card, competitor to the Sound Blaster. At its peak, the company had almost 300 employees, and was at the time the world's largest manufacturer of computer joysticks and gamepads.
+
+The company was acquired by Kensington Computer Products Group in 1997[1] and has essentially disappeared.
+===
+A Kensington Security Slot (also called a K-Slot or Kensington lock) is part of an anti-theft system designed and patented by Kryptonite in 1999-2000,[1] assigned to Schlage in 2002, and since 2005 owned and marketed by Kensington Computer Products Group, a division of ACCO Brands.
+
+The system consists of a small, metal-reinforced hole found commonly on small or portable computers and electronics equipment such as laptops, computer monitors, desktop computers, gaming consoles, and video projectors, combined with a metal anchor attached to a rubberized metal cable secured with a key or combination lock. The end of the cable has a small loop that allows the cable to be looped around a permanent object, such as a heavy table or other similar equipment.[1]
+
+The hole is found in most laptops, although a lock for it is typically not included. Occasionally, the slot is located so that installing a lock will also prevent the removal of a valuable subcomponent, such as a rechargeable battery or a memory module. The Kensington slot may be marked with a small icon that looks like a padlock with a capital "K", or the slot may be unlabeled.
+
+Kensington locks are not designed to be an impervious protection measure.[2] Because most computer equipment cases are generally made of plastic or thin metal, the lock can be torn out, though not without doing significant visible damage to the case. The cable itself can be cut if an individual has a wire cutter or bolt cutter sufficiently strong to cut through the cable material, which will vary between different brands of cable.
+
+The Kensington type locks are useful to prevent quick grab-and-run thefts of equipment from casually supervised locations such as coffee shops, but cannot prevent the removal of equipment secured in an unattended location.
+
+The key is often a cylindrical type, but there are versions which use a traditional flat key. There are also versions of the lock that use a numeric combination instead of a key.[2]
+===
+The Gravis PC GamePad is a game port game controller produced by Advanced Gravis Computer Technology. It was the first gamepad for the IBM PC compatible in a market then dominated by joysticks.[citation needed] Included with the gamepad was a shareware Commander Keen game, episode 1, Marooned on Mars, which was later replaced with the shareware episode 4, Secret of the Oracle which supported all 4 buttons. The gamepad is no longer manufactured, as the Gravis company has ceased to exist.
+
+The gamepad's design is similar to that of the stock SNES controller (more so the Japanese and European version with colored buttons), although it lacks the Start, Select and shoulder buttons, and the shape of the controller's chassis differs slightly, with an inverted curve on the left side. As originally found in some versions of the Sega Master System controller, the center of the Gravis GamePad's d-pad allows a small joystick to be inserted. The resulting lever action provides increased directional sensitivity, desirable in fighting games for example.
+
+Both at the top and bottom of the gamepad are switches. One of them removes the normal functionality from 2 of the buttons, and turns them into autofire variants of the first 2. This gave all four buttons functionality even in PC games that only supported two buttons on joysticks or for scenarios when two gamepads are connected with a Y-splitter. The other allows for left-handed operation by turning the workings of the D-pad and buttons upside down. Both switches can be used at the same time.
+===
+Ad Lib, Inc. was a Canadian manufacturer of sound cards and other computer equipment founded by Martin Prevel, a former professor of music and vice-dean of the music department at the Université Laval.[1] The company's best known product, the AdLib Music Synthesizer Card (ALMSC), or simply the AdLib as it was called, was the first add-on sound card (on compatibles) to achieve widespread game-developer acceptance, becoming the first de facto standard for audio reproduction.[2]
+
+
+Problems playing this file? See media help.
+Today the AdLib's functionality can be recreated with emulators such as AdPlug and VDMSound (the latter is now deprecated but its source code has been incorporated into DOSBox). Emulating the AdLib Gold 1000 proves more of a challenge due to the surround sound module and the 2x oversampling effect.
+===
+Kingston Technology Corporation is an American, privately held, multinational computer technology corporation that develops, manufactures, sells and supports flash memory products and other computer-related memory products. Headquartered in Fountain Valley, California, United States, Kingston Technology employs more than 4,000 people worldwide as of Q1 2015. The company has manufacturing and logistics facilities in the United States, United Kingdom, Ireland, Taiwan, and Mainland China.
+
+It is the largest independent producer of DRAM memory modules, currently owning 59% of the third-party worldwide DRAM module market share, according to IHS.[1] Kingston is arguably the second largest supplier of flash memory. Gartner ranks Kingston as the world's #2 supplier of USB drives, #2 in flash cards and #2 in PC based solid state drives.[citation needed]
+
+In 2014, Kingston generated revenues of US $7.0 billion. Forbes lists Kingston as #69 on its list of "The 500 Largest Private Companies in the U.S." and #2 in the Technology Hardware & Equipment category.
+
+Kingston serves an international network of distributors, resellers, retailers and OEM customers on six continents. The company also provides contract manufacturing and supply chain management services for semiconductor manufacturers and system OEMs.
+
+Through its ownership of Kingston Technology Company Inc. and Advanced Validation Labs Inc. (AVL), Kingston Technology Corporation is one of the world’s leading memory module manufacturing, module validation, semiconductor packaging and test companies[citation needed].
+===
+Dynamic random-access memory (DRAM) is a type of random-access memory that stores each bit of data in a separate capacitor within an integrated circuit. The capacitor can be either charged or discharged; these two states are taken to represent the two values of a bit, conventionally called 0 and 1. Since even "nonconducting" transistors always leak a small amount, the capacitors will slowly discharge, and the information eventually fades unless the capacitor charge is refreshed periodically. Because of this refresh requirement, it is a dynamic memory as opposed to static random access memory (SRAM) and other static types of memory.
+
+The main memory (the "RAM") in personal computers is dynamic RAM (DRAM). It is the RAM in desktops, laptops and workstation computers as well as some of the RAM of video game consoles.
+
+The advantage of DRAM is its structural simplicity: only one transistor and a capacitor are required per bit, compared to four or six transistors in SRAM. This allows DRAM to reach very high densities. Unlike flash memory, DRAM is volatile memory (vs. non-volatile memory), since it loses its data quickly when power is removed. The transistors and capacitors used are extremely small; billions can fit on a single memory chip.
+
+Due to the nature of its memory cells, DRAM consumes relatively large amounts of power, with different ways for managing the power consumption.[1]
+===
+The Ricoh Company, Ltd. (株式会社リコー Kabushiki-gaisha Rikō?) is a Japanese multinational imaging and electronics company. It was founded by the RIKEN zaibatsu on 6 February 1936 as Riken Sensitized Paper (理研感光紙 Riken Kankōshi?). Ricoh's headquarters are located in Ricoh Building in Chūō, Tokyo.[1]
+
+Ricoh produces electronic products, primarily cameras and office equipment such as printers, photocopiers, fax machines, offers Software as a Service (SaaS) document management solutions such as DocumentMall, document solutions such as GlobalScan, Print&Share[2] and also offers Projectors. In the late 1990s through early 2000s, the company grew to become the largest copier manufacturer in the world. During this time, Ricoh acquired Savin, Gestetner, Lanier, Rex-Rotary, Monroe, Nashuatec, IKON and most recently IBM Printing Systems Division / Infoprint Solutions Company. Although the Monroe brand was discontinued, products continue to be marketed worldwide under the remaining brand names. In 2006, Ricoh acquired the European operations of Danka for $210 million. These operations continue as a stand-alone business unit, under the Infotec brand.
+===
+Lexmark International, Inc. is an American corporation that manufactures laser printers and provides enterprise software. The company is headquartered in Lexington, Kentucky, in the United States.
+
+Lexmark was formed on March 27, 1991 when IBM divested a number of its hardware manufacturing operations, including printer and printer supply operations, to the investment firm Clayton & Dubilier & Rice, Inc. in a leveraged buyout.[2][3][4][5] Lexmark became a publicly traded company on the New York Stock Exchange on November 15, 1995.[6] The name Lexmark comes from a combination between "lexicon" and "Mark".
+===
+3Com Corporation was a digital electronics manufacturer best known for its computer network infrastructure products. The company was co-founded in 1979 by Robert Metcalfe, Howard Charney, Bruce Borden, and Greg Shaw and recruited Bill Krause from HP to be its President in February 1981 when it raised its first round of venture capital. Metcalfe has explained that he came up with the name 3Com as a contraction of "Computer Communication Compatibility",[2] with its focus on deploying the Ethernet technology that he had co-invented which enabled the networking of computers.
+
+3Com provided network interface controllers and switches, routers, wireless access points and controllers, IP voice systems, and intrusion prevention systems. The company was based in Massachusetts, USA. From its 2007 acquisition of 100 percent ownership of H3C Technologies Co., Limited (H3C) —initially a joint venture with China-based Huawei Technologies—3Com achieved a leading market presence in China, and a significant networking market share in Europe, Asia, and the Americas.[citation needed] 3Com products were sold under the brands 3Com, H3C, and TippingPoint.
+
+On April 12, 2010, Hewlett-Packard completed the acquisition of 3Com.[3] Since the HP acquisition, 3Com has been fully absorbed by HP and no longer exists as a separate entity.
+===
+U.S. Robotics Corporation (often referred to as USR) is a company which produces USRobotics computer modems and related products. It sold high-speed modems in the 1980s, and had a reputation for high quality and compatibility with communication standards. With the reduced usage of analog or voiceband modems in North America in the early 21st century, USR is now one of the few modem companies left in that market. It now employs about 125 people worldwide.[1]
+
+USR was founded in 1976 in Chicago, Illinois (and later moved to Skokie, Illinois), by a group of entrepreneurs, including Casey Cowell, who served as CEO for most of the company's history and Paul Collard who designed modems into the mid-1980s. The company name is a reference to the fiction of Isaac Asimov, who is credited with inventing the term robotics. Asimov's Robot stories featured a fictional company named U.S. Robots and Mechanical Men. Cowell stated at a popular BBS convention they named the company as an homage to Asimov and because in his science fiction works US Robotics eventually became "the biggest company in the universe".[citation needed] (The later 2004 movie I, Robot, which was loosely based on Asimov's works, and set in Chicago, used the name "U.S. Robotics" for the fictional robot manufacturer.) The movie's U.S. Robotics corporate logo resembles a former nonfictional USR logo. Following the release of the movie, the company officially changed its name to USR.
+
+USR was one of many companies to offer dial-up modems for personal computers. Prior to the development of standards such as the V.32 family of protocols, USR introduced its own HST (High-Speed Transfer) protocol in 1986, which operated at 9600 bit/s (bits per second). In 1989 HST was expanded to 14.4 kbit/s, 16.8 kbit/s in 1992, and finally to 21 kbit/s and 24 kbit/s.
+
+USR was not the only company making modems with proprietary protocols; Telebit's TrailBlazer series offered speeds up to 19.2 kbit/s in its first model, and Hayes also introduced a 9600 bit/s Express 96 (or "Ping-Pong") system. However, USR became the most successful of the three, due to a marketing scheme that offered large discounts to BBS sysops.
+
+
+U.S. Robotics Sportster 14,400 Fax Modem (1994)
+The proprietary nature of HST allowed USR to maintain its market predominance even when off-brand V.32-based modems began selling for less than equivalent HST modems. As the price differential decreased, however, V.32-based modems eventually became a cost-effective alternative to HST. Nevertheless, USR maintained its user base by creating slightly faster HST protocols (in particular, a 16.8 kbit/s mode) and by producing "dual-standard" modems which were able to communicate with both HST and V.32 modems at high speeds.
+
+During this period, USR differentiated between its high and low-end product lines by supporting only the V.32 modes on its low-end Sportster models, while its high-end Courier models supported V.32, HST, or both in the Courier Dual Standard models. The Sportster used the same motherboard as the Couriers, and on certain 14.4 kbit/s models a sequence of AT commands could be issued to enable the faster 16.8 kbit/s HST mode.[2] The Courier modems remained a favorite in the BBS and emerging Internet service provider world, where they were known to run without problems for extended periods of time (although the initial large-scale deployment of Courier modems in the CompuServe network uncovered a serious bug which would cause the modems to crash and stop answering calls under high call volumes).
+
+
+USR Sportster 56k 117102 ISA modem supporting X2 and V.90
+
+Courier Dual Standard V34 Fax with V32 bis
+Later, when 56 kbit/s modems were introduced, USR again went its own way with its X2 technology pitched against K56flex before the creation of a final formal 56K standard. After the V.90 industry standard became available, USR abandoned its proprietary protocols. In a further effort to reduce the retail price of its modems, USR also marketed a Winmodem that used software running on the host computer to perform some of the modem functions.
+
+Some models of Courier modems were known for their long-term upgradeability, because they used an upgradeable DSP design. For example, when the Courier V.Everything modem was first released in 1994 under the product label "Courier V.34 Ready", it shipped with only V.FC support because V.34 had not been released. A free V.34 upgrade was made available later via FidoNet, as well as the Internet. USR then surprised many early Courier V.Everything modem owners with a limited-time free offer of an X2 firmware upgrade, which added 56K speed capability. Finally, USR released a V.90 upgrade that was compatible with X2-upgraded Courier V.Everything modems. Even the 1994 hardware released pre-V.34 was fully V.90-upgradeable without hardware modification. Many Courier V.Everything modems were still in use more than a decade later.[citation needed]
+
+There was a licensing key needed for some Courier V.Everything V.90 flash upgrades. The firmware could be loaded onto the modem, but it would work in "degraded" V.34 mode. After paying a fee, and having the modem dial USR, a license key was installed that enabled the V.90 functions.
+===
+
 
 
 
