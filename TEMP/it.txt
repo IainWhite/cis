@@ -25,7 +25,6 @@ it/hsl
 it/ims
 it/latex
 it/metafont
-it/operating-systems/mobile/android
 it/rgb
 it/shell-scripts
 it/social-networking
