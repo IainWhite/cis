@@ -3,7 +3,6 @@ it/awards/turing-award
 it/cmyk
 it/cocoa
 it/cocoa-touch
-it/Comma-Separated Values (CSV)
 it/component-object-model
 it/computer-modern
 it/coroutines
@@ -29,7 +28,6 @@ it/metafont
 it/operating-systems/mobile/android
 it/rgb
 it/shell-scripts
-it/slackware
 it/social-networking
 it/software-licenses
 it/software/activex
