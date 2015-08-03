@@ -22,7 +22,6 @@ it/foss
 it/gdi
 it/hardware/analytical-engine
 it/hardware/antikythera-mechanism
-it/hardware/arm-architecture
 it/hardware/bbc-domesday-project
 it/hardware/commodore-pet
 it/hardware/cpu
