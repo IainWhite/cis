@@ -2064,5 +2064,6 @@ DoS
 ed
 Gravis Ultrasound
 Photoshop
-
+Symantec
+Peter Norton Computing
 
