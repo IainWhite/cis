@@ -1968,150 +1968,254 @@ The company was acquired by Kensington Computer Products Group in 1997 and has e
 Kensington Security Slot
 A Kensington Security Slot (also called a K-Slot or Kensington lock) is part of an anti-theft system designed and patented by Kryptonite in 1999 - 2000, assigned to Schlage in 2002, and since 2005 owned and marketed by Kensington Computer Products Group, a division of ACCO Brands.
 
-The system consists of a small, metal-reinforced hole found commonly on small or portable computers and electronics equipment such as laptops, computer monitors, desktop computers, gaming consoles, and video projectors, combined with a metal anchor attached to a rubberized metal cable secured with a key or combination lock. The end of the cable has a small loop that allows the cable to be looped around a permanent object, such as a heavy table or other similar equipment.[1]
+The system consists of a small, metal reinforced hole found commonly on small or portable computers and electronics equipment such as laptops, computer monitors, desktop computers, gaming consoles, and video projectors, combined with a metal anchor attached to a rubberised metal cable secured with a key or combination lock. The end of the cable has a small loop that allows the cable to be looped around a permanent object, such as a heavy table or other similar equipment.
 
 The hole is found in most laptops, although a lock for it is typically not included. Occasionally, the slot is located so that installing a lock will also prevent the removal of a valuable subcomponent, such as a rechargeable battery or a memory module. The Kensington slot may be marked with a small icon that looks like a padlock with a capital "K", or the slot may be unlabeled.
 
-Kensington locks are not designed to be an impervious protection measure.[2] Because most computer equipment cases are generally made of plastic or thin metal, the lock can be torn out, though not without doing significant visible damage to the case. The cable itself can be cut if an individual has a wire cutter or bolt cutter sufficiently strong to cut through the cable material, which will vary between different brands of cable.
+Kensington locks are not designed to be an impervious protection measure. Because most computer equipment cases are generally made of plastic or thin metal, the lock can be torn out, though not without doing significant visible damage to the case. The cable itself can be cut if an individual has a wire cutter or bolt cutter sufficiently strong to cut through the cable material, which will vary between different brands of cable.
 
-The Kensington type locks are useful to prevent quick grab-and-run thefts of equipment from casually supervised locations such as coffee shops, but cannot prevent the removal of equipment secured in an unattended location.
+The Kensington type locks are useful to prevent quick grab and run thefts of equipment from casually supervised locations such as coffee shops, but cannot prevent the removal of equipment secured in an unattended location.
 
-The key is often a cylindrical type, but there are versions which use a traditional flat key. There are also versions of the lock that use a numeric combination instead of a key.[2]
+The key is often a cylindrical type, but there are versions which use a traditional flat key. There are also versions of the lock that use a numeric combination instead of a key.
 ===
-The Gravis PC GamePad is a game port game controller produced by Advanced Gravis Computer Technology. It was the first gamepad for the IBM PC compatible in a market then dominated by joysticks.[citation needed] Included with the gamepad was a shareware Commander Keen game, episode 1, Marooned on Mars, which was later replaced with the shareware episode 4, Secret of the Oracle which supported all 4 buttons. The gamepad is no longer manufactured, as the Gravis company has ceased to exist.
 
-The gamepad's design is similar to that of the stock SNES controller (more so the Japanese and European version with colored buttons), although it lacks the Start, Select and shoulder buttons, and the shape of the controller's chassis differs slightly, with an inverted curve on the left side. As originally found in some versions of the Sega Master System controller, the center of the Gravis GamePad's d-pad allows a small joystick to be inserted. The resulting lever action provides increased directional sensitivity, desirable in fighting games for example.
+Gravis PC GamePad
+The Gravis PC GamePad is a game port game controller produced by [Advanced Gravis Computer Technology]. It was the first gamepad for the [IBM PC compatible] in a market then dominated by joysticks. Included with the gamepad was a shareware Commander Keen game, episode 1, Marooned on Mars, which was later replaced with the shareware episode 4, Secret of the Oracle which supported all 4 buttons. The gamepad is no longer manufactured, as the Gravis company has ceased to exist.
+
+The gamepad's design is similar to that of the stock SNES controller (more so the Japanese and European version with coloured buttons), although it lacks the Start, Select and shoulder buttons, and the shape of the controller's chassis differs slightly, with an inverted curve on the left side. As originally found in some versions of the Sega Master System controller, the center of the Gravis GamePad's d-pad allows a small joystick to be inserted. The resulting lever action provides increased directional sensitivity, desirable in fighting games for example.
 
 Both at the top and bottom of the gamepad are switches. One of them removes the normal functionality from 2 of the buttons, and turns them into autofire variants of the first 2. This gave all four buttons functionality even in PC games that only supported two buttons on joysticks or for scenarios when two gamepads are connected with a Y-splitter. The other allows for left-handed operation by turning the workings of the D-pad and buttons upside down. Both switches can be used at the same time.
 ===
-Ad Lib, Inc. was a Canadian manufacturer of sound cards and other computer equipment founded by Martin Prevel, a former professor of music and vice-dean of the music department at the Université Laval.[1] The company's best known product, the AdLib Music Synthesizer Card (ALMSC), or simply the AdLib as it was called, was the first add-on sound card (on compatibles) to achieve widespread game-developer acceptance, becoming the first de facto standard for audio reproduction.[2]
 
+Ad Lib, Inc
+Ad Lib, Inc was a Canadian manufacturer of sound cards and other computer equipment founded by Martin Prevel, a former professor of music and vice dean of the music department at the Université Laval. The company's best known product, the [AdLib Music Synthesizer Card] (ALMSC), or simply the AdLib as it was called, was the first add-on sound card (on compatibles) to achieve widespread game-developer acceptance, becoming the first de facto standard for audio reproduction.
 
-Problems playing this file? See media help.
-Today the AdLib's functionality can be recreated with emulators such as AdPlug and VDMSound (the latter is now deprecated but its source code has been incorporated into DOSBox). Emulating the AdLib Gold 1000 proves more of a challenge due to the surround sound module and the 2x oversampling effect.
+Today the AdLib's functionality can be recreated with emulators such as AdPlug and VDMSound (the latter is now deprecated but its source code has been incorporated into [DOSBox]). Emulating the AdLib Gold 1000 proves more of a challenge due to the surround sound module and the 2x oversampling effect.
 ===
-Kingston Technology Corporation is an American, privately held, multinational computer technology corporation that develops, manufactures, sells and supports flash memory products and other computer-related memory products. Headquartered in Fountain Valley, California, United States, Kingston Technology employs more than 4,000 people worldwide as of Q1 2015. The company has manufacturing and logistics facilities in the United States, United Kingdom, Ireland, Taiwan, and Mainland China.
 
-It is the largest independent producer of DRAM memory modules, currently owning 59% of the third-party worldwide DRAM module market share, according to IHS.[1] Kingston is arguably the second largest supplier of flash memory. Gartner ranks Kingston as the world's #2 supplier of USB drives, #2 in flash cards and #2 in PC based solid state drives.[citation needed]
+Kingston Technology Corporation
+Kingston Technology Corporation is an American, privately held, multinational computer technology corporation that develops, manufactures, sells and supports flash memory products and other computer related memory products. Headquartered in Fountain Valley, California, United States, Kingston Technology employs more than 4,000 people worldwide as of Q1 2015. The company has manufacturing and logistics facilities in the United States, United Kingdom, Ireland, Taiwan, and Mainland China.
 
-In 2014, Kingston generated revenues of US $7.0 billion. Forbes lists Kingston as #69 on its list of "The 500 Largest Private Companies in the U.S." and #2 in the Technology Hardware & Equipment category.
+It is the largest independent producer of [DRAM] memory modules, currently owning 59% of the third-party worldwide DRAM module market share, according to IHS. Kingston is arguably the second largest supplier of flash memory. Gartner ranks Kingston as the world's number two supplier of [USB] drives, number two in flash cards and number two in PC based solid state drives.
 
-Kingston serves an international network of distributors, resellers, retailers and OEM customers on six continents. The company also provides contract manufacturing and supply chain management services for semiconductor manufacturers and system OEMs.
+In 2014, Kingston generated revenues of US $7.0 billion. Forbes lists Kingston as #69 on its list of "The 500 Largest Private Companies in the U.S". and number 2 in the Technology Hardware &amp; Equipment category.
 
-Through its ownership of Kingston Technology Company Inc. and Advanced Validation Labs Inc. (AVL), Kingston Technology Corporation is one of the world’s leading memory module manufacturing, module validation, semiconductor packaging and test companies[citation needed].
+Kingston serves an international network of distributors, resellers, retailers and [OEM] customers on six continents. The company also provides contract manufacturing and supply chain management services for semiconductor manufacturers and system OEMs.
+
+Through its ownership of Kingston Technology Company Inc. and Advanced Validation Labs Inc. (AVL), Kingston Technology Corporation is one of the world’s leading memory module manufacturing, module validation, semiconductor packaging and test companies.
 ===
-Dynamic random-access memory (DRAM) is a type of random-access memory that stores each bit of data in a separate capacitor within an integrated circuit. The capacitor can be either charged or discharged; these two states are taken to represent the two values of a bit, conventionally called 0 and 1. Since even "nonconducting" transistors always leak a small amount, the capacitors will slowly discharge, and the information eventually fades unless the capacitor charge is refreshed periodically. Because of this refresh requirement, it is a dynamic memory as opposed to static random access memory (SRAM) and other static types of memory.
+
+DRAM - Dynamic Random Access Memory
+Dynamic Random Access Memory (DRAM) is a type of Random Access Memory ([RAM]) that stores each bit of data in a separate capacitor within an integrated circuit. The capacitor can be either charged or discharged; these two states are taken to represent the two values of a bit, conventionally called 0 and 1. Since even "nonconducting" transistors always leak a small amount, the capacitors will slowly discharge, and the information eventually fades unless the capacitor charge is refreshed periodically. Because of this refresh requirement, it is a dynamic memory as opposed to Static Random Access Memory (SRAM) and other static types of memory.
 
 The main memory (the "RAM") in personal computers is dynamic RAM (DRAM). It is the RAM in desktops, laptops and workstation computers as well as some of the RAM of video game consoles.
 
 The advantage of DRAM is its structural simplicity: only one transistor and a capacitor are required per bit, compared to four or six transistors in SRAM. This allows DRAM to reach very high densities. Unlike flash memory, DRAM is volatile memory (vs. non-volatile memory), since it loses its data quickly when power is removed. The transistors and capacitors used are extremely small; billions can fit on a single memory chip.
 
-Due to the nature of its memory cells, DRAM consumes relatively large amounts of power, with different ways for managing the power consumption.[1]
+Due to the nature of its memory cells, DRAM consumes relatively large amounts of power, with different ways for managing the power consumption.
 ===
-The Ricoh Company, Ltd. (株式会社リコー Kabushiki-gaisha Rikō?) is a Japanese multinational imaging and electronics company. It was founded by the RIKEN zaibatsu on 6 February 1936 as Riken Sensitized Paper (理研感光紙 Riken Kankōshi?). Ricoh's headquarters are located in Ricoh Building in Chūō, Tokyo.[1]
 
-Ricoh produces electronic products, primarily cameras and office equipment such as printers, photocopiers, fax machines, offers Software as a Service (SaaS) document management solutions such as DocumentMall, document solutions such as GlobalScan, Print&Share[2] and also offers Projectors. In the late 1990s through early 2000s, the company grew to become the largest copier manufacturer in the world. During this time, Ricoh acquired Savin, Gestetner, Lanier, Rex-Rotary, Monroe, Nashuatec, IKON and most recently IBM Printing Systems Division / Infoprint Solutions Company. Although the Monroe brand was discontinued, products continue to be marketed worldwide under the remaining brand names. In 2006, Ricoh acquired the European operations of Danka for $210 million. These operations continue as a stand-alone business unit, under the Infotec brand.
+Ricoh
+The Ricoh Company Ltd is a Japanese multinational imaging and electronics company. It was founded by the RIKEN zaibatsu on 6 February 1936 as Riken Sensitized. Ricoh's headquarters are located in Ricoh Building in Chūō, Tokyo.
+
+Ricoh produces electronic products, primarily cameras and office equipment such as printers, photocopiers, fax machines, offers Software as a Service (SaaS) document management solutions such as DocumentMall, document solutions such as GlobalScan, Print&amp;Share and also offers Projectors. In the late 1990s through early 2000s, the company grew to become the largest copier manufacturer in the world. During this time, Ricoh acquired Savin, Gestetner, Lanier, Rex-Rotary, Monroe, Nashuatec, IKON and most recently IBM Printing Systems Division / Infoprint Solutions Company. Although the Monroe brand was discontinued, products continue to be marketed worldwide under the remaining brand names. In 2006, Ricoh acquired the European operations of Danka for $210 million. These operations continue as a stand alone business unit, under the Infotec brand.
 ===
-Lexmark International, Inc. is an American corporation that manufactures laser printers and provides enterprise software. The company is headquartered in Lexington, Kentucky, in the United States.
 
-Lexmark was formed on March 27, 1991 when IBM divested a number of its hardware manufacturing operations, including printer and printer supply operations, to the investment firm Clayton & Dubilier & Rice, Inc. in a leveraged buyout.[2][3][4][5] Lexmark became a publicly traded company on the New York Stock Exchange on November 15, 1995.[6] The name Lexmark comes from a combination between "lexicon" and "Mark".
+Lexmark
+Lexmark International Inc is an American corporation that manufactures laser printers and provides enterprise software. The company is headquartered in Lexington, Kentucky, in the United States.
+
+Lexmark was formed on 27 March 1991 when [IBM] divested a number of its hardware manufacturing operations, including printer and printer supply operations, to the investment firm Clayton & Dubilier & Rice Inc in a leveraged buyout. Lexmark became a publicly traded company on the New York Stock Exchange on 15 November 1995. The name Lexmark comes from a combination between "lexicon" and "Mark".
 ===
-3Com Corporation was a digital electronics manufacturer best known for its computer network infrastructure products. The company was co-founded in 1979 by Robert Metcalfe, Howard Charney, Bruce Borden, and Greg Shaw and recruited Bill Krause from HP to be its President in February 1981 when it raised its first round of venture capital. Metcalfe has explained that he came up with the name 3Com as a contraction of "Computer Communication Compatibility",[2] with its focus on deploying the Ethernet technology that he had co-invented which enabled the networking of computers.
 
-3Com provided network interface controllers and switches, routers, wireless access points and controllers, IP voice systems, and intrusion prevention systems. The company was based in Massachusetts, USA. From its 2007 acquisition of 100 percent ownership of H3C Technologies Co., Limited (H3C) —initially a joint venture with China-based Huawei Technologies—3Com achieved a leading market presence in China, and a significant networking market share in Europe, Asia, and the Americas.[citation needed] 3Com products were sold under the brands 3Com, H3C, and TippingPoint.
+3Cpm
+3Com Corporation was a digital electronics manufacturer best known for its computer network infrastructure products. The company was co-founded in 1979 by Robert Metcalfe, Howard Charney, Bruce Borden, and Greg Shaw and recruited Bill Krause from [HP] to be its President in February 1981 when it raised its first round of venture capital. Metcalfe has explained that he came up with the name 3Com as a contraction of "Computer Communication Compatibility", with its focus on deploying the Ethernet technology that he had co-invented which enabled the networking of computers.
 
-On April 12, 2010, Hewlett-Packard completed the acquisition of 3Com.[3] Since the HP acquisition, 3Com has been fully absorbed by HP and no longer exists as a separate entity.
+3Com provided network interface controllers and switches, routers, wireless access points and controllers, IP voice systems, and intrusion prevention systems. The company was based in Massachusetts, USA. From its 2007 acquisition of 100 percent ownership of H3C Technologies Co., Limited (H3C) initially a joint venture with China based Huawei Technologies 3Com achieved a leading market presence in China, and a significant networking market share in Europe, Asia, and the Americas 3Com products were sold under the brands 3Com, H3C, and TippingPoint.
+
+On 12 April 2010, [Hewlett-Packard] completed the acquisition of 3Com. Since the HP acquisition, 3Com has been fully absorbed by HP and no longer exists as a separate entity.
 ===
-U.S. Robotics Corporation (often referred to as USR) is a company which produces USRobotics computer modems and related products. It sold high-speed modems in the 1980s, and had a reputation for high quality and compatibility with communication standards. With the reduced usage of analog or voiceband modems in North America in the early 21st century, USR is now one of the few modem companies left in that market. It now employs about 125 people worldwide.[1]
 
-USR was founded in 1976 in Chicago, Illinois (and later moved to Skokie, Illinois), by a group of entrepreneurs, including Casey Cowell, who served as CEO for most of the company's history and Paul Collard who designed modems into the mid-1980s. The company name is a reference to the fiction of Isaac Asimov, who is credited with inventing the term robotics. Asimov's Robot stories featured a fictional company named U.S. Robots and Mechanical Men. Cowell stated at a popular BBS convention they named the company as an homage to Asimov and because in his science fiction works US Robotics eventually became "the biggest company in the universe".[citation needed] (The later 2004 movie I, Robot, which was loosely based on Asimov's works, and set in Chicago, used the name "U.S. Robotics" for the fictional robot manufacturer.) The movie's U.S. Robotics corporate logo resembles a former nonfictional USR logo. Following the release of the movie, the company officially changed its name to USR.
+U.S. Robotics
+U.S. Robotics Corporation (often referred to as USR) is a company which produces USRobotics computer modems and related products. It sold high speed modems in the 1980s, and had a reputation for high quality and compatibility with communication standards. With the reduced usage of analog or voiceband modems in North America in the early 21st century, USR is now one of the few modem companies left in that market. It now employs about 125 people worldwide.
+
+USR was founded in 1976 in Chicago, Illinois (and later moved to Skokie, Illinois), by a group of entrepreneurs, including Casey Cowell, who served as CEO for most of the company's history and Paul Collard who designed modems into the mid 1980s. The company name is a reference to the fiction of Isaac Asimov, who is credited with inventing the term robotics. Asimov's Robot stories featured a fictional company named U.S. Robots and Mechanical Men. Cowell stated at a popular [BBS] convention they named the company as an homage to Asimov and because in his science fiction works US Robotics eventually became "the biggest company in the universe". (The later 2004 movie I, Robot, which was loosely based on Asimov's works, and set in Chicago, used the name "U.S. Robotics" for the fictional robot manufacturer). The movie's U.S. Robotics corporate logo resembles a former nonfictional USR logo. Following the release of the movie, the company officially changed its name to USR.
 
 USR was one of many companies to offer dial-up modems for personal computers. Prior to the development of standards such as the V.32 family of protocols, USR introduced its own HST (High-Speed Transfer) protocol in 1986, which operated at 9600 bit/s (bits per second). In 1989 HST was expanded to 14.4 kbit/s, 16.8 kbit/s in 1992, and finally to 21 kbit/s and 24 kbit/s.
 
 USR was not the only company making modems with proprietary protocols; Telebit's TrailBlazer series offered speeds up to 19.2 kbit/s in its first model, and Hayes also introduced a 9600 bit/s Express 96 (or "Ping-Pong") system. However, USR became the most successful of the three, due to a marketing scheme that offered large discounts to BBS sysops.
 
+The proprietary nature of HST allowed USR to maintain its market predominance even when off brand V.32-based modems began selling for less than equivalent HST modems. As the price differential decreased, however, V.32 based modems eventually became a cost effective alternative to HST. Nevertheless, USR maintained its user base by creating slightly faster HST protocols (in particular, a 16.8 kbit/s mode) and by producing "dual-standard" modems which were able to communicate with both HST and V.32 modems at high speeds.
 
-U.S. Robotics Sportster 14,400 Fax Modem (1994)
-The proprietary nature of HST allowed USR to maintain its market predominance even when off-brand V.32-based modems began selling for less than equivalent HST modems. As the price differential decreased, however, V.32-based modems eventually became a cost-effective alternative to HST. Nevertheless, USR maintained its user base by creating slightly faster HST protocols (in particular, a 16.8 kbit/s mode) and by producing "dual-standard" modems which were able to communicate with both HST and V.32 modems at high speeds.
+During this period, USR differentiated between its high and low-end product lines by supporting only the V.32 modes on its low-end Sportster models, while its high-end Courier models supported V.32, HST, or both in the Courier Dual Standard models. The Sportster used the same motherboard as the Couriers, and on certain 14.4 kbit/s models a sequence of AT commands could be issued to enable the faster 16.8 kbit/s HST mode. The Courier modems remained a favorite in the BBS and emerging Internet service provider world, where they were known to run without problems for extended periods of time (although the initial large-scale deployment of Courier modems in the CompuServe network uncovered a serious bug which would cause the modems to crash and stop answering calls under high call volumes).
 
-During this period, USR differentiated between its high and low-end product lines by supporting only the V.32 modes on its low-end Sportster models, while its high-end Courier models supported V.32, HST, or both in the Courier Dual Standard models. The Sportster used the same motherboard as the Couriers, and on certain 14.4 kbit/s models a sequence of AT commands could be issued to enable the faster 16.8 kbit/s HST mode.[2] The Courier modems remained a favorite in the BBS and emerging Internet service provider world, where they were known to run without problems for extended periods of time (although the initial large-scale deployment of Courier modems in the CompuServe network uncovered a serious bug which would cause the modems to crash and stop answering calls under high call volumes).
-
-
-USR Sportster 56k 117102 ISA modem supporting X2 and V.90
-
-Courier Dual Standard V34 Fax with V32 bis
 Later, when 56 kbit/s modems were introduced, USR again went its own way with its X2 technology pitched against K56flex before the creation of a final formal 56K standard. After the V.90 industry standard became available, USR abandoned its proprietary protocols. In a further effort to reduce the retail price of its modems, USR also marketed a Winmodem that used software running on the host computer to perform some of the modem functions.
 
-Some models of Courier modems were known for their long-term upgradeability, because they used an upgradeable DSP design. For example, when the Courier V.Everything modem was first released in 1994 under the product label "Courier V.34 Ready", it shipped with only V.FC support because V.34 had not been released. A free V.34 upgrade was made available later via FidoNet, as well as the Internet. USR then surprised many early Courier V.Everything modem owners with a limited-time free offer of an X2 firmware upgrade, which added 56K speed capability. Finally, USR released a V.90 upgrade that was compatible with X2-upgraded Courier V.Everything modems. Even the 1994 hardware released pre-V.34 was fully V.90-upgradeable without hardware modification. Many Courier V.Everything modems were still in use more than a decade later.[citation needed]
+Some models of Courier modems were known for their long-term upgradeability, because they used an upgradeable DSP design. For example, when the Courier V.Everything modem was first released in 1994 under the product label "Courier V.34 Ready", it shipped with only V.FC support because V.34 had not been released. A free V.34 upgrade was made available later via FidoNet, as well as the Internet. USR then surprised many early Courier V.Everything modem owners with a limited-time free offer of an X2 firmware upgrade, which added 56K speed capability. Finally, USR released a V.90 upgrade that was compatible with X2-upgraded Courier V.Everything modems. Even the 1994 hardware released pre-V.34 was fully V.90-upgradeable without hardware modification. Many Courier V.Everything modems were still in use more than a decade later.
 
 There was a licensing key needed for some Courier V.Everything V.90 flash upgrades. The firmware could be loaded onto the modem, but it would work in "degraded" V.34 mode. After paying a fee, and having the modem dial USR, a license key was installed that enabled the V.90 functions.
 ===
 
 Cloud Computing
-Cloud computing is a model for enabling ubiquitous network access to a shared pool of configurable computing resources.[1]
+Cloud computing is a model for enabling ubiquitous network access to a shared pool of configurable computing resources.
 
-Cloud computing and storage solutions provide users and enterprises with various capabilities to store and process their data in third-party data centers.[2] It relies on sharing of resources to achieve coherence and economies of scale, similar to a utility (like the electricity grid) over a network.[3] At the foundation of cloud computing is the broader concept of converged infrastructure and shared services.
+Cloud computing and storage solutions provide users and enterprises with various capabilities to store and process their data in third-party data centers. It relies on sharing of resources to achieve coherence and economies of scale, similar to a utility (like the electricity grid) over a network. At the foundation of cloud computing is the broader concept of converged infrastructure and shared services.
 
-Cloud computing, or in simpler shorthand just "the cloud", also focuses on maximizing the effectiveness of the shared resources. Cloud resources are usually not only shared by multiple users but are also dynamically reallocated per demand. This can work for allocating resources to users. For example, a cloud computer facility that serves European users during European business hours with a specific application (e.g., email) may reallocate the same resources to serve North American users during North America's business hours with a different application (e.g., a web server). This approach should maximize the use of computing power thus reducing environmental damage as well since less power, air conditioning, rack space, etc. are required for a variety of functions. With cloud computing, multiple users can access a single server to retrieve and update their data without purchasing licenses for different applications.
+Cloud computing, or in simpler shorthand just "the cloud", also focuses on maximising the effectiveness of the shared resources. Cloud resources are usually not only shared by multiple users but are also dynamically reallocated per demand. This can work for allocating resources to users. For example, a cloud computer facility that serves European users during European business hours with a specific application (e.g., email) may reallocate the same resources to serve North American users during North America's business hours with a different application (e.g., a web server). This approach should maximize the use of computing power thus reducing environmental damage as well since less power, air conditioning, rack space, etc. are required for a variety of functions. With cloud computing, multiple users can access a single server to retrieve and update their data without purchasing licenses for different applications.
 
-The term "moving to cloud" also refers to an organization moving away from a traditional CAPEX model (buy the dedicated hardware and depreciate it over a period of time) to the OPEX model (use a shared cloud infrastructure and pay as one uses it).[dubious – discuss]
+The term "moving to cloud" also refers to an organisation moving away from a traditional CAPEX model (buy the dedicated hardware and depreciate it over a period of time) to the OPEX model (use a shared cloud infrastructure and pay as one uses it).
 
-Proponents claim that cloud computing allows companies to avoid upfront infrastructure costs, and focus on projects that differentiate their businesses instead of on infrastructure.[4] Proponents also claim that cloud computing allows enterprises to get their applications up and running faster, with improved manageability and less maintenance, and enables IT to more rapidly adjust resources to meet fluctuating and unpredictable business demand.[4][5][6] Cloud providers typically use a "pay as you go" model. This can lead to unexpectedly high charges if administrators do not adapt to the cloud pricing model.[7]
+Proponents claim that cloud computing allows companies to avoid upfront infrastructure costs, and focus on projects that differentiate their businesses instead of on infrastructure. Proponents also claim that cloud computing allows enterprises to get their applications up and running faster, with improved manageability and less maintenance, and enables IT to more rapidly adjust resources to meet fluctuating and unpredictable business demand. Cloud providers typically use a "pay as you go" model. This can lead to unexpectedly high charges if administrators do not adapt to the cloud pricing model.
 
-The present availability of high-capacity networks, low-cost computers and storage devices as well as the widespread adoption of hardware virtualization, service-oriented architecture, and autonomic and utility computing have led to a growth in cloud computing.[8][9][10] Companies can scale up as computing needs increase and then scale down again as demands decrease.
+The present availability of high-capacity networks, low-cost computers and storage devices as well as the widespread adoption of hardware virtualisation, service oriented architecture, and autonomic and utility computing have led to a growth in cloud computing. Companies can scale up as computing needs increase and then scale down again as demands decrease.
 ===
+
 DoS
-In computing, a denial-of-service (DoS) attack is an attempt to make a machine or network resource unavailable to its intended users, such as to temporarily or indefinitely interrupt or suspend services of a host connected to the Internet. A distributed denial-of-service (DDoS) is where the attack source is more than one–and often thousands–of unique IP addresses.
+In computing, a Denial of Service (DoS) attack is an attempt to make a machine or network resource unavailable to its intended users, such as to temporarily or indefinitely interrupt or suspend services of a host connected to the [Internet]. A Distributed Denial of Service ([DDoS]) is where the attack source is more than one and often thousands of unique [IP addresses].
 
-Criminal perpetrators of DoS attacks often target sites or services hosted on high-profile web servers such as banks, credit card payment gateways; but motives of revenge, blackmail[1][2] or activism[3] can be behind other attacks.
+Criminal perpetrators of DoS attacks often target sites or services hosted on high-profile web servers such as banks, credit card payment gateways; but motives of revenge, blackmail or activism can be behind other attacks.
 
-Symptoms[edit]
-The United States Computer Emergency Readiness Team (US-CERT) defines symptoms of denial-of-service attacks to include:
+Symptoms of a DOS Attack
+The United States Computer Emergency Readiness Team (US-CERT) defines symptoms of Denial of Service attacks to include:
 
-Unusually slow network performance (opening files or accessing web sites)
-Unavailability of a particular web site
-Inability to access any web site
-Dramatic increase in the number of spam emails received—(this type of DoS attack is considered an e-mail bomb)[4]
-Disconnection of a wireless or wired internet connection
-Long term denial of access to the web or any internet services
-Denial-of-service attacks can also lead to problems in the network 'branches' around the actual computer being attacked. For example, the bandwidth of a router between the Internet and a LAN may be consumed by an attack, compromising not only the intended computer, but also the entire network or other computers on the LAN.[5]
+- Unusually slow network performance (opening files or accessing web sites)
+- Unavailability of a particular web site
+- Inability to access any web site
+- Dramatic increase in the number of spam emails received (this type of DoS attack is considered an e-mail bomb)
+- Disconnection of a wireless or wired internet connection
+- Long term denial of access to the web or any internet services
+
+Denial of Service attacks can also lead to problems in the network 'branches' around the actual computer being attacked. For example, the bandwidth of a router between the [Internet] and a [LAN] may be consumed by an attack, compromising not only the intended computer, but also the entire network or other computers on the LAN.
 
 If the attack is conducted on a sufficiently large scale, entire geographical regions of Internet connectivity can be compromised without the attacker's knowledge or intent by incorrectly configured or flimsy network infrastructure equipment.
-
 ===
+
 Gravis Ultrasound
-Gravis UltraSound or GUS is a sound card for the IBM PC compatible system platform, made by Canada-based Advanced Gravis Computer Technology Ltd. It was very popular in the demo scene in the 1990s.[citation needed]
+Gravis UltraSound or GUS is a sound card for the [IBM PC compatible] system platform, made by Canada based [Advanced Gravis Computer Technology Ltd] It was very popular in the 1990s.
 
-The Gravis UltraSound was notable at the time of its 1992 launch by providing the IBM PC platform with sample-based music synthesis technology (marketed as 'wavetable'). That is the ability to use real-world sound recordings rather than artificial computer-generated waveforms as the basis of a musical instrument. Samples of pianos or trumpets, for example, sound more like their real respective instruments.[citation needed] With up to 32 hardware audio channels, the GUS was notable[citation needed] for MIDI playback quality with a large set of instrument patches that could be stored in its own RAM.
+The Gravis UltraSound was notable at the time of its 1992 launch by providing the IBM PC platform with sample based music synthesis technology (marketed as 'wavetable'). That is the ability to use real world sound recordings rather than artificial computer generated waveforms as the basis of a musical instrument. Samples of pianos or trumpets, for example, sound more like their real respective instruments. With up to 32 hardware audio channels, the GUS was notable for [MIDI] playback quality with a large set of instrument patches that could be stored in its own RAM.
 
-The cards were all manufactured on red PCBs, similar to fellow Canadian company ATI. They were a little more expensive than Creative cards, undercutting many equivalent professional cards aimed at musicians by a huge margin.
+The cards were all manufactured on red PCBs, similar to fellow Canadian company [ATI]. They were a little more expensive than [Creative] cards, undercutting many equivalent professional cards aimed at musicians by a huge margin.
 ===
-Photoshop plugins (or plug-ins) are add-on programs aimed at providing additional image effects or performing tasks that are impossible or hard to fulfill using Adobe Photoshop alone. Plugins can be opened from within Photoshop and several other image editing programs (compatible with the appropriate Adobe specifications) and act like mini-editors that modify the image.
+
+Photoshop plug-ins
+Photoshop plugins (or plug-ins) are add-on programs aimed at providing additional image effects or performing tasks that are impossible or hard to fulfil using [Adobe Photoshop] alone. Plugins can be opened from within Photoshop and several other image editing programs (compatible with the appropriate Adobe specifications) and act like mini editors that modify the image.
 ===
 
 Photoshop
-Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems for Windows and OS X.
+Adobe Photoshop is a raster graphics editor developed and published by [Adobe Systems] for [Windows] and [OS X].
 
-Photoshop was created in 1988 by Thomas and John Knoll. Since then, it has become the de facto industry standard in raster graphics editing, such that the word "photoshop" has become a verb as in "to photoshop an image," "photoshopping," and "photoshop contest," etc. It can edit and compose raster images in multiple layers and supports masks, alpha compositing and several color models including RGB, CMYK, Lab color space (with capital L), spot color and duotone. Photoshop has vast support for graphic file formats but also uses its own PSD and PSB file formats which support all the aforementioned features. In addition to raster graphics, it has limited abilities to edit or render text, vector graphics (especially through clipping path), 3D graphics and video. Photoshop's featureset can be expanded by Photoshop plug-ins, programs developed and distributed independently of Photoshop that can run inside it and offer new or enhanced features.
+Photoshop was created in 1988 by Thomas and John Knoll. Since then, it has become the de facto industry standard in raster graphics editing, such that the word "photoshop" has become a verb as in "to photoshop an image," "photoshopping," and "photoshop contest," etc. It can edit and compose raster images in multiple layers and supports masks, alpha compositing and several color models including [RGB], [CMYK], Lab color space (with capital L), spot color and duotone. Photoshop has vast support for graphic file formats but also uses its own PSD and PSB file formats which support all the aforementioned features. In addition to raster graphics, it has limited abilities to edit or render text, vector graphics (especially through clipping path), 3D graphics and video. Photoshop's feature set can be expanded by [Photoshop plug-ins], programs developed and distributed independently of Photoshop that can run inside it and offer new or enhanced features.
 
-Photoshop's naming scheme was initially based on version numbers. However, in October 2004, following the introduction of Creative Suite branding, each new version of Photoshop was designated with "CS" plus a number; e.g., the eighth major version of Photoshop was Photoshop CS and the ninth major version was Photoshop CS2. Photoshop CS3 through CS6 were also distributed in two different editions: Standard and Extended. In June 2013, with the introduction of Creative Cloud branding, Photoshop's licensing scheme was changed to that of software as a service and the "CS" suffixes were replaced with "CC". Historically, Photoshop was bundled with additional software such as Adobe ImageReady, Adobe Fireworks, Adobe Bridge, Adobe Device Central and Adobe Camera RAW.
+Photoshop's naming scheme was initially based on version numbers. However, in October 2004, following the introduction of Creative Suite branding, each new version of Photoshop was designated with "CS" plus a number; e.g., the eighth major version of Photoshop was Photoshop CS and the ninth major version was Photoshop CS2. Photoshop CS3 through CS6 were also distributed in two different editions: Standard and Extended. In June 2013, with the introduction of Creative Cloud branding, Photoshop's licensing scheme was changed to that of software as a service and the "CS" suffixes were replaced with "CC". Historically, Photoshop was bundled with additional software such as Adobe ImageReady, [Adobe Fireworks], Adobe Bridge, Adobe Device Central and Adobe Camera RAW.
 
-Alongside Photoshop, Adobe also develops and publishes Photoshop Elements, Photoshop Lightroom, Photoshop Express and Photoshop Touch. Collectively, they are branded as "The Adobe Photoshop Family". It is currently a licensed software.
+Alongside Photoshop, Adobe also develops and publishes Photoshop Elements, Photoshop Lightroom, Photoshop Express and Photoshop Touch. Collectively, they are branded as "The Adobe Photoshop Family".
 ===
-Central Point Software, Inc. (CP, CPS, Central Point) was a leading software utilities maker for the PC market, supplying utilities software for the DOS and Microsoft Windows markets. It also made Apple II copy programs. Through a series of mergers, the company was ultimately acquired by Symantec in 1994.
+
+Central Point
+Central Point Software Inc (CP, CPS, Central Point) was a leading software utilities maker for the [PC] market, supplying utilities software for the [DOS] and [Microsoft Windows] markets. It also made [Apple II] copy programs. Through a series of mergers, the company was ultimately acquired by [Symantec] in 1994.
 ===
 
 Symantec
-Symantec Corporation /sɪˈmænˌtɛk/ (commonly known as Symantec) is an American technology company headquartered in Mountain View, California, United States. The company produces software for security, storage, backup and availability - and offers professional services to support its software. Netcraft asseses Symantec (including subsidiaries) as the most-used certification authority. Symantec is a Fortune 500 company and a member of the S&P 500 stock-market index.
+Symantec Corporation (commonly known as Symantec) is an American technology company headquartered in Mountain View, California, United States. The company produces software for security, storage, backup and availability - and offers professional services to support its software. Netcraft asseses Symantec (including subsidiaries) as the most used certification authority. Symantec is a Fortune 500 company and a member of the S&amp;P 500 stock market index.
 
-On October 9, 2014, Symantec declared that the company would split into two independent publicly-traded companies by the end of 2015. One company would focus on security, the other on information management. The information-management business will use the name "Veritas Technologies Corporation", echoing the name of Veritas Software (which Symantec acquired in 2005).
+On 9 October 2014, Symantec declared that the company would split into two independent publicly traded companies by the end of 2015. One company would focus on security, the other on information management. The information management business will use the name "Veritas Technologies Corporation", echoing the name of Veritas Software (which Symantec acquired in 2005).
 
-The name Symantec represents a combination of the words "syntax" and "semantics".[citation needed]
-
+The name Symantec represents a combination of the words "syntax" and "semantics".
 ==
-Peter Norton Computing
-Peter Norton Computing, Inc., was a software company founded by Peter Norton. The first and most notable software package it produced is the Norton Utilities. Another very popular software was Norton Commander, especially the DOS version. In 1990, the company was acquired by Symantec.[1] The acquired company became a division of Symantec and was renamed Peter Norton Computing Group. Most of Norton Computing's 115 employees were retained.
 
-The Symantec merger helped Norton Computing regain the market share it was losing to competitors, especially Central Point Software. Norton Computing's revenues tripled between June 1990 and September 1991, and by November it appeared to have regained the market lead over Central Point.
+Peter Norton Computing
+Peter Norton Computing Inc, was a software company founded by [Peter Norton]. The first and most notable software package it produced is the [Norton Utilities]. Another very popular software was [Norton Commander], especially the [DOS] version. In 1990, the company was acquired by [Symantec]. The acquired company became a division of Symantec and was renamed Peter Norton Computing Group. Most of Norton Computing's 115 employees were retained.
+
+The Symantec merger helped Norton Computing regain the market share it was losing to competitors, especially [Central Point Software]. Norton Computing's revenues tripled between June 1990 and September 1991, and by November it appeared to have regained the market lead over Central Point.
 ===
 Lotus Approach
+Static Random Access Memory
+Software as a Service (SaaS) 
+languages/java/grals
+languages/java/play
+languages/java/spring
+languages/php/cms/ExpressionEngine
+languages/php/cms/Mambo
+languages/php/elePHPant
+languages/php/frameworks/CakePHP
+languages/php/frameworks/Fat-Free
+languages/php/frameworks/FuelPHP
+languages/php/frameworks/Lithium
+languages/php/frameworks/Phalcon
+languages/php/frameworks/PHPixie
+languages/php/frameworks/Symfony2
+languages/php/frameworks/TYPO3
+languages/php/frameworks/Yii
+languages/php/frameworks/Zend Framework
+languages/ruby/Ruby on Rails
+project-management/methodologies/Fountain Model
+project-management/methodologies/Prototype Model
+project-management/methodologies/Spiral Model
+software-development/architectural-patterns
+software-development/architectural-patterns/Blackboard pattern
+software-development/architectural-patterns/Layering
+software-development/architectural-patterns/Microkernel
+software-development/architectural-patterns/mvc/Hierarchical model–view–controller (HMVC)
+software-development/architectural-patterns/mvc/Model View ViewModel (MVVM)
+software-development/architectural-patterns/mvc/Model–view–adapter (MVA)
+software-development/architectural-patterns/mvc/Model–view–presenter (MVP)
+software-development/architectural-patterns/Three-tier
+software-development/Command-Line Interface (CLI)
+software-development/Computer-Aided Software Engineering (CASE)
+software-development/design-patterns
+software-development/design-patterns/behavioural
+software-development/design-patterns/behavioural/Chain of responsibility
+software-development/design-patterns/behavioural/Command
+software-development/design-patterns/behavioural/Interpreter
+software-development/design-patterns/behavioural/Iterator
+software-development/design-patterns/behavioural/Mediator
+software-development/design-patterns/behavioural/Memento
+software-development/design-patterns/behavioural/Null object
+software-development/design-patterns/behavioural/Observer
+software-development/design-patterns/behavioural/Servant
+software-development/design-patterns/behavioural/Specification
+software-development/design-patterns/behavioural/State
+software-development/design-patterns/behavioural/Strategy
+software-development/design-patterns/behavioural/Template
+software-development/design-patterns/behavioural/Visitor
+software-development/design-patterns/concurrency
+software-development/design-patterns/concurrency/Active Object
+software-development/design-patterns/concurrency/Balking
+software-development/design-patterns/concurrency/Double-checked locking
+software-development/design-patterns/concurrency/Event-based asynchronous
+software-development/design-patterns/concurrency/Guarded suspension
+software-development/design-patterns/concurrency/Join
+software-development/design-patterns/concurrency/Lock
+software-development/design-patterns/concurrency/Messaging design pattern (MDP)
+software-development/design-patterns/concurrency/Monitor object
+software-development/design-patterns/concurrency/Reactor
+software-development/design-patterns/concurrency/Read-write lock
+software-development/design-patterns/concurrency/Scheduler
+software-development/design-patterns/concurrency/Thread pool
+software-development/design-patterns/concurrency/Thread-specific storage
+software-development/design-patterns/creational
+software-development/design-patterns/creational/Abstract factory pattern
+software-development/design-patterns/creational/Builder
+software-development/design-patterns/creational/Factory method pattern
+software-development/design-patterns/creational/Lazy initialisation
+software-development/design-patterns/creational/Multiton
+software-development/design-patterns/creational/Object pool
+software-development/design-patterns/creational/Prototype pattern
+software-development/design-patterns/creational/Resource acquisition is initialisation
+software-development/design-patterns/creational/Singleton pattern
+software-development/design-patterns/structural
+software-development/design-patterns/structural/Adapter
+software-development/design-patterns/structural/Bridge
+software-development/design-patterns/structural/Composite
+software-development/design-patterns/structural/Decorator
+software-development/design-patterns/structural/Facade
+software-development/design-patterns/structural/Flyweight
+software-development/design-patterns/structural/Front Controller
+software-development/design-patterns/structural/Module
+software-development/design-patterns/structural/Proxy
+software-development/Flow Chart
+software-development/Software Metric
+software-development/Source Lines Of Code (SLOC)
+software-development/uncol (Universal Computer Oriented Language)
+software-development/Unified Modeling Language (UML)
+software-development/version-control/Code Repository

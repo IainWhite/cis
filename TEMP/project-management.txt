@@ -1,3 +1,1 @@
-project-management/methodologies/Fountain Model
-project-management/methodologies/Prototype Model
-project-management/methodologies/Spiral Model
+
