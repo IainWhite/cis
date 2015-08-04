@@ -1,36 +1,5 @@
-it/amazon-web-services (AWS)
-it/awards/turing-award
-it/cmyk
-it/cocoa
-it/cocoa-touch
-it/component-object-model
-it/computer-modern
-it/coroutines
-it/crc-cards
-it/csnet
-it/cygwin
-it/design
-it/design/font/typeface
-it/design/User Experience (UX)
-it/design/User Interface (UI)
-it/development
-it/dot-com-bubble
-it/font
-it/foss
-it/gdi
-it/hardware/phones/nokia-communicator
-it/hardware/smartphone
-it/hardware/sparcstation
-it/hsl
-it/ims
-it/latex
-it/metafont
-it/rgb
-it/shell-scripts
-it/social-networking
 it/software-licenses
 it/software/activex
-it/software/awk
 it/software/cacti
 it/software/cad
 it/software/coreldraw
@@ -38,12 +7,8 @@ it/software/dia
 it/software/directx
 it/software/dynatrace
 it/software/fireworks
-it/software/flash
-it/software/flash-player
 it/software/freehand
 it/software/gimp
-it/software/grep
-it/software/ide
 it/software/licenses/Apple Public Source License
 it/software/licenses/Common Public License
 it/software/licenses/End-User License Agreement (EULA)
@@ -69,12 +34,9 @@ it/software/norton-commander
 it/software/norton-utilities
 it/software/paintshop-pro
 it/software/pc-tools
-it/software/sed
 it/software/visio
-it/stackdriver
-it/tex
-it/windows-api
-it/windows-template-library
-it/y2k
-it/yslow
-languages/java/testdox
+software-development/component-object-model
+software-development/coroutines
+software-development/crc-cards
+software-development/windows-api
+software-development/windows-template-library
