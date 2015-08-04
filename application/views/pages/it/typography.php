@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Typography'); ?>
+        <p><strong>Typography</strong> is the art and technique of arranging type to make written language readable and appealing. The arrangement of type involves selecting <?php echo $this->stencil->addLink('typefaces', 'IT'); ?>, point size, line length, line-spacing (leading), letter-spacing (tracking), and adjusting the space within letters pairs (kerning). Type design is a closely related craft, sometimes considered part of typography; most typographers do not design typefaces, and some type designers do not consider themselves typographers.</p>
+        <p>Typography is performed by typesetters, compositors, typographers, graphic designers, art directors, manga artists, comic book artists, graffiti artists, clerical workers, and everyone else who arranges type for a product. Until the Digital Age, typography was a specialised occupation. Digitisation opened up typography to new generations of visual designers and lay users, and David Jury, Head of Graphic Design at Colchester Institute in England, states that "<em>typography is now something everybody does</em>".</p>
+    </div>
+</div>
