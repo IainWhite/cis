@@ -1,18 +1,1 @@
-languages/java/grals
-languages/java/play
-languages/java/spring
-languages/php/cms/ExpressionEngine
-languages/php/cms/Joonla!
-languages/php/cms/Mambo
-languages/php/elePHPant
-languages/php/frameworks/CakePHP
-languages/php/frameworks/Fat-Free
-languages/php/frameworks/FuelPHP
-languages/php/frameworks/Lithium
-languages/php/frameworks/Phalcon
-languages/php/frameworks/PHPixie
-languages/php/frameworks/Symfony2
-languages/php/frameworks/TYPO3
-languages/php/frameworks/Yii
-languages/php/frameworks/Zend Framework
-languages/ruby/Ruby on Rails
+

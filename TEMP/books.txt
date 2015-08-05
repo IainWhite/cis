@@ -1,8 +1,1 @@
-books/implementing-lean-software-development-from-concept-to-cash
-books/leading-lean-software-development-results-are-not-the-point
-books/lean-software-development-an-agile-toolkit
-books/the-art-of-computer-programming
-books/the-cathedral-and-the-bazaar
-books/the-lean-mindset-ask-the-right-questions
-books/the-mythical-man-month
-books/the-pragmatic-programmer
+
