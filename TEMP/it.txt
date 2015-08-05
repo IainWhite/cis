@@ -3,8 +3,3 @@ software-development/component-object-model
 software-development/coroutines
 software-development/crc-cards
 software-development/directx
-software-development/mfc
-software-development/object-windows-library
-software-development/vcl
-software-development/windows-api
-software-development/windows-template-library
