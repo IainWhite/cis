@@ -1,6 +1,5 @@
 ada-lovelace
 alan-sugar
-alan-turing
 andy-hunt
 bill-gates
 brendan-eich
