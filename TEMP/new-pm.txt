@@ -2201,7 +2201,104 @@ Convention over configuration (also known as coding by convention) is a software
 The phrase essentially means a developer only needs to specify unconventional aspects of the application. For example, if there is a class Sale in the model, the corresponding table in the database is called "sales" by default. It is only if one deviates from this convention, such as calling the table "product sales", that one needs to write code regarding these names.
 
 When the convention implemented by the tool matches the desired behaviour, it behaves as expected without having to write configuration files. Only when the desired behaviour deviates from the implemented convention is explicit configuration required.
-==
+===
+
+Bootstrap
+Bootstrap is a free and open-source collection of tools for creating websites and web applications. It contains [HTML] and [CSS] based design templates for typography, forms, buttons, navigation and other interface components, as well as optional [JavaScript] extensions. It aims to ease the development of dynamic websites and web applications.
+
+Bootstrap is a front end framework, that is, an interface for the user, unlike the server-side code which resides on the "back end" or server.
+
+As of June 2015, it was the most starred project on [GitHub], with over 81,000 stars and more than 32,000 forks.
+
+Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter as a framework to encourage consistency across internal tools. Before Bootstrap, various libraries were used for interface development, which led to inconsistencies and a high maintenance burden. According to [Twitter] developer Mark Otto:
+
+"A super small group of developers and I got together to design and build a new internal tool and saw an opportunity to do something more. Through that process, we saw ourselves build something much more substantial than another internal tool. Months later, we ended up with an early version of Bootstrap as a way to document and share common design patterns and assets within the company".
+
+After a few months of development by a small group, many developers at Twitter began to contribute to the project as a part of Hack Week, a [hackathon] style week for the Twitter's development team. It was renamed from Twitter Blueprint to Bootstrap, and released as an open source project on 19 August 2011. It has continued to be maintained by Mark Otto, Jacob Thornton, and a small group of core developers, as well as a large community of contributors.
+
+On 31 January 2012, Bootstrap 2 was announced. This release added the twelve column grid layout and responsive design components, as well as changes to many of the existing components. The Bootstrap 3 release was announced on 19 August, 2013, moving to a [mobile first] approach and using a flat design.
+
+On 23 April 2015, Mark Otto announced Bootstrap 4 is in development.
+
+Bootstrap is compatible with the latest versions of the [Google Chrome], [Firefox], [Internet Explorer], [Opera], and [Safari] browsers, although some of these browsers are not supported on all platforms.
+
+Since version 2.0 it also supports [responsive web design]. This means the layout of web pages adjusts dynamically, taking into account the characteristics of the device used (desktop, tablet, mobile phone).
+
+Starting with version 3.0, Bootstrap adopted a [mobile first] design philosophy, emphasising responsive design by default.
+===
+
+Blueprint
+Blueprint is a CSS framework designed to reduce development time and ensure cross-browser compatibility when working with Cascading Style Sheets ([CSS]). It also serves as a foundation for many tools designed to make CSS development easier and more accessible to beginners. Blueprint is released under a modified version of the [MIT License], making it free software. It can be either used as is, or further adapted for use via a compression tool that is written in [Ruby].
+
+Blueprint Features
+- An easily customizable grid
+- Sensible default typography
+- A typographic baseline
+- Perfected browser CSS reset
+- A stylesheet for printing
+- Powerful scripts for customization
+- Bloat Minimized as much as possible
+===
+
+Responsive Web Design
+Responsive web design is an approach to web design aimed at crafting sites to provide an optimal viewing and interaction experience easy reading and navigation with a minimum of resizing, panning, and scrolling across a wide range of devices (from desktop computer monitors to mobile phones).
+
+A site designed with responsive web design adapts the layout to the viewing environment by using fluid, proportion based grids, flexible images, and [CSS-3 media queries], an extension of the @media rule, in the following ways:
+
+- The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points.
+- Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element.
+- Media queries allow the page to use different [CSS] style rules based on characteristics of the device the site is being displayed on, most commonly the width of the browser.
+
+Responsive web design is becoming more important as the amount of mobile traffic now accounts for more than half of total Internet traffic. This trend is so prevalent that [Google] has begun to boost the ratings of sites that are mobile friendly if the search was made from a mobile device. This has the net effect of penalising sites that are not mobile friendly.
+===
+
+Media Queries
+Media Queries is a [CSS-3] module allowing content rendering to adapt to conditions such as screen resolution (e.g. smartphone screen vs. computer screen). It became a [W3C] recommended standard in June 2012, and is a cornerstone technology of [responsive web design].
+
+Media queries were first sketched in Håkon Wium Lie's initial [CSS] proposal in 1994, but they did not become part of CSS1. The HTML4 Recommendation from 1997 shows an example of how Media Queries could be added in the future. In 2000, W3C started work on Media Queries and also on another scheme for supporting various devices: CC/PP. The two address the same problem, but CC/PP is server centric, while Media Queries are browser centric. The first public working draft for Media Queries was published in 2001, and the specification became a W3C Recommendation in 2012 after browsers added support.
+
+Usage
+A media query consists of a media type and one or more expressions, involving media features, which resolve to either true or false. The result of the query is true if the media type specified in the media query matches the type of device the document is being displayed on and all expressions in the media query are true. When a media query is true, the corresponding style sheet or style rules are applied, following the normal cascading rules.
+
+@media screen and (min-width:500px) { ... }
+===
+
+Hackathon
+A hackathon (also known as a hack day, hackfest or codefest) is an event in which computer programmers and others involved in software development and hardware development, including graphic designers, interface designers and project managers, collaborate intensively on software projects. Occasionally, there is a hardware component as well. Hackathons typically last between a day and a week. Some hackathons are intended simply for educational or social purposes, although in many cases the goal is to create usable software. Hackathons tend to have a specific focus, which can include the programming language used, the operating system, an application, an API, or the subject and the demographic group of the programmers. In other cases, there is no restriction on the type of software being created.
+===
+
+CSS Frameworks
+CSS frameworks are pre-prepared software frameworks that are meant to allow for easier, more standards compliant web design using the Cascading Style Sheets ([CSS]) language. Most of these frameworks contain at least a grid. More functional frameworks also come with more features and additional [JavaScript] based functions, but are mostly design oriented and unobtrusive. This differentiates these from functional and full JavaScript frameworks.
+
+Some notable and widely used examples are [Bootstrap] and [Foundation].
+
+CSS frameworks offer different modules and tools:
+
+- Reset-Stylesheet
+- Grid especially for responsive web design
+- Web typography
+- Set of icons in sprites or iconfonts
+- Styling for tooltips, buttons, elements of forms
+- Parts of graphical user interfaces like Accordion, tabs, slideshow or Modal windows (Lightbox)
+- Equalizer to create equal height content
+===
+
+Foundation Framework
+Foundation is a responsive front-end framework. Foundation provides a responsive grid and [HTML] and [CSS] UI components, templates, and code snippets, including typography, forms, buttons, navigation and other interface components, as well as optional [JavaScript] extensions. Foundation is maintained by zurb.com and is an open source project.
+
+Foundation emerged as a ZURB project to develop front-end code faster and better. In October 2011, ZURB released Foundation 2.0 as open-source under the [MIT License]. In June 2012 ZURB released a major update, Foundation 3.0. In February 2013 ZURB released another major update, Foundation 4.0. In November 2013 ZURB released another major update, Foundation 5.0. The team is working on the next version of Foundation for Sites which should be released in Spring 2015.
+
+Foundation for Email was released in September 2013
+
+Foundation for Apps was released in December 2014
+
+Foundation was designed for and tested on numerous browsers and devices. It is a [mobile first] responsive framework built with [Sass] / SCSS giving designers best practices for rapid development. The framework includes most common patterns needed to rapidly prototype a responsive site. Through the use of Sass mixins, Foundation components are easily styled and simple to extend.
+
+Since version 2.0 it also supports [responsive design]. This means the graphic design of web pages adjusts dynamically, taking into account the characteristics of the device used (PC, tablet, mobile phone). Additionally, since 4.0 it has taken a mobile first approach, designing and developing for mobile devices first, and enhancing the web pages and applications for larger screens.
+
+Foundation is open source and available on [Github]. Developers are encouraged to participate in the project and make their own contributions to the platform.
+===
+
 Voodoo Graphics
 languages/java/grals
 languages/java/play
