@@ -1,10 +1,3 @@
-books/implementing-lean-software-development-from-concept-to-cash
-books/leading-lean-software-development-results-are-not-the-point
-books/lean-software-development-an-agile-toolkit
-books/the-art-of-computer-programming
-books/the-lean-mindset-ask-the-right-questions
-books/the-mythical-man-month
-languages/php/Joonla!
 software-development/activex
 software-development/component-object-model
 software-development/coroutines
