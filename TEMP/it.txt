@@ -1,5 +1,0 @@
-software-development/activex
-software-development/component-object-model
-software-development/coroutines
-software-development/crc-cards
-software-development/directx
