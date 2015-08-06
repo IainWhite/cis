@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('iPhone 6 / iPhone 6 Plus'); ?>
+        <p>The <strong>iPhone 6</strong> and iPhone 6 Plus are smartphones designed and marketed by <?php echo $this->stencil->addLink('Apple Inc', 'C'); ?>. The devices are part of the <?php echo $this->stencil->addLink('iPhone', 'ITH'); ?> series and were unveiled on 9 September 2014 and released on 19 September 2014. The iPhone 6 and iPhone 6 Plus jointly serve as successors to the <?php echo $this->stencil->addLink('iPhone 5C', 'ITH'); ?> and <?php echo $this->stencil->addLink('iPhone 5S', 'ITH'); ?>. The iPhone 6 and iPhone 6 Plus include a number of changes over its predecessor, including models with larger 4.7 and 5.5 inches (120 and 140 mm) displays, a faster processor, upgraded cameras, improved LTE and Wi-Fi connectivity, and support for a near-field communications-based mobile payments offering.</p>
+        <p>Pre-orders of the iPhone 6 and iPhone 6 Plus exceeded four million within its first 24 hours of availability an Apple record. More than ten million iPhone 6 and iPhone 6 Plus devices were sold in the first three days, another Apple record.</p>
+    </div>
+</div>

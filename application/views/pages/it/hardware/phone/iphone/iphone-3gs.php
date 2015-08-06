@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('iPhone 3GS'); ?>
+        <p>The <strong>iPhone 3GS</strong> is a smartphone that was designed and marketed by <?php echo $this->stencil->addLink('Apple Inc', 'C'); ?>. It is the third generation <?php echo $this->stencil->addLink('iPhone', 'ITH'); ?>, successor to the <?php echo $this->stencil->addLink('iPhone 3G', 'ITH'); ?>. It was introduced on 8 June 2009, at the <?php echo $this->stencil->addLink('WWDC', 'IT'); ?> 2009 which took place at the Moscone Center, San Francisco.</p>
+        <p>This iPhone is named "3GS" where "S" stood for Speed (Phil Schiller had mentioned it in the launch keynote). Improvements include performance, a 3-megapixel camera with higher resolution and video ability, voice control, and support for 7.2 Mbit/s HSDPA downloading (but remains limited to 384 kbps uploading as Apple had not implemented the HSUPA protocol). It was released in the U.S., Canada and six European countries on 8 June 2009, in Australia and Japan on 27 June and internationally in July and August 2009.</p>
+        <p>The iPhone 3GS runs Apple's <?php echo $this->stencil->addLink('iOS', 'OS'); ?> operating system. It is controlled mostly by a user's fingertips on a multi-touch display. It was succeeded as Apple's flagship smartphone in 2010 by the <?php echo $this->stencil->addLink('iPhone 4', 'ITH'); ?>; however, the 3GS continued in production until September 2012 when the <?php echo $this->stencil->addLink('iPhone 5', 'ITH'); ?> was announced.</p>
+    </div>
+</div>
