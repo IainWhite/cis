@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('ATI'); ?>
+        <p><strong>ATI Technologies Inc</strong> (commonly referred to as <strong>ATI</strong>) was a semiconductor technology corporation based in Markham, Ontario, Canada, that specialised in the development of graphics processing units and chipsets. Founded in 1985 as Array Technology Inc, the company listed publicly in 1993. <strong>Advanced Micro Devices (<?php echo $this->stencil->addLink('Acorn Electron', 'ADM'); ?>)</strong> acquired ATI in 2006. As a major fabrication less or fabless semiconductor company, ATI conducted research and development in-house and outsourced the manufacturing and assembly of its products. With the decline and eventual bankruptcy of 3dfx in 2000, ATI and its chief rival <?php echo $this->stencil->addLink('Nvidia', 'C'); ?> emerged as the two dominant players in the graphics processors industry, eventually forcing other manufacturers into niche roles.</p>
+        <p>The acquisition of ATI in 2006 was important to AMD's strategic development of its Fusion generation of computer processors, which integrated general processing abilities with graphics processing functions within a single chip. Since 2010 AMD's graphics processor products have ceased using the ATI brand name.</p>
+    </div>
+</div>

@@ -575,12 +575,6 @@ Several versions of HDMI have been developed and deployed since initial release 
 Production of consumer HDMI products started in late 2003. In Europe either DVI-HDCP or HDMI is included in the HD ready in-store labeling specification for TV sets for HDTV, formulated by EICTA with SES Astra in 2005. HDMI began to appear on consumer HDTV camcorders and digital still cameras in 2006. As of 8 January 2013 (ten years after the release of the first HDMI specification), over 3 billion HDMI devices have been sold.
 ===
 
-ATI
-ATI Technologies Inc (commonly referred to as ATI) was a semiconductor technology corporation based in Markham, Ontario, Canada, that specialised in the development of graphics processing units and chipsets. Founded in 1985 as Array Technology Inc, the company listed publicly in 1993. Advanced Micro Devices ([AMD]) acquired ATI in 2006. As a major fabrication less or fabless semiconductor company, ATI conducted research and development in-house and outsourced the manufacturing and assembly of its products. With the decline and eventual bankruptcy of 3dfx in 2000, ATI and its chief rival Nvidia emerged as the two dominant players in the graphics processors industry, eventually forcing other manufacturers into niche roles.
-
-The acquisition of ATI in 2006 was important to AMD's strategic development of its Fusion generation of computer processors, which integrated general processing abilities with graphics processing functions within a single chip. Since 2010 AMD's graphics processor products have ceased using the ATI brand name.
-===
-
 DisplayPort
 DisplayPort is a digital display interface developed by the Video Electronics Standards Association ([VESA]). The interface is primarily used to connect a video source to a display device such as a computer monitor, though it can also be used to carry audio, [USB], and other forms of data.
 
@@ -593,14 +587,6 @@ DisplayPort can be used to transmit audio and video simultaneously, but each one
 The DisplayPort LVDS signal protocol is not compatible with DVI or HDMI. However, Dual-mode DisplayPorts are designed to transmit a single-link DVI or HDMI 1.2/1.4 TMDS protocol across the interface through the use of an external passive adapter that selects the desired signal and converts it from 3.3 volts to 5 volts. Analog VGA and dual-link DVI require powered active adapters to convert the protocol and signal levels and do not rely on Dual-Mode. VGA adapters are powered by the DisplayPort connector, while dual-link DVI adapters may rely on an external power source (see Dual-mode).
 
 The DisplayPort connector can have one, two, or four differential data pairs (lanes) in a Main Link, each with a raw bit rate of 1.62, 2.7, 5.4, or 8.1 Gbit/s per lane with self-clock running at 162, 270, 540, or 810 MHz. The effective data rates after decoding are 1.296, 2.16, 4.32, or 6.48 Gbit/s per lane (or 80% of the total), since data is 8b/10b encoded so each eight bits of information are encoded with a ten-bit symbol.
-===
-
-VESA
-VESA or the Video Electronics Standards Association, is an international non-profit corporation standards body for computer graphics formed in 1988 by NEC Home Electronics, maker of the MultiSync monitor line, and eight video display adapter manufacturers: [ATI Technologies], Genoa Systems, Orchid Technology, Renaissance GRX, STB Systems, Tecmar, Video 7 and Western Digital/Paradise Systems.
-
-VESA's initial goal was to produce a standard for 800x600 [SVGA] resolution video displays. Since then VESA has issued a number of standards, mostly relating to the function of video peripherals in personal computers.
-
-In November 2010, VESA announced a cooperative agreement with the Wireless Gigabit Alliance (WiGig) for sharing technology expertise and specifications to develop multi-gigabit wireless DisplayPort capabilities. DisplayPort is a VESA technology that provides digital display connectivity for Monitor mount.
 ===
 
 Thunderbolt
@@ -631,56 +617,6 @@ It was announced by [Apple] in October 2008. As of 2013, all new [Apple Macintos
 Unlike its Mini-DVI and Micro-DVI predecessors, the Mini DisplayPort can drive display devices with resolutions up to 2560×1600 (WQXGA) in its DisplayPort 1.1a implementation, and 4096x2160 (4K) in its DisplayPort 1.2 implementation. With an adapter, the Mini DisplayPort can drive display devices with [VGA], [DVI], or [HDMI] interfaces.
 
 Apple offers a free license for the Mini DisplayPort but they reserve the right to cancel the license should the licensee "commence an action for patent infringement against Apple".
-===
-
-iTunes Store
-The iTunes Store, originally the iTunes Music Store, is a software based online digital media store operated by [Apple Inc]. It opened on 28 April 2003, and has been the largest music vendor in the United States since April 2008, and the largest music vendor in the world since February 2010. It offers over 37 million songs, 700,000 apps, 190,000 TV episodes and 45,000 films as of 12 September 2012. The iTunes Store's revenues in the first quarter of 2011 totalled nearly US$1.4 billion, by 6 February 2013, the store had sold 25 billion songs worldwide.
-
-While most downloaded files initially included usage restrictions enforced by [FairPlay], Apple's implementation of digital rights management ([DRM]), iTunes later initiated a shift into selling DRM free music in most countries, marketed as iTunes Plus. On 6 January 2009, Apple announced that DRM had been removed from 80% of its music catalog in the US. Full iTunes Plus availability was achieved in the US on 7 April 2009, coinciding with the introduction of a three-tiered pricing model; however, television episodes, many books, and films are still FairPlay protected. As of June 2013, the iTunes Store possesses 575 million active user accounts, and serves over 315 million mobile devices, including [Apple Watches], [iPods], [iPhones], [Apple TV] and [iPads].
-===
-
-DRM - Digital Rights Management
-Digital Rights Management (DRM) is a class of copy protection technologies that are used by hardware and software manufacturers, publishers, copyright holders, and individuals with the intent to control the use of digital content and devices after sale; there are, however, many competing definitions. With first-generation DRM software, the intent is to control copying; with second-generation DRM, the intent is to control executing, viewing, copying, printing, and altering of works or devices. The term is also sometimes referred to as copy protection, copy prevention, and copy control, although the correctness of doing so is disputed. DRM is a set of access control technologies. In 1998, the [Digital Millennium Copyright Act] (DMCA) was passed in the United States to impose criminal penalties on those who make available technologies whose primary purpose and function are to circumvent content protection technologies.
-
-The use of digital rights management is not universally accepted. Some content providers claim that DRM is necessary to fight copyright infringement and that it can help the copyright holder maintain artistic control or ensure continued revenue streams. Proponents argue that digital locks should be considered necessary to prevent "intellectual property" from being copied freely, just as physical locks are needed to prevent personal property from being stolen. Those opposed to DRM contend there is no evidence that DRM helps prevent copyright infringement, arguing instead that it serves only to inconvenience legitimate customers, and that DRM helps big business stifle innovation and competition. Furthermore, works can become permanently inaccessible if the DRM scheme changes or if the service is discontinued.
-
-Digital locks placed in accordance with DRM policies can also restrict users from exercising their legal rights under copyright law, such as backing up copies of CDs or DVDs, lending materials out through a library, accessing works in the public domain, or using copyrighted materials for research and education under the US fair use laws, and under French law. The [Electronic Frontier Foundation] (EFF) and the [Free Software Foundation] (FSF) consider the use of DRM systems to be anti-competitive practice.
-===
-
-Digital Millennium Copyright Act (DMCA)
-The Digital Millennium Copyright Act (DMCA) is a United States copyright law that implements two 1996 treaties of the [World Intellectual Property Organisation] (WIPO). It criminalizes production and dissemination of technology, devices, or services intended to circumvent measures (commonly known as digital rights management or [DRM]) that control access to copyrighted works. It also criminalizes the act of circumventing an access control, whether or not there is actual infringement of copyright itself. In addition, the DMCA heightens the penalties for copyright infringement on the Internet. Passed on 12 October 1998, by a unanimous vote in the United States Senate and signed into law by President Bill Clinton on 28 October 1998, the DMCA amended Title 17 of the United States Code to extend the reach of copyright, while limiting the liability of the providers of online services for copyright infringement by their users.
-
-The DMCA's principal innovation in the field of copyright is the exemption from direct and indirect liability of Internet service providers and other intermediaries. This exemption was adopted by the European Union in the Electronic Commerce Directive 2000. The Copyright Directive 2001 implemented the 1996 WIPO Copyright Treaty in the EU.
-===
-
-World Intellectual Property Organisation (WIPO)
-The World Intellectual Property Organisation (WIPO) is one of the 17 specialised agencies of the United Nations.
-
-WIPO was created in 1967 "to encourage creative activity, to promote the protection of intellectual property throughout the world".
-
-WIPO currently has 188 member states, administers 26 international treaties, and is headquartered in Geneva, Switzerland. The current Director-General of WIPO is Francis Gurry, who took office on 1 October 2008. 186 of the UN Members as well as the Holy See and Niue are Members of WIPO. Non-members are the states of Marshall Islands, Federated States of Micronesia, Nauru, Palau, Solomon Islands, South Sudan and Timor-Leste.
-===
-
-Electronic Frontier Foundation (EFF) 
-The Electronic Frontier Foundation (EFF) is an international non-profit digital rights group based in the United States.
-
-EFF provides funds for legal defence in court, presents amicus curiae briefs, defends individuals and new technologies from what it considers baseless or misdirected legal threats, works to expose government malfeasance, provides guidance to the government and courts, organizes political action and mass mailings, supports some new technologies which it believes preserve personal freedoms, maintains a database and web sites of related news and information, monitors and challenges potential legislation that it believes would infringe on personal liberties and fair use, and solicits a list of what it considers patent abuses with intentions to defeat those that it considers without merit.
-===
-
-FairPlay
-FairPlay is a digital rights management ([DRM]) technology created by [Apple Inc], based on technology created by the company Veridisc. FairPlay is built into the [QuickTime] multimedia software and used by the [iPhone], [iPod], [iPad], [Apple TV], and [iTunes Store] and the [App Store]. Formerly, all songs in the iTunes Store were encoded with FairPlay. Apple later started offering a selection of songs that, after an additional 30 cents is paid per song, could be downloaded FairPlay free. Apple no longer sells individual songs or albums with FairPlay encryption from the iTunes store. However, apps downloaded from the iTunes store and Apple Music subscription songs saved for offline listening are still encrypted with FairPlay. FairPlay digitally encrypts AAC audio files and prevents users from playing these files on unauthorised computers.
-
-The majority of FairPlay encrypted content is purchased through the iTunes Store, using the iTunes software. The iTunes software relies on Apple's Quicktime multimedia software for decoding and playback of the encrypted files. Every media player capable of using QuickTime is capable of playing back FairPlay encrypted files, including [RealPlayer], JRiver Media Center, Media Player Classic and Songbird.
-===
-
-Toshiba
-Toshiba Corporation is a Japanese multinational conglomerate corporation headquartered in Tokyo, Japan. Its diversified products and services include information technology and communications equipment and systems, electronic components and materials, power systems, industrial and social infrastructure systems, consumer electronics, household appliances, medical equipment, office equipment, lighting and logistics.
-
-Toshiba was founded in 1938 as Tokyo Shibaura Electric K.K. through the merger of Shibaura Seisaku-sho (founded in 1875) and Tokyo Denki (founded in 1890). The company name was officially changed to Toshiba Corporation in 1978. Toshiba has made numerous corporate acquisitions during its history, including of Semp in 1977, of Westinghouse Electric LLC, a nuclear energy company in 2006, of Landis+Gyr in 2011, and of [IBM]'s point-of-sale business in 2012.
-
-Toshiba is organised into four business groupings: the Digital Products Group, the Electronic Devices Group, the Home Appliances Group and the Social Infrastructure Group. In 2010, Toshiba was the world's fifth-largest personal computer vendor measured by revenues (after [Hewlett-Packard], [Dell], [Acer] and [Lenovo]). In the same year, it was also the world's fourth-largest manufacturer of semiconductors by revenues (after [Intel Corporation], [Samsung Electronics] and [Texas Instruments]).
-
-Toshiba is listed on the Tokyo Stock Exchange, where it is a constituent of the Nikkei 225 and TOPIX indices, the Osaka Securities Exchange and the Nagoya Stock Exchange.
 ===
 
 Lenovo
@@ -1397,14 +1333,6 @@ The design of a Von Neumann architecture is simpler than the more modern [Harvar
 A stored program digital computer is one that keeps its program instructions, as well as its data, in read-write, random-access memory (RAM). Stored program computers were an advancement over the program controlled computers of the 1940s, such as the [Colossus] and the ENIAC, which were programmed by setting switches and inserting patch leads to route data and to control signals between various functional units. In the vast majority of modern computers, the same memory is used for both data and program instructions, and the Von Neumann vs. Harvard distinction applies to the cache architecture, not the main memory.
 ===
 
-John von Neumann
-John von Neumann (28 December 1903 - 8 February 1957) was a Jewish born Hungarian and later American pure and applied mathematician, physicist, inventor, polymath, and polyglot. He made major contributions to a number of fields, including mathematics (foundations of mathematics, functional analysis, ergodic theory, geometry, topology, and numerical analysis), physics (quantum mechanics, hydrodynamics, and fluid dynamics), economics (game theory), computing ([Von Neumann architecture], linear programming, self replicating machines, stochastic computing), and statistics. He was a pioneer of the application of operator theory to quantum mechanics, in the development of functional analysis, a principal member of the Manhattan Project and the Institute for Advanced Study in Princeton (as one of the few originally appointed), and a key figure in the development of game theory and the concepts of cellular automata, the universal constructor, and the digital computer.
-
-Von Neumann's mathematical analysis of the structure of self replication preceded the discovery of the structure of DNA. In a short list of facts about his life he submitted to the National Academy of Sciences, he stated "The part of my work I consider most essential is that on quantum mechanics, which developed in Göttingen in 1926, and subsequently in Berlin in 1927 - 1929. Also, my work on various forms of operator theory, Berlin 1930 and Princeton 1935 – 1939; on the ergodic theorem, Princeton, 1931 – 1932". Along with theoretical physicist Edward Teller and mathematician Stanislaw Ulam, von Neumann worked out key steps in the nuclear physics involved in thermonuclear reactions and the hydrogen bomb.
-
-Von Neumann wrote 150 published papers in his life; 60 in pure mathematics, 20 in physics, and 60 in applied mathematics. His last work, an unfinished manuscript written while in the hospital and later published in book form as The Computer and the Brain, gives an indication of the direction of his interests at the time of his death.
-===
-
 Von Neumann Bottleneck
 The shared bus between the program memory and data memory leads to the Von Neumann bottleneck, the limited throughput (data transfer rate) between the CPU and memory compared to the amount of memory. Because program memory and data memory cannot be accessed at the same time, throughput is much smaller than the rate at which the CPU can work. This seriously limits the effective processing speed when the CPU is required to perform minimal processing on large amounts of data. The CPU is continually forced to wait for needed data to be transferred to or from memory. Since CPU speed and memory size have increased much faster than the throughput between them, the bottleneck has become more of a problem, a problem whose severity increases with every newer generation of CPU.
 
@@ -1489,7 +1417,7 @@ Cray
 Cray Inc is an American supercomputer manufacturer headquartered in Seattle, Washington. The company's predecessor, Cray Research Inc (CRI), was founded in 1972 by computer designer Seymour Cray. Seymour Cray went on to form the spin-off Cray Computer Corporation (CCC), in 1989, which went bankrupt in 1995, while Cray Research was bought by SGI the next year. Cray Inc was formed in 2000 when Tera Computer Company purchased the Cray Research Inc business from SGI and adopted the name of its acquisition.
 ===
 
-eb Hypertext Application Technology Working Group (WHATWG)
+Web Hypertext Application Technology Working Group (WHATWG)
 The Web Hypertext Application Technology Working Group (WHATWG) is a community of people interested in evolving [HTML] and related technologies. The WHATWG was founded by individuals from [Apple], the [Mozilla Foundation] and [Opera Software] in 2004. Since then, the editor of the WHATWG specifications, Ian Hickson, has moved to [Google]. Chris Wilson of [Microsoft] was invited but did not join, citing the lack of a patent policy to ensure all specifications can be implemented on a royalty free basis.
 
 The WHATWG has a small, invitation only oversight committee called "Members", which has the power to impeach the editor of the specifications. Anyone can participate as a Contributor by joining the WHATWG mailing list.
@@ -2171,16 +2099,6 @@ Cyrix
 Cyrix Corporation was a microprocessor developer that was founded in 1988 in Richardson, Texas as a specialist supplier of high performance math coprocessors for [286] and [386] microprocessors. The company was founded by Tom Brightman and Jerry Rogers. Cyrix founder, President and CEO Jerry Rogers aggressively recruited engineers and pushed them, eventually assembling a small but efficient design team of 30 people.
 
 Cyrix merged with [National Semiconductor] on 11 November 1997.
-===
-
-Lenovo
-Lenovo Group Ltd is a Chinese multinational computer technology company with headquarters in Beijing, China, and Morrisville, North Carolina, United States. It designs, develops, manufactures and sells personal computers, tablet computers, smartphones, workstations, servers, electronic storage devices, IT management software and smart televisions. In 2014, Lenovo was the world's largest personal computer vendor by unit sales. It markets the ThinkPad line of notebook computers and the ThinkCentre line of desktops.
-
-Lenovo has operations in more than 60 countries and sells its products in around 160 countries. Lenovo's principal facilities are in Beijing, Morrisville and Singapore, with research centers in those locations, as well as Shanghai, Shenzhen, Xiamen, and Chengdu in China, and Yamato in Kanagawa Prefecture, Japan. It operates a joint venture with EMC, LenovoEMC, which sells network attached storage solutions. It also has a joint venture with NEC, Lenovo NEC Holdings, which produces personal computers for the Japanese market.
-
-Lenovo was founded in Beijing in 1984 as Legend and was incorporated in Hong Kong in 1988. Lenovo acquired [IBM]'s personal computer business in 2005 and agreed to acquire its [Intel] based server business in 2014. Lenovo entered the smartphone market in 2012 and as of 2014 is the largest vendor of smartphones in Mainland China. In January 2014, Lenovo agreed to acquire the mobile phone handset maker Motorola Mobility from [Google], and in October 2014 the deal was finalised.
-
-Lenovo is listed on the Hong Kong Stock Exchange and is a constituent of the Hang Seng China Affiliated Corporations Index, often referred to as "Red Chips."
 ===
 
 SRAM - Static Random Access Memory 
