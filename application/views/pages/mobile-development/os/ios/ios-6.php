@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('iOS 6'); ?>
+        <p><strong>iOS 6</strong> was announced and previewed on 11 June 2012 during Apple Worldwide Developers Conference (<?php echo $this->stencil->addLink('WWDC', 'IT'); ?>) 2012, and its release was stated as Fall 2012. Following the pattern of previous <?php echo $this->stencil->addLink('iOS', 'OS'); ?> releases, some older devices were no longer supported, specifically the <?php echo $this->stencil->addLink('iPod Touch', 'ITH'); ?> (3rd generation), and the <?php echo $this->stencil->addLink('iPad', 'ITH'); ?> (1st generation). Supported devices include the <?php echo $this->stencil->addLink('iPhone 3GS', 'ITH'); ?> and later; the iPod Touch (4th generation) and later; and the <?php echo $this->stencil->addLink('iPad 2', 'ITH'); ?> and later. iOS 6 has limited support on the iPhone 3GS, iPad 2, and iPod Touch (4th generation).</p>
+        <p>On 12 September 2012 at San Francisco's Yerba Buena Center for the Arts, among other items unveiled, Apple announced three iOS related items: the next generation <?php echo $this->stencil->addLink('iPhone 5', 'ITH'); ?>, the redesigned iPod Touch (5th generation), and the announcement of the release of iOS 6.0 the following week.</p>
+        <p>iOS 6 was released to the public on 19 September 2012, through <?php echo $this->stencil->addLink('iTunes', 'IT'); ?> and over-the-air updates.</p>
+        <p>iOS 6.1.6 is the final release supported for the <?php echo $this->stencil->addLink('iPhone 3GS', 'ITH'); ?> and iPod Touch (4th generation).</p>
+    </div>
+</div>

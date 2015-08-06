@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('iOS 4'); ?>
+        <p><strong>iOS 4</strong> (formerly <strong>iPhone OS</strong>) was made available to the public for the <?php echo $this->stencil->addLink('iPhone', 'ITH'); ?> and <?php echo $this->stencil->addLink('iPod Touch', 'ITH'); ?> on 21 June 2010. This is the first major <?php echo $this->stencil->addLink('iOS', 'OS'); ?> release to drop support for some devices (original <?php echo $this->stencil->addLink('iPhone', 'ITH'); ?> and <?php echo $this->stencil->addLink('iPod Touch', 'ITH'); ?>) and that iPod Touch users do not have to pay for.</p>
+        <p></p>The <?php echo $this->stencil->addLink('iPhone 3G', 'ITH'); ?> and iPod Touch (2nd generation) have limited features, including lack of multitasking capabilities and the ability to set a home screen wallpaper, while the <?php echo $this->stencil->addLink('iPhone 4', 'ITH'); ?>, <?php echo $this->stencil->addLink('iPhone 3GS', 'ITH'); ?>, iPod Touch (3rd &amp; 4th generation) have all features enabled, such as multitasking. The iPhone and iPod Touch (1st generation) cannot run iOS 4.0 and above.</p>
+        <p></p>iOS 4.2.1, released 22 November 2010, added <?php echo $this->stencil->addLink('iPad', 'ITH'); ?> compatibility. It was the initial release on the <?php echo $this->stencil->addLink('iPad 2', 'ITH'); ?>. It also was the last version to support iPhone 3G and iPod Touch (2nd generation). iOS 4.2.1 replaced iOS 4.2 due to a <?php echo $this->stencil->addLink('Wi-Fi', 'ITN'); ?> bug in iOS 4.2 beta 3, causing <?php echo $this->stencil->addLink('Apple', 'C'); ?> to release 2 golden masters (4.2 GM and 4.2.1 GM).</p>
+    </div>
+</div>

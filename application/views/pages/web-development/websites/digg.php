@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Digg'); ?>
+        <p><strong>Digg</strong> is a news aggregator with a curated front page, aiming to select stories specifically for the Internet audience such as science, trending political issues, and viral Internet issues. It was launched in its current form on 31 July 2012, with support for sharing content to other social platforms such as <?php echo $this->stencil->addLink('Twitter', 'URL'); ?> and <?php echo $this->stencil->addLink('Facebook', 'URL'); ?>.</p>
+        <p>It formerly had been a very popular social news website, allowing people to vote web content up or down, called digging and burying, respectively. Quantcast had estimated Digg's monthly U.S. unique visits at 3.8 million. Digg's popularity prompted the creation of similar social networking sites with story submission and voting systems such as <?php echo $this->stencil->addLink('Reddit', 'URL'); ?>.</p>
+        <p>In July 2008, the former company took part in advanced acquisition talks with <?php echo $this->stencil->addLink('Google', 'C'); ?> for a reported $200 million price tag, but the deal ultimately fell through. After a controversial 2010 redesign and the departure of co-founders Jay Adelson and Kevin Rose, in July 2012 Digg was sold in three parts: the Digg brand, website and technology were sold to the current owner, Betaworks, for an estimated $500,000; 15 staff were transferred to the Washington Post‍'​s "SocialCode" for a reported $12 million; and a suite of patents were sold to <?php echo $this->stencil->addLink('LinkedIn', 'URL'); ?> for about $4 million.</p>
+        <p>According to third-party web analytics provider SimilarWeb, the DailyTech.com site has over 14 million visits per month, as of 2015, and is ranked #387 among News and Media sites.</p>
+    </div>
+</div>

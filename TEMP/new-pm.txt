@@ -619,16 +619,6 @@ Unlike its Mini-DVI and Micro-DVI predecessors, the Mini DisplayPort can drive d
 Apple offers a free license for the Mini DisplayPort but they reserve the right to cancel the license should the licensee "commence an action for patent infringement against Apple".
 ===
 
-Lenovo
-Lenovo Group Ltd is a Chinese multinational computer technology company with headquarters in Beijing, China, and Morrisville, North Carolina, United States. It designs, develops, manufactures and sells personal computers, tablet computers, smartphones, workstations, servers, electronic storage devices, IT management software and smart televisions. In 2014, Lenovo was the world's largest personal computer vendor by unit sales. It markets the ThinkPad line of notebook computers and the ThinkCentre line of desktops.
-
-Lenovo has operations in more than 60 countries and sells its products in around 160 countries. Lenovo's principal facilities are in Beijing, Morrisville and Singapore, with research centers in those locations, as well as Shanghai, Shenzhen, Xiamen, and Chengdu in China, and Yamato in Kanagawa Prefecture, Japan. It operates a joint venture with EMC, LenovoEMC, which sells network-attached storage solutions. It also has a joint venture with NEC, Lenovo NEC Holdings, which produces personal computers for the Japanese market.
-
-Lenovo was founded in Beijing in 1984 as Legend and was incorporated in Hong Kong in 1988. Lenovo acquired [IBM]'s personal computer business in 2005 and agreed to acquire its [Intel] based server business in 2014. Lenovo entered the smartphone market in 2012 and as of 2014 is the largest vendor of smartphones in Mainland China. In January 2014, Lenovo agreed to acquire the mobile phone handset maker Motorola Mobility from [Google], and in October 2014 the deal was finalised.
-
-Lenovo is listed on the Hong Kong Stock Exchange and is a constituent of the Hang Seng China Affiliated Corporations Index, often referred to as "Red Chips".
-===
-
 LED - Light Emitting Diode 
 A Light Emitting Diode (LED) is a two-lead semiconductor light source. It is a p–n junction diode, which emits light when activated. When a suitable voltage is applied to the leads, electrons are able to recombine with electron holes within the device, releasing energy in the form of photons. This effect is called electroluminescence, and the colour of the light (corresponding to the energy of the photon) is determined by the energy band gap of the semiconductor.
 
@@ -639,12 +629,6 @@ Appearing as practical electronic components in 1962, the earliest LEDs emitted 
 Early LEDs were often used as indicator lamps for electronic devices, replacing small incandescent bulbs. They were soon packaged into numeric readouts in the form of seven-segment displays, and were commonly seen in digital clocks.
 
 Recent developments in LEDs permit them to be used in environmental and task lighting. LEDs have many advantages over incandescent light sources including lower energy consumption, longer lifetime, improved physical robustness, smaller size, and faster switching. Light Emitting Diodes are now used in applications as diverse as aviation lighting, automotive headlamps, advertising, general lighting, traffic signals, camera flashes and even LED wallpaper. However, LEDs powerful enough for room lighting are still relatively expensive, and require more precise current and heat management than compact fluorescent lamp sources of comparable output.
-===
-
-Plug and Play 
-In computing, a plug and play device or computer bus, is one with a specification that facilitates the discovery of a hardware component in a system without the need for physical device configuration or user intervention in resolving resource conflicts.
-
-Plug and play devices can be due to boot time assignment of device resources and to hot plug systems such as [USB] and IEEE 1394 ([FireWire]).
 ===
 
 PC Card / PCMCIA Card
@@ -812,16 +796,6 @@ GNU GRUB (short for GNU GRand Unified Bootloader) is a boot loader package from 
 GNU GRUB was developed from a package called the Grand Unified Bootloader (a play on Grand Unified Theory). It is predominantly used for [Unix-like] systems. The GNU operating system uses GNU GRUB as its boot loader, as do most [Linux distributions]. The [Solaris] operating system has used GRUB as its boot loader on [x86] systems, starting with the Solaris 10 1/06 release.
 ===
 
-Digg
-Digg is a news aggregator with a curated front page, aiming to select stories specifically for the Internet audience such as science, trending political issues, and viral Internet issues. It was launched in its current form on 31 July 2012, with support for sharing content to other social platforms such as [Twitter] and [Facebook].
-
-It formerly had been a very popular social news website, allowing people to vote web content up or down, called digging and burying, respectively. Quantcast had estimated Digg's monthly U.S. unique visits at 3.8 million. Digg's popularity prompted the creation of similar social networking sites with story submission and voting systems such as [Reddit].
-
-In July 2008, the former company took part in advanced acquisition talks with [Google] for a reported $200 million price tag, but the deal ultimately fell through. After a controversial 2010 redesign and the departure of co-founders Jay Adelson and Kevin Rose, in July 2012 Digg was sold in three parts: the Digg brand, website and technology were sold to the current owner, Betaworks, for an estimated $500,000; 15 staff were transferred to the Washington Post‍'​s "SocialCode" for a reported $12 million; and a suite of patents were sold to [LinkedIn] for about $4 million.
-
-According to third-party web analytics provider SimilarWeb, the DailyTech.com site has over 14 million visits per month, as of 2015, and is ranked #387 among News and Media sites.
-===
-
 ATI Rage
 The ATI Rage is a series of graphics chipsets offering GUI 2D acceleration, video acceleration, and 3D acceleration. It is the successor to the Mach series of 2D accelerators.
 ===
@@ -874,90 +848,6 @@ The US began the GPS project in 1973 to overcome the limitations of previous nav
 Advances in technology and new demands on the existing system have now led to efforts to modernize the GPS system and implement the next generation of GPS Block IIIA satellites and Next Generation Operational Control System (OCX). Announcements from Vice President Al Gore and the White House in 1998 initiated these changes. In 2000, the U.S. Congress authorised the modernisation effort, GPS III.
 
 In addition to GPS, other systems are in use or under development. The Russian Global Navigation Satellite System (GLONASS) was developed contemporaneously with GPS, but suffered from incomplete coverage of the globe until the mid 2000s. There are also the planned European Union Galileo positioning system, India's Indian Regional Navigation Satellite System, and the Chinese BeiDou Navigation Satellite System.
-===
-
-iPhone OS 1.x
-First iteration of [Apple]'s touch-centric mobile operating system. No official name given on its initial release; Apple marketing literature simply stating the [iPhone] runs a version of Apple's desktop operating system, [OS X]. On 6 March 2008, with the release of the iPhone software development kit (iPhone SDK), Apple named it iPhone OS (they went on to rename it "[iOS]" on 7 June 2010).
-
-iPhone OS 2.x
-iPhone OS 2.0, the second major release of [iOS], became available on 11 July 2008 with the release of the [iPhone 3G]. Devices running 1.x are upgradable to this version. This version of the [O/S] introduces the [App Store], making third-party applications available to the [iPhone] and [iPod Touch]. Prior to the public release of iPhone OS 2.0, Apple held a keynote event to announce the iPhone OS Software Development Kit ("SDK") to developers.
-
-iPhone OS 3.x
-iPhone OS 3.0 became available with the [iPhone 3GS]. It was released on 17 June 2009. This release added features such as copy and paste, and MMS. Not all features were available on the original [iPhone]. Devices running iPhone OS 2.x were upgradeable to this software. The final release supported on the original iPhone and [iPod touch] is iPhone OS 3.1.3. The [iPad] was introduced with iOS 3.2. iOS 3.2 was the first version to be called "[iOS]".
-
-iOS 4
-iOS 4 (formerly iPhone OS) was made available to the public for the [iPhone] and [iPod Touch] on 21 June 2010. This is the first major [iOS] release to drop support for some devices (original [iPhone] and [iPod Touch]) and that iPod Touch users do not have to pay for.
-
-The [iPhone 3G] and iPod Touch (2nd generation) have limited features, including lack of multitasking capabilities and the ability to set a home screen wallpaper, while the [iPhone 4], [iPhone 3GS], iPod Touch (3rd & 4th generation) have all features enabled, such as multitasking. The iPhone and iPod Touch (1st generation) cannot run iOS 4.0 and above.
-
-iOS 4.2.1, released 22 November 2010, added [iPad] compatibility. It was the initial release on the [iPad 2]. It also was the last version to support iPhone 3G and iPod Touch (2nd generation). iOS 4.2.1 replaced iOS 4.2 due to a [Wi-Fi] bug in iOS 4.2 beta 3, causing [Apple] to release 2 golden masters (4.2 GM and 4.2.1 GM).
-
-iOS 5
-iOS 5 was previewed to the public on 6 June 2011. It was released for [iPhone 3GS], [iPhone 4] (GSM and CDMA), [iPhone 4S], [iPod Touch] (3rd & 4th generation), [iPad], and [iPad 2] on 12 October 2011.
-
-iOS 5.1.1 is the final release supported for the iPad (1st generation) and iPod Touch (3rd generation).
-
-iOS 6
-iOS 6 was announced and previewed on 11 June 2012 during [Apple] Worldwide Developers Conference ([WWDC]) 2012, and its release was stated as Fall 2012. Following the pattern of previous [iOS] releases, some older devices were no longer supported, specifically the [iPod Touch] (3rd generation), and the [iPad] (1st generation). Supported devices include the [iPhone 3GS] and later; the iPod Touch (4th generation) and later; and the [iPad 2] and later. iOS 6 has limited support on the iPhone 3GS, iPad 2, and iPod Touch (4th generation).
-
-On 12 September 2012 at San Francisco's Yerba Buena Center for the Arts, among other items unveiled, Apple announced three iOS related items: the next generation [iPhone 5], the redesigned iPod Touch (5th generation), and the announcement of the release of iOS 6.0 the following week.
-
-iOS 6 was released to the public on 19 September 2012, through [iTunes] and over-the-air updates.
-
-iOS 6.1.6 is the final release supported for the [iPhone 3GS] and iPod Touch (4th generation).
-
-iOS 7
-[Apple] announced iOS 7 on 10 June 2013 at its annual Apple Worldwide Developers Conference ([WWDC]) event, with release announced for sometime in Fall (Northern Hemisphere) or Spring (Southern Hemisphere) 2013. At their [iPhone] event on 10 September 2013, Apple announced the full release of iOS 7 for 18 September  2013, while also unveiling two new iPhone models: the [iPhone 5C] and [iPhone 5S]. With this release, support was once again dropped for older devices, specifically the [iPhone 3GS] (due to hardware limitations) and the iPod Touch (4th generation) (due to performance issues). Supported devices on this release include the [iPhone 4] onwards, iPod Touch (5th generation), the [iPad 2] onwards, and the [iPad Mini] (1st generation) onwards. iOS 7.1.2 is the final release on the iPhone 4. But, Apple can detect an unauthorised install and deactivate the device.
-
-iOS 8
-[Apple] announced iOS 8 on 2 June 2014 at its annual Apple Worldwide Developers Conference ([WWDC]) event, with release announced for sometime in Fall (Northern Hemisphere) or Spring (Southern Hemisphere) 2014. At their [iPhone] event on 9 September 2014, Apple announced the full release of iOS 8 for 17 September 2014, while also unveiling the [iPhone 6] and [iPhone 6 Plus]. With this release, Apple resumed the cycle of dropping support for older devices, specifically the [iPhone 4]. Supported devices on this release include the [iPhone 4S] onwards, [iPod Touch] (5th generation), the [iPad 2] onwards, and the [iPad Mini] (1st generation) onwards. iOS 8 has limited support on the iPad 2, iPhone 4S, and the iPod Touch (5th generation). The current version of iOS is iOS 8.4. This release added support for the all new Apple Music streaming service.
-
-iOS 9
-[Apple] announced iOS 9 on 8 June 2015 at its annual Apple Worldwide Developers Conference ([WWDC]) event, with release announced for sometime in Fall (Northern Hemisphere) or Spring (Southern Hemisphere) 2015. With this release, Apple did not drop support for any iOS devices, with all devices supporting iOS 8 being eligible for an upgrade. Supported devices on this release include the [iPhone 4S] onwards, [iPod Touch] (5th generation) onwards, the [iPad 2] onwards, and the [iPad Mini] (1st generation) onwards. The iPad 2 is also the first iOS device to support 6 major releases of iOS, supporting iOS 4, 5, 6, 7, 8, and 9. This is the greatest amount of major iOS releases a single iOS device has supported, surpassing the iPhone 4S which supports 5 major releases (iOS 5, 6, 7, 8, and 9) and iPod Touch 5th Generation supports 4 major releases (iOS 6, 7, 8, and 9). However, iOS 9 has limited support for the iPad 2, iPhone 4S, the iPad Mini (1st Generation), and the iPod touch 5th Generation. iOS 9 is currently in the beta stage with the latest beta being iOS 9.0 beta 3. Apple released a public beta similar to OS X El Capitan to users willing to test the beta on 8 July 2015.
-===
-
-Android 1.0
-Android 1.0, the first commercial version of the software, was released on 23 September 2008. The first commercially available Android device was the [HTC] Dream. 
-
-Android 1.1
-On 9 February 2009, the Android 1.1 update was released, initially for the [HTC] Dream only. Android 1.1 was known as "Petit Four" internally, though this name was not used officially. The update resolved bugs, changed the Android API and added a number of features.
-
-Android 1.5 - Cupcake
-On 27 April 2009, the Android 1.5 update was released, based on [Linux kernel] 2.6.27. This was the first release to officially use a codename based on a dessert item ("Cupcake"), a theme which would be used for all releases henceforth. The update included several new features and UI amendments.
-
-Android 1.6 - Donut
-On 15 September 2009, the Android 1.6 SDK - dubbed Donut - was released, based on [Linux kernel] 2.6.29. Included in the update were numerous new features.
-
-Android 2.0 - Éclair 
-On 26 October 2009, the Android 2.0 SDK - codenamed Éclair - was released, based on [Linux kernel] 2.6.29. 
-
-Android 2.2 - Froyo
-On 20 May 2010, the SDK for Android 2.2 (Froyo, short for frozen yogurt) was released, based on [Linux kernel] 2.6.32.
-
-Android 2.3 - Gingerbread
-On 6 December 2010, the Android 2.3 (Gingerbread) SDK was released, based on [Linux kernel] 2.6.35. 
-
-Android 3.0 - Honeycomb
-On 22 February 2011, the Android 3.0 (Honeycomb) SDK - the first tablet only [Android] update - was released, based on [Linux kernel] 2.6.36. The first device featuring this version, the Motorola Xoom tablet, was released on 24 February 2011.
-Most first and second generation [Google TV] enabled devices utilize Honeycomb 3.2.
-
-Android 4.0.1 - Ice Cream Sandwich
-The SDK for Android 4.0.1 (Ice Cream Sandwich), based on [Linux kernel] 3.0.1, was publicly released on 19 October 2011. [Google]'s Gabe Cohen stated that Android 4.0 was "theoretically compatible" with any Android 2.3.x device in production at that time. The source code for Android 4.0 became available on 14 November 2011. Ice Cream Sandwich was the last version to officially support [Adobe Systems] [Flash player]. The update introduced numerous new features.
-
-Android 4.1 - Jelly Bean
-[Google] announced Android 4.1 (Jelly Bean) at the Google I/O conference on 27 June 2012. Based on [Linux kernel] 3.0.31, Jelly Bean was an incremental update with the primary aim of improving the functionality and performance of the user interface. The performance improvement involved "Project Butter", which uses touch anticipation, triple buffering, extended vsync timing and a fixed frame rate of 60fps to create a fluid and "buttery-smooth" UI. Android 4.1 Jelly Bean was released to the Android Open Source Project on 9 July 2012, and the Nexus 7 tablet, the first device to run Jelly Bean, was released on 13 July 2012.
-
-Google was expected to announce Jelly Bean 4.2 at an event in New York City on 29 October 2012, but the event was cancelled due to Hurricane Sandy. Instead of rescheduling the live event, Google announced the new version with a press release, under the slogan "A new flavour of Jelly Bean". Jelly Bean 4.2 was based on [Linux kernel] 3.4.0, and debuted on Google's Nexus 4 and Nexus 10, which were released on 13 November 2012.
-
-Google released Jelly Bean 4.3 under the slogan "An even sweeter Jelly Bean" on July 24, 2013, during an event in San Francisco called "Breakfast with Sundar Pichai". Most Nexus devices received the update within a week, although the second generation Nexus 7 tablet was the first device to officially ship with it. A minor bugfix update was released on 22 August 2013.
-
-Android 4.4 - KitKat
-[Google] announced Android 4.4 KitKat on 3 September 2013. Although initially under the "Key Lime Pie" ("KLP") codename, the name was changed because "very few people actually know the taste of a key lime pie". Some technology bloggers also expected the "Key Lime Pie" release to be Android 5. KitKat debuted on Google's Nexus 5 on 31 October 2013, and was optimised to run on a greater range of devices than earlier Android versions, having 512MB of RAM as a recommended minimum; those improvements were known as "Project Svelte" internally at Google. The required minimum amount of RAM available to Android is 340MB, and all devices with less than 512MB of RAM must report themselves as "low RAM" devices.
-
-Android 5.0 - Lollipop
-Android 5.0 "Lollipop" was unveiled under the codename "Android L" on 25 June 2014, during [Google] I/O. It became available as official over-the-air (OTA) updates on 12 November 2014, for select devices that run distributions of [Android] serviced by Google, including Nexus and [Google Play] edition devices. Its source code was made available on 3 November 2014.
-
-Lollipop features a redesigned user interface built around a responsive design language referred to as "material design". Other changes include improvements to the notifications, which can be accessed from the lockscreen and displayed within applications as top-of-the-screen banners. Furthermore, Google made internal changes to the platform, with the Android Runtime (ART) officially replacing Dalvik for improved application performance, and with changes intended to improve and optimize battery usage, known internally as Project Volta.
 ===
 
 Google Nexus
