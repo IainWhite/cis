@@ -850,12 +850,6 @@ Advances in technology and new demands on the existing system have now led to ef
 In addition to GPS, other systems are in use or under development. The Russian Global Navigation Satellite System (GLONASS) was developed contemporaneously with GPS, but suffered from incomplete coverage of the globe until the mid 2000s. There are also the planned European Union Galileo positioning system, India's Indian Regional Navigation Satellite System, and the Chinese BeiDou Navigation Satellite System.
 ===
 
-Google Nexus
-Google Nexus is a line of consumer electronic devices that run the [Android] operating system. Google manages the design, development, marketing, and support of these devices, but some development and all manufacturing are carried out by partnering original equipment manufacturers (OEMs). The product family consists mostly of mobile devices six smartphones and four tablet computers have been released to date. As of April 2015, the devices currently available in the line are the Nexus 6 smartphone (made with Motorola Mobility), Nexus 9 tablet (made with HTC), and Nexus Player digital media player (made with Asus).
-
-Devices in the Nexus line are considered Google's flagship Android products. They contain little to no manufacturer or wireless carrier modifications to Android (such as custom graphical user interfaces), although devices sold through carriers are sometimes SIM locked and may bear some extra branding. Nexus 6 devices sold through AT&amp;T, for example, are SIM locked and feature a custom boot splash screen and a logo on the back of the device, despite having otherwise identical hardware to the unlocked variant. The Verizon Galaxy Nexus featured a Verizon logo on the back and received software updates at a slower pace than the unlocked variant, though it featured different hardware to accommodate Verizon's CDMA network. All Nexus devices feature an unlock-able boot-loader to allow further development and end user modification. Nexus devices are often among the first Android devices to receive updates to the operating system.
-===
-
 iMac
 The iMac is a range of all-in-one [Macintosh] desktop computers designed and built by [Apple Inc]. It has been the primary part of Apple's consumer desktop offerings since its debut in August 1998 (shipped; introduced June 1998), and has evolved through six distinct forms.
 
@@ -997,81 +991,7 @@ There have been four separate designs of the MacBook. The original model used a 
 On 20 July 2011, the MacBook was quietly discontinued for consumer purchase as it had been effectively superseded by the MacBook Air whose starting price was lowered. Apple continued to sell the MacBook to educational institutions until February 2012.
 
 A new, redesigned MacBook line was launched on 9 March 2015. Available in silver, gold or space grey, it is thinner than the MacBook Air and removes the traditional MagSafe charging port (along with all other ports, except the headphone port) in favor of the multi-purpose USB Type-C port.
-
 ==
-iPad Mini
-iPad Miniis a line of mini tablet computers designed, developed, and marketed by [Apple Inc]. It is a sub-series of the [iPad] line of tablets, with a reduced screen size of 7.9 inches, in contrast to the standard 9.7 inches. The [first generation iPad Mini] was announced on 23 October 2012, and was released on 2 November 2012, in nearly all of Apple's markets. It features similar internal specifications to the [iPad 2], including its display resolution.
-
-The [second generation iPad Mini], with a faster processor and a [Retina Display], was announced on 22 October 2013 and released on 12 November 2013. The [third generation iPad Mini] was announced on 16 October 2014 and was released on 24 October 2014; it features the same hardware as the [Mini 2] and the addition of a Touch ID fingerprint sensor compatible with Apple Pay.
-===
-
-iPad Mini (1st generation)
-The first generation iPad Mini is a mini tablet computer designed, developed, and marketed by [Apple Inc]. It was announced on 23 October 2012, as the fifth major product in the [iPad] line and the first of the [iPad Mini] line, which features a reduced screen size of 7.9 inches, in contrast to the standard 9.7 inches. It features similar internal specifications to the [iPad 2], including its display resolution.
-
-The first generation iPad Mini received positive reviews, with reviewers praising the device's size, design, and availability of applications, while criticising its use of a proprietary power connector, its lack of expandable storage, and the lack of [Retina display].
-===
-
-iPad Mini 2
-The iPad Mini 2 is the second generation [iPad Mini] tablet computer produced and marketed by [Apple Inc]. It has a design almost identical to that of the [first generation iPad Mini] but features internal revisions such as the addition of the A7 system-on-a-chip and 2,048 x 1,536 resolution [Retina Display]. Internally, the iPad Mini 2 has nearly the same hardware as its sibling device, the [iPad Air]. Apple quietly released the iPad Mini 2 in Space Gray and Silver colours on 12 November 2013.
-
-Its successor, the [iPad Mini 3], was unveiled on 16 October  2014.
-===
-
-iPad Mini 3
-The iPad Mini 3 is the third generation [iPad Mini] tablet computer designed, developed and marketed by [Apple Inc]. It was announced alongside the [iPad Air 2] on 16 October 2014 and then released on 22 October. It uses primarily the same design and hardware as that of its predecessor, the [iPad Mini 2]. Its new features are the addition of the Touch ID sensor compatible with Apple Pay, differing storage sizes and being available in gold colour, as well as the previous colours.
-===
-
-First Generation iPad
-The first generation iPad is a tablet computer designed and marketed by [Apple Inc]. The device features an Apple A4 processor, a 9.7" touchscreen display and the capability of accessing Cellular networks, though the latter is only available on certain variants of the first generation iPad. Using the [iOS] operating system, the iPad can play music, send and receive email and browse the web. Other functions, which include the ability to play games and access references, GPS navigation software and social network services can be enabled by downloading apps.
-
-The device was announced and unveiled on 27 January 2010 at a media conference. On 4 April 2010, the [Wi-Fi] variant of the device was released in the United States, followed by the release of the Wi-Fi + Cellular variant on 30 April. On 28 May, it was released in Australia, Canada, France, Japan, Italy, Germany, Spain, Switzerland and the United Kingdom.
-
-The device received primarily positive reviews from various technology blogs and publications. Reviewers praised the device for its wide range of capabilities and labelled it as a competitor to laptops and netbooks. Some aspects were criticised, including the closed nature of the operating system and the lack of support for the [Adobe Flash] multimedia format. During the first 80 days, three million iPads were sold. By the launch of the [iPad 2], Apple sold more than 15 million iPads.
-
-On 2 March 2011, Apple announced the new iPad 2 and the discontinuation of production of the original iPad.
-===
-
-iPad 2
-The second generation of the iPad, the iPad 2, is a tablet computer designed, developed and marketed by [Apple Inc]. It serves as a platform for audio-visual media including books, news, movies, music, games, presentations and web content. The iPad 2 has a lithium-ion polymer battery that lasts up to 10 hours, a dual core Apple A5 processor and was the first iPad to feature VGA front-facing and 720p rear-facing cameras designed for FaceTime video calling.
-
-The device was available initially with three storage sizes, 16, 32 and 64 GB and two varying connectivity options, Wi-Fi only or Wi-Fi and cellular. Each variation of the device is available with either a black or white front glass panel. However, upon the release of the 3rd generation iPad, only the 16 GB variation with two connectivity options and two front glass panel options is available. The iPad 2 is the first [iOS] device to receive six major versions of iOS: these being iOS 4, 5, 6, 7, 8, and 9.
-
-Apple unveiled the device on 2 March 2011. Upon the announcement of the iPad 2, the original model of the iPad was discontinued. Sales of the iPad 2 online and at retail stores began in the United States on 11 March 11. it was then released in 25 other Oceanian, North American and Western European countries on 25 March and released in eleven Asian countries as well as one African country on 29 April. Subsequently on 6 and 27 May, the device was released in three South American, six Eastern European and three Asian countries.
-
-The device received mixed to positive reception from various blogs and publications. Although it was praised for its hardware improvement, such as the new Apple A5 chip, the software restriction on the iPad 2 and iOS in general drew criticism from various technology commentators. The device sold well in its first month of sales with 2.4–2.6 million units sold and 11.12 million units were sold in the third quarter of 2011.
-===
-
-iPad 3
-The third generation iPad (originally marketed as The new iPad, retrospectively marketed as the iPad 3) is a tablet computer, developed and marketed by [Apple Inc]. The third device in the [iPad] line of tablets, it added a [Retina display], the new Apple A5X chip with a quad-core graphics processor, a 5 megapixel camera, HD 1080p video recording, voice dictation, and support for LTE networks in North America. It shipped with [iOS 5.1], which also provides a platform for audio-visual media, including electronic books, periodicals, films, music, computer games, presentations and web content.
-
-In the US and Canada, nine variations of the third generation iPad were offered, compared to six in the rest of the world, although some countries had only the Wi-Fi only model. Each variation was available with black or white front glass panels, with options for 16, 32, or 64 GB of storage. In North America, connectivity options were Wi-Fi only, Wi-Fi + 4G (LTE) on Verizon, AT&amp;T, Telus, Rogers, or Bell. For the rest of the world outside North America, connectivity options are Wi-Fi only (on the Wi-Fi model) or Wi-Fi + 3G (on the Wi-Fi + Cellular model), with the latter unavailable in some countries, as 4G (LTE) connectivity for the device is not available outside North America. The Wi-Fi + Cellular model includes GPS capability.
-
-Initially, the cellular version was titled and marketed worldwide as the "Wi-Fi + 4G" model, but due to lack of 4G (LTE) connectivity outside of North America, Apple later rebranded and altered their marketing to call this the "Wi-Fi + Cellular" model.
-
-The tablet was released in ten countries on 16 March 2012. It gained mostly positive reviews, earning praise for its [Retina display], processor and 4G (LTE) capabilities. However, controversy arose when the LTE incompatibilities became known. Three million units were sold in the first three days.
-
-After only 221 days of official availability, the third generation iPad was discontinued on 23 October 2012, following the announcement of the [fourth generation] iPad.
-===
-
-iPad 4
-The fourth generation iPad (originally marketed as iPad with Retina display, retrospectively marketed as the iPad 4) is a tablet computer produced and marketed by [Apple Inc]. Compared to its predecessor, the fourth generation [iPad] maintained the [Retina Display] but featured new and upgraded components such as the Apple A6X chip, and the Lightning connector, which was introduced on 12 September 2012. It shipped with [iOS 6.0], which provides a platform for audio-visual media, including electronic books, periodicals, films, music, computer games, presentations and web content.
-
-It was announced at a media conference on 23 October 2012 as the fourth generation of the iPad line, succeeding the third generation iPad, and was first released on 2 November 2012 in thirty five countries. The device was released throughout December in ten other countries including China, India and Brazil. The third generation was discontinued following the fourth's announcement.
-
-The device is available with either a black or white front glass panel and various connectivity and storage options. Storage size options include 16GB, 32GB, 64GB, and 128GB; the available connectivity options are Wi-Fi only and Wi-Fi + Cellular with LTE capabilities.
-
-The fourth generation iPad received primarily positive reviews and was praised for its hardware improvements as well as the Retina display, which was also featured in the device's predecessor. Furthermore, benchmarks reveal that the fourth generation iPad is able to perform CPU reliant tasks twice as fast as its predecessor. During the first weekend of sales, an aggregated amount of three million fourth generation iPads and [iPad Minis] were sold.
-===
-
-iPad Air
-The iPad Air is the fifth generation [iPad] tablet computer designed, developed and marketed by [Apple Inc]. It was announced on 22 October 2013, and was released in space gray and silver colours on 1 November 2013. The iPad Air features a thinner design with similarities to the [iPad Mini], along with the same 64-bit Apple A7 processor with M7 coprocessor.
-
-Its successor, the [iPad Air 2], was unveiled on 16 October 2014.
-===
-
-iPad Air 2 
-The iPad Air 2 is the sixth generation iPad tablet computer designed, developed, and marketed by [Apple Inc]. It was announced on 16 October 2014 alongside the [iPad Mini 3] and then both were released on 22 October. The iPad Air 2 is thinner and faster than its predecessor, the iPad Air, and features Touch ID although the design, height and screen size are the same as those of the iPad Air.
-===
 
 iPhone 1
 The iPhone (retroactively labeled the original iPhone and often referred to as iPhone 1, iPhone 1G, or iPhone 2G) is a smartphone that was designed and marketed by [Apple Inc]. It is the first generation of [iPhone] and was announced on 9 January 2007 after years of rumours and speculation.

@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('iPad Mini'); ?>
+        <p><strong>iPad Miniis</strong> a line of mini tablet computers designed, developed, and marketed by <?php echo $this->stencil->addLink('Apple Inc', 'C'); ?>. It is a sub-series of the <?php echo $this->stencil->addLink('iPad', 'ITH'); ?> line of tablets, with a reduced screen size of 7.9 inches, in contrast to the standard 9.7 inches. The <?php echo $this->stencil->addLink('first generation iPad Mini', 'ITH'); ?> was announced on 23 October 2012, and was released on 2 November 2012, in nearly all of Apple's markets. It features similar internal specifications to the <?php echo $this->stencil->addLink('iPad 2', 'ITH'); ?>, including its display resolution.</p>
+        <p>The second generation iPad Mini, with a faster processor and a <?php echo $this->stencil->addLink('Retina display', 'ITH'); ?>, was announced on 22 October 2013 and released on 12 November 2013. The third generation iPad Mini was announced on 16 October 2014 and was released on 24 October 2014; it features the same hardware as the <?php echo $this->stencil->addLink('Mini 2', 'ITH'); ?> and the addition of a Touch ID fingerprint sensor compatible with Apple Pay.</p>
+    </div>
+</div>
