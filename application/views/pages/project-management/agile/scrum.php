@@ -19,22 +19,22 @@
         <?php $this->stencil->sub('project-management/agile/scrum/sprint', NULL, TRUE); ?>
         <h2>Roles</h2>
         <ul>
-            <li><?php echo $this->stencil->addLink('Scrum Master', 'PMS'); ?><li>
-            <li><?php echo $this->stencil->addLink('Development Team', 'PMS'); ?><li>
-            <li><?php echo $this->stencil->addLink('Product Owner', 'PMS'); ?><li>
+            <li><?php echo $this->stencil->addLink('Scrum Master', 'PMS'); ?></li>
+            <li><?php echo $this->stencil->addLink('Development Team', 'PMS'); ?></li>
+            <li><?php echo $this->stencil->addLink('Product Owner', 'PMS'); ?></li>
         </ul>
         <h2>Meetings</h2>
         <ul>
-            <li><?php echo $this->stencil->addLink('Daily Scrum', 'PMS'); ?><li>
-            <li><?php echo $this->stencil->addLink('Sprint Planning', 'PMS'); ?><li>
-            <li><?php echo $this->stencil->addLink('Sprint Review', 'PMS'); ?><li>
-            <li><?php echo $this->stencil->addLink('Sprint Retrospective', 'PMS'); ?><li>
+            <li><?php echo $this->stencil->addLink('Daily Scrum', 'PMS'); ?></li>
+            <li><?php echo $this->stencil->addLink('Sprint Planning', 'PMS'); ?></li>
+            <li><?php echo $this->stencil->addLink('Sprint Review', 'PMS'); ?></li>
+            <li><?php echo $this->stencil->addLink('Sprint Retrospective', 'PMS'); ?></li>
         </ul>
         <h2>Artifacts</h2>
         <ul>
-            <li><?php echo $this->stencil->addLink('Product Backlog', 'PMS'); ?><li>
-            <li><?php echo $this->stencil->addLink('Sprint Backlog', 'PMS'); ?><li>
-            <li><?php echo $this->stencil->addLink('Burn Down Chart', 'PMS'); ?><li>
+            <li><?php echo $this->stencil->addLink('Product Backlog', 'PMS'); ?></li>
+            <li><?php echo $this->stencil->addLink('Sprint Backlog', 'PMS'); ?></li>
+            <li><?php echo $this->stencil->addLink('Burn Down Chart', 'PMS'); ?></li>
         </ul>
     </div>
 </div>

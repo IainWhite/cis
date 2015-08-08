@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('the World Wide Web)'); ?>
+        <?php echo $this->stencil->setHeadline('World Wide Web'); ?>
         <p>The <strong>World Wide Web</strong> (abbreviated as <strong>WWW</strong> commonly known as the <strong>web</strong>) is a system of interlinked hypertext documents accessed via the <?php echo $this->stencil->addLink('Internet', 'ITN'); ?>.</p>
         <p>With a <?php echo $this->stencil->addLink('Web Browser', 'WD'); ?>, one can view web pages that may contain text, images, videos, and other multimedia and navigate between them via hyperlinks.</p>
         <p>On 12 March 1989, <?php echo $this->stencil->addLink('Tim Berners-Lee', 'P'); ?>, a British computer scientist and former <?php echo $this->stencil->addLink('CERN', 'C'); ?> employee, wrote a proposal for what would eventually become the World Wide Web.</p>
