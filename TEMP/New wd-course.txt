@@ -1,6 +1,7 @@
 New wd_course
 
 id, institute, when_date, title, desc, lecturer
+
 Lynda
 
 2014/12/06
@@ -31,7 +32,7 @@ Todd Dewett
 
 2014/12/20
 WordPress Quick Tips: Migration and Database Reset
-??
+Migrating WordPress databases.
 Morten Rand-Hendriksen
 
 2014/12/23
@@ -124,23 +125,81 @@ Financial Literacy: Reading Financial Reports
 A wealth of information is available to you if you know how to read financial documents. Being able to glean information from an income statement, a cash flow statement, or a balance sheet can give you an edge in understanding not only your own business but also your competition. In this course, Rudolph Rosenberg, a finance expert, takes you through the steps of making sense of what is contained in financial reports and how to read them. You'll also learn how they fit together to give you a view of a company's situation.
 Rudolph Rosenberg
 
-Plural Sight
-Becoming an Outlier: Reprogramming the Developer Mind
-Career and Survival Strategies for Software Developers
-Developing a Killer Personal Brand
-Drupal 7: Foundation
-Fundamentals of Written Proposals
-Gathering Good Requirements for Developers
-GitHub for Windows Developers
-Incident Management
-Introduction to the Bash Shell on Mac OS and Linux
-ITIL Service Operation
-Mobile First Responsive Web Design
-Pitching Your Idea Effectively
-PMP - Organizational Influences & Project Management Lifecycle
-PMP – Introduction to Project Management & the PMP Exam
-SOLID Principles of Object Oriented Design
+2015/08/04
+Managing Technical Teams
+In this course, Bob McGannon outlines the critical elements for successfully managing a technical team. Since you are dealing with highly skilled workers, it is important for you to focus on WHAT needs to be accomplished, rather than HOW to accomplish goals. Other critical skills include knowing your role and what decisions to make, balancing the needs of your stakeholders and customers while allowing for creativity within your team, supporting and rewarding differing creative styles, and much more. This course also includes a model for dividing, tracking, and sharing the accomplishments of your team.
+Bob McGannon
 
+Plural Sight
+
+Becoming an Outlier: Reprogramming the Developer Mind
+As a developer, your image and your mind are your product. So to get what you’ve never had, you must do what you’ve never done with these precious tools. If you want to make a bigger impact, raise your income, and code with purpose, this course will outline the path to get you there. This course is about making a paradigm shift in how you manage your career. We’ll discuss concrete activities and skills that transform average developers into outliers. You’ll learn why developers can't afford cable, ways to improve your “luck surface area”, and techniques to compress your career through accelerated development. You'll learn the foundational skills for becoming an outlier: command your time, hack your image, and own your trajectory. Prepare to think about your development career in a whole new way.
+Cory House
+
+Career and Survival Strategies for Software Developers
+A software development career poses challenges that we don't often discuss: How do you keep up with rapidly changing technology? When, and how often should you change jobs? How do you evaluate a job offer? How and when should you move from programming into management, or into some other related career? How do you leverage those relatively high salaries into real financial security? Should you work for a large company? A startup? Or found your own company? This course will help you answer those questions and more, whether you are just learning programming or have been developing software for decades.
+Dan Appleman
+
+Developing a Killer Personal Brand
+In this course you will learn about personal branding and how it applies to you. We will go over personal branding basics and foundations. We will learn about different tools and platforms to create, enhance and share your personal brand. We will talk about how to empower others to talk about you the right way so you can enjoy the power of "word of mouth" marketing. We will dive into examples of how people have used some of these tools and tactics for their own personal brands. This course is designed to give you empowerment as an employee, business owner, and leader, and be in a position to give more to your network and your job.
+Jason Alba
+
+Drupal 7: Foundation
+This course provides a solid foundation for developing custom content management systems using the Drupal 7 Content Management Framework. Through dozens of thoroughly explained, direct demonstrations, you will learn how to be productive using the core tools and building blocks of a Drupal site: modules, themes, content types, nodes, menus, blocks, URL patterns, views, and more.
+Leo Schuman
+
+Fundamentals of Written Proposals
+Fundamentals of Written Proposals covers how to create, develop, and eventually write a technical or business proposal. Specific modules cover the role of proposals in professional culture, different types of proposals, common persuasive techniques and strategies, main and secondary sections of an unsolicited proposal, and how to critically read and develop a solicited proposal.
+Alan Ackmann
+
+Gathering Good Requirements for Developers
+Getting good requirements from the business users is a difficult task, and one for which most developers have never been adequately trained. In this course, you'll learn the key skills, techniques, and tools used to capture requirements. You'll learn to validate that the requirements are correct, how to trace them through design and testing, and how to ensure that the users understand what they're asking for. Along the way you'll see some role playing situations where requirements are gathered out of difficult business users and how to handle any objections.
+Robert Bogue
+
+GitHub for Windows Developers
+GitHub and the source control system Git are growing in popularity. This course shows developers how to effectively use GitHub, Git, and GitHub for Windows. The course starts with an introduction to Git. From there, we show the GitHub site and how to work with its repositories. As you begin to learn about GitHub for Windows, we will start with some basics, move on to team oriented information, and then cover the social coding aspects of GitHub.
+Brendan Enrick
+
+Incident Management
+In this course, you will learn about the specific goals and objectives, interfaces, and purpose of the Incident Management process, as well as how it is applied in real life. The course uses a case study approach to illustrate the benefits companies have derived through process maturity. This course also covers the basics of how the PDCA cycle can be used to assist in process improvement.
+Lowell Amos
+
+Introduction to the Bash Shell on Mac OS and Linux
+The command line is one of the most important tools for a Linux/UNIX power user. Bash is the default login shell on Linux and Mac OS, and adding it to your skillset will open up a whole new world of possibilities. For one thing, it gives you access to a huge number of command line utilities, simplifying many everyday tasks. But Bash also provides you with a powerful scripting language for automating just about anything. For remote access and system administration, Bash is an absolute must.
+Reindert-Jan Ekker
+
+ITIL Service Operation
+This course is for students who have completed their ITIL Foundations certification and wish to gain deeper insights into the processes, challenges, critical success factors and benefits of Service Operation within the ITIL framework. It is primarily aimed at leaders and practitioners who deliver quality service management practices. Topics include the value of Service Operation to the business, how the areas of Service Operation interface with other processes, and the workflows for event, incident, problem, and access management. The main target group for the ITIL® Expert Qualification: Service Operation Certificate includes, but is not restricted to CIOs, CTOs, managers, supervisory staff, team leaders, designers, architects, planners, IT consultants, IT audit managers, IT security managers and ITSM trainers involved in the ongoing management, coordination and integration of operation activities within the Service Lifecycle. Qualification Level: Intermediate (Lifecycle stream).
+Lowell Amos
+
+Mobile First Responsive Web Design
+Responsive web design is a recent strategy for building web sites that can respond and adapt to multiple devices and their respective resolutions. Mobile first is the concept of creating the design for your mobile web site first, and then building out that design for larger resolutions. This course covers the concepts that developers need to know to be able to work in this new way of designing web sites.
+Jon Flanders
+
+Pitching Your Idea Effectively
+An introduction to the three types of pitches that you can make to an investor or in other business environments. Properly structuring your pitch will help with delivery and be more persuasive.
+Stephen Forte
+
+PMP - Organizational Influences & Project Management Lifecycle
+Building on the foundation set in Introduction to Project Management and the PMP® Exam, this course will focus on the topics discussed in Chapters 2 and 3 of the Project Management Body of Knowledge, more commonly referred to as the "PMBOK® Guide." The course explores how organizational cultures, styles, communication preferences, and structure factor into project management. It defines the role of project stakeholders and the composition of successful project teams, and describes the phases and characteristics of the project life cycle. Continuing on, the course outlines the five process groups in project management: initiating, planning, executing, monitoring/controlling, and closing. Finally, it lays the groundwork for future courses focused on the knowledge areas encountered in each phase of project management.
+Casey Ayers
+
+PMP – Introduction to Project Management & the PMP Exam
+This course serves as an introduction to project management and the PMP® certification exam. The course discusses the PMP® certification – what it is, how one may qualify to earn it, and the certification's benefits – as well as the qualification and application process and how to minimize the financial burden of attaining the certification. Additionally, foundational concepts of project management are explored, including the introduction of the PMBOK Guide, the precise definitions and interconnections of project, program, and portfolio management, and the role and value of project managers within organizations.
+Casey Ayers
+
+SOLID Principles of Object Oriented Design
+The SOLID principles are fundamental to designing effective, maintainable, object-oriented systems. Whether you've only just begun writing software or have been doing so for years, these principles, when used appropriately, can improve the encapsulation and coupling of your application, making it more malleable and testable in the face of changing requirements.
+Steve Smith
+
+PMP - Organizational Influences & Project Management Lifecycle
+Building on the foundation set in Introduction to Project Management and the PMP® Exam, this course will focus on the topics discussed in Chapters 2 and 3 of the Project Management Body of Knowledge, more commonly referred to as the "PMBOK® Guide." The course explores how organizational cultures, styles, communication preferences, and structure factor into project management. It defines the role of project stakeholders and the composition of successful project teams, and describes the phases and characteristics of the project life cycle. Continuing on, the course outlines the five process groups in project management: initiating, planning, executing, monitoring/controlling, and closing. Finally, it lays the groundwork for future courses focused on the knowledge areas encountered in each phase of project management.
+Casey Ayers
+
+2015/08/08
+Agile Fundamentals
+In Agile Fundamentals, we explore how working on an Agile project has benefits for your development team, your end users, and your organization as a whole. This course starts by exploring the more traditional waterfall process, and then covers why running an Agile team is a good idea. This course is ideal for software developers, project managers, software leadership, or anyone that would have an interest and gain benefit from running an Agile project and delivering maximum value early to your customers.
+Stephen Haunts
 
 
 
