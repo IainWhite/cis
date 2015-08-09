@@ -201,5 +201,9 @@ Agile Fundamentals
 In Agile Fundamentals, we explore how working on an Agile project has benefits for your development team, your end users, and your organization as a whole. This course starts by exploring the more traditional waterfall process, and then covers why running an Agile team is a good idea. This course is ideal for software developers, project managers, software leadership, or anyone that would have an interest and gain benefit from running an Agile project and delivering maximum value early to your customers.
 Stephen Haunts
 
+2015/08/09
+Agile in the Real World
+Agile practices often sound great on paper, but quickly lose their luster once you try to apply them in the real world. This course will show you how to take the best of Agile methodologies and apply them to your own team in a way that actually makes sense. Rather than focus on the theory of how agile works in a vacuum, the techniques taught in this course are based on the most common places where agile breaks down in reality and the concrete strategies to fix them.
+Jeremy Jarrell
 
 
