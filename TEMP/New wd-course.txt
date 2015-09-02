@@ -130,6 +130,59 @@ Managing Technical Teams
 In this course, Bob McGannon outlines the critical elements for successfully managing a technical team. Since you are dealing with highly skilled workers, it is important for you to focus on WHAT needs to be accomplished, rather than HOW to accomplish goals. Other critical skills include knowing your role and what decisions to make, balancing the needs of your stakeholders and customers while allowing for creativity within your team, supporting and rewarding differing creative styles, and much more. This course also includes a model for dividing, tracking, and sharing the accomplishments of your team.
 Bob McGannon
 
+2015/08/09
+Solving Common Project Problems
+When you're balancing the triple constraints of project management (cost/quality/time) and trying to accomplish something new, problems are bound to crop up. In the course, project management trainer Chris Croft shows how to solve the most common problems that arise when working on projects. By breaking these issues into 4 major categories—people problems, quality problems, cost problems, and time problems—he provides helpful advice and techniques for how to handle them.
+Chris Croft
+
+2015/08/15
+Managing Project Integration
+Project integration ensures all processes in a project run smoothly, and results in a properly synchronized series of deliverables such as the project charter, project plan, and preliminary project scope statement. This course will help managers plan the integration needs, communicate with staff and stakeholders, and integrate the project into an organizational portfolio. Along the way, Bob McGannon, PMP, shows how to ensure your scope, risk, and change approaches are in sync; recognize warning signs when integration goes awry; and plan the simultaneous integration of multiple projects and customer deliverables.
+Bob McGannon
+
+2015/08/15
+Managing Project Stakeholders
+Create healthy partnerships with your stakeholders and build a win-win environment for your business. In this course, author and PMP Terri Wagner shows you how to manage stakeholders with savvy communication strategies that increase engagement in the final project. Learn how to analyze stakeholders, map power structures, keep open lines of communication, and use interpersonal skills to connect.
+Terri Wagner 
+
+2015/08/15
+Working with Upset Customers
+More than any other topic, frontline employees ask for advice on how to serve angry and upset customers. This course will reveal proven techniques for effectively neutralizing negative situations. Customer service expert Jeff Toister also shares specific actions employees can take before and after encounters with upset customers that will reduce the likelihood of problems occurring in the future.
+Jeff Toister
+
+2015/08/??
+PRINCE2 Fundamentals
+Learn about the fundamental themes and processes of PRINCE2: PRojects IN Controlled Environments. PRINCE2 is a process-based approach to project management providing an easily tailored and scalable method for the management of all sizes and types of projects. The method is practiced worldwide, but it is the de facto standard for project management in the UK. Here Claudine Peet reviews the seven themes and principles of PRINCE2 and the seven main processes, from initiation to delivery to closure.
+Claudine Peet
+
+2015/08/??
+Learning to Be Assertive
+We all get frustrated when we feel taken advantage of, or alternatively, respond too aggressively when we feel provoked or trapped. Overcome these knee-jerk responses by learning how to be assertive. This course reveals what assertiveness really means, and how it is different from aggression, and outlines specific techniques you can use to respond to challenging situations and difficult people.
+Chris Croft
+
+2015/08/20
+Managing Project Schedules
+Get the upper hand on your project schedules before they begin and see them through to conclusion, on time and on budget. In this course, PMP-credentialed author Bonnie Biafore teaches you how to proactively manage project schedules. This includes a look at the elements that go into a schedule; how to estimate costs and resources; best ways to negotiate and allocate resources; and how to manage a schedule over time.
+Bonnie Biafore
+
+2015/08/20
+Office Sway: First Look
+Create and share interactive reports and presentations on the fly with Sway, the new Microsoft Office app. Oliver Schinkten provides your first look at Sway. Learn what it is, where to access it, and how to start building your own Sways—presentations, tutorials, newsletters, stories, and more—from content you have stored locally or online. Plus, explore how to use Sway's unique interactive format to collaborate on projects and share them with others.
+Oliver Schinkten
+
+2015/08/22
+Negotiation Fundamentals
+Coach, negotiation expert, and author Lisa Gates demonstrates the skills empowered communicators use to achieve mutual benefit at the negotiation table. The course delivers repeatable strategies for negotiating common issues such as asking for a raise, setting fees, promoting teamwork, and bringing out the best in those you manage. Along the way, discover how to use interest-based negotiation, distributive bargaining, diagnostic questioning, and conflict resolution to handle both simple and complex negotiations.
+Lisa Gates
+
+2015/08/??
+Get the upper hand on your project schedules before they begin and see them through to conclusion, on time and on budget. In this course, PMP-credentialed author Bonnie Biafore teaches you how to proactively manage project schedules. This includes a look at the elements that go into a schedule; how to estimate costs and resources; best ways to negotiate and allocate resources; and how to manage a schedule over time.
+JIRA is a popular project- and issue-tracking tool used by development and technical support teams to get more work done, faster. In this course, Sandy Toner introduces the key tasks involved in installing and administering JIRA, including setting up new projects, tracking tasks through the JIRA workflow, and managing users and groups. Plus, learn how to customize workflows with fields and screens, control permissions and JIRA security, and use add-ons to help JIRA better support agile development cycles.
+Sandra Toner
+
+
+
+===
 Plural Sight
 
 Becoming an Outlier: Reprogramming the Developer Mind
@@ -206,4 +259,24 @@ Agile in the Real World
 Agile practices often sound great on paper, but quickly lose their luster once you try to apply them in the real world. This course will show you how to take the best of Agile methodologies and apply them to your own team in a way that actually makes sense. Rather than focus on the theory of how agile works in a vacuum, the techniques taught in this course are based on the most common places where agile breaks down in reality and the concrete strategies to fix them.
 Jeremy Jarrell
 
+2015/08/??
+Big Scrum
+Grounded in pragmatism and eschewing dogmatism, this course draws on the experiences of the author successfully applying and participating in Scrum in large organizations. This course specifically focuses on growing Scrum without changing what Scrum is or how it works. David examines the roles, artifacts, and events of Scrum and the specific challenges they face when scaled beyond a single team integrating into a single product.
+David Starr
+
+
+Coursera
+
+2015/??/??
+Project Management: The Basics for Success
+This course combines the essential elements of Project Management and Team Leadership into one course. Through class engagement and reflection, you will acquire further understanding of the responsibilities of leadership and become better prepared to apply this knowledge to the project environment
+Rob Stone
+
+2015/??/??
+Fundamentals of Project Planning and Management
+Projects are all around us. Virtually every organization runs projects, either formally or informally. We are engaged in projects at home and at work. Across settings, planning principles and execution methodologies can offer ways in which projects can be run more effectively and efficiently. Project management provides organizations (and individuals) with the language and the frameworks for scoping projects, sequencing activities, utilizing resources, and minimizing risks. In this course, you will acquire such skills. Fundamentals of Project Planning and Management will introduce basic concepts from project planning, critical path method, network analysis, and simulation for project risk analysis. You will gain an appreciation for what is required in planning and executing large-scale projects and gain an understanding of Agile Project Management principles. Together, we will develop an awareness of some behavioral biases that come to play in project settings and identify how these impact the planning and execution of a project.
+Yael Grushka-Cockayne
+
+
+Udemy
 
