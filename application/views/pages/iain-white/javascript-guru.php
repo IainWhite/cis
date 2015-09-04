@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White JavaScript Guru'); ?>
         <?php $this->stencil->setDescription('Iain White is a expert in developing using JavaScript.'); ?>
-        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, JavaScript, jQuery, AJAX')); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager, JavaScript, jQuery, AJAX')); ?>
 
         <?php echo $this->stencil->addLogo('JavaScript', 'png', 'left'); ?>
 

@@ -1472,7 +1472,7 @@ class Stencil {
     {
         $out = '<div class="row margin-top-20">' . "\n";
         $out .= '    <div class="contactIW rounded-2x box-shadow shadow-effect-1 col-xs-12 col-sm-12 col-md-12 margin-bottom-10">' . "\n";
-        $out .= '        <p class="text-center">I am currently seeking a position as a Web Developer in or near Brisbane CBD. <a href="/iain-white/seeking-work">More details</a>.</p>' . "\n";
+        $out .= '        <p class="text-center">I am currently seeking a position as a Project Manager in or near Brisbane CBD. <a href="/iain-white/seeking-work">More details</a>.</p>' . "\n";
         $out .= '    </div>';
         $out .= '</div>' . "\n";
         return $out;

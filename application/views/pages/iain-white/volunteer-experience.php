@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Volunteer Experience'); ?>
         <?php $this->stencil->setDescription('Iain White volunteers his time to help youths and young adults in his local community.'); ?>
-        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master')); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager')); ?>
     </div>
 
     <p>I volunteer my time to help youths and young adults in my local community.</p>

@@ -1,13 +1,13 @@
 <?php $this->stencil->setDescription('WhiteInternet information and tips on Project Management, Web Development and on-line portfolio for Iain White.'); ?>
-<?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, WhiteInternet')); ?>
+<?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, Project Manager, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, WhiteInternet')); ?>
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('WhiteInternet Home','WhiteInternet by Iain White Web Developer / Scrum Master'); ?>
+        <?php echo $this->stencil->setHeadline('WhiteInternet Home','WhiteInternet by Iain White Scrum Master / Project Manager'); ?>
         <div class="margin-top-10 margin-bottom-20">
             <img src="/assets/images/white-internet-logo.gif" alt="WhiteInternet" title="WhiteInternet" class="img-responsive center-block">
         </div>
         <p class="text-center"><em>Not everything is black and white</em></p>
-        <p class="text-center">WhiteInternet, on-line portfolio for Iain White a Web Developer / Scrum Master based in Brisbane Australia with over <?php echo $this->stencil->elapsedYears('01/09/1987', FALSE, FALSE); ?> experience.</p>
+        <p class="text-center">WhiteInternet is the on-line portfolio for Iain White a Scrum Master / Project Manager and Web Developer based in Brisbane Australia with over <?php echo $this->stencil->elapsedYears('01/09/1987', FALSE, FALSE); ?> experience.</p>
     </div>
 </div>
 
@@ -19,11 +19,11 @@
                     <a href="/iain-white/php-developer" title="Iain White PHP Developer">
                         <img class="img-responsive" src="/assets/images/php-logos.gif" alt="Back-end" title="PHP Developer">
                     </a>
+                </div>
+                <a class="btn-more hover-effect" href="/iain-white/php-developer">PHP Developer</a>
             </div>
-            <a class="btn-more hover-effect" href="/iain-white/php-developer">PHP Developer</a>
         </div>
     </div>
-</div>
     <div class="col-md-4">
         <div class="thumbnails thumbnail-style thumbnail-kenburn">
             <div class="thumbnail-img">

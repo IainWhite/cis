@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White Scrum Master'); ?>
         <?php $this->stencil->setDescription('Iain White is a Certified Scrum Master with a passion for Agile software development.'); ?>
-        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Management')); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager')); ?>
 
         <?php echo $this->stencil->addLogo('Agile Scrum', 'png', 'left'); ?>
 
@@ -17,6 +17,10 @@
         <p>I am an accomplished and fluent communicator and a certified Scrum Master with strong investigation, problem-solving and decision-making skills, combined with a pragmatic approach and sound business acumen.</p>
 
         <p>I have worked in both small and large companies and a variety of industries including manufacture, ISP, health, travel, news and marketing.</p>
+
+        <h4>I have been Scrum Master / Project Manager for <?php echo $this->stencil->elapsedYears('10/08/2015', TRUE, TRUE); ?> at XVT Solutions.</h4>
+
+        <p>TBA</p>
 
         <h4>I was Scrum Master for <?php echo $this->stencil->elapsedYears('01/01/2013', TRUE, TRUE, '31/07/2014'); ?> at OnTheHouse.</h4>
 

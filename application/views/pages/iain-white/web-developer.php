@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White Web Developer'); ?>
-        <?php $this->stencil->setDescription('Iain White is a seasoned Web Developer who has been developing websites for over ' . $this->stencil->elapsedYears('01/01/1999') . '.'); ?>
-        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, web')); ?>
+        <?php $this->stencil->setDescription('Iain White is a seasoned Web Developer who has been developing websites for over ' . $this->stencil->elapsedYears('01/01/1999', TRUE, TRUE, '10/08/215') . '.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager, web')); ?>
 
         <?php echo $this->stencil->addImage('Websites', 'jpg', 'left'); ?>
 

@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White PHP Developer'); ?>
         <?php $this->stencil->setDescription('Iain White is a talented PHP Developer with over ' . $this->stencil->elapsedYears('01/01/1999') . ' of experience.'); ?>
-        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, PHP, Drupal, WordPress, MVC')); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager, PHP, Drupal, WordPress, MVC')); ?>
 
         <?php echo $this->stencil->addLogo('PHP', 'png', 'left'); ?>
 

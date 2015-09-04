@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Resume for Iain White'); ?>
-        <?php $this->stencil->setDescription('On-line resume (curriculum vitae) for Iain White a Brisbane based Web Developer / Scrum master.'); ?>
-        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Resume, CV, Skills')); ?>
+        <?php $this->stencil->setDescription('On-line resume (curriculum vitae) for Iain White a Brisbane based Project Manager / Scrum master.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager, Resume, CV, Skills')); ?>
         <p class="text-center"><strong>R&eacute;sum&eacute; / Curriculum Vitae (CV) for Iain White, Web Development Team Lead and Certified Professional Scrum Master</strong></p>
 
         <p class="text-center"><?php echo $this->stencil->addPDFLink('iain-white-CV', 'Download Iain White\'s CV in PDF.', 'btn btn-info btn-large rounded-2x'); ?></p>
@@ -32,6 +32,8 @@
                 <div class="tab-pane fade in active" id="work-history">
                     <h2>Work History</h2>
                     <?php
+                    $this->stencil->sub('iain-white/work-history/xvt-solutions');
+                    $this->stencil->sub('iain-white/work-history/creative-intersection');
                     $this->stencil->sub('iain-white/work-history/emu-design');
                     $this->stencil->sub('iain-white/work-history/onthehouse');
                     $this->stencil->sub('iain-white/work-history/freenet');

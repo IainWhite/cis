@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Iain White Project Manager'); ?>
         <?php $this->stencil->setDescription('Iain White is a dedicated and experienced Project Manager and Certified Scrum Master.'); ?>
-        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Management')); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager')); ?>
 
         <?php echo $this->stencil->addImage('Project Management Triangle', 'png', 'left'); ?>
 
@@ -15,6 +15,12 @@
         <p>I have worked in both small and large companies and a variety of industries including manufacture, ISP, health, travel, news and marketing.</p>
 
         <p>I have been a <strong>Certified Scrum Master</strong> since November 2013.</p>
+
+
+        <p>I have been Project Manager / Scrum Master for <?php echo $this->stencil->elapsedYears('10/08/2015', TRUE, TRUE); ?> at XVT Solutions.</p>
+
+        <p>TBA</p>
+
 
         <p>I was Scrum Master for <?php echo $this->stencil->elapsedYears('01/01/2013', TRUE, TRUE, '31/07/2014'); ?> at OnTheHouse.</p>
 

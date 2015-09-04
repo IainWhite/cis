@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Recommendations for Iain White'); ?>
-        <?php $this->stencil->setDescription('Recommendations for Iain White a Web Developer / Scrum Master based in Brisbane, Australia.'); ?>
-        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Resume, CV, Skills')); ?>
+        <?php $this->stencil->setDescription('Recommendations for Iain White a Project Manager / Scrum Master based in Brisbane, Australia.'); ?>
+        <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager, Resume, CV, Skills')); ?>
         <p>Here are some recommendations about my work that people have been kind enough to give me.</p>
     </div>
 </div>
