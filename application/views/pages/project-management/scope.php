@@ -1,6 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Scope'); ?>
+        <?php echo $this->stencil->addImage('Scope In Out', 'jpg', 'left'); ?>
         <p>In <?php echo $this->stencil->addLink('Project Management', ''); ?>, the term scope has two distinct uses <strong>Project Scope</strong> and <strong>Product Scope</strong>.</p>
         <p>Scope involve getting information required to start a project, and the features the product would have that would meet its stakeholders requirements.</p>
         <p>Project Scope is the work that needs to be accomplished to deliver a product, service, or result with the specified features and functions.</p>
