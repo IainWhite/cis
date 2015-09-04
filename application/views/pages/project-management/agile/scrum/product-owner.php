@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-lg-12 col-md-12">
             <h2>Chief Product Owner</h2>
-            <p>The <strong>Chief Product Owner</strong> is an unofficial <?php echo $this->stencil->addLink('Scrum', 'PMS'); ?> role that can help with scaling Scrum.  In Scrum-speak, this role is the Product Owner of the whole product.</p>
+            <p>The <strong>Chief Product Owner</strong> is an unofficial <?php echo $this->stencil->addLink('Scrum', 'PMS'); ?> role that can help with scaling Scrum.  In Scrum speak, this role is the Product Owner of the whole product.</p>
             <p>The Chief Product Owner is a person who is the single point of accountability for the success or failure of the complete project.</p>
         </div>
     </div>
