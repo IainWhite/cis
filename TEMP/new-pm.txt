@@ -1837,3 +1837,25 @@ software-development/uncol (Universal Computer Oriented Language)
 software-development/Unified Modeling Language (UML)
 software-development/version-control/Code Repository
 
+https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs
+https://en.wikipedia.org/wiki/Business_requirements
+https://en.wikipedia.org/wiki/Arrow_diagramming_method
+https://en.wikipedia.org/wiki/Precedence_diagram_method
+https://en.wikipedia.org/wiki/Project_network
+https://en.wikipedia.org/wiki/Critical_path_method
+https://en.wikipedia.org/wiki/Critical_path_drag
+https://en.wikipedia.org/wiki/Total_project_control
+https://en.wikipedia.org/wiki/Return_on_investment
+https://en.wikipedia.org/wiki/Value_breakdown_structure
+https://en.wikipedia.org/wiki/Social_return_on_investment
+https://en.wikipedia.org/wiki/Float_(project_management)
+https://en.wikipedia.org/wiki/Critical_chain_project_management
+https://en.wikipedia.org/wiki/Theory_of_constraints
+https://en.wikipedia.org/wiki/ISO_21500
+https://en.wikipedia.org/wiki/Cone_of_Uncertainty
+https://en.wikipedia.org/wiki/Gap_analysis
+https://en.wikipedia.org/wiki/Hammock_activity
+https://en.wikipedia.org/wiki/Level_of_Effort
+https://en.wikipedia.org/wiki/ISO_10006
+https://en.wikipedia.org/wiki/ISO_31000
+https://en.wikipedia.org/wiki/Milestone_(project_management)
