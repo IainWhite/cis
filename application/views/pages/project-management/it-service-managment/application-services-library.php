@@ -12,7 +12,7 @@
         <p>The <strong>ASL</strong> is intended to support <strong>Application Management</strong> by providing tools. Two main categories of aids are defined:</p>
         <ul>
             <li>
-                <p>Descriptions of the processes for Application Management. Plus the use of best-practises.</p>
+                <p>Descriptions of the processes for Application Management. Plus the use of best practises.</p>
             </li>
             <li>
                 <p>Standard terminology, avoiding the pitfall of talking about different topics while using the same words.</p>
@@ -40,7 +40,7 @@
                 <li>Availability management</li>
                 <li>Configuration management</li>
             </ul>
-            <p>These processes have as well been defined in the ITIL framework. The processes are similar, but are viewed from another point of view, therefore the activities in each of these processes may differ from the activities in an ITIL-environment.</p>
+            <p>These processes have as well been defined in the ITIL framework. The processes are similar, but are viewed from another point of view, therefore the activities in each of these processes may differ from the activities in an ITIL environment.</p>
 
             <h4>Development and Maintenance</h4>
             <p>Within this cluster the majority of the work of Application Development is done.</p>

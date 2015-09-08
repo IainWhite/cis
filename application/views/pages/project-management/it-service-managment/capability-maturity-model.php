@@ -2,7 +2,7 @@
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Capability Maturity Model (CMM)'); ?>
         <p><strong>CMM</strong> (<strong>C</strong>apability <strong>M</strong>aturity <strong>M</strong>odel) is a methodology used to develop and refine an organization's software development process.</p>
-        <p>The model describes a five-level evolutionary path of increasingly organized and systematically more mature processes.</p>
+        <p>The model describes a five level evolutionary path of increasingly organized and systematically more mature processes.</p>
         <p>CMM consists of five levels, numbered 1 through 5.</p>
         <p>Level 1 means that the organization doesn’t have any defined, repeatable, or improvable approach to building software.</p>
         <p>At level 5, an organization has a defined, repeatable, and improvable set of practices for developing software.</p>

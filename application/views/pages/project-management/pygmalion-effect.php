@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Pygmalion Effect'); ?>
+        <p>The <strong>Pygmalion effect</strong>, or <strong>Rosenthal effect</strong>, is the phenomenon whereby higher expectations lead to an increase in performance. The effect is named after the Greek myth of <strong>Pygmalion</strong>, a sculptor who fell in love with a statue he had carved.</p>
+        <p>A corollary of the Pygmalion effect is the <?php echo $this->stencil->addLink('Golem Effect', 'PM'); ?>, in which low expectations lead to a decrease in performance; both effects are forms of self fulfilling prophecy. By the Pygmalion effect, people internalize their positive labels, and those with positive labels succeed accordingly. The idea behind the Pygmalion effect is that increasing the leader's expectation of the follower's performance will result in better follower performance. Within sociology, the effect is often cited with regard to education and social class.</p>
+        <p>Studies of the Pygmalion effect have been difficult to conduct. Results show a positive correlation between leader expectation and follower performance, but it is argued that the studies are done in an unnatural, manipulated setting. Scientists argue that the perceptions a leader has of a follower cause the Pygmalion effect. The leader's expectations are influenced by their perception of the situation or the followers themselves. Perception and expectation may possibly be found in a similar part in the brain.</p>
+    </div>
+</div>

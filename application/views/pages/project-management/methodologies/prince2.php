@@ -16,7 +16,7 @@
             <ul>
                 <li>Focus on business justification</li>
                 <li>Defined organisation structure for the project management team</li>
-                <li>Product-based planning approach</li>
+                <li>Product based planning approach</li>
                 <li>Emphasis on dividing the project into manageable and controllable stages</li>
                 <li>Flexibility that can be applied at a level appropriate to the project</li>
             </ul>

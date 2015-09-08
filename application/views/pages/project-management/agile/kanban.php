@@ -6,8 +6,8 @@
         <p><strong>Kanban</strong> is a method for managing knowledge work with an emphasis on just-in-time delivery while not overloading the team members. In this approach, the process, from definition of a task to its delivery to the customer, is displayed for participants to see and developers pull work from a queue.</p>
         <p>Kanban can be divided into two parts:</p>
         <ul>
-            <li>Kanban – A visual process management system that tells what to produce, when to produce it, and how much to produce.</li>
-            <li>The Kanban method – An approach to incremental, evolutionary process improvement for organizations.</li>
+            <li>Kanban - A visual process management system that tells what to produce, when to produce it, and how much to produce.</li>
+            <li>The Kanban method - An approach to incremental, evolutionary process improvement for organizations.</li>
         </ul>
     </div>
 </div>
