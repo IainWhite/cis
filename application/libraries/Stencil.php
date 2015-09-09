@@ -1488,6 +1488,19 @@ class Stencil {
         return $out;
     }
 
+    public function checkAlias($str)
+    {
+        $out = $str;
+        $sql = "SELECT filename FROM wd_alias WHERE alias = '" . $str . "';";
+        $query = $this->CI->db->query($sql);
+        foreach ($query->result() as $row)
+        {
+            $out = $row->filename;
+        }
+        $query->free_result();
+        return $out;
+    }
+
 }
 
 /* End of file Stencil.php */ 

@@ -31,7 +31,7 @@ class Pages extends MY_Controller {
             $view = 'iain-white';
         }
         // Check if view has an alias e.g. 'microsoft-windows', 'ms-windows' returns 'windows'
-        //@TODO $view = checkAlias($view);
+        $view = $this->stencil->checkAlias($view);
         if ($segmentCount > 1) {
             $section = $this->uri->segment(1);
         }

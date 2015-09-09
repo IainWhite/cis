@@ -1,21 +1,23 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Scrum'); ?>
+        <?php echo $this->stencil->addLogo('Scrum', 'jpg', 'left'); ?>
         <?php $this->stencil->setDescription('Scrum is an iterative and incremental Agile Software Development framework for managing software projects and product or application development.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Scrum, Agile, Sprint, Scrum Master, Daily Scrum')); ?>
         <p><strong>Scrum</strong> is an iterative and incremental agile software development framework for managing software projects and product or application development.</p>
         <p>Its focus is on "a flexible, holistic product development strategy where a development team works as a unit to reach a common goal" as opposed to a "traditional, sequential approach".</p>
-        <p>Scrum enables the creation of self-organizing teams by encouraging co-location of all team members, and verbal communication between all team members and disciplines in the project.</p>
+        <p>Scrum enables the creation of self organizing teams by encouraging co-location of all team members, and verbal communication between all team members and disciplines in the project.</p>
         <p>A key principle of Scrum is its recognition that during a project the customers can change their minds about what they want and need (often called requirements churn), and that unpredicted challenges cannot be easily addressed in a traditional predictive or planned manner.</p>
-        <p>As such, Scrum adopts an empirical approach—accepting that the problem cannot be fully understood or defined, focusing instead on maximizing the team's ability to deliver quickly and respond to emerging requirements.</p>
+        <p>As such, Scrum adopts an empirical approach accepting that the problem cannot be fully understood or defined, focusing instead on maximizing the team's ability to deliver quickly and respond to emerging requirements.</p>
 
-        <p><?php echo $this->stencil->addLink('Jeff Sutherland', 'P'); ?> and <?php echo $this->stencil->addLink('Ken Schwaber', 'P'); ?> created Scrum as a formal software development process at OOPSLA'95.</p>
+        <p class="pull-right"><?php echo $this->stencil->addLink('Jeff Sutherland', 'P'); ?> and <?php echo $this->stencil->addLink('Ken Schwaber', 'P'); ?> created Scrum as a formal software development process at OOPSLA'95.</p>
     </div>
 </div>
 
 <?php if (!$this->stencil->getIsSub()): ?>
 <div class="row">
     <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->addImage('Scrum Process', 'png', 'center', 'p', TRUE, NULL, TRUE); ?>
         <?php $this->stencil->sub('project-management/agile/scrum/sprint', NULL, TRUE); ?>
         <h2>Roles</h2>
         <ul>

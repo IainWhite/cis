@@ -1,6 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('IBM'); ?>
+        <?php echo $this->stencil->addLogo('IBM', 'png', 'left'); ?>
         <p>The <strong>International Business Machines Corporation</strong> (<strong>IBM</strong>) is an American multinational technology and consulting corporation, with headquarters in Armonk, New York, United States.</p>
         <p>IBM manufactures and markets computer hardware and software, and offers infrastructure, hosting and consulting services in areas ranging from mainframe computers to nanotechnology.</p>
         <p>The company was founded in 1911 as the <strong>Computing Tabulating Recording Company</strong> (<strong>CTR</strong>) through a merger of three companies: the Tabulating Machine Company, the International Time Recording Company, and the Computing Scale Company.</p>

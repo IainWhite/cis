@@ -1,0 +1,6 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('OPM3'); ?>
+        <p>The <strong>Organizational Project Management Maturity Model</strong> or <strong>OPM3</strong> is a globally recognized best practice standard for assessing and developing capabilities in Portfolio Management, Program Management, and Project Management. It is published by the <strong><?php echo $this->stencil->addLink('Project Management Institute', 'C'); ?> (PMI)</strong>. OPM3 provides a method for organizations to understand their Organizational Project Management processes and measure their capabilities in preparation for improvement. OPM3 then helps organizations develop the roadmap that the company will follow to improve performance. The Second Edition (2008) was recognized by the <strong><?php echo $this->stencil->addLink('American National Standards Institute', 'C'); ?> (ANSI)</strong> as an American National Standard (ANSI/PMI 08-004-2008). The Third Edition was published in 2013.</p>
+    </div>
+</div>

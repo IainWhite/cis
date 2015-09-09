@@ -1,6 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Project Plan'); ?>
+        <?php echo $this->stencil->addImage('Project Plan', 'jpg', 'right'); ?>
         <p><strong>Project planning</strong> is a discipline for stating how to complete a project within a certain timeframe, usually with defined stages, and with designated resources. One view of project planning divides the activity into:</p>
         <ul>
             <li>Setting objectives (these should be measurable)</li>

@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('ISO 21500'); ?>
+        <p><strong>ISO 21500:2012, Guidance on Project Management</strong>, is an international standard developed by the <strong><?php echo $this->stencil->addLink('International Organization for Standardization', 'C'); ?></strong>, or <strong>ISO</strong> starting in 2007 and released in 2012. It was intended to provide generic guidance, explain core principles and what constitutes good practice in project management. The ISO technical committee dealing with project management, ISO/PC 236 was held by the <strong><?php echo $this->stencil->addLink('American National Standards Institute', 'C'); ?> (ANSI)</strong> which had approved four standards that used <strong><?php echo $this->stencil->addLink('PMI', 'C'); ?></strong> materials. one of which was ANSI/PMI 99-001-2008, <strong>A Guide to the Project Management Body of Knowledge</strong> (<?php echo $this->stencil->addLink('PMBOK', 'PM'); ?>) - 4th Edition.</p>
+        <P>ISO plans for this standard (21500) to be the first in a family of project management standards. ISO also designed this standard to align with other, related standards such as ISO 10006:2003, Quality management systems − Guidelines for quality management in projects, ISO 10007:2003, Quality management systems − Guidelines for configuration management, ISO 31000:2009, Risk management – Principles and guidelines. Since ISO 21500:2012 is a guidance document, it is not intended to be used for certification / registration purposes.</p>
+
+    </div>
+</div>

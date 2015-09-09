@@ -1,6 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('Manifesto for Agile Software Development'); ?>
+        <?php echo $this->stencil->addImage('Idea', 'jpg', 'left'); ?>
         <p>We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:</p>
         <p>
             <strong>Individuals and interactions</strong> over processes and tools<br />
