@@ -34,7 +34,7 @@
             <p>Group intercommunication formula: <em><strong>n(n - 1) / 2</strong></em></p>
 
             <h2>No Silver Bullet</h2>
-            <p>Brooks added "<em>No Silver Bullet — Essence and Accidents of Software Engineering</em>" -- and further reflections on it, "<em>No Silver Bullet Refired</em>" to the anniversary edition of The Mythical Man-Month.</p>
+            <p>Brooks added "<em>No Silver Bullet - Essence and Accidents of Software Engineering</em>" -- and further reflections on it, "<em>No Silver Bullet Refired</em>" to the anniversary edition of The Mythical Man-Month.</p>
             <p>Brooks insists that there is no one silver bullet, "<em>there is no single development, in either technology or management technique, which by itself promises even one order of magnitude [tenfold] improvement within a decade in productivity, in reliability, in simplicity.</em>"</p>
 
             <h2>The Second-System Effect</h2>

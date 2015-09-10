@@ -14,7 +14,7 @@
         Through an electronic computer, the PERT technique processes data representing the major, finite accomplishments (events) essential to achieve end-objectives; the inter-dependence of those events; and estimates of time and range of time necessary to complete each activity between two successive events. Such time expectations include estimates of "most likely time", "optimistic time", and "pessimistic time" for each activity. The technique is a management control tool that sizes up the outlook for meeting objectives on time; highlights danger signals requiring management decisions; reveals and defines both methodicalness and slack in the flow plan or the network of sequential activities that must be performed to meet objectives; compares current expectations with scheduled completion dates and computes the probability for meeting scheduled dates; and simulates the effects of options for decision – before decision.
         The concept of PERT was developed by an operations research team staffed with representatives from the Operations Research Department of Booz, Allen and Hamilton; the Evaluation Office of the Lockheed Missile Systems Division; and the Program Evaluation Branch, Special Projects Office, of the Department of the Navy.</em></p>
 
-            <p>— Willard Fazar (Head, Program Evaluation Branch, Special Projects Office, U. S. Navy), The American Statistician, April 1959.</p>
+            <p>- Willard Fazar (Head, Program Evaluation Branch, Special Projects Office, U. S. Navy), The American Statistician, April 1959.</p>
         </div>
     </div>
 </div>

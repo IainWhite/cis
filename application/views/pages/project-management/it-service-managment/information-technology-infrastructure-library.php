@@ -1,6 +1,7 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
         <?php echo $this->stencil->setHeadline('The Information Technology Infrastructure Library (ITIL)'); ?>
+        <?php echo $this->stencil->addLogo('ITIL', 'jpg', 'left'); ?>
         <p><strong>The Information Technology Infrastructure Library (ITIL)</strong> is a set of practices for <?php echo $this->stencil->addLink('IT service management', 'PM'); ?> (ITSM) that focuses on aligning IT services with the needs of business.</p>
         <p>In its current form (known as ITIL 2011 edition), ITIL is published in a series of five core volumes, each of which covers an ITSM lifecycle stage.</p>
         <p>ITIL underpins ISO/IEC 20000 (previously BS15000), the International Service Management Standard for IT service management, although differences between the two frameworks do exist.</p>

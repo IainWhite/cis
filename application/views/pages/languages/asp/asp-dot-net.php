@@ -51,7 +51,7 @@
             <h3>Field</h3>
             <p>Each Record object contains many fields, and a RecordSet object has a corresponding Field object also. The RecordSet object's Field object corresponds to a column in the database table that it references.</p>
             <h3>Property</h3>
-            <p>This object is specific to the OLE DB provider and defines an ability that the provider has implemented. A property object can be either a built-in property — it is a well-defined property implemented by ADO already and thus cannot be altered — or can be a dynamic property — defined by the underlying data provider and can be changed</p>
+            <p>This object is specific to the OLE DB provider and defines an ability that the provider has implemented. A property object can be either a built-in property - it is a well-defined property implemented by ADO already and thus cannot be altered - or can be a dynamic property - defined by the underlying data provider and can be changed</p>
             <h3>Error</h3>
             <p>When an OLE DB provider error occurs during the use of ADO, an Error object will be created in the Errors collection. Other errors do not go into an Error object, however. For instance, any errors that occur when manipulating data in a RecordSet or Field object are stored in a Status property.</p>
         </div>
