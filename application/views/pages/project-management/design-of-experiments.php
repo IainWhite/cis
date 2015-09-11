@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <?php echo $this->stencil->setHeadline('Design of experiments'); ?>
+        <p>In general usage, <strong>design of experiments (DOE)</strong> or <strong>experimental design</strong> is the design of any information gathering exercises where variation is present, whether under the full control of the experimenter or not. However, in statistics, these terms are usually used for controlled experiments. Formal planned experimentation is often used in evaluating physical objects, chemical formulations, structures, components, and materials. Other types of study, and their design, are discussed in the articles on computer experiments, opinion polls and statistical surveys (which are types of observational study), natural experiments and quasi experiments (for example, quasi experimental design).</p>
+        <p>In the design of experiments, the experimenter is often interested in the effect of some process or intervention (the "treatment") on some objects (the "experimental units"), which may be people, parts of people, groups of people, plants, animals, etc. Design of experiments is thus a discipline that has very broad application across all the natural and social sciences and engineering.</p>
+    </div>
+</div>
