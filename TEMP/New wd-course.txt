@@ -4,63 +4,63 @@ id, institute, when_date, title, desc, lecturer
 
 Lynda
 
-2014/12/06
+2014/12/06 X
 Web Design Fundamentals
 New to web design? Start here first. In these tutorials, James Williamson introduces the fundamental concepts, tools, and learning paths for web design. He explains what it means to be a web designer, the various areas of specialization, and whether web design is the right hobby or career for you. Along the way, he talks to five prominent designers and developers, who have each found success in a different corner of the web.
 If you want to get up and running fast, check out the chapter on getting online, choosing a domain name and web host, and getting around the backend of a standard website. Need to stock your tool chest? Learn what you'll need to build a brand new site, from web design software and content management systems, to testing and prototyping tools and development frameworks. Finally, James outlines learning paths for where to go next, touching on subjects such as standards and accessibility, responsive design, and the three core web technologies: HTML, CSS, and JavaScript.
 James Williamson
 
-2014/12/11
+2014/12/11 X
 WordPress Developer Tips: DRY Development
 DRY development is "don't repeat yourself" development: a smart strategy for reusing code and reducing repetition, wherever possible. This short course shows how to put DRY development techniques into practice in your WordPress sites. Staff author Morten Rand-Hendriksen introduces four techniques for DRY development in WordPress, and shows how they are used in both default themes and custom themes like Simone.
 Morten Rand-Hendriksen
 
-2014/12/20
+2014/12/20 X
 Brainstorming Basics
 What is brainstorming? Invented in 1948, brainstorming is still the dominant technique when it comes to idea generation. It combines creativity, problem solving, and group discussion. Unfortunately for creator Alex Osborn, most brainstorms fail before they ever begin. Why? Because the organizer doesn't have a clear picture of the purpose, process, or intended outcome. In this course, Stefan Mumaw brings brainstorming into the modern age, with rules and techniques that will help you set up and run more-effective creative brainstorming sessions.
 Stefan Mumaw
 
-2014/12/20
+2014/12/20 X
 The Fundamentals of Document Retention and Data Management
 Do you know which documents to keep, and how long to keep them? A solid document-retention policy can preserve knowledge, prevent liabilities, and keep you compliant with government regulations. In this course, William R. Joseph will help you get the proper documentation and data-management policies in place at your organization. He introduces the basic concepts behind document retention.
 William Joseph
 
-2014/12/20
+2014/12/20 X
 Holding Skip-Level Meetings
 A new type of meeting is emerging: skip-level meetings. Skip-level meetings are meetings you hold with employees who work for the managers who report to you—essentially "skipping" a level to learn more about the organization around you. In this short course, author Todd Dewett shows you how to successfully initiate and hold these meetings with employees who work for your direct reports. Discover how to set the tone, ask for candid feedback, and make meaningful connections. At the end of this course, you'll have the skills you need to build bridges across teams, and learn much more about your organization than you could through your direct reports alone.
 Todd Dewett
 
-2014/12/20
+2014/12/20 X
 WordPress Quick Tips: Migration and Database Reset
 Migrating WordPress databases.
 Morten Rand-Hendriksen
 
-2014/12/23
+2014/12/23 X
 WordPress Developer Tips: Managing Users in the Database
 Welcome to another installment of WordPress Developer Tips. In this quick course, staff author Morten Rand-Hendriksen shows you how to edit WordPress user accounts directly in the database with phpMyAdmin—bypassing WordPress entirely. This is a useful technique for managing large pools of users and troubleshooting unresponsive accounts. Dive in and learn how to reset passwords, change user names and roles, and remove users from the database altogether.
 Morten Rand-Hendriksen
 
-2014/12/23
+2014/12/23 X
 The Five-Step Creative Process
 The creative process isn't just "generating ideas." The reality is it's a five-step process, and ideation is only one of those steps. The entire creative process is made up of objective finding, data gathering, problem design, ideation, and selection. Understanding the role of each step enables us to ensure that we generate the most effective solutions. In this course, Stefan Mumaw guides us through the five steps and then shows us what the complete process looks like, with a real-world project: designing a website.
 Stefan Mumaw
 
-2014/12/23
+2014/12/23 X
 The Science of Logo Design
 Logo design requires artistry, but did you know your logos can also benefit from science? William Lidwell introduces the whys behind well-known guidelines and even debunks a few outdated design myths along the way. He reviews the 4 principles that make a logo ARMM'd for use: attention, response, meaning, and memory. Use these tips to bring scientific rigor to your logos and start designing on evidence, not industry hearsay.
 William Lidwell
 
-2014/12/23
+2014/12/23 X
 Improving Your Conflict Competence
 Workplace conflict is inevitable. But it doesn't have to end badly. In this course, author and conflict expert Craig Runde helps you manage workplace conflict more effectively. He first explains the dynamics that create conflict, and helps you become aware of what your conflict response is. Once you are aware of how conflict arises, learn some practical steps you can take to manage your emotions and engage with others constructively.
 Craig Runde
 
-2014/12/23
+2014/12/23 X
 Pay Strategy Fundamentals
 Pay isn't just a cost; it's a contributor to business culture and performance, too. In this course, HR expert Ed Lawler addresses the impact of an organization's pay and rewards strategies on its business goals. Based on his years of research, teaching, and consulting, Ed outlines the effectiveness of using pay to drive particular objectives, such as attracting new talent, encouraging and rewarding behavior, accomplishing a specific goal, and driving performance in a business unit. Last, Ed reveals how to create an overall pay system to match your business strategy.
 Edward Lawler III
 
-2014/12/23
+2014/12/23 X
 Creative Insights: Lauren Bacon on Web Design
 Lauren Bacon ran a successful web design and development firm for twelve years. Now she is working as a business coach, helping entrepreneurs get their own businesses up and running. In this course, she shares her insights on breaking into the industry: acquiring the right skills, thinking beyond the digital toolset, and specializing in areas that will make your firm in demand. Lauren also answers questions about navigating career transitions, from employee to manager, to freelancer (and maybe even back again), and what the future will look like for new web designers.
 Lauren Bacon

@@ -687,6 +687,263 @@ class Auth extends MY_Controller {
 		$this->_render_page('auth/edit_group', $this->data);
 	}
 
+    // Edit Books
+    public function books()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_books');
+            $crud->set_subject('Books');
+            $crud->required_fields('title', 'author', 'id', 'type', 'cat', 'banner');
+            $crud->callback_column('banner',array($this, 'bookCover'));
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    function bookCover($value, $row)
+    {
+        return $value . '</br/><img src="http://www.fishpond.com.au/affiliate_show_banner.php?ref=2802&affiliate_pbanner_id=' . $value . '" />';
+    }
+
+    // Edit Courses
+    public function courses()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_course');
+            $crud->set_subject('Courses');
+            $crud->required_fields('institute', 'when_date', 'title', 'desc', 'lecturer');
+            $crud->set_relation('section','wd_course_sections','section');
+            $crud->set_relation('group', 'wd_course_groups','group');
+            $crud->set_relation('institute', 'wd_institutions','institute');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit About
+    public function about()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_about');
+            $crud->set_subject('About');
+            $crud->required_fields('desc', 'cat');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit Alias
+    public function alias()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_alias');
+            $crud->set_subject('Alias');
+            $crud->required_fields('alias', 'filename');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit File to English
+    public function file_eng()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_file_eng');
+            $crud->set_subject('File2Eng');
+            $crud->required_fields('filename', 'eng');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit Headers
+    public function headers()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_headers');
+            $crud->set_subject('Headers');
+            $crud->required_fields('header', 'class');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit Plugins
+    public function plugins()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_plugins');
+            $crud->set_subject('Plugins');
+            $crud->required_fields('id', 'app', 'name', 'desc');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit Pragmatic Tips
+    public function pragmatic_tips()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_pragmatic_tips');
+            $crud->set_subject('Pragmatic_Tips');
+            $crud->required_fields('id', 'tip');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit Sound Bites
+    public function sound_bites()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_sound_bites');
+            $crud->set_subject('Sound Bites');
+            $crud->required_fields('id', 'words');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit Wisdom
+    public function wisdom()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_wisdom');
+            $crud->set_subject('Wisdom');
+            $crud->required_fields('id', 'quote', 'author');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+    // Edit Courses Groups
+    public function courses_groups()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('wd_courses_groups');
+            $crud->set_subject('Courses Groups');
+            $crud->required_fields('id', 'group', 'cat');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+
+	public function _db_output($output = null)
+    {
+        $this->load->view('db.php', $output);
+    }
+
 
 	function _get_csrf_nonce()
 	{

@@ -8,11 +8,6 @@
                 <th>Year</th>
             </tr>
             <tr>
-                <th>Diploma in Project Management</th>
-                <td>Alison</td>
-                <td class="text-right">2014</td>
-            </tr>
-            <tr>
                 <th>Professional Scrum Master I</th>
                 <td>Scrum.org</td>
                 <td class="text-right">2013</td>
