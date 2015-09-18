@@ -715,6 +715,16 @@ class Auth extends MY_Controller {
         return $value . '</br/><img src="http://www.fishpond.com.au/affiliate_show_banner.php?ref=2802&affiliate_pbanner_id=' . $value . '" />';
     }
 
+	function siteThumb($value, $row)
+	{
+		return $value . '</br/><img src="/assets/images/sites/thumbs/' . $value . '" />';
+	}
+
+	function headerFont($value, $row)
+	{
+		return '<h3><i class="fa ' . $value . '" ></i> ' . $value  . '</h3>';
+	}
+
     // Edit Users
     public function users2()
     {
@@ -754,6 +764,7 @@ class Auth extends MY_Controller {
 			$crud->set_relation('company','wd_employers','company');
 			//$crud->set_relation('group', 'wd_course_groups','group');
 			//$crud->set_relation('institute', 'wd_institutions','institute');
+			$crud->callback_column('thumb',array($this, 'siteThumb'));
 
 			$output = $crud->render();
 
@@ -892,6 +903,7 @@ class Auth extends MY_Controller {
             $crud->set_table('wd_headers');
             $crud->set_subject('Headers');
             $crud->required_fields('header', 'class');
+			$crud->callback_column('class',array($this, 'headerFont'));
 
             $output = $crud->render();
 
