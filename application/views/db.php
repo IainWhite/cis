@@ -39,7 +39,11 @@ a:hover
         <a href='<?php echo site_url('admin/plugins')?>'>Plugins</a> |
         <a href='<?php echo site_url('admin/pragmatic_tips')?>'>Pragmetic Tips</a> |
         <a href='<?php echo site_url('admin/sound_bites')?>'>Sound Bites</a> |
-        <a href='<?php echo site_url('admin/wisdom')?>'>Wisdom</a>
+        <a href='<?php echo site_url('admin/wisdom')?>'>Wisdom</a> |
+        <a href='<?php echo site_url('admin/site_images')?>'>Site Images</a> |
+        <a href='<?php echo site_url('admin/employers')?>'>Employers</a> |
+
+        <a href='<?php echo site_url('admin/users2')?>'>Users</a>
 
 		
 	</div>

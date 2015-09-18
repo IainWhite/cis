@@ -1430,7 +1430,7 @@ class Stencil {
         if ($limit !== 0) {
             $limtSQL = ' LIMIT ' . $limit;
         }
-        $sql = "SELECT * FROM site_images" . $whereSQL . " ORDER BY company ASC, weight ASC" . $limtSQL . ";";
+        $sql = "SELECT * FROM wd_site_images" . $whereSQL . " ORDER BY company ASC, weight ASC" . $limtSQL . ";";
         //die($sql);
         $query = $this->CI->db->query($sql);
         $out = '';
@@ -1446,7 +1446,7 @@ class Stencil {
             }
             $out .= '    <div class="col-sm-3 sm-margin-bottom-30 imageContainer">' . "\n";
             $out .= '        <a href="/assets/images/sites/' . $row->filename . '" rel="' . $row->company . '" data-rel="fancybox-button" class="fancybox-button" title="' . $row->title . '">' . "\n";
-            $out .= '            <img class="img-responsive rounded-2x box-shadow shadow-effect-1 img-thumbnail center-block siteGallery zoomImage" src="/assets/images/sites/' . $row->filename . '" alt="' . $row->title . '" title="' . $row->title . '" rel="id-' . $row->id . '">' . "\n";
+            $out .= '            <img class="img-responsive rounded-2x box-shadow shadow-effect-1 img-thumbnail center-block siteGallery zoomImage" src="/assets/images/sites/thumbs/' . $row->thumb . '" alt="' . $row->title . '" title="' . $row->title . '" rel="id-' . $row->id . '">' . "\n";
             $out .= '        </a>' . "\n";
             $out .= '    </div>' . "\n";
             if ($i == 3) {

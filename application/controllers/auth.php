@@ -715,6 +715,81 @@ class Auth extends MY_Controller {
         return $value . '</br/><img src="http://www.fishpond.com.au/affiliate_show_banner.php?ref=2802&affiliate_pbanner_id=' . $value . '" />';
     }
 
+    // Edit Users
+    public function users2()
+    {
+        $this->load->library('grocery_CRUD');
+
+        try {
+            $crud = new grocery_CRUD();
+
+            $crud->set_table('users');
+            $crud->set_subject('Users');
+            //$crud->required_fields('institute', 'when_date', 'title', 'desc', 'lecturer');
+            //$crud->set_relation('section','wd_course_sections','section');
+            //$crud->set_relation('group', 'wd_course_groups','group');
+            //$crud->set_relation('institute', 'wd_institutions','institute');
+
+            $output = $crud->render();
+
+            $this->_db_output($output);
+
+        } catch(Exception $e){
+            show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+        }
+
+    }
+
+	// Edit Site Images
+	public function site_images()
+	{
+		$this->load->library('grocery_CRUD');
+
+		try {
+			$crud = new grocery_CRUD();
+
+			$crud->set_table('wd_site_images');
+			$crud->set_subject('Site Images');
+			//$crud->required_fields('institute', 'when_date', 'title', 'desc', 'lecturer');
+			$crud->set_relation('company','wd_employers','company');
+			//$crud->set_relation('group', 'wd_course_groups','group');
+			//$crud->set_relation('institute', 'wd_institutions','institute');
+
+			$output = $crud->render();
+
+			$this->_db_output($output);
+
+		} catch(Exception $e){
+			show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+		}
+
+	}
+
+	// Edit Site Images
+	public function employers()
+	{
+		$this->load->library('grocery_CRUD');
+
+		try {
+			$crud = new grocery_CRUD();
+
+			$crud->set_table('wd_employers');
+			$crud->set_subject('Employers');
+			//$crud->required_fields('institute', 'when_date', 'title', 'desc', 'lecturer');
+			//$crud->set_relation('section','wd_course_sections','section');
+			//$crud->set_relation('group', 'wd_course_groups','group');
+			//$crud->set_relation('institute', 'wd_institutions','institute');
+
+			$output = $crud->render();
+
+			$this->_db_output($output);
+
+		} catch(Exception $e){
+			show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+		}
+
+	}
+
     // Edit Courses
     public function courses()
     {
