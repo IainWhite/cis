@@ -46,11 +46,12 @@ a:hover
         <a href='<?php echo site_url('admin/sound_bites')?>'>Sound Bites</a> |
         <a href='<?php echo site_url('admin/wisdom')?>'>Wisdom</a> |
         <a href='<?php echo site_url('admin/site_images')?>'>Site Images</a> |
-        <a href='<?php echo site_url('admin/employers')?>'>Employers</a> |
 
         <a href='<?php echo site_url('admin/users2')?>'>Users</a>
+        <br/>
+        <a href='<?php echo site_url('admin/employers')?>'>Employers</a> |
+        <a href='<?php echo site_url('admin/courses_groups')?>'>Courses Groups</a>
 
-		
 	</div>
 	<div style='height:20px;'></div>  
     <div>
