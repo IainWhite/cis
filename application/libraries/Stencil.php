@@ -9,6 +9,7 @@ class Stencil {
 	protected $body_class 	    = '';
     protected $safeURL 	        = '';
     protected $cat 	            = '';
+    protected $subCat 	        = '';
 	protected $data			    = array();
 	protected $meta 		    = array();
 	protected $css    		    = array();
@@ -38,6 +39,9 @@ class Stencil {
         $segmentCount = count(($this->CI->uri->segments));
         if ($segmentCount > 0) {
             $this->cat = $this->CI->uri->segment(1);
+            if ($segmentCount > 1) {
+                $this->subCat = $this->CI->uri->segment(2);
+            }
             switch ($this->CI->uri->segment(1)) {
                 case '404' :
                 case 'about' :
@@ -235,6 +239,7 @@ class Stencil {
     {
         $out = '<h4>Template Data</h4>';
         $out .= '<strong>Category: </strong>' . $this->cat . '<br>';
+        $out .= '<strong>Sub Category: </strong>' . $this->subCat . '<br>';
         $out .= '<strong>Page Title: </strong>' . $this->title . '<br>';
         $out .= '<strong>Page Description: </strong>' . $this->description . '<br>';
         $out .= '<strong>Page Layout: </strong>' . $this->layout . '<br>';
@@ -381,7 +386,7 @@ class Stencil {
         if (!$this->isSub) {
             $this->title = $pageTitle;
             $this->h1 = $title;
-            if ($this->isLooking && $this->cat == 'iain-white') {
+            if ($this->isLooking && $this->cat == 'iain-white' && $this->subCat == '') {
                 return $this->addContactInfo();
             }
             return NULL;
@@ -556,6 +561,9 @@ class Stencil {
                     break;
                 case 'iain-white' :
                     $class = 'fa-user';
+                    if ($this->subCat == 'courses') {
+                        $class = 'fa-graduation-cap';
+                    }
                     break;
                 case 'mobile-development' :
                     $class = 'fa-android';

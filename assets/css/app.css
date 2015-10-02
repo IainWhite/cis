@@ -3141,6 +3141,16 @@ a[rel="external"]:after {
     font-weight: 700;
 }
 
+.courses {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.courses p {
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
 .margin-right-10 {
     margin-right: 10px;
 }
