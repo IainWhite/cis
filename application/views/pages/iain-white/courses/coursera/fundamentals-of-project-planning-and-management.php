@@ -6,7 +6,7 @@
             <p><strong><i class="fa fa-building"></i> Institution:</strong> University of Virginia (Courera)</p>
             <p><strong><i class="fa fa-user"></i> Leaturer:</strong> Yael Grushka-Cockayne</p>
             <p><strong><i class="fa fa-calendar"></i> Date:</strong> September 2015 (4 weeks)</p>
-            <p><strong><i class="fa fa-trophy"></i> Award:</strong> <?php echo $this->stencil->addPDFLink('qualifications/TBA', 'Statement of Accomplishment with distinction', '', NULL, FALSE, FALSE, FALSE); ?>, Score: 100%</p>
+            <p><strong><i class="fa fa-trophy"></i> Award:</strong> <?php echo $this->stencil->addPDFLink('qualifications/fundamentals-of-project-planning-and-management', 'Statement of Accomplishment', '', NULL, FALSE, FALSE, FALSE); ?>, Score: 94.3%</p>
         </div>
     </div>
 </div>

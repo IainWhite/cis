@@ -11,7 +11,7 @@
 
         <h2>Latest Coursera Courses</h2>
 
-        <?php echo $this->stencil->getQualifications('coursera', 10); ?>
+        <?php echo $this->stencil->getQualifications('coursera', 0, 10); ?>
 
         <p>See more...</p>
 
