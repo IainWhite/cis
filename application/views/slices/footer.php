@@ -21,15 +21,6 @@
 
                     <div class="col-md-4">
                         <div class="headline"><h2>Share This</h2></div>
-
-                        <ul id="socialLinks" class="social-icons">
-                            <li><a href="https://www.facebook.com/sharer/sharer.php?u={$page->url}" data-original-title="Facebook" class="rounded-x share social_facebook" title="Share on Facebook"></a></li>
-                            <li><a href="https://twitter.com/intent/tweet?url={$page->url}&text={$page->seo->desc}&hashtags={$page->seo->tags}" data-original-title="Twitter" class="rounded-x share social_twitter" title="Share on Twitte"></a></li>
-                            <li><a href="https://plus.google.com/share?url={$page->url}" data-original-title="Goole Plus" class="rounded-x share social_googleplus" title="Share on Google Plus"></a></li>
-                            <li><a href="http://www.linkedin.com/shareArticle?mini=true&url={$page->url}&title={$page->seo->title}" data-original-title="Linkedin" class="rounded-x share social_linkedin" title="Share on LinkedIn"></a></li>
-                            <li><a href="http://pinterest.com/pin/create/button/?url={$page->url}&media={$page->seo->image}&description={$page->seo->desc}" data-original-title="Pinterest" class="rounded-x share social_pintrest" title="Share on Pinterest"></a></li>
-                        </ul>
-
                         <ul id="socialLinks" class="social-icons">
                             <li><a href="https://www.facebook.com/sharer/sharer.php?u={$page->url}" data-original-title="Facebook" class="rounded-x share social_facebook" title="Share on Facebook"></a></li>
                             <li><a href="https://twitter.com/intent/tweet?url={$page->url}&text={$page->seo->desc}&hashtags={$page->seo->tags}" data-original-title="Twitter" class="rounded-x share social_twitter" title="Share on Twitte"></a></li>
@@ -48,7 +39,7 @@
                         <p>&copy; 2015 <a href="/iain-white">Iain White</a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <a href="index.html">
+                        <a href="/">
                             <img class="pull-right img-responsive" id="logo-footer" src="/assets/images/white-internet-head.png" alt="White Internet Logo" title="White Internet">
                         </a>
                     </div>

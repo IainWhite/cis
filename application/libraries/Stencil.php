@@ -859,7 +859,9 @@ class Stencil {
         if ($full) {
             $path = base_url() . $path;
         } else {
-            $path = '/' . $path;
+            if ($path) {
+                $path = '/' . $path;
+            }
         }
         $path = $path . '/' . $fileName;
         return '<a href="' . $path . '" title="' . $title . '">' . $text . '</a>';
