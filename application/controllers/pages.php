@@ -1,5 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip'))
+    ob_start("ob_gzhandler");
+else
+    ob_start();
+
 class Pages extends MY_Controller {
 
 	function __construct()

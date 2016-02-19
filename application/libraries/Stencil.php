@@ -50,6 +50,7 @@ class Stencil {
                 case 'privacy-policy' :
                 case 'search-results' :
                 case 'site-map' :
+                case 'sitemap' :
                 case 'terms-and-conditions' :
                     $this->cat = 'home';
                     break;
@@ -445,9 +446,6 @@ class Stencil {
 
         return '<link rel="author" href="' . $authorUrl . '" />' . "\n\t" .
         '<link rel="publisher" href="' . $publisherUrl . '" />' . "\n\t" .
-        '<meta itemprop="name" content="' . $seoTitle . '" />' . "\n\t" .
-        '<meta itemprop="description" content="' . $seoDescription . '" />' . "\n\t" .
-        '<meta itemprop="image" content="' . $seoImage . '" />' . "\n\t" .
         '<meta property="og:title" content="' . $seoTitle . '" />' . "\n\t" .
         '<meta property="og:type" content="website" />' . "\n\t" .
         '<meta property="og:url" content="' . $seoURL . '" />' . "\n\t" .
@@ -462,6 +460,18 @@ class Stencil {
         '<meta name="twitter:image" content="' . $seoImage . '" />' . "\n\t" .
         '<meta name="twitter:url" content="' . $seoURL . '" />' . "\n\t" .
         '<meta name="twitter:creator" content="' . $creatorTwitter . '" />' . "\n";
+    }
+
+    public function addItemprop()
+    {
+        $seoTitle = $this->getSEOTitle();
+        $seoDescription = $this->getSEODescription();
+        $seoImage = $this->getSEOImage();
+
+        return
+            '<meta itemprop="name" content="' . $seoTitle . '" />' . "\n\t\t" .
+            '<meta itemprop="description" content="' . $seoDescription . '" />' . "\n\t\t" .
+            '<meta itemprop="image" content="' . $seoImage . '" />' . "\n";
     }
 
     public function addShareThis()

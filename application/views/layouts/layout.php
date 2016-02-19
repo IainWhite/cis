@@ -5,7 +5,7 @@
 <head>
 	<?php echo $head; ?>
 </head>
-<body class="<?php echo $body_class; ?>">
+<body class="<?php echo $body_class; ?>" itemscope itemtype="http://schema.org/WebPage">
     <div class="wrapper">
 		<?php echo $header; ?>
         <div class="container content">

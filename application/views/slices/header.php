@@ -48,5 +48,6 @@
     <div class="container">
         <?php echo $this->stencil->addH1(); ?>
         <?php echo $this->stencil->addBreadcrumb(); ?>
+        <?php echo $this->stencil->addItemprop(); ?>
     </div>
 </div>
