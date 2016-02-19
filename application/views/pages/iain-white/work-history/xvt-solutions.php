@@ -30,7 +30,6 @@
             <p>I facilitated the Scrum meetings including Sprint Planning, Sprint Review, Sprint Retrospective and Daily Stand-up.</p>
             <p>I maintained the Product Backlog, Sprint Backlog and Burn Downs in Jira.</p>
             <p>I championed the introduction of Code Reviews, TDD, Continual Integration, Load Testing, Solarium Testing and the automation of deployments.</p>
-            </p>
         </div>
     </div>
 </div>

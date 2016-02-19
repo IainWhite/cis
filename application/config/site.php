@@ -19,7 +19,7 @@ $config['site-twitter'] = '@whiteinternet';
 $config['creator-twitter'] = '@IWWhite';
 $config['web-app-status-bar-style'] = 'black-translucent';
 $config['windows-title-name'] = 'White Internet';
-$config['windows-title-image'] = 'assets/img/image/favicons/tile-8.png';
+$config['windows-title-image'] = 'assets/img/images/favicons/tile-8.png';
 $config['windows-title-colour'] = '#27d7e7';
 
 

@@ -14,7 +14,7 @@
 
         <p>This lead to me becoming a Web Developer and I have been crafting HTML, CSS and JavaScript solutions for the past <?php echo $this->stencil->elapsedYears('01/01/1999'); ?>.</p>
 
-        <p>I developed my own cross-browser JavaScript libraries and have worked with  <strong>Ext</strong>, <strong>MooTools</strong>, <strong>Prototype</strong> and <strong>script.aculo.us</strong> but now mostly use jQuery</strong>.</p>
+        <p>I developed my own cross-browser JavaScript libraries and have worked with  <strong>Ext</strong>, <strong>MooTools</strong>, <strong>Prototype</strong> and <strong>script.aculo.us</strong> but now mostly use <strong>jQuery</strong>.</p>
 
         <p>I have done a lot of work with third party APIs including <strong>Google Maps</strong> and <strong>Google Visualization</strong>.</p>
 

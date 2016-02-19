@@ -20,7 +20,7 @@
 
         <p class="text-center">View my <?php echo $this->stencil->addExternalLink('LinkedIn', 'http://au.linkedin.com/in/iwhite/en'); ?> page.</p>
 
-        <p class="text-center"><?php echo $this->stencil->addPDFLink('iain-white-CV', 'Download Iain White\'s CV in PDF.', 'btn btn-info btn-large rounded-2x'); ?></p>
+        <p class="text-center"><?php echo $this->stencil->addPDFLink('iain-white-cv', 'Download Iain White\'s CV in PDF.', 'btn btn-info btn-large rounded-2x'); ?></p>
 
     </div>
 </div>

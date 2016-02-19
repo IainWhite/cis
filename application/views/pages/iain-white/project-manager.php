@@ -14,17 +14,38 @@
 
         <p>I have worked in both small and large companies and a variety of industries including manufacture, ISP, health, travel, news and marketing.</p>
 
-        <p>I have been a <strong>Certified Scrum Master</strong> since November 2013.</p>
+        <h3>I have been a <strong>Certified Scrum Master</strong> since November 2013.</h3>
 
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-md-12">
+        <hr/>
+        <?php echo $this->stencil->addImage('XVT Solutions', 'jpg', 'right', 'companies'); ?>
+        <h3>I was Project Manager / Scrum Master for <?php echo $this->stencil->elapsedYears('10/08/2015',TRUE, TRUE, '10/02/2016'); ?> at XVT Solutions.</h3>
+        <ul>
+            <li>I recruited and coached a cross-skilled, distributed Scrum Team</li>
+            <li>I took responsibility for the project definition, process management, and documentation.</li>
+            <li>I successfully applied an Agile Project Management methodology within a PRINCE2 governance model.</li>
+            <li>I identified project risks and planned with appropriate people to resolve them.</li>
+            <li>I also acted as the focal point for customer liaison and promoting client / partner relations.</li>
+            <li>I facilitated the Scrum meetings including Sprint Planning, Sprint Review, Sprint Retrospective and Daily Stand-up.</li>
+            <li>I maintained the Product Backlog, Sprint Backlog and Burn Downs in Jira.</li>
+        </ul>
 
-        <p>I have been Project Manager / Scrum Master for <?php echo $this->stencil->elapsedYears('10/08/2015', TRUE, TRUE); ?> at XVT Solutions.</p>
-
-        <p>TBA</p>
-
-
-        <p>I was Scrum Master for <?php echo $this->stencil->elapsedYears('01/01/2013', TRUE, TRUE, '31/07/2014'); ?> at OnTheHouse.</p>
-
-        <p>In this role I remove impedances that would block the team’s productivity. I worked closely with Product Owners, Stakeholders, and Infrastructure. I facilitated the Scrum meetings including Sprint Planning, Sprint Review, Sprint Retrospective and Daily Stand-up.</p>
+        <hr/>
+        <?php echo $this->stencil->addImage('OnTheHouse', 'gif', 'right', 'companies'); ?>
+        <h3>I was Scrum Master for <?php echo $this->stencil->elapsedYears('01/01/2013', TRUE, TRUE, '31/07/2014'); ?> at OnTheHouse.</h3>
+        <ul>
+            <li>I recruited and managed a cross-skilled, distributed Scrum Team.</li>
+            <li>I was a key player in introducing Scrum into the company as a whole.</li>
+            <li>As Scrum Master I remove impedances that would block the team’s productivity.</li>
+            <li>I worked closely with Product Owners, Stakeholders and Infrastructure.</li>
+            <li>I facilitated the Scrum meetings including Sprint Planning, Sprint Review, Sprint Retrospective and Daily Stand-up.</li>
+            <li>I provided coaching based on the <strong>GROW</strong> model and <strong>Situational leadership</strong> theory.</li>
+            <li>I conducted fortnightly estimates meetings using Story Points and Planning Poker techniques.</li>
+            <li>I improved Story quality using <strong>INVEST</strong> and task acceptance criteria using the <strong>MoSCoW</strong> method.</li>
+        </ul>
 
     </div>
 </div>

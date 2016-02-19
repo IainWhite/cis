@@ -447,7 +447,7 @@ class Stencil {
         '<link rel="publisher" href="' . $publisherUrl . '" />' . "\n\t" .
         '<meta itemprop="name" content="' . $seoTitle . '" />' . "\n\t" .
         '<meta itemprop="description" content="' . $seoDescription . '" />' . "\n\t" .
-        '<meta itemprop="image" content="' . $seoImage . '}" />' . "\n\t" .
+        '<meta itemprop="image" content="' . $seoImage . '" />' . "\n\t" .
         '<meta property="og:title" content="' . $seoTitle . '" />' . "\n\t" .
         '<meta property="og:type" content="website" />' . "\n\t" .
         '<meta property="og:url" content="' . $seoURL . '" />' . "\n\t" .
@@ -462,6 +462,28 @@ class Stencil {
         '<meta name="twitter:image" content="' . $seoImage . '" />' . "\n\t" .
         '<meta name="twitter:url" content="' . $seoURL . '" />' . "\n\t" .
         '<meta name="twitter:creator" content="' . $creatorTwitter . '" />' . "\n";
+    }
+
+    public function addShareThis()
+    {
+        $siteName = $this->CI->config->item('site-name');
+        $authorUrl = $this->CI->config->item('author-url');
+        $publisherUrl = $this->CI->config->item('publisher-url');
+        $siteTwitter = $this->CI->config->item('site-twitter');
+        $creatorTwitter = $this->CI->config->item('creator-twitter');
+
+        $seoTitle = $this->getSEOTitle();
+        $seoDescription = $this->getSEODescription();
+        $seoImage = $this->getSEOImage();
+        $seoURL = $this->getSEOUrl();
+        $seoTags = "WhiteInternet";
+
+        return
+            '<li><a href="https://www.facebook.com/sharer/sharer.php?u=' . $seoURL . '" data-original-title="Facebook" class="rounded-x share social_facebook" title="Share on Facebook"></a></li>' . "\n\t" .
+            '<li><a href="https://twitter.com/intent/tweet?url=' . $seoURL . '&text=' . $seoDescription . '&hashtags=' . $seoTags . '" data-original-title="Twitter" class="rounded-x share social_twitter" title="Share on Twitte"></a></li>' . "\n\t" .
+            '<li><a href="https://plus.google.com/share?url=' . $seoURL . '" data-original-title="Goole Plus" class="rounded-x share social_googleplus" title="Share on Google Plus"></a></li>' . "\n\t" .
+            '<li><a href="http://www.linkedin.com/shareArticle?mini=true&url=' . $seoURL . '&title=' . $seoTitle . '" data-original-title="Linkedin" class="rounded-x share social_linkedin" title="Share on LinkedIn"></a></li>' . "\n\t" .
+            '<li><a href="http://pinterest.com/pin/create/button/?url=' . $seoURL . '&media=' . $seoImage . '&description=' . $seoDescription  . '" data-original-title="Pinterest" class="rounded-x share social_pintrest" title="Share on Pinterest"></a></li>' . "\n";
     }
 
     public function addWindowsTile()
@@ -539,6 +561,7 @@ class Stencil {
     {
         $class = NULL;
         $sql = "SELECT class FROM wd_headers WHERE header = '" . $heading . "';";
+
         $query = $this->CI->db->query($sql);
         foreach ($query->result() as $row)
         {
@@ -1498,7 +1521,7 @@ class Stencil {
         $out = '<div class="contactIW rounded-2x box-shadow shadow-effect-1 pull-right col-xs-12 col-sm-6 col-md-3 margin-bottom-10 margin-left-5">' . "\n";
         $out .= '    <p>Contact Iain White</p>' . "\n";
         $out .= '    <span class="iw-email"><a href="mailto:donotsendtome.com">dumy@donotsendtome.com</a></span> <span class="iw-mobile"><a href="tel:0412345678">04 12 345 678</a></span>' . "\n";
-        $out .= '    <br><span class="iw-cv">' . $this->addPDFLink('iain-white-CV', 'Download Iain\'s CV', '', NULL, FALSE, FALSE, TRUE) . '</span>';
+        $out .= '    <br><span class="iw-cv">' . $this->addPDFLink('iain-white-cv', 'Download Iain\'s CV', '', NULL, FALSE, FALSE, TRUE) . '</span>';
         $out .= '</div>' . "\n";
         return $out;
     }

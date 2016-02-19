@@ -51,6 +51,10 @@ $active_record = TRUE;
 $db['default']['hostname'] = '127.0.0.1';
 $db['default']['username'] = 'root';
 $db['default']['password'] = 'LocalPassword';
+//$db['default']['hostname'] = 'mysql9.quadrahosting.com.au';
+//$db['default']['username'] = 'iainw_ciuser';
+//$db['default']['password'] = 'cipass1';
+
 $db['default']['database'] = 'iainw_ci';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';

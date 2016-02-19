@@ -23,12 +23,13 @@
                             <li><a href="/iain-white/qualifications"><i class="fa fa-graduation-cap"></i> Qualifications</a></li>
                             <li><a href="/iain-white/press-and-reviews"><i class="fa fa-quote-right"></i> Press &amp; Reviews</a></li>
                             <li><a href="/iain-white/recommendations"><i class="fa fa-comment"></i> Recommendations</a></li>
+                            <li><a href="/iain-white/scrum-master"><i class="fa fa-puzzle-piece"></i> Scrum Master</a></li>
+                            <li><a href="/iain-white/project-manager"><i class="fa fa-area-chart"></i> Project Manager</a></li>
                             <li><a href="/iain-white/web-developer"><i class="fa fa-html5"></i> Web Developer</a></li>
                             <li><a href="/iain-white/javascript-guru"><i class="fp fp-prog-js01"></i> JavaScript Guru</a></li>
                             <li><a href="/iain-white/php-developer"><i class="fp fp-prog-php01"></i> PHP Developer</a></li>
-                            <li><a href="/iain-white/scrum-master"><i class="fa fa-puzzle-piece"></i> Scrum Master</a></li>
-                            <li><a href="/iain-white/project-manager"><i class="fa fa-area-chart"></i> Project Manager</a></li>
                             <li><a href="/iain-white/pragmatic-programmer"><i class="fa fa-star"></i> Pragmatic Programmer</a></li>
+                            <li><a href="/iain-white/development-duck"><i class="fa fa-bullhorn"></i> Development Duck</a></li>
                             <?php
                             if ($this->stencil->getIsLooking()) {
                                 echo '<li><a href = "/iain-white/seeking-work"><i class="fa fa-bolt" ></i> Seeking Work </a ></li>';

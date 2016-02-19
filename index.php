@@ -1,4 +1,8 @@
 <?php
+if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip'))
+	ob_start("ob_gzhandler");
+else
+	ob_start();
 
 /*
  *---------------------------------------------------------------
@@ -18,7 +22,8 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'development');
+	define('ENVIRONMENT', 'production');
+	//define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

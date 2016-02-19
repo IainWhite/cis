@@ -11,6 +11,10 @@
                             <li><a href="/iain-white/qualifications"><i class="fa fa-graduation-cap"></i> Qualifications</a></li>
                             <li><a href="/iain-white/press-and-reviews"><i class="fa fa-quote-right"></i> Press &amp; Reviews</a></li>
                             <li><a href="/iain-white/recommendations"><i class="fa fa-comment"></i> Recommendations</a></li>
+                            <li><a href="/books"><i class="fa fa-book"></i> Books</a></li>
+                            <li><a href="/sitemap"><i class="fa fa-sitemap"></i> Sitemap</a></li>
+                            <li><a href="https://plus.google.com/109478264234924902395/about" rel="me" title="Google Plus Profile for Iain White"><i class="fa fa-google-plus-square"></i> Iain White on Google+</a></li>
+
                         </ul>
                     </div>
 
@@ -22,11 +26,7 @@
                     <div class="col-md-4">
                         <div class="headline"><h2>Share This</h2></div>
                         <ul id="socialLinks" class="social-icons">
-                            <li><a href="https://www.facebook.com/sharer/sharer.php?u={$page->url}" data-original-title="Facebook" class="rounded-x share social_facebook" title="Share on Facebook"></a></li>
-                            <li><a href="https://twitter.com/intent/tweet?url={$page->url}&text={$page->seo->desc}&hashtags={$page->seo->tags}" data-original-title="Twitter" class="rounded-x share social_twitter" title="Share on Twitte"></a></li>
-                            <li><a href="https://plus.google.com/share?url={$page->url}" data-original-title="Goole Plus" class="rounded-x share social_googleplus" title="Share on Google Plus"></a></li>
-                            <li><a href="http://www.linkedin.com/shareArticle?mini=true&url={$page->url}&title={$page->seo->title}" data-original-title="Linkedin" class="rounded-x share social_linkedin" title="Share on LinkedIn"></a></li>
-                            <li><a href="http://pinterest.com/pin/create/button/?url={$page->url}&media={$page->seo->image}&description={$page->seo->desc}" data-original-title="Pinterest" class="rounded-x share social_pintrest" title="Share on Pinterest"></a></li>
+                            <?php echo $this->stencil->addShareThis(); ?>
                         </ul>
                     </div>
                 </div>
@@ -36,11 +36,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; 2015 <a href="/iain-white">Iain White</a>. All Rights Reserved.</p>
+                        <p>&copy; 2016 <a href="/iain-white">Iain White</a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <a href="/">
-                            <img class="pull-right img-responsive" id="logo-footer" src="/assets/images/white-internet-head.png" alt="White Internet Logo" title="White Internet">
+                        <a href="/iain-white">
+                            <img class="pull-right img-responsive" id="logo-footer" src="/assets/images/iain-white-logo.png" alt="Iain White Logo" title="Iain White">
                         </a>
                     </div>
                 </div>

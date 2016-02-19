@@ -4,6 +4,11 @@
         <?php $this->stencil->setDescription('Books about Information Technology, Software Development and Project Management.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Books, The Mythical Man-month, The Pragmatic Programmer')); ?>
         <p>Books about Information Technology, Software Development and Project Management.</p>
+
+        <?php echo $this->stencil->addBook('agile', $how = 'cat', $num = 5); ?>
+
+        <?php echo $this->stencil->addBook('development', $how = 'cat', $num = 5); ?>
+
     </div>
 </div>
 

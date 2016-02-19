@@ -1,12 +1,12 @@
 <div class="row">
     <div class="col-lg-12 col-md-12">
-        <?php echo $this->stencil->setHeadline('Iain White Web Developer', 'Iain White Web Developer / Scrum Master'); ?>
+        <?php echo $this->stencil->setHeadline('Iain White Project Manager / Web Developer', 'Iain White Project Manager / Web Developer'); ?>
         <?php $this->stencil->setDescription('Iain White is a highly skilled Web Developer / Scrum Master with a passion for Agile software development.'); ?>
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, WhiteInternet')); ?>
 
         <?php echo $this->stencil->addHeadshot('Iain White', 'jpg', 'left'); ?>
 
-        <p>Iain White is a <strong>Web Development Team Lead</strong> and <strong>Certified Professional Scrum Master</strong>.</p>
+        <p>Iain White is a <strong>Certified Scrum Master</strong>, <strong>Project Manager</strong> and <strong>Web Development Team Lead</strong>.</p>
 
         <p>Iain has performed the roles of <strong>Application Architect</strong>, <strong>Lead Developer</strong> and <strong>Team Leader</strong>.</p>
 

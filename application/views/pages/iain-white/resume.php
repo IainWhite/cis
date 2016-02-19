@@ -5,7 +5,7 @@
         <?php $this->stencil->meta(array('keywords' => 'Iain White, Brisbane, Australia, PHP Developer, Web Developer, JavaScript Guru, Scrum Master, Project Manager, Resume, CV, Skills')); ?>
         <p class="text-center"><strong>R&eacute;sum&eacute; / Curriculum Vitae (CV) for Iain White, Web Development Team Lead and Certified Professional Scrum Master</strong></p>
 
-        <p class="text-center"><?php echo $this->stencil->addPDFLink('iain-white-CV', 'Download Iain White\'s CV in PDF.', 'btn btn-info btn-large rounded-2x'); ?></p>
+        <p class="text-center"><?php echo $this->stencil->addPDFLink('iain-white-cv', 'Download Iain White\'s CV in PDF.', 'btn btn-info btn-large rounded-2x'); ?></p>
 
         <h2>Skills</h2>
         <p>I have worked as a Software Developer for <?php echo $this->stencil->elapsedYears('01/09/1987'); ?>, with <?php echo $this->stencil->elapsedYears('01/01/1999'); ?> of developing Websites.</p>
@@ -60,11 +60,14 @@
                 </div>
                 <div class="tab-pane fade in" id="personal-details">
                     <h2>Personal Details</h2>
-                    <p>Married</p>
-                    <p>Australian Citizen (born in Perth Scotland)</p>
-                    <p>Open Queensland class C licence driving licence</p>
-                    <p>Native English speaker with some spoken and written Dutch</p>
-                    <p>Non-smoker</p>
+                    <ul>
+                        <li>Married with no children.</li>
+                        <li>Blue Card holder.</li>
+                        <li>Australian Citizen (born Perth in Scotland).</li>
+                        <li>Non-smoker.</li>
+                        <li>Open Queensland class C licence driving licence.</li>
+                        <li>Native English speaker with some spoken and written Dutch.</li>
+                    </ul>
                     <p><a href="http://au.linkedin.com/in/iwhite"><img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" alt="LinkedIn button" title="View Iain White's profile on LinkedIn" /></a></p>
                 </div>
                 <div class="tab-pane fade in" id="interests-activities">
