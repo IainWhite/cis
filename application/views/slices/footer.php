@@ -14,7 +14,6 @@
                             <li><a href="/books"><i class="fa fa-book"></i> Books</a></li>
                             <li><a href="/sitemap"><i class="fa fa-sitemap"></i> Sitemap</a></li>
                             <li><a href="https://plus.google.com/109478264234924902395/about" rel="me" title="Google Plus Profile for Iain White"><i class="fa fa-google-plus-square"></i> Iain White on Google+</a></li>
-
                         </ul>
                     </div>
 
@@ -51,7 +50,7 @@
     <?php echo addjQueryMigrate(); ?>
     <?php echo addBootstrapJS('3.3.2', FALSE); ?>
     <?php echo addJs('back-to-top.js', 'assets/plugins/'); ?>
-    <?php echo addJs('app.js'); ?>
+    <?php echo addJs('app.min.js'); ?>
     <?php echo $js; ?>
     <?php echo addOldIEJS(); ?>
 <script>

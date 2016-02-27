@@ -815,6 +815,7 @@ class Auth extends MY_Controller {
             $crud->set_relation('section','wd_course_sections','section');
             $crud->set_relation('group', 'wd_course_groups','group');
             $crud->set_relation('institute', 'wd_institutions','institute');
+			$crud->set_relation_n_n('tags', 'wd_course_tags', 'wd_tags', 'course_id', 'tag_id', 'tag_name');
 
             $output = $crud->render();
 
@@ -1025,6 +1026,27 @@ class Auth extends MY_Controller {
 
     }
 
+	// Edit Tags
+	public function tags()
+	{
+		$this->load->library('grocery_CRUD');
+
+		try {
+			$crud = new grocery_CRUD();
+
+			$crud->set_table('wd_tags');
+			$crud->set_subject('Tags');
+			$crud->required_fields('id', 'name');
+
+			$output = $crud->render();
+
+			$this->_db_output($output);
+
+		} catch(Exception $e){
+			show_error($e->getMessage() . ' --- '.$e->getTraceAsString());
+		}
+
+	}
 
 	public function _db_output($output = null)
     {

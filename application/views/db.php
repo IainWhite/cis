@@ -50,7 +50,8 @@ a:hover
         <a href='<?php echo site_url('admin/users2')?>'>Users</a>
         <br/>
         <a href='<?php echo site_url('admin/employers')?>'>Employers</a> |
-        <a href='<?php echo site_url('admin/courses_groups')?>'>Courses Groups</a>
+        <a href='<?php echo site_url('admin/courses_groups')?>'>Courses Groups</a> |
+        <a href='<?php echo site_url('admin/tags')?>'>Tags</a>
 
 	</div>
 	<div style='height:20px;'></div>  

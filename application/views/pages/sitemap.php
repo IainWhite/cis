@@ -8,6 +8,14 @@
     <div class="row">
         <div class="col-md-4">
             <?php echo $this->stencil->addImage('Signpost', 'jpg', 'left'); ?>
+<!--
+            <form id="searchbox_005428503401668835398:jegrokr0rje" action="/search-results">
+                <input value="005428503401668835398:jegrokr0rje" name="cx" type="hidden" />
+                <input value="FORID:11" name="cof" type="hidden" />
+                <input id="q" style="" name="q" size="30" type="text" />
+                <button class="btn">Search</button>
+            </form>
+// -->
         </div>
         <div class="col-md-4">
             <h3><a href="/iain-white"><i class="fa fa-user"></i> Iain White</a></h3>
